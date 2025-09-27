@@ -11,6 +11,7 @@ export enum Routes {
   About = '/about',
   SuccessStories = '/success-stories',
   ExcelTemplates = '/excel-templates',
+  ResourceManagement = '/resource-management',
   Roadmap = 'https://achromatic.canny.io',
   Docs = '/docs',
   Pricing = '/pricing',

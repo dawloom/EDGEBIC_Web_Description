@@ -114,6 +114,13 @@ export const MENU_LINKS = [
     icon: <FileTextIcon className="size-5 shrink-0" />,
     href: Routes.ExcelTemplates,
     external: false
+  },
+  {
+    title: 'Resource Management',
+    description: 'Resource management insights and best practices',
+    icon: <BookIcon className="size-5 shrink-0" />,
+    href: Routes.ResourceManagement,
+    external: false
   }
   // {
   //   title: 'Resources',
