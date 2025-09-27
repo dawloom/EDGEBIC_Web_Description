@@ -22,7 +22,8 @@ const blogPosts = [
         date: 'May 26, 2024',
         readTime: '5 min read',
         category: 'Supply Chain',
-        image: '/marketing/features/sofia_muller.webp',
+        image:
+            'https://www.usersolutions.com/wp-content/uploads/2022/09/usersolutionsimage-300x211.png',
         href: 'https://www.usersolutions.com/enhancing-supply-chain-visibility-through-advanced-scheduling-solutions/'
     },
     {
@@ -33,7 +34,8 @@ const blogPosts = [
         date: 'May 16, 2024',
         readTime: '6 min read',
         category: 'Technology',
-        image: '/marketing/features/gabriel_fischer.webp',
+        image:
+            'https://www.usersolutions.com/wp-content/uploads/2022/07/AirCraftMaint.jpg',
         href: 'https://www.usersolutions.com/erp-solutions-for-production-planning/'
     },
     {
@@ -44,7 +46,7 @@ const blogPosts = [
         date: 'May 6, 2024',
         readTime: '7 min read',
         category: 'Manufacturing',
-        image: '/marketing/features/victoria_ballard.webp',
+        image: 'https://www.usersolutions.com/wp-content/uploads/2024/02/sdf.jpg',
         href: 'https://www.usersolutions.com/lean-manufacturing-solutions/'
     },
     {
@@ -54,7 +56,8 @@ const blogPosts = [
         date: 'September 8, 2022',
         readTime: '4 min read',
         category: 'Software',
-        image: '/marketing/features/philip_grant.webp',
+        image:
+            'https://www.usersolutions.com/wp-content/uploads/2022/09/image04-300x163.png',
         href: 'https://www.usersolutions.com/li-ion-battery-production-scheduling-software/'
     },
     {
@@ -64,7 +67,8 @@ const blogPosts = [
         date: 'September 8, 2022',
         readTime: '5 min read',
         category: 'Case Study',
-        image: '/marketing/features/vivian_casey.webp',
+        image:
+            'https://www.usersolutions.com/wp-content/uploads/2022/09/image3-300x163.png',
         href: 'https://www.usersolutions.com/scheduling-system-narrows-skills-gap-for-fire-rated-glass/'
     },
     {
@@ -75,7 +79,8 @@ const blogPosts = [
         date: 'September 8, 2022',
         readTime: '6 min read',
         category: 'Success Story',
-        image: '/marketing/hero/light-feature1.webp',
+        image:
+            'https://www.usersolutions.com/wp-content/uploads/2022/09/image06-1-300x163.png',
         href: 'https://www.usersolutions.com/small-manufacturer-and-job-shop-uses-planning-scheduling-and-tracking-tools-from-user-solutions-inc-to-become-more-efficient-and-competitive/'
     }
 ];
@@ -99,7 +104,7 @@ export function ResourceManagementBlog() {
                     <div className="mx-auto max-w-4xl text-center">
                         <Badge
                             variant="outline"
-                            className="mb-6"
+                            className="mb-6 rounded-full border-muted-foreground/20 px-3 py-1 text-sm font-normal"
                         >
                             Resource Management Insights
                         </Badge>
@@ -115,30 +120,6 @@ export function ResourceManagementBlog() {
                             management in manufacturing, production planning, and scheduling
                             solutions.
                         </p>
-                    </div>
-                </div>
-            </section>
-
-            {/* Awards Banner */}
-            <section className="border-y bg-muted/30 py-12">
-                <div className="container">
-                    <div className="text-center">
-                        <h2 className="mb-4 text-2xl font-bold">
-                            CELEBRATING 25 YEARS OF AWARD WINNING SOFTWARE!
-                        </h2>
-                        <p className="mb-6 text-muted-foreground">
-                            Trusted by manufacturers worldwide for production planning and
-                            scheduling solutions
-                        </p>
-                        <div className="flex items-center justify-center gap-8 opacity-70">
-                            <div className="text-sm font-medium">Industry Recognition</div>
-                            <div className="h-6 w-px bg-border" />
-                            <div className="text-sm font-medium">
-                                Manufacturing Excellence
-                            </div>
-                            <div className="h-6 w-px bg-border" />
-                            <div className="text-sm font-medium">Innovation Awards</div>
-                        </div>
                     </div>
                 </div>
             </section>
@@ -376,6 +357,25 @@ export function ResourceManagementBlog() {
                                 </Button>
                             </CardContent>
                         </Card>
+                    </div>
+                </div>
+            </section>
+
+            {/* Awards Logo Banner */}
+            <section className="border-t py-16">
+                <div className="container">
+                    <div className="text-center">
+                        <div className="mb-6">
+                            <img
+                                src="https://www.usersolutions.com/wp-content/uploads/2022/07/banner-logoso-sm-58c9a28d237d6-1024x128.jpg"
+                                alt="CELEBRATING 25 YEARS OF AWARD WINNING SOFTWARE!"
+                                className="mx-auto h-auto max-w-full"
+                            />
+                        </div>
+                        <p className="text-sm text-muted-foreground">
+                            Trusted by manufacturers worldwide for production planning and
+                            scheduling solutions
+                        </p>
                     </div>
                 </div>
             </section>
