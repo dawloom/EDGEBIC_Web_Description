@@ -9,7 +9,7 @@ export const metadata: Metadata = {
         'Insights, tips, and best practices for resource management in manufacturing and production planning.'
 };
 
-export default function ResourceManagementPage() {
+export default function ResourceManagementBlogPage() {
     return (
         <Page>
             <ResourceManagementBlog />

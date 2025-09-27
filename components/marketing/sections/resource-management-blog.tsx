@@ -99,12 +99,12 @@ export function ResourceManagementBlog() {
     return (
         <div className="relative min-h-screen">
             {/* Hero Section */}
-            <section className="relative overflow-hidden pb-16 pt-20">
+            <section className="relative overflow-hidden pt-12">
                 <div className="container relative">
                     <div className="mx-auto max-w-4xl text-center">
                         <Badge
                             variant="outline"
-                            className="mb-6 rounded-full border-muted-foreground/20 px-3 py-1 text-sm font-normal"
+                            className="mb-5 inline-flex h-8 items-center rounded-full border px-3 py-0.5 text-sm font-medium text-foreground shadow-sm transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2"
                         >
                             Resource Management Insights
                         </Badge>
@@ -125,7 +125,7 @@ export function ResourceManagementBlog() {
             </section>
 
             {/* Blog Posts Section */}
-            <section className="py-16">
+            <section className="py-8">
                 <div className="container">
                     <div className="mb-12 text-center">
                         <h2 className="mb-4 text-3xl font-bold">Latest Insights</h2>
@@ -210,7 +210,7 @@ export function ResourceManagementBlog() {
             </section>
 
             {/* About Section */}
-            <section className="bg-muted/30 py-16">
+            <section className="bg-muted/30 py-8">
                 <div className="container">
                     <div className="grid items-center gap-12 lg:grid-cols-2">
                         <div>
@@ -362,7 +362,7 @@ export function ResourceManagementBlog() {
             </section>
 
             {/* Awards Logo Banner */}
-            <section className="border-t py-16">
+            <section className="border-t pt-8">
                 <div className="container">
                     <div className="text-center">
                         <div className="mb-6">
