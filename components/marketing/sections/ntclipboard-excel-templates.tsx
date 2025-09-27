@@ -106,9 +106,9 @@ const excelApplications = [
 
 export function NTClipboardExcelTemplates(): React.JSX.Element {
     return (
-        <div className="bg-gradient-to-b from-slate-50 to-white">
+        <div className="bg-background">
             {/* Hero Section */}
-            <section className="relative overflow-hidden bg-gradient-to-r from-blue-600 to-blue-800 py-20">
+            <section className="relative overflow-hidden bg-gradient-to-r from-blue-600 to-blue-800 py-20 dark:from-blue-700 dark:to-blue-900">
                 <div className="absolute inset-0 bg-black/10" />
                 <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                     <div className="text-center">
@@ -141,10 +141,10 @@ export function NTClipboardExcelTemplates(): React.JSX.Element {
             <section className="py-20">
                 <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                     <div className="mb-16 text-center">
-                        <h2 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
+                        <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
                             Manufacturing Excel Applications
                         </h2>
-                        <p className="mx-auto mt-4 max-w-2xl text-lg text-slate-600">
+                        <p className="mx-auto mt-4 max-w-2xl text-lg text-muted-foreground">
                             Streamline your manufacturing operations with our comprehensive
                             suite of Excel-based applications
                         </p>
@@ -154,18 +154,18 @@ export function NTClipboardExcelTemplates(): React.JSX.Element {
                         {excelApplications.map((app) => (
                             <div
                                 key={app.id}
-                                className="group relative overflow-hidden rounded-2xl bg-white p-8 shadow-lg transition-all hover:-translate-y-1 hover:shadow-xl"
+                                className="group relative overflow-hidden rounded-2xl border border-gray-200 bg-white p-8 shadow-lg transition-all hover:-translate-y-1 hover:shadow-xl dark:border-gray-700 dark:bg-slate-800"
                             >
                                 {/* Header */}
                                 <div className="mb-6 flex items-start gap-4">
-                                    <div className="shrink-0 rounded-lg bg-green-100 p-3 text-green-600">
+                                    <div className="shrink-0 rounded-lg bg-green-100 p-3 text-green-600 dark:bg-green-900/30 dark:text-green-400">
                                         {app.icon}
                                     </div>
                                     <div className="min-w-0 flex-1">
-                                        <h3 className="text-xl font-semibold text-slate-900">
+                                        <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
                                             {app.title}
                                         </h3>
-                                        <p className="mt-2 text-sm text-slate-600">
+                                        <p className="mt-2 text-sm text-gray-600 dark:text-gray-300">
                                             {app.description}
                                         </p>
                                     </div>
@@ -173,14 +173,14 @@ export function NTClipboardExcelTemplates(): React.JSX.Element {
 
                                 {/* Features */}
                                 <div className="mb-6">
-                                    <h4 className="mb-3 text-sm font-medium text-slate-900">
+                                    <h4 className="mb-3 text-sm font-medium text-gray-900 dark:text-white">
                                         Key Features:
                                     </h4>
                                     <ul className="space-y-2">
                                         {app.features.map((feature, index) => (
                                             <li
                                                 key={index}
-                                                className="flex items-center text-sm text-slate-600"
+                                                className="flex items-center text-sm text-gray-600 dark:text-gray-300"
                                             >
                                                 <div className="mr-3 size-1.5 rounded-full bg-green-500" />
                                                 {feature}
@@ -190,20 +190,20 @@ export function NTClipboardExcelTemplates(): React.JSX.Element {
                                 </div>
 
                                 {/* Pricing */}
-                                <div className="mb-6 rounded-lg bg-slate-50 p-4">
+                                <div className="mb-6 rounded-lg bg-gray-50 p-4 dark:bg-gray-700/50">
                                     <div className="mb-2 flex items-center justify-between">
-                                        <span className="text-sm font-medium text-slate-700">
+                                        <span className="text-sm font-medium text-gray-700 dark:text-gray-300">
                                             Single User
                                         </span>
-                                        <span className="text-lg font-bold text-green-600">
+                                        <span className="text-lg font-bold text-green-600 dark:text-green-400">
                                             {app.singleUserPrice}
                                         </span>
                                     </div>
                                     <div className="flex items-center justify-between">
-                                        <span className="text-sm font-medium text-slate-700">
+                                        <span className="text-sm font-medium text-gray-700 dark:text-gray-300">
                                             Five Users
                                         </span>
-                                        <span className="text-lg font-bold text-green-600">
+                                        <span className="text-lg font-bold text-green-600 dark:text-green-400">
                                             {app.fiveUserPrice}
                                         </span>
                                     </div>
@@ -227,13 +227,13 @@ export function NTClipboardExcelTemplates(): React.JSX.Element {
             </section>
 
             {/* Call to Action */}
-            <section className="bg-gradient-to-r from-slate-900 to-slate-800 py-16">
+            <section className="bg-gradient-to-r from-slate-900 to-slate-800 py-16 dark:from-slate-800 dark:to-slate-700">
                 <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                     <div className="text-center">
                         <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
                             Want to get your production in the groove?
                         </h2>
-                        <p className="mx-auto mt-4 max-w-2xl text-xl text-slate-300">
+                        <p className="mx-auto mt-4 max-w-2xl text-xl text-slate-300 dark:text-slate-200">
                             Watch our classic video and get your operations movin' and
                             groovin' today!
                         </p>
@@ -257,10 +257,10 @@ export function NTClipboardExcelTemplates(): React.JSX.Element {
             </section>
 
             {/* Awards Banner */}
-            <section className="bg-white py-12">
+            <section className="bg-background py-12">
                 <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                     <div className="text-center">
-                        <h3 className="mb-6 text-2xl font-bold text-slate-900">
+                        <h3 className="mb-6 text-2xl font-bold text-foreground">
                             CELEBRATING 25 YEARS OF AWARD WINNING SOFTWARE!
                         </h3>
                         <div className="flex justify-center">

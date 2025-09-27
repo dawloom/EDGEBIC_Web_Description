@@ -361,14 +361,17 @@ export function ResourceManagementBlog() {
                 </div>
             </section>
 
-            {/* Awards Logo Banner */}
-            <section className="border-t pt-8">
+            {/* Awards Banner */}
+            <section className="border-t pt-12">
                 <div className="container">
                     <div className="text-center">
+                        <h3 className="mb-6 text-2xl font-bold">
+                            CELEBRATING 25 YEARS OF AWARD WINNING SOFTWARE!
+                        </h3>
                         <div className="mb-6">
                             <img
                                 src="https://www.usersolutions.com/wp-content/uploads/2022/07/banner-logoso-sm-58c9a28d237d6-1024x128.jpg"
-                                alt="CELEBRATING 25 YEARS OF AWARD WINNING SOFTWARE!"
+                                alt="Collection of industry and business awards logos"
                                 className="mx-auto h-auto max-w-full"
                             />
                         </div>
