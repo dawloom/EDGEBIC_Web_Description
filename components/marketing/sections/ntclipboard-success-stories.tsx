@@ -148,9 +148,9 @@ const successStories = [
 
 export function NTClipboardSuccessStories(): React.JSX.Element {
     return (
-        <div className="bg-gradient-to-b from-slate-50 to-white">
+        <div className="bg-background">
             {/* Hero Section */}
-            <section className="relative overflow-hidden bg-gradient-to-r from-blue-600 to-blue-800 py-20">
+            <section className="relative overflow-hidden bg-gradient-to-r from-blue-600 to-blue-800 py-20 dark:from-blue-700 dark:to-blue-900">
                 <div className="absolute inset-0 bg-black/10" />
                 <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                     <div className="text-center">
@@ -181,13 +181,13 @@ export function NTClipboardSuccessStories(): React.JSX.Element {
             </section>
 
             {/* Success Stories Grid */}
-            <section className="py-20">
+            <section className="py-8">
                 <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-                    <div className="mb-16 text-center">
-                        <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl">
+                    <div className="mb-8 text-center">
+                        <h2 className="text-3xl  font-bold text-foreground sm:text-4xl">
                             Discover How Easy and Affordable It Is
                         </h2>
-                        <p className="mt-4 text-lg text-gray-600">
+                        <p className="mt-4 text-lg text-muted-foreground">
                             To become even more competitive and profitable through efficient
                             production planning, scheduling, tracking, combined with improved
                             communications.
@@ -198,10 +198,10 @@ export function NTClipboardSuccessStories(): React.JSX.Element {
                         {successStories.map((story) => (
                             <div
                                 key={story.id}
-                                className="group rounded-lg border border-gray-200 bg-white p-6 shadow-sm transition-all hover:shadow-lg"
+                                className="group rounded-lg border border-border bg-card p-6 shadow-sm transition-all hover:shadow-lg dark:hover:shadow-xl"
                             >
                                 <div className="mb-4 flex items-center justify-center">
-                                    <div className="flex h-24 w-48 items-center justify-center rounded bg-gray-100 p-3">
+                                    <div className="flex h-24 w-48 items-center justify-center rounded bg-muted p-3">
                                         <Image
                                             src={story.logo}
                                             alt={`${story.author} logo`}
@@ -211,7 +211,7 @@ export function NTClipboardSuccessStories(): React.JSX.Element {
                                         />
                                     </div>
                                 </div>{' '}
-                                <h3 className="mb-3 text-lg font-semibold text-gray-900 group-hover:text-blue-600">
+                                <h3 className="mb-3 text-lg font-semibold text-card-foreground group-hover:text-blue-600 dark:group-hover:text-blue-400">
                                     <Link
                                         href={story.href}
                                         className="hover:underline"
@@ -219,20 +219,20 @@ export function NTClipboardSuccessStories(): React.JSX.Element {
                                         {story.title}
                                     </Link>
                                 </h3>
-                                <p className="mb-4 line-clamp-3 text-sm text-gray-600">
+                                <p className="mb-4 line-clamp-3 text-sm text-muted-foreground">
                                     {story.description}
                                 </p>
                                 <blockquote className="mb-4 border-l-4 border-blue-500 pl-4">
-                                    <p className="text-sm italic text-gray-700">
+                                    <p className="text-sm italic text-foreground">
                                         "{story.quote}"
                                     </p>
-                                    <footer className="mt-2 text-xs text-gray-500">
+                                    <footer className="mt-2 text-xs text-muted-foreground">
                                         — {story.author}
                                     </footer>
                                 </blockquote>
                                 <Link
                                     href={story.href}
-                                    className="inline-flex items-center text-sm font-medium text-blue-600 hover:text-blue-800"
+                                    className="inline-flex items-center text-sm font-medium text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300"
                                 >
                                     Read Full Story
                                     <svg
@@ -256,17 +256,20 @@ export function NTClipboardSuccessStories(): React.JSX.Element {
             </section>
 
             {/* Awards Section */}
-            <section className="bg-slate-50 py-16">
+            <section className="py-8">
                 <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                     <div className="text-center">
-                        <h2 className="text-3xl font-bold text-gray-900">
+                        <h2 className="text-3xl font-bold text-foreground">
                             CELEBRATING 25 YEARS OF AWARD WINNING SOFTWARE!
                         </h2>
-                        <div className="mt-8 flex justify-center">
-                            <div className="flex h-24 w-full max-w-4xl items-center justify-center rounded bg-gray-100">
-                                <span className="text-gray-500">
-                                    Industry Awards Collection
-                                </span>
+                        <div className="mt-3 flex justify-center">
+                            <div className="w-full max-w-4xl">
+                                <Image
+                                    src="https://www.usersolutions.com/wp-content/uploads/2022/07/banner-logoso-sm-58c9a28d237d6-600x75.jpg"
+                                    alt="25 Years of Award Winning Software - Industry Awards Collection"
+                                    width={1024}
+                                    height={128}
+                                />
                             </div>
                         </div>
                     </div>
@@ -274,7 +277,7 @@ export function NTClipboardSuccessStories(): React.JSX.Element {
             </section>
 
             {/* CTA Section */}
-            <section className="bg-gradient-to-r from-blue-600 to-blue-800 py-16">
+            <section className="bg-gradient-to-r from-blue-600 to-blue-800 py-16 dark:from-blue-700 dark:to-blue-900">
                 <div className="mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
                     <h2 className="text-3xl font-bold text-white">
                         Ready to Create Your Own Success Story?
