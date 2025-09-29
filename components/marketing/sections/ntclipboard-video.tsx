@@ -11,71 +11,179 @@ interface NTClipboardVideoProps {
 export function NTClipboardVideo({
   videoUrl
 }: NTClipboardVideoProps): React.JSX.Element {
-  // User Solutions product videos - replace these placeholder IDs with actual video IDs from https://www.usersolutions.com/videos/
+  // User Solutions product videos from https://www.usersolutions.com/videos/
+  // Complete list of all 20 videos with full YouTube URLs
   const productVideos = [
     {
-      id: 'dQw4w9WgXcQ', // Replace with actual Welcome video ID
-      title: 'Welcome',
-      description: 'Introduction to User Solutions manufacturing software solutions',
+      url: 'https://www.youtube.com/watch?v=IR8NhOlV_zM',
+      title: 'Company Overview',
+      description:
+        'Comprehensive overview of User Solutions manufacturing software company and solutions',
       category: 'Overview'
     },
     {
-      id: 'dQw4w9WgXcQ', // Replace with actual Resource Manager DB video ID
-      title: 'Resource Manager DB',
-      description: 'Complete database-driven production scheduling solution for complex manufacturing environments',
+      url: 'https://www.youtube.com/watch?v=y-TMN1e-xlc',
+      title: 'Welcome',
+      description:
+        'Welcome video introducing User Solutions manufacturing software solutions',
+      category: 'Overview'
+    },
+    {
+      url: 'https://www.youtube.com/watch?v=nZChakmMIOI',
+      title: 'User Solutions, Inc Intro Video',
+      description:
+        'Introduction video showcasing User Solutions company and software capabilities',
+      category: 'Overview'
+    },
+    {
+      url: 'https://www.youtube.com/watch?v=IduVVYgeXZg',
+      title: 'Manufacturing Software made easy!',
+      description:
+        'Channel overview clip highlighting manufacturing software solutions made easy',
+      category: 'Overview'
+    },
+    {
+      url: 'https://www.youtube.com/watch?v=L4wDboRFU6k',
+      title: 'WorkCenter Scheduler XL Overview',
+      description:
+        'Complete overview of WorkCenter Scheduler XL for production scheduling',
       category: 'Product Demo'
     },
     {
-      id: 'dQw4w9WgXcQ', // Replace with actual Workcenter Scheduler video ID
-      title: 'Workcenter Scheduler XL',
-      description: 'Excel-based scheduling solution for shop floor operations and workcenter management',
+      url: 'https://www.youtube.com/watch?v=fvvMj__YHbw',
+      title: 'Workcenter Scheduler XL — Summary',
+      description:
+        'Summary of Workcenter Scheduler XL features and capabilities',
       category: 'Product Demo'
     },
     {
-      id: 'dQw4w9WgXcQ', // Replace with actual Resource Manager for Excel video ID
-      title: 'Resource Manager for Excel',
-      description: 'Advanced resource planning and finite capacity scheduling integrated with Excel',
+      url: 'https://www.youtube.com/watch?v=snltXMHeojU',
+      title: 'Welcome to Job Scheduler Lite (JSL)',
+      description:
+        'Introduction to Job Scheduler Lite for simplified production scheduling',
       category: 'Product Demo'
     },
     {
-      id: 'dQw4w9WgXcQ', // Replace with actual RMX Training video ID
-      title: 'Resource Manager Training (RMX)',
-      description: 'Comprehensive training series for Resource Manager for Excel',
+      url: 'https://www.youtube.com/watch?v=kn92TIHhbm8',
+      title: 'Resource Manager DB — Summary',
+      description:
+        'Summary of Resource Manager DB database-driven production scheduling solution',
+      category: 'Product Demo'
+    },
+    {
+      url: 'https://www.youtube.com/watch?v=DRWDNVq31l4',
+      title: 'Resource Manager for Excel — Summary',
+      description:
+        'Summary of Resource Manager for Excel integrated scheduling solution',
+      category: 'Product Demo'
+    },
+    {
+      url: 'https://www.youtube.com/watch?v=74uO2H-eevc',
+      title: 'Resource Manager for Excel — Intro Part 1',
+      description:
+        'First part introduction to Resource Manager for Excel features and setup',
+      category: 'Product Demo'
+    },
+    {
+      url: 'https://www.youtube.com/watch?v=Br2b8h-drfY',
+      title: 'RMX Initialization — Building Bills of Resource',
+      description:
+        'Learn how to build Bills of Resource in Resource Manager for Excel',
       category: 'Training'
     },
     {
-      id: 'dQw4w9WgXcQ', // Replace with actual Initialization video ID
-      title: 'Initialization',
-      description: 'Learn how to initialize and set up your Resource Manager system',
+      url: 'https://www.youtube.com/watch?v=q4oJlqjcxAE',
+      title: 'RMX Initialization — Building Bills of Resource 2',
+      description:
+        'Advanced Bills of Resource building techniques in Resource Manager for Excel',
       category: 'Training'
     },
     {
-      id: 'dQw4w9WgXcQ', // Replace with actual Scheduling video ID
-      title: 'Scheduling',
-      description: 'Master scheduling techniques and best practices with Resource Manager',
+      url: 'https://www.youtube.com/watch?v=Fg9WZcSCKoA',
+      title: 'RMX Initialization — Production Operations List',
+      description:
+        'Setting up Production Operations List in Resource Manager for Excel',
       category: 'Training'
     },
     {
-      id: 'dQw4w9WgXcQ', // Replace with actual Reporting video ID
-      title: 'Reporting',
-      description: 'Generate comprehensive reports and analyze production data',
+      url: 'https://www.youtube.com/watch?v=p61yG7b2nTY',
+      title: 'RMX Initialization — Navigation Options',
+      description:
+        'Understanding navigation options in Resource Manager for Excel interface',
+      category: 'Training'
+    },
+    {
+      url: 'https://www.youtube.com/watch?v=gekRRmlOWYE',
+      title: 'RMX Initialization — Holiday & Day Chart',
+      description:
+        'Configuring Holiday & Day Chart settings in Resource Manager for Excel',
+      category: 'Training'
+    },
+    {
+      url: 'https://www.youtube.com/watch?v=bmCEFVJlkr4',
+      title: 'RMX Scheduling — Forecast Calendar',
+      description:
+        'Using Forecast Calendar for production planning in Resource Manager for Excel',
+      category: 'Training'
+    },
+    {
+      url: 'https://www.youtube.com/watch?v=WX9VO3IPN40',
+      title: 'RMX Scheduling — Inventory Table',
+      description:
+        'Managing Inventory Table for accurate scheduling in Resource Manager for Excel',
+      category: 'Training'
+    },
+    {
+      url: 'https://www.youtube.com/watch?v=RmSmILCGGx8',
+      title: 'RMX Scheduling — Master Adjusted Schedule',
+      description:
+        'Creating and managing Master Adjusted Schedule in Resource Manager for Excel',
+      category: 'Training'
+    },
+    {
+      url: 'https://www.youtube.com/watch?v=Fc-zM31PrrQ',
+      title: 'RMX — Master Scheduling',
+      description:
+        'Master scheduling techniques and best practices with Resource Manager for Excel',
+      category: 'Training'
+    },
+    {
+      url: 'https://www.youtube.com/watch?v=tOy099sVThQ',
+      title: 'RMX — Summary Report',
+      description:
+        'Generating and analyzing Summary Reports in Resource Manager for Excel',
       category: 'Training'
     }
   ];
 
   const [activeVideo, setActiveVideo] = React.useState(0);
   const [selectedCategory, setSelectedCategory] = React.useState('All');
-  
+
   // Get unique categories
-  const categories = ['All', ...Array.from(new Set(productVideos.map(video => video.category)))];
-  
+  const categories = [
+    'All',
+    ...Array.from(new Set(productVideos.map((video) => video.category)))
+  ];
+
   // Filter videos by category
-  const filteredVideos = selectedCategory === 'All' 
-    ? productVideos 
-    : productVideos.filter(video => video.category === selectedCategory);
-  
+  const filteredVideos =
+    selectedCategory === 'All'
+      ? productVideos
+      : productVideos.filter((video) => video.category === selectedCategory);
+
   const currentVideo = filteredVideos[activeVideo] || productVideos[0];
-  const embedUrl = `https://www.youtube.com/embed/${currentVideo.id}?autoplay=0&rel=0`;
+
+  // Extract video ID from YouTube URL
+  const getVideoId = (url: string) => {
+    if (url === 'VIDEO_URL_NEEDED') return 'dQw4w9WgXcQ'; // Fallback for placeholder
+    const match = url.match(
+      /(?:youtube\.com\/watch\?v=|youtu\.be\/)([^&\n?#]+)/
+    );
+    return match ? match[1] : 'dQw4w9WgXcQ';
+  };
+
+  const videoId = getVideoId(currentVideo.url);
+  const embedUrl = `https://www.youtube.com/embed/${videoId}?autoplay=0&rel=0`;
 
   // Reset active video when category changes
   React.useEffect(() => {
@@ -84,27 +192,58 @@ export function NTClipboardVideo({
 
   return (
     <GridSection hideVerticalGridLines>
-      <div className="bg-gradient-to-br from-white to-slate-50 dark:from-slate-900 dark:to-slate-800">
-        <div className="container py-24 md:py-32">
+      <div>
+        <div className=" py-8">
           <div className="mx-auto max-w-6xl text-center">
+            {/* Header Badge */}
+            <div className="mb-4 flex justify-center">
+              <span className="inline-flex items-center rounded-full border px-3 py-1 text-sm font-medium">
+                📹 {productVideos.length} Videos Available
+              </span>
+            </div>
+
             <h2 className="mb-6 text-3xl font-bold md:text-5xl">
               Product Video Library
             </h2>
             <p className="mb-8 text-xl text-muted-foreground">
-              Comprehensive video demonstrations and training for our award-winning manufacturing software solutions
+              Comprehensive video demonstrations and training for our
+              award-winning manufacturing software solutions
             </p>
-            
+
+            {/* Category Stats */}
+            <div className="mb-6 flex flex-wrap justify-center gap-3">
+              {/* Overview Badge - Rounded with green accent */}
+              <div className="inline-flex items-center rounded-full border-2 border-green-200 bg-green-50 px-4 py-2 text-sm font-semibold text-green-700 dark:border-green-800 dark:bg-green-900/20 dark:text-green-300">
+                🎯 Overview:{' '}
+                {productVideos.filter((v) => v.category === 'Overview').length}
+              </div>
+
+              {/* Product Demo Badge - Square with blue accent */}
+              <div className="inline-flex items-center rounded-full border-2 border-blue-200 bg-blue-50 px-4 py-2 text-sm font-semibold text-blue-700 shadow-sm dark:border-blue-800 dark:bg-blue-900/20 dark:text-blue-300">
+                🚀 Product Demo:{' '}
+                {
+                  productVideos.filter((v) => v.category === 'Product Demo')
+                    .length
+                }
+              </div>
+
+              {/* Training Badge - Pill with orange accent and shadow */}
+              <div className="inline-flex items-center rounded-full border-2 border-orange-200 bg-orange-50 px-4 py-2 text-sm font-semibold text-orange-700 shadow-md dark:border-orange-800 dark:bg-orange-900/20 dark:text-orange-300">
+                📚 Training:{' '}
+                {productVideos.filter((v) => v.category === 'Training').length}
+              </div>
+            </div>
+
             {/* Category Filter */}
             <div className="mb-8 flex flex-wrap justify-center gap-2">
               {categories.map((category) => (
                 <button
                   key={category}
                   onClick={() => setSelectedCategory(category)}
-                  className={`rounded-full px-4 py-2 text-sm font-medium transition-all ${
-                    category === selectedCategory
-                      ? 'bg-blue-600 text-white shadow-lg'
-                      : 'bg-white text-gray-700 hover:bg-gray-50 dark:bg-slate-800 dark:text-gray-300 dark:hover:bg-slate-700'
-                  }`}
+                  className={`rounded-full border px-4 py-2 text-sm font-medium transition-all ${category === selectedCategory
+                      ? 'border-blue-600 bg-blue-600 text-white shadow-lg'
+                      : 'border-gray-300 bg-white text-gray-700 hover:border-gray-400 hover:bg-gray-50 dark:border-slate-600 dark:bg-slate-800 dark:text-gray-300 dark:hover:border-slate-500 dark:hover:bg-slate-700'
+                    }`}
                 >
                   {category}
                 </button>
@@ -129,11 +268,10 @@ export function NTClipboardVideo({
                   <button
                     key={index}
                     onClick={() => setActiveVideo(index)}
-                    className={`rounded-lg px-4 py-2 text-sm font-medium transition-all ${
-                      index === activeVideo
-                        ? 'bg-blue-600 text-white shadow-lg'
-                        : 'bg-white text-gray-700 hover:bg-gray-50 dark:bg-slate-800 dark:text-gray-300 dark:hover:bg-slate-700'
-                    }`}
+                    className={`rounded-lg border px-4 py-2 text-sm font-medium transition-all ${index === activeVideo
+                        ? 'border-blue-600 bg-blue-600 text-white shadow-lg'
+                        : 'border-gray-300 bg-white text-gray-700 hover:border-gray-400 hover:bg-gray-50 dark:border-slate-600 dark:bg-slate-800 dark:text-gray-300 dark:hover:border-slate-500 dark:hover:bg-slate-700'
+                      }`}
                   >
                     {video.title}
                   </button>
