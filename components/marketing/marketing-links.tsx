@@ -116,6 +116,13 @@ export const MENU_LINKS = [
     external: false
   },
   {
+    title: 'Product Videos',
+    description: 'Watch software demonstrations and tutorials',
+    icon: <MonitorIcon className="size-5 shrink-0" />,
+    href: Routes.ProductVideos,
+    external: false
+  },
+  {
     title: 'Resource Management',
     description: 'Resource management insights and best practices',
     icon: <BookIcon className="size-5 shrink-0" />,

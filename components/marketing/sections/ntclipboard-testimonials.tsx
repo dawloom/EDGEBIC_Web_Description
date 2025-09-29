@@ -118,24 +118,17 @@ export function NTClipboardTestimonials(): React.JSX.Element {
 
                 {/* Awards & Recognition */}
                 <div className="mt-8 text-center">
-                    <h3 className="text-2xl font-bold">Award-Winning Software</h3>
-                    <p className="mx-auto mb-8 mt-4 max-w-2xl text-muted-foreground">
-                        Recognized by industry leaders for innovation, reliability, and
-                        customer satisfaction in manufacturing software solutions.
-                    </p>
+                    <h3 className="mb-3 text-2xl font-bold">
+                        CELEBRATING 25 YEARS OF AWARD WINNING SOFTWARE!
+                    </h3>
 
-                    {/* Placeholder for award logos - replace with actual logos */}
-                    <div className="grid grid-cols-2 gap-8 md:grid-cols-4">
-                        {[...Array(4)].map((_, index) => (
-                            <div
-                                key={index}
-                                className="flex items-center justify-center rounded-lg border bg-slate-50 p-6 dark:bg-slate-800"
-                            >
-                                <div className="text-center text-sm text-muted-foreground">
-                                    Industry Award {index + 1}
-                                </div>
-                            </div>
-                        ))}
+                    {/* Award logos banner */}
+                    <div className="flex justify-center">
+                        <img
+                            src="https://www.usersolutions.com/wp-content/uploads/2022/07/banner-logoso-sm-58c9a28d237d6-1024x128.jpg"
+                            alt="Collection of industry and business awards logos"
+                            className="h-auto max-w-full"
+                        />
                     </div>
                 </div>
 

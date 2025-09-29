@@ -11,7 +11,6 @@ export default function IndexPage(): React.JSX.Element {
       <NTClipboardSummary />
       <NTClipboardTestimonials />
       {/* <NTClipboardPricing /> */}
-      {/* <NTClipboardVideo videoUrl={youtubeVideoUrl} /> */}
       {/* <NTClipboardDemo /> */}
       {/* <NTClipboardFAQ /> */}
       {/* <NTClipboardCTA /> */}

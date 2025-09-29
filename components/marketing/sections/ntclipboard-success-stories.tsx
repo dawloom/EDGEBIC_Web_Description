@@ -3,6 +3,17 @@
 import * as React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { ArrowUpRightIcon, CalendarIcon, UserIcon } from 'lucide-react';
+
+import { Badge } from '@/components/ui/badge';
+import { Button } from '@/components/ui/button';
+import {
+    Card,
+    CardContent,
+    CardDescription,
+    CardHeader,
+    CardTitle
+} from '@/components/ui/card';
 
 const successStories = [
     {
@@ -15,6 +26,9 @@ const successStories = [
             'Resource Manager-DB product provided a unique combination of planning, scheduling, and tracking functionality within a single, yet flexible system.',
         author: 'Scott Bennett, Enevate',
         logo: 'https://www.usersolutions.com/wp-content/uploads/2022/07/01-300x300.png',
+        date: 'September 8, 2022',
+        readTime: '4 min read',
+        category: 'Success Story',
         href: '#'
     },
     {
@@ -27,6 +41,9 @@ const successStories = [
             'The system was incredibly easy to adopt and we saw immediate returns on our investment.',
         author: 'Ohio Furniture Manufacturer',
         logo: 'https://www.usersolutions.com/wp-content/uploads/2022/07/02-300x300.png',
+        date: 'August 15, 2022',
+        readTime: '5 min read',
+        category: 'Case Study',
         href: '#'
     },
     {
@@ -38,6 +55,9 @@ const successStories = [
             'This solution enabled us to systematically identify and resolve bottlenecks in our production process.',
         author: 'BAE Systems/Ordinance Systems Inc.',
         logo: 'https://www.usersolutions.com/wp-content/uploads/2022/07/03-300x300.png',
+        date: 'July 22, 2022',
+        readTime: '6 min read',
+        category: 'ERP Integration',
         href: '#'
     },
     {
@@ -50,6 +70,9 @@ const successStories = [
             'Perfect solution for smaller manufacturers looking for affordable, flexible MRP systems.',
         author: 'Sleepmasters',
         logo: 'https://www.usersolutions.com/wp-content/uploads/2022/07/04-300x300.png',
+        date: 'June 10, 2022',
+        readTime: '4 min read',
+        category: 'Manufacturing',
         href: '#'
     },
     {
@@ -61,6 +84,9 @@ const successStories = [
             'We have found these products complement traditional MRP and Shop Control systems perfectly.',
         author: 'A.G. Raymond & Company',
         logo: 'https://www.usersolutions.com/wp-content/uploads/2022/07/AGRaymond33f-161208-5849d765f1422.jpg',
+        date: 'May 18, 2022',
+        readTime: '5 min read',
+        category: 'Consulting',
         href: '#'
     },
     {
@@ -196,60 +222,68 @@ export function NTClipboardSuccessStories(): React.JSX.Element {
 
                     <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
                         {successStories.map((story) => (
-                            <div
+                            <Card
                                 key={story.id}
-                                className="group rounded-lg border border-border bg-card p-6 shadow-sm transition-all hover:shadow-lg dark:hover:shadow-xl"
+                                className="group overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
                             >
-                                <div className="mb-4 flex items-center justify-center">
-                                    <div className="flex h-24 w-48 items-center justify-center rounded bg-muted p-3">
-                                        <Image
-                                            src={story.logo}
-                                            alt={`${story.author} logo`}
-                                            width={180}
-                                            height={90}
-                                            className="max-h-full max-w-full object-contain"
-                                        />
+                                <div className="aspect-video overflow-hidden bg-muted">
+                                    <Image
+                                        src={story.logo}
+                                        alt={`${story.author} logo`}
+                                        width={400}
+                                        height={225}
+                                        className="size-full object-cover transition-transform duration-300 group-hover:scale-105"
+                                    />
+                                </div>
+                                <CardHeader className="pb-4">
+                                    <div className="mb-2 flex items-center gap-4 text-sm text-muted-foreground">
+                                        <div className="flex items-center gap-1">
+                                            <CalendarIcon className="size-4" />
+                                            {story.date}
+                                        </div>
+                                        <div className="flex items-center gap-1">
+                                            <UserIcon className="size-4" />
+                                            {story.readTime}
+                                        </div>
                                     </div>
-                                </div>{' '}
-                                <h3 className="mb-3 text-lg font-semibold text-card-foreground group-hover:text-blue-600 dark:group-hover:text-blue-400">
+                                    <Badge
+                                        variant="secondary"
+                                        className="mb-3 w-fit"
+                                    >
+                                        {story.category}
+                                    </Badge>
+                                    <CardTitle className="line-clamp-2 transition-colors group-hover:text-blue-600">
+                                        {story.title}
+                                    </CardTitle>
+                                </CardHeader>
+                                <CardContent className="pt-0">
+                                    <CardDescription className="mb-4 line-clamp-3">
+                                        {story.description}
+                                    </CardDescription>
+                                    <blockquote className="mb-4 border-l-4 border-blue-500 pl-4">
+                                        <p className="text-sm italic text-foreground">
+                                            "{story.quote}"
+                                        </p>
+                                        <footer className="mt-2 text-xs text-muted-foreground">
+                                            — {story.author}
+                                        </footer>
+                                    </blockquote>
                                     <Link
                                         href={story.href}
-                                        className="hover:underline"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
                                     >
-                                        {story.title}
+                                        <Button
+                                            variant="ghost"
+                                            size="sm"
+                                            className="h-auto p-0 font-medium text-blue-600 hover:text-blue-700"
+                                        >
+                                            Read more
+                                            <ArrowUpRightIcon className="ml-1 size-4" />
+                                        </Button>
                                     </Link>
-                                </h3>
-                                <p className="mb-4 line-clamp-3 text-sm text-muted-foreground">
-                                    {story.description}
-                                </p>
-                                <blockquote className="mb-4 border-l-4 border-blue-500 pl-4">
-                                    <p className="text-sm italic text-foreground">
-                                        "{story.quote}"
-                                    </p>
-                                    <footer className="mt-2 text-xs text-muted-foreground">
-                                        — {story.author}
-                                    </footer>
-                                </blockquote>
-                                <Link
-                                    href={story.href}
-                                    className="inline-flex items-center text-sm font-medium text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300"
-                                >
-                                    Read Full Story
-                                    <svg
-                                        className="ml-1 size-4"
-                                        fill="none"
-                                        stroke="currentColor"
-                                        viewBox="0 0 24 24"
-                                    >
-                                        <path
-                                            strokeLinecap="round"
-                                            strokeLinejoin="round"
-                                            strokeWidth={2}
-                                            d="M9 5l7 7-7 7"
-                                        />
-                                    </svg>
-                                </Link>
-                            </div>
+                                </CardContent>
+                            </Card>
                         ))}
                     </div>
                 </div>
