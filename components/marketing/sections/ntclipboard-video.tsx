@@ -3,13 +3,14 @@
 import * as React from 'react';
 
 import { GridSection } from '@/components/marketing/fragments/grid-section';
+import { Button } from '@/components/ui/button';
 
 interface NTClipboardVideoProps {
   videoUrl?: string | null;
 }
 
 export function NTClipboardVideo({
-  videoUrl
+  videoUrl: _videoUrl
 }: NTClipboardVideoProps): React.JSX.Element {
   // User Solutions product videos from https://www.usersolutions.com/videos/
   // Complete list of all 20 videos with full YouTube URLs
@@ -159,6 +160,10 @@ export function NTClipboardVideo({
   const [activeVideo, setActiveVideo] = React.useState(0);
   const [selectedCategory, setSelectedCategory] = React.useState('All');
 
+  // Drag functionality state
+  const [isDragging, setIsDragging] = React.useState(false);
+  const [dragStart, setDragStart] = React.useState({ x: 0, scrollLeft: 0 });
+
   // Get unique categories
   const categories = [
     'All',
@@ -193,7 +198,7 @@ export function NTClipboardVideo({
   return (
     <GridSection hideVerticalGridLines>
       <div>
-        <div className=" py-8">
+        <div className=" pt-12">
           <div className="mx-auto max-w-6xl text-center">
             {/* Header Badge */}
             <div className="mb-4 flex justify-center">
@@ -237,16 +242,17 @@ export function NTClipboardVideo({
             {/* Category Filter */}
             <div className="mb-8 flex flex-wrap justify-center gap-2">
               {categories.map((category) => (
-                <button
+                <Button
                   key={category}
                   onClick={() => setSelectedCategory(category)}
-                  className={`rounded-full border px-4 py-2 text-sm font-medium transition-all ${category === selectedCategory
-                      ? 'border-blue-600 bg-blue-600 text-white shadow-lg'
-                      : 'border-gray-300 bg-white text-gray-700 hover:border-gray-400 hover:bg-gray-50 dark:border-slate-600 dark:bg-slate-800 dark:text-gray-300 dark:hover:border-slate-500 dark:hover:bg-slate-700'
-                    }`}
+                  variant={
+                    category === selectedCategory ? 'default' : 'outline'
+                  }
+                  size="sm"
+                  className="rounded-full"
                 >
                   {category}
-                </button>
+                </Button>
               ))}
             </div>
 
@@ -255,7 +261,9 @@ export function NTClipboardVideo({
               <div className="relative mb-6">
                 <div className="flex items-center">
                   {/* Left Arrow */}
-                  <button
+                  <Button
+                    variant="outline"
+                    size="sm"
                     onClick={() => {
                       const container = document.getElementById(
                         'video-buttons-container'
@@ -264,7 +272,7 @@ export function NTClipboardVideo({
                         container.scrollBy({ left: -200, behavior: 'smooth' });
                       }
                     }}
-                    className="mr-3 flex size-10 items-center justify-center rounded-lg border-2 border-gray-300 bg-white text-gray-600 shadow-sm transition-all hover:border-blue-400 hover:bg-blue-50 hover:text-blue-600 dark:border-slate-600 dark:bg-slate-800 dark:text-gray-300 dark:hover:border-blue-500 dark:hover:bg-slate-700"
+                    className="mr-3 aspect-square px-2"
                     title="Previous videos"
                   >
                     <svg
@@ -281,31 +289,70 @@ export function NTClipboardVideo({
                         d="M15 19l-7-7 7-7"
                       />
                     </svg>
-                  </button>
+                  </Button>
 
-                  {/* Video Buttons Container */}
                   <div
                     id="video-buttons-container"
-                    className="flex-1 overflow-x-auto [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
+                    className="flex-1 cursor-grab overflow-x-auto [-ms-overflow-style:none] [scrollbar-width:none] active:cursor-grabbing [&::-webkit-scrollbar]:hidden"
+                    onMouseDown={(e) => {
+                      const container = e.currentTarget;
+                      setIsDragging(true);
+                      setDragStart({
+                        x: e.pageX - container.offsetLeft,
+                        scrollLeft: container.scrollLeft
+                      });
+                      container.style.cursor = 'grabbing';
+                    }}
+                    onMouseMove={(e) => {
+                      if (!isDragging) return;
+                      e.preventDefault();
+                      const container = e.currentTarget;
+                      const x = e.pageX - container.offsetLeft;
+                      const walk = (x - dragStart.x) * 2; // Multiply by 2 for faster scrolling
+                      container.scrollLeft = dragStart.scrollLeft - walk;
+                    }}
+                    onMouseUp={() => {
+                      setIsDragging(false);
+                      const container = document.getElementById(
+                        'video-buttons-container'
+                      );
+                      if (container) {
+                        container.style.cursor = 'grab';
+                      }
+                    }}
+                    onMouseLeave={() => {
+                      setIsDragging(false);
+                      const container = document.getElementById(
+                        'video-buttons-container'
+                      );
+                      if (container) {
+                        container.style.cursor = 'grab';
+                      }
+                    }}
                   >
                     <div className="flex gap-3 pb-1">
                       {filteredVideos.map((video, index) => (
-                        <button
+                        <Button
                           key={index}
-                          onClick={() => setActiveVideo(index)}
-                          className={`shrink-0 whitespace-nowrap rounded-lg border px-4 py-2 text-sm font-medium transition-all ${index === activeVideo
-                              ? 'border-blue-600 bg-blue-600 text-white shadow-lg'
-                              : 'border-gray-300 bg-white text-gray-700 hover:border-gray-400 hover:bg-gray-50 dark:border-slate-600 dark:bg-slate-800 dark:text-gray-300 dark:hover:border-slate-500 dark:hover:bg-slate-700'
-                            }`}
+                          variant={
+                            index === activeVideo ? 'default' : 'outline'
+                          }
+                          size="sm"
+                          className="shrink-0 whitespace-nowrap"
+                          onClick={() => {
+                            setActiveVideo(index);
+                          }}
                         >
                           {video.title}
-                        </button>
+                        </Button>
                       ))}
                     </div>
                   </div>
 
                   {/* Right Arrow */}
-                  <button
+                  <Button
+                    variant="outline"
+                    size="sm"
                     onClick={() => {
                       const container = document.getElementById(
                         'video-buttons-container'
@@ -314,7 +361,7 @@ export function NTClipboardVideo({
                         container.scrollBy({ left: 200, behavior: 'smooth' });
                       }
                     }}
-                    className="ml-3 flex size-10 items-center justify-center rounded-lg border-2 border-gray-300 bg-white text-gray-600 shadow-sm transition-all hover:border-blue-400 hover:bg-blue-50 hover:text-blue-600 dark:border-slate-600 dark:bg-slate-800 dark:text-gray-300 dark:hover:border-blue-500 dark:hover:bg-slate-700"
+                    className="ml-3 aspect-square px-2"
                     title="Next videos"
                   >
                     <svg
@@ -331,7 +378,7 @@ export function NTClipboardVideo({
                         d="M9 5l7 7-7 7"
                       />
                     </svg>
-                  </button>
+                  </Button>
                 </div>
               </div>
 
