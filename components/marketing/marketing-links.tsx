@@ -5,6 +5,7 @@ import {
   // BookOpenIcon,
   ClipboardIcon,
   FileTextIcon,
+  HandshakeIcon,
   // MapIcon,
   MonitorIcon,
   PackageIcon,
@@ -99,6 +100,13 @@ export const MENU_LINKS = [
     description: 'Meet our team and learn our story',
     icon: <BookIcon className="size-5 shrink-0" />,
     href: Routes.About,
+    external: false
+  },
+  {
+    title: 'Partners',
+    description: 'Our manufacturing software partners',
+    icon: <HandshakeIcon className="size-5 shrink-0" />,
+    href: Routes.Partners,
     external: false
   },
   {

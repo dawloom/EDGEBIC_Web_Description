@@ -9,6 +9,7 @@ export enum Routes {
   Values = '/values',
   History = '/company-history',
   About = '/about',
+  Partners = '/partners',
   SuccessStories = '/success-stories',
   ExcelTemplates = '/excel-templates',
   ProductVideos = '/videos',
