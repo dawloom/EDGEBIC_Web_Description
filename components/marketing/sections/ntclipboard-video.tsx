@@ -251,6 +251,90 @@ export function NTClipboardVideo({
             </div>
 
             <div className="mx-auto max-w-4xl">
+              {/* Video Selection - Now above the video */}
+              <div className="relative mb-6">
+                <div className="flex items-center">
+                  {/* Left Arrow */}
+                  <button
+                    onClick={() => {
+                      const container = document.getElementById(
+                        'video-buttons-container'
+                      );
+                      if (container) {
+                        container.scrollBy({ left: -200, behavior: 'smooth' });
+                      }
+                    }}
+                    className="mr-3 flex size-10 items-center justify-center rounded-lg border-2 border-gray-300 bg-white text-gray-600 shadow-sm transition-all hover:border-blue-400 hover:bg-blue-50 hover:text-blue-600 dark:border-slate-600 dark:bg-slate-800 dark:text-gray-300 dark:hover:border-blue-500 dark:hover:bg-slate-700"
+                    title="Previous videos"
+                  >
+                    <svg
+                      className="size-5"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M15 19l-7-7 7-7"
+                      />
+                    </svg>
+                  </button>
+
+                  {/* Video Buttons Container */}
+                  <div
+                    id="video-buttons-container"
+                    className="flex-1 overflow-x-auto [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
+                  >
+                    <div className="flex gap-3 pb-1">
+                      {filteredVideos.map((video, index) => (
+                        <button
+                          key={index}
+                          onClick={() => setActiveVideo(index)}
+                          className={`shrink-0 whitespace-nowrap rounded-lg border px-4 py-2 text-sm font-medium transition-all ${index === activeVideo
+                              ? 'border-blue-600 bg-blue-600 text-white shadow-lg'
+                              : 'border-gray-300 bg-white text-gray-700 hover:border-gray-400 hover:bg-gray-50 dark:border-slate-600 dark:bg-slate-800 dark:text-gray-300 dark:hover:border-slate-500 dark:hover:bg-slate-700'
+                            }`}
+                        >
+                          {video.title}
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+
+                  {/* Right Arrow */}
+                  <button
+                    onClick={() => {
+                      const container = document.getElementById(
+                        'video-buttons-container'
+                      );
+                      if (container) {
+                        container.scrollBy({ left: 200, behavior: 'smooth' });
+                      }
+                    }}
+                    className="ml-3 flex size-10 items-center justify-center rounded-lg border-2 border-gray-300 bg-white text-gray-600 shadow-sm transition-all hover:border-blue-400 hover:bg-blue-50 hover:text-blue-600 dark:border-slate-600 dark:bg-slate-800 dark:text-gray-300 dark:hover:border-blue-500 dark:hover:bg-slate-700"
+                    title="Next videos"
+                  >
+                    <svg
+                      className="size-5"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M9 5l7 7-7 7"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+
               <div className="relative overflow-hidden rounded-2xl bg-black shadow-2xl">
                 <iframe
                   className="aspect-video w-full"
@@ -260,22 +344,6 @@ export function NTClipboardVideo({
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   allowFullScreen
                 />
-              </div>
-
-              {/* Video Selection */}
-              <div className="mt-8 flex flex-wrap justify-center gap-4">
-                {filteredVideos.map((video, index) => (
-                  <button
-                    key={index}
-                    onClick={() => setActiveVideo(index)}
-                    className={`rounded-lg border px-4 py-2 text-sm font-medium transition-all ${index === activeVideo
-                        ? 'border-blue-600 bg-blue-600 text-white shadow-lg'
-                        : 'border-gray-300 bg-white text-gray-700 hover:border-gray-400 hover:bg-gray-50 dark:border-slate-600 dark:bg-slate-800 dark:text-gray-300 dark:hover:border-slate-500 dark:hover:bg-slate-700'
-                      }`}
-                  >
-                    {video.title}
-                  </button>
-                ))}
               </div>
 
               <div className="mt-4 text-center">
