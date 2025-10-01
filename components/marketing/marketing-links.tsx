@@ -8,6 +8,7 @@ import {
   HandshakeIcon,
   // MapIcon,
   MonitorIcon,
+  NewspaperIcon,
   PackageIcon,
   ZapIcon
 } from 'lucide-react';
@@ -135,6 +136,13 @@ export const MENU_LINKS = [
     description: 'Resource management insights and best practices',
     icon: <BookIcon className="size-5 shrink-0" />,
     href: Routes.ResourceManagement,
+    external: false
+  },
+  {
+    title: 'News',
+    description: 'Latest news, press releases, and media coverage',
+    icon: <NewspaperIcon className="size-5 shrink-0" />,
+    href: Routes.News,
     external: false
   }
   // {
