@@ -4,6 +4,7 @@ import {
   BookIcon,
   // BookOpenIcon,
   ClipboardIcon,
+  DownloadIcon,
   FileTextIcon,
   HandshakeIcon,
   // MapIcon,
@@ -122,6 +123,13 @@ export const MENU_LINKS = [
     description: 'Excel applications for manufacturing scheduling',
     icon: <FileTextIcon className="size-5 shrink-0" />,
     href: Routes.ExcelTemplates,
+    external: false
+  },
+  {
+    title: 'Product Downloads',
+    description: 'Download free trials and samples of our software',
+    icon: <DownloadIcon className="size-5 shrink-0" />,
+    href: Routes.ProductDownloads,
     external: false
   },
   {

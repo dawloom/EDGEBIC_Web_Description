@@ -19,6 +19,7 @@ export enum Routes {
   Pricing = '/pricing',
   Blog = '/blog',
   News = '/news',
+  ProductDownloads = '/product-downloads',
   Story = '/story',
   Careers = '/careers',
   TermsOfUse = '/terms-of-use',
