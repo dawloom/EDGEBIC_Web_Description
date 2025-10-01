@@ -1,13 +1,26 @@
 import * as React from 'react';
 
 import { GridSection } from '@/components/marketing/fragments/grid-section';
+import { Button } from '@/components/ui/button';
 
 export function NTClipboardToolBox(): React.JSX.Element {
     return (
         <GridSection hideVerticalGridLines>
             <div className="container py-16">
                 <div className="mx-auto max-w-6xl">
-                    {/* Section Header */}
+                    {/* Section H                                        <div className="flex items-center gap-2">
+                                            <div className="size-2 rounded-full bg-orange-500" />
+                                            <span className="text-sm">Advanced Analytics</span>
+                                        </div>
+                                    </div>
+
+                                    <div className="mb-4">
+                                        <Button variant="outline" className="w-full border-orange-200 text-orange-700 hover:bg-orange-50 dark:border-orange-800 dark:text-orange-300 dark:hover:bg-orange-900/20">
+                                            View Details
+                                        </Button>
+                                    </div>
+
+                                    <div className="text-center">/}
                     <div className="mb-16 text-center">
                         <h2 className="mb-4 bg-gradient-to-r from-orange-500 to-red-500 bg-clip-text text-4xl font-bold text-transparent md:text-5xl">
                             What's in Your Scheduling Tool Box?
@@ -217,20 +230,221 @@ export function NTClipboardToolBox(): React.JSX.Element {
                         </div>
                     </div>
 
-                    {/* Bottom CTA Section */}
-                    <div className="mt-16 text-center">
-                        <div className="mx-auto max-w-3xl rounded-2xl bg-gradient-to-r from-orange-500 to-red-500 p-8 text-white">
-                            <h3 className="mb-4 text-2xl font-bold md:text-3xl">
+                    {/* Solutions for Every Business Size */}
+                    <div className="mt-20">
+                        <div className="mb-12 text-center">
+                            <h2 className="mb-4 text-3xl font-bold md:text-4xl">
                                 From Job Shops to SMBs to Multi-Nationals
-                            </h3>
-                            <p className="mb-6 text-lg opacity-90">
+                            </h2>
+                            <p className="text-xl text-muted-foreground">
                                 Solutions to fit any production scheduling application and
                                 budget
                             </p>
-                            <p className="text-lg font-medium">
-                                Stop fighting your current tools - let EDGEBIC transform your
-                                scheduling toolbox
-                            </p>
+                        </div>
+
+                        <div className="grid gap-8 md:grid-cols-3">
+                            {/* Starter - Job Shops */}
+                            <div className="group relative overflow-hidden rounded-3xl border bg-white shadow-lg transition-all hover:shadow-xl dark:bg-slate-900">
+                                {/* Price Badge */}
+                                <div className="absolute right-4 top-4 rounded-full bg-gradient-to-r from-blue-500 to-blue-600 px-4 py-2 text-sm font-bold text-white">
+                                    STARTER
+                                </div>
+
+                                <div className="p-8">
+                                    <div className="mb-6">
+                                        <div className="mb-4 flex items-center gap-3">
+                                            <h3 className="text-2xl font-bold text-blue-700 dark:text-blue-300">
+                                                Job Scheduler Lite
+                                            </h3>
+                                        </div>
+                                        <p className="mb-4 text-blue-600 dark:text-blue-400">
+                                            Perfect for Job Shops & Small Manufacturers
+                                        </p>
+                                    </div>
+
+                                    <div className="mb-6 space-y-3">
+                                        <div className="flex items-center gap-2">
+                                            <div className="size-2 rounded-full bg-blue-500" />
+                                            <span className="text-sm">Shop Scheduling Made Easy</span>
+                                        </div>
+                                        <div className="flex items-center gap-2">
+                                            <div className="size-2 rounded-full bg-blue-500" />
+                                            <span className="text-sm">Forward Scheduling</span>
+                                        </div>
+                                        <div className="flex items-center gap-2">
+                                            <div className="size-2 rounded-full bg-blue-500" />
+                                            <span className="text-sm">Finite Capacity</span>
+                                        </div>
+                                        <div className="flex items-center gap-2">
+                                            <div className="size-2 rounded-full bg-blue-500" />
+                                            <span className="text-sm">Free Trials Available</span>
+                                        </div>
+                                    </div>
+
+                                    <div className="mb-4">
+                                        <Button
+                                            variant="outline"
+                                            className="w-full border-blue-200 text-blue-700 hover:bg-blue-50 dark:border-blue-800 dark:text-blue-300 dark:hover:bg-blue-900/20"
+                                        >
+                                            View Details
+                                        </Button>
+                                    </div>
+
+                                    <div className="text-center">
+                                        <div className="mb-2 text-3xl font-bold text-blue-700 dark:text-blue-300">
+                                            $1,000+
+                                        </div>
+                                        <p className="text-sm text-muted-foreground">
+                                            Starting investment
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            {/* Advanced - SMBs */}
+                            <div className="group relative overflow-hidden rounded-3xl border border-orange-200 bg-white shadow-lg transition-all hover:shadow-xl dark:border-orange-800 dark:bg-slate-900">
+                                {/* Featured Badge */}
+                                <div className="absolute right-4 top-4 rounded-full bg-gradient-to-r from-orange-500 to-red-500 px-4 py-2 text-sm font-bold text-white">
+                                    POPULAR
+                                </div>
+
+                                <div className="p-8">
+                                    <div className="mb-6">
+                                        <div className="mb-4 flex items-center gap-3">
+                                            <h3 className="text-2xl font-bold text-orange-700 dark:text-orange-300">
+                                                Resource Manager DB
+                                            </h3>
+                                        </div>
+                                        <p className="mb-4 text-orange-600 dark:text-orange-400">
+                                            Ideal for Growing SMBs & Mid-Size Companies
+                                        </p>
+                                    </div>
+
+                                    <div className="mb-6 space-y-3">
+                                        <div className="flex items-center gap-2">
+                                            <div className="size-2 rounded-full bg-orange-500" />
+                                            <span className="text-sm">
+                                                Production Scheduling Your Way
+                                            </span>
+                                        </div>
+                                        <div className="flex items-center gap-2">
+                                            <div className="size-2 rounded-full bg-orange-500" />
+                                            <span className="text-sm">Flexible & Adaptable</span>
+                                        </div>
+                                        <div className="flex items-center gap-2">
+                                            <div className="size-2 rounded-full bg-orange-500" />
+                                            <span className="text-sm">
+                                                Easy APS & MRP Implementation
+                                            </span>
+                                        </div>
+                                        <div className="flex items-center gap-2">
+                                            <div className="size-2 rounded-full bg-orange-500" />
+                                            <span className="text-sm">Free Trials Available</span>
+                                        </div>
+                                        <div className="flex items-center gap-2">
+                                            <div className="size-2 rounded-full bg-orange-500" />
+                                            <span className="text-sm">Advanced Analytics</span>
+                                        </div>
+                                    </div>
+
+                                    <div className="mb-4">
+                                        <Button
+                                            variant="outline"
+                                            className="w-full border-orange-200 text-orange-700 hover:bg-orange-50 dark:border-orange-800 dark:text-orange-300 dark:hover:bg-orange-900/20"
+                                        >
+                                            View Details
+                                        </Button>
+                                    </div>
+
+                                    <div className="text-center">
+                                        <div className="mb-2 text-3xl font-bold text-orange-700 dark:text-orange-300">
+                                            $5,000+
+                                        </div>
+                                        <p className="text-sm text-muted-foreground">
+                                            Advanced solution
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            {/* Premium - Enterprise */}
+                            <div className="group relative overflow-hidden rounded-3xl border bg-white shadow-lg transition-all hover:shadow-xl dark:bg-slate-900">
+                                {/* Premium Badge */}
+                                <div className="absolute right-4 top-4 rounded-full bg-gradient-to-r from-purple-500 to-purple-600 px-4 py-2 text-sm font-bold text-white">
+                                    PREMIUM
+                                </div>
+
+                                <div className="p-8">
+                                    <div className="mb-6">
+                                        <div className="mb-4 flex items-center gap-3">
+                                            <h3 className="text-2xl font-bold text-purple-700 dark:text-purple-300">
+                                                EDGEBI Suite
+                                            </h3>
+                                        </div>
+                                        <p className="mb-4 text-purple-600 dark:text-purple-400">
+                                            Enterprise-Grade for Multi-Nationals
+                                        </p>
+                                    </div>
+
+                                    <div className="mb-6 space-y-3">
+                                        <div className="flex items-center gap-2">
+                                            <div className="size-2 rounded-full bg-purple-500" />
+                                            <span className="text-sm">Heat Map Reports</span>
+                                        </div>
+                                        <div className="flex items-center gap-2">
+                                            <div className="size-2 rounded-full bg-purple-500" />
+                                            <span className="text-sm">Schedule Key Dates</span>
+                                        </div>
+                                        <div className="flex items-center gap-2">
+                                            <div className="size-2 rounded-full bg-purple-500" />
+                                            <span className="text-sm">Live Embedded Excel</span>
+                                        </div>
+                                        <div className="flex items-center gap-2">
+                                            <div className="size-2 rounded-full bg-purple-500" />
+                                            <span className="text-sm">Advanced Drag & Drop</span>
+                                        </div>
+                                    </div>
+
+                                    <div className="mb-4">
+                                        <Button
+                                            variant="outline"
+                                            className="w-full border-purple-200 text-purple-700 hover:bg-purple-50 dark:border-purple-800 dark:text-purple-300 dark:hover:bg-purple-900/20"
+                                        >
+                                            View Details
+                                        </Button>
+                                    </div>
+
+                                    <div className="text-center">
+                                        <div className="mb-2 text-3xl font-bold text-purple-700 dark:text-purple-300">
+                                            $25,000+
+                                        </div>
+                                        <p className="text-sm text-muted-foreground">
+                                            Enterprise solution
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* Call to Action */}
+                        <div className="mt-12 text-center">
+                            <div className="mx-auto max-w-4xl rounded-3xl bg-gradient-to-br from-slate-50 to-slate-100 p-8 dark:from-slate-900 dark:to-slate-800">
+                                <h3 className="mb-4 text-2xl font-bold">
+                                    Start Growing with User Solutions
+                                </h3>
+                                <p className="mb-6 text-lg text-muted-foreground">
+                                    Production Planning and Scheduling Solutions for every
+                                    business size and budget
+                                </p>
+                                <div className="flex flex-wrap justify-center gap-4">
+                                    <button className="rounded-xl bg-gradient-to-r from-blue-500 to-blue-600 px-6 py-3 font-semibold text-white transition-all hover:from-blue-600 hover:to-blue-700">
+                                        Compare Products
+                                    </button>
+                                    <button className="rounded-xl border border-gray-300 bg-white px-6 py-3 font-semibold text-gray-700 transition-all hover:bg-gray-50 dark:border-gray-600 dark:bg-slate-800 dark:text-gray-300 dark:hover:bg-slate-700">
+                                        Schedule Demo
+                                    </button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
