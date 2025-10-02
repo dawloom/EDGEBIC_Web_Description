@@ -12,6 +12,7 @@ import { Logo } from '@/components/ui/logo';
 import {
   NavigationMenu,
   NavigationMenuContent,
+  NavigationMenuIndicator,
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
@@ -96,6 +97,7 @@ export function Navbar(): React.JSX.Element {
                             ))}
                           </ul>
                         </NavigationMenuContent>
+                        <NavigationMenuIndicator />
                       </NavigationMenuItem>
                     ) : (
                       <NavigationMenuItem key={index}>

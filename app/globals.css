@@ -126,4 +126,24 @@ input::-webkit-inner-spin-button {
 /* Firefox */
 input[type='number'] {
   -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+/* Custom animations */
+@keyframes gentle-glow {
+  0%,
+  100% {
+    box-shadow:
+      0 0 10px rgba(249, 115, 22, 0.5),
+      0 0 20px rgba(239, 68, 68, 0.3),
+      0 0 30px rgba(236, 72, 153, 0.2);
+    transform: scale(1);
+  }
+  50% {
+    box-shadow:
+      0 0 15px rgba(249, 115, 22, 0.7),
+      0 0 30px rgba(239, 68, 68, 0.5),
+      0 0 45px rgba(236, 72, 153, 0.3);
+    transform: scale(1.02);
+  }
 }

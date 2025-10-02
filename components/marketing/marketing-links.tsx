@@ -80,6 +80,58 @@ export const MENU_LINKS = [
         icon: <FileTextIcon className="size-5 shrink-0" />,
         href: Routes.History,
         external: false
+      },
+      {
+        title: 'Partners',
+        description: 'Our manufacturing software partners',
+        icon: <HandshakeIcon className="size-5 shrink-0" />,
+        href: Routes.Partners,
+        external: false
+      }
+    ]
+  },
+  {
+    title: 'Products',
+    items: [
+      {
+        title: 'Product Downloads',
+        description: 'Download free trials and samples of our software',
+        icon: <DownloadIcon className="size-5 shrink-0" />,
+        href: Routes.ProductDownloads,
+        external: false
+      },
+      {
+        title: 'Product Videos',
+        description: 'Watch software demonstrations and tutorials',
+        icon: <MonitorIcon className="size-5 shrink-0" />,
+        href: Routes.ProductVideos,
+        external: false
+      },
+      {
+        title: 'Excel Templates',
+        description: 'Excel applications for manufacturing scheduling',
+        icon: <FileTextIcon className="size-5 shrink-0" />,
+        href: Routes.ExcelTemplates,
+        external: false
+      }
+    ]
+  },
+  {
+    title: 'Resources',
+    items: [
+      {
+        title: 'Resource Management',
+        description: 'Resource management insights and best practices',
+        icon: <BookIcon className="size-5 shrink-0" />,
+        href: Routes.ResourceManagement,
+        external: false
+      },
+      {
+        title: 'News',
+        description: 'Latest news, press releases, and media coverage',
+        icon: <NewspaperIcon className="size-5 shrink-0" />,
+        href: Routes.News,
+        external: false
       }
     ]
   },
@@ -105,52 +157,10 @@ export const MENU_LINKS = [
     external: false
   },
   {
-    title: 'Partners',
-    description: 'Our manufacturing software partners',
-    icon: <HandshakeIcon className="size-5 shrink-0" />,
-    href: Routes.Partners,
-    external: false
-  },
-  {
     title: 'Success Stories',
     description: 'Customer testimonials and case studies',
     icon: <ZapIcon className="size-5 shrink-0" />,
     href: Routes.SuccessStories,
-    external: false
-  },
-  {
-    title: 'Excel Templates',
-    description: 'Excel applications for manufacturing scheduling',
-    icon: <FileTextIcon className="size-5 shrink-0" />,
-    href: Routes.ExcelTemplates,
-    external: false
-  },
-  {
-    title: 'Product Downloads',
-    description: 'Download free trials and samples of our software',
-    icon: <DownloadIcon className="size-5 shrink-0" />,
-    href: Routes.ProductDownloads,
-    external: false
-  },
-  {
-    title: 'Product Videos',
-    description: 'Watch software demonstrations and tutorials',
-    icon: <MonitorIcon className="size-5 shrink-0" />,
-    href: Routes.ProductVideos,
-    external: false
-  },
-  {
-    title: 'Resource Management',
-    description: 'Resource management insights and best practices',
-    icon: <BookIcon className="size-5 shrink-0" />,
-    href: Routes.ResourceManagement,
-    external: false
-  },
-  {
-    title: 'News',
-    description: 'Latest news, press releases, and media coverage',
-    icon: <NewspaperIcon className="size-5 shrink-0" />,
-    href: Routes.News,
     external: false
   }
   // {
