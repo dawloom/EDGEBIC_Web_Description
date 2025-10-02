@@ -9,7 +9,7 @@ import { SiteHeading } from '@/components/marketing/fragments/site-heading';
 export function NTClipboardSolutionsPortfolio(): React.JSX.Element {
     return (
         <GridSection hideVerticalGridLines>
-            <div className="container py-6">
+            <div className="container pt-12">
                 <SiteHeading
                     badge="Solutions Portfolio"
                     title="User Driven Solutions"

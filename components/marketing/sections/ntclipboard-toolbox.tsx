@@ -1,4 +1,5 @@
 import * as React from 'react';
+import Link from 'next/link';
 
 import { GridSection } from '@/components/marketing/fragments/grid-section';
 import { Button } from '@/components/ui/button';
@@ -285,8 +286,15 @@ export function NTClipboardToolBox(): React.JSX.Element {
                                         <Button
                                             variant="outline"
                                             className="w-full border-blue-200 text-blue-700 hover:bg-blue-50 dark:border-blue-800 dark:text-blue-300 dark:hover:bg-blue-900/20"
+                                            asChild
                                         >
-                                            View Details
+                                            <Link
+                                                href="/job-scheduler-lite"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                View Details
+                                            </Link>
                                         </Button>
                                     </div>
 

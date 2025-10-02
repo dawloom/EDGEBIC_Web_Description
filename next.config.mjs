@@ -79,6 +79,11 @@ const nextConfig = {
   async redirects() {
     return [
       {
+        source: '/jsl-job-scheduler-lite',
+        destination: '/job-scheduler-lite',
+        permanent: false
+      },
+      {
         source: '/auth',
         destination: '/auth/login',
         permanent: false
