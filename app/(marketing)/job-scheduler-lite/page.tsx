@@ -24,7 +24,17 @@ export default function JobSchedulerLitePage(): React.JSX.Element {
                         and small manufacturers
                     </p>
                     <div className="mb-4 flex flex-wrap justify-center gap-4">
-                        <Button size="lg">Download Free Trial</Button>
+                        <Button
+                            size="lg"
+                            asChild
+                        >
+                            <a
+                                href="https://www.usersolutions.com/wp-content/uploads/2022/10/JSLsetup.zip"
+                                download="JSLsetup.zip"
+                            >
+                                Download Free Trial
+                            </a>
+                        </Button>
                     </div>
                 </div>
 
@@ -60,25 +70,113 @@ export default function JobSchedulerLitePage(): React.JSX.Element {
                 <Card className="mb-16">
                     <CardHeader className="text-center">
                         <CardTitle className="text-3xl">See JSL in Action</CardTitle>
+                        <p className="text-muted-foreground">
+                            Watch how Job Scheduler Lite simplifies production scheduling
+                        </p>
                     </CardHeader>
                     <CardContent>
-                        <div className="grid gap-8 md:grid-cols-2">
+                        <div className="grid gap-8 md:grid-cols-1 lg:grid-cols-2">
+                            {/* Video Section */}
+                            <div className="overflow-hidden rounded-lg shadow-lg">
+                                <div className="relative aspect-video w-full">
+                                    {/* Replace with actual video URL when available */}
+                                    <iframe
+                                        src="https://www.usersolutions.com/wp-content/uploads/2022/10/Welcome-to-Job-Scheduler-Lite-JSL.mp4"
+                                        title="Job Scheduler Lite (JSL) Demo Video"
+                                        className="absolute inset-0 size-full rounded-lg"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowFullScreen
+                                    />
+                                </div>
+                            </div>
+
+                            {/* Video Description */}
+                            <div className="flex flex-col justify-center">
+                                <h3 className="mb-4 text-2xl font-semibold">
+                                    Complete JSL Walkthrough
+                                </h3>
+                                <p className="mb-4 text-muted-foreground">
+                                    Watch this comprehensive demonstration of Job Scheduler Lite's
+                                    key features:
+                                </p>
+                                <ul className="mb-6 space-y-2 text-muted-foreground">
+                                    <li className="flex items-center gap-2">
+                                        <div className="size-2 rounded-full bg-blue-500" />
+                                        Interactive menu navigation
+                                    </li>
+                                    <li className="flex items-center gap-2">
+                                        <div className="size-2 rounded-full bg-blue-500" />
+                                        Data import from Excel
+                                    </li>
+                                    <li className="flex items-center gap-2">
+                                        <div className="size-2 rounded-full bg-blue-500" />
+                                        Forward/Reverse scheduling
+                                    </li>
+                                    <li className="flex items-center gap-2">
+                                        <div className="size-2 rounded-full bg-blue-500" />
+                                        Capacity planning setup
+                                    </li>
+                                    <li className="flex items-center gap-2">
+                                        <div className="size-2 rounded-full bg-blue-500" />
+                                        InSights and reporting
+                                    </li>
+                                </ul>
+                                <Button
+                                    className="w-fit"
+                                    asChild
+                                >
+                                    <a
+                                        href="https://www.usersolutions.com/wp-content/uploads/2022/10/JSLsetup.zip"
+                                        download="JSLsetup.zip"
+                                    >
+                                        Download Free Trial
+                                    </a>
+                                </Button>
+                            </div>
+                        </div>
+
+                        {/* Additional Screenshots Row */}
+                        <div className="mt-8 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
                             <div className="overflow-hidden rounded-lg shadow-lg">
                                 <img
                                     src="https://www.usersolutions.com/wp-content/uploads/2022/10/mnn.jpeg"
                                     alt="JSL software menu options and interface"
-                                    className="h-[400px] w-full"
+                                    className="h-[200px] w-full object-cover"
                                 />
+                                <div className="p-3">
+                                    <h4 className="text-sm font-semibold">Menu System</h4>
+                                    <p className="text-xs text-muted-foreground">
+                                        Intuitive navigation
+                                    </p>
+                                </div>
                             </div>
-                            <div className="flex flex-col justify-center">
-                                <h3 className="mb-4 text-2xl font-semibold">
-                                    Interactive Menu System
-                                </h3>
-                                <p className="mb-6 text-muted-foreground">
-                                    Navigate through JSL's intuitive menu system with simple,
-                                    familiar interface elements. Global and detailed workcenter
-                                    configuration can be applied instantly.
-                                </p>
+
+                            <div className="overflow-hidden rounded-lg shadow-lg">
+                                <img
+                                    src="https://www.usersolutions.com/wp-content/uploads/2022/10/insight-1.png"
+                                    alt="JSL InSights scheduling interface"
+                                    className="h-[200px] w-full object-cover"
+                                />
+                                <div className="p-3">
+                                    <h4 className="text-sm font-semibold">InSights View</h4>
+                                    <p className="text-xs text-muted-foreground">
+                                        Visual scheduling
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div className="overflow-hidden rounded-lg shadow-lg md:col-span-2 lg:col-span-1">
+                                <img
+                                    src="https://www.usersolutions.com/wp-content/uploads/2022/10/schdle.png"
+                                    alt="JSL scheduling interface"
+                                    className="h-[200px] w-full object-cover"
+                                />
+                                <div className="p-3">
+                                    <h4 className="text-sm font-semibold">Scheduling Engine</h4>
+                                    <p className="text-xs text-muted-foreground">
+                                        Capacity planning
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </CardContent>
@@ -295,8 +393,16 @@ export default function JobSchedulerLitePage(): React.JSX.Element {
                             production planning needs
                         </p>
                         <div className="mb-4 flex flex-wrap justify-center gap-4">
-                            <Button className="bg-gray-100 text-black hover:bg-gray-100">
-                                Download Free Trial
+                            <Button
+                                className="bg-gray-100 text-black hover:bg-gray-100"
+                                asChild
+                            >
+                                <a
+                                    href="https://www.usersolutions.com/wp-content/uploads/2022/10/JSLsetup.zip"
+                                    download="JSLsetup.zip"
+                                >
+                                    Download Free Trial
+                                </a>
                             </Button>
                             <Button className="bg-gray-100 text-black hover:bg-gray-100">
                                 Contact Sales: 248.486.6365
