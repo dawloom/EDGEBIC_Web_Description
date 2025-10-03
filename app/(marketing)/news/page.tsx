@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
 
+import { SiteHeading } from '@/components/marketing/fragments/site-heading';
 import { createTitle } from '@/lib/utils';
 
 export const metadata: Metadata = {
@@ -13,16 +14,14 @@ export const metadata: Metadata = {
 
 export default function NewsPage(): React.JSX.Element {
     return (
-        <div className="container mx-auto px-4 py-20">
+        <div className="container mx-auto px-4 pt-6">
             {/* Header Section */}
             <div className="mb-16 text-center">
-                <h1 className="mb-6 text-4xl font-bold">News</h1>
-                <p className="mx-auto max-w-4xl text-lg text-muted-foreground">
-                    View User Solutions' press announcements and media coverage to stay
-                    up-to-date on our innovative production planning and scheduling
-                    solutions and how they can help manufacturers become more competitive
-                    and profitable through efficient resource management.
-                </p>
+                <SiteHeading
+                    badge="Latest News"
+                    title="News"
+                    description="View User Solutions' press announcements and media coverage to stay up-to-date on our innovative production planning and scheduling solutions and how they can help manufacturers become more competitive and profitable through efficient resource management."
+                />
             </div>
 
             {/* Sample Media Coverage Section */}

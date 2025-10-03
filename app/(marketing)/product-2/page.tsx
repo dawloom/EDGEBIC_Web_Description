@@ -15,6 +15,7 @@ import {
 } from 'lucide-react';
 
 import { GridSection } from '@/components/marketing/fragments/grid-section';
+import { SiteHeading } from '@/components/marketing/fragments/site-heading';
 import { Button } from '@/components/ui/button';
 
 export default function Product2Page(): React.JSX.Element {
@@ -136,25 +137,14 @@ export default function Product2Page(): React.JSX.Element {
         <div className="min-h-screen bg-white dark:bg-slate-950">
             {/* Hero Section */}
             <GridSection hideVerticalGridLines>
-                <div className="container pt-12">
+                <div className="container pt-6">
                     <div className="mx-auto max-w-6xl">
                         <div className="mb-16 text-center">
-                            <div className="mb-4 inline-flex h-8 items-center rounded-full border px-3 py-0.5 text-sm font-medium text-foreground shadow-sm transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2">
-                                Product Comparison
-                            </div>
-                            <h1 className="mb-6 text-5xl font-bold text-slate-900 dark:text-white md:text-7xl">
-                                Production Planning and Scheduling Solutions
-                            </h1>
-                            <p className="mb-8 text-xl text-muted-foreground">
-                                Contact US to discuss which product is the best fit for your
-                                application and budget.
-                            </p>
-                            <p className="text-lg text-muted-foreground">
-                                From a simple Excel based job shop scheduling application to
-                                Advanced Planning and Scheduling software (APS) that works
-                                either standalone or integrates with your ERP, we look forward
-                                to resolving your manufacturing scheduling challenges.
-                            </p>
+                            <SiteHeading
+                                badge="Product Comparison"
+                                title="Production Planning and Scheduling Solutions"
+                                description="Contact US to discuss which product is the best fit for your application and budget. From a simple Excel based job shop scheduling application to Advanced Planning and Scheduling software (APS) that works either standalone or integrates with your ERP, we look forward to resolving your manufacturing scheduling challenges."
+                            />
                         </div>
                     </div>
                 </div>

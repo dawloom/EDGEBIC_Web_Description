@@ -198,7 +198,7 @@ export function NTClipboardVideo({
   return (
     <GridSection hideVerticalGridLines>
       <div>
-        <div className=" pt-12">
+        <div className=" pt-6">
           <div className="mx-auto max-w-6xl text-center">
             {/* Header Badge */}
             <div className="mb-4 flex justify-center">

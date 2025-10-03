@@ -3,13 +3,7 @@
 import * as React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import {
-    Award,
-    CheckCircle,
-    ExternalLink,
-    Star,
-    X
-} from 'lucide-react';
+import { Award, CheckCircle, ExternalLink, Star, X } from 'lucide-react';
 
 import { GridSection } from '@/components/marketing/fragments/grid-section';
 import { Button } from '@/components/ui/button';
@@ -39,7 +33,8 @@ export default function CompareProductsPage(): React.JSX.Element {
             tier: 'Starter',
             price: '$1,000+',
             description: 'Perfect for Job Shops & Small Manufacturers',
-            image: 'https://www.usersolutions.com/wp-content/uploads/2022/10/starter.png',
+            image:
+                'https://www.usersolutions.com/wp-content/uploads/2022/10/starter.png',
             link: '/job-scheduler-lite',
             features: {
                 'Shop Scheduling': false,
@@ -48,7 +43,7 @@ export default function CompareProductsPage(): React.JSX.Element {
                 'Finite Capacity': false,
                 'MRP/BOM': false,
                 'Multi-user': false,
-                'Security': false,
+                Security: false,
                 'SQL Database': false,
                 'Advanced Drag & Drop': false,
                 'Heat Map Reports': false,
@@ -64,7 +59,8 @@ export default function CompareProductsPage(): React.JSX.Element {
             tier: 'Advanced',
             price: '$5,000+',
             description: 'Ideal for Growing SMBs & Mid-Size Companies',
-            image: 'https://www.usersolutions.com/wp-content/uploads/2022/11/advanced-1.png',
+            image:
+                'https://www.usersolutions.com/wp-content/uploads/2022/11/advanced-1.png',
             link: '/resource-manager-db-2',
             features: {
                 'Shop Scheduling': true,
@@ -73,7 +69,7 @@ export default function CompareProductsPage(): React.JSX.Element {
                 'Finite Capacity': true,
                 'MRP/BOM': true,
                 'Multi-user': true,
-                'Security': true,
+                Security: true,
                 'SQL Database': true,
                 'Advanced Drag & Drop': false,
                 'Heat Map Reports': false,
@@ -89,7 +85,8 @@ export default function CompareProductsPage(): React.JSX.Element {
             tier: 'Premium',
             price: '$25,000+',
             description: 'Enterprise-Grade for Multi-Nationals',
-            image: 'https://www.usersolutions.com/wp-content/uploads/2022/11/Premium-1.png',
+            image:
+                'https://www.usersolutions.com/wp-content/uploads/2022/11/Premium-1.png',
             link: '/edgebi',
             features: {
                 'Shop Scheduling': true,
@@ -98,7 +95,7 @@ export default function CompareProductsPage(): React.JSX.Element {
                 'Finite Capacity': true,
                 'MRP/BOM': true,
                 'Multi-user': true,
-                'Security': true,
+                Security: true,
                 'SQL Database': true,
                 'Advanced Drag & Drop': true,
                 'Heat Map Reports': true,
@@ -113,19 +110,19 @@ export default function CompareProductsPage(): React.JSX.Element {
 
     const testimonials = [
         {
-            quote: "Best choice for MRP and project management software",
-            company: "Sleepmaster Ltd",
-            link: "/sleepmaster-ltd"
+            quote: 'Best choice for MRP and project management software',
+            company: 'Sleepmaster Ltd',
+            link: '/sleepmaster-ltd'
         },
         {
-            quote: "Manufacturing scheduling software with fantastic support",
-            company: "Cook Compression",
-            link: "/cook-compression"
+            quote: 'Manufacturing scheduling software with fantastic support',
+            company: 'Cook Compression',
+            link: '/cook-compression'
         },
         {
-            quote: "Easy ERP add-on for manufacturing resource planning",
-            company: "Incon Incorporated",
-            link: "/incon-incorporate"
+            quote: 'Easy ERP add-on for manufacturing resource planning',
+            company: 'Incon Incorporated',
+            link: '/incon-incorporate'
         }
     ];
 
@@ -133,7 +130,7 @@ export default function CompareProductsPage(): React.JSX.Element {
         <div className="min-h-screen bg-white dark:bg-slate-950">
             {/* Hero Section */}
             <GridSection hideVerticalGridLines>
-                <div className="container pt-12">
+                <div className="container pt-6">
                     <div className="mx-auto max-w-6xl">
                         {/* Hero Header */}
                         <div className="mb-16 text-center">
@@ -141,11 +138,14 @@ export default function CompareProductsPage(): React.JSX.Element {
                                 Production Planning and Scheduling Solutions
                             </h1>
                             <p className="mb-8 text-xl text-muted-foreground">
-                                Contact us to discuss which product is the best fit for your application and budget
+                                Contact us to discuss which product is the best fit for your
+                                application and budget
                             </p>
                             <p className="text-lg text-muted-foreground">
-                                From a simple Excel based job shop scheduling application to Advanced Planning and Scheduling software (APS) 
-                                that works either standalone or integrates with your ERP, we look forward to resolving your manufacturing scheduling challenges.
+                                From a simple Excel based job shop scheduling application to
+                                Advanced Planning and Scheduling software (APS) that works
+                                either standalone or integrates with your ERP, we look forward
+                                to resolving your manufacturing scheduling challenges.
                             </p>
                         </div>
                     </div>
@@ -173,7 +173,10 @@ export default function CompareProductsPage(): React.JSX.Element {
                                         <span className="text-lg font-semibold">Features</span>
                                     </th>
                                     {products.map((product, index) => (
-                                        <th key={index} className="border-r border-slate-200 p-6 text-center last:border-r-0 dark:border-slate-700">
+                                        <th
+                                            key={index}
+                                            className="border-r border-slate-200 p-6 text-center last:border-r-0 dark:border-slate-700"
+                                        >
                                             <div className="space-y-4">
                                                 <Image
                                                     src={product.image}
@@ -186,10 +189,20 @@ export default function CompareProductsPage(): React.JSX.Element {
                                                     <div className="mb-1 text-sm font-semibold uppercase tracking-wide text-muted-foreground">
                                                         {product.tier}
                                                     </div>
-                                                    <h3 className="mb-2 text-lg font-bold">{product.name}</h3>
-                                                    <p className="mb-3 text-sm text-muted-foreground">{product.description}</p>
-                                                    <div className="mb-4 text-2xl font-bold">{product.price}</div>
-                                                    <Button variant="outline" size="sm" asChild>
+                                                    <h3 className="mb-2 text-lg font-bold">
+                                                        {product.name}
+                                                    </h3>
+                                                    <p className="mb-3 text-sm text-muted-foreground">
+                                                        {product.description}
+                                                    </p>
+                                                    <div className="mb-4 text-2xl font-bold">
+                                                        {product.price}
+                                                    </div>
+                                                    <Button
+                                                        variant="outline"
+                                                        size="sm"
+                                                        asChild
+                                                    >
                                                         <Link href={product.link}>
                                                             Details
                                                             <ExternalLink className="ml-2 size-4" />
@@ -203,12 +216,18 @@ export default function CompareProductsPage(): React.JSX.Element {
                             </thead>
                             <tbody>
                                 {features.map((feature, featureIndex) => (
-                                    <tr key={featureIndex} className="border-b border-slate-200 last:border-b-0 dark:border-slate-700">
+                                    <tr
+                                        key={featureIndex}
+                                        className="border-b border-slate-200 last:border-b-0 dark:border-slate-700"
+                                    >
                                         <td className="border-r border-slate-200 p-4 font-medium dark:border-slate-700">
                                             {feature}
                                         </td>
                                         {products.map((product, productIndex) => (
-                                            <td key={productIndex} className="border-r border-slate-200 p-4 text-center last:border-r-0 dark:border-slate-700">
+                                            <td
+                                                key={productIndex}
+                                                className="border-r border-slate-200 p-4 text-center last:border-r-0 dark:border-slate-700"
+                                            >
                                                 {product.features[feature] ? (
                                                     <CheckCircle className="mx-auto size-5 text-green-600" />
                                                 ) : (
@@ -244,7 +263,10 @@ export default function CompareProductsPage(): React.JSX.Element {
                             >
                                 <div className="mb-4 flex">
                                     {[...Array(5)].map((_, i) => (
-                                        <Star key={i} className="size-5 fill-yellow-400 text-yellow-400" />
+                                        <Star
+                                            key={i}
+                                            className="size-5 fill-yellow-400 text-yellow-400"
+                                        />
                                     ))}
                                 </div>
                                 <blockquote className="mb-4 text-lg font-medium">
@@ -254,7 +276,11 @@ export default function CompareProductsPage(): React.JSX.Element {
                                     <cite className="font-semibold not-italic">
                                         — {testimonial.company}
                                     </cite>
-                                    <Button variant="ghost" size="sm" asChild>
+                                    <Button
+                                        variant="ghost"
+                                        size="sm"
+                                        asChild
+                                    >
                                         <Link href={testimonial.link}>
                                             Read More
                                             <ExternalLink className="ml-2 size-4" />
@@ -273,18 +299,22 @@ export default function CompareProductsPage(): React.JSX.Element {
                     <div className="rounded-2xl border bg-slate-50 p-8 dark:bg-slate-800">
                         <h2 className="mb-4 text-3xl font-bold">Ready to Get Started?</h2>
                         <p className="mb-6 text-lg text-muted-foreground">
-                            Schedule a Live Demo Today! Choose the product that best suits your company's needs.
+                            Schedule a Live Demo Today! Choose the product that best suits
+                            your company's needs.
                         </p>
                         <div className="flex flex-wrap justify-center gap-4">
-                            <Button size="lg" asChild>
-                                <Link href="/contact">
-                                    Schedule Demo
-                                </Link>
+                            <Button
+                                size="lg"
+                                asChild
+                            >
+                                <Link href="/contact">Schedule Demo</Link>
                             </Button>
-                            <Button size="lg" variant="outline" asChild>
-                                <Link href="/product-downloads">
-                                    Free Trial & Sample
-                                </Link>
+                            <Button
+                                size="lg"
+                                variant="outline"
+                                asChild
+                            >
+                                <Link href="/product-downloads">Free Trial & Sample</Link>
                             </Button>
                         </div>
                     </div>

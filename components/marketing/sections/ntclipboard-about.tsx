@@ -84,7 +84,7 @@ export function NTClipboardAbout(): React.JSX.Element {
 
     return (
         <GridSection hideVerticalGridLines>
-            <div className="container pt-12">
+            <div className="container pt-6">
                 <SiteHeading
                     badge="About Us"
                     title="Providing Advanced Planning Scheduling and Tracking Software"

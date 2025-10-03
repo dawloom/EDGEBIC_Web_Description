@@ -94,7 +94,7 @@ export function NTClipboardCoreValues(): React.JSX.Element {
                                 className={`rounded-3xl border bg-gradient-to-br p-8 ${value.color}`}
                             >
                                 <div
-                                    className={`mb-6 inline-flex items-center justify-center rounded-full p-3 ${value.iconBg}`}
+                                    className={`mb-4 inline-flex items-center justify-center rounded-full p-3 ${value.iconBg}`}
                                 >
                                     <div className={value.iconColor}>{value.icon}</div>
                                 </div>

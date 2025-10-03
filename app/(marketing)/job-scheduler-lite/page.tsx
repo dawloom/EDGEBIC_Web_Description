@@ -8,7 +8,7 @@ export default function JobSchedulerLitePage(): React.JSX.Element {
     return (
         <div className="min-h-screen">
             {/* Content */}
-            <div className="container mx-auto px-4 pt-12">
+            <div className="container mx-auto px-4 pt-6">
                 <div className="mx-auto max-w-6xl">
                     {/* Hero Section */}
                     <div className="mb-8 text-center">

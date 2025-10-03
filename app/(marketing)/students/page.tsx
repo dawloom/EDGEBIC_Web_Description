@@ -28,6 +28,7 @@ import {
 } from 'lucide-react';
 
 import { GridSection } from '@/components/marketing/fragments/grid-section';
+import { SiteHeading } from '@/components/marketing/fragments/site-heading';
 import { Button } from '@/components/ui/button';
 
 export default function StudentsPage(): React.JSX.Element {
@@ -135,25 +136,20 @@ export default function StudentsPage(): React.JSX.Element {
         <div className="min-h-screen bg-white dark:bg-slate-950">
             {/* Hero Section */}
             <GridSection hideVerticalGridLines>
-                <div className="container pt-12">
+                <div className="container pt-6">
                     <div className="mx-auto max-w-6xl">
                         {/* Hero Header */}
                         <div className="mb-16 text-center">
-                            <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-slate-100 px-4 py-2 text-sm font-semibold text-slate-700 dark:bg-slate-800 dark:text-slate-300">
-                                <GraduationCap className="size-4" />
-                                STUDENT RESOURCES
-                            </div>
-                            <h1 className="mb-6 text-5xl font-bold text-slate-900 dark:text-white md:text-7xl">
-                                Resource Manager For Excel
-                            </h1>
-                            <p className="mb-6 text-xl text-muted-foreground md:text-2xl">
-                                MRP and Shop Scheduling on a flexible and powerful platform
-                            </p>
-                            <p className="mb-8 text-lg text-muted-foreground">
-                                Ambitious Operations Management students can use RMX to gain
-                                valuable hands-on experience in mastering important skills in
-                                many areas of Manufacturing Planning, Scheduling, and Execution.
-                            </p>
+                            <SiteHeading
+                                badge={
+                                    <>
+                                        <GraduationCap className="size-4" />
+                                        STUDENT RESOURCES
+                                    </>
+                                }
+                                title="Resource Manager For Excel"
+                                description="MRP and Shop Scheduling on a flexible and powerful platform. Ambitious Operations Management students can use RMX to gain valuable hands-on experience in mastering important skills in many areas of Manufacturing Planning, Scheduling, and Execution."
+                            />
                             <div className="flex flex-wrap justify-center gap-4">
                                 <Button size="lg">
                                     <Link

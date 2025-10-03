@@ -19,7 +19,7 @@ export function Contact(): React.JSX.Element {
   return (
     <GridSection>
       <div className="container m-auto space-y-20 py-20 text-center">
-        {/* <SiteHeading
+        <SiteHeading
           badge="Contact"
           title={
             <>
@@ -27,7 +27,7 @@ export function Contact(): React.JSX.Element {
               <br /> from you!
             </>
           }
-        /> */}
+        />
         <div className="container m-auto">
           <div className="flex flex-col justify-between gap-10 text-center lg:flex-row lg:gap-20">
             {/* <div className="order-2 space-y-8 text-center lg:order-1 lg:w-1/2 lg:text-left"> */}

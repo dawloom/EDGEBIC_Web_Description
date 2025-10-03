@@ -33,6 +33,7 @@ import {
 } from 'lucide-react';
 
 import { GridSection } from '@/components/marketing/fragments/grid-section';
+import { SiteHeading } from '@/components/marketing/fragments/site-heading';
 import { Button } from '@/components/ui/button';
 
 // Video Player Component
@@ -252,7 +253,7 @@ export default function ResourceManagerDBPage(): React.JSX.Element {
 
             {/* Hero Section */}
             <GridSection hideVerticalGridLines>
-                <div className="container pt-12">
+                <div className="container pt-6">
                     <div className="mx-auto max-w-6xl">
                         {/* Navigation Pills */}
                         {/* <div className="mb-12 flex flex-wrap justify-center gap-3">
@@ -278,20 +279,11 @@ export default function ResourceManagerDBPage(): React.JSX.Element {
 
                         {/* Hero Header */}
                         <div className="mb-16 text-center">
-                            <h1 className="mb-6 bg-gradient-to-r from-orange-500 to-red-500 bg-clip-text text-5xl font-bold text-transparent md:text-7xl">
-                                Resource Manager DB
-                            </h1>
-                            <p className="mb-6 text-xl text-muted-foreground md:text-2xl">
-                                Resource Manager-DB (RMDB) is a flexible and affordable
-                                production planning, scheduling, and tracking solution that is
-                                designed to adapt to your operations.
-                            </p>
-                            <p className="mb-8 text-lg text-muted-foreground">
-                                We can work with whatever data you have to achieve better
-                                production scheduling, just easier and quicker than you ever
-                                thought possible. Give US a chance to prove it by scheduling a
-                                Live Demo today!
-                            </p>
+                            <SiteHeading
+                                badge="Production Planning"
+                                title="Resource Manager DB"
+                                description="Resource Manager-DB (RMDB) is a flexible and affordable production planning, scheduling, and tracking solution that is designed to adapt to your operations. We can work with whatever data you have to achieve better production scheduling, just easier and quicker than you ever thought possible. Give US a chance to prove it by scheduling a Live Demo today!"
+                            />
                         </div>
 
                         {/* Video Section */}

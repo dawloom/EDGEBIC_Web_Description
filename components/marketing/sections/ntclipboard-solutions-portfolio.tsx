@@ -9,7 +9,7 @@ import { SiteHeading } from '@/components/marketing/fragments/site-heading';
 export function NTClipboardSolutionsPortfolio(): React.JSX.Element {
     return (
         <GridSection hideVerticalGridLines>
-            <div className="container pt-12">
+            <div className="container pt-6">
                 <SiteHeading
                     badge="Solutions Portfolio"
                     title="User Driven Solutions"
@@ -20,7 +20,7 @@ export function NTClipboardSolutionsPortfolio(): React.JSX.Element {
                     <div className="grid gap-4 md:grid-cols-2">
                         {/* Production Planning Solutions */}
                         <div className="rounded-3xl border bg-gradient-to-br from-blue-50 to-indigo-50 p-8 dark:from-blue-900/20 dark:to-indigo-900/20">
-                            <div className="mb-6 inline-flex items-center gap-2 rounded-full bg-blue-100 px-4 py-2 text-sm font-medium text-blue-800 dark:bg-blue-900/50 dark:text-blue-200">
+                            <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-blue-100 px-4 py-2 text-sm font-medium text-blue-800 dark:bg-blue-900/50 dark:text-blue-200">
                                 <Factory className="size-4" />
                                 Production Planning
                             </div>
@@ -41,7 +41,7 @@ export function NTClipboardSolutionsPortfolio(): React.JSX.Element {
 
                         {/* Quality Management Solutions */}
                         <div className="rounded-3xl border bg-gradient-to-br from-green-50 to-emerald-50 p-8 dark:from-green-900/20 dark:to-emerald-900/20">
-                            <div className="mb-6 inline-flex items-center gap-2 rounded-full bg-green-100 px-4 py-2 text-sm font-medium text-green-800 dark:bg-green-900/50 dark:text-green-200">
+                            <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-green-100 px-4 py-2 text-sm font-medium text-green-800 dark:bg-green-900/50 dark:text-green-200">
                                 <Settings className="size-4" />
                                 Quality Management
                             </div>
@@ -62,7 +62,7 @@ export function NTClipboardSolutionsPortfolio(): React.JSX.Element {
 
                         {/* Inventory Management Solutions */}
                         <div className=" rounded-3xl border bg-gradient-to-br from-purple-50 to-violet-50 p-8 dark:from-purple-900/20 dark:to-violet-900/20">
-                            <div className="mb-6 inline-flex items-center gap-2 rounded-full bg-purple-100 px-4 py-2 text-sm font-medium text-purple-800 dark:bg-purple-900/50 dark:text-purple-200">
+                            <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-purple-100 px-4 py-2 text-sm font-medium text-purple-800 dark:bg-purple-900/50 dark:text-purple-200">
                                 <Briefcase className="size-4" />
                                 Inventory Management
                             </div>
@@ -83,7 +83,7 @@ export function NTClipboardSolutionsPortfolio(): React.JSX.Element {
 
                         {/* Custom Integration Solutions */}
                         <div className="rounded-3xl border bg-gradient-to-br from-orange-50 to-red-50 p-8 dark:from-orange-900/20 dark:to-red-900/20">
-                            <div className="mb-6 inline-flex items-center gap-2 rounded-full bg-orange-100 px-4 py-2 text-sm font-medium text-orange-800 dark:bg-orange-900/50 dark:text-orange-200">
+                            <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-orange-100 px-4 py-2 text-sm font-medium text-orange-800 dark:bg-orange-900/50 dark:text-orange-200">
                                 <Wrench className="size-4" />
                                 Custom Integration
                             </div>

@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 
 export default function ProductDownloadsPage(): React.JSX.Element {
     return (
-        <div className="container mx-auto px-4 pt-12">
+        <div className="container mx-auto px-4 pt-6">
             {/* Product Downloads Badge */}
             <div className="mb-8 text-center">
                 <Badge

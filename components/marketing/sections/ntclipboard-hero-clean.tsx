@@ -90,7 +90,7 @@ export async function NTClipboardHero(): Promise<React.JSX.Element> {
           transition={{ duration: 0.6 }}
           className="text-center"
         >
-          <div className="mb-6 inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-orange-100 to-red-100 px-4 py-2 text-sm font-medium text-orange-800 dark:from-orange-900/30 dark:to-red-900/30 dark:text-orange-200">
+          <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-orange-100 to-red-100 px-4 py-2 text-sm font-medium text-orange-800 dark:from-orange-900/30 dark:to-red-900/30 dark:text-orange-200">
             <ClipboardIcon className="size-4" />
             Revolutionary PDF Workflow Tool
           </div>

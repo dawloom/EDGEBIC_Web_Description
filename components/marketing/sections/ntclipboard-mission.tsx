@@ -18,7 +18,7 @@ export function NTClipboardMission(): React.JSX.Element {
         <GridSection hideVerticalGridLines>
             <div
                 id="mission"
-                className="container pt-12"
+                className="container pt-6"
             >
                 <SiteHeading
                     badge="Our Mission"
@@ -33,7 +33,7 @@ export function NTClipboardMission(): React.JSX.Element {
                         id="mission-statement"
                         className="rounded-3xl border bg-gradient-to-br from-slate-50 to-slate-100 p-8 text-center dark:from-slate-900 dark:to-slate-800 md:p-12"
                     >
-                        <div className="mb-8 inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-orange-100 to-red-100 px-6 py-3 text-sm font-medium text-orange-800 dark:from-orange-900/30 dark:to-red-900/30 dark:text-orange-200">
+                        <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-orange-100 to-red-100 px-6 py-3 text-sm font-medium text-orange-800 dark:from-orange-900/30 dark:to-red-900/30 dark:text-orange-200">
                             <TargetIcon className="size-4" />
                             Mission Statement
                         </div>

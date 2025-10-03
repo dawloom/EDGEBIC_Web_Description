@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { ArrowUpRightIcon, CalendarIcon, UserIcon } from 'lucide-react';
 
+import { SiteHeading } from '@/components/marketing/fragments/site-heading';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import {
@@ -99,27 +100,22 @@ export function ResourceManagementBlog() {
     return (
         <div className="relative min-h-screen">
             {/* Hero Section */}
-            <section className="relative overflow-hidden pt-12">
+            <section className="relative overflow-hidden pt-6">
                 <div className="container relative">
                     <div className="mx-auto max-w-4xl text-center">
-                        <Badge
-                            variant="outline"
-                            className="mb-5 inline-flex h-8 items-center rounded-full border px-3 py-0.5 text-sm font-medium text-foreground shadow-sm transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2"
-                        >
-                            Resource Management Insights
-                        </Badge>
-                        <h1 className="mb-6 text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
-                            Resource Management
-                            <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                                {' '}
-                                Blog
-                            </span>
-                        </h1>
-                        <p className="mx-auto max-w-2xl text-lg text-muted-foreground sm:text-xl">
-                            Discover insights, tips, and best practices for resource
-                            management in manufacturing, production planning, and scheduling
-                            solutions.
-                        </p>
+                        <SiteHeading
+                            badge="Resource Management Insights"
+                            title={
+                                <>
+                                    Resource Management
+                                    <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+                                        {' '}
+                                        Blog
+                                    </span>
+                                </>
+                            }
+                            description="Discover insights, tips, and best practices for resource management in manufacturing, production planning, and scheduling solutions."
+                        />
                     </div>
                 </div>
             </section>
@@ -362,7 +358,7 @@ export function ResourceManagementBlog() {
             </section>
 
             {/* Awards Banner */}
-            <section className="border-t pt-12">
+            <section className="border-t pt-6">
                 <div className="container">
                     <div className="text-center">
                         <h3 className="mb-6 text-2xl font-bold">

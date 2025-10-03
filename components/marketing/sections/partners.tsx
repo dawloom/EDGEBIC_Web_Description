@@ -135,7 +135,7 @@ export function PartnersSection(): React.JSX.Element {
 
   return (
     <GridSection hideVerticalGridLines>
-      <div className="container pt-12">
+      <div className="container pt-6">
         <SiteHeading
           badge="Partners"
           title="Manufacturing Software Partners"
