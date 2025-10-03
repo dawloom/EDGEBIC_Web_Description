@@ -21,6 +21,7 @@ export enum Routes {
   News = '/news',
   ProductDownloads = '/product-downloads',
   Students = '/students',
+  Product2 = '/product-2',
   Story = '/story',
   Careers = '/careers',
   TermsOfUse = '/terms-of-use',
