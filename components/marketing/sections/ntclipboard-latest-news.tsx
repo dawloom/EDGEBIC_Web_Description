@@ -78,6 +78,7 @@ export function LatestNewsSection(): React.JSX.Element {
                     {/* Students Section Button */}
                     <Link
                         href="/students"
+                        target="_blank"
                         className="flex items-center gap-2 rounded-lg bg-blue-600 px-6 py-3 text-white transition-all hover:bg-blue-700 hover:shadow-lg"
                     >
                         <GraduationCap className="size-5" />

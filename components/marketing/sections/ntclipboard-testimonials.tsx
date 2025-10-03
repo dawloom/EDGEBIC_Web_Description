@@ -41,7 +41,7 @@ const logos = [
 export function NTClipboardTestimonials(): React.JSX.Element {
     return (
         <GridSection hideVerticalGridLines>
-            <div className="container py-8">
+            <div className="container pt-12">
                 <SiteHeading
                     badge="Customer Success"
                     title="Trusted by Manufacturers Worldwide"

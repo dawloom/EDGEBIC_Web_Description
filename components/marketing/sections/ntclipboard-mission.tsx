@@ -18,7 +18,7 @@ export function NTClipboardMission(): React.JSX.Element {
         <GridSection hideVerticalGridLines>
             <div
                 id="mission"
-                className="container py-8"
+                className="container pt-12"
             >
                 <SiteHeading
                     badge="Our Mission"

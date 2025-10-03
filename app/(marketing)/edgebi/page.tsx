@@ -183,10 +183,6 @@ export default function EDGEBIPage(): React.JSX.Element {
                     <div className="mx-auto max-w-6xl">
                         {/* Hero Header */}
                         <div className="mb-16 text-center">
-                            <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-purple-100 to-purple-200 px-4 py-2 text-sm font-semibold text-purple-700 dark:from-purple-900 dark:to-purple-800 dark:text-purple-300">
-                                <Star className="size-4" />
-                                ENTERPRISE SOLUTION
-                            </div>
                             <h1 className="mb-6 bg-gradient-to-r from-purple-500 to-purple-700 bg-clip-text text-5xl font-bold text-transparent md:text-7xl">
                                 Welcome to EDGEBI
                             </h1>

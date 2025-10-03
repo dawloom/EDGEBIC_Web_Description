@@ -556,12 +556,8 @@ export function NTClipboardToolBox(): React.JSX.Element {
                                     business size and budget
                                 </p>
                                 <div className="flex flex-wrap justify-center gap-4">
-                                    <button className="rounded-xl bg-gradient-to-r from-blue-500 to-blue-600 px-6 py-3 font-semibold text-white transition-all hover:from-blue-600 hover:to-blue-700">
-                                        Compare Products
-                                    </button>
-                                    <button className="rounded-xl border border-gray-300 bg-white px-6 py-3 font-semibold text-gray-700 transition-all hover:bg-gray-50 dark:border-gray-600 dark:bg-slate-800 dark:text-gray-300 dark:hover:bg-slate-700">
-                                        Schedule Demo
-                                    </button>
+                                    <Button>Compare Products</Button>
+                                    <Button variant="outline">Schedule Demo</Button>
                                 </div>
                             </div>
                         </div>

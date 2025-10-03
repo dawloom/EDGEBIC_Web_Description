@@ -172,6 +172,7 @@ export function HeroContent(): React.JSX.Element {
           <div className="shrink-0">
             <Link
               href="/students"
+              target="_blank"
               className="flex items-center gap-2 rounded bg-white/20 px-4 py-2 text-sm font-bold transition-all hover:bg-white/30 hover:shadow-lg"
             >
               <GraduationCap className="size-4" />
