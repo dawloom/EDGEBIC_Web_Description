@@ -6,6 +6,7 @@ export enum Routes {
   WhyUserSolutions = '/why-user-solutions',
   Mission = '/mission-statement',
   Solutions = '/solutions',
+  ProductionPlanning = '/production-planning-scheduling-solutions',
   Values = '/values',
   History = '/company-history',
   About = '/about',

@@ -5,6 +5,7 @@ import {
   // BookOpenIcon,
   ClipboardIcon,
   DownloadIcon,
+  Factory,
   FileTextIcon,
   HandshakeIcon,
   // MapIcon,
@@ -93,6 +94,13 @@ export const MENU_LINKS = [
   {
     title: 'Products',
     items: [
+      {
+        title: 'Production Planning',
+        description: 'Production planning and scheduling solutions',
+        icon: <Factory className="size-5 shrink-0" />,
+        href: Routes.ProductionPlanning,
+        external: false
+      },
       {
         title: 'Product Downloads',
         description: 'Download free trials and samples of our software',
