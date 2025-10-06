@@ -446,6 +446,447 @@ export function ProductionPlanningSolutions(): React.JSX.Element {
                         </div>
                     </div>
 
+                    {/* Production Scheduling Features Section */}
+                    <div className="mb-16">
+                        <h2 className="mb-8 text-center text-3xl font-bold text-slate-900 dark:text-white">
+                            Production Scheduling Features
+                        </h2>
+                        <p className="mb-12 text-center text-lg text-slate-600 dark:text-slate-400">
+                            Comprehensive production planning and scheduling capabilities
+                            designed to optimize your manufacturing operations
+                        </p>
+
+                        {/* Features Grid */}
+                        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+                            {/* Job Scheduler Lite Features */}
+                            <Card className="border-blue-200 bg-gradient-to-br from-blue-50 to-blue-100 dark:border-blue-700 dark:from-blue-900/20 dark:to-blue-800/20">
+                                <CardHeader>
+                                    <CardTitle className="flex items-center gap-2 text-blue-700 dark:text-blue-300">
+                                        <Target className="size-5" />
+                                        Job Scheduler Lite
+                                    </CardTitle>
+                                    <CardDescription>
+                                        Entry-level production scheduling solution for creating
+                                        routing steps and scheduling according to capacity
+                                        limitations
+                                    </CardDescription>
+                                </CardHeader>
+                                <CardContent className="space-y-3">
+                                    {[
+                                        'Simple, familiar interface',
+                                        'Easy to configure and run',
+                                        'Finite Capacity - Only schedules to what is available',
+                                        'Customizable Workcenter Calendars and Daily Calendar',
+                                        'Forward/Reverse scheduling',
+                                        'Mixed Mode Scheduling - Forward based on start date or Reverse based on due date',
+                                        'Routings - Workcenter Set-up and Cycle Times',
+                                        'Queue / Move Times, Linear and non-Linear',
+                                        'Color coded Graphics',
+                                        'Import Data',
+                                        'Resources management',
+                                        'Orders tracking',
+                                        'Reports generation',
+                                        'Schedule module',
+                                        'Export Data'
+                                    ].map((feature, i) => (
+                                        <div
+                                            key={i}
+                                            className="flex items-center gap-2"
+                                        >
+                                            <CheckCircle className="size-4 text-blue-600" />
+                                            <span className="text-sm text-slate-700 dark:text-slate-300">
+                                                {feature}
+                                            </span>
+                                        </div>
+                                    ))}
+                                </CardContent>
+                            </Card>
+
+                            {/* Resource Manager DB Features */}
+                            <Card className="border-orange-200 bg-gradient-to-br from-orange-50 to-orange-100 dark:border-orange-700 dark:from-orange-900/20 dark:to-orange-800/20">
+                                <CardHeader>
+                                    <CardTitle className="flex items-center gap-2 text-orange-700 dark:text-orange-300">
+                                        <Settings className="size-5" />
+                                        Resource Manager DB
+                                    </CardTitle>
+                                    <CardDescription>
+                                        Advanced production planning and scheduling solution that
+                                        adapts to your existing data and workflows
+                                    </CardDescription>
+                                </CardHeader>
+                                <CardContent className="space-y-3">
+                                    {[
+                                        'Finite Capacity Planning & Scheduling',
+                                        'Advanced Planning and Scheduling - Alternate Routings, Multiple Constraints',
+                                        'Routings - Workcenter Set-up and Cycle Times, Queue/Move Times',
+                                        'Tracking Actuals - Import Actuals or direct entry',
+                                        'Drag-and-drop to track WIP',
+                                        'Bill of Materials - Quantity per, Parent-child, Sub-Assemblies',
+                                        'Rev Control and much more',
+                                        'Mixed Mode Scheduling - Time Fenced, Per job or group of orders',
+                                        'Prioritize at any level',
+                                        'Rescheduling - Import Actuals and rescheduling on demand',
+                                        'MRP and Inventory Management - Low maintenance, Safety Stocks',
+                                        'Yield Factors, Purchasing UOM, ATP, Reporting',
+                                        'Material Planning Basic - What materials are required for what jobs and when',
+                                        'Materials Planning Advanced - MRP Calculations, Shortage Reports',
+                                        'Lot and Batch Sizing',
+                                        'Purchase Orders - Easy, fast, accurate based on scheduled demand',
+                                        'Stock replenishment, Paperless option',
+                                        'Drag and Drop - Visually change dates per job, per workcenter',
+                                        'Drag job from one workcenter to another',
+                                        'Integration with other systems - Import/Export Excel, ODBC drivers',
+                                        'Integrates easily with most ERP and custom systems',
+                                        'Customizable - We specialize in enhancing to meet your unique needs',
+                                        'What-if Analysis',
+                                        'Purchasing and Receiving',
+                                        'Downtime Analysis and Reporting',
+                                        'Costing and Estimating',
+                                        'Production Planning',
+                                        'Multi-Resource Scheduling',
+                                        'LP Optimization (Optional)',
+                                        'Customized Reports'
+                                    ].map((feature, i) => (
+                                        <div
+                                            key={i}
+                                            className="flex items-center gap-2"
+                                        >
+                                            <CheckCircle className="size-4 text-orange-600" />
+                                            <span className="text-sm text-slate-700 dark:text-slate-300">
+                                                {feature}
+                                            </span>
+                                        </div>
+                                    ))}
+                                </CardContent>
+                            </Card>
+
+                            {/* EDGEBI Features */}
+                            <Card className="border-purple-200 bg-gradient-to-br from-purple-50 to-purple-100 dark:border-purple-700 dark:from-purple-900/20 dark:to-purple-800/20 md:col-span-2 lg:col-span-1">
+                                <CardHeader>
+                                    <CardTitle className="flex items-center gap-2 text-purple-700 dark:text-purple-300">
+                                        <Zap className="size-5" />
+                                        EDGEBI Suite
+                                    </CardTitle>
+                                    <CardDescription>
+                                        Graphical overlay with business intelligence for intuitive
+                                        drag-and-drop schedule management
+                                    </CardDescription>
+                                </CardHeader>
+                                <CardContent className="space-y-3">
+                                    {[
+                                        'Enhanced Drag-n-drop Interface',
+                                        'Business Intelligence Integration',
+                                        'Heat Map Report - View capacity loading for entire schedule at a glance',
+                                        'Schedule Key Dates - Run reports with export to Excel',
+                                        'Live embedded Excel - Import and Export to Excel',
+                                        'Direct importing via ODBC drivers',
+                                        'Integrates easily with most ERP and custom systems',
+                                        'Advanced Drag and Drop - Alternate Routings, Multiple Constraints',
+                                        'Multiple Priorities, Rescheduling on demand',
+                                        'Intuitive Graphical Approach',
+                                        'Color-coded Schedule Status',
+                                        'Drag and Drop Job Segments',
+                                        'Capacity Utilization Graph',
+                                        'Custom Reporting - Customized per your requests',
+                                        'Advanced Security Options',
+                                        'Interactive Schedule Management'
+                                    ].map((feature, i) => (
+                                        <div
+                                            key={i}
+                                            className="flex items-center gap-2"
+                                        >
+                                            <CheckCircle className="size-4 text-purple-600" />
+                                            <span className="text-sm text-slate-700 dark:text-slate-300">
+                                                {feature}
+                                            </span>
+                                        </div>
+                                    ))}
+                                </CardContent>
+                            </Card>
+                        </div>
+
+                        {/* Key Benefits Section */}
+                        <div className="mt-12 grid gap-6 md:grid-cols-3">
+                            <div className="text-center">
+                                <div className="mx-auto mb-4 flex size-16 items-center justify-center rounded-full bg-blue-100 dark:bg-blue-900/30">
+                                    <Clock className="size-8 text-blue-600" />
+                                </div>
+                                <h3 className="mb-2 text-lg font-semibold text-slate-900 dark:text-white">
+                                    Save Time
+                                </h3>
+                                <p className="text-sm text-slate-600 dark:text-slate-400">
+                                    Reduce planning time by up to 75% with automated scheduling
+                                </p>
+                            </div>
+                            <div className="text-center">
+                                <div className="mx-auto mb-4 flex size-16 items-center justify-center rounded-full bg-green-100 dark:bg-green-900/30">
+                                    <Target className="size-8 text-green-600" />
+                                </div>
+                                <h3 className="mb-2 text-lg font-semibold text-slate-900 dark:text-white">
+                                    Increase Efficiency
+                                </h3>
+                                <p className="text-sm text-slate-600 dark:text-slate-400">
+                                    Optimize resource utilization and reduce bottlenecks
+                                </p>
+                            </div>
+                            <div className="text-center">
+                                <div className="mx-auto mb-4 flex size-16 items-center justify-center rounded-full bg-purple-100 dark:bg-purple-900/30">
+                                    <Users className="size-8 text-purple-600" />
+                                </div>
+                                <h3 className="mb-2 text-lg font-semibold text-slate-900 dark:text-white">
+                                    Better Collaboration
+                                </h3>
+                                <p className="text-sm text-slate-600 dark:text-slate-400">
+                                    Real-time visibility across all teams and departments
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Feature Comparison Matrix */}
+                    <div className="mb-16">
+                        <h2 className="mb-8 text-center text-3xl font-bold text-slate-900 dark:text-white">
+                            Choose the Right Solution for Your Business
+                        </h2>
+                        <p className="mb-8 text-center text-lg text-slate-600 dark:text-slate-400">
+                            Compare features across our product range to find the perfect fit
+                        </p>
+
+                        {/* Expand/Collapse Controls */}
+                        <div className="mb-4 flex justify-center gap-4">
+                            <Button
+                                variant="outline"
+                                size="sm"
+                                onClick={() => {
+                                    const details = document.querySelectorAll('details[data-feature]');
+                                    details.forEach(detail => detail.setAttribute('open', 'true'));
+                                }}
+                                className="text-blue-600 hover:bg-blue-50"
+                            >
+                                Expand All
+                            </Button>
+                            <Button
+                                variant="outline"
+                                size="sm"
+                                onClick={() => {
+                                    const details = document.querySelectorAll('details[data-feature]');
+                                    details.forEach(detail => detail.removeAttribute('open'));
+                                }}
+                                className="text-blue-600 hover:bg-blue-50"
+                            >
+                                Close All
+                            </Button>
+                        </div>
+
+                        <div className="overflow-x-auto">
+                            <table className="w-full min-w-[800px] rounded-lg border border-slate-200 bg-white dark:border-slate-700 dark:bg-slate-900">
+                                <thead>
+                                    <tr className="border-b border-slate-200 dark:border-slate-700">
+                                        <th className="p-4 text-left font-semibold text-slate-900 dark:text-white">
+                                            Features
+                                        </th>
+                                        <th className="p-4 text-center font-semibold text-blue-600 dark:text-blue-400">
+                                            Job Scheduler Lite
+                                        </th>
+                                        <th className="p-4 text-center font-semibold text-orange-600 dark:text-orange-400">
+                                            Resource Manager DB
+                                        </th>
+                                        <th className="p-4 text-center font-semibold text-purple-600 dark:text-purple-400">
+                                            EDGEBI Suite
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {[
+                                        {
+                                            feature: 'Routings',
+                                            description: 'Workcenter Set-up and Cycle Times, Queue / Move Times, Linear and non-Linear.',
+                                            jsl: true,
+                                            rmdb: true,
+                                            edgebi: true
+                                        },
+                                        {
+                                            feature: 'Finite Capacity',
+                                            description: 'Only schedules to what is available. Customizable Workcenter Calendars and Daily Calendar. Color coded. Graphics.',
+                                            jsl: true,
+                                            rmdb: true,
+                                            edgebi: true
+                                        },
+                                        {
+                                            feature: 'Tracking Actuals',
+                                            description: 'Import Actuals. if available, or direct entry. Even drag-and-drop to track WIP.',
+                                            jsl: false,
+                                            rmdb: true,
+                                            edgebi: true
+                                        },
+                                        {
+                                            feature: 'Bill of Materials',
+                                            description: 'Quantity per, Parent-child, Sub-Assemblies, Rev Control, much more.',
+                                            jsl: false,
+                                            rmdb: true,
+                                            edgebi: true
+                                        },
+                                        {
+                                            feature: 'Mixed Mode Scheduling',
+                                            description: 'Forward based on start date or Reverse based on due date or even Time Fenced. Per job or group of orders. Prioritize at any level.',
+                                            jsl: true,
+                                            rmdb: true,
+                                            edgebi: true
+                                        },
+                                        {
+                                            feature: 'Rescheduling',
+                                            description: 'Import Actuals. if available, or direct entry. Even drag-and-drop to track WIP.',
+                                            jsl: false,
+                                            rmdb: true,
+                                            edgebi: true
+                                        },
+                                        {
+                                            feature: 'Inventory Management',
+                                            description: 'Low maintenance. Safety Stocks, Yield Factors, Purchasing UOM, ATP, Reporting.',
+                                            jsl: false,
+                                            rmdb: true,
+                                            edgebi: true
+                                        },
+                                        {
+                                            feature: 'Material Planning Basic',
+                                            description: 'What materials are required for what jobs and when.',
+                                            jsl: false,
+                                            rmdb: true,
+                                            edgebi: true
+                                        },
+                                        {
+                                            feature: 'Customizable',
+                                            description: 'We specialize in enhancing any product, or combination, to meet your unique needs.',
+                                            jsl: false,
+                                            rmdb: true,
+                                            edgebi: true
+                                        },
+                                        {
+                                            feature: 'Purchase Orders',
+                                            description: 'Easy, fast, accurate. Based on scheduled demand, stock replenishment, and more. Paperless option.',
+                                            jsl: false,
+                                            rmdb: true,
+                                            edgebi: true
+                                        },
+                                        {
+                                            feature: 'Drag and Drop',
+                                            description: 'Visually change dates per job, per workcenter, or even drag job from one workcenter to another.',
+                                            jsl: false,
+                                            rmdb: true,
+                                            edgebi: true
+                                        },
+                                        {
+                                            feature: 'Materials Planning Advanced',
+                                            description: 'MRP Calculations, Shortage Reports, Lot and Batch Sizing, much more.',
+                                            jsl: false,
+                                            rmdb: true,
+                                            edgebi: true
+                                        },
+                                        {
+                                            feature: 'Integration with other systems',
+                                            description: 'Import and Export to Excel and direct importing via ODBC drivers. Integrates easily with most ERP and custom systems.',
+                                            jsl: false,
+                                            rmdb: true,
+                                            edgebi: true
+                                        },
+                                        {
+                                            feature: 'Advanced Planning & Scheduling',
+                                            description: 'Alternate Routings, Multiple Constraints, Multiple Priorities, Rescheduling on demand, much more.',
+                                            jsl: false,
+                                            rmdb: true,
+                                            edgebi: true
+                                        },
+                                        {
+                                            feature: 'Heat Map Report',
+                                            description: 'Visual representation of capacity loading across your schedule.',
+                                            jsl: false,
+                                            rmdb: false,
+                                            edgebi: true
+                                        },
+                                        {
+                                            feature: 'Schedule Key Dates',
+                                            description: 'Critical date tracking and reporting functionality.',
+                                            jsl: false,
+                                            rmdb: false,
+                                            edgebi: true
+                                        },
+                                        {
+                                            feature: 'Live embedded Excel',
+                                            description: 'Import and Export to Excel and direct importing via ODBC drivers. Integrates easily with most ERP and custom systems.',
+                                            jsl: false,
+                                            rmdb: false,
+                                            edgebi: true
+                                        },
+                                        {
+                                            feature: 'Advanced Drag and Drop',
+                                            description: 'Alternate Routings, Multiple Constraints, Multiple Priorities, Rescheduling on demand, much more.',
+                                            jsl: false,
+                                            rmdb: false,
+                                            edgebi: true
+                                        }
+                                    ].map((row, i) => (
+                                        <React.Fragment key={i}>
+                                            <tr className={`border-b border-slate-100 dark:border-slate-800 ${i % 2 === 0 ? 'bg-slate-50 dark:bg-slate-900/50' : ''}`}>
+                                                <td className="p-4">
+                                                    <details data-feature={`feature-${i}`} className="group">
+                                                        <summary className="flex cursor-pointer items-center gap-2 font-medium text-slate-900 dark:text-white hover:text-blue-600">
+                                                            <span className="text-sm transition-transform group-open:rotate-90">▶</span>
+                                                            {row.feature}
+                                                        </summary>
+                                                        <div className="mt-2 pl-6 text-sm text-slate-600 dark:text-slate-400">
+                                                            {row.description}
+                                                        </div>
+                                                    </details>
+                                                </td>
+                                                <td className="p-4 text-center">
+                                                    {row.jsl === true ? (
+                                                        <CheckCircle className="mx-auto size-5 text-green-500" />
+                                                    ) : row.jsl === 'Optional' ? (
+                                                        <span className="text-xs text-orange-500">Optional</span>
+                                                    ) : (
+                                                        <span className="text-slate-400">—</span>
+                                                    )}
+                                                </td>
+                                                <td className="p-4 text-center">
+                                                    {row.rmdb === true ? (
+                                                        <CheckCircle className="mx-auto size-5 text-green-500" />
+                                                    ) : row.rmdb === 'Optional' ? (
+                                                        <span className="text-xs text-orange-500">Optional</span>
+                                                    ) : (
+                                                        <span className="text-slate-400">—</span>
+                                                    )}
+                                                </td>
+                                                <td className="p-4 text-center">
+                                                    {row.edgebi === true ? (
+                                                        <CheckCircle className="mx-auto size-5 text-green-500" />
+                                                    ) : row.edgebi === 'Optional' ? (
+                                                        <span className="text-xs text-orange-500">Optional</span>
+                                                    ) : (
+                                                        <span className="text-slate-400">—</span>
+                                                    )}
+                                                </td>
+                                            </tr>
+                                        </React.Fragment>
+                                    ))}
+                                </tbody>
+                            </table>
+                        </div>
+
+                        {/* Call to Action */}
+                        <div className="mt-8 text-center">
+                            <p className="mb-4 text-slate-600 dark:text-slate-400">
+                                Not sure which solution is right for you?
+                            </p>
+                            <Button
+                                size="lg"
+                                className="gap-2"
+                            >
+                                <Users className="size-4" />
+                                Schedule a Live Demo
+                            </Button>
+                        </div>
+                    </div>
+
                     {/* 25 Years Anniversary with Real Award Logos */}
                     <div className="mb-16 text-center">
                         <h2 className="mb-6 text-3xl font-bold text-slate-900 dark:text-white">
@@ -461,8 +902,6 @@ export function ProductionPlanningSolutions(): React.JSX.Element {
                             />
                         </div>
                     </div>
-
-                    {/* About Us & Products */}
                 </div>
             </div>
         </GridSection>
