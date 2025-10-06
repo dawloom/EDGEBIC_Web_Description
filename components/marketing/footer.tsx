@@ -20,7 +20,7 @@ export function Footer(): React.JSX.Element {
   //   toast.error("I'm not implemented yet.");
   // };
   return (
-    <footer className="px-2 pb-10 pt-20 sm:container">
+    <footer className="px-2 pb-10 pt-5 sm:container">
       <h2 className="sr-only">Footer</h2>
       <div className="container">
         <div className="xl:grid xl:grid-cols-6 xl:gap-8">
@@ -47,19 +47,21 @@ export function Footer(): React.JSX.Element {
                           href={link.href}
                           title={link.name}
                           target={link.external ? '_blank' : undefined}
-                        rel={link.external ? 'noopener noreferrer' : undefined}
-                        className="relative text-sm text-muted-foreground transition-colors hover:text-foreground"
-                      >
-                        {link.name}
-                        {link.external && (
-                          <ExternalLink className="absolute right-[-10px] top-[2px] opacity-80" />
-                        )}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ))}
+                          rel={
+                            link.external ? 'noopener noreferrer' : undefined
+                          }
+                          className="relative text-sm text-muted-foreground transition-colors hover:text-foreground"
+                        >
+                          {link.name}
+                          {link.external && (
+                            <ExternalLink className="absolute right-[-10px] top-[2px] opacity-80" />
+                          )}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
             </div>
           )}
           {/* <div className="mt-10 space-y-4 lg:col-span-2 xl:mt-0">

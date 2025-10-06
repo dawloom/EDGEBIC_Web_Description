@@ -303,7 +303,7 @@ export function NTClipboardToolBox(): React.JSX.Element {
                                     STARTER
                                 </div>
 
-                                <div className="p-8">
+                                <div className="">
                                     {/* Video Section */}
                                     <div className="relative mb-6 overflow-hidden rounded-lg">
                                         <div className="relative aspect-video bg-slate-100 dark:bg-slate-800">
@@ -317,60 +317,63 @@ export function NTClipboardToolBox(): React.JSX.Element {
                                             />
                                         </div>
                                     </div>
+                                    <div className="p-6">
+                                        <div className="mb-6">
+                                            <div className="mb-4 flex items-center gap-3">
+                                                <h3 className="text-2xl font-bold text-blue-700 dark:text-blue-300">
+                                                    Job Scheduler Lite
+                                                </h3>
+                                            </div>
+                                            <p className="mb-4 text-blue-600 dark:text-blue-400">
+                                                Perfect for Job Shops & Small Manufacturers
+                                            </p>
+                                        </div>
 
-                                    <div className="mb-6">
-                                        <div className="mb-4 flex items-center gap-3">
-                                            <h3 className="text-2xl font-bold text-blue-700 dark:text-blue-300">
-                                                Job Scheduler Lite
-                                            </h3>
+                                        <div className="mb-6 space-y-3">
+                                            <div className="flex items-center gap-2">
+                                                <div className="size-2 rounded-full bg-blue-500" />
+                                                <span className="text-sm">
+                                                    Shop Scheduling Made Easy
+                                                </span>
+                                            </div>
+                                            <div className="flex items-center gap-2">
+                                                <div className="size-2 rounded-full bg-blue-500" />
+                                                <span className="text-sm">Forward Scheduling</span>
+                                            </div>
+                                            <div className="flex items-center gap-2">
+                                                <div className="size-2 rounded-full bg-blue-500" />
+                                                <span className="text-sm">Finite Capacity</span>
+                                            </div>
+                                            <div className="flex items-center gap-2">
+                                                <div className="size-2 rounded-full bg-blue-500" />
+                                                <span className="text-sm">Free Trials Available</span>
+                                            </div>
                                         </div>
-                                        <p className="mb-4 text-blue-600 dark:text-blue-400">
-                                            Perfect for Job Shops & Small Manufacturers
-                                        </p>
-                                    </div>
 
-                                    <div className="mb-6 space-y-3">
-                                        <div className="flex items-center gap-2">
-                                            <div className="size-2 rounded-full bg-blue-500" />
-                                            <span className="text-sm">Shop Scheduling Made Easy</span>
-                                        </div>
-                                        <div className="flex items-center gap-2">
-                                            <div className="size-2 rounded-full bg-blue-500" />
-                                            <span className="text-sm">Forward Scheduling</span>
-                                        </div>
-                                        <div className="flex items-center gap-2">
-                                            <div className="size-2 rounded-full bg-blue-500" />
-                                            <span className="text-sm">Finite Capacity</span>
-                                        </div>
-                                        <div className="flex items-center gap-2">
-                                            <div className="size-2 rounded-full bg-blue-500" />
-                                            <span className="text-sm">Free Trials Available</span>
-                                        </div>
-                                    </div>
-
-                                    <div className="mb-4">
-                                        <Button
-                                            variant="outline"
-                                            className="w-full border-blue-200 text-blue-700 hover:bg-blue-50 dark:border-blue-800 dark:text-blue-300 dark:hover:bg-blue-900/20"
-                                            asChild
-                                        >
-                                            <Link
-                                                href="/job-scheduler-lite"
-                                                target="_blank"
-                                                rel="noopener noreferrer"
+                                        <div className="mb-4">
+                                            <Button
+                                                variant="outline"
+                                                className="w-full border-blue-200 text-blue-700 hover:bg-blue-50 dark:border-blue-800 dark:text-blue-300 dark:hover:bg-blue-900/20"
+                                                asChild
                                             >
-                                                View Details
-                                            </Link>
-                                        </Button>
-                                    </div>
-
-                                    <div className="text-center">
-                                        <div className="mb-2 text-3xl font-bold text-blue-700 dark:text-blue-300">
-                                            $1,000+
+                                                <Link
+                                                    href="/job-scheduler-lite"
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                >
+                                                    View Details
+                                                </Link>
+                                            </Button>
                                         </div>
-                                        <p className="text-sm text-muted-foreground">
-                                            Starting investment
-                                        </p>
+
+                                        <div className="text-center">
+                                            <div className="mb-2 text-3xl font-bold text-blue-700 dark:text-blue-300">
+                                                $1,000+
+                                            </div>
+                                            <p className="text-sm text-muted-foreground">
+                                                Starting investment
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -385,7 +388,7 @@ export function NTClipboardToolBox(): React.JSX.Element {
                                         POPULAR
                                     </span>
                                 </div>{' '}
-                                <div className="p-8">
+                                <div className="">
                                     {/* Video Section */}
                                     <div className="relative mb-6 overflow-hidden rounded-lg">
                                         <div className="relative aspect-video bg-slate-100 dark:bg-slate-800">
@@ -399,67 +402,68 @@ export function NTClipboardToolBox(): React.JSX.Element {
                                             />
                                         </div>
                                     </div>
+                                    <div className="px-6 pb-3">
+                                        <div className="mb-6">
+                                            <div className="mb-4 flex items-center gap-3">
+                                                <h3 className="text-2xl font-bold text-orange-700 dark:text-orange-300">
+                                                    Resource Manager DB
+                                                </h3>
+                                            </div>
+                                            <p className="mb-4 text-orange-600 dark:text-orange-400">
+                                                Ideal for Growing SMBs & Mid-Size Companies
+                                            </p>
+                                        </div>
 
-                                    <div className="mb-6">
-                                        <div className="mb-4 flex items-center gap-3">
-                                            <h3 className="text-2xl font-bold text-orange-700 dark:text-orange-300">
-                                                Resource Manager DB
-                                            </h3>
+                                        <div className="mb-6 space-y-3">
+                                            <div className="flex items-center gap-2">
+                                                <div className="size-2 rounded-full bg-orange-500" />
+                                                <span className="text-sm">
+                                                    Production Scheduling Your Way
+                                                </span>
+                                            </div>
+                                            <div className="flex items-center gap-2">
+                                                <div className="size-2 rounded-full bg-orange-500" />
+                                                <span className="text-sm">Flexible & Adaptable</span>
+                                            </div>
+                                            <div className="flex items-center gap-2">
+                                                <div className="size-2 rounded-full bg-orange-500" />
+                                                <span className="text-sm">
+                                                    Easy APS & MRP Implementation
+                                                </span>
+                                            </div>
+                                            <div className="flex items-center gap-2">
+                                                <div className="size-2 rounded-full bg-orange-500" />
+                                                <span className="text-sm">Free Trials Available</span>
+                                            </div>
+                                            <div className="flex items-center gap-2">
+                                                <div className="size-2 rounded-full bg-orange-500" />
+                                                <span className="text-sm">Advanced Analytics</span>
+                                            </div>
                                         </div>
-                                        <p className="mb-4 text-orange-600 dark:text-orange-400">
-                                            Ideal for Growing SMBs & Mid-Size Companies
-                                        </p>
-                                    </div>
 
-                                    <div className="mb-6 space-y-3">
-                                        <div className="flex items-center gap-2">
-                                            <div className="size-2 rounded-full bg-orange-500" />
-                                            <span className="text-sm">
-                                                Production Scheduling Your Way
-                                            </span>
-                                        </div>
-                                        <div className="flex items-center gap-2">
-                                            <div className="size-2 rounded-full bg-orange-500" />
-                                            <span className="text-sm">Flexible & Adaptable</span>
-                                        </div>
-                                        <div className="flex items-center gap-2">
-                                            <div className="size-2 rounded-full bg-orange-500" />
-                                            <span className="text-sm">
-                                                Easy APS & MRP Implementation
-                                            </span>
-                                        </div>
-                                        <div className="flex items-center gap-2">
-                                            <div className="size-2 rounded-full bg-orange-500" />
-                                            <span className="text-sm">Free Trials Available</span>
-                                        </div>
-                                        <div className="flex items-center gap-2">
-                                            <div className="size-2 rounded-full bg-orange-500" />
-                                            <span className="text-sm">Advanced Analytics</span>
-                                        </div>
-                                    </div>
-
-                                    <div className="mb-4">
-                                        <Button
-                                            variant="outline"
-                                            className="w-full border-orange-200 text-orange-700 hover:bg-orange-50 dark:border-orange-800 dark:text-orange-300 dark:hover:bg-orange-900/20"
-                                            asChild
-                                        >
-                                            <Link
-                                                href="/resource-manager-db-2"
-                                                target="_blank"
+                                        <div className="mb-4">
+                                            <Button
+                                                variant="outline"
+                                                className="w-full border-orange-200 text-orange-700 hover:bg-orange-50 dark:border-orange-800 dark:text-orange-300 dark:hover:bg-orange-900/20"
+                                                asChild
                                             >
-                                                View Details
-                                            </Link>
-                                        </Button>
-                                    </div>
-
-                                    <div className="text-center">
-                                        <div className="mb-2 text-3xl font-bold text-orange-700 dark:text-orange-300">
-                                            $5,000+
+                                                <Link
+                                                    href="/resource-manager-db-2"
+                                                    target="_blank"
+                                                >
+                                                    View Details
+                                                </Link>
+                                            </Button>
                                         </div>
-                                        <p className="text-sm text-muted-foreground">
-                                            Advanced solution
-                                        </p>
+
+                                        <div className="text-center">
+                                            <div className="mb-2 text-3xl font-bold text-orange-700 dark:text-orange-300">
+                                                $5,000+
+                                            </div>
+                                            <p className="text-sm text-muted-foreground">
+                                                Advanced solution
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -473,7 +477,7 @@ export function NTClipboardToolBox(): React.JSX.Element {
                                     PREMIUM
                                 </div>
 
-                                <div className="p-8">
+                                <div className="">
                                     {/* Video Section */}
                                     <div className="relative mb-6 overflow-hidden rounded-lg">
                                         <div className="relative aspect-video bg-slate-100 dark:bg-slate-800">
@@ -487,59 +491,60 @@ export function NTClipboardToolBox(): React.JSX.Element {
                                             />
                                         </div>
                                     </div>
+                                    <div className="px-6">
+                                        <div className="mb-6">
+                                            <div className="mb-4 flex items-center gap-3">
+                                                <h3 className="text-2xl font-bold text-purple-700 dark:text-purple-300">
+                                                    EDGEBI Suite
+                                                </h3>
+                                            </div>
+                                            <p className="mb-4 text-purple-600 dark:text-purple-400">
+                                                Enterprise-Grade for Multi-Nationals
+                                            </p>
+                                        </div>
 
-                                    <div className="mb-6">
-                                        <div className="mb-4 flex items-center gap-3">
-                                            <h3 className="text-2xl font-bold text-purple-700 dark:text-purple-300">
-                                                EDGEBI Suite
-                                            </h3>
+                                        <div className="mb-6 space-y-3">
+                                            <div className="flex items-center gap-2">
+                                                <div className="size-2 rounded-full bg-purple-500" />
+                                                <span className="text-sm">Heat Map Reports</span>
+                                            </div>
+                                            <div className="flex items-center gap-2">
+                                                <div className="size-2 rounded-full bg-purple-500" />
+                                                <span className="text-sm">Schedule Key Dates</span>
+                                            </div>
+                                            <div className="flex items-center gap-2">
+                                                <div className="size-2 rounded-full bg-purple-500" />
+                                                <span className="text-sm">Live Embedded Excel</span>
+                                            </div>
+                                            <div className="flex items-center gap-2">
+                                                <div className="size-2 rounded-full bg-purple-500" />
+                                                <span className="text-sm">Advanced Drag & Drop</span>
+                                            </div>
                                         </div>
-                                        <p className="mb-4 text-purple-600 dark:text-purple-400">
-                                            Enterprise-Grade for Multi-Nationals
-                                        </p>
-                                    </div>
 
-                                    <div className="mb-6 space-y-3">
-                                        <div className="flex items-center gap-2">
-                                            <div className="size-2 rounded-full bg-purple-500" />
-                                            <span className="text-sm">Heat Map Reports</span>
-                                        </div>
-                                        <div className="flex items-center gap-2">
-                                            <div className="size-2 rounded-full bg-purple-500" />
-                                            <span className="text-sm">Schedule Key Dates</span>
-                                        </div>
-                                        <div className="flex items-center gap-2">
-                                            <div className="size-2 rounded-full bg-purple-500" />
-                                            <span className="text-sm">Live Embedded Excel</span>
-                                        </div>
-                                        <div className="flex items-center gap-2">
-                                            <div className="size-2 rounded-full bg-purple-500" />
-                                            <span className="text-sm">Advanced Drag & Drop</span>
-                                        </div>
-                                    </div>
-
-                                    <div className="mb-4">
-                                        <Button
-                                            variant="outline"
-                                            className="w-full border-purple-200 text-purple-700 hover:bg-purple-50 dark:border-purple-800 dark:text-purple-300 dark:hover:bg-purple-900/20"
-                                            asChild
-                                        >
-                                            <Link
-                                                href="/edgebi"
-                                                target="_black"
+                                        <div className="mb-4">
+                                            <Button
+                                                variant="outline"
+                                                className="w-full border-purple-200 text-purple-700 hover:bg-purple-50 dark:border-purple-800 dark:text-purple-300 dark:hover:bg-purple-900/20"
+                                                asChild
                                             >
-                                                View Details
-                                            </Link>
-                                        </Button>
-                                    </div>
-
-                                    <div className="text-center">
-                                        <div className="mb-2 text-3xl font-bold text-purple-700 dark:text-purple-300">
-                                            $25,000+
+                                                <Link
+                                                    href="/edgebi"
+                                                    target="_black"
+                                                >
+                                                    View Details
+                                                </Link>
+                                            </Button>
                                         </div>
-                                        <p className="text-sm text-muted-foreground">
-                                            Enterprise solution
-                                        </p>
+
+                                        <div className="text-center">
+                                            <div className="mb-2 text-3xl font-bold text-purple-700 dark:text-purple-300">
+                                                $25,000+
+                                            </div>
+                                            <p className="text-sm text-muted-foreground">
+                                                Enterprise solution
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

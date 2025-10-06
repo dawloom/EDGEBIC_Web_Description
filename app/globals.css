@@ -147,3 +147,13 @@ input[type='number'] {
     transform: scale(1.02);
   }
 }
+
+/* Fix line-height for headings to prevent text cut-off */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.25 !important;
+}
