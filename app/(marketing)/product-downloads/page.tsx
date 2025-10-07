@@ -73,6 +73,19 @@ export default function ProductDownloadsPage(): React.JSX.Element {
                             className="w-full object-cover"
                         />
                     </div>
+                    <div className="p-4">
+                        <video
+                            controls
+                            className="mb-4 w-full rounded-lg"
+                            preload="metadata"
+                        >
+                            <source
+                                src="https://www.usersolutions.com/wp-content/uploads/2022/10/Welcome-to-Job-Scheduler-Lite-JSL.mp4"
+                                type="video/mp4"
+                            />
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
                     <div className="p-6">
                         <div className="mb-4 text-center">
                             <span className="inline-block rounded-full bg-gray-100 px-3 py-1 text-sm font-semibold text-gray-700 dark:bg-gray-700 dark:text-gray-300">
@@ -127,6 +140,19 @@ export default function ProductDownloadsPage(): React.JSX.Element {
                             className="w-full object-cover"
                         />
                     </div>
+                    <div className="p-4">
+                        <video
+                            controls
+                            className="mb-4 w-full rounded-lg"
+                            preload="metadata"
+                        >
+                            <source
+                                src="https://www.usersolutions.com/wp-content/uploads/2022/12/RMDB updated thumbnail.mp4"
+                                type="video/mp4"
+                            />
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
                     <div className="p-6">
                         <div className="mb-4 text-center">
                             <span className="inline-block rounded-full bg-blue-100 px-3 py-1 text-sm font-semibold text-blue-700 dark:bg-blue-900 dark:text-blue-300">
@@ -175,6 +201,19 @@ export default function ProductDownloadsPage(): React.JSX.Element {
                             height={100}
                             className="w-full object-cover"
                         />
+                    </div>
+                    <div className="p-4">
+                        <video
+                            controls
+                            className="mb-4 w-full rounded-lg"
+                            preload="metadata"
+                        >
+                            <source
+                                src="https://www.usersolutions.com/wp-content/uploads/2022/12/EDGEBI updated thumbnail.mp4"
+                                type="video/mp4"
+                            />
+                            Your browser does not support the video tag.
+                        </video>
                     </div>
                     <div className="p-6">
                         <div className="mb-4 text-center">
