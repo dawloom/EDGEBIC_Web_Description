@@ -1,16 +1,18 @@
 import * as React from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
 
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Routes } from '@/constants/routes';
-import Link from 'next/link';
 
 export default function OperationsManagerPage(): React.JSX.Element {
     const categories = [
         {
             title: 'Forecasting',
-            description: 'Production and Operations Management Templates for forecasting and demand planning',
+            description:
+                'Production and Operations Management Templates for forecasting and demand planning',
             items: [
                 {
                     title: 'Simple exponential smoothing',
@@ -20,7 +22,8 @@ export default function OperationsManagerPage(): React.JSX.Element {
                 {
                     title: 'Smoothing linear, exponential, and damped trends',
                     price: '$5',
-                    infoLink: 'https://www.usersolutions.com/operations-manager-trendsmooth/'
+                    infoLink:
+                        'https://www.usersolutions.com/operations-manager-trendsmooth/'
                 },
                 {
                     title: 'Ratio-to-moving-average seasonal adjustment',
@@ -35,7 +38,8 @@ export default function OperationsManagerPage(): React.JSX.Element {
                 {
                     title: 'Complete Forecasting package',
                     price: '$10',
-                    infoLink: 'https://www.usersolutions.com/wp-content/uploads/2022/11/FORECASTING-D.doc',
+                    infoLink:
+                        'https://www.usersolutions.com/wp-content/uploads/2022/11/FORECASTING-D.doc',
                     isPackage: true
                 }
             ]
@@ -72,14 +76,16 @@ export default function OperationsManagerPage(): React.JSX.Element {
                 {
                     title: 'Complete Inventory Management Package',
                     price: '$10',
-                    infoLink: 'https://www.usersolutions.com/wp-content/uploads/2022/11/INVENTORY-MANAGEMENT-D.doc',
+                    infoLink:
+                        'https://www.usersolutions.com/wp-content/uploads/2022/11/INVENTORY-MANAGEMENT-D.doc',
                     isPackage: true
                 }
             ]
         },
         {
             title: 'Material Requirements Planning',
-            description: 'MRP solutions for production planning and inventory control',
+            description:
+                'MRP solutions for production planning and inventory control',
             items: [
                 {
                     title: 'MRP Inventory Plan',
@@ -94,7 +100,8 @@ export default function OperationsManagerPage(): React.JSX.Element {
                 {
                     title: 'Complete MRP Package',
                     price: '$10',
-                    infoLink: 'https://www.usersolutions.com/wp-content/uploads/2022/11/mrp-d.doc',
+                    infoLink:
+                        'https://www.usersolutions.com/wp-content/uploads/2022/11/mrp-d.doc',
                     isPackage: true
                 }
             ]
@@ -121,14 +128,16 @@ export default function OperationsManagerPage(): React.JSX.Element {
                 {
                     title: 'Complete Production Planning Package',
                     price: '$10',
-                    infoLink: 'https://www.usersolutions.com/wp-content/uploads/2022/11/PRODUCTION-PLANNING-D.doc',
+                    infoLink:
+                        'https://www.usersolutions.com/wp-content/uploads/2022/11/PRODUCTION-PLANNING-D.doc',
                     isPackage: true
                 }
             ]
         },
         {
             title: 'Facility Location',
-            description: 'Tools for optimal facility and distribution center location',
+            description:
+                'Tools for optimal facility and distribution center location',
             items: [
                 {
                     title: 'Center-of-Gravity method for locating dist. cntrs',
@@ -138,7 +147,8 @@ export default function OperationsManagerPage(): React.JSX.Element {
                 {
                     title: 'Complete Facility Location Package',
                     price: '$5',
-                    infoLink: 'https://www.usersolutions.com/wp-content/uploads/2022/11/LOCATION-D.doc',
+                    infoLink:
+                        'https://www.usersolutions.com/wp-content/uploads/2022/11/LOCATION-D.doc',
                     isPackage: true
                 }
             ]
@@ -165,7 +175,8 @@ export default function OperationsManagerPage(): React.JSX.Element {
                 {
                     title: 'Complete Scheduling Package',
                     price: '$10',
-                    infoLink: 'https://www.usersolutions.com/wp-content/uploads/2022/11/SCHEDULING-D.doc',
+                    infoLink:
+                        'https://www.usersolutions.com/wp-content/uploads/2022/11/SCHEDULING-D.doc',
                     isPackage: true
                 }
             ]
@@ -207,7 +218,8 @@ export default function OperationsManagerPage(): React.JSX.Element {
                 {
                     title: 'Complete Quality Control Package',
                     price: '$10',
-                    infoLink: 'https://www.usersolutions.com/wp-content/uploads/2022/11/quality-d.doc',
+                    infoLink:
+                        'https://www.usersolutions.com/wp-content/uploads/2022/11/quality-d.doc',
                     isPackage: true
                 }
             ]
@@ -229,7 +241,8 @@ export default function OperationsManagerPage(): React.JSX.Element {
                 {
                     title: 'Complete Analysis of Waiting Lines',
                     price: '$10',
-                    infoLink: 'https://www.usersolutions.com/wp-content/uploads/2022/11/WAITINGLINES-D.doc',
+                    infoLink:
+                        'https://www.usersolutions.com/wp-content/uploads/2022/11/WAITINGLINES-D.doc',
                     isPackage: true
                 }
             ]
@@ -251,27 +264,40 @@ export default function OperationsManagerPage(): React.JSX.Element {
                         Operations Manager
                     </h1>
                     <p className="mb-8 text-xl text-muted-foreground md:text-2xl">
-                        Production and Operations Management Templates ideal for introduction to
-                        Production Planning, Production Scheduling, Material Requirements Planning, Inventory
-                        Management and Quality Control techniques.
+                        Production and Operations Management Templates ideal for
+                        introduction to Production Planning, Production Scheduling, Material
+                        Requirements Planning, Inventory Management and Quality Control
+                        techniques.
                     </p>
                     <p className="mb-8 text-lg text-muted-foreground">
-                        All formulas are in Excel with full documentation. You can view full documentation then order a single template, group per section, or entire package.
+                        All formulas are in Excel with full documentation. You can view full
+                        documentation then order a single template, group per section, or
+                        entire package.
                     </p>
                 </div>
 
                 {/* Categories */}
                 <div className="space-y-12">
                     {categories.map((category, index) => (
-                        <Card key={index} className="mb-8">
+                        <Card
+                            key={index}
+                            className="mb-8"
+                        >
                             <CardHeader>
-                                <CardTitle className="text-3xl text-blue-600">{category.title}</CardTitle>
-                                <p className="text-lg text-muted-foreground">{category.description}</p>
+                                <CardTitle className="text-3xl text-blue-600">
+                                    {category.title}
+                                </CardTitle>
+                                <p className="text-lg text-muted-foreground">
+                                    {category.description}
+                                </p>
                             </CardHeader>
                             <CardContent>
                                 <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
                                     {category.items.map((item, itemIndex) => (
-                                        <Card key={itemIndex} className={`border-2 ${item.isPackage ? 'border-orange-200 bg-orange-50 dark:border-orange-800 dark:bg-orange-950/20' : 'border-gray-200'}`}>
+                                        <Card
+                                            key={itemIndex}
+                                            className={`border-2 ${item.isPackage ? 'border-orange-200 bg-orange-50 dark:border-orange-800 dark:bg-orange-950/20' : 'border-gray-200'}`}
+                                        >
                                             <CardContent className="p-6">
                                                 <div className="flex flex-col space-y-4">
                                                     <div className="flex-1">
@@ -279,7 +305,10 @@ export default function OperationsManagerPage(): React.JSX.Element {
                                                             {item.title}
                                                         </h3>
                                                         {item.isPackage && (
-                                                            <Badge variant="secondary" className="mt-2">
+                                                            <Badge
+                                                                variant="secondary"
+                                                                className="mt-2"
+                                                            >
                                                                 Complete Package
                                                             </Badge>
                                                         )}
@@ -299,7 +328,9 @@ export default function OperationsManagerPage(): React.JSX.Element {
                                                                     target="_blank"
                                                                     rel="noopener noreferrer"
                                                                 >
-                                                                    {item.infoLink.includes('.doc') ? 'Doc' : 'Info'}
+                                                                    {item.infoLink.includes('.doc')
+                                                                        ? 'Doc'
+                                                                        : 'Info'}
                                                                 </a>
                                                             </Button>
                                                             <Button
@@ -321,17 +352,21 @@ export default function OperationsManagerPage(): React.JSX.Element {
                 </div>
 
                 {/* Complete Package */}
-                <Card className="mb-16 border-4 border-green-200 bg-green-50 dark:border-green-800 dark:bg-green-950/20">
+                <Card className="mb-16 mt-8 border-4 border-green-200 bg-green-50 dark:border-green-800 dark:bg-green-950/20">
                     <CardContent className="p-8">
                         <div className="text-center">
-                            <Badge variant="secondary" className="mb-4 bg-green-200 text-green-800">
+                            <Badge
+                                variant="secondary"
+                                className="mb-4 bg-green-200 text-green-800"
+                            >
                                 BEST VALUE
                             </Badge>
                             <h2 className="mb-4 text-4xl font-bold text-green-800 dark:text-green-300">
                                 Complete Operations Manager Package
                             </h2>
                             <p className="mb-6 text-xl text-muted-foreground">
-                                Get all Operations Manager templates in one comprehensive package
+                                Get all Operations Manager templates in one comprehensive
+                                package
                             </p>
                             <div className="flex items-center justify-center space-x-6">
                                 <span className="text-5xl font-bold text-green-600">$39</span>
@@ -365,11 +400,10 @@ export default function OperationsManagerPage(): React.JSX.Element {
                 <Card className="mb-16">
                     <CardContent className="p-8">
                         <div className="text-center">
-                            <h2 className="mb-4 text-3xl font-bold">
-                                Need Help Choosing?
-                            </h2>
+                            <h2 className="mb-4 text-3xl font-bold">Need Help Choosing?</h2>
                             <p className="mb-6 text-lg text-muted-foreground">
-                                Contact us for personalized recommendations based on your specific needs
+                                Contact us for personalized recommendations based on your
+                                specific needs
                             </p>
                             <div className="flex justify-center space-x-4">
                                 <Button
@@ -377,22 +411,34 @@ export default function OperationsManagerPage(): React.JSX.Element {
                                     variant="outline"
                                     asChild
                                 >
-                                    <Link href={Routes.Contact}>
-                                        Contact Us
-                                    </Link>
+                                    <Link href={Routes.Contact}>Contact Us</Link>
                                 </Button>
                                 <Button
                                     size="lg"
                                     asChild
                                 >
-                                    <a href="tel:248.486.6365">
-                                        Call 248.486.6365
-                                    </a>
+                                    <a href="tel:248.486.6365">Call 248.486.6365</a>
                                 </Button>
                             </div>
                         </div>
                     </CardContent>
                 </Card>
+
+                {/* Awards Section */}
+                <section className="mb-8 rounded-xl bg-gradient-to-r from-blue-50 to-purple-50 p-12 text-center dark:from-blue-900/20 dark:to-purple-900/20">
+                    <h2 className="mb-6 text-3xl font-semibold">
+                        CELEBRATING 25 YEARS OF AWARD WINNING SOFTWARE!
+                    </h2>
+                    <div className="flex justify-center">
+                        <Image
+                            src="https://www.usersolutions.com/wp-content/uploads/2022/07/banner-logoso-sm-58c9a28d237d6-1024x128.jpg"
+                            alt="Collection of industry and business awards logos"
+                            width={1024}
+                            height={128}
+                            className="rounded-lg"
+                        />
+                    </div>
+                </section>
             </div>
         </div>
     );
