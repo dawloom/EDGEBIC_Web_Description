@@ -1,0 +1,306 @@
+import * as React from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
+import {
+    ArrowLeft,
+    CheckCircle,
+    Factory,
+    Target,
+    Users,
+    Zap
+} from 'lucide-react';
+
+import { GridSection } from '@/components/marketing/fragments/grid-section';
+import { SiteHeading } from '@/components/marketing/fragments/site-heading';
+import { Button } from '@/components/ui/button';
+import {
+    Card,
+    CardContent,
+    CardDescription,
+    CardHeader,
+    CardTitle
+} from '@/components/ui/card';
+
+export default function SleepmasterLtdPage(): React.JSX.Element {
+    return (
+        <div className="min-h-screen bg-white dark:bg-slate-950">
+            {/* Hero Section */}
+            <GridSection hideVerticalGridLines>
+                <div className="container pt-6">
+                    <div className="mx-auto max-w-4xl">
+                        {/* Company Logo */}
+
+                        {/* Hero Header */}
+                        <div className="mb-16 text-center">
+                            <SiteHeading
+                                badge="Case Study"
+                                title="Sleepmaster Ltd"
+                                description="Affordable, Easy-to-Implement MRP for Smaller Manufacturer"
+                            />
+                            <p className="mt-6 text-lg text-muted-foreground">
+                                A $50M manufacturer successfully implements Resource Manager DB
+                                for scheduling, costing, and materials planning across multiple
+                                facilities
+                            </p>
+                        </div>
+
+                        <div className="mb-8 text-center">
+                            <Image
+                                src="https://www.usersolutions.com/wp-content/uploads/2022/10/sleep66-161208-5849e9fe80645.jpg"
+                                alt="SleepMaster Ltd Logo"
+                                width={200}
+                                height={120}
+                                className="mx-auto rounded-lg"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </GridSection>
+
+            {/* Company Overview */}
+            <section className="py-16">
+                <div className="container mx-auto max-w-4xl px-4">
+                    <Card className="mb-12">
+                        <CardHeader>
+                            <CardTitle className="flex items-center gap-2">
+                                <Factory className="size-6 text-blue-600" />
+                                Company Overview
+                            </CardTitle>
+                        </CardHeader>
+                        <CardContent className="space-y-4">
+                            <p className="text-slate-700 dark:text-slate-300">
+                                Sleepmaster Ltd is a relatively small organization with AUD$50M
+                                in sales. The company faced challenges with an outdated MRP
+                                system in Australia that lacked effective scheduling ability and
+                                was cumbersome for product costings.
+                            </p>
+                            <p className="text-slate-700 dark:text-slate-300">
+                                Additionally, they were starting up a new facility in China with
+                                no MRP system at all, where the local team had little modern
+                                manufacturing experience.
+                            </p>
+                        </CardContent>
+                    </Card>
+
+                    {/* Challenges */}
+                    <Card className="mb-12">
+                        <CardHeader>
+                            <CardTitle className="flex items-center gap-2">
+                                <Target className="size-6 text-orange-600" />
+                                Challenges to Solve
+                            </CardTitle>
+                        </CardHeader>
+                        <CardContent>
+                            <div className="grid gap-4 md:grid-cols-2">
+                                <div className="space-y-3">
+                                    <div className="flex items-start gap-3">
+                                        <CheckCircle className="mt-1 size-5 shrink-0 text-orange-600" />
+                                        <span className="text-slate-700 dark:text-slate-300">
+                                            Provide a scheduling system that allows quick changes in a
+                                            very dynamic demand situation
+                                        </span>
+                                    </div>
+                                    <div className="flex items-start gap-3">
+                                        <CheckCircle className="mt-1 size-5 shrink-0 text-orange-600" />
+                                        <span className="text-slate-700 dark:text-slate-300">
+                                            Provide a quick and easy costing system for products
+                                        </span>
+                                    </div>
+                                </div>
+                                <div className="space-y-3">
+                                    <div className="flex items-start gap-3">
+                                        <CheckCircle className="mt-1 size-5 shrink-0 text-orange-600" />
+                                        <span className="text-slate-700 dark:text-slate-300">
+                                            Provide a quick and easy system for materials requirements
+                                            planning
+                                        </span>
+                                    </div>
+                                    <div className="flex items-start gap-3">
+                                        <CheckCircle className="mt-1 size-5 shrink-0 text-orange-600" />
+                                        <span className="text-slate-700 dark:text-slate-300">
+                                            Enable BOMs and Routes to be quickly and easily built "on
+                                            the run"
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </CardContent>
+                    </Card>
+
+                    {/* Why Resource Manager */}
+                    <Card className="mb-12">
+                        <CardHeader>
+                            <CardTitle className="flex items-center gap-2">
+                                <Zap className="size-6 text-green-600" />
+                                Why Resource Manager Was Chosen
+                            </CardTitle>
+                        </CardHeader>
+                        <CardContent>
+                            <div className="grid gap-6 md:grid-cols-2">
+                                <div className="space-y-4">
+                                    <div className="flex items-start gap-3">
+                                        <CheckCircle className="mt-1 size-5 shrink-0 text-green-600" />
+                                        <div>
+                                            <h4 className="font-semibold text-slate-900 dark:text-white">
+                                                Easy and Intuitive
+                                            </h4>
+                                            <p className="text-sm text-slate-600 dark:text-slate-400">
+                                                Very easy and intuitive to use interface
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div className="flex items-start gap-3">
+                                        <CheckCircle className="mt-1 size-5 shrink-0 text-green-600" />
+                                        <div>
+                                            <h4 className="font-semibold text-slate-900 dark:text-white">
+                                                Phased Implementation
+                                            </h4>
+                                            <p className="text-sm text-slate-600 dark:text-slate-400">
+                                                Can be used in sections within days, without requiring
+                                                complete system implementation
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div className="flex items-start gap-3">
+                                        <CheckCircle className="mt-1 size-5 shrink-0 text-green-600" />
+                                        <div>
+                                            <h4 className="font-semibold text-slate-900 dark:text-white">
+                                                Cost-Effective
+                                            </h4>
+                                            <p className="text-sm text-slate-600 dark:text-slate-400">
+                                                Low cost compared to other comprehensive systems
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="space-y-4">
+                                    <div className="flex items-start gap-3">
+                                        <CheckCircle className="mt-1 size-5 shrink-0 text-green-600" />
+                                        <div>
+                                            <h4 className="font-semibold text-slate-900 dark:text-white">
+                                                Flexible & Configurable
+                                            </h4>
+                                            <p className="text-sm text-slate-600 dark:text-slate-400">
+                                                Easily configurable and flexible to adapt to specific
+                                                needs
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div className="flex items-start gap-3">
+                                        <CheckCircle className="mt-1 size-5 shrink-0 text-green-600" />
+                                        <div>
+                                            <h4 className="font-semibold text-slate-900 dark:text-white">
+                                                Excellent Support
+                                            </h4>
+                                            <p className="text-sm text-slate-600 dark:text-slate-400">
+                                                Good support via Skype, phone and GoToMeeting with fast
+                                                turnaround
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div className="flex items-start gap-3">
+                                        <CheckCircle className="mt-1 size-5 shrink-0 text-green-600" />
+                                        <div>
+                                            <h4 className="font-semibold text-slate-900 dark:text-white">
+                                                Training Tool
+                                            </h4>
+                                            <p className="text-sm text-slate-600 dark:text-slate-400">
+                                                Serves as an excellent MRP training tool for new team
+                                                members
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </CardContent>
+                    </Card>
+
+                    {/* Key Benefits */}
+                    <Card className="mb-12 bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20">
+                        <CardHeader>
+                            <CardTitle className="text-blue-700 dark:text-blue-300">
+                                Key Benefit
+                            </CardTitle>
+                        </CardHeader>
+                        <CardContent>
+                            <blockquote className="text-lg italic text-slate-700 dark:text-slate-300">
+                                "The biggest benefit relative to other systems looked at is its
+                                simplicity to operate and speed at which it can generate results
+                                in whichever area you want to start on. A whole system can be
+                                built up while it is generating value, which is particularly
+                                valuable in a start up situation such as our Chinese plant."
+                            </blockquote>
+                        </CardContent>
+                    </Card>
+
+                    {/* Implementation Success */}
+                    <Card className="mb-12">
+                        <CardHeader>
+                            <CardTitle className="flex items-center gap-2">
+                                <Users className="size-6 text-purple-600" />
+                                Implementation Success
+                            </CardTitle>
+                        </CardHeader>
+                        <CardContent className="space-y-4">
+                            <p className="text-slate-700 dark:text-slate-300">
+                                <strong>Resource Manager DB</strong> required only one
+                                individual working part-time to set up the critical areas for
+                                the China facility. The system is now being run by a young
+                                Chinese manager who had no prior manufacturing experience but
+                                quickly picked up the concepts.
+                            </p>
+                            <p className="text-slate-700 dark:text-slate-300">
+                                The implementation process started with materials planning, then
+                                moved to costings, and finally scheduling - demonstrating the
+                                flexibility to implement in phases while generating value at
+                                each step.
+                            </p>
+                        </CardContent>
+                    </Card>
+
+                    {/* Testimonial */}
+                    <Card className="mb-12 bg-gradient-to-br from-yellow-50 to-yellow-100 dark:from-yellow-900/20 dark:to-yellow-800/20">
+                        <CardContent className="p-8 text-center">
+                            <blockquote className="mb-4 text-xl text-slate-700 dark:text-slate-300">
+                                "Best choice for MRP and project management software"
+                            </blockquote>
+                            <cite className="text-lg font-medium text-slate-900 dark:text-white">
+                                — Jim Steel, Operations Manager
+                                <br />
+                                Sleepmaster Ltd
+                            </cite>
+                        </CardContent>
+                    </Card>
+
+                    {/* Call to Action */}
+                    <div className="text-center">
+                        <h3 className="mb-4 text-2xl font-bold text-slate-900 dark:text-white">
+                            Ready to Transform Your Manufacturing Operations?
+                        </h3>
+                        <p className="mb-6 text-slate-600 dark:text-slate-400">
+                            See how Resource Manager can help your business achieve similar
+                            results
+                        </p>
+                        <div className="flex flex-col gap-4 sm:flex-row sm:justify-center">
+                            <Button
+                                asChild
+                                size="lg"
+                            >
+                                <Link href="/contact">Contact Us Today</Link>
+                            </Button>
+                            <Button
+                                asChild
+                                variant="outline"
+                                size="lg"
+                            >
+                                <Link href="/resource-manager-db">
+                                    Learn More About Resource Manager DB
+                                </Link>
+                            </Button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    );
+}

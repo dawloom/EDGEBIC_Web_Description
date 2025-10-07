@@ -2,6 +2,7 @@
 
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import {
     Award,
@@ -421,6 +422,14 @@ export function ProductionPlanningSolutions(): React.JSX.Element {
                                     <cite className="text-sm font-medium text-slate-900 dark:text-white">
                                         — Sleepmaster Ltd
                                     </cite>
+                                    <div className="mt-3">
+                                        <Link
+                                            href="/sleepmaster-ltd"
+                                            className="text-sm text-blue-600 underline hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300"
+                                        >
+                                            Read More
+                                        </Link>
+                                    </div>
                                 </CardContent>
                             </Card>
 
@@ -439,6 +448,14 @@ export function ProductionPlanningSolutions(): React.JSX.Element {
                                     <cite className="text-sm font-medium text-slate-900 dark:text-white">
                                         — Cook Compression
                                     </cite>
+                                    <div className="mt-3">
+                                        <Link
+                                            href="/cook-compression"
+                                            className="text-sm text-blue-600 underline hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300"
+                                        >
+                                            Read More
+                                        </Link>
+                                    </div>
                                 </CardContent>
                             </Card>
 
@@ -457,6 +474,14 @@ export function ProductionPlanningSolutions(): React.JSX.Element {
                                     <cite className="text-sm font-medium text-slate-900 dark:text-white">
                                         — Incon Incorporated
                                     </cite>
+                                    <div className="mt-3">
+                                        <Link
+                                            href="/incon-incorporated"
+                                            className="text-sm text-blue-600 underline hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300"
+                                        >
+                                            Read More
+                                        </Link>
+                                    </div>
                                 </CardContent>
                             </Card>
                         </div>
