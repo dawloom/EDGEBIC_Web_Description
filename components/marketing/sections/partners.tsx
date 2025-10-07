@@ -269,30 +269,20 @@ export function PartnersSection(): React.JSX.Element {
         </div>
 
         {/* Awards Section */}
-        <div className="mx-auto mt-16 max-w-4xl text-center">
-          <h2 className="mb-4 text-2xl font-bold">
-            Celebrating 25 Years of Award Winning Software!
-          </h2>
-          <div className="rounded-2xl border bg-gradient-to-r from-amber-50 to-yellow-50 p-8 dark:from-amber-950 dark:to-yellow-950">
-            <div className="relative h-32 w-full">
-              <Image
-                src="/images/partners/awards-banner-new.jpg"
+        <Card className="mx-auto mt-16 max-w-4xl bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20">
+          <CardContent className="p-8 text-center">
+            <h3 className="mb-6 text-2xl font-bold text-slate-900 dark:text-white">
+              CELEBRATING 25 YEARS OF AWARD WINNING SOFTWARE!
+            </h3>
+            <div className="flex justify-center">
+              <img
+                src="https://www.usersolutions.com/wp-content/uploads/2022/07/banner-logoso-sm-58c9a28d237d6-1024x128.jpg"
                 alt="Collection of industry and business awards logos"
-                fill
-                className="object-contain"
-                onError={(e) => {
-                  // Hide image on error
-                  const target = e.target as HTMLImageElement;
-                  target.style.display = 'none';
-                }}
+                className="h-auto max-w-full rounded-lg shadow-md"
               />
             </div>
-            <p className="mt-4 text-muted-foreground">
-              Our partners help us maintain our commitment to excellence that
-              has earned recognition across the manufacturing software industry.
-            </p>
-          </div>
-        </div>
+          </CardContent>
+        </Card>
 
         {/* Contact Section */}
         <div className="mx-auto mt-16 max-w-2xl text-center">
