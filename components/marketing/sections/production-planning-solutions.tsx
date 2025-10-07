@@ -2,6 +2,7 @@
 
 import React from 'react';
 import Image from 'next/image';
+import { useRouter } from 'next/navigation';
 import {
     Award,
     CheckCircle,
@@ -100,6 +101,7 @@ function VideoPlayer({
 }
 
 export function ProductionPlanningSolutions(): React.JSX.Element {
+    const router = useRouter();
     const [isVideoPlaying, setIsVideoPlaying] = React.useState(false);
     const [isStarterVideoPlaying, setIsStarterVideoPlaying] =
         React.useState(false);
@@ -114,8 +116,17 @@ export function ProductionPlanningSolutions(): React.JSX.Element {
                 {/* Hero Section */}
                 <SiteHeading
                     badge="Production Planning & Scheduling"
-                    title="Manufacturing Solutions That Boost Efficiency"
-                    description="Discover powerful Production Planning and Scheduling Solutions that help manufacturers boost efficiency—from Excel job shop tools to advanced APS software."
+                    title={
+                        <a
+                            href="https://en.wikipedia.org/wiki/Production_planning"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-blue-600 hover:underline"
+                        >
+                            Production Planning and Scheduling Solutions
+                        </a>
+                    }
+                    description="Manufacturing Solutions That Boost Efficiency"
                 />
 
                 <div className="mx-auto mt-8 max-w-6xl">
@@ -129,6 +140,7 @@ export function ProductionPlanningSolutions(): React.JSX.Element {
                             <Button
                                 size="lg"
                                 className="gap-2"
+                                onClick={() => router.push('/product-downloads')}
                             >
                                 <Download className="size-4" />
                                 Free Trial & Samples
@@ -137,6 +149,7 @@ export function ProductionPlanningSolutions(): React.JSX.Element {
                                 size="lg"
                                 variant="outline"
                                 className="gap-2"
+                                onClick={() => router.push('/excel-templates')}
                             >
                                 <Settings className="size-4" />
                                 Excel Products
@@ -224,6 +237,7 @@ export function ProductionPlanningSolutions(): React.JSX.Element {
                                 <Button
                                     variant="outline"
                                     className="mb-4 w-full border-blue-200 text-blue-600 hover:bg-blue-50 dark:border-blue-700 dark:text-blue-400"
+                                    onClick={() => router.push('/job-scheduler-lite')}
                                 >
                                     View Details
                                 </Button>
@@ -296,6 +310,7 @@ export function ProductionPlanningSolutions(): React.JSX.Element {
                                 <Button
                                     variant="outline"
                                     className="mb-4 w-full border-orange-200 text-orange-600 hover:bg-orange-50 dark:border-orange-700 dark:text-orange-400"
+                                    onClick={() => router.push('/resource-manager-db-2')}
                                 >
                                     View Details
                                 </Button>
@@ -367,6 +382,7 @@ export function ProductionPlanningSolutions(): React.JSX.Element {
                                 <Button
                                     variant="outline"
                                     className="mb-4 w-full border-purple-200 text-purple-600 hover:bg-purple-50 dark:border-purple-700 dark:text-purple-400"
+                                    onClick={() => router.push('/edgebi')}
                                 >
                                     View Details
                                 </Button>
@@ -658,8 +674,12 @@ export function ProductionPlanningSolutions(): React.JSX.Element {
                                 variant="outline"
                                 size="sm"
                                 onClick={() => {
-                                    const details = document.querySelectorAll('details[data-feature]');
-                                    details.forEach(detail => detail.setAttribute('open', 'true'));
+                                    const details = document.querySelectorAll(
+                                        'details[data-feature]'
+                                    );
+                                    details.forEach((detail) =>
+                                        detail.setAttribute('open', 'true')
+                                    );
                                 }}
                                 className="text-blue-600 hover:bg-blue-50"
                             >
@@ -669,8 +689,10 @@ export function ProductionPlanningSolutions(): React.JSX.Element {
                                 variant="outline"
                                 size="sm"
                                 onClick={() => {
-                                    const details = document.querySelectorAll('details[data-feature]');
-                                    details.forEach(detail => detail.removeAttribute('open'));
+                                    const details = document.querySelectorAll(
+                                        'details[data-feature]'
+                                    );
+                                    details.forEach((detail) => detail.removeAttribute('open'));
                                 }}
                                 className="text-blue-600 hover:bg-blue-50"
                             >
@@ -700,137 +722,162 @@ export function ProductionPlanningSolutions(): React.JSX.Element {
                                     {[
                                         {
                                             feature: 'Routings',
-                                            description: 'Workcenter Set-up and Cycle Times, Queue / Move Times, Linear and non-Linear.',
+                                            description:
+                                                'Workcenter Set-up and Cycle Times, Queue / Move Times, Linear and non-Linear.',
                                             jsl: true,
                                             rmdb: true,
                                             edgebi: true
                                         },
                                         {
                                             feature: 'Finite Capacity',
-                                            description: 'Only schedules to what is available. Customizable Workcenter Calendars and Daily Calendar. Color coded. Graphics.',
+                                            description:
+                                                'Only schedules to what is available. Customizable Workcenter Calendars and Daily Calendar. Color coded. Graphics.',
                                             jsl: true,
                                             rmdb: true,
                                             edgebi: true
                                         },
                                         {
                                             feature: 'Tracking Actuals',
-                                            description: 'Import Actuals. if available, or direct entry. Even drag-and-drop to track WIP.',
+                                            description:
+                                                'Import Actuals. if available, or direct entry. Even drag-and-drop to track WIP.',
                                             jsl: false,
                                             rmdb: true,
                                             edgebi: true
                                         },
                                         {
                                             feature: 'Bill of Materials',
-                                            description: 'Quantity per, Parent-child, Sub-Assemblies, Rev Control, much more.',
+                                            description:
+                                                'Quantity per, Parent-child, Sub-Assemblies, Rev Control, much more.',
                                             jsl: false,
                                             rmdb: true,
                                             edgebi: true
                                         },
                                         {
                                             feature: 'Mixed Mode Scheduling',
-                                            description: 'Forward based on start date or Reverse based on due date or even Time Fenced. Per job or group of orders. Prioritize at any level.',
+                                            description:
+                                                'Forward based on start date or Reverse based on due date or even Time Fenced. Per job or group of orders. Prioritize at any level.',
                                             jsl: true,
                                             rmdb: true,
                                             edgebi: true
                                         },
                                         {
                                             feature: 'Rescheduling',
-                                            description: 'Import Actuals. if available, or direct entry. Even drag-and-drop to track WIP.',
+                                            description:
+                                                'Import Actuals. if available, or direct entry. Even drag-and-drop to track WIP.',
                                             jsl: false,
                                             rmdb: true,
                                             edgebi: true
                                         },
                                         {
                                             feature: 'Inventory Management',
-                                            description: 'Low maintenance. Safety Stocks, Yield Factors, Purchasing UOM, ATP, Reporting.',
+                                            description:
+                                                'Low maintenance. Safety Stocks, Yield Factors, Purchasing UOM, ATP, Reporting.',
                                             jsl: false,
                                             rmdb: true,
                                             edgebi: true
                                         },
                                         {
                                             feature: 'Material Planning Basic',
-                                            description: 'What materials are required for what jobs and when.',
+                                            description:
+                                                'What materials are required for what jobs and when.',
                                             jsl: false,
                                             rmdb: true,
                                             edgebi: true
                                         },
                                         {
                                             feature: 'Customizable',
-                                            description: 'We specialize in enhancing any product, or combination, to meet your unique needs.',
+                                            description:
+                                                'We specialize in enhancing any product, or combination, to meet your unique needs.',
                                             jsl: false,
                                             rmdb: true,
                                             edgebi: true
                                         },
                                         {
                                             feature: 'Purchase Orders',
-                                            description: 'Easy, fast, accurate. Based on scheduled demand, stock replenishment, and more. Paperless option.',
+                                            description:
+                                                'Easy, fast, accurate. Based on scheduled demand, stock replenishment, and more. Paperless option.',
                                             jsl: false,
                                             rmdb: true,
                                             edgebi: true
                                         },
                                         {
                                             feature: 'Drag and Drop',
-                                            description: 'Visually change dates per job, per workcenter, or even drag job from one workcenter to another.',
+                                            description:
+                                                'Visually change dates per job, per workcenter, or even drag job from one workcenter to another.',
                                             jsl: false,
                                             rmdb: true,
                                             edgebi: true
                                         },
                                         {
                                             feature: 'Materials Planning Advanced',
-                                            description: 'MRP Calculations, Shortage Reports, Lot and Batch Sizing, much more.',
+                                            description:
+                                                'MRP Calculations, Shortage Reports, Lot and Batch Sizing, much more.',
                                             jsl: false,
                                             rmdb: true,
                                             edgebi: true
                                         },
                                         {
                                             feature: 'Integration with other systems',
-                                            description: 'Import and Export to Excel and direct importing via ODBC drivers. Integrates easily with most ERP and custom systems.',
+                                            description:
+                                                'Import and Export to Excel and direct importing via ODBC drivers. Integrates easily with most ERP and custom systems.',
                                             jsl: false,
                                             rmdb: true,
                                             edgebi: true
                                         },
                                         {
                                             feature: 'Advanced Planning & Scheduling',
-                                            description: 'Alternate Routings, Multiple Constraints, Multiple Priorities, Rescheduling on demand, much more.',
+                                            description:
+                                                'Alternate Routings, Multiple Constraints, Multiple Priorities, Rescheduling on demand, much more.',
                                             jsl: false,
                                             rmdb: true,
                                             edgebi: true
                                         },
                                         {
                                             feature: 'Heat Map Report',
-                                            description: 'Visual representation of capacity loading across your schedule.',
+                                            description:
+                                                'Visual representation of capacity loading across your schedule.',
                                             jsl: false,
                                             rmdb: false,
                                             edgebi: true
                                         },
                                         {
                                             feature: 'Schedule Key Dates',
-                                            description: 'Critical date tracking and reporting functionality.',
+                                            description:
+                                                'Critical date tracking and reporting functionality.',
                                             jsl: false,
                                             rmdb: false,
                                             edgebi: true
                                         },
                                         {
                                             feature: 'Live embedded Excel',
-                                            description: 'Import and Export to Excel and direct importing via ODBC drivers. Integrates easily with most ERP and custom systems.',
+                                            description:
+                                                'Import and Export to Excel and direct importing via ODBC drivers. Integrates easily with most ERP and custom systems.',
                                             jsl: false,
                                             rmdb: false,
                                             edgebi: true
                                         },
                                         {
                                             feature: 'Advanced Drag and Drop',
-                                            description: 'Alternate Routings, Multiple Constraints, Multiple Priorities, Rescheduling on demand, much more.',
+                                            description:
+                                                'Alternate Routings, Multiple Constraints, Multiple Priorities, Rescheduling on demand, much more.',
                                             jsl: false,
                                             rmdb: false,
                                             edgebi: true
                                         }
                                     ].map((row, i) => (
                                         <React.Fragment key={i}>
-                                            <tr className={`border-b border-slate-100 dark:border-slate-800 ${i % 2 === 0 ? 'bg-slate-50 dark:bg-slate-900/50' : ''}`}>
+                                            <tr
+                                                className={`border-b border-slate-100 dark:border-slate-800 ${i % 2 === 0 ? 'bg-slate-50 dark:bg-slate-900/50' : ''}`}
+                                            >
                                                 <td className="p-4">
-                                                    <details data-feature={`feature-${i}`} className="group">
-                                                        <summary className="flex cursor-pointer items-center gap-2 font-medium text-slate-900 dark:text-white hover:text-blue-600">
-                                                            <span className="text-sm transition-transform group-open:rotate-90">▶</span>
+                                                    <details
+                                                        data-feature={`feature-${i}`}
+                                                        className="group"
+                                                    >
+                                                        <summary className="flex cursor-pointer items-center gap-2 font-medium text-slate-900 hover:text-blue-600 dark:text-white">
+                                                            <span className="text-sm transition-transform group-open:rotate-90">
+                                                                ▶
+                                                            </span>
                                                             {row.feature}
                                                         </summary>
                                                         <div className="mt-2 pl-6 text-sm text-slate-600 dark:text-slate-400">
@@ -842,7 +889,9 @@ export function ProductionPlanningSolutions(): React.JSX.Element {
                                                     {row.jsl === true ? (
                                                         <CheckCircle className="mx-auto size-5 text-green-500" />
                                                     ) : row.jsl === 'Optional' ? (
-                                                        <span className="text-xs text-orange-500">Optional</span>
+                                                        <span className="text-xs text-orange-500">
+                                                            Optional
+                                                        </span>
                                                     ) : (
                                                         <span className="text-slate-400">—</span>
                                                     )}
@@ -851,7 +900,9 @@ export function ProductionPlanningSolutions(): React.JSX.Element {
                                                     {row.rmdb === true ? (
                                                         <CheckCircle className="mx-auto size-5 text-green-500" />
                                                     ) : row.rmdb === 'Optional' ? (
-                                                        <span className="text-xs text-orange-500">Optional</span>
+                                                        <span className="text-xs text-orange-500">
+                                                            Optional
+                                                        </span>
                                                     ) : (
                                                         <span className="text-slate-400">—</span>
                                                     )}
@@ -860,7 +911,9 @@ export function ProductionPlanningSolutions(): React.JSX.Element {
                                                     {row.edgebi === true ? (
                                                         <CheckCircle className="mx-auto size-5 text-green-500" />
                                                     ) : row.edgebi === 'Optional' ? (
-                                                        <span className="text-xs text-orange-500">Optional</span>
+                                                        <span className="text-xs text-orange-500">
+                                                            Optional
+                                                        </span>
                                                     ) : (
                                                         <span className="text-slate-400">—</span>
                                                     )}
@@ -880,6 +933,7 @@ export function ProductionPlanningSolutions(): React.JSX.Element {
                             <Button
                                 size="lg"
                                 className="gap-2"
+                                onClick={() => router.push('/contact')}
                             >
                                 <Users className="size-4" />
                                 Schedule a Live Demo
@@ -901,6 +955,118 @@ export function ProductionPlanningSolutions(): React.JSX.Element {
                                 className="mx-auto rounded-lg"
                             />
                         </div>
+                    </div>
+
+                    {/* About Us & Products Footer */}
+                    <div className="grid gap-8 md:grid-cols-2">
+                        {/* About Us */}
+                        <Card className="bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-blue-900/20 dark:to-indigo-900/20">
+                            <CardHeader>
+                                <CardTitle className="flex items-center gap-2 text-blue-700 dark:text-blue-300">
+                                    <Users className="size-6" />
+                                    ABOUT US
+                                </CardTitle>
+                            </CardHeader>
+                            <CardContent className="space-y-4">
+                                <div className="flex items-center gap-3">
+                                    <div className="flex size-10 items-center justify-center rounded-full bg-blue-100 dark:bg-blue-900/30">
+                                        <span className="text-lg">✉️</span>
+                                    </div>
+                                    <div>
+                                        <p className="font-medium text-slate-900 dark:text-white">
+                                            Email
+                                        </p>
+                                        <a
+                                            href="mailto:us@usersolutions.com"
+                                            className="text-blue-600 hover:text-blue-700 dark:text-blue-400"
+                                        >
+                                            us@usersolutions.com
+                                        </a>
+                                    </div>
+                                </div>
+                                <div className="flex items-center gap-3">
+                                    <div className="flex size-10 items-center justify-center rounded-full bg-blue-100 dark:bg-blue-900/30">
+                                        <span className="text-lg">📞</span>
+                                    </div>
+                                    <div>
+                                        <p className="font-medium text-slate-900 dark:text-white">
+                                            Phone
+                                        </p>
+                                        <a
+                                            href="tel:248.486.6365"
+                                            className="text-blue-600 hover:text-blue-700 dark:text-blue-400"
+                                        >
+                                            248.486.6365
+                                        </a>
+                                    </div>
+                                </div>
+                                <p className="text-sm text-slate-600 dark:text-slate-400">
+                                    Manufacturing software made easy. 25+ years of experience
+                                    helping manufacturers optimize their production planning and
+                                    scheduling.
+                                </p>
+                            </CardContent>
+                        </Card>
+
+                        {/* Products */}
+                        <Card className="bg-gradient-to-br from-green-50 to-emerald-50 dark:from-green-900/20 dark:to-emerald-900/20">
+                            <CardHeader>
+                                <CardTitle className="flex items-center gap-2 text-green-700 dark:text-green-300">
+                                    <Settings className="size-6" />
+                                    PRODUCTS
+                                </CardTitle>
+                            </CardHeader>
+                            <CardContent className="space-y-3">
+                                <button
+                                    onClick={() => router.push('/job-scheduler-lite')}
+                                    className="block w-full rounded-lg border border-green-200 bg-white p-3 text-left transition-colors hover:bg-green-50 dark:border-green-700 dark:bg-slate-800 dark:hover:bg-green-900/20"
+                                >
+                                    <div className="flex items-center gap-3">
+                                        <Target className="size-5 text-green-600" />
+                                        <div>
+                                            <p className="font-medium text-slate-900 dark:text-white">
+                                                Job Scheduler Lite (JSL)
+                                            </p>
+                                            <p className="text-xs text-slate-500 dark:text-slate-400">
+                                                Entry-level scheduling solution
+                                            </p>
+                                        </div>
+                                    </div>
+                                </button>
+                                <button
+                                    onClick={() => router.push('/resource-manager-db-2')}
+                                    className="block w-full rounded-lg border border-green-200 bg-white p-3 text-left transition-colors hover:bg-green-50 dark:border-green-700 dark:bg-slate-800 dark:hover:bg-green-900/20"
+                                >
+                                    <div className="flex items-center gap-3">
+                                        <Settings className="size-5 text-green-600" />
+                                        <div>
+                                            <p className="font-medium text-slate-900 dark:text-white">
+                                                Resource Manager DB
+                                            </p>
+                                            <p className="text-xs text-slate-500 dark:text-slate-400">
+                                                Advanced planning & scheduling
+                                            </p>
+                                        </div>
+                                    </div>
+                                </button>
+                                <button
+                                    onClick={() => router.push('/edgebi')}
+                                    className="block w-full rounded-lg border border-green-200 bg-white p-3 text-left transition-colors hover:bg-green-50 dark:border-green-700 dark:bg-slate-800 dark:hover:bg-green-900/20"
+                                >
+                                    <div className="flex items-center gap-3">
+                                        <Zap className="size-5 text-green-600" />
+                                        <div>
+                                            <p className="font-medium text-slate-900 dark:text-white">
+                                                EDGEBI
+                                            </p>
+                                            <p className="text-xs text-slate-500 dark:text-slate-400">
+                                                Enterprise-grade suite
+                                            </p>
+                                        </div>
+                                    </div>
+                                </button>
+                            </CardContent>
+                        </Card>
                     </div>
                 </div>
             </div>
