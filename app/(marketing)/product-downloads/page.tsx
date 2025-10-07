@@ -391,10 +391,8 @@ export default function ProductDownloadsPage(): React.JSX.Element {
 
                 <div className="mt-6 text-center">
                     <Link
-                        href="https://www.usersolutions.com/security-guide/"
+                        href="/security-guide"
                         className="text-blue-600 hover:text-blue-800"
-                        target="_blank"
-                        rel="noopener noreferrer"
                     >
                         Note on Running Excel Downloads →
                     </Link>
