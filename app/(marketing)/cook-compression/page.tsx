@@ -75,14 +75,67 @@ export default function CookCompressionPage(): React.JSX.Element {
                                 <Star className="size-5 fill-yellow-400 text-yellow-400" />
                                 <Star className="size-5 fill-yellow-400 text-yellow-400" />
                             </div>
-                            <blockquote className="text-lg italic leading-relaxed text-slate-700 dark:text-slate-300">
-                                "I feel thankful. For cause, I am dubious when dealing with
-                                enterprises and guarantees by long distance; more so when
-                                considering the promises made by others for software solutions,
-                                sight unseen. My experience with User Solutions, Inc. has set a
-                                higher standard for my internet business dealings and software
-                                vendor expertise."
+                            <blockquote className="space-y-4 text-lg italic leading-relaxed text-slate-700 dark:text-slate-300">
+                                <p>
+                                    "I feel thankful. For cause, I am dubious when dealing with
+                                    enterprises and guarantees by long distance; more so when
+                                    considering the promises made by others for software
+                                    solutions, sight unseen."
+                                </p>
+                                <p>
+                                    "My experience with User Solutions, Inc. has set a higher
+                                    standard for my internet business dealings and software vendor
+                                    expertise. Your premier product is in support and service.
+                                    Your software reflects this."
+                                </p>
+                                <p>
+                                    "The Product and Sales personnel at User Solutions, Inc. are
+                                    world class in response, knowledge, and support of your
+                                    product line in meeting my company's need."
+                                </p>
+                                <p>
+                                    "Your Company's faithfulness has been high in fidelity and
+                                    your follow through timely. I will whole heartedly recommend
+                                    User Solutions as I see need in my business community."
+                                </p>
                             </blockquote>
+                        </CardContent>
+                    </Card>
+
+                    {/* Complete Testimonial */}
+                    <Card className="mb-12 bg-gradient-to-br from-slate-50 to-slate-100 dark:from-slate-900/20 dark:to-slate-800/20">
+                        <CardHeader>
+                            <CardTitle>Complete Customer Testimonial</CardTitle>
+                            <CardDescription>
+                                The full experience from Cook Compression about working with
+                                User Solutions
+                            </CardDescription>
+                        </CardHeader>
+                        <CardContent>
+                            <div className="space-y-4 text-slate-700 dark:text-slate-300">
+                                <p>
+                                    I feel thankful. For cause, I am dubious when dealing with
+                                    enterprises and guarantees by long distance; more so when
+                                    considering the promises made by others for software
+                                    solutions, sight unseen.
+                                </p>
+                                <p>
+                                    My experience with User Solutions, Inc. has set a higher
+                                    standard for my internet business dealings and software vendor
+                                    expertise. Your premier product is in support and service.
+                                    Your software reflects this.
+                                </p>
+                                <p>
+                                    The Product and Sales personnel at User Solutions, Inc. are
+                                    world class in response, knowledge, and support of your
+                                    product line in meeting my company's need.
+                                </p>
+                                <p>
+                                    Your Company's faithfulness has been high in fidelity and your
+                                    follow through timely. I will whole heartedly recommend User
+                                    Solutions as I see need in my business community.
+                                </p>
+                            </div>
                         </CardContent>
                     </Card>
 
@@ -96,27 +149,27 @@ export default function CookCompressionPage(): React.JSX.Element {
                                 </CardTitle>
                             </CardHeader>
                             <CardContent>
-                                <p className="mb-4 text-slate-700 dark:text-slate-300">
+                                <blockquote className="mb-4 text-slate-700 dark:text-slate-300">
                                     "Your premier product is in support and service. Your software
                                     reflects this."
-                                </p>
+                                </blockquote>
                                 <div className="space-y-3">
                                     <div className="flex items-start gap-3">
                                         <CheckCircle className="mt-1 size-5 shrink-0 text-green-600" />
                                         <span className="text-sm text-slate-600 dark:text-slate-400">
-                                            World-class response times
+                                            Premier product in support and service
                                         </span>
                                     </div>
                                     <div className="flex items-start gap-3">
                                         <CheckCircle className="mt-1 size-5 shrink-0 text-green-600" />
                                         <span className="text-sm text-slate-600 dark:text-slate-400">
-                                            Expert knowledge and guidance
+                                            Software quality that reflects excellent support
                                         </span>
                                     </div>
                                     <div className="flex items-start gap-3">
                                         <CheckCircle className="mt-1 size-5 shrink-0 text-green-600" />
                                         <span className="text-sm text-slate-600 dark:text-slate-400">
-                                            Comprehensive product support
+                                            Higher standard for software vendor expertise
                                         </span>
                                     </div>
                                 </div>
@@ -131,28 +184,28 @@ export default function CookCompressionPage(): React.JSX.Element {
                                 </CardTitle>
                             </CardHeader>
                             <CardContent>
-                                <p className="mb-4 text-slate-700 dark:text-slate-300">
+                                <blockquote className="mb-4 text-slate-700 dark:text-slate-300">
                                     "The Product and Sales personnel at User Solutions, Inc. are
                                     world class in response, knowledge, and support of your
                                     product line in meeting my company's need."
-                                </p>
+                                </blockquote>
                                 <div className="space-y-3">
                                     <div className="flex items-start gap-3">
                                         <CheckCircle className="mt-1 size-5 shrink-0 text-purple-600" />
                                         <span className="text-sm text-slate-600 dark:text-slate-400">
-                                            Expert sales consultation
+                                            World class in response
                                         </span>
                                     </div>
                                     <div className="flex items-start gap-3">
                                         <CheckCircle className="mt-1 size-5 shrink-0 text-purple-600" />
                                         <span className="text-sm text-slate-600 dark:text-slate-400">
-                                            Tailored solutions for specific needs
+                                            World class in knowledge
                                         </span>
                                     </div>
                                     <div className="flex items-start gap-3">
                                         <CheckCircle className="mt-1 size-5 shrink-0 text-purple-600" />
                                         <span className="text-sm text-slate-600 dark:text-slate-400">
-                                            Professional product expertise
+                                            World class support of product line
                                         </span>
                                     </div>
                                 </div>
@@ -180,7 +233,7 @@ export default function CookCompressionPage(): React.JSX.Element {
                                         High Fidelity
                                     </div>
                                     <div className="text-sm text-slate-600 dark:text-slate-400">
-                                        Consistent reliability
+                                        Company's faithfulness
                                     </div>
                                 </div>
                                 <div className="rounded-lg bg-slate-50 p-4 text-center dark:bg-slate-800">
@@ -188,7 +241,7 @@ export default function CookCompressionPage(): React.JSX.Element {
                                         Timely
                                     </div>
                                     <div className="text-sm text-slate-600 dark:text-slate-400">
-                                        Fast follow-through
+                                        Prompt follow through
                                     </div>
                                 </div>
                                 <div className="rounded-lg bg-slate-50 p-4 text-center dark:bg-slate-800">
@@ -196,7 +249,7 @@ export default function CookCompressionPage(): React.JSX.Element {
                                         Recommended
                                     </div>
                                     <div className="text-sm text-slate-600 dark:text-slate-400">
-                                        Community endorsed
+                                        Whole heartedly endorsed
                                     </div>
                                 </div>
                             </div>

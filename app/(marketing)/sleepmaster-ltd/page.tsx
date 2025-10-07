@@ -69,15 +69,16 @@ export default function SleepmasterLtdPage(): React.JSX.Element {
                         </CardHeader>
                         <CardContent className="space-y-4">
                             <p className="text-slate-700 dark:text-slate-300">
-                                Sleepmaster Ltd is a relatively small organization with AUD$50M
-                                in sales. The company faced challenges with an outdated MRP
-                                system in Australia that lacked effective scheduling ability and
-                                was cumbersome for product costings.
+                                Our situation is that we are a relatively small organization
+                                (AUD$50M of sales) and we have an outdated MRP system. The
+                                current system in Australia has no effective scheduling ability
+                                and is very cumbersome to use for product costings.
                             </p>
                             <p className="text-slate-700 dark:text-slate-300">
-                                Additionally, they were starting up a new facility in China with
-                                no MRP system at all, where the local team had little modern
-                                manufacturing experience.
+                                We are also in the process of starting up a new facility in
+                                China, which has no MRP system at all, and the people there have
+                                little modern manufacturing experience. We decided to use it to
+                                help get the Chinese operation up and running quickly first.
                             </p>
                         </CardContent>
                     </Card>
@@ -87,7 +88,7 @@ export default function SleepmasterLtdPage(): React.JSX.Element {
                         <CardHeader>
                             <CardTitle className="flex items-center gap-2">
                                 <Target className="size-6 text-orange-600" />
-                                Challenges to Solve
+                                The Problems We Wanted to Solve Were Therefore:
                             </CardTitle>
                         </CardHeader>
                         <CardContent>
@@ -132,7 +133,7 @@ export default function SleepmasterLtdPage(): React.JSX.Element {
                         <CardHeader>
                             <CardTitle className="flex items-center gap-2">
                                 <Zap className="size-6 text-green-600" />
-                                Why Resource Manager Was Chosen
+                                2. Resource Manager Was Chosen Because:
                             </CardTitle>
                         </CardHeader>
                         <CardContent>
@@ -142,10 +143,11 @@ export default function SleepmasterLtdPage(): React.JSX.Element {
                                         <CheckCircle className="mt-1 size-5 shrink-0 text-green-600" />
                                         <div>
                                             <h4 className="font-semibold text-slate-900 dark:text-white">
-                                                Easy and Intuitive
+                                                It is very easy and intuitive to use
                                             </h4>
                                             <p className="text-sm text-slate-600 dark:text-slate-400">
-                                                Very easy and intuitive to use interface
+                                                User-friendly interface that doesn't require extensive
+                                                training
                                             </p>
                                         </div>
                                     </div>
@@ -156,8 +158,10 @@ export default function SleepmasterLtdPage(): React.JSX.Element {
                                                 Phased Implementation
                                             </h4>
                                             <p className="text-sm text-slate-600 dark:text-slate-400">
-                                                Can be used in sections within days, without requiring
-                                                complete system implementation
+                                                It can be used in sections within days, without having
+                                                the whole system implementation required. ie. the
+                                                materials planning was done first, then the costings,
+                                                then the scheduling
                                             </p>
                                         </div>
                                     </div>
@@ -165,7 +169,7 @@ export default function SleepmasterLtdPage(): React.JSX.Element {
                                         <CheckCircle className="mt-1 size-5 shrink-0 text-green-600" />
                                         <div>
                                             <h4 className="font-semibold text-slate-900 dark:text-white">
-                                                Cost-Effective
+                                                It is low cost
                                             </h4>
                                             <p className="text-sm text-slate-600 dark:text-slate-400">
                                                 Low cost compared to other comprehensive systems
@@ -178,7 +182,7 @@ export default function SleepmasterLtdPage(): React.JSX.Element {
                                         <CheckCircle className="mt-1 size-5 shrink-0 text-green-600" />
                                         <div>
                                             <h4 className="font-semibold text-slate-900 dark:text-white">
-                                                Flexible & Configurable
+                                                It is easily configurable/flexible
                                             </h4>
                                             <p className="text-sm text-slate-600 dark:text-slate-400">
                                                 Easily configurable and flexible to adapt to specific
@@ -193,8 +197,8 @@ export default function SleepmasterLtdPage(): React.JSX.Element {
                                                 Excellent Support
                                             </h4>
                                             <p className="text-sm text-slate-600 dark:text-slate-400">
-                                                Good support via Skype, phone and GoToMeeting with fast
-                                                turnaround
+                                                Good support is offered via Skype, phone and
+                                                GoToMeeting, with fast turnaround to resolve issues
                                             </p>
                                         </div>
                                     </div>
@@ -212,6 +216,36 @@ export default function SleepmasterLtdPage(): React.JSX.Element {
                                     </div>
                                 </div>
                             </div>
+                        </CardContent>
+                    </Card>
+
+                    {/* Comparison with Other Systems */}
+                    <Card className="mb-12">
+                        <CardHeader>
+                            <CardTitle className="flex items-center gap-2">
+                                <Users className="size-6 text-purple-600" />
+                                3. Comparison with Other Systems
+                            </CardTitle>
+                        </CardHeader>
+                        <CardContent className="space-y-4">
+                            <p className="text-slate-700 dark:text-slate-300">
+                                We considered a number of other systems both local and global.
+                                Most are far more expensive and comprehensive (eg. accounting
+                                capability) but all require much higher cost and are much more
+                                resource hungry to set up.
+                            </p>
+                            <p className="text-slate-700 dark:text-slate-300">
+                                RMDB required one individual very much part time (me) to set up
+                                on the critical areas for China and is now being run by a young
+                                Chinese manager who had no manufacturing experience, but has
+                                picked up the concepts well. In that sense it is also a very
+                                good MRP training tool also.
+                            </p>
+                            <p className="text-slate-700 dark:text-slate-300">
+                                <cite className="font-medium">
+                                    — Jim Steel, Operations Manager for Sleepmaster, LTD
+                                </cite>
+                            </p>
                         </CardContent>
                     </Card>
 
@@ -233,21 +267,21 @@ export default function SleepmasterLtdPage(): React.JSX.Element {
                         </CardContent>
                     </Card>
 
-                    {/* Implementation Success */}
+                    {/* Implementation Success Story */}
                     <Card className="mb-12">
                         <CardHeader>
                             <CardTitle className="flex items-center gap-2">
                                 <Users className="size-6 text-purple-600" />
-                                Implementation Success
+                                Implementation Success Story
                             </CardTitle>
                         </CardHeader>
                         <CardContent className="space-y-4">
                             <p className="text-slate-700 dark:text-slate-300">
-                                <strong>Resource Manager DB</strong> required only one
-                                individual working part-time to set up the critical areas for
-                                the China facility. The system is now being run by a young
-                                Chinese manager who had no prior manufacturing experience but
-                                quickly picked up the concepts.
+                                RMDB required one individual very much part time (me) to set up
+                                on the critical areas for China and is now being run by a young
+                                Chinese manager who had no manufacturing experience, but has
+                                picked up the concepts well. In that sense it is also a very
+                                good MRP training tool also.
                             </p>
                             <p className="text-slate-700 dark:text-slate-300">
                                 The implementation process started with materials planning, then
