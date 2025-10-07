@@ -1,5 +1,6 @@
 import * as React from 'react';
 
+import { JSLDownloadForm } from '@/components/marketing/sections/jsl-download-form';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -409,6 +410,18 @@ export default function JobSchedulerLitePage(): React.JSX.Element {
                             </Button>
                         </div>
                     </div>
+                </div>
+
+                {/* Download Form Section */}
+                <div className="mt-16">
+                    <div className="mb-8 text-center">
+                        <h2 className="mb-4 text-3xl font-bold">Get Your Free Trial</h2>
+                        <p className="text-lg text-muted-foreground">
+                            Complete the form below to start your 60-day fully functional
+                            trial
+                        </p>
+                    </div>
+                    <JSLDownloadForm />
                 </div>
 
                 {/* Awards and Recognition */}

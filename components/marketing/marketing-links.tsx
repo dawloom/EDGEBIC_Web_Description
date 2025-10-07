@@ -95,6 +95,13 @@ export const MENU_LINKS = [
     title: 'Products',
     items: [
       {
+        title: 'Job Scheduler Lite',
+        description: 'Entry-level production scheduling for job shops',
+        icon: <ClipboardIcon className="size-5 shrink-0" />,
+        href: Routes.JobSchedulerLite,
+        external: false
+      },
+      {
         title: 'Production Planning',
         description: 'Production planning and scheduling solutions',
         icon: <Factory className="size-5 shrink-0" />,

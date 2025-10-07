@@ -101,10 +101,8 @@ export default function ProductDownloadsPage(): React.JSX.Element {
                         </div>
                         <div className="space-y-3">
                             <Link
-                                href="https://www.usersolutions.com/job-scheduler-lite-download/"
+                                href="/job-scheduler-lite-download"
                                 className="block w-full rounded bg-blue-600 px-4 py-2 text-center font-medium text-white hover:bg-blue-700"
-                                target="_blank"
-                                rel="noopener noreferrer"
                             >
                                 Download Now
                             </Link>
