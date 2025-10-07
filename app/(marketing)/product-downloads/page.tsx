@@ -312,7 +312,7 @@ export default function ProductDownloadsPage(): React.JSX.Element {
                                 </td>
                                 <td className="px-6 py-4 text-center">
                                     <Link
-                                        href="https://www.usersolutions.com/operations-manager/"
+                                        href="/operations-manager"
                                         className="text-blue-600 hover:text-blue-800"
                                     >
                                         View Doc

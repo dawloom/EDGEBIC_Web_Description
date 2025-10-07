@@ -67,7 +67,7 @@ const excelApplications = [
         ],
         singleUserPrice: '$5-$39',
         fiveUserPrice: '$10-$78',
-        href: '/products/operations-manager',
+        href: '/operations-manager',
         icon: <FileSpreadsheetIcon className="size-8" />
     },
     {
