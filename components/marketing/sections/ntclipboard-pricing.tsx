@@ -4,6 +4,7 @@ import { CheckIcon, StarIcon } from 'lucide-react';
 import { GridSection } from '@/components/marketing/fragments/grid-section';
 import { SiteHeading } from '@/components/marketing/fragments/site-heading';
 import { Button } from '@/components/ui/button';
+import { Card, CardContent } from '@/components/ui/card';
 import {
   Dialog,
   DialogContent,
@@ -96,6 +97,22 @@ export async function NTClipboardPricing(): Promise<React.JSX.Element> {
             </div>
           </div>
         </div>
+
+        {/* Awards Section */}
+        <Card className="mt-16 bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20">
+          <CardContent className="p-8 text-center">
+            <h3 className="mb-6 text-2xl font-bold text-slate-900 dark:text-white">
+              CELEBRATING 25 YEARS OF AWARD WINNING SOFTWARE!
+            </h3>
+            <div className="flex justify-center">
+              <img
+                src="https://www.usersolutions.com/wp-content/uploads/2022/07/banner-logoso-sm-58c9a28d237d6-1024x128.jpg"
+                alt="Collection of industry and business awards logos"
+                className="h-auto max-w-full rounded-lg shadow-md"
+              />
+            </div>
+          </CardContent>
+        </Card>
       </div>
     </GridSection>
   );
