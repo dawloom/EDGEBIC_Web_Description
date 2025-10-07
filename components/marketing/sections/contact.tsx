@@ -18,7 +18,7 @@ export function Contact(): React.JSX.Element {
   };
   return (
     <GridSection>
-      <div className="container m-auto space-y-20 py-20 text-center">
+      <div className="container m-auto space-y-20 py-6 text-center">
         <SiteHeading
           badge="Contact"
           title={

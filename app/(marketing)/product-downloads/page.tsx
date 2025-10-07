@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 import { Badge } from '@/components/ui/badge';
+import { Routes } from '@/constants/routes';
 import { createTitle } from '@/lib/utils';
 
 export const metadata: Metadata = {
@@ -35,10 +36,8 @@ export default function ProductDownloadsPage(): React.JSX.Element {
                 </p>
                 <div className="mt-4">
                     <Link
-                        href="https://www.usersolutions.com/excel-applications/"
+                        href={Routes.ExcelTemplates}
                         className="font-medium text-blue-600 hover:text-blue-800"
-                        target="_blank"
-                        rel="noopener noreferrer"
                     >
                         Excel Products →
                     </Link>
@@ -110,18 +109,14 @@ export default function ProductDownloadsPage(): React.JSX.Element {
                                 Download Now
                             </Link>
                             <Link
-                                href="https://www.usersolutions.com/contact-us/"
+                                href={Routes.Contact}
                                 className="block w-full rounded border border-blue-600 px-4 py-2 text-center font-medium text-blue-600 hover:bg-blue-50 dark:hover:bg-blue-900/20"
-                                target="_blank"
-                                rel="noopener noreferrer"
                             >
                                 Request Live Demo
                             </Link>
                             <Link
-                                href="https://www.usersolutions.com/jsl-job-scheduler-lite/"
+                                href="/products/job-scheduler-lite"
                                 className="block w-full rounded border border-gray-300 px-4 py-2 text-center font-medium text-gray-700 hover:bg-gray-50 dark:border-gray-600 dark:text-gray-300 dark:hover:bg-gray-700"
-                                target="_blank"
-                                rel="noopener noreferrer"
                             >
                                 Learn More
                             </Link>
@@ -169,10 +164,8 @@ export default function ProductDownloadsPage(): React.JSX.Element {
                         </div>
                         <div className="space-y-3">
                             <Link
-                                href="https://www.usersolutions.com/contact-us/"
+                                href={Routes.Contact}
                                 className="block w-full rounded bg-blue-600 px-4 py-2 text-center font-medium text-white hover:bg-blue-700"
-                                target="_blank"
-                                rel="noopener noreferrer"
                             >
                                 Request Live Demo
                             </Link>
@@ -180,10 +173,8 @@ export default function ProductDownloadsPage(): React.JSX.Element {
                                 Contact for Trial
                             </div>
                             <Link
-                                href="https://www.usersolutions.com/resource-manager-db-2/"
+                                href="/resource-manager-db-2"
                                 className="block w-full rounded border border-gray-300 px-4 py-2 text-center font-medium text-gray-700 hover:bg-gray-50 dark:border-gray-600 dark:text-gray-300 dark:hover:bg-gray-700"
-                                target="_blank"
-                                rel="noopener noreferrer"
                             >
                                 Learn More
                             </Link>
@@ -231,10 +222,8 @@ export default function ProductDownloadsPage(): React.JSX.Element {
                         </div>
                         <div className="space-y-3">
                             <Link
-                                href="https://www.usersolutions.com/contact-us/"
+                                href={Routes.Contact}
                                 className="block w-full rounded bg-blue-600 px-4 py-2 text-center font-medium text-white hover:bg-blue-700"
-                                target="_blank"
-                                rel="noopener noreferrer"
                             >
                                 Request Live Demo
                             </Link>
@@ -242,10 +231,8 @@ export default function ProductDownloadsPage(): React.JSX.Element {
                                 Contact for Trial
                             </div>
                             <Link
-                                href="https://www.usersolutions.com/edgebi/"
+                                href="/edgebi"
                                 className="block w-full rounded border border-gray-300 px-4 py-2 text-center font-medium text-gray-700 hover:bg-gray-50 dark:border-gray-600 dark:text-gray-300 dark:hover:bg-gray-700"
-                                target="_blank"
-                                rel="noopener noreferrer"
                             >
                                 Learn More
                             </Link>
@@ -289,7 +276,7 @@ export default function ProductDownloadsPage(): React.JSX.Element {
                                 </td>
                                 <td className="px-6 py-4 text-center">
                                     <Link
-                                        href="https://www.usersolutions.com/contact-us/"
+                                        href={Routes.Contact}
                                         className="text-blue-600 hover:text-blue-800"
                                     >
                                         Contact Us
@@ -308,7 +295,7 @@ export default function ProductDownloadsPage(): React.JSX.Element {
                                 </td>
                                 <td className="px-6 py-4 text-center">
                                     <Link
-                                        href="https://www.usersolutions.com/contact-us/"
+                                        href={Routes.Contact}
                                         className="text-blue-600 hover:text-blue-800"
                                     >
                                         Contact Us
@@ -346,7 +333,7 @@ export default function ProductDownloadsPage(): React.JSX.Element {
                                 </td>
                                 <td className="px-6 py-4 text-center">
                                     <Link
-                                        href="https://www.usersolutions.com/contact-us/"
+                                        href={Routes.Contact}
                                         className="text-blue-600 hover:text-blue-800"
                                     >
                                         Contact Us
@@ -365,7 +352,7 @@ export default function ProductDownloadsPage(): React.JSX.Element {
                                 </td>
                                 <td className="px-6 py-4 text-center">
                                     <Link
-                                        href="https://www.usersolutions.com/contact-us/"
+                                        href={Routes.Contact}
                                         className="text-blue-600 hover:text-blue-800"
                                     >
                                         Contact Us
@@ -386,7 +373,7 @@ export default function ProductDownloadsPage(): React.JSX.Element {
                                 </td>
                                 <td className="px-6 py-4 text-center">
                                     <Link
-                                        href="https://www.usersolutions.com/contact-us/"
+                                        href={Routes.Contact}
                                         className="text-blue-600 hover:text-blue-800"
                                     >
                                         Contact Us
