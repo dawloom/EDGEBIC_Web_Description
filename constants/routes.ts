@@ -35,6 +35,17 @@ export enum Routes {
   PrivacyPolicy = '/privacy-policy',
   CookiePolicy = '/cookie-policy',
 
+  // New pages from sitemap
+  Shop = '/shop',
+  Cart = '/cart',
+  Checkout = '/checkout',
+  Team = '/team',
+  Blogs = '/blogs',
+  PressRelease = '/press_release',
+  ThankYouSpreadsheetScheduler = '/thankyou-for-downloading-spreadsheet-scheduler',
+  ThankYouJSL = '/thankyou-for-downloading-jsl',
+  OperationsManagerApp = '/operations-manager-app',
+
   Auth = '/auth',
   Login = '/auth/login',
   Logout = '/auth/logout',
