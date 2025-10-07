@@ -238,7 +238,7 @@ export function ProductionPlanningSolutions(): React.JSX.Element {
                                 <Button
                                     variant="outline"
                                     className="mb-4 w-full border-blue-200 text-blue-600 hover:bg-blue-50 dark:border-blue-700 dark:text-blue-400"
-                                    onClick={() => router.push('/job-scheduler-lite')}
+                                    onClick={() => router.push('/jsl-job-scheduler-lite')}
                                 >
                                     View Details
                                 </Button>

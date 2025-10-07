@@ -35,7 +35,7 @@ export default function CompareProductsPage(): React.JSX.Element {
             description: 'Perfect for Job Shops & Small Manufacturers',
             image:
                 'https://www.usersolutions.com/wp-content/uploads/2022/10/starter.png',
-            link: '/job-scheduler-lite',
+            link: '/jsl-job-scheduler-lite',
             features: {
                 'Shop Scheduling': false,
                 'Forward Scheduling': false,

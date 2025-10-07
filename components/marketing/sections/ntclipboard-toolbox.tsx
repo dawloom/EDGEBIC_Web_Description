@@ -357,7 +357,7 @@ export function NTClipboardToolBox(): React.JSX.Element {
                                                 asChild
                                             >
                                                 <Link
-                                                    href="/job-scheduler-lite"
+                                                    href="/jsl-job-scheduler-lite"
                                                     target="_blank"
                                                     rel="noopener noreferrer"
                                                 >

@@ -101,7 +101,7 @@ export default function ProductDownloadsPage(): React.JSX.Element {
                         </div>
                         <div className="space-y-3">
                             <Link
-                                href="/job-scheduler-lite-download"
+                                href="/jsl-job-scheduler-lite-download"
                                 className="block w-full rounded bg-blue-600 px-4 py-2 text-center font-medium text-white hover:bg-blue-700"
                             >
                                 Download Now
@@ -113,7 +113,7 @@ export default function ProductDownloadsPage(): React.JSX.Element {
                                 Request Live Demo
                             </Link>
                             <Link
-                                href="/products/job-scheduler-lite"
+                                href="/jsl-job-scheduler-lite"
                                 className="block w-full rounded border border-gray-300 px-4 py-2 text-center font-medium text-gray-700 hover:bg-gray-50 dark:border-gray-600 dark:text-gray-300 dark:hover:bg-gray-700"
                             >
                                 Learn More
