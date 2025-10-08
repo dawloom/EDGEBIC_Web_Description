@@ -5,7 +5,7 @@ import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
-export default function LearnPage(): React.JSX.Element {
+export default function OperationsManagerEoqdiscPage(): React.JSX.Element {
     return (
         <div className="min-h-screen bg-background">
             {/* Hero Section */}
@@ -21,10 +21,10 @@ export default function LearnPage(): React.JSX.Element {
                             </Badge>
                         </div>
                         <h1 className="mb-6 text-4xl font-bold md:text-6xl">
-                            Operations Manager: LEARN
+                            Operations Manager: EOQDisc
                         </h1>
                         <p className="mb-8 text-xl md:text-2xl">
-                            Learning curves - Predicting reduction in direct labor hours
+                            Economic Order Quantity with Discounts for optimal procurement cost management
                         </p>
                         <div className="flex flex-col justify-center gap-4 sm:flex-row">
                             <Button
@@ -38,31 +38,23 @@ export default function LearnPage(): React.JSX.Element {
                 </div>
             </section>
 
-            {/* Learning Curve Overview */}
+            {/* EOQDisc Overview */}
             <section className="py-16">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl">
                         <Card className="mb-8">
                             <CardHeader>
                                 <CardTitle className="text-center text-3xl">
-                                    Learning Curve Analysis
+                                    Economic Order Quantity with Discounts
                                 </CardTitle>
                             </CardHeader>
                             <CardContent className="space-y-6">
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    Learning curves represent the improvement in performance that
-                                    occurs when workers repeat a task over time. Our Operations
-                                    Manager Learning module provides comprehensive tools for
-                                    analyzing learning effects, predicting productivity
-                                    improvements, and optimizing workforce training and
-                                    development programs.
+                                    EOQDisc (Economic Order Quantity with Discounts) optimizes purchasing decisions by incorporating quantity discounts, price breaks, and volume incentives into EOQ calculations. This advanced module determines optimal order quantities that balance inventory costs with discount opportunities.
                                 </p>
 
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    From manufacturing assembly to service operations,
-                                    understanding learning curves enables better cost estimation,
-                                    production planning, and human resource optimization for
-                                    sustained competitive advantage.
+                                    From supplier negotiations to procurement strategy, EOQDisc maximizes cost savings through intelligent quantity discount analysis while maintaining optimal inventory levels and cash flow management across your supply chain operations.
                                 </p>
                             </CardContent>
                         </Card>
@@ -77,7 +69,7 @@ export default function LearnPage(): React.JSX.Element {
                         <Card>
                             <CardHeader>
                                 <CardTitle className="text-center text-2xl">
-                                    Case Study: Aerospace Component Manufacturing
+                                    Case Study: Chemical Processing Company
                                 </CardTitle>
                             </CardHeader>
                             <CardContent className="space-y-6">
@@ -86,12 +78,7 @@ export default function LearnPage(): React.JSX.Element {
                                         The Challenge
                                     </h3>
                                     <p className="mb-4 text-muted-foreground">
-                                        AeroTech Manufacturing was struggling with accurate cost
-                                        estimation for new aircraft component contracts. Their
-                                        traditional costing methods failed to account for learning
-                                        effects, resulting in unprofitable bids and poor resource
-                                        planning. They needed a systematic approach to predict and
-                                        leverage learning curve improvements.
+                                        ChemPro Industries faced complex purchasing decisions with suppliers offering significant quantity discounts on bulk chemicals. Their traditional EOQ calculations ignored discounts, resulting in suboptimal order quantities that missed substantial cost savings opportunities worth potentially $500K annually.
                                     </p>
                                 </div>
 
@@ -100,12 +87,7 @@ export default function LearnPage(): React.JSX.Element {
                                         The Solution
                                     </h3>
                                     <p className="mb-4 text-muted-foreground">
-                                        Using Operations Manager's Learning analysis tools, the
-                                        company analyzed historical production data to establish
-                                        learning curve parameters. They implemented
-                                        learning-adjusted cost models and optimized training
-                                        programs to accelerate the learning process and improve
-                                        competitiveness.
+                                        Implementing Operations Manager's EOQDisc module, the procurement team analyzed complex discount structures including price breaks, volume tiers, and seasonal promotions. The system evaluated total cost scenarios to identify optimal order quantities that maximized savings while managing inventory investment.
                                     </p>
                                 </div>
 
@@ -118,19 +100,19 @@ export default function LearnPage(): React.JSX.Element {
                                             <div className="flex items-center">
                                                 <div className="mr-3 size-3 rounded-full bg-green-500" />
                                                 <span className="text-sm">
-                                                    85% learning rate achievement
+                                                    28% reduction in material costs
                                                 </span>
                                             </div>
                                             <div className="flex items-center">
                                                 <div className="mr-3 size-3 rounded-full bg-blue-500" />
                                                 <span className="text-sm">
-                                                    35% reduction in labor hours
+                                                    $680K annual procurement savings
                                                 </span>
                                             </div>
                                             <div className="flex items-center">
                                                 <div className="mr-3 size-3 rounded-full bg-purple-500" />
                                                 <span className="text-sm">
-                                                    25% improvement in bid accuracy
+                                                    15% improvement in inventory turns
                                                 </span>
                                             </div>
                                         </div>
@@ -138,19 +120,19 @@ export default function LearnPage(): React.JSX.Element {
                                             <div className="flex items-center">
                                                 <div className="mr-3 size-3 rounded-full bg-orange-500" />
                                                 <span className="text-sm">
-                                                    40% faster training completion
+                                                    Optimized supplier relationships
                                                 </span>
                                             </div>
                                             <div className="flex items-center">
                                                 <div className="mr-3 size-3 rounded-full bg-red-500" />
                                                 <span className="text-sm">
-                                                    20% increase in profit margins
+                                                    Enhanced cash flow management
                                                 </span>
                                             </div>
                                             <div className="flex items-center">
                                                 <div className="mr-3 size-3 rounded-full bg-teal-500" />
                                                 <span className="text-sm">
-                                                    50% reduction in defect rates
+                                                    Strategic procurement planning
                                                 </span>
                                             </div>
                                         </div>
@@ -162,75 +144,71 @@ export default function LearnPage(): React.JSX.Element {
                 </div>
             </section>
 
-            {/* Learning Models */}
+            {/* Discount Features */}
             <section className="py-16">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-6xl">
                         <h2 className="mb-12 text-center text-3xl font-bold text-foreground">
-                            Learning Curve Models
+                            EOQDisc Optimization Features
                         </h2>
                         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">Wright Model</CardTitle>
+                                    <CardTitle className="text-center">Quantity Discounts</CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Classical model showing time reduction with cumulative
-                                        production volume
+                                        Volume-based pricing optimization with multiple break points
                                     </p>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">Crawford Model</CardTitle>
+                                    <CardTitle className="text-center">All-Units Discounts</CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Unit curve model focusing on average time per unit produced
+                                        Total order discounts when quantity thresholds are met
                                     </p>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">S-Curve Model</CardTitle>
+                                    <CardTitle className="text-center">Incremental Discounts</CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Sigmoid curve modeling slow start, rapid improvement, and
-                                        plateau phases
+                                        Progressive pricing for quantities above break points
                                     </p>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">
-                                        Exponential Model
-                                    </CardTitle>
+                                    <CardTitle className="text-center">Total Cost Analysis</CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Exponential decay function for continuous learning processes
+                                        Comprehensive cost evaluation including carrying and ordering costs
                                     </p>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">Plateau Model</CardTitle>
+                                    <CardTitle className="text-center">Price Break Evaluation</CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Models learning curves with ultimate performance limits
+                                        Systematic analysis of multiple pricing tiers and thresholds
                                     </p>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">Hybrid Models</CardTitle>
+                                    <CardTitle className="text-center">Sensitivity Analysis</CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Combined models accounting for multiple learning factors
+                                        Robustness testing of optimal solutions under varying conditions
                                     </p>
                                 </CardContent>
                             </Card>
@@ -239,71 +217,71 @@ export default function LearnPage(): React.JSX.Element {
                 </div>
             </section>
 
-            {/* Key Applications */}
+            {/* Procurement Applications */}
             <section className="bg-muted/50 py-16">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl">
                         <h2 className="mb-12 text-center text-3xl font-bold text-foreground">
-                            Learning Curve Applications
+                            EOQDisc Procurement Applications
                         </h2>
                         <div className="grid gap-6 md:grid-cols-2">
                             <Card>
                                 <CardHeader>
                                     <CardTitle className="text-xl text-blue-600">
-                                        Cost Estimation
+                                        Strategic Sourcing
                                     </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <ul className="space-y-2 text-muted-foreground">
-                                        <li>• Accurate project cost forecasting</li>
-                                        <li>• Learning-adjusted pricing strategies</li>
-                                        <li>• Contract bid optimization</li>
-                                        <li>• Life cycle cost analysis</li>
+                                        <li>• Supplier negotiation optimization</li>
+                                        <li>• Contract volume planning</li>
+                                        <li>• Category management strategies</li>
+                                        <li>• Spend consolidation analysis</li>
                                     </ul>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
                                     <CardTitle className="text-xl text-green-600">
-                                        Production Planning
+                                        Manufacturing Operations
                                     </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <ul className="space-y-2 text-muted-foreground">
-                                        <li>• Capacity requirement planning</li>
-                                        <li>• Delivery schedule optimization</li>
-                                        <li>• Resource allocation planning</li>
-                                        <li>• Workforce level determination</li>
+                                        <li>• Raw material procurement</li>
+                                        <li>• Component bulk purchasing</li>
+                                        <li>• Production planning integration</li>
+                                        <li>• Capacity utilization optimization</li>
                                     </ul>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
                                     <CardTitle className="text-xl text-purple-600">
-                                        Training Optimization
+                                        Retail & Distribution
                                     </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <ul className="space-y-2 text-muted-foreground">
-                                        <li>• Training program design</li>
-                                        <li>• Skill development tracking</li>
-                                        <li>• Performance improvement planning</li>
-                                        <li>• Learning acceleration strategies</li>
+                                        <li>• Seasonal buying strategies</li>
+                                        <li>• Private label procurement</li>
+                                        <li>• Promotional inventory planning</li>
+                                        <li>• Category optimization</li>
                                     </ul>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
                                     <CardTitle className="text-xl text-orange-600">
-                                        Strategic Planning
+                                        Service Organizations
                                     </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <ul className="space-y-2 text-muted-foreground">
-                                        <li>• Competitive advantage analysis</li>
-                                        <li>• Technology adoption planning</li>
-                                        <li>• Market entry strategies</li>
-                                        <li>• Investment decision support</li>
+                                        <li>• Office supplies optimization</li>
+                                        <li>• Facility management purchasing</li>
+                                        <li>• Maintenance inventory planning</li>
+                                        <li>• Equipment procurement strategies</li>
                                     </ul>
                                 </CardContent>
                             </Card>

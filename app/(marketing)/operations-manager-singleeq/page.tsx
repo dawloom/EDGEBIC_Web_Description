@@ -5,7 +5,7 @@ import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
-export default function LearnPage(): React.JSX.Element {
+export default function OperationsManagerSingleeqPage(): React.JSX.Element {
     return (
         <div className="min-h-screen bg-background">
             {/* Hero Section */}
@@ -21,10 +21,10 @@ export default function LearnPage(): React.JSX.Element {
                             </Badge>
                         </div>
                         <h1 className="mb-6 text-4xl font-bold md:text-6xl">
-                            Operations Manager: LEARN
+                            Operations Manager: SingleEQ
                         </h1>
                         <p className="mb-8 text-xl md:text-2xl">
-                            Learning curves - Predicting reduction in direct labor hours
+                            Single equation optimization for efficient resource allocation and scheduling
                         </p>
                         <div className="flex flex-col justify-center gap-4 sm:flex-row">
                             <Button
@@ -38,31 +38,23 @@ export default function LearnPage(): React.JSX.Element {
                 </div>
             </section>
 
-            {/* Learning Curve Overview */}
+            {/* SingleEQ Overview */}
             <section className="py-16">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl">
                         <Card className="mb-8">
                             <CardHeader>
                                 <CardTitle className="text-center text-3xl">
-                                    Learning Curve Analysis
+                                    Single Equation Optimization
                                 </CardTitle>
                             </CardHeader>
                             <CardContent className="space-y-6">
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    Learning curves represent the improvement in performance that
-                                    occurs when workers repeat a task over time. Our Operations
-                                    Manager Learning module provides comprehensive tools for
-                                    analyzing learning effects, predicting productivity
-                                    improvements, and optimizing workforce training and
-                                    development programs.
+                                    SingleEQ delivers powerful single equation optimization capabilities for solving complex operational problems with mathematical precision. This specialized module focuses on finding optimal solutions where a single relationship governs the entire system behavior.
                                 </p>
 
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    From manufacturing assembly to service operations,
-                                    understanding learning curves enables better cost estimation,
-                                    production planning, and human resource optimization for
-                                    sustained competitive advantage.
+                                    From resource allocation to production scheduling, SingleEQ provides exact analytical solutions and numerical optimization for single-variable and multi-variable problems with proven mathematical algorithms.
                                 </p>
                             </CardContent>
                         </Card>
@@ -77,7 +69,7 @@ export default function LearnPage(): React.JSX.Element {
                         <Card>
                             <CardHeader>
                                 <CardTitle className="text-center text-2xl">
-                                    Case Study: Aerospace Component Manufacturing
+                                    Case Study: Energy Distribution Optimization
                                 </CardTitle>
                             </CardHeader>
                             <CardContent className="space-y-6">
@@ -86,12 +78,7 @@ export default function LearnPage(): React.JSX.Element {
                                         The Challenge
                                     </h3>
                                     <p className="mb-4 text-muted-foreground">
-                                        AeroTech Manufacturing was struggling with accurate cost
-                                        estimation for new aircraft component contracts. Their
-                                        traditional costing methods failed to account for learning
-                                        effects, resulting in unprofitable bids and poor resource
-                                        planning. They needed a systematic approach to predict and
-                                        leverage learning curve improvements.
+                                        PowerGrid Solutions needed to optimize energy distribution across their network to minimize transmission losses while meeting demand constraints. Their existing heuristic approaches were producing suboptimal solutions, resulting in 15% higher energy costs and inefficient load balancing.
                                     </p>
                                 </div>
 
@@ -100,12 +87,7 @@ export default function LearnPage(): React.JSX.Element {
                                         The Solution
                                     </h3>
                                     <p className="mb-4 text-muted-foreground">
-                                        Using Operations Manager's Learning analysis tools, the
-                                        company analyzed historical production data to establish
-                                        learning curve parameters. They implemented
-                                        learning-adjusted cost models and optimized training
-                                        programs to accelerate the learning process and improve
-                                        competitiveness.
+                                        Implementing Operations Manager's SingleEQ module, the engineering team developed a single equation model that captured the relationship between load distribution and transmission efficiency. The system optimized power flow using advanced mathematical optimization techniques.
                                     </p>
                                 </div>
 
@@ -118,19 +100,19 @@ export default function LearnPage(): React.JSX.Element {
                                             <div className="flex items-center">
                                                 <div className="mr-3 size-3 rounded-full bg-green-500" />
                                                 <span className="text-sm">
-                                                    85% learning rate achievement
+                                                    22% reduction in transmission losses
                                                 </span>
                                             </div>
                                             <div className="flex items-center">
                                                 <div className="mr-3 size-3 rounded-full bg-blue-500" />
                                                 <span className="text-sm">
-                                                    35% reduction in labor hours
+                                                    18% improvement in load balancing
                                                 </span>
                                             </div>
                                             <div className="flex items-center">
                                                 <div className="mr-3 size-3 rounded-full bg-purple-500" />
                                                 <span className="text-sm">
-                                                    25% improvement in bid accuracy
+                                                    $2.4M annual cost savings
                                                 </span>
                                             </div>
                                         </div>
@@ -138,19 +120,19 @@ export default function LearnPage(): React.JSX.Element {
                                             <div className="flex items-center">
                                                 <div className="mr-3 size-3 rounded-full bg-orange-500" />
                                                 <span className="text-sm">
-                                                    40% faster training completion
+                                                    95% solution accuracy
                                                 </span>
                                             </div>
                                             <div className="flex items-center">
                                                 <div className="mr-3 size-3 rounded-full bg-red-500" />
                                                 <span className="text-sm">
-                                                    20% increase in profit margins
+                                                    Real-time optimization capability
                                                 </span>
                                             </div>
                                             <div className="flex items-center">
                                                 <div className="mr-3 size-3 rounded-full bg-teal-500" />
                                                 <span className="text-sm">
-                                                    50% reduction in defect rates
+                                                    Enhanced system reliability
                                                 </span>
                                             </div>
                                         </div>
@@ -162,75 +144,71 @@ export default function LearnPage(): React.JSX.Element {
                 </div>
             </section>
 
-            {/* Learning Models */}
+            {/* Optimization Features */}
             <section className="py-16">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-6xl">
                         <h2 className="mb-12 text-center text-3xl font-bold text-foreground">
-                            Learning Curve Models
+                            SingleEQ Optimization Capabilities
                         </h2>
                         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">Wright Model</CardTitle>
+                                    <CardTitle className="text-center">Linear Optimization</CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Classical model showing time reduction with cumulative
-                                        production volume
+                                        Efficient linear programming solutions with exact optimal results
                                     </p>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">Crawford Model</CardTitle>
+                                    <CardTitle className="text-center">Nonlinear Solving</CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Unit curve model focusing on average time per unit produced
+                                        Advanced algorithms for complex nonlinear equation systems
                                     </p>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">S-Curve Model</CardTitle>
+                                    <CardTitle className="text-center">Constraint Handling</CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Sigmoid curve modeling slow start, rapid improvement, and
-                                        plateau phases
+                                        Sophisticated constraint management and boundary optimization
                                     </p>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">
-                                        Exponential Model
-                                    </CardTitle>
+                                    <CardTitle className="text-center">Sensitivity Analysis</CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Exponential decay function for continuous learning processes
+                                        Parameter sensitivity and robustness evaluation tools
                                     </p>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">Plateau Model</CardTitle>
+                                    <CardTitle className="text-center">Solution Validation</CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Models learning curves with ultimate performance limits
+                                        Automatic verification and quality assessment of solutions
                                     </p>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">Hybrid Models</CardTitle>
+                                    <CardTitle className="text-center">Multi-Variable Support</CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Combined models accounting for multiple learning factors
+                                        Optimization across multiple decision variables simultaneously
                                     </p>
                                 </CardContent>
                             </Card>
@@ -239,26 +217,26 @@ export default function LearnPage(): React.JSX.Element {
                 </div>
             </section>
 
-            {/* Key Applications */}
+            {/* Application Areas */}
             <section className="bg-muted/50 py-16">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl">
                         <h2 className="mb-12 text-center text-3xl font-bold text-foreground">
-                            Learning Curve Applications
+                            SingleEQ Application Areas
                         </h2>
                         <div className="grid gap-6 md:grid-cols-2">
                             <Card>
                                 <CardHeader>
                                     <CardTitle className="text-xl text-blue-600">
-                                        Cost Estimation
+                                        Resource Allocation
                                     </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <ul className="space-y-2 text-muted-foreground">
-                                        <li>• Accurate project cost forecasting</li>
-                                        <li>• Learning-adjusted pricing strategies</li>
-                                        <li>• Contract bid optimization</li>
-                                        <li>• Life cycle cost analysis</li>
+                                        <li>• Budget distribution optimization</li>
+                                        <li>• Workforce assignment planning</li>
+                                        <li>• Equipment utilization maximization</li>
+                                        <li>• Capacity allocation strategies</li>
                                     </ul>
                                 </CardContent>
                             </Card>
@@ -270,40 +248,40 @@ export default function LearnPage(): React.JSX.Element {
                                 </CardHeader>
                                 <CardContent>
                                     <ul className="space-y-2 text-muted-foreground">
-                                        <li>• Capacity requirement planning</li>
-                                        <li>• Delivery schedule optimization</li>
-                                        <li>• Resource allocation planning</li>
-                                        <li>• Workforce level determination</li>
+                                        <li>• Batch size optimization</li>
+                                        <li>• Production rate determination</li>
+                                        <li>• Quality-cost trade-offs</li>
+                                        <li>• Yield maximization strategies</li>
                                     </ul>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
                                     <CardTitle className="text-xl text-purple-600">
-                                        Training Optimization
+                                        Financial Optimization
                                     </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <ul className="space-y-2 text-muted-foreground">
-                                        <li>• Training program design</li>
-                                        <li>• Skill development tracking</li>
-                                        <li>• Performance improvement planning</li>
-                                        <li>• Learning acceleration strategies</li>
+                                        <li>• Portfolio optimization models</li>
+                                        <li>• Risk-return analysis</li>
+                                        <li>• Cost minimization strategies</li>
+                                        <li>• Pricing optimization</li>
                                     </ul>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
                                     <CardTitle className="text-xl text-orange-600">
-                                        Strategic Planning
+                                        Engineering Design
                                     </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <ul className="space-y-2 text-muted-foreground">
-                                        <li>• Competitive advantage analysis</li>
-                                        <li>• Technology adoption planning</li>
-                                        <li>• Market entry strategies</li>
-                                        <li>• Investment decision support</li>
+                                        <li>• Parameter optimization</li>
+                                        <li>• Performance maximization</li>
+                                        <li>• Design constraint satisfaction</li>
+                                        <li>• Multi-objective trade-offs</li>
                                     </ul>
                                 </CardContent>
                             </Card>

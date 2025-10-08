@@ -5,7 +5,7 @@ import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
-export default function LearnPage(): React.JSX.Element {
+export default function OperationsManagerRopPage(): React.JSX.Element {
     return (
         <div className="min-h-screen bg-background">
             {/* Hero Section */}
@@ -21,10 +21,10 @@ export default function LearnPage(): React.JSX.Element {
                             </Badge>
                         </div>
                         <h1 className="mb-6 text-4xl font-bold md:text-6xl">
-                            Operations Manager: LEARN
+                            Operations Manager: ROP
                         </h1>
                         <p className="mb-8 text-xl md:text-2xl">
-                            Learning curves - Predicting reduction in direct labor hours
+                            Reorder Point optimization for intelligent inventory management and stock control
                         </p>
                         <div className="flex flex-col justify-center gap-4 sm:flex-row">
                             <Button
@@ -38,31 +38,23 @@ export default function LearnPage(): React.JSX.Element {
                 </div>
             </section>
 
-            {/* Learning Curve Overview */}
+            {/* ROP Overview */}
             <section className="py-16">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl">
                         <Card className="mb-8">
                             <CardHeader>
                                 <CardTitle className="text-center text-3xl">
-                                    Learning Curve Analysis
+                                    Reorder Point Optimization
                                 </CardTitle>
                             </CardHeader>
                             <CardContent className="space-y-6">
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    Learning curves represent the improvement in performance that
-                                    occurs when workers repeat a task over time. Our Operations
-                                    Manager Learning module provides comprehensive tools for
-                                    analyzing learning effects, predicting productivity
-                                    improvements, and optimizing workforce training and
-                                    development programs.
+                                    ROP (Reorder Point) provides sophisticated inventory management optimization by determining optimal reorder points that balance carrying costs with stockout risks. This essential module ensures optimal inventory levels while minimizing total inventory costs.
                                 </p>
 
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    From manufacturing assembly to service operations,
-                                    understanding learning curves enables better cost estimation,
-                                    production planning, and human resource optimization for
-                                    sustained competitive advantage.
+                                    From safety stock calculations to lead time variability analysis, ROP delivers data-driven inventory decisions that reduce waste, improve service levels, and optimize working capital management across your supply chain.
                                 </p>
                             </CardContent>
                         </Card>
@@ -77,7 +69,7 @@ export default function LearnPage(): React.JSX.Element {
                         <Card>
                             <CardHeader>
                                 <CardTitle className="text-center text-2xl">
-                                    Case Study: Aerospace Component Manufacturing
+                                    Case Study: Automotive Parts Distribution
                                 </CardTitle>
                             </CardHeader>
                             <CardContent className="space-y-6">
@@ -86,12 +78,7 @@ export default function LearnPage(): React.JSX.Element {
                                         The Challenge
                                     </h3>
                                     <p className="mb-4 text-muted-foreground">
-                                        AeroTech Manufacturing was struggling with accurate cost
-                                        estimation for new aircraft component contracts. Their
-                                        traditional costing methods failed to account for learning
-                                        effects, resulting in unprofitable bids and poor resource
-                                        planning. They needed a systematic approach to predict and
-                                        leverage learning curve improvements.
+                                        AutoParts Express struggled with inventory management across 200+ SKUs, experiencing frequent stockouts that caused customer dissatisfaction while simultaneously carrying excess inventory that tied up $2.8M in working capital. Their manual reorder points were inconsistent and reactive.
                                     </p>
                                 </div>
 
@@ -100,12 +87,7 @@ export default function LearnPage(): React.JSX.Element {
                                         The Solution
                                     </h3>
                                     <p className="mb-4 text-muted-foreground">
-                                        Using Operations Manager's Learning analysis tools, the
-                                        company analyzed historical production data to establish
-                                        learning curve parameters. They implemented
-                                        learning-adjusted cost models and optimized training
-                                        programs to accelerate the learning process and improve
-                                        competitiveness.
+                                        Implementing Operations Manager's ROP module, the inventory team established scientifically calculated reorder points based on demand patterns, lead time variability, and service level targets. The system provided automated alerts and dynamic reorder point adjustments.
                                     </p>
                                 </div>
 
@@ -118,19 +100,19 @@ export default function LearnPage(): React.JSX.Element {
                                             <div className="flex items-center">
                                                 <div className="mr-3 size-3 rounded-full bg-green-500" />
                                                 <span className="text-sm">
-                                                    85% learning rate achievement
+                                                    85% reduction in stockouts
                                                 </span>
                                             </div>
                                             <div className="flex items-center">
                                                 <div className="mr-3 size-3 rounded-full bg-blue-500" />
                                                 <span className="text-sm">
-                                                    35% reduction in labor hours
+                                                    35% reduction in inventory investment
                                                 </span>
                                             </div>
                                             <div className="flex items-center">
                                                 <div className="mr-3 size-3 rounded-full bg-purple-500" />
                                                 <span className="text-sm">
-                                                    25% improvement in bid accuracy
+                                                    98.5% service level achievement
                                                 </span>
                                             </div>
                                         </div>
@@ -138,19 +120,19 @@ export default function LearnPage(): React.JSX.Element {
                                             <div className="flex items-center">
                                                 <div className="mr-3 size-3 rounded-full bg-orange-500" />
                                                 <span className="text-sm">
-                                                    40% faster training completion
+                                                    $980K working capital release
                                                 </span>
                                             </div>
                                             <div className="flex items-center">
                                                 <div className="mr-3 size-3 rounded-full bg-red-500" />
                                                 <span className="text-sm">
-                                                    20% increase in profit margins
+                                                    40% improvement in inventory turns
                                                 </span>
                                             </div>
                                             <div className="flex items-center">
                                                 <div className="mr-3 size-3 rounded-full bg-teal-500" />
                                                 <span className="text-sm">
-                                                    50% reduction in defect rates
+                                                    Automated reorder management
                                                 </span>
                                             </div>
                                         </div>
@@ -162,75 +144,71 @@ export default function LearnPage(): React.JSX.Element {
                 </div>
             </section>
 
-            {/* Learning Models */}
+            {/* ROP Features */}
             <section className="py-16">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-6xl">
                         <h2 className="mb-12 text-center text-3xl font-bold text-foreground">
-                            Learning Curve Models
+                            ROP Optimization Features
                         </h2>
                         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">Wright Model</CardTitle>
+                                    <CardTitle className="text-center">Safety Stock Calculation</CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Classical model showing time reduction with cumulative
-                                        production volume
+                                        Statistical safety stock optimization based on demand variability
                                     </p>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">Crawford Model</CardTitle>
+                                    <CardTitle className="text-center">Lead Time Analysis</CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Unit curve model focusing on average time per unit produced
+                                        Advanced lead time variability modeling and uncertainty handling
                                     </p>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">S-Curve Model</CardTitle>
+                                    <CardTitle className="text-center">Service Level Optimization</CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Sigmoid curve modeling slow start, rapid improvement, and
-                                        plateau phases
+                                        Target service level achievement with minimum inventory investment
                                     </p>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">
-                                        Exponential Model
-                                    </CardTitle>
+                                    <CardTitle className="text-center">Demand Forecasting</CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Exponential decay function for continuous learning processes
+                                        Integrated demand forecasting for accurate reorder point calculation
                                     </p>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">Plateau Model</CardTitle>
+                                    <CardTitle className="text-center">Dynamic Adjustment</CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Models learning curves with ultimate performance limits
+                                        Real-time reorder point updates based on changing conditions
                                     </p>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">Hybrid Models</CardTitle>
+                                    <CardTitle className="text-center">Multi-Location Support</CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Combined models accounting for multiple learning factors
+                                        Coordinated inventory management across multiple warehouses
                                     </p>
                                 </CardContent>
                             </Card>
@@ -239,71 +217,71 @@ export default function LearnPage(): React.JSX.Element {
                 </div>
             </section>
 
-            {/* Key Applications */}
+            {/* Inventory Applications */}
             <section className="bg-muted/50 py-16">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl">
                         <h2 className="mb-12 text-center text-3xl font-bold text-foreground">
-                            Learning Curve Applications
+                            ROP Application Scenarios
                         </h2>
                         <div className="grid gap-6 md:grid-cols-2">
                             <Card>
                                 <CardHeader>
                                     <CardTitle className="text-xl text-blue-600">
-                                        Cost Estimation
+                                        Retail & Distribution
                                     </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <ul className="space-y-2 text-muted-foreground">
-                                        <li>• Accurate project cost forecasting</li>
-                                        <li>• Learning-adjusted pricing strategies</li>
-                                        <li>• Contract bid optimization</li>
-                                        <li>• Life cycle cost analysis</li>
+                                        <li>• Consumer goods inventory</li>
+                                        <li>• Seasonal demand management</li>
+                                        <li>• Multi-channel distribution</li>
+                                        <li>• Fast-moving consumer goods</li>
                                     </ul>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
                                     <CardTitle className="text-xl text-green-600">
-                                        Production Planning
+                                        Manufacturing
                                     </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <ul className="space-y-2 text-muted-foreground">
-                                        <li>• Capacity requirement planning</li>
-                                        <li>• Delivery schedule optimization</li>
-                                        <li>• Resource allocation planning</li>
-                                        <li>• Workforce level determination</li>
+                                        <li>• Raw materials management</li>
+                                        <li>• Component inventory control</li>
+                                        <li>• Work-in-process optimization</li>
+                                        <li>• Spare parts inventory</li>
                                     </ul>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
                                     <CardTitle className="text-xl text-purple-600">
-                                        Training Optimization
+                                        Healthcare & Pharmaceuticals
                                     </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <ul className="space-y-2 text-muted-foreground">
-                                        <li>• Training program design</li>
-                                        <li>• Skill development tracking</li>
-                                        <li>• Performance improvement planning</li>
-                                        <li>• Learning acceleration strategies</li>
+                                        <li>• Medical supplies management</li>
+                                        <li>• Drug inventory optimization</li>
+                                        <li>• Expiration date considerations</li>
+                                        <li>• Critical stock monitoring</li>
                                     </ul>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
                                     <CardTitle className="text-xl text-orange-600">
-                                        Strategic Planning
+                                        Maintenance & Operations
                                     </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <ul className="space-y-2 text-muted-foreground">
-                                        <li>• Competitive advantage analysis</li>
-                                        <li>• Technology adoption planning</li>
-                                        <li>• Market entry strategies</li>
-                                        <li>• Investment decision support</li>
+                                        <li>• Maintenance parts inventory</li>
+                                        <li>• Equipment spare parts</li>
+                                        <li>• Critical component stock</li>
+                                        <li>• Emergency inventory planning</li>
                                     </ul>
                                 </CardContent>
                             </Card>

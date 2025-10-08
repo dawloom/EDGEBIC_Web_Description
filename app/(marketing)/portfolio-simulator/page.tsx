@@ -5,7 +5,7 @@ import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
-export default function LearnPage(): React.JSX.Element {
+export default function PortfolioSimulatorPage(): React.JSX.Element {
     return (
         <div className="min-h-screen bg-background">
             {/* Hero Section */}
@@ -17,14 +17,14 @@ export default function LearnPage(): React.JSX.Element {
                                 variant="outline"
                                 className="h-8 rounded-full border-white/20 bg-white/10 px-3 text-sm font-medium text-white shadow-sm"
                             >
-                                OPERATIONS MANAGER
+                                FINANCIAL MODELING
                             </Badge>
                         </div>
                         <h1 className="mb-6 text-4xl font-bold md:text-6xl">
-                            Operations Manager: LEARN
+                            Portfolio Simulator
                         </h1>
                         <p className="mb-8 text-xl md:text-2xl">
-                            Learning curves - Predicting reduction in direct labor hours
+                            Advanced financial simulation for investment portfolio optimization and risk analysis
                         </p>
                         <div className="flex flex-col justify-center gap-4 sm:flex-row">
                             <Button
@@ -38,31 +38,23 @@ export default function LearnPage(): React.JSX.Element {
                 </div>
             </section>
 
-            {/* Learning Curve Overview */}
+            {/* Portfolio Simulator Overview */}
             <section className="py-16">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl">
                         <Card className="mb-8">
                             <CardHeader>
                                 <CardTitle className="text-center text-3xl">
-                                    Learning Curve Analysis
+                                    Financial Portfolio Simulation & Analysis
                                 </CardTitle>
                             </CardHeader>
                             <CardContent className="space-y-6">
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    Learning curves represent the improvement in performance that
-                                    occurs when workers repeat a task over time. Our Operations
-                                    Manager Learning module provides comprehensive tools for
-                                    analyzing learning effects, predicting productivity
-                                    improvements, and optimizing workforce training and
-                                    development programs.
+                                    Portfolio Simulator provides sophisticated Monte Carlo simulation capabilities for financial portfolio analysis, risk assessment, and investment strategy optimization. Model complex financial instruments, market scenarios, and portfolio behaviors to make informed investment decisions with confidence.
                                 </p>
 
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    From manufacturing assembly to service operations,
-                                    understanding learning curves enables better cost estimation,
-                                    production planning, and human resource optimization for
-                                    sustained competitive advantage.
+                                    From institutional asset management to individual investment planning, Portfolio Simulator helps financial professionals quantify risk, optimize returns, and validate investment strategies through comprehensive simulation-based analysis.
                                 </p>
                             </CardContent>
                         </Card>
@@ -77,7 +69,7 @@ export default function LearnPage(): React.JSX.Element {
                         <Card>
                             <CardHeader>
                                 <CardTitle className="text-center text-2xl">
-                                    Case Study: Aerospace Component Manufacturing
+                                    Case Study: Pension Fund Risk Management
                                 </CardTitle>
                             </CardHeader>
                             <CardContent className="space-y-6">
@@ -86,12 +78,7 @@ export default function LearnPage(): React.JSX.Element {
                                         The Challenge
                                     </h3>
                                     <p className="mb-4 text-muted-foreground">
-                                        AeroTech Manufacturing was struggling with accurate cost
-                                        estimation for new aircraft component contracts. Their
-                                        traditional costing methods failed to account for learning
-                                        effects, resulting in unprofitable bids and poor resource
-                                        planning. They needed a systematic approach to predict and
-                                        leverage learning curve improvements.
+                                        GlobalPension managed a $50B diversified portfolio across multiple asset classes and geographical regions. They needed to assess portfolio risk under various market stress scenarios and optimize asset allocation to meet long-term liability obligations while managing downside risk.
                                     </p>
                                 </div>
 
@@ -100,12 +87,7 @@ export default function LearnPage(): React.JSX.Element {
                                         The Solution
                                     </h3>
                                     <p className="mb-4 text-muted-foreground">
-                                        Using Operations Manager's Learning analysis tools, the
-                                        company analyzed historical production data to establish
-                                        learning curve parameters. They implemented
-                                        learning-adjusted cost models and optimized training
-                                        programs to accelerate the learning process and improve
-                                        competitiveness.
+                                        Using Portfolio Simulator, the investment team modeled their entire portfolio with correlated asset classes, incorporated market volatility patterns, and ran thousands of simulation scenarios. The analysis included stress testing, Value-at-Risk calculations, and optimal rebalancing strategies.
                                     </p>
                                 </div>
 
@@ -118,19 +100,19 @@ export default function LearnPage(): React.JSX.Element {
                                             <div className="flex items-center">
                                                 <div className="mr-3 size-3 rounded-full bg-green-500" />
                                                 <span className="text-sm">
-                                                    85% learning rate achievement
+                                                    25% improvement in risk-adjusted returns
                                                 </span>
                                             </div>
                                             <div className="flex items-center">
                                                 <div className="mr-3 size-3 rounded-full bg-blue-500" />
                                                 <span className="text-sm">
-                                                    35% reduction in labor hours
+                                                    40% reduction in portfolio volatility
                                                 </span>
                                             </div>
                                             <div className="flex items-center">
                                                 <div className="mr-3 size-3 rounded-full bg-purple-500" />
                                                 <span className="text-sm">
-                                                    25% improvement in bid accuracy
+                                                    Enhanced regulatory compliance
                                                 </span>
                                             </div>
                                         </div>
@@ -138,19 +120,19 @@ export default function LearnPage(): React.JSX.Element {
                                             <div className="flex items-center">
                                                 <div className="mr-3 size-3 rounded-full bg-orange-500" />
                                                 <span className="text-sm">
-                                                    40% faster training completion
+                                                    Improved asset allocation efficiency
                                                 </span>
                                             </div>
                                             <div className="flex items-center">
                                                 <div className="mr-3 size-3 rounded-full bg-red-500" />
                                                 <span className="text-sm">
-                                                    20% increase in profit margins
+                                                    Better liability matching
                                                 </span>
                                             </div>
                                             <div className="flex items-center">
                                                 <div className="mr-3 size-3 rounded-full bg-teal-500" />
                                                 <span className="text-sm">
-                                                    50% reduction in defect rates
+                                                    $500M additional returns
                                                 </span>
                                             </div>
                                         </div>
@@ -162,75 +144,83 @@ export default function LearnPage(): React.JSX.Element {
                 </div>
             </section>
 
-            {/* Learning Models */}
+            {/* Key Features */}
             <section className="py-16">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-6xl">
                         <h2 className="mb-12 text-center text-3xl font-bold text-foreground">
-                            Learning Curve Models
+                            Simulation Features
                         </h2>
                         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">Wright Model</CardTitle>
+                                    <CardTitle className="text-center">
+                                        Monte Carlo Simulation
+                                    </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Classical model showing time reduction with cumulative
-                                        production volume
-                                    </p>
-                                </CardContent>
-                            </Card>
-                            <Card>
-                                <CardHeader>
-                                    <CardTitle className="text-center">Crawford Model</CardTitle>
-                                </CardHeader>
-                                <CardContent>
-                                    <p className="text-center text-muted-foreground">
-                                        Unit curve model focusing on average time per unit produced
-                                    </p>
-                                </CardContent>
-                            </Card>
-                            <Card>
-                                <CardHeader>
-                                    <CardTitle className="text-center">S-Curve Model</CardTitle>
-                                </CardHeader>
-                                <CardContent>
-                                    <p className="text-center text-muted-foreground">
-                                        Sigmoid curve modeling slow start, rapid improvement, and
-                                        plateau phases
+                                        Advanced stochastic modeling with multiple probability distributions and correlation structures
                                     </p>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
                                     <CardTitle className="text-center">
-                                        Exponential Model
+                                        Risk Analytics
                                     </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Exponential decay function for continuous learning processes
+                                        Comprehensive risk metrics including VaR, CVaR, and stress testing capabilities
                                     </p>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">Plateau Model</CardTitle>
+                                    <CardTitle className="text-center">
+                                        Asset Modeling
+                                    </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Models learning curves with ultimate performance limits
+                                        Support for stocks, bonds, derivatives, alternatives, and custom instruments
                                     </p>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">Hybrid Models</CardTitle>
+                                    <CardTitle className="text-center">
+                                        Scenario Analysis
+                                    </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Combined models accounting for multiple learning factors
+                                        Market stress testing and what-if analysis for strategic planning
+                                    </p>
+                                </CardContent>
+                            </Card>
+                            <Card>
+                                <CardHeader>
+                                    <CardTitle className="text-center">
+                                        Optimization Tools
+                                    </CardTitle>
+                                </CardHeader>
+                                <CardContent>
+                                    <p className="text-center text-muted-foreground">
+                                        Portfolio optimization with constraints and multi-objective functions
+                                    </p>
+                                </CardContent>
+                            </Card>
+                            <Card>
+                                <CardHeader>
+                                    <CardTitle className="text-center">
+                                        Reporting Dashboard
+                                    </CardTitle>
+                                </CardHeader>
+                                <CardContent>
+                                    <p className="text-center text-muted-foreground">
+                                        Interactive visualizations and executive-ready reports with key insights
                                     </p>
                                 </CardContent>
                             </Card>
@@ -239,71 +229,144 @@ export default function LearnPage(): React.JSX.Element {
                 </div>
             </section>
 
-            {/* Key Applications */}
+            {/* Financial Models */}
             <section className="bg-muted/50 py-16">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl">
                         <h2 className="mb-12 text-center text-3xl font-bold text-foreground">
-                            Learning Curve Applications
+                            Financial Modeling Capabilities
                         </h2>
                         <div className="grid gap-6 md:grid-cols-2">
                             <Card>
                                 <CardHeader>
                                     <CardTitle className="text-xl text-blue-600">
-                                        Cost Estimation
+                                        Asset Class Modeling
                                     </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <ul className="space-y-2 text-muted-foreground">
-                                        <li>• Accurate project cost forecasting</li>
-                                        <li>• Learning-adjusted pricing strategies</li>
-                                        <li>• Contract bid optimization</li>
-                                        <li>• Life cycle cost analysis</li>
+                                        <li>• Equity and fixed income securities</li>
+                                        <li>• Alternative investments (REITs, commodities)</li>
+                                        <li>• Derivatives and structured products</li>
+                                        <li>• International and emerging markets</li>
                                     </ul>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
                                     <CardTitle className="text-xl text-green-600">
-                                        Production Planning
+                                        Risk Measurements
                                     </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <ul className="space-y-2 text-muted-foreground">
-                                        <li>• Capacity requirement planning</li>
-                                        <li>• Delivery schedule optimization</li>
-                                        <li>• Resource allocation planning</li>
-                                        <li>• Workforce level determination</li>
+                                        <li>• Value-at-Risk (VaR) calculations</li>
+                                        <li>• Conditional Value-at-Risk (CVaR)</li>
+                                        <li>• Maximum drawdown analysis</li>
+                                        <li>• Correlation and covariance matrices</li>
                                     </ul>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
                                     <CardTitle className="text-xl text-purple-600">
-                                        Training Optimization
+                                        Market Scenarios
                                     </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <ul className="space-y-2 text-muted-foreground">
-                                        <li>• Training program design</li>
-                                        <li>• Skill development tracking</li>
-                                        <li>• Performance improvement planning</li>
-                                        <li>• Learning acceleration strategies</li>
+                                        <li>• Historical market crash simulations</li>
+                                        <li>• Interest rate shock scenarios</li>
+                                        <li>• Currency and inflation impacts</li>
+                                        <li>• Black swan event modeling</li>
                                     </ul>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
                                     <CardTitle className="text-xl text-orange-600">
-                                        Strategic Planning
+                                        Performance Analytics
                                     </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <ul className="space-y-2 text-muted-foreground">
-                                        <li>• Competitive advantage analysis</li>
-                                        <li>• Technology adoption planning</li>
-                                        <li>• Market entry strategies</li>
-                                        <li>• Investment decision support</li>
+                                        <li>• Sharpe and Sortino ratios</li>
+                                        <li>• Alpha and beta calculations</li>
+                                        <li>• Information ratio analysis</li>
+                                        <li>• Attribution and factor analysis</li>
+                                    </ul>
+                                </CardContent>
+                            </Card>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* Applications */}
+            <section className="py-16">
+                <div className="container mx-auto px-4">
+                    <div className="mx-auto max-w-4xl">
+                        <h2 className="mb-12 text-center text-3xl font-bold text-foreground">
+                            Financial Applications
+                        </h2>
+                        <div className="grid gap-6 md:grid-cols-2">
+                            <Card>
+                                <CardHeader>
+                                    <CardTitle className="text-xl text-blue-600">
+                                        Institutional Investment
+                                    </CardTitle>
+                                </CardHeader>
+                                <CardContent>
+                                    <ul className="space-y-2 text-muted-foreground">
+                                        <li>• Pension fund management</li>
+                                        <li>• Endowment and foundation portfolios</li>
+                                        <li>• Insurance company investments</li>
+                                        <li>• Sovereign wealth fund strategies</li>
+                                    </ul>
+                                </CardContent>
+                            </Card>
+                            <Card>
+                                <CardHeader>
+                                    <CardTitle className="text-xl text-green-600">
+                                        Asset Management
+                                    </CardTitle>
+                                </CardHeader>
+                                <CardContent>
+                                    <ul className="space-y-2 text-muted-foreground">
+                                        <li>• Mutual fund optimization</li>
+                                        <li>• ETF strategy development</li>
+                                        <li>• Hedge fund risk management</li>
+                                        <li>• Alternative investment analysis</li>
+                                    </ul>
+                                </CardContent>
+                            </Card>
+                            <Card>
+                                <CardHeader>
+                                    <CardTitle className="text-xl text-purple-600">
+                                        Wealth Management
+                                    </CardTitle>
+                                </CardHeader>
+                                <CardContent>
+                                    <ul className="space-y-2 text-muted-foreground">
+                                        <li>• High net worth client portfolios</li>
+                                        <li>• Retirement planning strategies</li>
+                                        <li>• Estate planning optimization</li>
+                                        <li>• Tax-efficient asset allocation</li>
+                                    </ul>
+                                </CardContent>
+                            </Card>
+                            <Card>
+                                <CardHeader>
+                                    <CardTitle className="text-xl text-orange-600">
+                                        Risk Management
+                                    </CardTitle>
+                                </CardHeader>
+                                <CardContent>
+                                    <ul className="space-y-2 text-muted-foreground">
+                                        <li>• Regulatory capital planning</li>
+                                        <li>• Stress testing compliance</li>
+                                        <li>• Market risk assessment</li>
+                                        <li>• Liquidity risk analysis</li>
                                     </ul>
                                 </CardContent>
                             </Card>
@@ -315,24 +378,22 @@ export default function LearnPage(): React.JSX.Element {
             {/* Awards Section */}
             <section className="py-16">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-4xl">
-                        <Card className="bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20">
-                            <CardContent className="p-8 text-center">
-                                <h2 className="mb-6 text-2xl font-bold text-foreground">
-                                    CELEBRATING 25 YEARS OF AWARD WINNING SOFTWARE!
-                                </h2>
-                                <div className="flex justify-center">
-                                    <Image
-                                        src="https://www.usersolutions.com/wp-content/uploads/2022/07/banner-logoso-sm-58c9a28d237d6-1024x128.jpg"
-                                        alt="Collection of industry and business awards logos"
-                                        width={1024}
-                                        height={128}
-                                        className="h-auto max-w-full rounded-lg shadow-md"
-                                    />
-                                </div>
-                            </CardContent>
-                        </Card>
-                    </div>
+                    <Card className="bg-gradient-to-r from-blue-600 to-blue-800 text-white">
+                        <CardContent className="py-12 text-center">
+                            <h2 className="mb-8 text-3xl font-bold">
+                                CELEBRATING 25 YEARS OF AWARD WINNING SOFTWARE!
+                            </h2>
+                            <div className="flex justify-center">
+                                <Image
+                                    src="https://www.usersolutions.com/wp-content/uploads/2022/07/banner-logoso-sm-58c9a28d237d6-1024x128.jpg"
+                                    alt="Collection of industry and business awards logos"
+                                    width={1024}
+                                    height={128}
+                                    className="h-auto max-w-full"
+                                />
+                            </div>
+                        </CardContent>
+                    </Card>
                 </div>
             </section>
         </div>

@@ -5,7 +5,7 @@ import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
-export default function LearnPage(): React.JSX.Element {
+export default function ProModelAutoCADEditionPage(): React.JSX.Element {
     return (
         <div className="min-h-screen bg-background">
             {/* Hero Section */}
@@ -17,14 +17,14 @@ export default function LearnPage(): React.JSX.Element {
                                 variant="outline"
                                 className="h-8 rounded-full border-white/20 bg-white/10 px-3 text-sm font-medium text-white shadow-sm"
                             >
-                                OPERATIONS MANAGER
+                                CAD INTEGRATED SIMULATION
                             </Badge>
                         </div>
                         <h1 className="mb-6 text-4xl font-bold md:text-6xl">
-                            Operations Manager: LEARN
+                            ProModel AutoCAD Edition
                         </h1>
                         <p className="mb-8 text-xl md:text-2xl">
-                            Learning curves - Predicting reduction in direct labor hours
+                            CAD-integrated simulation for seamless design and analysis workflow
                         </p>
                         <div className="flex flex-col justify-center gap-4 sm:flex-row">
                             <Button
@@ -38,31 +38,23 @@ export default function LearnPage(): React.JSX.Element {
                 </div>
             </section>
 
-            {/* Learning Curve Overview */}
+            {/* ProModel AutoCAD Overview */}
             <section className="py-16">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl">
                         <Card className="mb-8">
                             <CardHeader>
                                 <CardTitle className="text-center text-3xl">
-                                    Learning Curve Analysis
+                                    CAD-Integrated Simulation Platform
                                 </CardTitle>
                             </CardHeader>
                             <CardContent className="space-y-6">
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    Learning curves represent the improvement in performance that
-                                    occurs when workers repeat a task over time. Our Operations
-                                    Manager Learning module provides comprehensive tools for
-                                    analyzing learning effects, predicting productivity
-                                    improvements, and optimizing workforce training and
-                                    development programs.
+                                    ProModel AutoCAD Edition seamlessly integrates discrete event simulation with AutoCAD's powerful design environment. This unique combination allows engineers and designers to perform simulation analysis directly within their familiar CAD workspace, eliminating the need for separate modeling environments and data translation.
                                 </p>
 
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    From manufacturing assembly to service operations,
-                                    understanding learning curves enables better cost estimation,
-                                    production planning, and human resource optimization for
-                                    sustained competitive advantage.
+                                    From factory floor layouts to logistics systems, this integrated solution enables rapid prototyping, design validation, and optimization of complex systems while maintaining design integrity and reducing development time.
                                 </p>
                             </CardContent>
                         </Card>
@@ -77,7 +69,7 @@ export default function LearnPage(): React.JSX.Element {
                         <Card>
                             <CardHeader>
                                 <CardTitle className="text-center text-2xl">
-                                    Case Study: Aerospace Component Manufacturing
+                                    Case Study: Automated Warehouse Design
                                 </CardTitle>
                             </CardHeader>
                             <CardContent className="space-y-6">
@@ -86,12 +78,7 @@ export default function LearnPage(): React.JSX.Element {
                                         The Challenge
                                     </h3>
                                     <p className="mb-4 text-muted-foreground">
-                                        AeroTech Manufacturing was struggling with accurate cost
-                                        estimation for new aircraft component contracts. Their
-                                        traditional costing methods failed to account for learning
-                                        effects, resulting in unprofitable bids and poor resource
-                                        planning. They needed a systematic approach to predict and
-                                        leverage learning curve improvements.
+                                        TechLogistics needed to design a new automated warehouse facility with complex material handling systems, robotic storage, and retrieval systems. Traditional simulation tools required extensive model rebuilding when design changes were made, creating delays and potential errors in the design process.
                                     </p>
                                 </div>
 
@@ -100,12 +87,7 @@ export default function LearnPage(): React.JSX.Element {
                                         The Solution
                                     </h3>
                                     <p className="mb-4 text-muted-foreground">
-                                        Using Operations Manager's Learning analysis tools, the
-                                        company analyzed historical production data to establish
-                                        learning curve parameters. They implemented
-                                        learning-adjusted cost models and optimized training
-                                        programs to accelerate the learning process and improve
-                                        competitiveness.
+                                        Using ProModel AutoCAD Edition, the design team created the warehouse layout directly in AutoCAD and added simulation logic to analyze material flow, equipment utilization, and system performance. Design iterations were tested immediately without model recreation, enabling rapid optimization cycles.
                                     </p>
                                 </div>
 
@@ -118,19 +100,19 @@ export default function LearnPage(): React.JSX.Element {
                                             <div className="flex items-center">
                                                 <div className="mr-3 size-3 rounded-full bg-green-500" />
                                                 <span className="text-sm">
-                                                    85% learning rate achievement
+                                                    70% reduction in design cycle time
                                                 </span>
                                             </div>
                                             <div className="flex items-center">
                                                 <div className="mr-3 size-3 rounded-full bg-blue-500" />
                                                 <span className="text-sm">
-                                                    35% reduction in labor hours
+                                                    40% improvement in space utilization
                                                 </span>
                                             </div>
                                             <div className="flex items-center">
                                                 <div className="mr-3 size-3 rounded-full bg-purple-500" />
                                                 <span className="text-sm">
-                                                    25% improvement in bid accuracy
+                                                    90% accuracy in performance prediction
                                                 </span>
                                             </div>
                                         </div>
@@ -138,19 +120,19 @@ export default function LearnPage(): React.JSX.Element {
                                             <div className="flex items-center">
                                                 <div className="mr-3 size-3 rounded-full bg-orange-500" />
                                                 <span className="text-sm">
-                                                    40% faster training completion
+                                                    35% increase in throughput capacity
                                                 </span>
                                             </div>
                                             <div className="flex items-center">
                                                 <div className="mr-3 size-3 rounded-full bg-red-500" />
                                                 <span className="text-sm">
-                                                    20% increase in profit margins
+                                                    $2M reduction in capital investment
                                                 </span>
                                             </div>
                                             <div className="flex items-center">
                                                 <div className="mr-3 size-3 rounded-full bg-teal-500" />
                                                 <span className="text-sm">
-                                                    50% reduction in defect rates
+                                                    Seamless design-to-simulation workflow
                                                 </span>
                                             </div>
                                         </div>
@@ -162,75 +144,83 @@ export default function LearnPage(): React.JSX.Element {
                 </div>
             </section>
 
-            {/* Learning Models */}
+            {/* Key Features */}
             <section className="py-16">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-6xl">
                         <h2 className="mb-12 text-center text-3xl font-bold text-foreground">
-                            Learning Curve Models
+                            CAD Integration Features
                         </h2>
                         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">Wright Model</CardTitle>
+                                    <CardTitle className="text-center">
+                                        Native AutoCAD Integration
+                                    </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Classical model showing time reduction with cumulative
-                                        production volume
-                                    </p>
-                                </CardContent>
-                            </Card>
-                            <Card>
-                                <CardHeader>
-                                    <CardTitle className="text-center">Crawford Model</CardTitle>
-                                </CardHeader>
-                                <CardContent>
-                                    <p className="text-center text-muted-foreground">
-                                        Unit curve model focusing on average time per unit produced
-                                    </p>
-                                </CardContent>
-                            </Card>
-                            <Card>
-                                <CardHeader>
-                                    <CardTitle className="text-center">S-Curve Model</CardTitle>
-                                </CardHeader>
-                                <CardContent>
-                                    <p className="text-center text-muted-foreground">
-                                        Sigmoid curve modeling slow start, rapid improvement, and
-                                        plateau phases
+                                        Direct integration within AutoCAD environment with full access to CAD tools and libraries
                                     </p>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
                                     <CardTitle className="text-center">
-                                        Exponential Model
+                                        Automatic Model Generation
                                     </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Exponential decay function for continuous learning processes
+                                        Convert CAD drawings into simulation models with intelligent object recognition
                                     </p>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">Plateau Model</CardTitle>
+                                    <CardTitle className="text-center">
+                                        Real-time Synchronization
+                                    </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Models learning curves with ultimate performance limits
+                                        Automatic updates between CAD design changes and simulation model
                                     </p>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">Hybrid Models</CardTitle>
+                                    <CardTitle className="text-center">
+                                        3D Visualization
+                                    </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Combined models accounting for multiple learning factors
+                                        Enhanced 3D animation using AutoCAD's rendering capabilities
+                                    </p>
+                                </CardContent>
+                            </Card>
+                            <Card>
+                                <CardHeader>
+                                    <CardTitle className="text-center">
+                                        Design Validation
+                                    </CardTitle>
+                                </CardHeader>
+                                <CardContent>
+                                    <p className="text-center text-muted-foreground">
+                                        Validate design concepts before physical implementation
+                                    </p>
+                                </CardContent>
+                            </Card>
+                            <Card>
+                                <CardHeader>
+                                    <CardTitle className="text-center">
+                                        Parametric Analysis
+                                    </CardTitle>
+                                </CardHeader>
+                                <CardContent>
+                                    <p className="text-center text-muted-foreground">
+                                        Link simulation parameters to CAD dimensions for automated analysis
                                     </p>
                                 </CardContent>
                             </Card>
@@ -239,71 +229,144 @@ export default function LearnPage(): React.JSX.Element {
                 </div>
             </section>
 
-            {/* Key Applications */}
+            {/* Benefits */}
             <section className="bg-muted/50 py-16">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl">
                         <h2 className="mb-12 text-center text-3xl font-bold text-foreground">
-                            Learning Curve Applications
+                            Integration Benefits
                         </h2>
                         <div className="grid gap-6 md:grid-cols-2">
                             <Card>
                                 <CardHeader>
                                     <CardTitle className="text-xl text-blue-600">
-                                        Cost Estimation
+                                        Streamlined Workflow
                                     </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <ul className="space-y-2 text-muted-foreground">
-                                        <li>• Accurate project cost forecasting</li>
-                                        <li>• Learning-adjusted pricing strategies</li>
-                                        <li>• Contract bid optimization</li>
-                                        <li>• Life cycle cost analysis</li>
+                                        <li>• Single environment for design and simulation</li>
+                                        <li>• Eliminate data translation errors</li>
+                                        <li>• Reduce learning curve for CAD users</li>
+                                        <li>• Faster design iterations</li>
                                     </ul>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
                                     <CardTitle className="text-xl text-green-600">
-                                        Production Planning
+                                        Enhanced Accuracy
                                     </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <ul className="space-y-2 text-muted-foreground">
-                                        <li>• Capacity requirement planning</li>
-                                        <li>• Delivery schedule optimization</li>
-                                        <li>• Resource allocation planning</li>
-                                        <li>• Workforce level determination</li>
+                                        <li>• Direct use of CAD geometry</li>
+                                        <li>• Precise spatial relationships</li>
+                                        <li>• Accurate distance calculations</li>
+                                        <li>• Real-world scale modeling</li>
                                     </ul>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
                                     <CardTitle className="text-xl text-purple-600">
-                                        Training Optimization
+                                        Cost Effectiveness
                                     </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <ul className="space-y-2 text-muted-foreground">
-                                        <li>• Training program design</li>
-                                        <li>• Skill development tracking</li>
-                                        <li>• Performance improvement planning</li>
-                                        <li>• Learning acceleration strategies</li>
+                                        <li>• Reduce software training costs</li>
+                                        <li>• Leverage existing CAD investments</li>
+                                        <li>• Minimize modeling time</li>
+                                        <li>• Faster project delivery</li>
                                     </ul>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
                                     <CardTitle className="text-xl text-orange-600">
-                                        Strategic Planning
+                                        Design Optimization
                                     </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <ul className="space-y-2 text-muted-foreground">
-                                        <li>• Competitive advantage analysis</li>
-                                        <li>• Technology adoption planning</li>
-                                        <li>• Market entry strategies</li>
-                                        <li>• Investment decision support</li>
+                                        <li>• Early design validation</li>
+                                        <li>• Performance-driven design</li>
+                                        <li>• What-if scenario analysis</li>
+                                        <li>• Optimal configuration identification</li>
+                                    </ul>
+                                </CardContent>
+                            </Card>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* Applications */}
+            <section className="py-16">
+                <div className="container mx-auto px-4">
+                    <div className="mx-auto max-w-4xl">
+                        <h2 className="mb-12 text-center text-3xl font-bold text-foreground">
+                            Industry Applications
+                        </h2>
+                        <div className="grid gap-6 md:grid-cols-2">
+                            <Card>
+                                <CardHeader>
+                                    <CardTitle className="text-xl text-blue-600">
+                                        Manufacturing Facilities
+                                    </CardTitle>
+                                </CardHeader>
+                                <CardContent>
+                                    <ul className="space-y-2 text-muted-foreground">
+                                        <li>• Factory layout design and optimization</li>
+                                        <li>• Production line configuration</li>
+                                        <li>• Material handling system design</li>
+                                        <li>• Equipment placement analysis</li>
+                                    </ul>
+                                </CardContent>
+                            </Card>
+                            <Card>
+                                <CardHeader>
+                                    <CardTitle className="text-xl text-green-600">
+                                        Warehouse & Distribution
+                                    </CardTitle>
+                                </CardHeader>
+                                <CardContent>
+                                    <ul className="space-y-2 text-muted-foreground">
+                                        <li>• Automated storage and retrieval systems</li>
+                                        <li>• Conveyor system design</li>
+                                        <li>• Picking zone optimization</li>
+                                        <li>• Dock door allocation</li>
+                                    </ul>
+                                </CardContent>
+                            </Card>
+                            <Card>
+                                <CardHeader>
+                                    <CardTitle className="text-xl text-purple-600">
+                                        Transportation Systems
+                                    </CardTitle>
+                                </CardHeader>
+                                <CardContent>
+                                    <ul className="space-y-2 text-muted-foreground">
+                                        <li>• Airport terminal design</li>
+                                        <li>• Traffic flow analysis</li>
+                                        <li>• Parking facility optimization</li>
+                                        <li>• Public transit systems</li>
+                                    </ul>
+                                </CardContent>
+                            </Card>
+                            <Card>
+                                <CardHeader>
+                                    <CardTitle className="text-xl text-orange-600">
+                                        Healthcare Facilities
+                                    </CardTitle>
+                                </CardHeader>
+                                <CardContent>
+                                    <ul className="space-y-2 text-muted-foreground">
+                                        <li>• Hospital layout optimization</li>
+                                        <li>• Emergency department design</li>
+                                        <li>• Patient flow analysis</li>
+                                        <li>• Equipment placement planning</li>
                                     </ul>
                                 </CardContent>
                             </Card>
@@ -315,24 +378,22 @@ export default function LearnPage(): React.JSX.Element {
             {/* Awards Section */}
             <section className="py-16">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-4xl">
-                        <Card className="bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20">
-                            <CardContent className="p-8 text-center">
-                                <h2 className="mb-6 text-2xl font-bold text-foreground">
-                                    CELEBRATING 25 YEARS OF AWARD WINNING SOFTWARE!
-                                </h2>
-                                <div className="flex justify-center">
-                                    <Image
-                                        src="https://www.usersolutions.com/wp-content/uploads/2022/07/banner-logoso-sm-58c9a28d237d6-1024x128.jpg"
-                                        alt="Collection of industry and business awards logos"
-                                        width={1024}
-                                        height={128}
-                                        className="h-auto max-w-full rounded-lg shadow-md"
-                                    />
-                                </div>
-                            </CardContent>
-                        </Card>
-                    </div>
+                    <Card className="bg-gradient-to-r from-blue-600 to-blue-800 text-white">
+                        <CardContent className="py-12 text-center">
+                            <h2 className="mb-8 text-3xl font-bold">
+                                CELEBRATING 25 YEARS OF AWARD WINNING SOFTWARE!
+                            </h2>
+                            <div className="flex justify-center">
+                                <Image
+                                    src="https://www.usersolutions.com/wp-content/uploads/2022/07/banner-logoso-sm-58c9a28d237d6-1024x128.jpg"
+                                    alt="Collection of industry and business awards logos"
+                                    width={1024}
+                                    height={128}
+                                    className="h-auto max-w-full"
+                                />
+                            </div>
+                        </CardContent>
+                    </Card>
                 </div>
             </section>
         </div>

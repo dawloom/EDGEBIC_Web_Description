@@ -5,7 +5,7 @@ import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
-export default function LearnPage(): React.JSX.Element {
+export default function MedModelPage(): React.JSX.Element {
     return (
         <div className="min-h-screen bg-background">
             {/* Hero Section */}
@@ -17,14 +17,14 @@ export default function LearnPage(): React.JSX.Element {
                                 variant="outline"
                                 className="h-8 rounded-full border-white/20 bg-white/10 px-3 text-sm font-medium text-white shadow-sm"
                             >
-                                OPERATIONS MANAGER
+                                HEALTHCARE SIMULATION
                             </Badge>
                         </div>
                         <h1 className="mb-6 text-4xl font-bold md:text-6xl">
-                            Operations Manager: LEARN
+                            MedModel
                         </h1>
                         <p className="mb-8 text-xl md:text-2xl">
-                            Learning curves - Predicting reduction in direct labor hours
+                            Healthcare simulation and analysis for optimal patient care delivery
                         </p>
                         <div className="flex flex-col justify-center gap-4 sm:flex-row">
                             <Button
@@ -38,31 +38,23 @@ export default function LearnPage(): React.JSX.Element {
                 </div>
             </section>
 
-            {/* Learning Curve Overview */}
+            {/* MedModel Overview */}
             <section className="py-16">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl">
                         <Card className="mb-8">
                             <CardHeader>
                                 <CardTitle className="text-center text-3xl">
-                                    Learning Curve Analysis
+                                    Healthcare Simulation & Optimization
                                 </CardTitle>
                             </CardHeader>
                             <CardContent className="space-y-6">
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    Learning curves represent the improvement in performance that
-                                    occurs when workers repeat a task over time. Our Operations
-                                    Manager Learning module provides comprehensive tools for
-                                    analyzing learning effects, predicting productivity
-                                    improvements, and optimizing workforce training and
-                                    development programs.
+                                    MedModel is a specialized simulation software designed specifically for healthcare environments. It provides healthcare professionals and administrators with powerful tools to model, analyze, and optimize patient flow, resource utilization, and operational efficiency in hospitals, clinics, and other healthcare facilities.
                                 </p>
 
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    From manufacturing assembly to service operations,
-                                    understanding learning curves enables better cost estimation,
-                                    production planning, and human resource optimization for
-                                    sustained competitive advantage.
+                                    From emergency departments to surgical suites, MedModel helps healthcare organizations improve patient outcomes, reduce wait times, and maximize resource efficiency while maintaining the highest standards of patient care and safety.
                                 </p>
                             </CardContent>
                         </Card>
@@ -77,7 +69,7 @@ export default function LearnPage(): React.JSX.Element {
                         <Card>
                             <CardHeader>
                                 <CardTitle className="text-center text-2xl">
-                                    Case Study: Aerospace Component Manufacturing
+                                    Case Study: Regional Medical Center Emergency Department
                                 </CardTitle>
                             </CardHeader>
                             <CardContent className="space-y-6">
@@ -86,12 +78,7 @@ export default function LearnPage(): React.JSX.Element {
                                         The Challenge
                                     </h3>
                                     <p className="mb-4 text-muted-foreground">
-                                        AeroTech Manufacturing was struggling with accurate cost
-                                        estimation for new aircraft component contracts. Their
-                                        traditional costing methods failed to account for learning
-                                        effects, resulting in unprofitable bids and poor resource
-                                        planning. They needed a systematic approach to predict and
-                                        leverage learning curve improvements.
+                                        Regional Medical Center's emergency department was experiencing severe overcrowding, long patient wait times, and frequent diversions. With increasing patient volumes and limited resources, they needed to optimize their operations without compromising patient care quality or safety standards.
                                     </p>
                                 </div>
 
@@ -100,12 +87,7 @@ export default function LearnPage(): React.JSX.Element {
                                         The Solution
                                     </h3>
                                     <p className="mb-4 text-muted-foreground">
-                                        Using Operations Manager's Learning analysis tools, the
-                                        company analyzed historical production data to establish
-                                        learning curve parameters. They implemented
-                                        learning-adjusted cost models and optimized training
-                                        programs to accelerate the learning process and improve
-                                        competitiveness.
+                                        Using MedModel, the hospital team created a comprehensive simulation model of their emergency department, including triage processes, treatment rooms, diagnostic procedures, and discharge workflows. They analyzed patient flow patterns, staffing requirements, and resource allocation to identify optimization opportunities.
                                     </p>
                                 </div>
 
@@ -118,19 +100,19 @@ export default function LearnPage(): React.JSX.Element {
                                             <div className="flex items-center">
                                                 <div className="mr-3 size-3 rounded-full bg-green-500" />
                                                 <span className="text-sm">
-                                                    85% learning rate achievement
+                                                    40% reduction in patient wait times
                                                 </span>
                                             </div>
                                             <div className="flex items-center">
                                                 <div className="mr-3 size-3 rounded-full bg-blue-500" />
                                                 <span className="text-sm">
-                                                    35% reduction in labor hours
+                                                    25% increase in patient throughput
                                                 </span>
                                             </div>
                                             <div className="flex items-center">
                                                 <div className="mr-3 size-3 rounded-full bg-purple-500" />
                                                 <span className="text-sm">
-                                                    25% improvement in bid accuracy
+                                                    85% reduction in diversions
                                                 </span>
                                             </div>
                                         </div>
@@ -138,19 +120,19 @@ export default function LearnPage(): React.JSX.Element {
                                             <div className="flex items-center">
                                                 <div className="mr-3 size-3 rounded-full bg-orange-500" />
                                                 <span className="text-sm">
-                                                    40% faster training completion
+                                                    30% improvement in staff utilization
                                                 </span>
                                             </div>
                                             <div className="flex items-center">
                                                 <div className="mr-3 size-3 rounded-full bg-red-500" />
                                                 <span className="text-sm">
-                                                    20% increase in profit margins
+                                                    95% patient satisfaction improvement
                                                 </span>
                                             </div>
                                             <div className="flex items-center">
                                                 <div className="mr-3 size-3 rounded-full bg-teal-500" />
                                                 <span className="text-sm">
-                                                    50% reduction in defect rates
+                                                    $2.5M annual cost savings
                                                 </span>
                                             </div>
                                         </div>
@@ -162,75 +144,83 @@ export default function LearnPage(): React.JSX.Element {
                 </div>
             </section>
 
-            {/* Learning Models */}
+            {/* Key Features */}
             <section className="py-16">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-6xl">
                         <h2 className="mb-12 text-center text-3xl font-bold text-foreground">
-                            Learning Curve Models
+                            Healthcare-Specific Features
                         </h2>
                         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">Wright Model</CardTitle>
+                                    <CardTitle className="text-center">
+                                        Patient Flow Modeling
+                                    </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Classical model showing time reduction with cumulative
-                                        production volume
-                                    </p>
-                                </CardContent>
-                            </Card>
-                            <Card>
-                                <CardHeader>
-                                    <CardTitle className="text-center">Crawford Model</CardTitle>
-                                </CardHeader>
-                                <CardContent>
-                                    <p className="text-center text-muted-foreground">
-                                        Unit curve model focusing on average time per unit produced
-                                    </p>
-                                </CardContent>
-                            </Card>
-                            <Card>
-                                <CardHeader>
-                                    <CardTitle className="text-center">S-Curve Model</CardTitle>
-                                </CardHeader>
-                                <CardContent>
-                                    <p className="text-center text-muted-foreground">
-                                        Sigmoid curve modeling slow start, rapid improvement, and
-                                        plateau phases
+                                        Model complex patient journeys from admission to discharge with healthcare-specific logic
                                     </p>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
                                     <CardTitle className="text-center">
-                                        Exponential Model
+                                        Clinical Pathways
                                     </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Exponential decay function for continuous learning processes
+                                        Simulate evidence-based clinical care pathways and treatment protocols
                                     </p>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">Plateau Model</CardTitle>
+                                    <CardTitle className="text-center">
+                                        Resource Scheduling
+                                    </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Models learning curves with ultimate performance limits
+                                        Optimize physician, nurse, and support staff scheduling for maximum efficiency
                                     </p>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">Hybrid Models</CardTitle>
+                                    <CardTitle className="text-center">
+                                        Capacity Planning
+                                    </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Combined models accounting for multiple learning factors
+                                        Analyze bed capacity, OR utilization, and equipment requirements
+                                    </p>
+                                </CardContent>
+                            </Card>
+                            <Card>
+                                <CardHeader>
+                                    <CardTitle className="text-center">
+                                        Quality Metrics
+                                    </CardTitle>
+                                </CardHeader>
+                                <CardContent>
+                                    <p className="text-center text-muted-foreground">
+                                        Track healthcare quality indicators and patient safety metrics
+                                    </p>
+                                </CardContent>
+                            </Card>
+                            <Card>
+                                <CardHeader>
+                                    <CardTitle className="text-center">
+                                        Regulatory Compliance
+                                    </CardTitle>
+                                </CardHeader>
+                                <CardContent>
+                                    <p className="text-center text-muted-foreground">
+                                        Ensure compliance with healthcare regulations and accreditation standards
                                     </p>
                                 </CardContent>
                             </Card>
@@ -239,56 +229,129 @@ export default function LearnPage(): React.JSX.Element {
                 </div>
             </section>
 
-            {/* Key Applications */}
+            {/* Healthcare Applications */}
             <section className="bg-muted/50 py-16">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl">
                         <h2 className="mb-12 text-center text-3xl font-bold text-foreground">
-                            Learning Curve Applications
+                            Healthcare Applications
                         </h2>
                         <div className="grid gap-6 md:grid-cols-2">
                             <Card>
                                 <CardHeader>
                                     <CardTitle className="text-xl text-blue-600">
-                                        Cost Estimation
+                                        Emergency Department
                                     </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <ul className="space-y-2 text-muted-foreground">
-                                        <li>• Accurate project cost forecasting</li>
-                                        <li>• Learning-adjusted pricing strategies</li>
-                                        <li>• Contract bid optimization</li>
-                                        <li>• Life cycle cost analysis</li>
+                                        <li>• Triage process optimization</li>
+                                        <li>• Fast track pathway design</li>
+                                        <li>• Staffing pattern analysis</li>
+                                        <li>• Bed management strategies</li>
                                     </ul>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
                                     <CardTitle className="text-xl text-green-600">
-                                        Production Planning
+                                        Surgical Services
                                     </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <ul className="space-y-2 text-muted-foreground">
-                                        <li>• Capacity requirement planning</li>
-                                        <li>• Delivery schedule optimization</li>
-                                        <li>• Resource allocation planning</li>
-                                        <li>• Workforce level determination</li>
+                                        <li>• Operating room scheduling</li>
+                                        <li>• Pre and post-operative flow</li>
+                                        <li>• Equipment utilization</li>
+                                        <li>• Block time optimization</li>
                                     </ul>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
                                     <CardTitle className="text-xl text-purple-600">
-                                        Training Optimization
+                                        Inpatient Units
                                     </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <ul className="space-y-2 text-muted-foreground">
-                                        <li>• Training program design</li>
-                                        <li>• Skill development tracking</li>
-                                        <li>• Performance improvement planning</li>
-                                        <li>• Learning acceleration strategies</li>
+                                        <li>• Bed capacity planning</li>
+                                        <li>• Discharge planning processes</li>
+                                        <li>• Nursing workload analysis</li>
+                                        <li>• Patient transfer optimization</li>
+                                    </ul>
+                                </CardContent>
+                            </Card>
+                            <Card>
+                                <CardHeader>
+                                    <CardTitle className="text-xl text-orange-600">
+                                        Outpatient Clinics
+                                    </CardTitle>
+                                </CardHeader>
+                                <CardContent>
+                                    <ul className="space-y-2 text-muted-foreground">
+                                        <li>• Appointment scheduling optimization</li>
+                                        <li>• Provider productivity analysis</li>
+                                        <li>• Patient access improvement</li>
+                                        <li>• Clinic workflow design</li>
+                                    </ul>
+                                </CardContent>
+                            </Card>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* Benefits */}
+            <section className="py-16">
+                <div className="container mx-auto px-4">
+                    <div className="mx-auto max-w-4xl">
+                        <h2 className="mb-12 text-center text-3xl font-bold text-foreground">
+                            Healthcare Benefits
+                        </h2>
+                        <div className="grid gap-6 md:grid-cols-2">
+                            <Card>
+                                <CardHeader>
+                                    <CardTitle className="text-xl text-blue-600">
+                                        Patient Care Quality
+                                    </CardTitle>
+                                </CardHeader>
+                                <CardContent>
+                                    <ul className="space-y-2 text-muted-foreground">
+                                        <li>• Reduced patient wait times</li>
+                                        <li>• Improved care coordination</li>
+                                        <li>• Enhanced patient satisfaction</li>
+                                        <li>• Better clinical outcomes</li>
+                                    </ul>
+                                </CardContent>
+                            </Card>
+                            <Card>
+                                <CardHeader>
+                                    <CardTitle className="text-xl text-green-600">
+                                        Operational Efficiency
+                                    </CardTitle>
+                                </CardHeader>
+                                <CardContent>
+                                    <ul className="space-y-2 text-muted-foreground">
+                                        <li>• Optimized resource utilization</li>
+                                        <li>• Improved staff productivity</li>
+                                        <li>• Reduced operational costs</li>
+                                        <li>• Enhanced capacity management</li>
+                                    </ul>
+                                </CardContent>
+                            </Card>
+                            <Card>
+                                <CardHeader>
+                                    <CardTitle className="text-xl text-purple-600">
+                                        Financial Performance
+                                    </CardTitle>
+                                </CardHeader>
+                                <CardContent>
+                                    <ul className="space-y-2 text-muted-foreground">
+                                        <li>• Increased patient throughput</li>
+                                        <li>• Reduced length of stay</li>
+                                        <li>• Improved revenue capture</li>
+                                        <li>• Cost reduction opportunities</li>
                                     </ul>
                                 </CardContent>
                             </Card>
@@ -300,10 +363,10 @@ export default function LearnPage(): React.JSX.Element {
                                 </CardHeader>
                                 <CardContent>
                                     <ul className="space-y-2 text-muted-foreground">
-                                        <li>• Competitive advantage analysis</li>
-                                        <li>• Technology adoption planning</li>
-                                        <li>• Market entry strategies</li>
-                                        <li>• Investment decision support</li>
+                                        <li>• Data-driven decision making</li>
+                                        <li>• Scenario planning capabilities</li>
+                                        <li>• Risk-free experimentation</li>
+                                        <li>• Evidence-based improvements</li>
                                     </ul>
                                 </CardContent>
                             </Card>
@@ -315,24 +378,22 @@ export default function LearnPage(): React.JSX.Element {
             {/* Awards Section */}
             <section className="py-16">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-4xl">
-                        <Card className="bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20">
-                            <CardContent className="p-8 text-center">
-                                <h2 className="mb-6 text-2xl font-bold text-foreground">
-                                    CELEBRATING 25 YEARS OF AWARD WINNING SOFTWARE!
-                                </h2>
-                                <div className="flex justify-center">
-                                    <Image
-                                        src="https://www.usersolutions.com/wp-content/uploads/2022/07/banner-logoso-sm-58c9a28d237d6-1024x128.jpg"
-                                        alt="Collection of industry and business awards logos"
-                                        width={1024}
-                                        height={128}
-                                        className="h-auto max-w-full rounded-lg shadow-md"
-                                    />
-                                </div>
-                            </CardContent>
-                        </Card>
-                    </div>
+                    <Card className="bg-gradient-to-r from-blue-600 to-blue-800 text-white">
+                        <CardContent className="py-12 text-center">
+                            <h2 className="mb-8 text-3xl font-bold">
+                                CELEBRATING 25 YEARS OF AWARD WINNING SOFTWARE!
+                            </h2>
+                            <div className="flex justify-center">
+                                <Image
+                                    src="https://www.usersolutions.com/wp-content/uploads/2022/07/banner-logoso-sm-58c9a28d237d6-1024x128.jpg"
+                                    alt="Collection of industry and business awards logos"
+                                    width={1024}
+                                    height={128}
+                                    className="h-auto max-w-full"
+                                />
+                            </div>
+                        </CardContent>
+                    </Card>
                 </div>
             </section>
         </div>

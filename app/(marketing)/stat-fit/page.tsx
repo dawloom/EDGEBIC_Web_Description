@@ -5,7 +5,7 @@ import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
-export default function LearnPage(): React.JSX.Element {
+export default function StatFitPage(): React.JSX.Element {
     return (
         <div className="min-h-screen bg-background">
             {/* Hero Section */}
@@ -17,14 +17,14 @@ export default function LearnPage(): React.JSX.Element {
                                 variant="outline"
                                 className="h-8 rounded-full border-white/20 bg-white/10 px-3 text-sm font-medium text-white shadow-sm"
                             >
-                                OPERATIONS MANAGER
+                                STATISTICAL ANALYSIS
                             </Badge>
                         </div>
                         <h1 className="mb-6 text-4xl font-bold md:text-6xl">
-                            Operations Manager: LEARN
+                            Stat::Fit
                         </h1>
                         <p className="mb-8 text-xl md:text-2xl">
-                            Learning curves - Predicting reduction in direct labor hours
+                            Statistical distribution fitting and data analysis for accurate modeling
                         </p>
                         <div className="flex flex-col justify-center gap-4 sm:flex-row">
                             <Button
@@ -38,31 +38,23 @@ export default function LearnPage(): React.JSX.Element {
                 </div>
             </section>
 
-            {/* Learning Curve Overview */}
+            {/* Stat::Fit Overview */}
             <section className="py-16">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl">
                         <Card className="mb-8">
                             <CardHeader>
                                 <CardTitle className="text-center text-3xl">
-                                    Learning Curve Analysis
+                                    Statistical Distribution Fitting & Analysis
                                 </CardTitle>
                             </CardHeader>
                             <CardContent className="space-y-6">
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    Learning curves represent the improvement in performance that
-                                    occurs when workers repeat a task over time. Our Operations
-                                    Manager Learning module provides comprehensive tools for
-                                    analyzing learning effects, predicting productivity
-                                    improvements, and optimizing workforce training and
-                                    development programs.
+                                    Stat::Fit is a powerful statistical software application designed to help analysts, engineers, and researchers identify the best probability distributions for their data sets. By providing comprehensive distribution fitting capabilities, it enables accurate modeling and simulation of real-world processes and systems.
                                 </p>
 
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    From manufacturing assembly to service operations,
-                                    understanding learning curves enables better cost estimation,
-                                    production planning, and human resource optimization for
-                                    sustained competitive advantage.
+                                    From quality control to risk analysis, Stat::Fit provides the statistical foundation necessary for building reliable simulation models, conducting accurate forecasts, and making data-driven decisions with confidence.
                                 </p>
                             </CardContent>
                         </Card>
@@ -77,7 +69,7 @@ export default function LearnPage(): React.JSX.Element {
                         <Card>
                             <CardHeader>
                                 <CardTitle className="text-center text-2xl">
-                                    Case Study: Aerospace Component Manufacturing
+                                    Case Study: Manufacturing Quality Control
                                 </CardTitle>
                             </CardHeader>
                             <CardContent className="space-y-6">
@@ -86,12 +78,7 @@ export default function LearnPage(): React.JSX.Element {
                                         The Challenge
                                     </h3>
                                     <p className="mb-4 text-muted-foreground">
-                                        AeroTech Manufacturing was struggling with accurate cost
-                                        estimation for new aircraft component contracts. Their
-                                        traditional costing methods failed to account for learning
-                                        effects, resulting in unprofitable bids and poor resource
-                                        planning. They needed a systematic approach to predict and
-                                        leverage learning curve improvements.
+                                        PrecisionTech Manufacturing needed to improve their quality control processes by accurately modeling machine performance variations and defect rates. Their existing statistical analysis was based on assumptions rather than data-driven distribution fitting, leading to inaccurate predictions and suboptimal quality control decisions.
                                     </p>
                                 </div>
 
@@ -100,12 +87,7 @@ export default function LearnPage(): React.JSX.Element {
                                         The Solution
                                     </h3>
                                     <p className="mb-4 text-muted-foreground">
-                                        Using Operations Manager's Learning analysis tools, the
-                                        company analyzed historical production data to establish
-                                        learning curve parameters. They implemented
-                                        learning-adjusted cost models and optimized training
-                                        programs to accelerate the learning process and improve
-                                        competitiveness.
+                                        Using Stat::Fit, the quality engineering team analyzed historical production data to identify the best-fitting probability distributions for machine cycle times, defect occurrences, and measurement variations. These distributions were then used in their simulation models and statistical process control systems.
                                     </p>
                                 </div>
 
@@ -118,19 +100,19 @@ export default function LearnPage(): React.JSX.Element {
                                             <div className="flex items-center">
                                                 <div className="mr-3 size-3 rounded-full bg-green-500" />
                                                 <span className="text-sm">
-                                                    85% learning rate achievement
+                                                    85% improvement in prediction accuracy
                                                 </span>
                                             </div>
                                             <div className="flex items-center">
                                                 <div className="mr-3 size-3 rounded-full bg-blue-500" />
                                                 <span className="text-sm">
-                                                    35% reduction in labor hours
+                                                    40% reduction in false alarms
                                                 </span>
                                             </div>
                                             <div className="flex items-center">
                                                 <div className="mr-3 size-3 rounded-full bg-purple-500" />
                                                 <span className="text-sm">
-                                                    25% improvement in bid accuracy
+                                                    60% improvement in defect detection
                                                 </span>
                                             </div>
                                         </div>
@@ -138,19 +120,19 @@ export default function LearnPage(): React.JSX.Element {
                                             <div className="flex items-center">
                                                 <div className="mr-3 size-3 rounded-full bg-orange-500" />
                                                 <span className="text-sm">
-                                                    40% faster training completion
+                                                    30% reduction in quality costs
                                                 </span>
                                             </div>
                                             <div className="flex items-center">
                                                 <div className="mr-3 size-3 rounded-full bg-red-500" />
                                                 <span className="text-sm">
-                                                    20% increase in profit margins
+                                                    25% increase in overall equipment effectiveness
                                                 </span>
                                             </div>
                                             <div className="flex items-center">
                                                 <div className="mr-3 size-3 rounded-full bg-teal-500" />
                                                 <span className="text-sm">
-                                                    50% reduction in defect rates
+                                                    Data-driven quality decisions
                                                 </span>
                                             </div>
                                         </div>
@@ -162,75 +144,83 @@ export default function LearnPage(): React.JSX.Element {
                 </div>
             </section>
 
-            {/* Learning Models */}
+            {/* Key Features */}
             <section className="py-16">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-6xl">
                         <h2 className="mb-12 text-center text-3xl font-bold text-foreground">
-                            Learning Curve Models
+                            Statistical Analysis Features
                         </h2>
                         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">Wright Model</CardTitle>
+                                    <CardTitle className="text-center">
+                                        Distribution Fitting
+                                    </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Classical model showing time reduction with cumulative
-                                        production volume
-                                    </p>
-                                </CardContent>
-                            </Card>
-                            <Card>
-                                <CardHeader>
-                                    <CardTitle className="text-center">Crawford Model</CardTitle>
-                                </CardHeader>
-                                <CardContent>
-                                    <p className="text-center text-muted-foreground">
-                                        Unit curve model focusing on average time per unit produced
-                                    </p>
-                                </CardContent>
-                            </Card>
-                            <Card>
-                                <CardHeader>
-                                    <CardTitle className="text-center">S-Curve Model</CardTitle>
-                                </CardHeader>
-                                <CardContent>
-                                    <p className="text-center text-muted-foreground">
-                                        Sigmoid curve modeling slow start, rapid improvement, and
-                                        plateau phases
+                                        Automatic fitting of 40+ probability distributions with goodness-of-fit tests
                                     </p>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
                                     <CardTitle className="text-center">
-                                        Exponential Model
+                                        Goodness-of-Fit Tests
                                     </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Exponential decay function for continuous learning processes
+                                        Chi-square, Kolmogorov-Smirnov, and Anderson-Darling statistical tests
                                     </p>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">Plateau Model</CardTitle>
+                                    <CardTitle className="text-center">
+                                        Data Visualization
+                                    </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Models learning curves with ultimate performance limits
+                                        Histograms, Q-Q plots, P-P plots, and probability density functions
                                     </p>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">Hybrid Models</CardTitle>
+                                    <CardTitle className="text-center">
+                                        Parameter Estimation
+                                    </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Combined models accounting for multiple learning factors
+                                        Maximum likelihood estimation and method of moments parameter fitting
+                                    </p>
+                                </CardContent>
+                            </Card>
+                            <Card>
+                                <CardHeader>
+                                    <CardTitle className="text-center">
+                                        Random Number Generation
+                                    </CardTitle>
+                                </CardHeader>
+                                <CardContent>
+                                    <p className="text-center text-muted-foreground">
+                                        Generate random variates from fitted distributions for simulation models
+                                    </p>
+                                </CardContent>
+                            </Card>
+                            <Card>
+                                <CardHeader>
+                                    <CardTitle className="text-center">
+                                        Export Capabilities
+                                    </CardTitle>
+                                </CardHeader>
+                                <CardContent>
+                                    <p className="text-center text-muted-foreground">
+                                        Export results to Excel, simulation software, and statistical packages
                                     </p>
                                 </CardContent>
                             </Card>
@@ -239,71 +229,144 @@ export default function LearnPage(): React.JSX.Element {
                 </div>
             </section>
 
-            {/* Key Applications */}
+            {/* Distributions */}
             <section className="bg-muted/50 py-16">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl">
                         <h2 className="mb-12 text-center text-3xl font-bold text-foreground">
-                            Learning Curve Applications
+                            Supported Probability Distributions
                         </h2>
                         <div className="grid gap-6 md:grid-cols-2">
                             <Card>
                                 <CardHeader>
                                     <CardTitle className="text-xl text-blue-600">
-                                        Cost Estimation
+                                        Continuous Distributions
                                     </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <ul className="space-y-2 text-muted-foreground">
-                                        <li>• Accurate project cost forecasting</li>
-                                        <li>• Learning-adjusted pricing strategies</li>
-                                        <li>• Contract bid optimization</li>
-                                        <li>• Life cycle cost analysis</li>
+                                        <li>• Normal, Lognormal, Exponential</li>
+                                        <li>• Weibull, Gamma, Beta</li>
+                                        <li>• Uniform, Triangular, Erlang</li>
+                                        <li>• Chi-square, F-distribution, t-distribution</li>
                                     </ul>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
                                     <CardTitle className="text-xl text-green-600">
-                                        Production Planning
+                                        Discrete Distributions
                                     </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <ul className="space-y-2 text-muted-foreground">
-                                        <li>• Capacity requirement planning</li>
-                                        <li>• Delivery schedule optimization</li>
-                                        <li>• Resource allocation planning</li>
-                                        <li>• Workforce level determination</li>
+                                        <li>• Poisson, Binomial, Geometric</li>
+                                        <li>• Negative Binomial, Hypergeometric</li>
+                                        <li>• Discrete Uniform, Bernoulli</li>
+                                        <li>• Custom empirical distributions</li>
                                     </ul>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
                                     <CardTitle className="text-xl text-purple-600">
-                                        Training Optimization
+                                        Specialized Distributions
                                     </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <ul className="space-y-2 text-muted-foreground">
-                                        <li>• Training program design</li>
-                                        <li>• Skill development tracking</li>
-                                        <li>• Performance improvement planning</li>
-                                        <li>• Learning acceleration strategies</li>
+                                        <li>• Johnson family distributions</li>
+                                        <li>• Pearson family distributions</li>
+                                        <li>• Extreme value distributions</li>
+                                        <li>• Reliability distributions</li>
                                     </ul>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
                                     <CardTitle className="text-xl text-orange-600">
-                                        Strategic Planning
+                                        Custom Distributions
                                     </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <ul className="space-y-2 text-muted-foreground">
-                                        <li>• Competitive advantage analysis</li>
-                                        <li>• Technology adoption planning</li>
-                                        <li>• Market entry strategies</li>
-                                        <li>• Investment decision support</li>
+                                        <li>• User-defined probability functions</li>
+                                        <li>• Empirical data distributions</li>
+                                        <li>• Piecewise linear distributions</li>
+                                        <li>• Mixture distributions</li>
+                                    </ul>
+                                </CardContent>
+                            </Card>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* Applications */}
+            <section className="py-16">
+                <div className="container mx-auto px-4">
+                    <div className="mx-auto max-w-4xl">
+                        <h2 className="mb-12 text-center text-3xl font-bold text-foreground">
+                            Application Areas
+                        </h2>
+                        <div className="grid gap-6 md:grid-cols-2">
+                            <Card>
+                                <CardHeader>
+                                    <CardTitle className="text-xl text-blue-600">
+                                        Quality Control & Six Sigma
+                                    </CardTitle>
+                                </CardHeader>
+                                <CardContent>
+                                    <ul className="space-y-2 text-muted-foreground">
+                                        <li>• Process capability analysis</li>
+                                        <li>• Statistical process control</li>
+                                        <li>• Defect rate modeling</li>
+                                        <li>• Measurement system analysis</li>
+                                    </ul>
+                                </CardContent>
+                            </Card>
+                            <Card>
+                                <CardHeader>
+                                    <CardTitle className="text-xl text-green-600">
+                                        Reliability Engineering
+                                    </CardTitle>
+                                </CardHeader>
+                                <CardContent>
+                                    <ul className="space-y-2 text-muted-foreground">
+                                        <li>• Failure time analysis</li>
+                                        <li>• Maintenance interval optimization</li>
+                                        <li>• Life data analysis</li>
+                                        <li>• Accelerated testing analysis</li>
+                                    </ul>
+                                </CardContent>
+                            </Card>
+                            <Card>
+                                <CardHeader>
+                                    <CardTitle className="text-xl text-purple-600">
+                                        Risk Analysis & Finance
+                                    </CardTitle>
+                                </CardHeader>
+                                <CardContent>
+                                    <ul className="space-y-2 text-muted-foreground">
+                                        <li>• Monte Carlo simulation inputs</li>
+                                        <li>• Value-at-Risk calculations</li>
+                                        <li>• Insurance claims modeling</li>
+                                        <li>• Portfolio risk assessment</li>
+                                    </ul>
+                                </CardContent>
+                            </Card>
+                            <Card>
+                                <CardHeader>
+                                    <CardTitle className="text-xl text-orange-600">
+                                        Operations Research
+                                    </CardTitle>
+                                </CardHeader>
+                                <CardContent>
+                                    <ul className="space-y-2 text-muted-foreground">
+                                        <li>• Simulation model validation</li>
+                                        <li>• Queuing system analysis</li>
+                                        <li>• Inventory level modeling</li>
+                                        <li>• Demand forecasting</li>
                                     </ul>
                                 </CardContent>
                             </Card>
@@ -315,24 +378,22 @@ export default function LearnPage(): React.JSX.Element {
             {/* Awards Section */}
             <section className="py-16">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-4xl">
-                        <Card className="bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20">
-                            <CardContent className="p-8 text-center">
-                                <h2 className="mb-6 text-2xl font-bold text-foreground">
-                                    CELEBRATING 25 YEARS OF AWARD WINNING SOFTWARE!
-                                </h2>
-                                <div className="flex justify-center">
-                                    <Image
-                                        src="https://www.usersolutions.com/wp-content/uploads/2022/07/banner-logoso-sm-58c9a28d237d6-1024x128.jpg"
-                                        alt="Collection of industry and business awards logos"
-                                        width={1024}
-                                        height={128}
-                                        className="h-auto max-w-full rounded-lg shadow-md"
-                                    />
-                                </div>
-                            </CardContent>
-                        </Card>
-                    </div>
+                    <Card className="bg-gradient-to-r from-blue-600 to-blue-800 text-white">
+                        <CardContent className="py-12 text-center">
+                            <h2 className="mb-8 text-3xl font-bold">
+                                CELEBRATING 25 YEARS OF AWARD WINNING SOFTWARE!
+                            </h2>
+                            <div className="flex justify-center">
+                                <Image
+                                    src="https://www.usersolutions.com/wp-content/uploads/2022/07/banner-logoso-sm-58c9a28d237d6-1024x128.jpg"
+                                    alt="Collection of industry and business awards logos"
+                                    width={1024}
+                                    height={128}
+                                    className="h-auto max-w-full"
+                                />
+                            </div>
+                        </CardContent>
+                    </Card>
                 </div>
             </section>
         </div>

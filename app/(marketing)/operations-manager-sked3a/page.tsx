@@ -5,7 +5,7 @@ import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
-export default function OperationsManagerKanbanPage(): React.JSX.Element {
+export default function Sked3aPage(): React.JSX.Element {
     return (
         <div className="min-h-screen bg-background">
             {/* Hero Section */}
@@ -15,16 +15,16 @@ export default function OperationsManagerKanbanPage(): React.JSX.Element {
                         <div className="mb-6">
                             <Badge
                                 variant="outline"
-                                className="h-8 rounded-full px-3 text-sm font-medium text-white border-white/20 bg-white/10 shadow-sm"
+                                className="h-8 rounded-full border-white/20 bg-white/10 px-3 text-sm font-medium text-white shadow-sm"
                             >
                                 OPERATIONS MANAGER
                             </Badge>
                         </div>
                         <h1 className="mb-6 text-4xl font-bold md:text-6xl">
-                            Operations Manager: Kanban
+                            Operations Manager: SKED3A
                         </h1>
                         <p className="mb-8 text-xl md:text-2xl">
-                            Lean manufacturing optimization with advanced Kanban system design
+                            Job Sequencing For 3 Work Stations in Series
                         </p>
                         <div className="flex flex-col justify-center gap-4 sm:flex-row">
                             <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
@@ -35,21 +35,30 @@ export default function OperationsManagerKanbanPage(): React.JSX.Element {
                 </div>
             </section>
 
-            {/* Kanban Overview */}
+            {/* SKED2A Overview */}
             <section className="py-16">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl">
                         <Card className="mb-8">
                             <CardHeader>
-                                <CardTitle className="text-3xl text-center">Kanban System Optimization</CardTitle>
+                                <CardTitle className="text-center text-3xl">Job Sequencing For 3 Work Stations in Series (SKED3A)</CardTitle>
                             </CardHeader>
                             <CardContent className="space-y-6">
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    Kanban is a lean manufacturing methodology that uses visual signals to control production flow and inventory levels. Our Operations Manager Kanban module provides comprehensive tools for designing, implementing, and optimizing Kanban systems to reduce waste, minimize inventory, and improve production efficiency.
+                                    SKED3A are designed for flow shops of 3 work stations arranged in series. Each
+                                    job receives exactly the same processing at each station. In such flow shops,
+                                    there is no attempt to minimize lateness; instead, the objective is to minimize the
+                                    total time needed to complete a batch of jobs.
+                                </p>
+                                <p className="text-lg leading-relaxed text-muted-foreground">
+                                    In both SKED2A and SKED3A, there
+                                    may be several alternative optimal solutions. Depending on how the jobs are
+                                    sequenced before running the Ctrl – Shift – J macro, the worksheet may generate
+                                    different sequences with the same makespan.
                                 </p>
                                 
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    From pull-based production control to just-in-time inventory management, our solution helps manufacturers achieve lean operations, reduce lead times, and eliminate overproduction while maintaining high service levels.
+                                    From flow shop scheduling to job shop optimization, SKED2A delivers optimal production schedules that minimize makespan, reduce idle time, and maximize throughput while maintaining quality standards and delivery commitments.
                                 </p>
                             </CardContent>
                         </Card>
@@ -378,22 +387,24 @@ export default function OperationsManagerKanbanPage(): React.JSX.Element {
             {/* Awards Section */}
             <section className="py-16">
                 <div className="container mx-auto px-4">
-                    <Card className="bg-gradient-to-r from-blue-600 to-blue-800 text-white">
-                        <CardContent className="py-12 text-center">
-                            <h2 className="text-3xl font-bold mb-8">
-                                CELEBRATING 25 YEARS OF AWARD WINNING SOFTWARE!
-                            </h2>
-                            <div className="flex justify-center">
-                                <Image
-                                    src="https://www.usersolutions.com/wp-content/uploads/2022/07/banner-logoso-sm-58c9a28d237d6-1024x128.jpg"
-                                    alt="Collection of industry and business awards logos"
-                                    width={1024}
-                                    height={128}
-                                    className="max-w-full h-auto"
-                                />
-                            </div>
-                        </CardContent>
-                    </Card>
+                    <div className="mx-auto max-w-4xl">
+                        <Card className="bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20">
+                            <CardContent className="p-8 text-center">
+                                <h2 className="mb-6 text-2xl font-bold text-foreground">
+                                    CELEBRATING 25 YEARS OF AWARD WINNING SOFTWARE!
+                                </h2>
+                                <div className="flex justify-center">
+                                    <Image
+                                        src="https://www.usersolutions.com/wp-content/uploads/2022/07/banner-logoso-sm-58c9a28d237d6-1024x128.jpg"
+                                        alt="Collection of industry and business awards logos"
+                                        width={1024}
+                                        height={128}
+                                        className="h-auto max-w-full rounded-lg shadow-md"
+                                    />
+                                </div>
+                            </CardContent>
+                        </Card>
+                    </div>
                 </div>
             </section>
         </div>

@@ -5,7 +5,7 @@ import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
-export default function OperationsManagerProcessFlowPage(): React.JSX.Element {
+export default function MultimonPage(): React.JSX.Element {
     return (
         <div className="min-h-screen bg-background">
             {/* Hero Section */}
@@ -21,10 +21,11 @@ export default function OperationsManagerProcessFlowPage(): React.JSX.Element {
                             </Badge>
                         </div>
                         <h1 className="mb-6 text-4xl font-bold md:text-6xl">
-                            Operations Manager: Process Flow
+                            Operations Manager: Transportation
                         </h1>
                         <p className="mb-8 text-xl md:text-2xl">
-                            Process analysis and workflow optimization for maximum efficiency
+                            Transportation and logistics optimization for cost-effective
+                            delivery
                         </p>
                         <div className="flex flex-col justify-center gap-4 sm:flex-row">
                             <Button
@@ -38,30 +39,31 @@ export default function OperationsManagerProcessFlowPage(): React.JSX.Element {
                 </div>
             </section>
 
-            {/* Process Flow Overview */}
+            {/* Transportation Overview */}
             <section className="py-16">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl">
                         <Card className="mb-8">
                             <CardHeader>
                                 <CardTitle className="text-center text-3xl">
-                                    Process Flow Analysis & Optimization
+                                    Transportation & Logistics Optimization
                                 </CardTitle>
                             </CardHeader>
                             <CardContent className="space-y-6">
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    Process flow analysis is the systematic examination of how
-                                    work moves through an organization, identifying
-                                    inefficiencies, bottlenecks, and improvement opportunities.
-                                    Our Operations Manager Process Flow module provides
-                                    comprehensive tools for mapping, analyzing, and optimizing
-                                    business processes across all industries.
+                                    Transportation optimization involves the strategic planning
+                                    and execution of moving goods and people efficiently while
+                                    minimizing costs and maximizing service levels. Our Operations
+                                    Manager Transportation module provides comprehensive tools for
+                                    routing, scheduling, and optimizing transportation networks
+                                    across all modes and industries.
                                 </p>
 
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    From value stream mapping to workflow automation, our solution
-                                    helps organizations streamline operations, reduce cycle times,
-                                    and eliminate waste for sustainable competitive advantage.
+                                    From vehicle routing problems to multi-modal logistics, our
+                                    solution helps organizations reduce transportation costs,
+                                    improve delivery performance, and enhance customer
+                                    satisfaction through data-driven optimization.
                                 </p>
                             </CardContent>
                         </Card>
@@ -76,7 +78,7 @@ export default function OperationsManagerProcessFlowPage(): React.JSX.Element {
                         <Card>
                             <CardHeader>
                                 <CardTitle className="text-center text-2xl">
-                                    Case Study: Financial Services Processing
+                                    Case Study: National Retail Distribution
                                 </CardTitle>
                             </CardHeader>
                             <CardContent className="space-y-6">
@@ -85,12 +87,12 @@ export default function OperationsManagerProcessFlowPage(): React.JSX.Element {
                                         The Challenge
                                     </h3>
                                     <p className="mb-4 text-muted-foreground">
-                                        Global Financial Services struggled with lengthy loan
-                                        approval processes that frustrated customers and created
-                                        competitive disadvantages. Their multi-department workflow
-                                        involved numerous handoffs, redundant checks, and unclear
-                                        approval criteria, resulting in inconsistent processing
-                                        times and poor customer satisfaction.
+                                        RetailMax struggled with rising transportation costs and
+                                        inconsistent delivery performance across their national
+                                        distribution network. Manual route planning resulted in
+                                        inefficient routes, poor vehicle utilization, and customer
+                                        complaints about late deliveries. They needed a systematic
+                                        approach to optimize their transportation operations.
                                     </p>
                                 </div>
 
@@ -99,11 +101,12 @@ export default function OperationsManagerProcessFlowPage(): React.JSX.Element {
                                         The Solution
                                     </h3>
                                     <p className="mb-4 text-muted-foreground">
-                                        Using Operations Manager's Process Flow analysis tools, the
-                                        company mapped their entire loan approval process,
-                                        identified bottlenecks and non-value-added activities, and
-                                        redesigned the workflow to eliminate redundancies and
-                                        streamline decision-making.
+                                        Using Operations Manager's Transportation optimization
+                                        tools, the logistics team implemented advanced vehicle
+                                        routing algorithms, dynamic scheduling, and real-time
+                                        tracking systems. They optimized routes considering traffic
+                                        patterns, delivery windows, and vehicle capacity
+                                        constraints.
                                     </p>
                                 </div>
 
@@ -116,19 +119,19 @@ export default function OperationsManagerProcessFlowPage(): React.JSX.Element {
                                             <div className="flex items-center">
                                                 <div className="mr-3 size-3 rounded-full bg-green-500" />
                                                 <span className="text-sm">
-                                                    65% reduction in processing time
+                                                    25% reduction in transportation costs
                                                 </span>
                                             </div>
                                             <div className="flex items-center">
                                                 <div className="mr-3 size-3 rounded-full bg-blue-500" />
                                                 <span className="text-sm">
-                                                    85% improvement in customer satisfaction
+                                                    95% on-time delivery performance
                                                 </span>
                                             </div>
                                             <div className="flex items-center">
                                                 <div className="mr-3 size-3 rounded-full bg-purple-500" />
                                                 <span className="text-sm">
-                                                    40% reduction in processing costs
+                                                    30% improvement in vehicle utilization
                                                 </span>
                                             </div>
                                         </div>
@@ -136,19 +139,19 @@ export default function OperationsManagerProcessFlowPage(): React.JSX.Element {
                                             <div className="flex items-center">
                                                 <div className="mr-3 size-3 rounded-full bg-orange-500" />
                                                 <span className="text-sm">
-                                                    50% decrease in handoffs
+                                                    20% reduction in fuel consumption
                                                 </span>
                                             </div>
                                             <div className="flex items-center">
                                                 <div className="mr-3 size-3 rounded-full bg-red-500" />
                                                 <span className="text-sm">
-                                                    30% increase in approval rate
+                                                    40% decrease in planning time
                                                 </span>
                                             </div>
                                             <div className="flex items-center">
                                                 <div className="mr-3 size-3 rounded-full bg-teal-500" />
                                                 <span className="text-sm">
-                                                    90% automation of routine tasks
+                                                    85% customer satisfaction improvement
                                                 </span>
                                             </div>
                                         </div>
@@ -160,80 +163,79 @@ export default function OperationsManagerProcessFlowPage(): React.JSX.Element {
                 </div>
             </section>
 
-            {/* Process Analysis Tools */}
+            {/* Transportation Problems */}
             <section className="py-16">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-6xl">
                         <h2 className="mb-12 text-center text-3xl font-bold text-foreground">
-                            Process Analysis Tools
+                            Transportation Optimization Problems
                         </h2>
                         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
                             <Card>
                                 <CardHeader>
                                     <CardTitle className="text-center">
-                                        Value Stream Mapping
+                                        Vehicle Routing Problem
                                     </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Visual representation of material and information flow
-                                        through processes
-                                    </p>
-                                </CardContent>
-                            </Card>
-                            <Card>
-                                <CardHeader>
-                                    <CardTitle className="text-center">Process Mapping</CardTitle>
-                                </CardHeader>
-                                <CardContent>
-                                    <p className="text-center text-muted-foreground">
-                                        Detailed flowcharts showing activities, decisions, and
-                                        process flow
+                                        Optimize routes for fleet of vehicles serving multiple
+                                        customers
                                     </p>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
                                     <CardTitle className="text-center">
-                                        Swim Lane Diagrams
+                                        Traveling Salesman
                                     </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Cross-functional process visualization showing
-                                        responsibilities
-                                    </p>
-                                </CardContent>
-                            </Card>
-                            <Card>
-                                <CardHeader>
-                                    <CardTitle className="text-center">SIPOC Analysis</CardTitle>
-                                </CardHeader>
-                                <CardContent>
-                                    <p className="text-center text-muted-foreground">
-                                        Suppliers, Inputs, Process, Outputs, Customers framework
+                                        Find shortest route visiting all locations exactly once
                                     </p>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
                                     <CardTitle className="text-center">
-                                        Root Cause Analysis
+                                        Transportation Model
                                     </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Systematic problem identification and solution development
+                                        Minimize shipping costs from suppliers to customers
                                     </p>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">Time Studies</CardTitle>
+                                    <CardTitle className="text-center">Network Flow</CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Detailed timing analysis of process steps and cycle times
+                                        Optimize flow through transportation networks with capacity
+                                        constraints
+                                    </p>
+                                </CardContent>
+                            </Card>
+                            <Card>
+                                <CardHeader>
+                                    <CardTitle className="text-center">Fleet Sizing</CardTitle>
+                                </CardHeader>
+                                <CardContent>
+                                    <p className="text-center text-muted-foreground">
+                                        Determine optimal fleet size and vehicle mix
+                                    </p>
+                                </CardContent>
+                            </Card>
+                            <Card>
+                                <CardHeader>
+                                    <CardTitle className="text-center">Load Planning</CardTitle>
+                                </CardHeader>
+                                <CardContent>
+                                    <p className="text-center text-muted-foreground">
+                                        Optimize cargo loading and weight distribution
                                     </p>
                                 </CardContent>
                             </Card>
@@ -245,22 +247,24 @@ export default function OperationsManagerProcessFlowPage(): React.JSX.Element {
             {/* Awards Section */}
             <section className="py-16">
                 <div className="container mx-auto px-4">
-                    <Card className="bg-gradient-to-r from-blue-600 to-blue-800 text-white">
-                        <CardContent className="py-12 text-center">
-                            <h2 className="mb-8 text-3xl font-bold">
-                                CELEBRATING 25 YEARS OF AWARD WINNING SOFTWARE!
-                            </h2>
-                            <div className="flex justify-center">
-                                <Image
-                                    src="https://www.usersolutions.com/wp-content/uploads/2022/07/banner-logoso-sm-58c9a28d237d6-1024x128.jpg"
-                                    alt="Collection of industry and business awards logos"
-                                    width={1024}
-                                    height={128}
-                                    className="h-auto max-w-full"
-                                />
-                            </div>
-                        </CardContent>
-                    </Card>
+                    <div className="mx-auto max-w-4xl">
+                        <Card className="bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20">
+                            <CardContent className="p-8 text-center">
+                                <h2 className="mb-6 text-2xl font-bold text-foreground">
+                                    CELEBRATING 25 YEARS OF AWARD WINNING SOFTWARE!
+                                </h2>
+                                <div className="flex justify-center">
+                                    <Image
+                                        src="https://www.usersolutions.com/wp-content/uploads/2022/07/banner-logoso-sm-58c9a28d237d6-1024x128.jpg"
+                                        alt="Collection of industry and business awards logos"
+                                        width={1024}
+                                        height={128}
+                                        className="h-auto max-w-full rounded-lg shadow-md"
+                                    />
+                                </div>
+                            </CardContent>
+                        </Card>
+                    </div>
                 </div>
             </section>
         </div>

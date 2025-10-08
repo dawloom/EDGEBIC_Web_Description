@@ -5,7 +5,7 @@ import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
-export default function OperationsManagerQueuingPage(): React.JSX.Element {
+export default function TrainingPage(): React.JSX.Element {
     return (
         <div className="min-h-screen bg-background">
             {/* Hero Section */}
@@ -17,52 +17,44 @@ export default function OperationsManagerQueuingPage(): React.JSX.Element {
                                 variant="outline"
                                 className="h-8 rounded-full border-white/20 bg-white/10 px-3 text-sm font-medium text-white shadow-sm"
                             >
-                                OPERATIONS MANAGER
+                                PROFESSIONAL TRAINING
                             </Badge>
                         </div>
                         <h1 className="mb-6 text-4xl font-bold md:text-6xl">
-                            Operations Manager: Queuing
+                            Training Services
                         </h1>
                         <p className="mb-8 text-xl md:text-2xl">
-                            Advanced queuing theory analysis for optimal service system design
+                            Comprehensive simulation modeling training programs for maximum software proficiency
                         </p>
                         <div className="flex flex-col justify-center gap-4 sm:flex-row">
                             <Button
                                 size="lg"
                                 className="bg-white text-blue-600 hover:bg-gray-100"
                             >
-                                Buy Now
+                                Get Started
                             </Button>
                         </div>
                     </div>
                 </div>
             </section>
 
-            {/* Queuing Theory Overview */}
+            {/* Training Overview */}
             <section className="py-16">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl">
                         <Card className="mb-8">
                             <CardHeader>
                                 <CardTitle className="text-center text-3xl">
-                                    Queuing Theory & Analysis
+                                    Professional Simulation Training Programs
                                 </CardTitle>
                             </CardHeader>
                             <CardContent className="space-y-6">
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    Queuing theory is a mathematical study of waiting lines or
-                                    queues. It provides powerful analytical tools to optimize
-                                    service systems, reduce waiting times, and improve customer
-                                    satisfaction. Our Operations Manager Queuing module helps you
-                                    analyze and optimize any system where customers or jobs wait
-                                    for service.
+                                    Our comprehensive training programs are designed to maximize your team's proficiency with simulation modeling software. From basic concepts to advanced optimization techniques, we provide hands-on instruction that accelerates learning and ensures successful project implementation.
                                 </p>
 
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    Whether you're managing call centers, manufacturing processes,
-                                    hospital emergency rooms, or network traffic, queuing analysis
-                                    provides insights into system performance, capacity planning,
-                                    and resource allocation decisions.
+                                    Whether you're implementing simulation for the first time or expanding existing capabilities, our expert instructors deliver customized training that meets your organization's specific needs and industry requirements.
                                 </p>
                             </CardContent>
                         </Card>
@@ -77,7 +69,7 @@ export default function OperationsManagerQueuingPage(): React.JSX.Element {
                         <Card>
                             <CardHeader>
                                 <CardTitle className="text-center text-2xl">
-                                    Case Study: Metropolitan Hospital Emergency Department
+                                    Case Study: Manufacturing Training Program
                                 </CardTitle>
                             </CardHeader>
                             <CardContent className="space-y-6">
@@ -86,12 +78,7 @@ export default function OperationsManagerQueuingPage(): React.JSX.Element {
                                         The Challenge
                                     </h3>
                                     <p className="mb-4 text-muted-foreground">
-                                        Metropolitan Hospital was experiencing long patient wait
-                                        times in their emergency department, leading to patient
-                                        dissatisfaction and potential medical risks. They needed to
-                                        understand their service capacity and optimize staff
-                                        scheduling to reduce wait times while maintaining quality
-                                        care.
+                                        TechManufacturing acquired simulation software to optimize their production lines but lacked internal expertise. Their engineering team needed comprehensive training to build models, analyze results, and make data-driven improvements within tight project deadlines.
                                     </p>
                                 </div>
 
@@ -100,11 +87,7 @@ export default function OperationsManagerQueuingPage(): React.JSX.Element {
                                         The Solution
                                     </h3>
                                     <p className="mb-4 text-muted-foreground">
-                                        Using Operations Manager's Queuing analysis, the hospital
-                                        modeled their emergency department as a multi-server queue
-                                        system. They analyzed arrival patterns, service times, and
-                                        resource utilization to identify bottlenecks and
-                                        optimization opportunities.
+                                        We designed a custom 3-week training program combining classroom instruction, hands-on workshops, and real-world project mentoring. The curriculum covered model building, validation techniques, experimentation methods, and advanced optimization using their actual production data.
                                     </p>
                                 </div>
 
@@ -117,19 +100,19 @@ export default function OperationsManagerQueuingPage(): React.JSX.Element {
                                             <div className="flex items-center">
                                                 <div className="mr-3 size-3 rounded-full bg-green-500" />
                                                 <span className="text-sm">
-                                                    45% reduction in average wait time
+                                                    100% team certification achieved
                                                 </span>
                                             </div>
                                             <div className="flex items-center">
                                                 <div className="mr-3 size-3 rounded-full bg-blue-500" />
                                                 <span className="text-sm">
-                                                    30% improvement in patient satisfaction
+                                                    First project completed ahead of schedule
                                                 </span>
                                             </div>
                                             <div className="flex items-center">
                                                 <div className="mr-3 size-3 rounded-full bg-purple-500" />
                                                 <span className="text-sm">
-                                                    25% increase in staff utilization
+                                                    75% reduction in learning curve
                                                 </span>
                                             </div>
                                         </div>
@@ -137,19 +120,19 @@ export default function OperationsManagerQueuingPage(): React.JSX.Element {
                                             <div className="flex items-center">
                                                 <div className="mr-3 size-3 rounded-full bg-orange-500" />
                                                 <span className="text-sm">
-                                                    20% reduction in patient walkouts
+                                                    Immediate productivity gains
                                                 </span>
                                             </div>
                                             <div className="flex items-center">
                                                 <div className="mr-3 size-3 rounded-full bg-red-500" />
                                                 <span className="text-sm">
-                                                    15% cost savings in overtime
+                                                    Internal expertise development
                                                 </span>
                                             </div>
                                             <div className="flex items-center">
                                                 <div className="mr-3 size-3 rounded-full bg-teal-500" />
                                                 <span className="text-sm">
-                                                    Optimal staff scheduling achieved
+                                                    $2M ROI within 6 months
                                                 </span>
                                             </div>
                                         </div>
@@ -161,76 +144,83 @@ export default function OperationsManagerQueuingPage(): React.JSX.Element {
                 </div>
             </section>
 
-            {/* Queue Models */}
+            {/* Training Programs */}
             <section className="py-16">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-6xl">
                         <h2 className="mb-12 text-center text-3xl font-bold text-foreground">
-                            Supported Queue Models
+                            Training Programs
                         </h2>
                         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">M/M/1 Queue</CardTitle>
+                                    <CardTitle className="text-center">
+                                        Foundation Training
+                                    </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Single server with Poisson arrivals and exponential service
-                                        times
+                                        Essential simulation concepts, basic modeling techniques, and software navigation
                                     </p>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">M/M/c Queue</CardTitle>
+                                    <CardTitle className="text-center">
+                                        Advanced Modeling
+                                    </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Multiple servers with Poisson arrivals and exponential
-                                        service times
+                                        Complex system modeling, custom logic development, and integration techniques
                                     </p>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">M/G/1 Queue</CardTitle>
+                                    <CardTitle className="text-center">
+                                        Optimization Methods
+                                    </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Single server with Poisson arrivals and general service time
-                                        distribution
+                                        Experimental design, optimization algorithms, and decision analysis
                                     </p>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">G/G/1 Queue</CardTitle>
+                                    <CardTitle className="text-center">
+                                        Industry Applications
+                                    </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        General arrival and service time distributions with single
-                                        server
+                                        Sector-specific modeling approaches for manufacturing, healthcare, and logistics
                                     </p>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">Priority Queues</CardTitle>
+                                    <CardTitle className="text-center">
+                                        Data Integration
+                                    </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Service systems with customer priority classifications
+                                        Database connectivity, data analysis, and real-time system integration
                                     </p>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">Network Queues</CardTitle>
+                                    <CardTitle className="text-center">
+                                        Custom Workshops
+                                    </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Connected queue systems with customer routing between
-                                        stations
+                                        Tailored training programs designed for specific organizational needs and goals
                                     </p>
                                 </CardContent>
                             </Card>
@@ -239,71 +229,71 @@ export default function OperationsManagerQueuingPage(): React.JSX.Element {
                 </div>
             </section>
 
-            {/* Key Metrics */}
+            {/* Training Formats */}
             <section className="bg-muted/50 py-16">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl">
                         <h2 className="mb-12 text-center text-3xl font-bold text-foreground">
-                            Key Performance Metrics
+                            Training Formats & Delivery
                         </h2>
                         <div className="grid gap-6 md:grid-cols-2">
                             <Card>
                                 <CardHeader>
                                     <CardTitle className="text-xl text-blue-600">
-                                        Waiting Time Analysis
+                                        Instructor-Led Training
                                     </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <ul className="space-y-2 text-muted-foreground">
-                                        <li>• Average waiting time in queue</li>
-                                        <li>• Average time in system</li>
-                                        <li>• Waiting time distribution</li>
-                                        <li>• Service level percentiles</li>
+                                        <li>• On-site classroom instruction</li>
+                                        <li>• Virtual live sessions</li>
+                                        <li>• Interactive workshops</li>
+                                        <li>• Q&A and discussion sessions</li>
                                     </ul>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
                                     <CardTitle className="text-xl text-green-600">
-                                        System Utilization
+                                        Hands-On Learning
                                     </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <ul className="space-y-2 text-muted-foreground">
-                                        <li>• Server utilization rates</li>
-                                        <li>• System capacity analysis</li>
-                                        <li>• Traffic intensity calculations</li>
-                                        <li>• Bottleneck identification</li>
+                                        <li>• Practical modeling exercises</li>
+                                        <li>• Real-world case studies</li>
+                                        <li>• Project-based learning</li>
+                                        <li>• Individual mentoring</li>
                                     </ul>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
                                     <CardTitle className="text-xl text-purple-600">
-                                        Queue Length
+                                        Self-Paced Options
                                     </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <ul className="space-y-2 text-muted-foreground">
-                                        <li>• Average number in queue</li>
-                                        <li>• Average number in system</li>
-                                        <li>• Queue length distribution</li>
-                                        <li>• Maximum queue length</li>
+                                        <li>• Online learning modules</li>
+                                        <li>• Video tutorials and guides</li>
+                                        <li>• Interactive e-learning</li>
+                                        <li>• Progress tracking tools</li>
                                     </ul>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
                                     <CardTitle className="text-xl text-orange-600">
-                                        Cost Analysis
+                                        Ongoing Support
                                     </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <ul className="space-y-2 text-muted-foreground">
-                                        <li>• Service cost optimization</li>
-                                        <li>• Waiting cost calculations</li>
-                                        <li>• Total system cost analysis</li>
-                                        <li>• ROI on capacity investments</li>
+                                        <li>• Post-training consultation</li>
+                                        <li>• Technical support access</li>
+                                        <li>• Refresher sessions</li>
+                                        <li>• Certification programs</li>
                                     </ul>
                                 </CardContent>
                             </Card>
@@ -312,71 +302,71 @@ export default function OperationsManagerQueuingPage(): React.JSX.Element {
                 </div>
             </section>
 
-            {/* Applications */}
+            {/* Training Benefits */}
             <section className="py-16">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl">
                         <h2 className="mb-12 text-center text-3xl font-bold text-foreground">
-                            Real-World Applications
+                            Training Benefits
                         </h2>
                         <div className="grid gap-6 md:grid-cols-2">
                             <Card>
                                 <CardHeader>
                                     <CardTitle className="text-xl text-blue-600">
-                                        Healthcare Systems
+                                        Accelerated Learning
                                     </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <ul className="space-y-2 text-muted-foreground">
-                                        <li>• Emergency department optimization</li>
-                                        <li>• Appointment scheduling</li>
-                                        <li>• Operating room planning</li>
-                                        <li>• Laboratory workflow</li>
+                                        <li>• Faster time to proficiency</li>
+                                        <li>• Structured learning path</li>
+                                        <li>• Expert guidance and mentoring</li>
+                                        <li>• Best practices knowledge transfer</li>
                                     </ul>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
                                     <CardTitle className="text-xl text-green-600">
-                                        Manufacturing
+                                        Improved Productivity
                                     </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <ul className="space-y-2 text-muted-foreground">
-                                        <li>• Production line balancing</li>
-                                        <li>• Machine utilization</li>
-                                        <li>• Work-in-process optimization</li>
-                                        <li>• Quality control stations</li>
+                                        <li>• Reduced project timelines</li>
+                                        <li>• Higher quality deliverables</li>
+                                        <li>• Fewer modeling errors</li>
+                                        <li>• Increased confidence levels</li>
                                     </ul>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
                                     <CardTitle className="text-xl text-purple-600">
-                                        Service Industries
+                                        Cost Savings
                                     </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <ul className="space-y-2 text-muted-foreground">
-                                        <li>• Call center staffing</li>
-                                        <li>• Bank teller optimization</li>
-                                        <li>• Restaurant service planning</li>
-                                        <li>• Help desk management</li>
+                                        <li>• Reduced external consulting costs</li>
+                                        <li>• Faster ROI achievement</li>
+                                        <li>• Lower support requirements</li>
+                                        <li>• Internal capability building</li>
                                     </ul>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
                                     <CardTitle className="text-xl text-orange-600">
-                                        Transportation
+                                        Strategic Advantages
                                     </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <ul className="space-y-2 text-muted-foreground">
-                                        <li>• Traffic flow analysis</li>
-                                        <li>• Airport gate allocation</li>
-                                        <li>• Public transit scheduling</li>
-                                        <li>• Parking system design</li>
+                                        <li>• Enhanced decision-making capabilities</li>
+                                        <li>• Competitive analysis skills</li>
+                                        <li>• Innovation in process improvement</li>
+                                        <li>• Data-driven culture development</li>
                                     </ul>
                                 </CardContent>
                             </Card>
@@ -388,7 +378,7 @@ export default function OperationsManagerQueuingPage(): React.JSX.Element {
             {/* Awards Section */}
             <section className="py-16">
                 <div className="container mx-auto px-4">
-                    <Card className="mt-8 rounded-xl border bg-gradient-to-br from-blue-50 to-blue-100 text-card-foreground shadow dark:from-blue-900/20 dark:to-blue-800/20">
+                    <Card className="bg-gradient-to-r from-blue-600 to-blue-800 text-white">
                         <CardContent className="py-12 text-center">
                             <h2 className="mb-8 text-3xl font-bold">
                                 CELEBRATING 25 YEARS OF AWARD WINNING SOFTWARE!

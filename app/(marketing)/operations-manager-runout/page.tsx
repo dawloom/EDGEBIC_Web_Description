@@ -5,7 +5,7 @@ import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
-export default function OperationsManagerFacilityLayoutPage(): React.JSX.Element {
+export default function RunoutPage(): React.JSX.Element {
     return (
         <div className="min-h-screen bg-background">
             {/* Hero Section */}
@@ -21,10 +21,10 @@ export default function OperationsManagerFacilityLayoutPage(): React.JSX.Element
                             </Badge>
                         </div>
                         <h1 className="mb-6 text-4xl font-bold md:text-6xl">
-                            Operations Manager: Facility Layout
+                            Operations Manager: Runout Analysis
                         </h1>
                         <p className="mb-8 text-xl md:text-2xl">
-                            Facility planning and layout optimization for maximum efficiency
+                            Advanced runout analysis and control for precision manufacturing operations
                         </p>
                         <div className="flex flex-col justify-center gap-4 sm:flex-row">
                             <Button
@@ -38,31 +38,23 @@ export default function OperationsManagerFacilityLayoutPage(): React.JSX.Element
                 </div>
             </section>
 
-            {/* Facility Layout Overview */}
+            {/* Runout Analysis Overview */}
             <section className="py-16">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl">
                         <Card className="mb-8">
                             <CardHeader>
                                 <CardTitle className="text-center text-3xl">
-                                    Facility Layout Design & Optimization
+                                    Precision Runout Analysis & Control
                                 </CardTitle>
                             </CardHeader>
                             <CardContent className="space-y-6">
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    Facility layout design is the strategic arrangement of
-                                    physical resources within a facility to optimize material
-                                    flow, minimize handling costs, and maximize operational
-                                    efficiency. Our Operations Manager Facility Layout module
-                                    provides comprehensive tools for designing, analyzing, and
-                                    optimizing facility layouts across all industries.
+                                    Runout Analysis provides comprehensive tools for measuring, analyzing, and controlling rotational variations in manufacturing equipment and processes. This specialized module helps maintain precision tolerances, reduce vibration, and ensure consistent quality in machining and rotating equipment applications.
                                 </p>
 
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    From manufacturing plants to warehouses and offices, our
-                                    solution helps organizations create efficient spatial
-                                    arrangements that reduce costs, improve safety, and enhance
-                                    productivity.
+                                    From spindle runout measurement to bearing analysis, this powerful tool delivers the precision control needed for high-quality manufacturing operations while minimizing equipment wear and maximizing product consistency.
                                 </p>
                             </CardContent>
                         </Card>
@@ -77,7 +69,7 @@ export default function OperationsManagerFacilityLayoutPage(): React.JSX.Element
                         <Card>
                             <CardHeader>
                                 <CardTitle className="text-center text-2xl">
-                                    Case Study: Distribution Center Redesign
+                                    Case Study: Precision Machining Center Optimization
                                 </CardTitle>
                             </CardHeader>
                             <CardContent className="space-y-6">
@@ -86,12 +78,7 @@ export default function OperationsManagerFacilityLayoutPage(): React.JSX.Element
                                         The Challenge
                                     </h3>
                                     <p className="mb-4 text-muted-foreground">
-                                        MegaLogistics faced significant inefficiencies in their
-                                        500,000 sq ft distribution center. Poor layout design
-                                        resulted in excessive travel distances, cross-docking
-                                        issues, and material handling bottlenecks. Order fulfillment
-                                        times were increasing while productivity declined, impacting
-                                        customer satisfaction and operational costs.
+                                        AeroPrecision Manufacturing was experiencing quality issues with their CNC machining centers, including dimensional variations and surface finish problems. Spindle runout and tool deflection were causing parts to fall outside tolerance specifications, leading to increased scrap rates and customer complaints.
                                     </p>
                                 </div>
 
@@ -100,12 +87,7 @@ export default function OperationsManagerFacilityLayoutPage(): React.JSX.Element
                                         The Solution
                                     </h3>
                                     <p className="mb-4 text-muted-foreground">
-                                        Using Operations Manager's Facility Layout optimization
-                                        tools, the engineering team analyzed material flow patterns,
-                                        storage requirements, and picking frequencies. They
-                                        redesigned the layout using systematic layout planning (SLP)
-                                        methodology and optimized storage allocation based on ABC
-                                        analysis.
+                                        Using Operations Manager's Runout Analysis module, the quality team implemented comprehensive spindle runout measurement protocols, bearing condition monitoring, and tool path optimization algorithms. The system provided real-time feedback and predictive maintenance recommendations.
                                     </p>
                                 </div>
 
@@ -118,19 +100,19 @@ export default function OperationsManagerFacilityLayoutPage(): React.JSX.Element
                                             <div className="flex items-center">
                                                 <div className="mr-3 size-3 rounded-full bg-green-500" />
                                                 <span className="text-sm">
-                                                    40% reduction in travel distance
+                                                    85% reduction in dimensional variations
                                                 </span>
                                             </div>
                                             <div className="flex items-center">
                                                 <div className="mr-3 size-3 rounded-full bg-blue-500" />
                                                 <span className="text-sm">
-                                                    35% improvement in picking efficiency
+                                                    70% improvement in surface finish quality
                                                 </span>
                                             </div>
                                             <div className="flex items-center">
                                                 <div className="mr-3 size-3 rounded-full bg-purple-500" />
                                                 <span className="text-sm">
-                                                    25% increase in storage capacity
+                                                    60% reduction in scrap rates
                                                 </span>
                                             </div>
                                         </div>
@@ -138,19 +120,19 @@ export default function OperationsManagerFacilityLayoutPage(): React.JSX.Element
                                             <div className="flex items-center">
                                                 <div className="mr-3 size-3 rounded-full bg-orange-500" />
                                                 <span className="text-sm">
-                                                    50% reduction in order cycle time
+                                                    40% increase in tool life
                                                 </span>
                                             </div>
                                             <div className="flex items-center">
                                                 <div className="mr-3 size-3 rounded-full bg-red-500" />
                                                 <span className="text-sm">
-                                                    30% decrease in material handling costs
+                                                    50% reduction in equipment downtime
                                                 </span>
                                             </div>
                                             <div className="flex items-center">
                                                 <div className="mr-3 size-3 rounded-full bg-teal-500" />
                                                 <span className="text-sm">
-                                                    20% improvement in safety metrics
+                                                    Predictive maintenance optimization
                                                 </span>
                                             </div>
                                         </div>
@@ -162,77 +144,71 @@ export default function OperationsManagerFacilityLayoutPage(): React.JSX.Element
                 </div>
             </section>
 
-            {/* Layout Types */}
+            {/* Analysis Features */}
             <section className="py-16">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-6xl">
                         <h2 className="mb-12 text-center text-3xl font-bold text-foreground">
-                            Facility Layout Types
+                            Runout Analysis Capabilities
                         </h2>
                         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">Product Layout</CardTitle>
+                                    <CardTitle className="text-center">Spindle Runout Measurement</CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Sequential arrangement for continuous flow production
-                                        systems
+                                        Precise measurement of spindle radial and axial runout variations
                                     </p>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">Process Layout</CardTitle>
+                                    <CardTitle className="text-center">Bearing Analysis</CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Grouping similar processes together for flexible
-                                        manufacturing
+                                        Comprehensive bearing condition assessment and wear monitoring
                                     </p>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">
-                                        Fixed Position Layout
-                                    </CardTitle>
+                                    <CardTitle className="text-center">Vibration Analysis</CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Resources arranged around stationary product or project
+                                        Advanced vibration analysis for equipment health monitoring
                                     </p>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">Cellular Layout</CardTitle>
+                                    <CardTitle className="text-center">Tool Path Optimization</CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Group technology cells for product family manufacturing
+                                        Optimized cutting paths to minimize runout effects
                                     </p>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">Hybrid Layout</CardTitle>
+                                    <CardTitle className="text-center">Quality Control</CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Combination of layout types for complex operations
+                                        Statistical process control for runout-related quality metrics
                                     </p>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">
-                                        Warehouse Layout
-                                    </CardTitle>
+                                    <CardTitle className="text-center">Predictive Maintenance</CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Optimized storage and material handling arrangements
+                                        Early warning systems for equipment degradation
                                     </p>
                                 </CardContent>
                             </Card>
@@ -241,71 +217,71 @@ export default function OperationsManagerFacilityLayoutPage(): React.JSX.Element
                 </div>
             </section>
 
-            {/* Design Objectives */}
+            {/* Measurement Types */}
             <section className="bg-muted/50 py-16">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl">
                         <h2 className="mb-12 text-center text-3xl font-bold text-foreground">
-                            Layout Design Objectives
+                            Runout Measurement Categories
                         </h2>
                         <div className="grid gap-6 md:grid-cols-2">
                             <Card>
                                 <CardHeader>
                                     <CardTitle className="text-xl text-blue-600">
-                                        Material Flow Optimization
+                                        Radial Runout
                                     </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <ul className="space-y-2 text-muted-foreground">
-                                        <li>• Minimize material handling distance</li>
-                                        <li>• Reduce transportation costs</li>
-                                        <li>• Eliminate backtracking and crossovers</li>
-                                        <li>• Optimize flow patterns</li>
+                                        <li>• Spindle radial error motion</li>
+                                        <li>• Chuck face runout measurement</li>
+                                        <li>• Tool holder concentricity</li>
+                                        <li>• Workpiece centering accuracy</li>
                                     </ul>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
                                     <CardTitle className="text-xl text-green-600">
-                                        Space Utilization
+                                        Axial Runout
                                     </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <ul className="space-y-2 text-muted-foreground">
-                                        <li>• Maximize effective use of space</li>
-                                        <li>• Optimize storage density</li>
-                                        <li>• Balance accessibility and capacity</li>
-                                        <li>• Plan for future expansion</li>
+                                        <li>• Spindle end face runout</li>
+                                        <li>• Tool positioning accuracy</li>
+                                        <li>• Table flatness variations</li>
+                                        <li>• Z-axis positioning errors</li>
                                     </ul>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
                                     <CardTitle className="text-xl text-purple-600">
-                                        Safety & Ergonomics
+                                        Angular Runout
                                     </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <ul className="space-y-2 text-muted-foreground">
-                                        <li>• Ensure safe working conditions</li>
-                                        <li>• Reduce workplace injuries</li>
-                                        <li>• Optimize ergonomic design</li>
-                                        <li>• Meet safety regulations</li>
+                                        <li>• Spindle tilt variations</li>
+                                        <li>• Tool angle deviations</li>
+                                        <li>• Workpiece alignment errors</li>
+                                        <li>• Machine geometry assessment</li>
                                     </ul>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
                                     <CardTitle className="text-xl text-orange-600">
-                                        Flexibility & Efficiency
+                                        Dynamic Runout
                                     </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <ul className="space-y-2 text-muted-foreground">
-                                        <li>• Adapt to changing requirements</li>
-                                        <li>• Minimize idle time and delays</li>
-                                        <li>• Optimize equipment utilization</li>
-                                        <li>• Facilitate communication</li>
+                                        <li>• Speed-dependent variations</li>
+                                        <li>• Thermal growth effects</li>
+                                        <li>• Load-induced deformations</li>
+                                        <li>• Dynamic stability analysis</li>
                                     </ul>
                                 </CardContent>
                             </Card>
@@ -314,65 +290,72 @@ export default function OperationsManagerFacilityLayoutPage(): React.JSX.Element
                 </div>
             </section>
 
-            {/* Design Methods */}
+            {/* Applications */}
             <section className="py-16">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl">
                         <h2 className="mb-12 text-center text-3xl font-bold text-foreground">
-                            Layout Design Methods
+                            Industry Applications
                         </h2>
-                        <div className="space-y-6">
+                        <div className="grid gap-6 md:grid-cols-2">
                             <Card>
                                 <CardHeader>
                                     <CardTitle className="text-xl text-blue-600">
-                                        Systematic Layout Planning (SLP)
+                                        Aerospace Manufacturing
                                     </CardTitle>
                                 </CardHeader>
                                 <CardContent>
-                                    <p className="text-muted-foreground">
-                                        Structured methodology using relationship diagrams, space
-                                        requirements, and practical limitations to develop optimal
-                                        layouts.
-                                    </p>
+                                    <ul className="space-y-2 text-muted-foreground">
+                                        <li>• Engine component machining</li>
+                                        <li>• Turbine blade manufacturing</li>
+                                        <li>• Landing gear precision parts</li>
+                                        <li>• Avionics housing components</li>
+                                    </ul>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
                                     <CardTitle className="text-xl text-green-600">
-                                        CRAFT Algorithm
+                                        Automotive Industry
                                     </CardTitle>
                                 </CardHeader>
                                 <CardContent>
-                                    <p className="text-muted-foreground">
-                                        Computerized Relative Allocation of Facilities Technique for
-                                        improving layouts through pairwise department exchanges.
-                                    </p>
+                                    <ul className="space-y-2 text-muted-foreground">
+                                        <li>• Engine block machining</li>
+                                        <li>• Transmission component production</li>
+                                        <li>• Brake system manufacturing</li>
+                                        <li>• Fuel injection systems</li>
+                                    </ul>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
                                     <CardTitle className="text-xl text-purple-600">
-                                        Activity Relationship Chart
+                                        Medical Device Manufacturing
                                     </CardTitle>
                                 </CardHeader>
                                 <CardContent>
-                                    <p className="text-muted-foreground">
-                                        Matrix showing the importance of proximity between different
-                                        activities or departments in the facility.
-                                    </p>
+                                    <ul className="space-y-2 text-muted-foreground">
+                                        <li>• Surgical instrument production</li>
+                                        <li>• Implant component machining</li>
+                                        <li>• Diagnostic equipment parts</li>
+                                        <li>• Precision medical tools</li>
+                                    </ul>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
                                     <CardTitle className="text-xl text-orange-600">
-                                        Flow Analysis
+                                        Electronics Manufacturing
                                     </CardTitle>
                                 </CardHeader>
                                 <CardContent>
-                                    <p className="text-muted-foreground">
-                                        Quantitative analysis of material movement patterns to
-                                        optimize department placement and minimize handling costs.
-                                    </p>
+                                    <ul className="space-y-2 text-muted-foreground">
+                                        <li>• PCB drilling operations</li>
+                                        <li>• Connector manufacturing</li>
+                                        <li>• Heat sink production</li>
+                                        <li>• Semiconductor equipment parts</li>
+                                    </ul>
                                 </CardContent>
                             </Card>
                         </div>
@@ -383,22 +366,24 @@ export default function OperationsManagerFacilityLayoutPage(): React.JSX.Element
             {/* Awards Section */}
             <section className="py-16">
                 <div className="container mx-auto px-4">
-                    <Card className="bg-gradient-to-r from-blue-600 to-blue-800 text-white">
-                        <CardContent className="py-12 text-center">
-                            <h2 className="mb-8 text-3xl font-bold">
-                                CELEBRATING 25 YEARS OF AWARD WINNING SOFTWARE!
-                            </h2>
-                            <div className="flex justify-center">
-                                <Image
-                                    src="https://www.usersolutions.com/wp-content/uploads/2022/07/banner-logoso-sm-58c9a28d237d6-1024x128.jpg"
-                                    alt="Collection of industry and business awards logos"
-                                    width={1024}
-                                    height={128}
-                                    className="h-auto max-w-full"
-                                />
-                            </div>
-                        </CardContent>
-                    </Card>
+                    <div className="mx-auto max-w-4xl">
+                        <Card className="bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20">
+                            <CardContent className="p-8 text-center">
+                                <h2 className="mb-6 text-2xl font-bold text-foreground">
+                                    CELEBRATING 25 YEARS OF AWARD WINNING SOFTWARE!
+                                </h2>
+                                <div className="flex justify-center">
+                                    <Image
+                                        src="https://www.usersolutions.com/wp-content/uploads/2022/07/banner-logoso-sm-58c9a28d237d6-1024x128.jpg"
+                                        alt="Collection of industry and business awards logos"
+                                        width={1024}
+                                        height={128}
+                                        className="h-auto max-w-full rounded-lg shadow-md"
+                                    />
+                                </div>
+                            </CardContent>
+                        </Card>
+                    </div>
                 </div>
             </section>
         </div>
