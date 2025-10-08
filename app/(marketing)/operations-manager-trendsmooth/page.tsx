@@ -125,22 +125,24 @@ export default function OperationsManagerTrendsmoothPage(): React.JSX.Element {
             </section>
 
             {/* Awards Section */}
-            <section className="bg-muted/50 py-16">
+            <section className="py-16">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-4xl text-center">
-                        <h2 className="mb-8 text-3xl font-bold text-foreground">
-                            CELEBRATING 25 YEARS OF AWARD WINNING SOFTWARE!
-                        </h2>
-                        <div className="flex justify-center">
-                            <Image
-                                src="https://www.usersolutions.com/wp-content/uploads/2022/07/banner-logoso-sm-58c9a28d237d6-1024x128.jpg"
-                                alt="Collection of industry and business awards logos"
-                                width={1024}
-                                height={128}
-                                className="h-auto max-w-full"
-                            />
-                        </div>
-                    </div>
+                    <Card className="rounded-xl border text-card-foreground shadow mt-8 bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20">
+                        <CardContent className="py-12 text-center">
+                            <h2 className="mb-8 text-3xl font-bold">
+                                CELEBRATING 25 YEARS OF AWARD WINNING SOFTWARE!
+                            </h2>
+                            <div className="flex justify-center">
+                                <Image
+                                    src="https://www.usersolutions.com/wp-content/uploads/2022/07/banner-logoso-sm-58c9a28d237d6-1024x128.jpg"
+                                    alt="Collection of industry and business awards logos"
+                                    width={1024}
+                                    height={128}
+                                    className="h-auto max-w-full"
+                                />
+                            </div>
+                        </CardContent>
+                    </Card>
                 </div>
             </section>
         </div>
