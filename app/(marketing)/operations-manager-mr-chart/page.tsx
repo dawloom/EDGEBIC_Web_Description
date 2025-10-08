@@ -9,7 +9,7 @@ export default function MrChartPage(): React.JSX.Element {
     return (
         <div className="min-h-screen bg-background">
             {/* Hero Section */}
-            <section className="bg-gradient-to-r from-blue-600 to-blue-800 py-16 text-white dark:from-blue-800 dark:to-blue-900">
+            <section className="bg-gradient-to-r from-blue-600 to-blue-800 py-4 text-white dark:from-blue-800 dark:to-blue-900">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl text-center">
                         <div className="mb-6">
@@ -40,10 +40,10 @@ export default function MrChartPage(): React.JSX.Element {
             </section>
 
             {/* Simple Analysis Overview */}
-            <section className="py-16">
+            <section className="pt-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl">
-                        <Card className="mb-8">
+                        <Card>
                             <CardHeader>
                                 <CardTitle className="text-center text-3xl">
                                     Control Chart For Mean and Range (MR-CHART)
@@ -51,38 +51,44 @@ export default function MrChartPage(): React.JSX.Element {
                             </CardHeader>
                             <CardContent className="space-y-6">
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    The basic idea in all quality control charts is to select a sample from a 
-                                    production process at equal intervals of time and record some quality characteristic. 
-                                    The most common quality characteristic is the mean of each sample. If the 
-                                    process is under control, the series of sample means should vary about the population 
-                                    mean in a random manner.
+                                    The basic idea in all quality control charts is to select a
+                                    sample from a production process at equal intervals of time
+                                    and record some quality characteristic. The most common
+                                    quality characteristic is the mean of each sample. If the
+                                    process is under control, the series of sample means should
+                                    vary about the population mean in a random manner.
                                 </p>
 
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    We should expect some natural variation in any process and there should be no real 
-                                    assignable cause to this variation. If the process is in control, almost all sample 
-                                    mean values should fall within control limits, almost always defined as the mean plus 
-                                    or minus 3 standard deviations. The standard deviation is a measure of the variation 
-                                    of a process.
+                                    We should expect some natural variation in any process and
+                                    there should be no real assignable cause to this variation. If
+                                    the process is in control, almost all sample mean values
+                                    should fall within control limits, almost always defined as
+                                    the mean plus or minus 3 standard deviations. The standard
+                                    deviation is a measure of the variation of a process.
                                 </p>
 
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    The control charts do not measure the standard deviation directly. Instead, the range 
-                                    (high value minus low value) of each sample is used as a simpler measure of variation. 
-                                    To establish control limits, the range is automatically converted to a standard deviation.
+                                    The control charts do not measure the standard deviation
+                                    directly. Instead, the range (high value minus low value) of
+                                    each sample is used as a simpler measure of variation. To
+                                    establish control limits, the range is automatically converted
+                                    to a standard deviation.
                                 </p>
 
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    It is important to understand that the control chart is a management-by-exception tool. 
-                                    If a sample mean falls outside the control limits, there is a very small probability 
-                                    that this happened due to randomness or chance alone. In fact, with control limits set 
-                                    at 3 standard deviations, the probability is less than 1% that the sample mean occurred 
-                                    due to chance.
+                                    It is important to understand that the control chart is a
+                                    management-by-exception tool. If a sample mean falls outside
+                                    the control limits, there is a very small probability that
+                                    this happened due to randomness or chance alone. In fact, with
+                                    control limits set at 3 standard deviations, the probability
+                                    is less than 1% that the sample mean occurred due to chance.
                                 </p>
 
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    There is a very large probability, more than 99%, that the sample mean is due to an 
-                                    assignable cause and an investigation should be conducted.
+                                    There is a very large probability, more than 99%, that the
+                                    sample mean is due to an assignable cause and an investigation
+                                    should be conducted.
                                 </p>
                             </CardContent>
                         </Card>
@@ -91,10 +97,10 @@ export default function MrChartPage(): React.JSX.Element {
             </section>
 
             {/* Variables and Attributes */}
-            <section className="py-16">
+            <section className="pt-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl">
-                        <Card className="mb-8">
+                        <Card>
                             <CardHeader>
                                 <CardTitle className="text-center text-3xl">
                                     Variable and Attribute Control Charts
@@ -102,18 +108,22 @@ export default function MrChartPage(): React.JSX.Element {
                             </CardHeader>
                             <CardContent className="space-y-6">
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    The control charts in SOM are classified as either variable or attribute charts. 
-                                    Variables are measurements on a continuous scale such as inches or pounds. What 
-                                    types of variables can be monitored with the variables control charts? Anything 
-                                    that can be measured and expressed in numbers, such as temperature, dimension, 
-                                    hardness number, tensile strength, weight, viscosity, etc.
+                                    The control charts in SOM are classified as either variable or
+                                    attribute charts. Variables are measurements on a continuous
+                                    scale such as inches or pounds. What types of variables can be
+                                    monitored with the variables control charts? Anything that can
+                                    be measured and expressed in numbers, such as temperature,
+                                    dimension, hardness number, tensile strength, weight,
+                                    viscosity, etc.
                                 </p>
 
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    Variables are monitored in the MR-CHART worksheet for the mean and range of samples 
-                                    and in the I-CHART for individual observations. Attributes are discrete data such as 
-                                    the number of items in the sample that are defective or the number of defects in one 
-                                    unit of product. The P-CHART and CU-CHART models are available for attributes data.
+                                    Variables are monitored in the MR-CHART worksheet for the mean
+                                    and range of samples and in the I-CHART for individual
+                                    observations. Attributes are discrete data such as the number
+                                    of items in the sample that are defective or the number of
+                                    defects in one unit of product. The P-CHART and CU-CHART
+                                    models are available for attributes data.
                                 </p>
                             </CardContent>
                         </Card>
@@ -122,7 +132,7 @@ export default function MrChartPage(): React.JSX.Element {
             </section>
 
             {/* Implementation Guide */}
-            <section className="bg-muted/50 py-16">
+            <section className="pt-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl">
                         <Card>
@@ -137,10 +147,12 @@ export default function MrChartPage(): React.JSX.Element {
                                         Quality Characteristic Selection
                                     </h3>
                                     <p className="mb-4 text-muted-foreground">
-                                        Select a sample from your production process at equal intervals of time and record 
-                                        a quality characteristic. The most common quality characteristic is the mean of each 
-                                        sample. Monitor variables such as temperature, dimension, hardness number, tensile 
-                                        strength, weight, or viscosity - anything that can be measured and expressed in numbers.
+                                        Select a sample from your production process at equal
+                                        intervals of time and record a quality characteristic. The
+                                        most common quality characteristic is the mean of each
+                                        sample. Monitor variables such as temperature, dimension,
+                                        hardness number, tensile strength, weight, or viscosity -
+                                        anything that can be measured and expressed in numbers.
                                     </p>
                                 </div>
 
@@ -149,9 +161,11 @@ export default function MrChartPage(): React.JSX.Element {
                                         Control Limit Establishment
                                     </h3>
                                     <p className="mb-4 text-muted-foreground">
-                                        Control limits are set at the mean plus or minus 3 standard deviations. The range 
-                                        (high value minus low value) of each sample is used as a simpler measure of variation 
-                                        and is automatically converted to a standard deviation to establish these control limits.
+                                        Control limits are set at the mean plus or minus 3 standard
+                                        deviations. The range (high value minus low value) of each
+                                        sample is used as a simpler measure of variation and is
+                                        automatically converted to a standard deviation to establish
+                                        these control limits.
                                     </p>
                                 </div>
 
@@ -160,9 +174,11 @@ export default function MrChartPage(): React.JSX.Element {
                                         Management by Exception
                                     </h3>
                                     <p className="mb-4 text-muted-foreground">
-                                        When a sample mean falls outside the control limits, there is less than 1% probability 
-                                        this occurred due to chance alone. There is more than 99% probability that an assignable 
-                                        cause exists and investigation should be conducted immediately.
+                                        When a sample mean falls outside the control limits, there
+                                        is less than 1% probability this occurred due to chance
+                                        alone. There is more than 99% probability that an assignable
+                                        cause exists and investigation should be conducted
+                                        immediately.
                                     </p>
                                 </div>
 
@@ -175,7 +191,8 @@ export default function MrChartPage(): React.JSX.Element {
                                         </CardHeader>
                                         <CardContent className="text-center">
                                             <p className="text-sm text-muted-foreground">
-                                                Monitors process central tendency and detects shifts in the process average
+                                                Monitors process central tendency and detects shifts in
+                                                the process average
                                             </p>
                                         </CardContent>
                                     </Card>
@@ -187,7 +204,8 @@ export default function MrChartPage(): React.JSX.Element {
                                         </CardHeader>
                                         <CardContent className="text-center">
                                             <p className="text-sm text-muted-foreground">
-                                                Tracks process variability and ensures consistent manufacturing quality
+                                                Tracks process variability and ensures consistent
+                                                manufacturing quality
                                             </p>
                                         </CardContent>
                                     </Card>
@@ -198,10 +216,10 @@ export default function MrChartPage(): React.JSX.Element {
                 </div>
             </section>
             {/* Analysis Features */}
-            <section className="py-16">
+            <section className="pt-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-6xl">
-                        <h2 className="mb-12 text-center text-3xl font-bold text-foreground">
+                        <h2 className="mb-6 text-center text-3xl font-bold text-foreground">
                             MR-CHART Technical Features
                         </h2>
                         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
@@ -289,10 +307,10 @@ export default function MrChartPage(): React.JSX.Element {
             </section>
 
             {/* Analysis Categories */}
-            <section className="bg-muted/50 py-16">
+            <section className="pt-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl">
-                        <h2 className="mb-12 text-center text-3xl font-bold text-foreground">
+                        <h2 className="mb-6 text-center text-3xl font-bold text-foreground">
                             MR Chart Implementation Categories
                         </h2>
                         <div className="grid gap-6 md:grid-cols-2">
@@ -362,7 +380,7 @@ export default function MrChartPage(): React.JSX.Element {
             </section>
 
             {/* Use Cases */}
-            <section className="py-16">
+            <section className="pt-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl">
                         <h2 className="mb-12 text-center text-3xl font-bold text-foreground">
@@ -435,7 +453,7 @@ export default function MrChartPage(): React.JSX.Element {
             </section>
 
             {/* Awards Section */}
-            <section className="py-16">
+            <section className="pt-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl">
                         <Card className="bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20">
