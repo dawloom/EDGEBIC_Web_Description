@@ -24,7 +24,8 @@ export default function RunoutPage(): React.JSX.Element {
                             Operations Manager: Runout Analysis
                         </h1>
                         <p className="mb-8 text-xl md:text-2xl">
-                            Advanced runout analysis and control for precision manufacturing operations
+                            Advanced runout analysis and control for precision manufacturing
+                            operations
                         </p>
                         <div className="flex flex-col justify-center gap-4 sm:flex-row">
                             <Button
@@ -50,11 +51,19 @@ export default function RunoutPage(): React.JSX.Element {
                             </CardHeader>
                             <CardContent className="space-y-6">
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    Runout Analysis provides comprehensive tools for measuring, analyzing, and controlling rotational variations in manufacturing equipment and processes. This specialized module helps maintain precision tolerances, reduce vibration, and ensure consistent quality in machining and rotating equipment applications.
+                                    Runout Analysis provides comprehensive tools for measuring,
+                                    analyzing, and controlling rotational variations in
+                                    manufacturing equipment and processes. This specialized module
+                                    helps maintain precision tolerances, reduce vibration, and
+                                    ensure consistent quality in machining and rotating equipment
+                                    applications.
                                 </p>
 
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    From spindle runout measurement to bearing analysis, this powerful tool delivers the precision control needed for high-quality manufacturing operations while minimizing equipment wear and maximizing product consistency.
+                                    From spindle runout measurement to bearing analysis, this
+                                    powerful tool delivers the precision control needed for
+                                    high-quality manufacturing operations while minimizing
+                                    equipment wear and maximizing product consistency.
                                 </p>
                             </CardContent>
                         </Card>
@@ -78,7 +87,12 @@ export default function RunoutPage(): React.JSX.Element {
                                         The Challenge
                                     </h3>
                                     <p className="mb-4 text-muted-foreground">
-                                        AeroPrecision Manufacturing was experiencing quality issues with their CNC machining centers, including dimensional variations and surface finish problems. Spindle runout and tool deflection were causing parts to fall outside tolerance specifications, leading to increased scrap rates and customer complaints.
+                                        AeroPrecision Manufacturing was experiencing quality issues
+                                        with their CNC machining centers, including dimensional
+                                        variations and surface finish problems. Spindle runout and
+                                        tool deflection were causing parts to fall outside tolerance
+                                        specifications, leading to increased scrap rates and
+                                        customer complaints.
                                     </p>
                                 </div>
 
@@ -87,7 +101,12 @@ export default function RunoutPage(): React.JSX.Element {
                                         The Solution
                                     </h3>
                                     <p className="mb-4 text-muted-foreground">
-                                        Using Operations Manager's Runout Analysis module, the quality team implemented comprehensive spindle runout measurement protocols, bearing condition monitoring, and tool path optimization algorithms. The system provided real-time feedback and predictive maintenance recommendations.
+                                        Using Operations Manager's Runout Analysis module, the
+                                        quality team implemented comprehensive spindle runout
+                                        measurement protocols, bearing condition monitoring, and
+                                        tool path optimization algorithms. The system provided
+                                        real-time feedback and predictive maintenance
+                                        recommendations.
                                     </p>
                                 </div>
 
@@ -154,27 +173,35 @@ export default function RunoutPage(): React.JSX.Element {
                         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">Spindle Runout Measurement</CardTitle>
+                                    <CardTitle className="text-center">
+                                        Spindle Runout Measurement
+                                    </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Precise measurement of spindle radial and axial runout variations
+                                        Precise measurement of spindle radial and axial runout
+                                        variations
                                     </p>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">Bearing Analysis</CardTitle>
+                                    <CardTitle className="text-center">
+                                        Bearing Analysis
+                                    </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Comprehensive bearing condition assessment and wear monitoring
+                                        Comprehensive bearing condition assessment and wear
+                                        monitoring
                                     </p>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">Vibration Analysis</CardTitle>
+                                    <CardTitle className="text-center">
+                                        Vibration Analysis
+                                    </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
@@ -184,7 +211,9 @@ export default function RunoutPage(): React.JSX.Element {
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">Tool Path Optimization</CardTitle>
+                                    <CardTitle className="text-center">
+                                        Tool Path Optimization
+                                    </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
@@ -198,13 +227,16 @@ export default function RunoutPage(): React.JSX.Element {
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Statistical process control for runout-related quality metrics
+                                        Statistical process control for runout-related quality
+                                        metrics
                                     </p>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">Predictive Maintenance</CardTitle>
+                                    <CardTitle className="text-center">
+                                        Predictive Maintenance
+                                    </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">

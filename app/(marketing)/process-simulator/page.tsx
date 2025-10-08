@@ -50,11 +50,20 @@ export default function ProcessSimulatorPage(): React.JSX.Element {
                             </CardHeader>
                             <CardContent className="space-y-6">
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    Process Simulator is a comprehensive business process modeling and simulation tool designed to help organizations understand, analyze, and optimize their operational processes. With intuitive visual modeling capabilities and powerful simulation engines, it enables process improvement initiatives across all industries and business functions.
+                                    Process Simulator is a comprehensive business process modeling
+                                    and simulation tool designed to help organizations understand,
+                                    analyze, and optimize their operational processes. With
+                                    intuitive visual modeling capabilities and powerful simulation
+                                    engines, it enables process improvement initiatives across all
+                                    industries and business functions.
                                 </p>
 
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    From simple workflow analysis to complex multi-departmental processes, Process Simulator provides the tools needed to identify bottlenecks, reduce cycle times, and improve overall process efficiency through data-driven insights and scenario analysis.
+                                    From simple workflow analysis to complex multi-departmental
+                                    processes, Process Simulator provides the tools needed to
+                                    identify bottlenecks, reduce cycle times, and improve overall
+                                    process efficiency through data-driven insights and scenario
+                                    analysis.
                                 </p>
                             </CardContent>
                         </Card>
@@ -78,7 +87,12 @@ export default function ProcessSimulatorPage(): React.JSX.Element {
                                         The Challenge
                                     </h3>
                                     <p className="mb-4 text-muted-foreground">
-                                        GlobalInsure faced increasing customer complaints about lengthy claims processing times and inconsistent service quality. Their manual processes involved multiple departments, handoffs, and approval stages, making it difficult to identify where delays occurred and how to improve overall efficiency.
+                                        GlobalInsure faced increasing customer complaints about
+                                        lengthy claims processing times and inconsistent service
+                                        quality. Their manual processes involved multiple
+                                        departments, handoffs, and approval stages, making it
+                                        difficult to identify where delays occurred and how to
+                                        improve overall efficiency.
                                     </p>
                                 </div>
 
@@ -87,7 +101,11 @@ export default function ProcessSimulatorPage(): React.JSX.Element {
                                         The Solution
                                     </h3>
                                     <p className="mb-4 text-muted-foreground">
-                                        Using Process Simulator, the operations team mapped their entire claims processing workflow, from initial submission to final settlement. They modeled different claim types, approval hierarchies, and resource constraints to identify bottlenecks and test process improvement scenarios.
+                                        Using Process Simulator, the operations team mapped their
+                                        entire claims processing workflow, from initial submission
+                                        to final settlement. They modeled different claim types,
+                                        approval hierarchies, and resource constraints to identify
+                                        bottlenecks and test process improvement scenarios.
                                     </p>
                                 </div>
 
@@ -160,7 +178,8 @@ export default function ProcessSimulatorPage(): React.JSX.Element {
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Intuitive drag-and-drop interface for creating detailed process flowcharts and workflows
+                                        Intuitive drag-and-drop interface for creating detailed
+                                        process flowcharts and workflows
                                     </p>
                                 </CardContent>
                             </Card>
@@ -172,7 +191,8 @@ export default function ProcessSimulatorPage(): React.JSX.Element {
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Real-time simulation with animated process flows and resource utilization
+                                        Real-time simulation with animated process flows and
+                                        resource utilization
                                     </p>
                                 </CardContent>
                             </Card>
@@ -184,7 +204,8 @@ export default function ProcessSimulatorPage(): React.JSX.Element {
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Automatic identification of process constraints and performance bottlenecks
+                                        Automatic identification of process constraints and
+                                        performance bottlenecks
                                     </p>
                                 </CardContent>
                             </Card>
@@ -196,7 +217,8 @@ export default function ProcessSimulatorPage(): React.JSX.Element {
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Optimize staffing levels, equipment allocation, and resource scheduling
+                                        Optimize staffing levels, equipment allocation, and resource
+                                        scheduling
                                     </p>
                                 </CardContent>
                             </Card>
@@ -208,7 +230,8 @@ export default function ProcessSimulatorPage(): React.JSX.Element {
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Comprehensive reporting and KPI tracking for process performance
+                                        Comprehensive reporting and KPI tracking for process
+                                        performance
                                     </p>
                                 </CardContent>
                             </Card>
@@ -220,7 +243,8 @@ export default function ProcessSimulatorPage(): React.JSX.Element {
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Compare multiple process improvement scenarios and what-if analysis
+                                        Compare multiple process improvement scenarios and what-if
+                                        analysis
                                     </p>
                                 </CardContent>
                             </Card>

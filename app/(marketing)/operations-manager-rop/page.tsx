@@ -24,7 +24,8 @@ export default function OperationsManagerRopPage(): React.JSX.Element {
                             Operations Manager: ROP
                         </h1>
                         <p className="mb-8 text-xl md:text-2xl">
-                            Reorder Point optimization for intelligent inventory management and stock control
+                            Reorder Point optimization for intelligent inventory management
+                            and stock control
                         </p>
                         <div className="flex flex-col justify-center gap-4 sm:flex-row">
                             <Button
@@ -50,11 +51,18 @@ export default function OperationsManagerRopPage(): React.JSX.Element {
                             </CardHeader>
                             <CardContent className="space-y-6">
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    ROP (Reorder Point) provides sophisticated inventory management optimization by determining optimal reorder points that balance carrying costs with stockout risks. This essential module ensures optimal inventory levels while minimizing total inventory costs.
+                                    ROP (Reorder Point) provides sophisticated inventory
+                                    management optimization by determining optimal reorder points
+                                    that balance carrying costs with stockout risks. This
+                                    essential module ensures optimal inventory levels while
+                                    minimizing total inventory costs.
                                 </p>
 
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    From safety stock calculations to lead time variability analysis, ROP delivers data-driven inventory decisions that reduce waste, improve service levels, and optimize working capital management across your supply chain.
+                                    From safety stock calculations to lead time variability
+                                    analysis, ROP delivers data-driven inventory decisions that
+                                    reduce waste, improve service levels, and optimize working
+                                    capital management across your supply chain.
                                 </p>
                             </CardContent>
                         </Card>
@@ -78,7 +86,11 @@ export default function OperationsManagerRopPage(): React.JSX.Element {
                                         The Challenge
                                     </h3>
                                     <p className="mb-4 text-muted-foreground">
-                                        AutoParts Express struggled with inventory management across 200+ SKUs, experiencing frequent stockouts that caused customer dissatisfaction while simultaneously carrying excess inventory that tied up $2.8M in working capital. Their manual reorder points were inconsistent and reactive.
+                                        AutoParts Express struggled with inventory management across
+                                        200+ SKUs, experiencing frequent stockouts that caused
+                                        customer dissatisfaction while simultaneously carrying
+                                        excess inventory that tied up $2.8M in working capital.
+                                        Their manual reorder points were inconsistent and reactive.
                                     </p>
                                 </div>
 
@@ -87,7 +99,11 @@ export default function OperationsManagerRopPage(): React.JSX.Element {
                                         The Solution
                                     </h3>
                                     <p className="mb-4 text-muted-foreground">
-                                        Implementing Operations Manager's ROP module, the inventory team established scientifically calculated reorder points based on demand patterns, lead time variability, and service level targets. The system provided automated alerts and dynamic reorder point adjustments.
+                                        Implementing Operations Manager's ROP module, the inventory
+                                        team established scientifically calculated reorder points
+                                        based on demand patterns, lead time variability, and service
+                                        level targets. The system provided automated alerts and
+                                        dynamic reorder point adjustments.
                                     </p>
                                 </div>
 
@@ -154,47 +170,61 @@ export default function OperationsManagerRopPage(): React.JSX.Element {
                         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">Safety Stock Calculation</CardTitle>
+                                    <CardTitle className="text-center">
+                                        Safety Stock Calculation
+                                    </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Statistical safety stock optimization based on demand variability
+                                        Statistical safety stock optimization based on demand
+                                        variability
                                     </p>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">Lead Time Analysis</CardTitle>
+                                    <CardTitle className="text-center">
+                                        Lead Time Analysis
+                                    </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Advanced lead time variability modeling and uncertainty handling
+                                        Advanced lead time variability modeling and uncertainty
+                                        handling
                                     </p>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">Service Level Optimization</CardTitle>
+                                    <CardTitle className="text-center">
+                                        Service Level Optimization
+                                    </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Target service level achievement with minimum inventory investment
+                                        Target service level achievement with minimum inventory
+                                        investment
                                     </p>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">Demand Forecasting</CardTitle>
+                                    <CardTitle className="text-center">
+                                        Demand Forecasting
+                                    </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Integrated demand forecasting for accurate reorder point calculation
+                                        Integrated demand forecasting for accurate reorder point
+                                        calculation
                                     </p>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">Dynamic Adjustment</CardTitle>
+                                    <CardTitle className="text-center">
+                                        Dynamic Adjustment
+                                    </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
@@ -204,7 +234,9 @@ export default function OperationsManagerRopPage(): React.JSX.Element {
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">Multi-Location Support</CardTitle>
+                                    <CardTitle className="text-center">
+                                        Multi-Location Support
+                                    </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">

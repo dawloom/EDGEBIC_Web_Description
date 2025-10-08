@@ -24,7 +24,8 @@ export default function ConsultingPage(): React.JSX.Element {
                             Consulting Services
                         </h1>
                         <p className="mb-8 text-xl md:text-2xl">
-                            Expert simulation consulting to accelerate your optimization and decision-making success
+                            Expert simulation consulting to accelerate your optimization and
+                            decision-making success
                         </p>
                         <div className="flex flex-col justify-center gap-4 sm:flex-row">
                             <Button
@@ -50,11 +51,20 @@ export default function ConsultingPage(): React.JSX.Element {
                             </CardHeader>
                             <CardContent className="space-y-6">
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    Our expert consulting team brings decades of simulation modeling experience to help you achieve breakthrough results in operational efficiency, cost reduction, and strategic decision-making. From project kickoff to implementation success, we provide the expertise and guidance needed to maximize your simulation investment.
+                                    Our expert consulting team brings decades of simulation
+                                    modeling experience to help you achieve breakthrough results
+                                    in operational efficiency, cost reduction, and strategic
+                                    decision-making. From project kickoff to implementation
+                                    success, we provide the expertise and guidance needed to
+                                    maximize your simulation investment.
                                 </p>
 
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    Whether you need complete project outsourcing, specialized expertise for complex challenges, or strategic guidance for simulation program development, our consultants deliver proven methodologies and industry best practices tailored to your unique requirements.
+                                    Whether you need complete project outsourcing, specialized
+                                    expertise for complex challenges, or strategic guidance for
+                                    simulation program development, our consultants deliver proven
+                                    methodologies and industry best practices tailored to your
+                                    unique requirements.
                                 </p>
                             </CardContent>
                         </Card>
@@ -78,7 +88,11 @@ export default function ConsultingPage(): React.JSX.Element {
                                         The Challenge
                                     </h3>
                                     <p className="mb-4 text-muted-foreground">
-                                        MedCenter Health System faced critical capacity constraints across multiple facilities with patient wait times exceeding industry standards. They needed to optimize patient flow, reduce bottlenecks, and improve resource utilization while maintaining quality of care within budget constraints.
+                                        MedCenter Health System faced critical capacity constraints
+                                        across multiple facilities with patient wait times exceeding
+                                        industry standards. They needed to optimize patient flow,
+                                        reduce bottlenecks, and improve resource utilization while
+                                        maintaining quality of care within budget constraints.
                                     </p>
                                 </div>
 
@@ -87,7 +101,12 @@ export default function ConsultingPage(): React.JSX.Element {
                                         The Solution
                                     </h3>
                                     <p className="mb-4 text-muted-foreground">
-                                        Our consulting team conducted comprehensive analysis across emergency departments, surgical suites, and inpatient units. We developed detailed simulation models, performed extensive validation with clinical staff, and identified optimal staffing patterns, scheduling policies, and resource allocation strategies.
+                                        Our consulting team conducted comprehensive analysis across
+                                        emergency departments, surgical suites, and inpatient units.
+                                        We developed detailed simulation models, performed extensive
+                                        validation with clinical staff, and identified optimal
+                                        staffing patterns, scheduling policies, and resource
+                                        allocation strategies.
                                     </p>
                                 </div>
 
@@ -125,9 +144,7 @@ export default function ConsultingPage(): React.JSX.Element {
                                             </div>
                                             <div className="flex items-center">
                                                 <div className="mr-3 size-3 rounded-full bg-red-500" />
-                                                <span className="text-sm">
-                                                    $8M annual cost savings
-                                                </span>
+                                                <span className="text-sm">$8M annual cost savings</span>
                                             </div>
                                             <div className="flex items-center">
                                                 <div className="mr-3 size-3 rounded-full bg-teal-500" />
@@ -160,7 +177,8 @@ export default function ConsultingPage(): React.JSX.Element {
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Complete simulation project execution from concept to implementation
+                                        Complete simulation project execution from concept to
+                                        implementation
                                     </p>
                                 </CardContent>
                             </Card>
@@ -172,7 +190,8 @@ export default function ConsultingPage(): React.JSX.Element {
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Long-term simulation program development and technology roadmaps
+                                        Long-term simulation program development and technology
+                                        roadmaps
                                     </p>
                                 </CardContent>
                             </Card>
@@ -196,7 +215,8 @@ export default function ConsultingPage(): React.JSX.Element {
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Advanced optimization studies and performance improvement identification
+                                        Advanced optimization studies and performance improvement
+                                        identification
                                     </p>
                                 </CardContent>
                             </Card>
@@ -208,7 +228,8 @@ export default function ConsultingPage(): React.JSX.Element {
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        System integration with ERP, MES, and other enterprise platforms
+                                        System integration with ERP, MES, and other enterprise
+                                        platforms
                                     </p>
                                 </CardContent>
                             </Card>
@@ -220,7 +241,8 @@ export default function ConsultingPage(): React.JSX.Element {
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Organizational transformation and adoption support strategies
+                                        Organizational transformation and adoption support
+                                        strategies
                                     </p>
                                 </CardContent>
                             </Card>

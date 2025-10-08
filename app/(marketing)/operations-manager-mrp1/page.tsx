@@ -47,22 +47,26 @@ export default function Mrp1Page(): React.JSX.Element {
                             </CardHeader>
                             <CardContent className="space-y-6">
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    MRP1 computes weekly net requirements for an inventory item for up to 20 weeks
-                                    in the future. The model then schedules planned order releases and receipts to
-                                    satisfy those requirements. Leadtimes can range from 0 to 6 weeks. MRP1 can handle
-                                    a variety of practical complications in inventory planning, such as units
-                                    previously allocated to specific future production runs, previously scheduled order
-                                    receipts, lot sizing, safety stocks, and yields which are less than 100% of
-                                    production quantities.
+                                    MRP1 computes weekly net requirements for an inventory item
+                                    for up to 20 weeks in the future. The model then schedules
+                                    planned order releases and receipts to satisfy those
+                                    requirements. Leadtimes can range from 0 to 6 weeks. MRP1 can
+                                    handle a variety of practical complications in inventory
+                                    planning, such as units previously allocated to specific
+                                    future production runs, previously scheduled order receipts,
+                                    lot sizing, safety stocks, and yields which are less than 100%
+                                    of production quantities.
                                 </p>
 
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    MRP1 makes it easy to do a great deal of what-if analysis. A common problem in
-                                    lot-sizing is that it frequently leads to carrying excess stock during periods of
-                                    low demand. You can attempt to minimize excess stock by trying different lot
-                                    sizes. If leadtimes are uncertain, you can add "safety leadtime" by trying larger
-                                    leadtime values. If yields are uncertain, you can decrease the yield percentage.
-                                    Another option is the POQ model in the next section.
+                                    MRP1 makes it easy to do a great deal of what-if analysis. A
+                                    common problem in lot-sizing is that it frequently leads to
+                                    carrying excess stock during periods of low demand. You can
+                                    attempt to minimize excess stock by trying different lot
+                                    sizes. If leadtimes are uncertain, you can add "safety
+                                    leadtime" by trying larger leadtime values. If yields are
+                                    uncertain, you can decrease the yield percentage. Another
+                                    option is the POQ model in the next section.
                                 </p>
                             </CardContent>
                         </Card>

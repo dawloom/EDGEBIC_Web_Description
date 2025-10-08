@@ -24,7 +24,8 @@ export default function OperationsManagerSked1aaPage(): React.JSX.Element {
                             Operations Manager: Sked1AA
                         </h1>
                         <p className="mb-8 text-xl md:text-2xl">
-                            Advanced single-machine scheduling with automated algorithm optimization
+                            Advanced single-machine scheduling with automated algorithm
+                            optimization
                         </p>
                         <div className="flex flex-col justify-center gap-4 sm:flex-row">
                             <Button
@@ -50,11 +51,19 @@ export default function OperationsManagerSked1aaPage(): React.JSX.Element {
                             </CardHeader>
                             <CardContent className="space-y-6">
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    Sked1AA (Schedule 1 Automated Algorithm) provides sophisticated single-machine scheduling optimization using advanced algorithms to minimize makespan, total completion time, and tardiness. This powerful module automatically selects and applies the most appropriate scheduling algorithm based on job characteristics and objectives.
+                                    Sked1AA (Schedule 1 Automated Algorithm) provides
+                                    sophisticated single-machine scheduling optimization using
+                                    advanced algorithms to minimize makespan, total completion
+                                    time, and tardiness. This powerful module automatically
+                                    selects and applies the most appropriate scheduling algorithm
+                                    based on job characteristics and objectives.
                                 </p>
 
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    From job sequencing to deadline management, Sked1AA delivers optimal scheduling solutions that maximize machine utilization while meeting delivery commitments and minimizing operational costs.
+                                    From job sequencing to deadline management, Sked1AA delivers
+                                    optimal scheduling solutions that maximize machine utilization
+                                    while meeting delivery commitments and minimizing operational
+                                    costs.
                                 </p>
                             </CardContent>
                         </Card>
@@ -78,7 +87,11 @@ export default function OperationsManagerSked1aaPage(): React.JSX.Element {
                                         The Challenge
                                     </h3>
                                     <p className="mb-4 text-muted-foreground">
-                                        CustomParts Manufacturing operated a critical CNC machining center that processed diverse customer orders with varying priorities, due dates, and processing requirements. Manual scheduling led to frequent delays, machine idle time, and suboptimal resource utilization.
+                                        CustomParts Manufacturing operated a critical CNC machining
+                                        center that processed diverse customer orders with varying
+                                        priorities, due dates, and processing requirements. Manual
+                                        scheduling led to frequent delays, machine idle time, and
+                                        suboptimal resource utilization.
                                     </p>
                                 </div>
 
@@ -87,7 +100,11 @@ export default function OperationsManagerSked1aaPage(): React.JSX.Element {
                                         The Solution
                                     </h3>
                                     <p className="mb-4 text-muted-foreground">
-                                        Implementing Operations Manager's Sked1AA module, the production team automated their single-machine scheduling process. The system analyzed job characteristics, due dates, and priorities to automatically select and apply optimal scheduling algorithms for each production scenario.
+                                        Implementing Operations Manager's Sked1AA module, the
+                                        production team automated their single-machine scheduling
+                                        process. The system analyzed job characteristics, due dates,
+                                        and priorities to automatically select and apply optimal
+                                        scheduling algorithms for each production scenario.
                                     </p>
                                 </div>
 
@@ -154,21 +171,27 @@ export default function OperationsManagerSked1aaPage(): React.JSX.Element {
                         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">Shortest Processing Time</CardTitle>
+                                    <CardTitle className="text-center">
+                                        Shortest Processing Time
+                                    </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Minimizes average completion time and work-in-process inventory
+                                        Minimizes average completion time and work-in-process
+                                        inventory
                                     </p>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">Earliest Due Date</CardTitle>
+                                    <CardTitle className="text-center">
+                                        Earliest Due Date
+                                    </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Optimizes on-time delivery performance and customer satisfaction
+                                        Optimizes on-time delivery performance and customer
+                                        satisfaction
                                     </p>
                                 </CardContent>
                             </Card>
@@ -178,13 +201,16 @@ export default function OperationsManagerSked1aaPage(): React.JSX.Element {
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Balances due date urgency with remaining processing requirements
+                                        Balances due date urgency with remaining processing
+                                        requirements
                                     </p>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">Weighted Shortest Processing</CardTitle>
+                                    <CardTitle className="text-center">
+                                        Weighted Shortest Processing
+                                    </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
@@ -194,7 +220,9 @@ export default function OperationsManagerSked1aaPage(): React.JSX.Element {
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">Slack Time Remaining</CardTitle>
+                                    <CardTitle className="text-center">
+                                        Slack Time Remaining
+                                    </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
@@ -204,11 +232,14 @@ export default function OperationsManagerSked1aaPage(): React.JSX.Element {
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">Hybrid Optimization</CardTitle>
+                                    <CardTitle className="text-center">
+                                        Hybrid Optimization
+                                    </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Combines multiple algorithms for complex scheduling scenarios
+                                        Combines multiple algorithms for complex scheduling
+                                        scenarios
                                     </p>
                                 </CardContent>
                             </Card>

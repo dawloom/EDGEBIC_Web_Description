@@ -24,7 +24,8 @@ export default function PortfolioSimulatorPage(): React.JSX.Element {
                             Portfolio Simulator
                         </h1>
                         <p className="mb-8 text-xl md:text-2xl">
-                            Advanced financial simulation for investment portfolio optimization and risk analysis
+                            Advanced financial simulation for investment portfolio
+                            optimization and risk analysis
                         </p>
                         <div className="flex flex-col justify-center gap-4 sm:flex-row">
                             <Button
@@ -50,11 +51,19 @@ export default function PortfolioSimulatorPage(): React.JSX.Element {
                             </CardHeader>
                             <CardContent className="space-y-6">
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    Portfolio Simulator provides sophisticated Monte Carlo simulation capabilities for financial portfolio analysis, risk assessment, and investment strategy optimization. Model complex financial instruments, market scenarios, and portfolio behaviors to make informed investment decisions with confidence.
+                                    Portfolio Simulator provides sophisticated Monte Carlo
+                                    simulation capabilities for financial portfolio analysis, risk
+                                    assessment, and investment strategy optimization. Model
+                                    complex financial instruments, market scenarios, and portfolio
+                                    behaviors to make informed investment decisions with
+                                    confidence.
                                 </p>
 
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    From institutional asset management to individual investment planning, Portfolio Simulator helps financial professionals quantify risk, optimize returns, and validate investment strategies through comprehensive simulation-based analysis.
+                                    From institutional asset management to individual investment
+                                    planning, Portfolio Simulator helps financial professionals
+                                    quantify risk, optimize returns, and validate investment
+                                    strategies through comprehensive simulation-based analysis.
                                 </p>
                             </CardContent>
                         </Card>
@@ -78,7 +87,11 @@ export default function PortfolioSimulatorPage(): React.JSX.Element {
                                         The Challenge
                                     </h3>
                                     <p className="mb-4 text-muted-foreground">
-                                        GlobalPension managed a $50B diversified portfolio across multiple asset classes and geographical regions. They needed to assess portfolio risk under various market stress scenarios and optimize asset allocation to meet long-term liability obligations while managing downside risk.
+                                        GlobalPension managed a $50B diversified portfolio across
+                                        multiple asset classes and geographical regions. They needed
+                                        to assess portfolio risk under various market stress
+                                        scenarios and optimize asset allocation to meet long-term
+                                        liability obligations while managing downside risk.
                                     </p>
                                 </div>
 
@@ -87,7 +100,12 @@ export default function PortfolioSimulatorPage(): React.JSX.Element {
                                         The Solution
                                     </h3>
                                     <p className="mb-4 text-muted-foreground">
-                                        Using Portfolio Simulator, the investment team modeled their entire portfolio with correlated asset classes, incorporated market volatility patterns, and ran thousands of simulation scenarios. The analysis included stress testing, Value-at-Risk calculations, and optimal rebalancing strategies.
+                                        Using Portfolio Simulator, the investment team modeled their
+                                        entire portfolio with correlated asset classes, incorporated
+                                        market volatility patterns, and ran thousands of simulation
+                                        scenarios. The analysis included stress testing,
+                                        Value-at-Risk calculations, and optimal rebalancing
+                                        strategies.
                                     </p>
                                 </div>
 
@@ -160,31 +178,30 @@ export default function PortfolioSimulatorPage(): React.JSX.Element {
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Advanced stochastic modeling with multiple probability distributions and correlation structures
+                                        Advanced stochastic modeling with multiple probability
+                                        distributions and correlation structures
                                     </p>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">
-                                        Risk Analytics
-                                    </CardTitle>
+                                    <CardTitle className="text-center">Risk Analytics</CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Comprehensive risk metrics including VaR, CVaR, and stress testing capabilities
+                                        Comprehensive risk metrics including VaR, CVaR, and stress
+                                        testing capabilities
                                     </p>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">
-                                        Asset Modeling
-                                    </CardTitle>
+                                    <CardTitle className="text-center">Asset Modeling</CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Support for stocks, bonds, derivatives, alternatives, and custom instruments
+                                        Support for stocks, bonds, derivatives, alternatives, and
+                                        custom instruments
                                     </p>
                                 </CardContent>
                             </Card>
@@ -196,7 +213,8 @@ export default function PortfolioSimulatorPage(): React.JSX.Element {
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Market stress testing and what-if analysis for strategic planning
+                                        Market stress testing and what-if analysis for strategic
+                                        planning
                                     </p>
                                 </CardContent>
                             </Card>
@@ -208,7 +226,8 @@ export default function PortfolioSimulatorPage(): React.JSX.Element {
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Portfolio optimization with constraints and multi-objective functions
+                                        Portfolio optimization with constraints and multi-objective
+                                        functions
                                     </p>
                                 </CardContent>
                             </Card>
@@ -220,7 +239,8 @@ export default function PortfolioSimulatorPage(): React.JSX.Element {
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Interactive visualizations and executive-ready reports with key insights
+                                        Interactive visualizations and executive-ready reports with
+                                        key insights
                                     </p>
                                 </CardContent>
                             </Card>

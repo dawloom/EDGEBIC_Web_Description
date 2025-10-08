@@ -27,7 +27,10 @@ export default function Sked3aPage(): React.JSX.Element {
                             Job Sequencing For 3 Work Stations in Series
                         </p>
                         <div className="flex flex-col justify-center gap-4 sm:flex-row">
-                            <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
+                            <Button
+                                size="lg"
+                                className="bg-white text-blue-600 hover:bg-gray-100"
+                            >
                                 Buy Now
                             </Button>
                         </div>
@@ -41,24 +44,30 @@ export default function Sked3aPage(): React.JSX.Element {
                     <div className="mx-auto max-w-4xl">
                         <Card className="mb-8">
                             <CardHeader>
-                                <CardTitle className="text-center text-3xl">Job Sequencing For 3 Work Stations in Series (SKED3A)</CardTitle>
+                                <CardTitle className="text-center text-3xl">
+                                    Job Sequencing For 3 Work Stations in Series (SKED3A)
+                                </CardTitle>
                             </CardHeader>
                             <CardContent className="space-y-6">
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    SKED3A are designed for flow shops of 3 work stations arranged in series. Each
-                                    job receives exactly the same processing at each station. In such flow shops,
-                                    there is no attempt to minimize lateness; instead, the objective is to minimize the
+                                    SKED3A are designed for flow shops of 3 work stations arranged
+                                    in series. Each job receives exactly the same processing at
+                                    each station. In such flow shops, there is no attempt to
+                                    minimize lateness; instead, the objective is to minimize the
                                     total time needed to complete a batch of jobs.
                                 </p>
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    In both SKED2A and SKED3A, there
-                                    may be several alternative optimal solutions. Depending on how the jobs are
-                                    sequenced before running the Ctrl – Shift – J macro, the worksheet may generate
-                                    different sequences with the same makespan.
+                                    In both SKED2A and SKED3A, there may be several alternative
+                                    optimal solutions. Depending on how the jobs are sequenced
+                                    before running the Ctrl – Shift – J macro, the worksheet may
+                                    generate different sequences with the same makespan.
                                 </p>
-                                
+
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    From flow shop scheduling to job shop optimization, SKED2A delivers optimal production schedules that minimize makespan, reduce idle time, and maximize throughput while maintaining quality standards and delivery commitments.
+                                    From flow shop scheduling to job shop optimization, SKED2A
+                                    delivers optimal production schedules that minimize makespan,
+                                    reduce idle time, and maximize throughput while maintaining
+                                    quality standards and delivery commitments.
                                 </p>
                             </CardContent>
                         </Card>
@@ -67,57 +76,86 @@ export default function Sked3aPage(): React.JSX.Element {
             </section>
 
             {/* Case Study */}
-            <section className="py-16 bg-muted/50">
+            <section className="bg-muted/50 py-16">
                 <div className="container mx-auto px-4">
-                    <div className="max-w-4xl mx-auto">
+                    <div className="mx-auto max-w-4xl">
                         <Card>
                             <CardHeader>
-                                <CardTitle className="text-2xl text-center">Case Study: Automotive Parts Supplier</CardTitle>
+                                <CardTitle className="text-center text-2xl">
+                                    Case Study: Automotive Parts Supplier
+                                </CardTitle>
                             </CardHeader>
                             <CardContent className="space-y-6">
                                 <div>
-                                    <h3 className="text-xl font-semibold mb-3 text-blue-600">The Challenge</h3>
-                                    <p className="text-muted-foreground mb-4">
-                                        AutoParts Manufacturing struggled with excessive inventory levels, long lead times, and frequent stockouts. Their push-based production system created waste through overproduction and excess inventory holding costs. They needed to transition to a lean, pull-based system to improve efficiency and reduce costs.
+                                    <h3 className="mb-3 text-xl font-semibold text-blue-600">
+                                        The Challenge
+                                    </h3>
+                                    <p className="mb-4 text-muted-foreground">
+                                        AutoParts Manufacturing struggled with excessive inventory
+                                        levels, long lead times, and frequent stockouts. Their
+                                        push-based production system created waste through
+                                        overproduction and excess inventory holding costs. They
+                                        needed to transition to a lean, pull-based system to improve
+                                        efficiency and reduce costs.
                                     </p>
                                 </div>
-                                
+
                                 <div>
-                                    <h3 className="text-xl font-semibold mb-3 text-green-600">The Solution</h3>
-                                    <p className="text-muted-foreground mb-4">
-                                        Using Operations Manager's Kanban optimization tools, the company implemented a comprehensive pull-based production system. They calculated optimal kanban quantities, designed visual control systems, and established supplier kanban loops for just-in-time delivery.
+                                    <h3 className="mb-3 text-xl font-semibold text-green-600">
+                                        The Solution
+                                    </h3>
+                                    <p className="mb-4 text-muted-foreground">
+                                        Using Operations Manager's Kanban optimization tools, the
+                                        company implemented a comprehensive pull-based production
+                                        system. They calculated optimal kanban quantities, designed
+                                        visual control systems, and established supplier kanban
+                                        loops for just-in-time delivery.
                                     </p>
                                 </div>
-                                
+
                                 <div>
-                                    <h3 className="text-xl font-semibold mb-3 text-purple-600">Results Achieved</h3>
-                                    <div className="grid md:grid-cols-2 gap-4">
+                                    <h3 className="mb-3 text-xl font-semibold text-purple-600">
+                                        Results Achieved
+                                    </h3>
+                                    <div className="grid gap-4 md:grid-cols-2">
                                         <div className="space-y-2">
                                             <div className="flex items-center">
-                                                <div className="w-3 h-3 bg-green-500 rounded-full mr-3"></div>
-                                                <span className="text-sm">60% reduction in inventory levels</span>
+                                                <div className="mr-3 size-3 rounded-full bg-green-500" />
+                                                <span className="text-sm">
+                                                    60% reduction in inventory levels
+                                                </span>
                                             </div>
                                             <div className="flex items-center">
-                                                <div className="w-3 h-3 bg-blue-500 rounded-full mr-3"></div>
-                                                <span className="text-sm">45% decrease in lead times</span>
+                                                <div className="mr-3 size-3 rounded-full bg-blue-500" />
+                                                <span className="text-sm">
+                                                    45% decrease in lead times
+                                                </span>
                                             </div>
                                             <div className="flex items-center">
-                                                <div className="w-3 h-3 bg-purple-500 rounded-full mr-3"></div>
-                                                <span className="text-sm">80% reduction in stockouts</span>
+                                                <div className="mr-3 size-3 rounded-full bg-purple-500" />
+                                                <span className="text-sm">
+                                                    80% reduction in stockouts
+                                                </span>
                                             </div>
                                         </div>
                                         <div className="space-y-2">
                                             <div className="flex items-center">
-                                                <div className="w-3 h-3 bg-orange-500 rounded-full mr-3"></div>
-                                                <span className="text-sm">35% improvement in cash flow</span>
+                                                <div className="mr-3 size-3 rounded-full bg-orange-500" />
+                                                <span className="text-sm">
+                                                    35% improvement in cash flow
+                                                </span>
                                             </div>
                                             <div className="flex items-center">
-                                                <div className="w-3 h-3 bg-red-500 rounded-full mr-3"></div>
-                                                <span className="text-sm">50% reduction in warehousing costs</span>
+                                                <div className="mr-3 size-3 rounded-full bg-red-500" />
+                                                <span className="text-sm">
+                                                    50% reduction in warehousing costs
+                                                </span>
                                             </div>
                                             <div className="flex items-center">
-                                                <div className="w-3 h-3 bg-teal-500 rounded-full mr-3"></div>
-                                                <span className="text-sm">25% increase in productivity</span>
+                                                <div className="mr-3 size-3 rounded-full bg-teal-500" />
+                                                <span className="text-sm">
+                                                    25% increase in productivity
+                                                </span>
                                             </div>
                                         </div>
                                     </div>
@@ -131,28 +169,34 @@ export default function Sked3aPage(): React.JSX.Element {
             {/* Kanban Types */}
             <section className="py-16">
                 <div className="container mx-auto px-4">
-                    <div className="max-w-6xl mx-auto">
-                        <h2 className="text-3xl font-bold mb-12 text-center text-foreground">
+                    <div className="mx-auto max-w-6xl">
+                        <h2 className="mb-12 text-center text-3xl font-bold text-foreground">
                             Kanban System Types
                         </h2>
-                        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">Production Kanban</CardTitle>
+                                    <CardTitle className="text-center">
+                                        Production Kanban
+                                    </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Controls internal production flow and work-in-process inventory levels
+                                        Controls internal production flow and work-in-process
+                                        inventory levels
                                     </p>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">Withdrawal Kanban</CardTitle>
+                                    <CardTitle className="text-center">
+                                        Withdrawal Kanban
+                                    </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Manages material movement between production stages and inventory points
+                                        Manages material movement between production stages and
+                                        inventory points
                                     </p>
                                 </CardContent>
                             </Card>
@@ -162,7 +206,8 @@ export default function Sked3aPage(): React.JSX.Element {
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Coordinates external supplier deliveries for just-in-time procurement
+                                        Coordinates external supplier deliveries for just-in-time
+                                        procurement
                                     </p>
                                 </CardContent>
                             </Card>
@@ -172,13 +217,16 @@ export default function Sked3aPage(): React.JSX.Element {
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Triggers production or replenishment when minimum inventory levels are reached
+                                        Triggers production or replenishment when minimum inventory
+                                        levels are reached
                                     </p>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">Emergency Kanban</CardTitle>
+                                    <CardTitle className="text-center">
+                                        Emergency Kanban
+                                    </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
@@ -192,7 +240,8 @@ export default function Sked3aPage(): React.JSX.Element {
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Expedites critical orders or high-priority customer requirements
+                                        Expedites critical orders or high-priority customer
+                                        requirements
                                     </p>
                                 </CardContent>
                             </Card>
@@ -202,16 +251,18 @@ export default function Sked3aPage(): React.JSX.Element {
             </section>
 
             {/* Key Benefits */}
-            <section className="py-16 bg-muted/50">
+            <section className="bg-muted/50 py-16">
                 <div className="container mx-auto px-4">
-                    <div className="max-w-4xl mx-auto">
-                        <h2 className="text-3xl font-bold mb-12 text-center text-foreground">
+                    <div className="mx-auto max-w-4xl">
+                        <h2 className="mb-12 text-center text-3xl font-bold text-foreground">
                             Lean Manufacturing Benefits
                         </h2>
-                        <div className="grid md:grid-cols-2 gap-6">
+                        <div className="grid gap-6 md:grid-cols-2">
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-xl text-blue-600">Inventory Optimization</CardTitle>
+                                    <CardTitle className="text-xl text-blue-600">
+                                        Inventory Optimization
+                                    </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <ul className="space-y-2 text-muted-foreground">
@@ -224,7 +275,9 @@ export default function Sked3aPage(): React.JSX.Element {
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-xl text-green-600">Production Flow</CardTitle>
+                                    <CardTitle className="text-xl text-green-600">
+                                        Production Flow
+                                    </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <ul className="space-y-2 text-muted-foreground">
@@ -237,7 +290,9 @@ export default function Sked3aPage(): React.JSX.Element {
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-xl text-purple-600">Quality Control</CardTitle>
+                                    <CardTitle className="text-xl text-purple-600">
+                                        Quality Control
+                                    </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <ul className="space-y-2 text-muted-foreground">
@@ -250,7 +305,9 @@ export default function Sked3aPage(): React.JSX.Element {
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-xl text-orange-600">Cost Reduction</CardTitle>
+                                    <CardTitle className="text-xl text-orange-600">
+                                        Cost Reduction
+                                    </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <ul className="space-y-2 text-muted-foreground">
@@ -269,48 +326,61 @@ export default function Sked3aPage(): React.JSX.Element {
             {/* Implementation Steps */}
             <section className="py-16">
                 <div className="container mx-auto px-4">
-                    <div className="max-w-4xl mx-auto">
-                        <h2 className="text-3xl font-bold mb-12 text-center text-foreground">
+                    <div className="mx-auto max-w-4xl">
+                        <h2 className="mb-12 text-center text-3xl font-bold text-foreground">
                             Kanban Implementation Process
                         </h2>
                         <div className="space-y-6">
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-xl text-blue-600">1. Value Stream Mapping</CardTitle>
+                                    <CardTitle className="text-xl text-blue-600">
+                                        1. Value Stream Mapping
+                                    </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-muted-foreground">
-                                        Analyze current state production flow to identify waste, bottlenecks, and improvement opportunities for kanban implementation.
+                                        Analyze current state production flow to identify waste,
+                                        bottlenecks, and improvement opportunities for kanban
+                                        implementation.
                                     </p>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-xl text-green-600">2. Kanban Calculation</CardTitle>
+                                    <CardTitle className="text-xl text-green-600">
+                                        2. Kanban Calculation
+                                    </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-muted-foreground">
-                                        Calculate optimal number of kanban cards based on demand rates, lead times, safety factors, and container sizes.
+                                        Calculate optimal number of kanban cards based on demand
+                                        rates, lead times, safety factors, and container sizes.
                                     </p>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-xl text-purple-600">3. Visual Management</CardTitle>
+                                    <CardTitle className="text-xl text-purple-600">
+                                        3. Visual Management
+                                    </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-muted-foreground">
-                                        Design visual control systems including kanban boards, card designs, and signal mechanisms for effective communication.
+                                        Design visual control systems including kanban boards, card
+                                        designs, and signal mechanisms for effective communication.
                                     </p>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-xl text-orange-600">4. Continuous Improvement</CardTitle>
+                                    <CardTitle className="text-xl text-orange-600">
+                                        4. Continuous Improvement
+                                    </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-muted-foreground">
-                                        Implement monitoring systems and regular reviews to optimize kanban quantities and improve system performance.
+                                        Implement monitoring systems and regular reviews to optimize
+                                        kanban quantities and improve system performance.
                                     </p>
                                 </CardContent>
                             </Card>
@@ -320,16 +390,18 @@ export default function Sked3aPage(): React.JSX.Element {
             </section>
 
             {/* Applications */}
-            <section className="py-16 bg-muted/50">
+            <section className="bg-muted/50 py-16">
                 <div className="container mx-auto px-4">
-                    <div className="max-w-4xl mx-auto">
-                        <h2 className="text-3xl font-bold mb-12 text-center text-foreground">
+                    <div className="mx-auto max-w-4xl">
+                        <h2 className="mb-12 text-center text-3xl font-bold text-foreground">
                             Industry Applications
                         </h2>
-                        <div className="grid md:grid-cols-2 gap-6">
+                        <div className="grid gap-6 md:grid-cols-2">
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-xl text-blue-600">Automotive Manufacturing</CardTitle>
+                                    <CardTitle className="text-xl text-blue-600">
+                                        Automotive Manufacturing
+                                    </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <ul className="space-y-2 text-muted-foreground">
@@ -342,7 +414,9 @@ export default function Sked3aPage(): React.JSX.Element {
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-xl text-green-600">Electronics Manufacturing</CardTitle>
+                                    <CardTitle className="text-xl text-green-600">
+                                        Electronics Manufacturing
+                                    </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <ul className="space-y-2 text-muted-foreground">
@@ -355,7 +429,9 @@ export default function Sked3aPage(): React.JSX.Element {
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-xl text-purple-600">Pharmaceutical Manufacturing</CardTitle>
+                                    <CardTitle className="text-xl text-purple-600">
+                                        Pharmaceutical Manufacturing
+                                    </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <ul className="space-y-2 text-muted-foreground">
@@ -368,7 +444,9 @@ export default function Sked3aPage(): React.JSX.Element {
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-xl text-orange-600">Food & Beverage</CardTitle>
+                                    <CardTitle className="text-xl text-orange-600">
+                                        Food & Beverage
+                                    </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <ul className="space-y-2 text-muted-foreground">

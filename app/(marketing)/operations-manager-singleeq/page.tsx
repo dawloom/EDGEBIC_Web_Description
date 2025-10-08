@@ -24,7 +24,8 @@ export default function OperationsManagerSingleeqPage(): React.JSX.Element {
                             Operations Manager: SingleEQ
                         </h1>
                         <p className="mb-8 text-xl md:text-2xl">
-                            Single equation optimization for efficient resource allocation and scheduling
+                            Single equation optimization for efficient resource allocation and
+                            scheduling
                         </p>
                         <div className="flex flex-col justify-center gap-4 sm:flex-row">
                             <Button
@@ -50,11 +51,18 @@ export default function OperationsManagerSingleeqPage(): React.JSX.Element {
                             </CardHeader>
                             <CardContent className="space-y-6">
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    SingleEQ delivers powerful single equation optimization capabilities for solving complex operational problems with mathematical precision. This specialized module focuses on finding optimal solutions where a single relationship governs the entire system behavior.
+                                    SingleEQ delivers powerful single equation optimization
+                                    capabilities for solving complex operational problems with
+                                    mathematical precision. This specialized module focuses on
+                                    finding optimal solutions where a single relationship governs
+                                    the entire system behavior.
                                 </p>
 
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    From resource allocation to production scheduling, SingleEQ provides exact analytical solutions and numerical optimization for single-variable and multi-variable problems with proven mathematical algorithms.
+                                    From resource allocation to production scheduling, SingleEQ
+                                    provides exact analytical solutions and numerical optimization
+                                    for single-variable and multi-variable problems with proven
+                                    mathematical algorithms.
                                 </p>
                             </CardContent>
                         </Card>
@@ -78,7 +86,11 @@ export default function OperationsManagerSingleeqPage(): React.JSX.Element {
                                         The Challenge
                                     </h3>
                                     <p className="mb-4 text-muted-foreground">
-                                        PowerGrid Solutions needed to optimize energy distribution across their network to minimize transmission losses while meeting demand constraints. Their existing heuristic approaches were producing suboptimal solutions, resulting in 15% higher energy costs and inefficient load balancing.
+                                        PowerGrid Solutions needed to optimize energy distribution
+                                        across their network to minimize transmission losses while
+                                        meeting demand constraints. Their existing heuristic
+                                        approaches were producing suboptimal solutions, resulting in
+                                        15% higher energy costs and inefficient load balancing.
                                     </p>
                                 </div>
 
@@ -87,7 +99,11 @@ export default function OperationsManagerSingleeqPage(): React.JSX.Element {
                                         The Solution
                                     </h3>
                                     <p className="mb-4 text-muted-foreground">
-                                        Implementing Operations Manager's SingleEQ module, the engineering team developed a single equation model that captured the relationship between load distribution and transmission efficiency. The system optimized power flow using advanced mathematical optimization techniques.
+                                        Implementing Operations Manager's SingleEQ module, the
+                                        engineering team developed a single equation model that
+                                        captured the relationship between load distribution and
+                                        transmission efficiency. The system optimized power flow
+                                        using advanced mathematical optimization techniques.
                                     </p>
                                 </div>
 
@@ -119,9 +135,7 @@ export default function OperationsManagerSingleeqPage(): React.JSX.Element {
                                         <div className="space-y-2">
                                             <div className="flex items-center">
                                                 <div className="mr-3 size-3 rounded-full bg-orange-500" />
-                                                <span className="text-sm">
-                                                    95% solution accuracy
-                                                </span>
+                                                <span className="text-sm">95% solution accuracy</span>
                                             </div>
                                             <div className="flex items-center">
                                                 <div className="mr-3 size-3 rounded-full bg-red-500" />
@@ -154,17 +168,22 @@ export default function OperationsManagerSingleeqPage(): React.JSX.Element {
                         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">Linear Optimization</CardTitle>
+                                    <CardTitle className="text-center">
+                                        Linear Optimization
+                                    </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Efficient linear programming solutions with exact optimal results
+                                        Efficient linear programming solutions with exact optimal
+                                        results
                                     </p>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">Nonlinear Solving</CardTitle>
+                                    <CardTitle className="text-center">
+                                        Nonlinear Solving
+                                    </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
@@ -174,17 +193,22 @@ export default function OperationsManagerSingleeqPage(): React.JSX.Element {
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">Constraint Handling</CardTitle>
+                                    <CardTitle className="text-center">
+                                        Constraint Handling
+                                    </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Sophisticated constraint management and boundary optimization
+                                        Sophisticated constraint management and boundary
+                                        optimization
                                     </p>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">Sensitivity Analysis</CardTitle>
+                                    <CardTitle className="text-center">
+                                        Sensitivity Analysis
+                                    </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
@@ -194,7 +218,9 @@ export default function OperationsManagerSingleeqPage(): React.JSX.Element {
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">Solution Validation</CardTitle>
+                                    <CardTitle className="text-center">
+                                        Solution Validation
+                                    </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
@@ -204,11 +230,14 @@ export default function OperationsManagerSingleeqPage(): React.JSX.Element {
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">Multi-Variable Support</CardTitle>
+                                    <CardTitle className="text-center">
+                                        Multi-Variable Support
+                                    </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Optimization across multiple decision variables simultaneously
+                                        Optimization across multiple decision variables
+                                        simultaneously
                                     </p>
                                 </CardContent>
                             </Card>
