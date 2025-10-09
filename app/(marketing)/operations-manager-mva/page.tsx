@@ -36,7 +36,7 @@ export default function OperationsManagerMVAPage(): React.JSX.Element {
       </section>
 
       {/* Case Study */}
-      <section className="py-16 bg-gray-50">
+      <section className="pt-6 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold mb-8 text-center">
@@ -90,7 +90,7 @@ export default function OperationsManagerMVAPage(): React.JSX.Element {
       </section>
 
       {/* MVA Techniques */}
-      <section className="py-16">
+      <section className="pt-6">
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
             <h2 className="text-3xl font-bold mb-12 text-center">
@@ -157,7 +157,7 @@ export default function OperationsManagerMVAPage(): React.JSX.Element {
       </section>
 
       {/* Applications */}
-      <section className="py-16 bg-gray-50">
+      <section className="pt-6 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold mb-12 text-center">
@@ -214,7 +214,7 @@ export default function OperationsManagerMVAPage(): React.JSX.Element {
       </section>
 
       {/* Key Benefits */}
-      <section className="py-16">
+      <section className="pt-6">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-12">
@@ -259,7 +259,7 @@ export default function OperationsManagerMVAPage(): React.JSX.Element {
       </section>
 
       {/* Awards Section */}
-      <section className="py-16 bg-muted/50">
+      <section className="pt-6 bg-muted/50">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-8 text-foreground">

@@ -17,7 +17,7 @@ export default function OperationsManagerAppPage() {
       </div>
 
       {/* Content */}
-      <div className="container mx-auto px-4 py-16">
+      <div className="container mx-auto px-4 pt-6">
         <div className="mx-auto max-w-4xl">
           <div className="mb-12 text-center">
             <Link
@@ -259,7 +259,7 @@ export default function OperationsManagerAppPage() {
       </div>
 
       {/* Awards Section */}
-      <div className="bg-gray-100 py-16">
+      <div className="bg-gray-100 pt-6">
         <div className="container mx-auto px-4 text-center">
           <h2 className="mb-8 text-3xl font-bold text-gray-800">
             CELEBRATING 25 YEARS OF AWARD WINNING SOFTWARE!
