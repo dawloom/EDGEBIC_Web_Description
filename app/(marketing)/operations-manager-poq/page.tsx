@@ -42,7 +42,7 @@ export default function OperationsManagerPoqPage(): React.JSX.Element {
             <section className="pt-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl">
-                        <Card className="mb-8">
+                        <Card>
                             <CardHeader>
                                 <CardTitle className="text-center text-3xl">
                                     Period-Order-Quantity (POQ)
