@@ -9,7 +9,7 @@ export default function MedModelPage(): React.JSX.Element {
     return (
         <div className="min-h-screen bg-background">
             {/* Hero Section */}
-            <section className="bg-gradient-to-r from-blue-600 to-blue-800 py-16 text-white dark:from-blue-800 dark:to-blue-900">
+            <section className="bg-gradient-to-r from-blue-600 to-blue-800 py-6 text-white dark:from-blue-800 dark:to-blue-900">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl text-center">
                         <div className="mb-6">
@@ -20,11 +20,10 @@ export default function MedModelPage(): React.JSX.Element {
                                 HEALTHCARE SIMULATION
                             </Badge>
                         </div>
-                        <h1 className="mb-6 text-4xl font-bold md:text-6xl">
-                            MedModel
-                        </h1>
+                        <h1 className="mb-6 text-4xl font-bold md:text-6xl">MedModel</h1>
                         <p className="mb-8 text-xl md:text-2xl">
-                            Healthcare simulation and analysis for optimal patient care delivery
+                            Healthcare simulation and analysis for optimal patient care
+                            delivery
                         </p>
                         <div className="flex flex-col justify-center gap-4 sm:flex-row">
                             <Button
@@ -50,11 +49,19 @@ export default function MedModelPage(): React.JSX.Element {
                             </CardHeader>
                             <CardContent className="space-y-6">
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    MedModel is a specialized simulation software designed specifically for healthcare environments. It provides healthcare professionals and administrators with powerful tools to model, analyze, and optimize patient flow, resource utilization, and operational efficiency in hospitals, clinics, and other healthcare facilities.
+                                    MedModel is a specialized simulation software designed
+                                    specifically for healthcare environments. It provides
+                                    healthcare professionals and administrators with powerful
+                                    tools to model, analyze, and optimize patient flow, resource
+                                    utilization, and operational efficiency in hospitals, clinics,
+                                    and other healthcare facilities.
                                 </p>
 
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    From emergency departments to surgical suites, MedModel helps healthcare organizations improve patient outcomes, reduce wait times, and maximize resource efficiency while maintaining the highest standards of patient care and safety.
+                                    From emergency departments to surgical suites, MedModel helps
+                                    healthcare organizations improve patient outcomes, reduce wait
+                                    times, and maximize resource efficiency while maintaining the
+                                    highest standards of patient care and safety.
                                 </p>
                             </CardContent>
                         </Card>
@@ -78,7 +85,12 @@ export default function MedModelPage(): React.JSX.Element {
                                         The Challenge
                                     </h3>
                                     <p className="mb-4 text-muted-foreground">
-                                        Regional Medical Center's emergency department was experiencing severe overcrowding, long patient wait times, and frequent diversions. With increasing patient volumes and limited resources, they needed to optimize their operations without compromising patient care quality or safety standards.
+                                        Regional Medical Center's emergency department was
+                                        experiencing severe overcrowding, long patient wait times,
+                                        and frequent diversions. With increasing patient volumes and
+                                        limited resources, they needed to optimize their operations
+                                        without compromising patient care quality or safety
+                                        standards.
                                     </p>
                                 </div>
 
@@ -87,7 +99,12 @@ export default function MedModelPage(): React.JSX.Element {
                                         The Solution
                                     </h3>
                                     <p className="mb-4 text-muted-foreground">
-                                        Using MedModel, the hospital team created a comprehensive simulation model of their emergency department, including triage processes, treatment rooms, diagnostic procedures, and discharge workflows. They analyzed patient flow patterns, staffing requirements, and resource allocation to identify optimization opportunities.
+                                        Using MedModel, the hospital team created a comprehensive
+                                        simulation model of their emergency department, including
+                                        triage processes, treatment rooms, diagnostic procedures,
+                                        and discharge workflows. They analyzed patient flow
+                                        patterns, staffing requirements, and resource allocation to
+                                        identify optimization opportunities.
                                     </p>
                                 </div>
 
@@ -160,7 +177,8 @@ export default function MedModelPage(): React.JSX.Element {
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Model complex patient journeys from admission to discharge with healthcare-specific logic
+                                        Model complex patient journeys from admission to discharge
+                                        with healthcare-specific logic
                                     </p>
                                 </CardContent>
                             </Card>
@@ -172,7 +190,8 @@ export default function MedModelPage(): React.JSX.Element {
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Simulate evidence-based clinical care pathways and treatment protocols
+                                        Simulate evidence-based clinical care pathways and treatment
+                                        protocols
                                     </p>
                                 </CardContent>
                             </Card>
@@ -184,7 +203,8 @@ export default function MedModelPage(): React.JSX.Element {
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Optimize physician, nurse, and support staff scheduling for maximum efficiency
+                                        Optimize physician, nurse, and support staff scheduling for
+                                        maximum efficiency
                                     </p>
                                 </CardContent>
                             </Card>
@@ -196,19 +216,19 @@ export default function MedModelPage(): React.JSX.Element {
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Analyze bed capacity, OR utilization, and equipment requirements
+                                        Analyze bed capacity, OR utilization, and equipment
+                                        requirements
                                     </p>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">
-                                        Quality Metrics
-                                    </CardTitle>
+                                    <CardTitle className="text-center">Quality Metrics</CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Track healthcare quality indicators and patient safety metrics
+                                        Track healthcare quality indicators and patient safety
+                                        metrics
                                     </p>
                                 </CardContent>
                             </Card>
@@ -220,7 +240,8 @@ export default function MedModelPage(): React.JSX.Element {
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Ensure compliance with healthcare regulations and accreditation standards
+                                        Ensure compliance with healthcare regulations and
+                                        accreditation standards
                                     </p>
                                 </CardContent>
                             </Card>

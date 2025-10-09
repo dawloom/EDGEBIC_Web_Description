@@ -9,7 +9,7 @@ export default function StatFitPage(): React.JSX.Element {
     return (
         <div className="min-h-screen bg-background">
             {/* Hero Section */}
-            <section className="bg-gradient-to-r from-blue-600 to-blue-800 py-16 text-white dark:from-blue-800 dark:to-blue-900">
+            <section className="bg-gradient-to-r from-blue-600 to-blue-800 py-6 text-white dark:from-blue-800 dark:to-blue-900">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl text-center">
                         <div className="mb-6">
@@ -20,11 +20,10 @@ export default function StatFitPage(): React.JSX.Element {
                                 STATISTICAL ANALYSIS
                             </Badge>
                         </div>
-                        <h1 className="mb-6 text-4xl font-bold md:text-6xl">
-                            Stat::Fit
-                        </h1>
+                        <h1 className="mb-6 text-4xl font-bold md:text-6xl">Stat::Fit</h1>
                         <p className="mb-8 text-xl md:text-2xl">
-                            Statistical distribution fitting and data analysis for accurate modeling
+                            Statistical distribution fitting and data analysis for accurate
+                            modeling
                         </p>
                         <div className="flex flex-col justify-center gap-4 sm:flex-row">
                             <Button
@@ -50,11 +49,19 @@ export default function StatFitPage(): React.JSX.Element {
                             </CardHeader>
                             <CardContent className="space-y-6">
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    Stat::Fit is a powerful statistical software application designed to help analysts, engineers, and researchers identify the best probability distributions for their data sets. By providing comprehensive distribution fitting capabilities, it enables accurate modeling and simulation of real-world processes and systems.
+                                    Stat::Fit is a powerful statistical software application
+                                    designed to help analysts, engineers, and researchers identify
+                                    the best probability distributions for their data sets. By
+                                    providing comprehensive distribution fitting capabilities, it
+                                    enables accurate modeling and simulation of real-world
+                                    processes and systems.
                                 </p>
 
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    From quality control to risk analysis, Stat::Fit provides the statistical foundation necessary for building reliable simulation models, conducting accurate forecasts, and making data-driven decisions with confidence.
+                                    From quality control to risk analysis, Stat::Fit provides the
+                                    statistical foundation necessary for building reliable
+                                    simulation models, conducting accurate forecasts, and making
+                                    data-driven decisions with confidence.
                                 </p>
                             </CardContent>
                         </Card>
@@ -78,7 +85,12 @@ export default function StatFitPage(): React.JSX.Element {
                                         The Challenge
                                     </h3>
                                     <p className="mb-4 text-muted-foreground">
-                                        PrecisionTech Manufacturing needed to improve their quality control processes by accurately modeling machine performance variations and defect rates. Their existing statistical analysis was based on assumptions rather than data-driven distribution fitting, leading to inaccurate predictions and suboptimal quality control decisions.
+                                        PrecisionTech Manufacturing needed to improve their quality
+                                        control processes by accurately modeling machine performance
+                                        variations and defect rates. Their existing statistical
+                                        analysis was based on assumptions rather than data-driven
+                                        distribution fitting, leading to inaccurate predictions and
+                                        suboptimal quality control decisions.
                                     </p>
                                 </div>
 
@@ -87,7 +99,12 @@ export default function StatFitPage(): React.JSX.Element {
                                         The Solution
                                     </h3>
                                     <p className="mb-4 text-muted-foreground">
-                                        Using Stat::Fit, the quality engineering team analyzed historical production data to identify the best-fitting probability distributions for machine cycle times, defect occurrences, and measurement variations. These distributions were then used in their simulation models and statistical process control systems.
+                                        Using Stat::Fit, the quality engineering team analyzed
+                                        historical production data to identify the best-fitting
+                                        probability distributions for machine cycle times, defect
+                                        occurrences, and measurement variations. These distributions
+                                        were then used in their simulation models and statistical
+                                        process control systems.
                                     </p>
                                 </div>
 
@@ -160,7 +177,8 @@ export default function StatFitPage(): React.JSX.Element {
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Automatic fitting of 40+ probability distributions with goodness-of-fit tests
+                                        Automatic fitting of 40+ probability distributions with
+                                        goodness-of-fit tests
                                     </p>
                                 </CardContent>
                             </Card>
@@ -172,7 +190,8 @@ export default function StatFitPage(): React.JSX.Element {
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Chi-square, Kolmogorov-Smirnov, and Anderson-Darling statistical tests
+                                        Chi-square, Kolmogorov-Smirnov, and Anderson-Darling
+                                        statistical tests
                                     </p>
                                 </CardContent>
                             </Card>
@@ -184,7 +203,8 @@ export default function StatFitPage(): React.JSX.Element {
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Histograms, Q-Q plots, P-P plots, and probability density functions
+                                        Histograms, Q-Q plots, P-P plots, and probability density
+                                        functions
                                     </p>
                                 </CardContent>
                             </Card>
@@ -196,7 +216,8 @@ export default function StatFitPage(): React.JSX.Element {
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Maximum likelihood estimation and method of moments parameter fitting
+                                        Maximum likelihood estimation and method of moments
+                                        parameter fitting
                                     </p>
                                 </CardContent>
                             </Card>
@@ -208,7 +229,8 @@ export default function StatFitPage(): React.JSX.Element {
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Generate random variates from fitted distributions for simulation models
+                                        Generate random variates from fitted distributions for
+                                        simulation models
                                     </p>
                                 </CardContent>
                             </Card>
@@ -220,7 +242,8 @@ export default function StatFitPage(): React.JSX.Element {
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Export results to Excel, simulation software, and statistical packages
+                                        Export results to Excel, simulation software, and
+                                        statistical packages
                                     </p>
                                 </CardContent>
                             </Card>

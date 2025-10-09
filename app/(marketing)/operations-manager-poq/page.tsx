@@ -9,7 +9,7 @@ export default function OperationsManagerPoqPage(): React.JSX.Element {
     return (
         <div className="min-h-screen bg-background">
             {/* Hero Section */}
-            <section className="bg-gradient-to-r from-blue-600 to-blue-800 py-16 text-white dark:from-blue-800 dark:to-blue-900">
+            <section className="bg-gradient-to-r from-blue-600 to-blue-800 py-6 text-white dark:from-blue-800 dark:to-blue-900">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl text-center">
                         <div className="mb-6">
@@ -23,9 +23,7 @@ export default function OperationsManagerPoqPage(): React.JSX.Element {
                         <h1 className="mb-6 text-4xl font-bold md:text-6xl">
                             Operations Manager: POQ
                         </h1>
-                        <p className="mb-8 text-xl md:text-2xl">
-                            Period-Order-Quantity
-                        </p>
+                        <p className="mb-8 text-xl md:text-2xl">Period-Order-Quantity</p>
                         <div className="flex flex-col justify-center gap-4 sm:flex-row">
                             <Button
                                 size="lg"
@@ -50,7 +48,19 @@ export default function OperationsManagerPoqPage(): React.JSX.Element {
                             </CardHeader>
                             <CardContent className="space-y-6">
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    Production economics may dictate the use of lot-sizing in MRP systems but the EOQ rarely works very well. The problem is that the EOQ is based on the assumption that demand is continuous and uniform. In MRP systems, demand for component parts tends to be "lumpy," that is, discontinuous and nonuniform, with frequent periods of zero demand. When the EOQ is applied to lumpy demand, lot sizes usually don't cover whole periods of demand. The result is that unnecessary inventory is often carried during the periods following the receipt of a lot. This unnecessary inventory is called "remnants" because it is left over from previous lots. The period-order-quantity (POQ) model was designed to avoid remnants and give lower costs with lumpy demand.
+                                    Production economics may dictate the use of lot-sizing in MRP
+                                    systems but the EOQ rarely works very well. The problem is
+                                    that the EOQ is based on the assumption that demand is
+                                    continuous and uniform. In MRP systems, demand for component
+                                    parts tends to be "lumpy," that is, discontinuous and
+                                    nonuniform, with frequent periods of zero demand. When the EOQ
+                                    is applied to lumpy demand, lot sizes usually don't cover
+                                    whole periods of demand. The result is that unnecessary
+                                    inventory is often carried during the periods following the
+                                    receipt of a lot. This unnecessary inventory is called
+                                    "remnants" because it is left over from previous lots. The
+                                    period-order-quantity (POQ) model was designed to avoid
+                                    remnants and give lower costs with lumpy demand.
                                 </p>
                             </CardContent>
                         </Card>

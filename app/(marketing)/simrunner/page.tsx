@@ -9,7 +9,7 @@ export default function SimRunnerPage(): React.JSX.Element {
     return (
         <div className="min-h-screen bg-background">
             {/* Hero Section */}
-            <section className="bg-gradient-to-r from-blue-600 to-blue-800 py-16 text-white dark:from-blue-800 dark:to-blue-900">
+            <section className="bg-gradient-to-r from-blue-600 to-blue-800 py-6 text-white dark:from-blue-800 dark:to-blue-900">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl text-center">
                         <div className="mb-6">
@@ -20,11 +20,10 @@ export default function SimRunnerPage(): React.JSX.Element {
                                 SIMULATION OPTIMIZATION
                             </Badge>
                         </div>
-                        <h1 className="mb-6 text-4xl font-bold md:text-6xl">
-                            SimRunner
-                        </h1>
+                        <h1 className="mb-6 text-4xl font-bold md:text-6xl">SimRunner</h1>
                         <p className="mb-8 text-xl md:text-2xl">
-                            Simulation optimization and experimentation for breakthrough performance
+                            Simulation optimization and experimentation for breakthrough
+                            performance
                         </p>
                         <div className="flex flex-col justify-center gap-4 sm:flex-row">
                             <Button
@@ -50,11 +49,20 @@ export default function SimRunnerPage(): React.JSX.Element {
                             </CardHeader>
                             <CardContent className="space-y-6">
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    SimRunner is an advanced simulation optimization tool that automatically searches for the best system configuration by intelligently exploring the solution space. Using sophisticated optimization algorithms, it finds optimal parameter settings that maximize or minimize specified performance measures in your simulation models.
+                                    SimRunner is an advanced simulation optimization tool that
+                                    automatically searches for the best system configuration by
+                                    intelligently exploring the solution space. Using
+                                    sophisticated optimization algorithms, it finds optimal
+                                    parameter settings that maximize or minimize specified
+                                    performance measures in your simulation models.
                                 </p>
 
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    From manufacturing systems to service operations, SimRunner transforms simulation from analysis to optimization, enabling organizations to discover breakthrough performance improvements that would be impossible to find through manual experimentation.
+                                    From manufacturing systems to service operations, SimRunner
+                                    transforms simulation from analysis to optimization, enabling
+                                    organizations to discover breakthrough performance
+                                    improvements that would be impossible to find through manual
+                                    experimentation.
                                 </p>
                             </CardContent>
                         </Card>
@@ -78,7 +86,12 @@ export default function SimRunnerPage(): React.JSX.Element {
                                         The Challenge
                                     </h3>
                                     <p className="mb-4 text-muted-foreground">
-                                        LogisticsPro operated a complex distribution center with hundreds of controllable parameters including staffing levels, equipment allocation, routing policies, and scheduling rules. Manual optimization was impractical due to the vast number of possible combinations and their complex interactions.
+                                        LogisticsPro operated a complex distribution center with
+                                        hundreds of controllable parameters including staffing
+                                        levels, equipment allocation, routing policies, and
+                                        scheduling rules. Manual optimization was impractical due to
+                                        the vast number of possible combinations and their complex
+                                        interactions.
                                     </p>
                                 </div>
 
@@ -87,7 +100,11 @@ export default function SimRunnerPage(): React.JSX.Element {
                                         The Solution
                                     </h3>
                                     <p className="mb-4 text-muted-foreground">
-                                        Using SimRunner with their ProModel simulation, the operations team defined optimization objectives (minimize cost while maintaining service levels) and specified controllable factors. SimRunner automatically ran thousands of simulation experiments to find the optimal configuration.
+                                        Using SimRunner with their ProModel simulation, the
+                                        operations team defined optimization objectives (minimize
+                                        cost while maintaining service levels) and specified
+                                        controllable factors. SimRunner automatically ran thousands
+                                        of simulation experiments to find the optimal configuration.
                                     </p>
                                 </div>
 
@@ -160,7 +177,8 @@ export default function SimRunnerPage(): React.JSX.Element {
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Advanced genetic algorithms for finding global optima in complex solution spaces
+                                        Advanced genetic algorithms for finding global optima in
+                                        complex solution spaces
                                     </p>
                                 </CardContent>
                             </Card>
@@ -172,7 +190,8 @@ export default function SimRunnerPage(): React.JSX.Element {
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        AI-powered metamodels to accelerate optimization and reduce simulation runs
+                                        AI-powered metamodels to accelerate optimization and reduce
+                                        simulation runs
                                     </p>
                                 </CardContent>
                             </Card>
@@ -184,7 +203,8 @@ export default function SimRunnerPage(): React.JSX.Element {
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Simultaneous optimization of multiple conflicting objectives with Pareto frontiers
+                                        Simultaneous optimization of multiple conflicting objectives
+                                        with Pareto frontiers
                                     </p>
                                 </CardContent>
                             </Card>
@@ -196,7 +216,8 @@ export default function SimRunnerPage(): React.JSX.Element {
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Statistical experimental design for efficient factor screening and analysis
+                                        Statistical experimental design for efficient factor
+                                        screening and analysis
                                     </p>
                                 </CardContent>
                             </Card>
@@ -208,7 +229,8 @@ export default function SimRunnerPage(): React.JSX.Element {
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Identify critical factors and their impact on system performance
+                                        Identify critical factors and their impact on system
+                                        performance
                                     </p>
                                 </CardContent>
                             </Card>
@@ -220,7 +242,8 @@ export default function SimRunnerPage(): React.JSX.Element {
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Comprehensive optimization reports with statistical analysis and recommendations
+                                        Comprehensive optimization reports with statistical analysis
+                                        and recommendations
                                     </p>
                                 </CardContent>
                             </Card>

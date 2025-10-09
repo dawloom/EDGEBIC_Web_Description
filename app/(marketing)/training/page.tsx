@@ -9,7 +9,7 @@ export default function TrainingPage(): React.JSX.Element {
     return (
         <div className="min-h-screen bg-background">
             {/* Hero Section */}
-            <section className="bg-gradient-to-r from-blue-600 to-blue-800 py-16 text-white dark:from-blue-800 dark:to-blue-900">
+            <section className="bg-gradient-to-r from-blue-600 to-blue-800 py-6 text-white dark:from-blue-800 dark:to-blue-900">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl text-center">
                         <div className="mb-6">
@@ -24,7 +24,8 @@ export default function TrainingPage(): React.JSX.Element {
                             Training Services
                         </h1>
                         <p className="mb-8 text-xl md:text-2xl">
-                            Comprehensive simulation modeling training programs for maximum software proficiency
+                            Comprehensive simulation modeling training programs for maximum
+                            software proficiency
                         </p>
                         <div className="flex flex-col justify-center gap-4 sm:flex-row">
                             <Button
@@ -50,11 +51,18 @@ export default function TrainingPage(): React.JSX.Element {
                             </CardHeader>
                             <CardContent className="space-y-6">
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    Our comprehensive training programs are designed to maximize your team's proficiency with simulation modeling software. From basic concepts to advanced optimization techniques, we provide hands-on instruction that accelerates learning and ensures successful project implementation.
+                                    Our comprehensive training programs are designed to maximize
+                                    your team's proficiency with simulation modeling software.
+                                    From basic concepts to advanced optimization techniques, we
+                                    provide hands-on instruction that accelerates learning and
+                                    ensures successful project implementation.
                                 </p>
 
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    Whether you're implementing simulation for the first time or expanding existing capabilities, our expert instructors deliver customized training that meets your organization's specific needs and industry requirements.
+                                    Whether you're implementing simulation for the first time or
+                                    expanding existing capabilities, our expert instructors
+                                    deliver customized training that meets your organization's
+                                    specific needs and industry requirements.
                                 </p>
                             </CardContent>
                         </Card>
@@ -78,7 +86,11 @@ export default function TrainingPage(): React.JSX.Element {
                                         The Challenge
                                     </h3>
                                     <p className="mb-4 text-muted-foreground">
-                                        TechManufacturing acquired simulation software to optimize their production lines but lacked internal expertise. Their engineering team needed comprehensive training to build models, analyze results, and make data-driven improvements within tight project deadlines.
+                                        TechManufacturing acquired simulation software to optimize
+                                        their production lines but lacked internal expertise. Their
+                                        engineering team needed comprehensive training to build
+                                        models, analyze results, and make data-driven improvements
+                                        within tight project deadlines.
                                     </p>
                                 </div>
 
@@ -87,7 +99,11 @@ export default function TrainingPage(): React.JSX.Element {
                                         The Solution
                                     </h3>
                                     <p className="mb-4 text-muted-foreground">
-                                        We designed a custom 3-week training program combining classroom instruction, hands-on workshops, and real-world project mentoring. The curriculum covered model building, validation techniques, experimentation methods, and advanced optimization using their actual production data.
+                                        We designed a custom 3-week training program combining
+                                        classroom instruction, hands-on workshops, and real-world
+                                        project mentoring. The curriculum covered model building,
+                                        validation techniques, experimentation methods, and advanced
+                                        optimization using their actual production data.
                                     </p>
                                 </div>
 
@@ -131,9 +147,7 @@ export default function TrainingPage(): React.JSX.Element {
                                             </div>
                                             <div className="flex items-center">
                                                 <div className="mr-3 size-3 rounded-full bg-teal-500" />
-                                                <span className="text-sm">
-                                                    $2M ROI within 6 months
-                                                </span>
+                                                <span className="text-sm">$2M ROI within 6 months</span>
                                             </div>
                                         </div>
                                     </div>
@@ -160,7 +174,8 @@ export default function TrainingPage(): React.JSX.Element {
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Essential simulation concepts, basic modeling techniques, and software navigation
+                                        Essential simulation concepts, basic modeling techniques,
+                                        and software navigation
                                     </p>
                                 </CardContent>
                             </Card>
@@ -172,7 +187,8 @@ export default function TrainingPage(): React.JSX.Element {
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Complex system modeling, custom logic development, and integration techniques
+                                        Complex system modeling, custom logic development, and
+                                        integration techniques
                                     </p>
                                 </CardContent>
                             </Card>
@@ -184,7 +200,8 @@ export default function TrainingPage(): React.JSX.Element {
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Experimental design, optimization algorithms, and decision analysis
+                                        Experimental design, optimization algorithms, and decision
+                                        analysis
                                     </p>
                                 </CardContent>
                             </Card>
@@ -196,7 +213,8 @@ export default function TrainingPage(): React.JSX.Element {
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Sector-specific modeling approaches for manufacturing, healthcare, and logistics
+                                        Sector-specific modeling approaches for manufacturing,
+                                        healthcare, and logistics
                                     </p>
                                 </CardContent>
                             </Card>
@@ -208,7 +226,8 @@ export default function TrainingPage(): React.JSX.Element {
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Database connectivity, data analysis, and real-time system integration
+                                        Database connectivity, data analysis, and real-time system
+                                        integration
                                     </p>
                                 </CardContent>
                             </Card>
@@ -220,7 +239,8 @@ export default function TrainingPage(): React.JSX.Element {
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Tailored training programs designed for specific organizational needs and goals
+                                        Tailored training programs designed for specific
+                                        organizational needs and goals
                                     </p>
                                 </CardContent>
                             </Card>

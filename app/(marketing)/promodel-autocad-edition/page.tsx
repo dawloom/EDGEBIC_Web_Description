@@ -9,7 +9,7 @@ export default function ProModelAutoCADEditionPage(): React.JSX.Element {
     return (
         <div className="min-h-screen bg-background">
             {/* Hero Section */}
-            <section className="bg-gradient-to-r from-blue-600 to-blue-800 py-16 text-white dark:from-blue-800 dark:to-blue-900">
+            <section className="bg-gradient-to-r from-blue-600 to-blue-800 py-6 text-white dark:from-blue-800 dark:to-blue-900">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl text-center">
                         <div className="mb-6">
@@ -24,7 +24,8 @@ export default function ProModelAutoCADEditionPage(): React.JSX.Element {
                             ProModel AutoCAD Edition
                         </h1>
                         <p className="mb-8 text-xl md:text-2xl">
-                            CAD-integrated simulation for seamless design and analysis workflow
+                            CAD-integrated simulation for seamless design and analysis
+                            workflow
                         </p>
                         <div className="flex flex-col justify-center gap-4 sm:flex-row">
                             <Button
@@ -50,11 +51,19 @@ export default function ProModelAutoCADEditionPage(): React.JSX.Element {
                             </CardHeader>
                             <CardContent className="space-y-6">
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    ProModel AutoCAD Edition seamlessly integrates discrete event simulation with AutoCAD's powerful design environment. This unique combination allows engineers and designers to perform simulation analysis directly within their familiar CAD workspace, eliminating the need for separate modeling environments and data translation.
+                                    ProModel AutoCAD Edition seamlessly integrates discrete event
+                                    simulation with AutoCAD's powerful design environment. This
+                                    unique combination allows engineers and designers to perform
+                                    simulation analysis directly within their familiar CAD
+                                    workspace, eliminating the need for separate modeling
+                                    environments and data translation.
                                 </p>
 
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    From factory floor layouts to logistics systems, this integrated solution enables rapid prototyping, design validation, and optimization of complex systems while maintaining design integrity and reducing development time.
+                                    From factory floor layouts to logistics systems, this
+                                    integrated solution enables rapid prototyping, design
+                                    validation, and optimization of complex systems while
+                                    maintaining design integrity and reducing development time.
                                 </p>
                             </CardContent>
                         </Card>
@@ -78,7 +87,12 @@ export default function ProModelAutoCADEditionPage(): React.JSX.Element {
                                         The Challenge
                                     </h3>
                                     <p className="mb-4 text-muted-foreground">
-                                        TechLogistics needed to design a new automated warehouse facility with complex material handling systems, robotic storage, and retrieval systems. Traditional simulation tools required extensive model rebuilding when design changes were made, creating delays and potential errors in the design process.
+                                        TechLogistics needed to design a new automated warehouse
+                                        facility with complex material handling systems, robotic
+                                        storage, and retrieval systems. Traditional simulation tools
+                                        required extensive model rebuilding when design changes were
+                                        made, creating delays and potential errors in the design
+                                        process.
                                     </p>
                                 </div>
 
@@ -87,7 +101,12 @@ export default function ProModelAutoCADEditionPage(): React.JSX.Element {
                                         The Solution
                                     </h3>
                                     <p className="mb-4 text-muted-foreground">
-                                        Using ProModel AutoCAD Edition, the design team created the warehouse layout directly in AutoCAD and added simulation logic to analyze material flow, equipment utilization, and system performance. Design iterations were tested immediately without model recreation, enabling rapid optimization cycles.
+                                        Using ProModel AutoCAD Edition, the design team created the
+                                        warehouse layout directly in AutoCAD and added simulation
+                                        logic to analyze material flow, equipment utilization, and
+                                        system performance. Design iterations were tested
+                                        immediately without model recreation, enabling rapid
+                                        optimization cycles.
                                     </p>
                                 </div>
 
@@ -160,7 +179,8 @@ export default function ProModelAutoCADEditionPage(): React.JSX.Element {
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Direct integration within AutoCAD environment with full access to CAD tools and libraries
+                                        Direct integration within AutoCAD environment with full
+                                        access to CAD tools and libraries
                                     </p>
                                 </CardContent>
                             </Card>
@@ -172,7 +192,8 @@ export default function ProModelAutoCADEditionPage(): React.JSX.Element {
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Convert CAD drawings into simulation models with intelligent object recognition
+                                        Convert CAD drawings into simulation models with intelligent
+                                        object recognition
                                     </p>
                                 </CardContent>
                             </Card>
@@ -184,7 +205,8 @@ export default function ProModelAutoCADEditionPage(): React.JSX.Element {
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Automatic updates between CAD design changes and simulation model
+                                        Automatic updates between CAD design changes and simulation
+                                        model
                                     </p>
                                 </CardContent>
                             </Card>
@@ -220,7 +242,8 @@ export default function ProModelAutoCADEditionPage(): React.JSX.Element {
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Link simulation parameters to CAD dimensions for automated analysis
+                                        Link simulation parameters to CAD dimensions for automated
+                                        analysis
                                     </p>
                                 </CardContent>
                             </Card>

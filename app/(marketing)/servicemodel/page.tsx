@@ -9,7 +9,7 @@ export default function ServiceModelPage(): React.JSX.Element {
     return (
         <div className="min-h-screen bg-background">
             {/* Hero Section */}
-            <section className="bg-gradient-to-r from-blue-600 to-blue-800 py-16 text-white dark:from-blue-800 dark:to-blue-900">
+            <section className="bg-gradient-to-r from-blue-600 to-blue-800 py-6 text-white dark:from-blue-800 dark:to-blue-900">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl text-center">
                         <div className="mb-6">
@@ -24,7 +24,8 @@ export default function ServiceModelPage(): React.JSX.Element {
                             ServiceModel
                         </h1>
                         <p className="mb-8 text-xl md:text-2xl">
-                            Service system modeling and optimization for superior customer experience
+                            Service system modeling and optimization for superior customer
+                            experience
                         </p>
                         <div className="flex flex-col justify-center gap-4 sm:flex-row">
                             <Button
@@ -50,11 +51,19 @@ export default function ServiceModelPage(): React.JSX.Element {
                             </CardHeader>
                             <CardContent className="space-y-6">
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    ServiceModel is a specialized simulation software designed for service organizations to model, analyze, and optimize customer-facing operations. It provides comprehensive tools for understanding service delivery processes, customer journeys, and resource allocation to enhance customer satisfaction while maximizing operational efficiency.
+                                    ServiceModel is a specialized simulation software designed for
+                                    service organizations to model, analyze, and optimize
+                                    customer-facing operations. It provides comprehensive tools
+                                    for understanding service delivery processes, customer
+                                    journeys, and resource allocation to enhance customer
+                                    satisfaction while maximizing operational efficiency.
                                 </p>
 
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    From call centers to retail outlets, ServiceModel helps organizations design superior customer experiences, optimize service capacity, and reduce operational costs through data-driven insights and advanced modeling capabilities.
+                                    From call centers to retail outlets, ServiceModel helps
+                                    organizations design superior customer experiences, optimize
+                                    service capacity, and reduce operational costs through
+                                    data-driven insights and advanced modeling capabilities.
                                 </p>
                             </CardContent>
                         </Card>
@@ -78,7 +87,12 @@ export default function ServiceModelPage(): React.JSX.Element {
                                         The Challenge
                                     </h3>
                                     <p className="mb-4 text-muted-foreground">
-                                        TelecomGlobal's contact center was struggling with inconsistent service levels across phone, chat, and email channels. Long wait times, agent burnout, and varying customer satisfaction scores indicated the need for comprehensive optimization of their multi-channel service delivery model.
+                                        TelecomGlobal's contact center was struggling with
+                                        inconsistent service levels across phone, chat, and email
+                                        channels. Long wait times, agent burnout, and varying
+                                        customer satisfaction scores indicated the need for
+                                        comprehensive optimization of their multi-channel service
+                                        delivery model.
                                     </p>
                                 </div>
 
@@ -87,7 +101,12 @@ export default function ServiceModelPage(): React.JSX.Element {
                                         The Solution
                                     </h3>
                                     <p className="mb-4 text-muted-foreground">
-                                        Using ServiceModel, the operations team modeled their entire contact center ecosystem, including agent skills, routing algorithms, and channel-specific workflows. They analyzed customer arrival patterns, service time distributions, and resource allocation to optimize performance across all channels.
+                                        Using ServiceModel, the operations team modeled their entire
+                                        contact center ecosystem, including agent skills, routing
+                                        algorithms, and channel-specific workflows. They analyzed
+                                        customer arrival patterns, service time distributions, and
+                                        resource allocation to optimize performance across all
+                                        channels.
                                     </p>
                                 </div>
 
@@ -160,7 +179,8 @@ export default function ServiceModelPage(): React.JSX.Element {
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Model complete customer journeys from initial contact to resolution
+                                        Model complete customer journeys from initial contact to
+                                        resolution
                                     </p>
                                 </CardContent>
                             </Card>
@@ -172,7 +192,8 @@ export default function ServiceModelPage(): React.JSX.Element {
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Simulate phone, chat, email, and social media service channels
+                                        Simulate phone, chat, email, and social media service
+                                        channels
                                     </p>
                                 </CardContent>
                             </Card>
@@ -220,7 +241,8 @@ export default function ServiceModelPage(): React.JSX.Element {
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Comprehensive reporting on service metrics and customer satisfaction
+                                        Comprehensive reporting on service metrics and customer
+                                        satisfaction
                                     </p>
                                 </CardContent>
                             </Card>

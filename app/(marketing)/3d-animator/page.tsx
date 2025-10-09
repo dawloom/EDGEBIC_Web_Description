@@ -9,7 +9,7 @@ export default function ThreeDAnimatorPage(): React.JSX.Element {
     return (
         <div className="min-h-screen bg-background">
             {/* Hero Section */}
-            <section className="bg-gradient-to-r from-blue-600 to-blue-800 py-16 text-white dark:from-blue-800 dark:to-blue-900">
+            <section className="bg-gradient-to-r from-blue-600 to-blue-800 py-6 text-white dark:from-blue-800 dark:to-blue-900">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl text-center">
                         <div className="mb-6">
@@ -20,11 +20,10 @@ export default function ThreeDAnimatorPage(): React.JSX.Element {
                                 3D SIMULATION VISUALIZATION
                             </Badge>
                         </div>
-                        <h1 className="mb-6 text-4xl font-bold md:text-6xl">
-                            3D Animator
-                        </h1>
+                        <h1 className="mb-6 text-4xl font-bold md:text-6xl">3D Animator</h1>
                         <p className="mb-8 text-xl md:text-2xl">
-                            Transform simulation data into compelling 3D visualizations and presentations
+                            Transform simulation data into compelling 3D visualizations and
+                            presentations
                         </p>
                         <div className="flex flex-col justify-center gap-4 sm:flex-row">
                             <Button
@@ -50,11 +49,19 @@ export default function ThreeDAnimatorPage(): React.JSX.Element {
                             </CardHeader>
                             <CardContent className="space-y-6">
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    3D Animator transforms your simulation models into stunning three-dimensional visualizations that bring your data to life. From factory floors to service operations, create photorealistic animations that make complex simulation results accessible to all stakeholders, regardless of their technical background.
+                                    3D Animator transforms your simulation models into stunning
+                                    three-dimensional visualizations that bring your data to life.
+                                    From factory floors to service operations, create
+                                    photorealistic animations that make complex simulation results
+                                    accessible to all stakeholders, regardless of their technical
+                                    background.
                                 </p>
 
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    Whether presenting to executives, training operators, or validating designs with clients, 3D Animator helps you communicate simulation insights with unprecedented clarity and impact through immersive 3D environments and animations.
+                                    Whether presenting to executives, training operators, or
+                                    validating designs with clients, 3D Animator helps you
+                                    communicate simulation insights with unprecedented clarity and
+                                    impact through immersive 3D environments and animations.
                                 </p>
                             </CardContent>
                         </Card>
@@ -78,7 +85,11 @@ export default function ThreeDAnimatorPage(): React.JSX.Element {
                                         The Challenge
                                     </h3>
                                     <p className="mb-4 text-muted-foreground">
-                                        AutoParts Manufacturing needed to present a new production line design to executives and investors. Traditional 2D simulation outputs and static charts failed to convey the complexity and innovation of their proposed automated assembly system, limiting buy-in for the $50M investment.
+                                        AutoParts Manufacturing needed to present a new production
+                                        line design to executives and investors. Traditional 2D
+                                        simulation outputs and static charts failed to convey the
+                                        complexity and innovation of their proposed automated
+                                        assembly system, limiting buy-in for the $50M investment.
                                     </p>
                                 </div>
 
@@ -87,7 +98,12 @@ export default function ThreeDAnimatorPage(): React.JSX.Element {
                                         The Solution
                                     </h3>
                                     <p className="mb-4 text-muted-foreground">
-                                        Using 3D Animator with their ProModel simulation, the engineering team created a photorealistic 3D visualization of the proposed production line. The animation showed real-time product flow, equipment utilization, and bottleneck identification with cinema-quality graphics and smooth transitions.
+                                        Using 3D Animator with their ProModel simulation, the
+                                        engineering team created a photorealistic 3D visualization
+                                        of the proposed production line. The animation showed
+                                        real-time product flow, equipment utilization, and
+                                        bottleneck identification with cinema-quality graphics and
+                                        smooth transitions.
                                     </p>
                                 </div>
 
@@ -160,7 +176,8 @@ export default function ThreeDAnimatorPage(): React.JSX.Element {
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Cinema-quality rendering with realistic lighting, materials, and environmental effects
+                                        Cinema-quality rendering with realistic lighting, materials,
+                                        and environmental effects
                                     </p>
                                 </CardContent>
                             </Card>
@@ -172,7 +189,8 @@ export default function ThreeDAnimatorPage(): React.JSX.Element {
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Smooth, synchronized animations that accurately represent simulation dynamics
+                                        Smooth, synchronized animations that accurately represent
+                                        simulation dynamics
                                     </p>
                                 </CardContent>
                             </Card>
@@ -184,7 +202,8 @@ export default function ThreeDAnimatorPage(): React.JSX.Element {
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Fly-through capabilities and multiple viewpoints for comprehensive exploration
+                                        Fly-through capabilities and multiple viewpoints for
+                                        comprehensive exploration
                                     </p>
                                 </CardContent>
                             </Card>
@@ -196,7 +215,8 @@ export default function ThreeDAnimatorPage(): React.JSX.Element {
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Integrated charts, graphs, and performance metrics within the 3D environment
+                                        Integrated charts, graphs, and performance metrics within
+                                        the 3D environment
                                     </p>
                                 </CardContent>
                             </Card>
@@ -208,19 +228,19 @@ export default function ThreeDAnimatorPage(): React.JSX.Element {
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Professional video output for presentations, training, and marketing materials
+                                        Professional video output for presentations, training, and
+                                        marketing materials
                                     </p>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">
-                                        VR/AR Support
-                                    </CardTitle>
+                                    <CardTitle className="text-center">VR/AR Support</CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Virtual and augmented reality experiences for immersive simulation exploration
+                                        Virtual and augmented reality experiences for immersive
+                                        simulation exploration
                                     </p>
                                 </CardContent>
                             </Card>

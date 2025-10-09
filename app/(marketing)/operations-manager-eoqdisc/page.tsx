@@ -9,7 +9,7 @@ export default function OperationsManagerEoqdiscPage(): React.JSX.Element {
     return (
         <div className="min-h-screen bg-background">
             {/* Hero Section */}
-            <section className="bg-gradient-to-r from-blue-600 to-blue-800 py-16 text-white dark:from-blue-800 dark:to-blue-900">
+            <section className="bg-gradient-to-r from-blue-600 to-blue-800 py-6 text-white dark:from-blue-800 dark:to-blue-900">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl text-center">
                         <div className="mb-6">
@@ -24,7 +24,8 @@ export default function OperationsManagerEoqdiscPage(): React.JSX.Element {
                             Operations Manager: EOQDisc
                         </h1>
                         <p className="mb-8 text-xl md:text-2xl">
-                            Economic Order Quantity with Discounts for optimal procurement cost management
+                            Economic Order Quantity with Discounts for optimal procurement
+                            cost management
                         </p>
                         <div className="flex flex-col justify-center gap-4 sm:flex-row">
                             <Button
@@ -50,11 +51,18 @@ export default function OperationsManagerEoqdiscPage(): React.JSX.Element {
                             </CardHeader>
                             <CardContent className="space-y-6">
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    EOQDisc (Economic Order Quantity with Discounts) optimizes purchasing decisions by incorporating quantity discounts, price breaks, and volume incentives into EOQ calculations. This advanced module determines optimal order quantities that balance inventory costs with discount opportunities.
+                                    EOQDisc (Economic Order Quantity with Discounts) optimizes
+                                    purchasing decisions by incorporating quantity discounts,
+                                    price breaks, and volume incentives into EOQ calculations.
+                                    This advanced module determines optimal order quantities that
+                                    balance inventory costs with discount opportunities.
                                 </p>
 
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    From supplier negotiations to procurement strategy, EOQDisc maximizes cost savings through intelligent quantity discount analysis while maintaining optimal inventory levels and cash flow management across your supply chain operations.
+                                    From supplier negotiations to procurement strategy, EOQDisc
+                                    maximizes cost savings through intelligent quantity discount
+                                    analysis while maintaining optimal inventory levels and cash
+                                    flow management across your supply chain operations.
                                 </p>
                             </CardContent>
                         </Card>
@@ -78,7 +86,12 @@ export default function OperationsManagerEoqdiscPage(): React.JSX.Element {
                                         The Challenge
                                     </h3>
                                     <p className="mb-4 text-muted-foreground">
-                                        ChemPro Industries faced complex purchasing decisions with suppliers offering significant quantity discounts on bulk chemicals. Their traditional EOQ calculations ignored discounts, resulting in suboptimal order quantities that missed substantial cost savings opportunities worth potentially $500K annually.
+                                        ChemPro Industries faced complex purchasing decisions with
+                                        suppliers offering significant quantity discounts on bulk
+                                        chemicals. Their traditional EOQ calculations ignored
+                                        discounts, resulting in suboptimal order quantities that
+                                        missed substantial cost savings opportunities worth
+                                        potentially $500K annually.
                                     </p>
                                 </div>
 
@@ -87,7 +100,12 @@ export default function OperationsManagerEoqdiscPage(): React.JSX.Element {
                                         The Solution
                                     </h3>
                                     <p className="mb-4 text-muted-foreground">
-                                        Implementing Operations Manager's EOQDisc module, the procurement team analyzed complex discount structures including price breaks, volume tiers, and seasonal promotions. The system evaluated total cost scenarios to identify optimal order quantities that maximized savings while managing inventory investment.
+                                        Implementing Operations Manager's EOQDisc module, the
+                                        procurement team analyzed complex discount structures
+                                        including price breaks, volume tiers, and seasonal
+                                        promotions. The system evaluated total cost scenarios to
+                                        identify optimal order quantities that maximized savings
+                                        while managing inventory investment.
                                     </p>
                                 </div>
 
@@ -154,7 +172,9 @@ export default function OperationsManagerEoqdiscPage(): React.JSX.Element {
                         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">Quantity Discounts</CardTitle>
+                                    <CardTitle className="text-center">
+                                        Quantity Discounts
+                                    </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
@@ -164,7 +184,9 @@ export default function OperationsManagerEoqdiscPage(): React.JSX.Element {
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">All-Units Discounts</CardTitle>
+                                    <CardTitle className="text-center">
+                                        All-Units Discounts
+                                    </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
@@ -174,7 +196,9 @@ export default function OperationsManagerEoqdiscPage(): React.JSX.Element {
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">Incremental Discounts</CardTitle>
+                                    <CardTitle className="text-center">
+                                        Incremental Discounts
+                                    </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
@@ -184,17 +208,22 @@ export default function OperationsManagerEoqdiscPage(): React.JSX.Element {
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">Total Cost Analysis</CardTitle>
+                                    <CardTitle className="text-center">
+                                        Total Cost Analysis
+                                    </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Comprehensive cost evaluation including carrying and ordering costs
+                                        Comprehensive cost evaluation including carrying and
+                                        ordering costs
                                     </p>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">Price Break Evaluation</CardTitle>
+                                    <CardTitle className="text-center">
+                                        Price Break Evaluation
+                                    </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
@@ -204,11 +233,14 @@ export default function OperationsManagerEoqdiscPage(): React.JSX.Element {
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">Sensitivity Analysis</CardTitle>
+                                    <CardTitle className="text-center">
+                                        Sensitivity Analysis
+                                    </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Robustness testing of optimal solutions under varying conditions
+                                        Robustness testing of optimal solutions under varying
+                                        conditions
                                     </p>
                                 </CardContent>
                             </Card>

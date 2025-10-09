@@ -1,5 +1,6 @@
 import * as React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
@@ -21,40 +22,54 @@ export default function AdditmonPage(): React.JSX.Element {
                             </Badge>
                         </div>
                         <h1 className="mb-6 text-4xl font-bold md:text-6xl">
-                            Operations Manager: Additional Monitoring
+                            Operations Manager: ADDITMON
                         </h1>
                         <p className="mb-8 text-xl md:text-2xl">
-                            Advanced monitoring and surveillance tools for comprehensive system oversight
+                            Difference-to-Moving Average Method for Monthly Seasonal Adjustment
                         </p>
                         <div className="flex flex-col justify-center gap-4 sm:flex-row">
-                            <Button
-                                size="lg"
-                                className="bg-white text-blue-600 hover:bg-gray-100"
-                            >
-                                Buy Now
-                            </Button>
+                            <Link href="/buy-now-operations-manager">
+                                <Button
+                                    size="lg"
+                                    className="bg-white text-blue-600 hover:bg-gray-100"
+                                >
+                                    Buy Now
+                                </Button>
+                            </Link>
                         </div>
                     </div>
                 </div>
             </section>
 
-            {/* Additional Monitoring Overview */}
+            {/* Seasonal Adjustment Overview */}
             <section className="pt-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl">
                         <Card className="mb-8">
                             <CardHeader>
                                 <CardTitle className="text-center text-3xl">
-                                    Advanced System Monitoring & Surveillance
+                                    Seasonal Adjustment
                                 </CardTitle>
                             </CardHeader>
                             <CardContent className="space-y-6">
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    Additional Monitoring (AdditMon) extends your operational oversight capabilities with advanced surveillance tools for comprehensive system monitoring. This powerful module provides real-time tracking, alerting, and analysis capabilities to ensure optimal performance across all operational parameters.
+                                    Regular seasonal patterns appear in most business data. The weather affects the
+                                    sales of everything from bikinis to snowmobiles. Around holiday periods, we see
+                                    increases in the number of retail sales, long-distance telephone calls, and
+                                    gasoline consumption. Business policy can cause seasonal patterns in sales. Many
+                                    companies run annual dealer promotions which cause peaks in sales. Other companies
+                                    depress sales temporarily by shutting down plants for annual vacation periods.
                                 </p>
 
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    From equipment performance monitoring to process deviation detection, AdditMon delivers the visibility and control needed to maintain peak operational efficiency while preventing costly disruptions and downtime.
+                                    Usually seasonality is obvious but there are times when it is not. Two questions
+                                    should be asked when there is doubt about seasonality. First, are the peaks and
+                                    troughs consistent? That is, do the high and low points of the pattern occur in
+                                    about the same periods (week, month, or quarter) each year? Second, is there an
+                                    explanation for the seasonal pattern? The most common reasons for seasonality
+                                    are weather and holidays, although company policy such as annual sales promotions
+                                    may be a factor. If the answer to either of these questions is no, seasonality
+                                    should not be used in the forecasts.
                                 </p>
                             </CardContent>
                         </Card>
@@ -62,79 +77,252 @@ export default function AdditmonPage(): React.JSX.Element {
                 </div>
             </section>
 
-            {/* Case Study */}
+            {/* Classical Decomposition Method */}
             <section className="bg-muted/50 pt-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl">
                         <Card>
                             <CardHeader>
                                 <CardTitle className="text-center text-2xl">
-                                    Case Study: Chemical Processing Plant Monitoring
+                                    Classical Decomposition Method
                                 </CardTitle>
                             </CardHeader>
                             <CardContent className="space-y-6">
-                                <div>
-                                    <h3 className="mb-3 text-xl font-semibold text-blue-600">
-                                        The Challenge
+                                <p className="text-lg leading-relaxed text-muted-foreground">
+                                    Our approach to forecasting seasonal data is based on the classical
+                                    decomposition method developed by economists in the nineteenth century. Decomposition means
+                                    separation of the time series into its component parts. A complete decomposition
+                                    separates the time series into four components: seasonality, trend, cycle, and
+                                    randomness. The cycle is a long-range pattern related to the growth and decline
+                                    of industries or the economy as a whole.
+                                </p>
+                            </CardContent>
+                        </Card>
+                    </div>
+                </div>
+            </section>
+
+            {/* ADDITMON Method */}
+            <section className="pt-6">
+                <div className="container mx-auto px-4">
+                    <div className="mx-auto max-w-4xl">
+                        <Card className="mb-8">
+                            <CardHeader>
+                                <CardTitle className="text-center text-3xl">
+                                    ADDITMON: Difference-to-Moving Average Method
+                                </CardTitle>
+                            </CardHeader>
+                            <CardContent className="space-y-6">
+                                <p className="text-lg leading-relaxed text-muted-foreground">
+                                    Two worksheets are available for seasonal adjustment. MULTIMON uses the
+                                    ratio-to-moving average method to adjust monthly data. ADDITMON uses a similar method
+                                    called the difference-to-moving average method to adjust monthly data. It may be
+                                    necessary to test both of these worksheets before choosing a seasonal pattern.
+                                </p>
+
+                                <div className="rounded-lg bg-blue-50 p-6 dark:bg-blue-900/20">
+                                    <h3 className="mb-4 text-xl font-semibold text-blue-600">
+                                        Key Features of ADDITMON
                                     </h3>
-                                    <p className="mb-4 text-muted-foreground">
-                                        ChemProcess Industries needed to monitor hundreds of process parameters across multiple production lines in real-time. Their existing monitoring systems provided basic alerts but lacked the sophisticated analysis capabilities needed to predict failures and optimize performance proactively.
-                                    </p>
+                                    <ul className="space-y-3 text-muted-foreground">
+                                        <li className="flex items-start">
+                                            <span className="mr-3 text-blue-600">•</span>
+                                            <span>Difference-to-moving average method for monthly data</span>
+                                        </li>
+                                        <li className="flex items-start">
+                                            <span className="mr-3 text-blue-600">•</span>
+                                            <span>Separates time series into seasonality, trend, cycle, and randomness</span>
+                                        </li>
+                                        <li className="flex items-start">
+                                            <span className="mr-3 text-blue-600">•</span>
+                                            <span>Handles seasonal patterns affected by weather and holidays</span>
+                                        </li>
+                                        <li className="flex items-start">
+                                            <span className="mr-3 text-blue-600">•</span>
+                                            <span>Accounts for business policy impacts like annual promotions</span>
+                                        </li>
+                                        <li className="flex items-start">
+                                            <span className="mr-3 text-blue-600">•</span>
+                                            <span>Alternative to MULTIMON's ratio-to-moving average method</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </CardContent>
+                        </Card>
+                    </div>
+                </div>
+            </section>
+
+            {/* When to Use ADDITMON */}
+            <section className="bg-muted/50 pt-6">
+                <div className="container mx-auto px-4">
+                    <div className="mx-auto max-w-4xl">
+                        <Card>
+                            <CardHeader>
+                                <CardTitle className="text-center text-2xl">
+                                    Identifying Seasonality in Your Data
+                                </CardTitle>
+                            </CardHeader>
+                            <CardContent className="space-y-6">
+                                <p className="text-lg leading-relaxed text-muted-foreground">
+                                    Two critical questions should be asked when there is doubt about seasonality:
+                                </p>
+
+                                <div className="grid gap-6 md:grid-cols-2">
+                                    <Card className="border-2 border-green-200 bg-green-50/50 dark:border-green-800 dark:bg-green-900/10">
+                                        <CardHeader>
+                                            <CardTitle className="text-xl text-green-600">
+                                                Question 1: Consistency
+                                            </CardTitle>
+                                        </CardHeader>
+                                        <CardContent>
+                                            <p className="text-muted-foreground">
+                                                Are the peaks and troughs consistent? Do the high and low points of 
+                                                the pattern occur in about the same periods (week, month, or quarter) 
+                                                each year?
+                                            </p>
+                                        </CardContent>
+                                    </Card>
+
+                                    <Card className="border-2 border-blue-200 bg-blue-50/50 dark:border-blue-800 dark:bg-blue-900/10">
+                                        <CardHeader>
+                                            <CardTitle className="text-xl text-blue-600">
+                                                Question 2: Explanation
+                                            </CardTitle>
+                                        </CardHeader>
+                                        <CardContent>
+                                            <p className="text-muted-foreground">
+                                                Is there an explanation for the seasonal pattern? Common reasons 
+                                                include weather, holidays, or company policy such as annual sales 
+                                                promotions.
+                                            </p>
+                                        </CardContent>
+                                    </Card>
                                 </div>
 
-                                <div>
-                                    <h3 className="mb-3 text-xl font-semibold text-green-600">
-                                        The Solution
-                                    </h3>
-                                    <p className="mb-4 text-muted-foreground">
-                                        Implementing Operations Manager's Additional Monitoring module, the facility deployed comprehensive surveillance across temperature, pressure, flow rates, and chemical composition parameters. The system provided predictive analytics, automated alerting, and trend analysis capabilities.
+                                <div className="rounded-lg bg-yellow-50 p-6 dark:bg-yellow-900/20">
+                                    <p className="text-lg font-semibold text-yellow-800 dark:text-yellow-200">
+                                        ⚠️ Important Note
+                                    </p>
+                                    <p className="mt-2 text-muted-foreground">
+                                        If the answer to either of these questions is no, seasonality should not be 
+                                        used in the forecasts.
                                     </p>
                                 </div>
+                            </CardContent>
+                        </Card>
+                    </div>
+                </div>
+            </section>
 
-                                <div>
-                                    <h3 className="mb-3 text-xl font-semibold text-purple-600">
-                                        Results Achieved
+            {/* Common Seasonal Patterns */}
+            <section className="pt-6">
+                <div className="container mx-auto px-4">
+                    <div className="mx-auto max-w-4xl">
+                        <h2 className="mb-8 text-center text-3xl font-bold text-foreground">
+                            Common Seasonal Patterns
+                        </h2>
+                        <div className="grid gap-6 md:grid-cols-2">
+                            <Card>
+                                <CardHeader>
+                                    <CardTitle className="text-xl text-blue-600">
+                                        Weather-Related Patterns
+                                    </CardTitle>
+                                </CardHeader>
+                                <CardContent>
+                                    <ul className="space-y-2 text-muted-foreground">
+                                        <li>• Bikini sales increase in summer months</li>
+                                        <li>• Snowmobile sales peak in winter</li>
+                                        <li>• Air conditioning demand in hot seasons</li>
+                                        <li>• Heating fuel consumption in cold months</li>
+                                    </ul>
+                                </CardContent>
+                            </Card>
+
+                            <Card>
+                                <CardHeader>
+                                    <CardTitle className="text-xl text-green-600">
+                                        Holiday-Related Patterns
+                                    </CardTitle>
+                                </CardHeader>
+                                <CardContent>
+                                    <ul className="space-y-2 text-muted-foreground">
+                                        <li>• Retail sales surges during holidays</li>
+                                        <li>• Long-distance telephone calls on holidays</li>
+                                        <li>• Gasoline consumption during travel seasons</li>
+                                        <li>• Gift and decoration purchases</li>
+                                    </ul>
+                                </CardContent>
+                            </Card>
+
+                            <Card>
+                                <CardHeader>
+                                    <CardTitle className="text-xl text-purple-600">
+                                        Business Policy Patterns
+                                    </CardTitle>
+                                </CardHeader>
+                                <CardContent>
+                                    <ul className="space-y-2 text-muted-foreground">
+                                        <li>• Annual dealer promotions causing peaks</li>
+                                        <li>• Plant shutdowns for vacations</li>
+                                        <li>• End-of-quarter sales pushes</li>
+                                        <li>• Fiscal year-end activities</li>
+                                    </ul>
+                                </CardContent>
+                            </Card>
+
+                            <Card>
+                                <CardHeader>
+                                    <CardTitle className="text-xl text-orange-600">
+                                        Time Series Components
+                                    </CardTitle>
+                                </CardHeader>
+                                <CardContent>
+                                    <ul className="space-y-2 text-muted-foreground">
+                                        <li>• Seasonality - recurring patterns</li>
+                                        <li>• Trend - long-term direction</li>
+                                        <li>• Cycle - industry growth/decline</li>
+                                        <li>• Randomness - unpredictable variation</li>
+                                    </ul>
+                                </CardContent>
+                            </Card>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* Implementation Guide */}
+            <section className="bg-muted/50 pt-6">
+                <div className="container mx-auto px-4">
+                    <div className="mx-auto max-w-4xl">
+                        <Card>
+                            <CardHeader>
+                                <CardTitle className="text-center text-2xl">
+                                    Choosing Between MULTIMON and ADDITMON
+                                </CardTitle>
+                            </CardHeader>
+                            <CardContent className="space-y-6">
+                                <div className="rounded-lg bg-gradient-to-r from-blue-50 to-purple-50 p-6 dark:from-blue-900/20 dark:to-purple-900/20">
+                                    <h3 className="mb-4 text-xl font-semibold">
+                                        Testing Approach
                                     </h3>
+                                    <p className="mb-4 text-muted-foreground">
+                                        It may be necessary to test both MULTIMON (ratio-to-moving average) and 
+                                        ADDITMON (difference-to-moving average) worksheets before choosing a seasonal 
+                                        pattern for your forecasts.
+                                    </p>
                                     <div className="grid gap-4 md:grid-cols-2">
-                                        <div className="space-y-2">
-                                            <div className="flex items-center">
-                                                <div className="mr-3 size-3 rounded-full bg-green-500" />
-                                                <span className="text-sm">
-                                                    75% reduction in unplanned downtime
-                                                </span>
-                                            </div>
-                                            <div className="flex items-center">
-                                                <div className="mr-3 size-3 rounded-full bg-blue-500" />
-                                                <span className="text-sm">
-                                                    90% improvement in early problem detection
-                                                </span>
-                                            </div>
-                                            <div className="flex items-center">
-                                                <div className="mr-3 size-3 rounded-full bg-purple-500" />
-                                                <span className="text-sm">
-                                                    50% increase in equipment lifespan
-                                                </span>
-                                            </div>
+                                        <div className="rounded-lg bg-white p-4 dark:bg-gray-800">
+                                            <h4 className="mb-2 font-semibold text-blue-600">MULTIMON</h4>
+                                            <p className="text-sm text-muted-foreground">
+                                                Ratio-to-moving average method - best for multiplicative seasonal patterns
+                                            </p>
                                         </div>
-                                        <div className="space-y-2">
-                                            <div className="flex items-center">
-                                                <div className="mr-3 size-3 rounded-full bg-orange-500" />
-                                                <span className="text-sm">
-                                                    35% reduction in maintenance costs
-                                                </span>
-                                            </div>
-                                            <div className="flex items-center">
-                                                <div className="mr-3 size-3 rounded-full bg-red-500" />
-                                                <span className="text-sm">
-                                                    Real-time performance optimization
-                                                </span>
-                                            </div>
-                                            <div className="flex items-center">
-                                                <div className="mr-3 size-3 rounded-full bg-teal-500" />
-                                                <span className="text-sm">
-                                                    Enhanced safety and compliance
-                                                </span>
-                                            </div>
+                                        <div className="rounded-lg bg-white p-4 dark:bg-gray-800">
+                                            <h4 className="mb-2 font-semibold text-purple-600">ADDITMON</h4>
+                                            <p className="text-sm text-muted-foreground">
+                                                Difference-to-moving average method - best for additive seasonal patterns
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -144,227 +332,8 @@ export default function AdditmonPage(): React.JSX.Element {
                 </div>
             </section>
 
-            {/* Monitoring Features */}
-            <section className="pt-6">
-                <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-6xl">
-                        <h2 className="mb-12 text-center text-3xl font-bold text-foreground">
-                            Advanced Monitoring Capabilities
-                        </h2>
-                        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-                            <Card>
-                                <CardHeader>
-                                    <CardTitle className="text-center">Real-Time Surveillance</CardTitle>
-                                </CardHeader>
-                                <CardContent>
-                                    <p className="text-center text-muted-foreground">
-                                        Continuous monitoring of critical parameters with instant alert generation
-                                    </p>
-                                </CardContent>
-                            </Card>
-                            <Card>
-                                <CardHeader>
-                                    <CardTitle className="text-center">Predictive Analytics</CardTitle>
-                                </CardHeader>
-                                <CardContent>
-                                    <p className="text-center text-muted-foreground">
-                                        AI-powered prediction of equipment failures and performance degradation
-                                    </p>
-                                </CardContent>
-                            </Card>
-                            <Card>
-                                <CardHeader>
-                                    <CardTitle className="text-center">Trend Analysis</CardTitle>
-                                </CardHeader>
-                                <CardContent>
-                                    <p className="text-center text-muted-foreground">
-                                        Historical data analysis for pattern recognition and optimization
-                                    </p>
-                                </CardContent>
-                            </Card>
-                            <Card>
-                                <CardHeader>
-                                    <CardTitle className="text-center">Alert Management</CardTitle>
-                                </CardHeader>
-                                <CardContent>
-                                    <p className="text-center text-muted-foreground">
-                                        Intelligent alerting with customizable thresholds and escalation
-                                    </p>
-                                </CardContent>
-                            </Card>
-                            <Card>
-                                <CardHeader>
-                                    <CardTitle className="text-center">Performance Metrics</CardTitle>
-                                </CardHeader>
-                                <CardContent>
-                                    <p className="text-center text-muted-foreground">
-                                        Comprehensive KPI tracking and performance benchmarking
-                                    </p>
-                                </CardContent>
-                            </Card>
-                            <Card>
-                                <CardHeader>
-                                    <CardTitle className="text-center">Data Integration</CardTitle>
-                                </CardHeader>
-                                <CardContent>
-                                    <p className="text-center text-muted-foreground">
-                                        Seamless integration with existing SCADA and control systems
-                                    </p>
-                                </CardContent>
-                            </Card>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            {/* Monitoring Types */}
-            <section className="bg-muted/50 pt-6">
-                <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-4xl">
-                        <h2 className="mb-12 text-center text-3xl font-bold text-foreground">
-                            Monitoring Categories
-                        </h2>
-                        <div className="grid gap-6 md:grid-cols-2">
-                            <Card>
-                                <CardHeader>
-                                    <CardTitle className="text-xl text-blue-600">
-                                        Equipment Monitoring
-                                    </CardTitle>
-                                </CardHeader>
-                                <CardContent>
-                                    <ul className="space-y-2 text-muted-foreground">
-                                        <li>• Vibration and temperature monitoring</li>
-                                        <li>• Motor current and power consumption</li>
-                                        <li>• Bearing condition assessment</li>
-                                        <li>• Lubrication system status</li>
-                                    </ul>
-                                </CardContent>
-                            </Card>
-                            <Card>
-                                <CardHeader>
-                                    <CardTitle className="text-xl text-green-600">
-                                        Process Monitoring
-                                    </CardTitle>
-                                </CardHeader>
-                                <CardContent>
-                                    <ul className="space-y-2 text-muted-foreground">
-                                        <li>• Flow rate and pressure tracking</li>
-                                        <li>• Temperature profile monitoring</li>
-                                        <li>• Chemical composition analysis</li>
-                                        <li>• Quality parameter surveillance</li>
-                                    </ul>
-                                </CardContent>
-                            </Card>
-                            <Card>
-                                <CardHeader>
-                                    <CardTitle className="text-xl text-purple-600">
-                                        Environmental Monitoring
-                                    </CardTitle>
-                                </CardHeader>
-                                <CardContent>
-                                    <ul className="space-y-2 text-muted-foreground">
-                                        <li>• Ambient conditions tracking</li>
-                                        <li>• Emissions monitoring</li>
-                                        <li>• Energy consumption analysis</li>
-                                        <li>• Safety parameter surveillance</li>
-                                    </ul>
-                                </CardContent>
-                            </Card>
-                            <Card>
-                                <CardHeader>
-                                    <CardTitle className="text-xl text-orange-600">
-                                        Production Monitoring
-                                    </CardTitle>
-                                </CardHeader>
-                                <CardContent>
-                                    <ul className="space-y-2 text-muted-foreground">
-                                        <li>• Throughput and yield tracking</li>
-                                        <li>• Cycle time monitoring</li>
-                                        <li>• Resource utilization analysis</li>
-                                        <li>• Bottleneck identification</li>
-                                    </ul>
-                                </CardContent>
-                            </Card>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            {/* Applications */}
-            <section className="pt-6">
-                <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-4xl">
-                        <h2 className="mb-12 text-center text-3xl font-bold text-foreground">
-                            Industry Applications
-                        </h2>
-                        <div className="grid gap-6 md:grid-cols-2">
-                            <Card>
-                                <CardHeader>
-                                    <CardTitle className="text-xl text-blue-600">
-                                        Manufacturing
-                                    </CardTitle>
-                                </CardHeader>
-                                <CardContent>
-                                    <ul className="space-y-2 text-muted-foreground">
-                                        <li>• Production line monitoring</li>
-                                        <li>• Equipment health surveillance</li>
-                                        <li>• Quality control oversight</li>
-                                        <li>• Energy efficiency tracking</li>
-                                    </ul>
-                                </CardContent>
-                            </Card>
-                            <Card>
-                                <CardHeader>
-                                    <CardTitle className="text-xl text-green-600">
-                                        Chemical Processing
-                                    </CardTitle>
-                                </CardHeader>
-                                <CardContent>
-                                    <ul className="space-y-2 text-muted-foreground">
-                                        <li>• Reactor condition monitoring</li>
-                                        <li>• Safety system surveillance</li>
-                                        <li>• Process optimization tracking</li>
-                                        <li>• Environmental compliance</li>
-                                    </ul>
-                                </CardContent>
-                            </Card>
-                            <Card>
-                                <CardHeader>
-                                    <CardTitle className="text-xl text-purple-600">
-                                        Power Generation
-                                    </CardTitle>
-                                </CardHeader>
-                                <CardContent>
-                                    <ul className="space-y-2 text-muted-foreground">
-                                        <li>• Turbine performance monitoring</li>
-                                        <li>• Grid stability surveillance</li>
-                                        <li>• Efficiency optimization</li>
-                                        <li>• Predictive maintenance</li>
-                                    </ul>
-                                </CardContent>
-                            </Card>
-                            <Card>
-                                <CardHeader>
-                                    <CardTitle className="text-xl text-orange-600">
-                                        Oil & Gas
-                                    </CardTitle>
-                                </CardHeader>
-                                <CardContent>
-                                    <ul className="space-y-2 text-muted-foreground">
-                                        <li>• Pipeline integrity monitoring</li>
-                                        <li>• Refinery process surveillance</li>
-                                        <li>• Safety system oversight</li>
-                                        <li>• Environmental monitoring</li>
-                                    </ul>
-                                </CardContent>
-                            </Card>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
             {/* Awards Section */}
-            <section className="pt-6">
+            <section className="pt-6 pb-16">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl">
                         <Card className="bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20">
