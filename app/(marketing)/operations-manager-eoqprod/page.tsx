@@ -94,7 +94,7 @@ export default function EoqprodPage(): React.JSX.Element {
                                 <div className="rounded border-l-4 border-green-500 bg-green-100 p-4">
                                     <p className="font-semibold text-green-800">
                                         Why? The EOQ must be larger than maximum investment to
-                                        account for sales made during the production run.
+                                        account for sales made during the production run
                                     </p>
                                 </div>
                             </div>

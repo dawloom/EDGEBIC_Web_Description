@@ -36,10 +36,10 @@ export default function Mrp1Page(): React.JSX.Element {
             </section>
 
             {/* EOQ Content */}
-            <section className="py-16">
+            <section className="py-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl">
-                        <Card className="mb-8">
+                        <Card>
                             <CardHeader>
                                 <CardTitle className="text-center text-3xl">
                                     MRP Inventory Plan (MRP1)
@@ -75,7 +75,7 @@ export default function Mrp1Page(): React.JSX.Element {
             </section>
 
             {/* Awards Section */}
-            <section className="py-16">
+            <section>
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl">
                         <Card className="bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20">

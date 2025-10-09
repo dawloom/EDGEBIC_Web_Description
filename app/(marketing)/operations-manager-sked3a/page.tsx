@@ -9,7 +9,7 @@ export default function Sked3aPage(): React.JSX.Element {
     return (
         <div className="min-h-screen bg-background">
             {/* Hero Section */}
-            <section className="bg-gradient-to-r from-blue-600 to-blue-800 py-16 text-white dark:from-blue-800 dark:to-blue-900">
+            <section className="bg-gradient-to-r from-blue-600 to-blue-800 py-6 text-white dark:from-blue-800 dark:to-blue-900">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl text-center">
                         <div className="mb-6">
@@ -39,7 +39,7 @@ export default function Sked3aPage(): React.JSX.Element {
             </section>
 
             {/* SKED2A Overview */}
-            <section className="py-16">
+            <section className="pt-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl">
                         <Card className="mb-8">
@@ -76,7 +76,7 @@ export default function Sked3aPage(): React.JSX.Element {
             </section>
 
             {/* Case Study */}
-            <section className="bg-muted/50 py-16">
+            <section className="pt-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl">
                         <Card>
@@ -167,10 +167,10 @@ export default function Sked3aPage(): React.JSX.Element {
             </section>
 
             {/* Kanban Types */}
-            <section className="py-16">
+            <section className="pt-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-6xl">
-                        <h2 className="mb-12 text-center text-3xl font-bold text-foreground">
+                        <h2 className="mb-6 text-center text-3xl font-bold text-foreground">
                             Kanban System Types
                         </h2>
                         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
@@ -251,10 +251,10 @@ export default function Sked3aPage(): React.JSX.Element {
             </section>
 
             {/* Key Benefits */}
-            <section className="bg-muted/50 py-16">
+            <section className="pt-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl">
-                        <h2 className="mb-12 text-center text-3xl font-bold text-foreground">
+                        <h2 className="mb-6 text-center text-3xl font-bold text-foreground">
                             Lean Manufacturing Benefits
                         </h2>
                         <div className="grid gap-6 md:grid-cols-2">
@@ -324,10 +324,10 @@ export default function Sked3aPage(): React.JSX.Element {
             </section>
 
             {/* Implementation Steps */}
-            <section className="py-16">
+            <section className="pt-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl">
-                        <h2 className="mb-12 text-center text-3xl font-bold text-foreground">
+                        <h2 className="mb-6 text-center text-3xl font-bold text-foreground">
                             Kanban Implementation Process
                         </h2>
                         <div className="space-y-6">
@@ -390,10 +390,10 @@ export default function Sked3aPage(): React.JSX.Element {
             </section>
 
             {/* Applications */}
-            <section className="bg-muted/50 py-16">
+            <section className="pt-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl">
-                        <h2 className="mb-12 text-center text-3xl font-bold text-foreground">
+                        <h2 className="mb-6 text-center text-3xl font-bold text-foreground">
                             Industry Applications
                         </h2>
                         <div className="grid gap-6 md:grid-cols-2">
@@ -463,7 +463,7 @@ export default function Sked3aPage(): React.JSX.Element {
             </section>
 
             {/* Awards Section */}
-            <section className="py-16">
+            <section className="pt-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl">
                         <Card className="bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20">

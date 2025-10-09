@@ -39,7 +39,7 @@ export default function LearnPage(): React.JSX.Element {
             </section>
 
             {/* Learning Curve Overview */}
-            <section className="py-16">
+            <section className="pt-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl">
                         <Card className="mb-8">
@@ -49,6 +49,17 @@ export default function LearnPage(): React.JSX.Element {
                                 </CardTitle>
                             </CardHeader>
                             <CardContent className="space-y-6">
+                                <div className="rounded-lg bg-blue-50 p-6 dark:bg-blue-950/20">
+                                    <h3 className="mb-3 text-xl font-semibold text-blue-600">
+                                        What is a Learning Curve?
+                                    </h3>
+                                    <p className="text-lg font-medium text-blue-800 dark:text-blue-300">
+                                        The learning curve is a widely-used model that predicts a
+                                        reduction in direct labor hours or costs per unit as
+                                        cumulative production increases.
+                                    </p>
+                                </div>
+
                                 <p className="text-lg leading-relaxed text-muted-foreground">
                                     Learning curves represent the improvement in performance that
                                     occurs when workers repeat a task over time. Our Operations
@@ -71,7 +82,7 @@ export default function LearnPage(): React.JSX.Element {
             </section>
 
             {/* Case Study */}
-            <section className="bg-muted/50 py-16">
+            <section className="pt-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl">
                         <Card>
@@ -163,7 +174,7 @@ export default function LearnPage(): React.JSX.Element {
             </section>
 
             {/* Learning Models */}
-            <section className="py-16">
+            <section className="pt-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-6xl">
                         <h2 className="mb-12 text-center text-3xl font-bold text-foreground">
@@ -240,7 +251,7 @@ export default function LearnPage(): React.JSX.Element {
             </section>
 
             {/* Key Applications */}
-            <section className="bg-muted/50 py-16">
+            <section className="pt-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl">
                         <h2 className="mb-12 text-center text-3xl font-bold text-foreground">
@@ -313,7 +324,7 @@ export default function LearnPage(): React.JSX.Element {
             </section>
 
             {/* Awards Section */}
-            <section className="py-16">
+            <section className="pt-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl">
                         <Card className="bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20">

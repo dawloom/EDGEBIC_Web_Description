@@ -21,10 +21,10 @@ export default function PChartPage(): React.JSX.Element {
                             </Badge>
                         </div>
                         <h1 className="mb-6 text-4xl font-bold md:text-6xl">
-                            Operations Manager: Process Flow
+                            Operations Manager: P-CHART
                         </h1>
                         <p className="mb-8 text-xl md:text-2xl">
-                            Process analysis and workflow optimization for maximum efficiency
+                            Control Chart For Percent Defective
                         </p>
                         <div className="flex flex-col justify-center gap-4 sm:flex-row">
                             <Button
@@ -38,229 +38,47 @@ export default function PChartPage(): React.JSX.Element {
                 </div>
             </section>
 
-            {/* Process Flow Overview */}
-            <section className="py-16">
+            {/* P-CHART Overview */}
+            <section className="pt-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl">
                         <Card className="mb-8">
                             <CardHeader>
                                 <CardTitle className="text-center text-3xl">
-                                    Process Flow Analysis & Optimization
+                                    Control Chart For Percent Defective (P-CHART)
                                 </CardTitle>
                             </CardHeader>
                             <CardContent className="space-y-6">
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    Process flow analysis is the systematic examination of how
-                                    work moves through an organization, identifying
-                                    inefficiencies, bottlenecks, and improvement opportunities.
-                                    Our Operations Manager Process Flow module provides
-                                    comprehensive tools for mapping, analyzing, and optimizing
-                                    business processes across all industries.
-                                </p>
-
-                                <p className="text-lg leading-relaxed text-muted-foreground">
-                                    From value stream mapping to workflow automation, our solution
-                                    helps organizations streamline operations, reduce cycle times,
-                                    and eliminate waste for sustainable competitive advantage.
+                                    P-CHART is the most versatile and popular control chart. To use P-CHART, quality inspectors classify sample items into two groups: good or bad. This can mean defective or non-defective, conforming or non-conforming to specifications, acceptable or unacceptable, or other definitions in which there are only two categories of results. Brookshire Cookware Corporation, a producer of pots and pans located in Brookshire , Texas , uses P-CHART worksheets to monitor the quality of component parts received from its Mexican suppliers. At the end of each business day, Brookshire faxes a copy of each P-CHART to its suppliers. This feedback helps maintain a good working relationship with suppliers and alerts them to potential problems.
                                 </p>
                             </CardContent>
                         </Card>
-                    </div>
-                </div>
-            </section>
-
-            {/* Case Study */}
-            <section className="bg-muted/50 py-16">
-                <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-4xl">
-                        <Card>
-                            <CardHeader>
-                                <CardTitle className="text-center text-2xl">
-                                    Case Study: Financial Services Processing
-                                </CardTitle>
-                            </CardHeader>
-                            <CardContent className="space-y-6">
-                                <div>
-                                    <h3 className="mb-3 text-xl font-semibold text-blue-600">
-                                        The Challenge
-                                    </h3>
-                                    <p className="mb-4 text-muted-foreground">
-                                        Global Financial Services struggled with lengthy loan
-                                        approval processes that frustrated customers and created
-                                        competitive disadvantages. Their multi-department workflow
-                                        involved numerous handoffs, redundant checks, and unclear
-                                        approval criteria, resulting in inconsistent processing
-                                        times and poor customer satisfaction.
-                                    </p>
-                                </div>
-
-                                <div>
-                                    <h3 className="mb-3 text-xl font-semibold text-green-600">
-                                        The Solution
-                                    </h3>
-                                    <p className="mb-4 text-muted-foreground">
-                                        Using Operations Manager's Process Flow analysis tools, the
-                                        company mapped their entire loan approval process,
-                                        identified bottlenecks and non-value-added activities, and
-                                        redesigned the workflow to eliminate redundancies and
-                                        streamline decision-making.
-                                    </p>
-                                </div>
-
-                                <div>
-                                    <h3 className="mb-3 text-xl font-semibold text-purple-600">
-                                        Results Achieved
-                                    </h3>
-                                    <div className="grid gap-4 md:grid-cols-2">
-                                        <div className="space-y-2">
-                                            <div className="flex items-center">
-                                                <div className="mr-3 size-3 rounded-full bg-green-500" />
-                                                <span className="text-sm">
-                                                    65% reduction in processing time
-                                                </span>
-                                            </div>
-                                            <div className="flex items-center">
-                                                <div className="mr-3 size-3 rounded-full bg-blue-500" />
-                                                <span className="text-sm">
-                                                    85% improvement in customer satisfaction
-                                                </span>
-                                            </div>
-                                            <div className="flex items-center">
-                                                <div className="mr-3 size-3 rounded-full bg-purple-500" />
-                                                <span className="text-sm">
-                                                    40% reduction in processing costs
-                                                </span>
-                                            </div>
-                                        </div>
-                                        <div className="space-y-2">
-                                            <div className="flex items-center">
-                                                <div className="mr-3 size-3 rounded-full bg-orange-500" />
-                                                <span className="text-sm">
-                                                    50% decrease in handoffs
-                                                </span>
-                                            </div>
-                                            <div className="flex items-center">
-                                                <div className="mr-3 size-3 rounded-full bg-red-500" />
-                                                <span className="text-sm">
-                                                    30% increase in approval rate
-                                                </span>
-                                            </div>
-                                            <div className="flex items-center">
-                                                <div className="mr-3 size-3 rounded-full bg-teal-500" />
-                                                <span className="text-sm">
-                                                    90% automation of routine tasks
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </CardContent>
-                        </Card>
-                    </div>
-                </div>
-            </section>
-
-            {/* Process Analysis Tools */}
-            <section className="py-16">
-                <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-6xl">
-                        <h2 className="mb-12 text-center text-3xl font-bold text-foreground">
-                            Process Analysis Tools
-                        </h2>
-                        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-                            <Card>
-                                <CardHeader>
-                                    <CardTitle className="text-center">
-                                        Value Stream Mapping
-                                    </CardTitle>
-                                </CardHeader>
-                                <CardContent>
-                                    <p className="text-center text-muted-foreground">
-                                        Visual representation of material and information flow
-                                        through processes
-                                    </p>
-                                </CardContent>
-                            </Card>
-                            <Card>
-                                <CardHeader>
-                                    <CardTitle className="text-center">Process Mapping</CardTitle>
-                                </CardHeader>
-                                <CardContent>
-                                    <p className="text-center text-muted-foreground">
-                                        Detailed flowcharts showing activities, decisions, and
-                                        process flow
-                                    </p>
-                                </CardContent>
-                            </Card>
-                            <Card>
-                                <CardHeader>
-                                    <CardTitle className="text-center">
-                                        Swim Lane Diagrams
-                                    </CardTitle>
-                                </CardHeader>
-                                <CardContent>
-                                    <p className="text-center text-muted-foreground">
-                                        Cross-functional process visualization showing
-                                        responsibilities
-                                    </p>
-                                </CardContent>
-                            </Card>
-                            <Card>
-                                <CardHeader>
-                                    <CardTitle className="text-center">SIPOC Analysis</CardTitle>
-                                </CardHeader>
-                                <CardContent>
-                                    <p className="text-center text-muted-foreground">
-                                        Suppliers, Inputs, Process, Outputs, Customers framework
-                                    </p>
-                                </CardContent>
-                            </Card>
-                            <Card>
-                                <CardHeader>
-                                    <CardTitle className="text-center">
-                                        Root Cause Analysis
-                                    </CardTitle>
-                                </CardHeader>
-                                <CardContent>
-                                    <p className="text-center text-muted-foreground">
-                                        Systematic problem identification and solution development
-                                    </p>
-                                </CardContent>
-                            </Card>
-                            <Card>
-                                <CardHeader>
-                                    <CardTitle className="text-center">Time Studies</CardTitle>
-                                </CardHeader>
-                                <CardContent>
-                                    <p className="text-center text-muted-foreground">
-                                        Detailed timing analysis of process steps and cycle times
-                                    </p>
-                                </CardContent>
-                            </Card>
-                        </div>
                     </div>
                 </div>
             </section>
 
             {/* Awards Section */}
-            <section className="py-16">
+            <section className="pt-6">
                 <div className="container mx-auto px-4">
-                    <Card className="bg-gradient-to-r from-blue-600 to-blue-800 text-white">
-                        <CardContent className="py-12 text-center">
-                            <h2 className="mb-8 text-3xl font-bold">
-                                CELEBRATING 25 YEARS OF AWARD WINNING SOFTWARE!
-                            </h2>
-                            <div className="flex justify-center">
-                                <Image
-                                    src="https://www.usersolutions.com/wp-content/uploads/2022/07/banner-logoso-sm-58c9a28d237d6-1024x128.jpg"
-                                    alt="Collection of industry and business awards logos"
-                                    width={1024}
-                                    height={128}
-                                    className="h-auto max-w-full"
-                                />
-                            </div>
-                        </CardContent>
-                    </Card>
+                    <div className="mx-auto max-w-4xl">
+                        <Card className="bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20">
+                            <CardContent className="p-8 text-center">
+                                <h2 className="mb-6 text-2xl font-bold text-foreground">
+                                    CELEBRATING 25 YEARS OF AWARD WINNING SOFTWARE!
+                                </h2>
+                                <div className="flex justify-center">
+                                    <Image
+                                        src="https://www.usersolutions.com/wp-content/uploads/2022/07/banner-logoso-sm-58c9a28d237d6-1024x128.jpg"
+                                        alt="Collection of industry and business awards logos"
+                                        width={1024}
+                                        height={128}
+                                        className="h-auto max-w-full rounded-lg shadow-md"
+                                    />
+                                </div>
+                            </CardContent>
+                        </Card>
+                    </div>
                 </div>
             </section>
         </div>
