@@ -24,7 +24,8 @@ export default function OperationsManagerSimplePage(): React.JSX.Element {
                             Operations Manager: Simple Analysis
                         </h1>
                         <p className="mb-8 text-xl md:text-2xl">
-                            Streamlined analysis tools for quick operational insights and decision making
+                            Streamlined analysis tools for quick operational insights and
+                            decision making
                         </p>
                         <div className="flex flex-col justify-center gap-4 sm:flex-row">
                             <Button
@@ -50,11 +51,18 @@ export default function OperationsManagerSimplePage(): React.JSX.Element {
                             </CardHeader>
                             <CardContent className="space-y-6">
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    Simple Analysis provides intuitive, user-friendly tools for conducting essential operational analyses without complexity. This module streamlines common analytical tasks, making it easy for non-technical users to perform data analysis, generate insights, and make informed decisions quickly.
+                                    Simple Analysis provides intuitive, user-friendly tools for
+                                    conducting essential operational analyses without complexity.
+                                    This module streamlines common analytical tasks, making it
+                                    easy for non-technical users to perform data analysis,
+                                    generate insights, and make informed decisions quickly.
                                 </p>
 
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    From basic statistical analysis to trend identification, Simple Analysis delivers the essential analytical capabilities needed for day-to-day operational management while maintaining ease of use and accessibility for all team members.
+                                    From basic statistical analysis to trend identification,
+                                    Simple Analysis delivers the essential analytical capabilities
+                                    needed for day-to-day operational management while maintaining
+                                    ease of use and accessibility for all team members.
                                 </p>
                             </CardContent>
                         </Card>
@@ -78,7 +86,12 @@ export default function OperationsManagerSimplePage(): React.JSX.Element {
                                         The Challenge
                                     </h3>
                                     <p className="mb-4 text-muted-foreground">
-                                        LocalManufacturing Co. needed to improve their operational efficiency but lacked the resources for complex analytical tools or dedicated analysts. Their management team required simple, intuitive tools to analyze production data, identify trends, and make data-driven decisions without extensive training.
+                                        LocalManufacturing Co. needed to improve their operational
+                                        efficiency but lacked the resources for complex analytical
+                                        tools or dedicated analysts. Their management team required
+                                        simple, intuitive tools to analyze production data, identify
+                                        trends, and make data-driven decisions without extensive
+                                        training.
                                     </p>
                                 </div>
 
@@ -87,7 +100,12 @@ export default function OperationsManagerSimplePage(): React.JSX.Element {
                                         The Solution
                                     </h3>
                                     <p className="mb-4 text-muted-foreground">
-                                        Implementing Operations Manager's Simple Analysis module, the team gained access to user-friendly analytical tools for production tracking, cost analysis, and performance monitoring. The intuitive interface allowed immediate implementation without extensive training or technical expertise.
+                                        Implementing Operations Manager's Simple Analysis module,
+                                        the team gained access to user-friendly analytical tools for
+                                        production tracking, cost analysis, and performance
+                                        monitoring. The intuitive interface allowed immediate
+                                        implementation without extensive training or technical
+                                        expertise.
                                     </p>
                                 </div>
 
@@ -111,9 +129,7 @@ export default function OperationsManagerSimplePage(): React.JSX.Element {
                                             </div>
                                             <div className="flex items-center">
                                                 <div className="mr-3 size-3 rounded-full bg-purple-500" />
-                                                <span className="text-sm">
-                                                    90% user adoption rate
-                                                </span>
+                                                <span className="text-sm">90% user adoption rate</span>
                                             </div>
                                         </div>
                                         <div className="space-y-2">
@@ -145,7 +161,7 @@ export default function OperationsManagerSimplePage(): React.JSX.Element {
             </section>
 
             {/* Analysis Features */}
-            <section className="py-16">
+            <section className="py-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-6xl">
                         <h2 className="mb-12 text-center text-3xl font-bold text-foreground">
@@ -154,11 +170,14 @@ export default function OperationsManagerSimplePage(): React.JSX.Element {
                         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">Basic Statistics</CardTitle>
+                                    <CardTitle className="text-center">
+                                        Basic Statistics
+                                    </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Essential statistical measures including averages, totals, and percentages
+                                        Essential statistical measures including averages, totals,
+                                        and percentages
                                     </p>
                                 </CardContent>
                             </Card>
@@ -174,7 +193,9 @@ export default function OperationsManagerSimplePage(): React.JSX.Element {
                             </Card>
                             <Card>
                                 <CardHeader>
-                                    <CardTitle className="text-center">Comparison Tools</CardTitle>
+                                    <CardTitle className="text-center">
+                                        Comparison Tools
+                                    </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
@@ -188,7 +209,8 @@ export default function OperationsManagerSimplePage(): React.JSX.Element {
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-center text-muted-foreground">
-                                        Automated report generation with key insights and recommendations
+                                        Automated report generation with key insights and
+                                        recommendations
                                     </p>
                                 </CardContent>
                             </Card>
@@ -218,7 +240,7 @@ export default function OperationsManagerSimplePage(): React.JSX.Element {
             </section>
 
             {/* Analysis Categories */}
-            <section className="bg-muted/50 py-16">
+            <section className="bg-muted/50 py-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl">
                         <h2 className="mb-12 text-center text-3xl font-bold text-foreground">

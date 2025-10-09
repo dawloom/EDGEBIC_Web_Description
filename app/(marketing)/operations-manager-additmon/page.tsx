@@ -10,7 +10,7 @@ export default function AdditmonPage(): React.JSX.Element {
     return (
         <div className="min-h-screen bg-background">
             {/* Hero Section */}
-            <section className="bg-gradient-to-r from-blue-600 to-blue-800 py-16 text-white dark:from-blue-800 dark:to-blue-900">
+            <section className="bg-gradient-to-r from-blue-600 to-blue-800 py-6 text-white dark:from-blue-800 dark:to-blue-900">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl text-center">
                         <div className="mb-6">
@@ -78,7 +78,7 @@ export default function AdditmonPage(): React.JSX.Element {
             </section>
 
             {/* Classical Decomposition Method */}
-            <section className="bg-muted/50 pt-6">
+            <section className="bg-muted/50 py-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl">
                         <Card>
@@ -154,7 +154,7 @@ export default function AdditmonPage(): React.JSX.Element {
             </section>
 
             {/* When to Use ADDITMON */}
-            <section className="bg-muted/50 pt-6">
+            <section className="bg-muted/50 py-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl">
                         <Card>
@@ -216,7 +216,7 @@ export default function AdditmonPage(): React.JSX.Element {
             </section>
 
             {/* Common Seasonal Patterns */}
-            <section className="pt-6">
+            <section className="py-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl">
                         <h2 className="mb-8 text-center text-3xl font-bold text-foreground">
@@ -292,7 +292,7 @@ export default function AdditmonPage(): React.JSX.Element {
             </section>
 
             {/* Implementation Guide */}
-            <section className="bg-muted/50 pt-6">
+            <section className="bg-muted/50 py-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl">
                         <Card>
