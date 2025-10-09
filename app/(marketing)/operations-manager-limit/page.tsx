@@ -39,7 +39,7 @@ export default function LimitPage(): React.JSX.Element {
             </section>
 
             {/* Facility Layout Overview */}
-            <section className="py-16">
+            <section className="pt-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl">
                         <Card className="mb-8">
@@ -71,7 +71,7 @@ export default function LimitPage(): React.JSX.Element {
             </section>
 
             {/* Case Study */}
-            <section className="bg-muted/50 py-16">
+            <section className="bg-muted/50 pt-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl">
                         <Card>
@@ -163,7 +163,7 @@ export default function LimitPage(): React.JSX.Element {
             </section>
 
             {/* Layout Types */}
-            <section className="py-16">
+            <section className="pt-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-6xl">
                         <h2 className="mb-12 text-center text-3xl font-bold text-foreground">
@@ -242,7 +242,7 @@ export default function LimitPage(): React.JSX.Element {
             </section>
 
             {/* Design Objectives */}
-            <section className="bg-muted/50 py-16">
+            <section className="bg-muted/50 pt-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl">
                         <h2 className="mb-12 text-center text-3xl font-bold text-foreground">
@@ -315,7 +315,7 @@ export default function LimitPage(): React.JSX.Element {
             </section>
 
             {/* Design Methods */}
-            <section className="py-16">
+            <section className="pt-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl">
                         <h2 className="mb-12 text-center text-3xl font-bold text-foreground">
@@ -381,7 +381,7 @@ export default function LimitPage(): React.JSX.Element {
             </section>
 
             {/* Awards Section */}
-            <section className="py-16">
+            <section className="pt-6">
                 <div className="container mx-auto px-4">
                     <Card className="bg-gradient-to-r from-blue-600 to-blue-800 text-white">
                         <CardContent className="py-12 text-center">

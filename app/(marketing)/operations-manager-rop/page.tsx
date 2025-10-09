@@ -40,7 +40,7 @@ export default function OperationsManagerRopPage(): React.JSX.Element {
             </section>
 
             {/* ROP Overview */}
-            <section className="py-16">
+            <section className="pt-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl">
                         <Card className="mb-8">
@@ -71,7 +71,7 @@ export default function OperationsManagerRopPage(): React.JSX.Element {
             </section>
 
             {/* Case Study */}
-            <section className="bg-muted/50 py-16">
+            <section className="bg-muted/50 pt-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl">
                         <Card>
@@ -161,7 +161,7 @@ export default function OperationsManagerRopPage(): React.JSX.Element {
             </section>
 
             {/* ROP Features */}
-            <section className="py-16">
+            <section className="pt-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-6xl">
                         <h2 className="mb-12 text-center text-3xl font-bold text-foreground">
@@ -250,7 +250,7 @@ export default function OperationsManagerRopPage(): React.JSX.Element {
             </section>
 
             {/* Inventory Applications */}
-            <section className="bg-muted/50 py-16">
+            <section className="bg-muted/50 pt-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl">
                         <h2 className="mb-12 text-center text-3xl font-bold text-foreground">
@@ -323,7 +323,7 @@ export default function OperationsManagerRopPage(): React.JSX.Element {
             </section>
 
             {/* Awards Section */}
-            <section className="py-16">
+            <section className="pt-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl">
                         <Card className="bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20">

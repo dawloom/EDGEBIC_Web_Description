@@ -40,7 +40,7 @@ export default function EoqprodPage(): React.JSX.Element {
             </section>
 
             {/* Main Content */}
-            <section className="py-16">
+            <section className="pt-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl">
                         <h2 className="mb-8 text-center text-3xl font-bold">
@@ -151,7 +151,7 @@ export default function EoqprodPage(): React.JSX.Element {
             </section>
 
             {/* Awards Section */}
-            <section className="bg-gray-100 py-16">
+            <section className="bg-gray-100 pt-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl text-center">
                         <h2 className="mb-8 text-3xl font-bold">

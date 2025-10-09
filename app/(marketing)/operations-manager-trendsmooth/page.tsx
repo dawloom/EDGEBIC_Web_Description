@@ -9,7 +9,7 @@ export default function TrendsmoothPage(): React.JSX.Element {
     return (
         <div className="min-h-screen bg-background">
             {/* Hero Section */}
-            <section className="bg-gradient-to-r from-blue-600 to-blue-800 py-16 text-white dark:from-blue-800 dark:to-blue-900">
+            <section className="bg-gradient-to-r from-blue-600 to-blue-800 py-6 text-white dark:from-blue-800 dark:to-blue-900">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl text-center">
                         <div className="mb-6">
@@ -40,14 +40,14 @@ export default function TrendsmoothPage(): React.JSX.Element {
             </section>
 
             {/* Main Content */}
-            <section className="py-16">
+            <section className="pt-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl">
                         <h2 className="mb-8 text-center text-3xl font-bold text-foreground">
                             Smoothing linear, exponential, and damped trends (TRENDSMOOTH)
                         </h2>
 
-                        <Card className="mb-8">
+                        <Card className='mb-6'>
                             <CardContent className="pt-6">
                                 <p className="mb-6 text-lg leading-relaxed text-muted-foreground">
                                     Exponential smoothing with a trend works much like simple
@@ -60,7 +60,7 @@ export default function TrendsmoothPage(): React.JSX.Element {
                             </CardContent>
                         </Card>
 
-                        <Card className="mb-8">
+                        <Card className='mb-6'>
                             <CardHeader>
                                 <CardTitle className="text-2xl">
                                     Case Study: Alief Precision Arms
@@ -85,7 +85,7 @@ export default function TrendsmoothPage(): React.JSX.Element {
                         <h3 className="mb-4 text-2xl font-semibold text-foreground">
                             Forecasting Capabilities
                         </h3>
-                        <Card className="mb-8">
+                        <Card>
                             <CardContent className="pt-6">
                                 <p className="mb-6 text-muted-foreground">
                                     The worksheet was developed to help Alief compare several
@@ -108,7 +108,7 @@ export default function TrendsmoothPage(): React.JSX.Element {
                                 </ul>
                             </CardContent>
                         </Card>
-                        <Card className="bg-primary/10">
+                        <Card className="bg-primary/10 mb-2">
                             <CardContent className="pt-6">
                                 <h3 className="mb-3 text-xl font-semibold text-primary">
                                     Key Benefits
@@ -125,7 +125,7 @@ export default function TrendsmoothPage(): React.JSX.Element {
             </section>
 
             {/* Awards Section */}
-            <section className="py-16">
+            <section className="pt-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl">
                         <Card className="bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20">
