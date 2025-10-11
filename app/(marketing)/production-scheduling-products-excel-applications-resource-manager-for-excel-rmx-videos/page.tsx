@@ -20,7 +20,7 @@ export default function ProductionSchedulingProductsVideosPage() {
             </section>
 
             {/* Main Content */}
-            <section className="pt-6 pb-16">
+            <section className="pt-6">
                 <div className="container mx-auto px-4">
                     <div className="max-w-6xl mx-auto">
                         {/* Welcome */}
@@ -166,7 +166,7 @@ export default function ProductionSchedulingProductsVideosPage() {
             </section>
 
             {/* Awards Section */}
-            <section className="bg-gray-50 pt-6 pb-16">
+            <section className="bg-gray-50 pt-6">
                 <div className="container mx-auto px-4">
                     <div className="max-w-4xl mx-auto text-center">
                         <h2 className="text-3xl font-bold mb-8">

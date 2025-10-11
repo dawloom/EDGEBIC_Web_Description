@@ -21,7 +21,7 @@ export default function MultimonPage(): React.JSX.Element {
                             </Badge>
                         </div>
                         <h1 className="mb-6 text-4xl font-bold md:text-6xl">
-                            Operations Manager: Transportation
+                            Operations Manager: MULTIMON
                         </h1>
                         <p className="mb-8 text-xl md:text-2xl">
                             Transportation and logistics optimization for cost-effective
@@ -72,7 +72,7 @@ export default function MultimonPage(): React.JSX.Element {
             </section>
 
             {/* Case Study */}
-            <section className="bg-muted/50 pt-6">
+            <section className="bg-muted/50 py-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-4xl">
                         <Card>

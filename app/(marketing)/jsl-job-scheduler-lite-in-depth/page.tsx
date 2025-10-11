@@ -1,41 +1,25 @@
 import React from 'react';
 import Link from 'next/link';
 
+import { Badge } from '@/components/ui/badge';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 export default function JSLJobSchedulerLiteInDepthPage() {
     return (
-        <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
+        <div className="min-h-screen">
             {/* Hero Section */}
-            <section className="bg-gradient-to-r from-blue-600 to-blue-800 py-16 text-white">
-                <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-4xl text-center">
-                        <h1 className="mb-6 text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">
+            <section className="bg-gradient-to-r from-blue-600 to-blue-800 py-6 ">
+                <div className="container  mx-auto px-4">
+                    <div className="mx-auto max-w-5xl text-center">
+                        <Badge
+                            variant="outline"
+                            className="mb-6 h-8 rounded-full px-3 text-sm font-medium shadow-sm"
+                        >
+                            JOB SCHEDULER LITE
+                        </Badge>
+                        <h1 className="mb-6  text-4xl font-bold text-transparent sm:text-5xl md:text-6xl">
                             Job Scheduler Lite (JSL): In Depth
                         </h1>
-                    </div>
-                </div>
-            </section>
-
-            {/* Navigation Tabs */}
-            <section className="border-b bg-white">
-                <div className="container mx-auto px-4">
-                    <div className="flex justify-center gap-6 py-4">
-                        <Link
-                            href="/jsl-job-scheduler-lite"
-                            className="font-medium text-gray-600 hover:text-blue-600"
-                        >
-                            Summary
-                        </Link>
-                        <span className="border-b-2 border-blue-600 font-medium text-blue-600">
-                            In Depth
-                        </span>
-                        <Link
-                            href="/job-scheduler-lite-download"
-                            className="font-medium text-gray-600 hover:text-blue-600"
-                        >
-                            Download Now
-                        </Link>
                     </div>
                 </div>
             </section>
@@ -48,7 +32,7 @@ export default function JSLJobSchedulerLiteInDepthPage() {
                             <CardTitle className="text-3xl font-bold">Overview</CardTitle>
                         </CardHeader>
                         <CardContent className="space-y-6">
-                            <p className="text-lg leading-relaxed">
+                            <p className="text-lg leading-relaxed text-muted-foreground">
                                 Welcome to Job Scheduler Lite (JSL). Designed as an entry level
                                 production scheduling offering that allows users to quickly
                                 create a series of routing steps then schedule according to
@@ -73,7 +57,7 @@ export default function JSLJobSchedulerLiteInDepthPage() {
             </section>
 
             {/* Features Section */}
-            <section className="bg-gray-50 pb-12 pt-6">
+            <section className=" pb-12 pt-6">
                 <div className="container mx-auto px-4">
                     <Card className="mx-auto max-w-6xl">
                         <CardHeader>
@@ -85,7 +69,7 @@ export default function JSLJobSchedulerLiteInDepthPage() {
                                 <h3 className="mb-3 text-2xl font-semibold">
                                     Simple, familiar interface
                                 </h3>
-                                <p className="text-lg leading-relaxed">
+                                <p className="text-lg leading-relaxed text-muted-foreground">
                                     One step menus, on-screen buttons, or sheet tabs make
                                     navigation a snap.
                                 </p>
@@ -96,7 +80,7 @@ export default function JSLJobSchedulerLiteInDepthPage() {
                                 <h3 className="mb-3 text-2xl font-semibold">
                                     Easy to configure and run
                                 </h3>
-                                <p className="text-lg leading-relaxed">
+                                <p className="text-lg leading-relaxed text-muted-foreground">
                                     Quick, intuitive layout and prompts allows you to focus on
                                     your business, instead of learning another software product.
                                 </p>
@@ -181,14 +165,14 @@ export default function JSLJobSchedulerLiteInDepthPage() {
             </section>
 
             {/* Import Data */}
-            <section className="bg-gray-50 pb-12 pt-6">
+            <section className=" pb-12 pt-6">
                 <div className="container mx-auto px-4">
                     <Card className="mx-auto max-w-6xl">
                         <CardHeader>
                             <CardTitle className="text-3xl font-bold">Import Data</CardTitle>
                         </CardHeader>
                         <CardContent className="space-y-6">
-                            <p className="text-lg leading-relaxed">
+                            <p className="text-lg leading-relaxed text-muted-foreground">
                                 We recommend you review JSL with currently loaded demo data then
                                 consider using Import Data to load your application specific
                                 data. Just edit the importsback.xlsx to represent your data
@@ -214,13 +198,13 @@ export default function JSLJobSchedulerLiteInDepthPage() {
                             <CardTitle className="text-3xl font-bold">Daily Hours</CardTitle>
                         </CardHeader>
                         <CardContent className="space-y-6">
-                            <p className="text-lg leading-relaxed">
+                            <p className="text-lg leading-relaxed text-muted-foreground">
                                 Daily Hours is normal operating hours for your business. You
                                 might consider entering net hours (subtract breaks, lunch,
                                 efficiencies).
                             </p>
 
-                            <p className="text-lg leading-relaxed">
+                            <p className="text-lg leading-relaxed text-muted-foreground">
                                 Simply click on a day and enter start and end times in format
                                 below.
                             </p>
@@ -238,14 +222,14 @@ export default function JSLJobSchedulerLiteInDepthPage() {
             </section>
 
             {/* Holidays */}
-            <section className="bg-gray-50 pb-12 pt-6">
+            <section className=" pb-12 pt-6">
                 <div className="container mx-auto px-4">
                     <Card className="mx-auto max-w-6xl">
                         <CardHeader>
                             <CardTitle className="text-3xl font-bold">Holidays</CardTitle>
                         </CardHeader>
                         <CardContent className="space-y-6">
-                            <p className="text-lg leading-relaxed">
+                            <p className="text-lg leading-relaxed text-muted-foreground">
                                 Holidays can be a partial shutdown event for company, repeating
                                 holiday (like Christmas), or varies each year according to
                                 calendar (for example Thanksgiving).
@@ -271,7 +255,7 @@ export default function JSLJobSchedulerLiteInDepthPage() {
                             <CardTitle className="text-3xl font-bold">Resources</CardTitle>
                         </CardHeader>
                         <CardContent className="space-y-6">
-                            <p className="text-lg leading-relaxed">
+                            <p className="text-lg leading-relaxed text-muted-foreground">
                                 To add a new resource simply clear input table, enter in Name,
                                 description, and number of resources. Then Save. To delete,
                                 choose resource and press Delete key. The Num of Res (number of
@@ -294,14 +278,14 @@ export default function JSLJobSchedulerLiteInDepthPage() {
             </section>
 
             {/* Finish Goods */}
-            <section className="bg-gray-50 pb-12 pt-6">
+            <section className=" pb-12 pt-6">
                 <div className="container mx-auto px-4">
                     <Card className="mx-auto max-w-6xl">
                         <CardHeader>
                             <CardTitle className="text-3xl font-bold">Finish Goods</CardTitle>
                         </CardHeader>
                         <CardContent className="space-y-6">
-                            <p className="text-lg leading-relaxed">
+                            <p className="text-lg leading-relaxed text-muted-foreground">
                                 Finished Goods/Routing List (FG/RL) is what will be scheduled.
                                 You can enter a new name, then list the workcenters and timing
                                 in the order they are worked, then save. JSL schedules in a
@@ -331,7 +315,7 @@ export default function JSLJobSchedulerLiteInDepthPage() {
                             <CardTitle className="text-3xl font-bold">Orders</CardTitle>
                         </CardHeader>
                         <CardContent className="space-y-6">
-                            <p className="text-lg leading-relaxed">
+                            <p className="text-lg leading-relaxed text-muted-foreground">
                                 Orders is what will be scheduled. You can enter a new name, then
                                 list the workcenters and timing in the order they are worked,
                                 then save. JSL schedules in a linear mode, meaning all parts are
@@ -353,14 +337,14 @@ export default function JSLJobSchedulerLiteInDepthPage() {
             </section>
 
             {/* Schedule */}
-            <section className="bg-gray-50 pb-12 pt-6">
+            <section className=" pb-12 pt-6">
                 <div className="container mx-auto px-4">
                     <Card className="mx-auto max-w-6xl">
                         <CardHeader>
                             <CardTitle className="text-3xl font-bold">Schedule</CardTitle>
                         </CardHeader>
                         <CardContent className="space-y-6">
-                            <p className="text-lg leading-relaxed">
+                            <p className="text-lg leading-relaxed text-muted-foreground">
                                 See call out details below.
                             </p>
 
@@ -384,12 +368,12 @@ export default function JSLJobSchedulerLiteInDepthPage() {
                             <CardTitle className="text-3xl font-bold">InSights</CardTitle>
                         </CardHeader>
                         <CardContent className="space-y-6">
-                            <p className="text-lg leading-relaxed">
+                            <p className="text-lg leading-relaxed text-muted-foreground">
                                 Insight is the most comprehensive and feature rich module in
                                 JSL.
                             </p>
 
-                            <p className="text-lg leading-relaxed">
+                            <p className="text-lg leading-relaxed text-muted-foreground">
                                 Check out the schedule calendar Legend to see at a glance how
                                 selected month is scheduled. Work day with no late jobs, work
                                 day with at lease one late job, workday with NO scheduled work,
@@ -398,7 +382,7 @@ export default function JSLJobSchedulerLiteInDepthPage() {
                                 applied on global level.
                             </p>
 
-                            <p className="text-lg leading-relaxed">
+                            <p className="text-lg leading-relaxed text-muted-foreground">
                                 The time scale can be 15 minutes to a week. Right click on
                                 Workcenter ID (frist column in Gantt display) to display color
                                 coded efficiency. You can even click on any job segment to move
@@ -419,14 +403,14 @@ export default function JSLJobSchedulerLiteInDepthPage() {
             </section>
 
             {/* Export Data */}
-            <section className="bg-gray-50 pb-12 pt-6">
+            <section className=" pb-12 pt-6">
                 <div className="container mx-auto px-4">
                     <Card className="mx-auto max-w-6xl">
                         <CardHeader>
                             <CardTitle className="text-3xl font-bold">Export Data</CardTitle>
                         </CardHeader>
                         <CardContent className="space-y-6">
-                            <p className="text-lg leading-relaxed">
+                            <p className="text-lg leading-relaxed text-muted-foreground">
                                 Export data however you wish. Sometimes its quicker to export
                                 out data to Excel, make big changes as needed, then just import
                                 in.
@@ -454,7 +438,7 @@ export default function JSLJobSchedulerLiteInDepthPage() {
                             </CardTitle>
                         </CardHeader>
                         <CardContent className="space-y-6">
-                            <p className="text-lg leading-relaxed">
+                            <p className="text-lg leading-relaxed text-muted-foreground">
                                 Configure allows you to try different themes, back up and
                                 restore database, and also register the JSL for customer use.
                             </p>
@@ -472,14 +456,14 @@ export default function JSLJobSchedulerLiteInDepthPage() {
             </section>
 
             {/* Reports */}
-            <section className="bg-gray-50 pb-12 pt-6">
+            <section className=" pb-12 pt-6">
                 <div className="container mx-auto px-4">
                     <Card className="mx-auto max-w-6xl">
                         <CardHeader>
                             <CardTitle className="text-3xl font-bold">Reports</CardTitle>
                         </CardHeader>
                         <CardContent className="space-y-6">
-                            <p className="text-lg leading-relaxed">
+                            <p className="text-lg leading-relaxed text-muted-foreground">
                                 There are a variety of reports available.
                             </p>
 
@@ -496,17 +480,23 @@ export default function JSLJobSchedulerLiteInDepthPage() {
             </section>
 
             {/* Awards Banner */}
-            <section className="pb-12 pt-6">
+            <section className="py-6">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-6xl text-center">
-                        <h2 className="mb-6 text-3xl font-bold">
-                            CELEBRATING 25 YEARS OF AWARD WINNING SOFTWARE!
-                        </h2>
-                        <img
-                            src="https://www.usersolutions.com/wp-content/uploads/2022/07/banner-logoso-sm-58c9a28d237d6-1024x128.jpg"
-                            alt="Collection of industry and business awards logos"
-                            className="h-auto w-full"
-                        />
+                    <div className="mx-auto max-w-6xl">
+                        <Card className="bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20">
+                            <CardContent className="p-8 text-center">
+                                <h3 className="mb-6 text-2xl font-bold text-slate-900 dark:text-white">
+                                    CELEBRATING 25 YEARS OF AWARD WINNING SOFTWARE!
+                                </h3>
+                                <div className="flex justify-center">
+                                    <img
+                                        src="https://www.usersolutions.com/wp-content/uploads/2022/07/banner-logoso-sm-58c9a28d237d6-1024x128.jpg"
+                                        alt="Collection of industry and business awards logos"
+                                        className="h-auto max-w-full rounded-lg shadow-md"
+                                    />
+                                </div>
+                            </CardContent>
+                        </Card>
                     </div>
                 </div>
             </section>
