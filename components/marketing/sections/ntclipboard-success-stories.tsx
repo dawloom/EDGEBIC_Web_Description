@@ -312,7 +312,7 @@ export function NTClipboardSuccessStories(): React.JSX.Element {
 
             {/* CTA Section */}
             <section className="bg-gradient-to-r from-blue-600 to-blue-800 py-16 dark:from-blue-700 dark:to-blue-900">
-                <div className="mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
+                <div className="mx-auto max-w-5xl px-4 text-center sm:px-6 lg:px-8">
                     <h2 className="text-3xl font-bold text-white">
                         Ready to Create Your Own Success Story?
                     </h2>

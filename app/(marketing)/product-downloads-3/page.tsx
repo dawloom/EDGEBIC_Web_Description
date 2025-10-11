@@ -11,7 +11,7 @@ export default function ProductDownloads3Page() {
             {/* Hero Section */}
             <section className="bg-gradient-to-r from-blue-600 to-blue-800 py-16 text-white">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-4xl text-center">
+                    <div className="mx-auto max-w-5xl text-center">
                         <h1 className="mb-6 text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">
                             Production Scheduling Products
                         </h1>
@@ -20,7 +20,7 @@ export default function ProductDownloads3Page() {
             </section>
 
             {/* Download Note */}
-            <section className="pb-12 pt-6">
+            <section className="py-6">
                 <div className="container mx-auto px-4">
                     <Card className="mx-auto max-w-6xl border-blue-200 bg-blue-50">
                         <CardContent className="pt-6">
@@ -39,7 +39,7 @@ export default function ProductDownloads3Page() {
             </section>
 
             {/* Main Product Tiers */}
-            <section className="bg-gray-50 pb-12 pt-6">
+            <section className="bg-gray-50 py-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-6xl">
                         <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
@@ -190,7 +190,7 @@ export default function ProductDownloads3Page() {
             </section>
 
             {/* Other Products Section */}
-            <section className="pb-12 pt-6">
+            <section className="py-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-6xl">
                         <h2 className="mb-8 text-center text-3xl font-bold">
@@ -382,7 +382,7 @@ export default function ProductDownloads3Page() {
             </section>
 
             {/* Awards Banner */}
-            <section className="bg-gray-50 pb-12 pt-6">
+            <section className="bg-gray-50 py-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-6xl text-center">
                         <h2 className="mb-6 text-3xl font-bold">

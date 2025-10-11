@@ -221,7 +221,7 @@ export default function EDGEBIPage(): React.JSX.Element {
 
             {/* Video Section */}
             <div className="mb-16">
-              <div className="relative mx-auto max-w-4xl overflow-hidden rounded-2xl border bg-slate-100 shadow-2xl dark:bg-slate-800">
+              <div className="relative mx-auto max-w-5xl overflow-hidden rounded-2xl border bg-slate-100 shadow-2xl dark:bg-slate-800">
                 <div className="relative aspect-video">
                   <VideoPlayer
                     videoUrl="https://www.usersolutions.com/wp-content/uploads/2022/12/EDGEBI%20updated%20thumbnail.mp4"

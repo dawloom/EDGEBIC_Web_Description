@@ -160,7 +160,7 @@ export function ProductionPlanningSolutions(): React.JSX.Element {
 
                     {/* Video Section */}
                     <div className="mb-16">
-                        <div className="relative mx-auto max-w-4xl overflow-hidden rounded-2xl border bg-slate-100 shadow-2xl dark:bg-slate-800">
+                        <div className="relative mx-auto max-w-5xl overflow-hidden rounded-2xl border bg-slate-100 shadow-2xl dark:bg-slate-800">
                             <div className="relative aspect-video">
                                 <VideoPlayer
                                     videoUrl="https://youtu.be/IR8NhOlV_zM"
@@ -971,7 +971,7 @@ export function ProductionPlanningSolutions(): React.JSX.Element {
                         <h2 className="mb-6 text-3xl font-bold text-slate-900 dark:text-white">
                             CELEBRATING 25 YEARS OF AWARD WINNING SOFTWARE!
                         </h2>
-                        <div className="mx-auto max-w-4xl">
+                        <div className="mx-auto max-w-5xl">
                             <Image
                                 src="https://www.usersolutions.com/wp-content/uploads/2022/07/banner-logoso-sm-58c9a28d237d6-1024x128.jpg"
                                 alt="Collection of industry and business awards logos"

@@ -11,7 +11,7 @@ export default function RunoutPage(): React.JSX.Element {
             {/* Hero Section */}
             <section className="bg-gradient-to-r from-blue-600 to-blue-800 py-6 text-white dark:from-blue-800 dark:to-blue-900">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-4xl text-center">
+                    <div className="mx-auto max-w-5xl text-center">
                         <div className="mb-6">
                             <Badge
                                 variant="outline"
@@ -41,7 +41,7 @@ export default function RunoutPage(): React.JSX.Element {
             {/* Run-out Time Production Planning Overview */}
             <section className="pt-6">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-4xl">
+                    <div className="mx-auto max-w-5xl">
                         <Card className="mb-8">
                             <CardHeader>
                                 <CardTitle className="text-center text-3xl">
@@ -50,7 +50,20 @@ export default function RunoutPage(): React.JSX.Element {
                             </CardHeader>
                             <CardContent className="space-y-6">
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    The aim is to give each inventory item the same run-out time, defined as the number of weeks the inventory will last at current demand rates. Of course, the demand forecasts change weekly, so run-out time is updated weekly. Management controls the model by specifying the number of hours to be worked next week on stock production. Other inputs, include the item description, the production hours required to produce 1 unit, the inventory on-hand in units, and the demand forecast for the next week in units. It is easy to do what-if analysis with the RUNOUT model. To illustrate, Brookshire management wants to schedule overtime to get run-out time up to 1 week of stock for every item. How many hours of stock production are needed? Increase cell F4 until you get run-out time of 1 week. A total of 46 hours are required.
+                                    The aim is to give each inventory item the same run-out time,
+                                    defined as the number of weeks the inventory will last at
+                                    current demand rates. Of course, the demand forecasts change
+                                    weekly, so run-out time is updated weekly. Management controls
+                                    the model by specifying the number of hours to be worked next
+                                    week on stock production. Other inputs, include the item
+                                    description, the production hours required to produce 1 unit,
+                                    the inventory on-hand in units, and the demand forecast for
+                                    the next week in units. It is easy to do what-if analysis with
+                                    the RUNOUT model. To illustrate, Brookshire management wants
+                                    to schedule overtime to get run-out time up to 1 week of stock
+                                    for every item. How many hours of stock production are needed?
+                                    Increase cell F4 until you get run-out time of 1 week. A total
+                                    of 46 hours are required.
                                 </p>
                             </CardContent>
                         </Card>
@@ -61,7 +74,7 @@ export default function RunoutPage(): React.JSX.Element {
             {/* Awards Section */}
             <section>
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-4xl">
+                    <div className="mx-auto max-w-5xl">
                         <Card className="bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20">
                             <CardContent className="p-8 text-center">
                                 <h2 className="mb-6 text-2xl font-bold text-foreground">

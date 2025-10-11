@@ -102,7 +102,7 @@ export function ResourceManagementBlog() {
             {/* Hero Section */}
             <section className="relative overflow-hidden pt-6">
                 <div className="container relative">
-                    <div className="mx-auto max-w-4xl text-center">
+                    <div className="mx-auto max-w-5xl text-center">
                         <SiteHeading
                             badge="Resource Management Insights"
                             title={

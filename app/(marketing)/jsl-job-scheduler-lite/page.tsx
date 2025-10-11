@@ -9,7 +9,7 @@ export default function JobSchedulerLitePage(): React.JSX.Element {
     return (
         <div className="min-h-screen">
             {/* Hero Section */}
-            <section className="bg-gradient-to-br from-blue-600 via-blue-700 to-blue-900 py-16 text-white">
+            <section className="bg-gradient-to-br from-blue-600 via-blue-700 to-blue-900 py-6 text-white">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-5xl text-center">
                         <Badge
@@ -395,7 +395,7 @@ export default function JobSchedulerLitePage(): React.JSX.Element {
 
                     {/* Call to Action */}
                     <div className="text-center">
-                        <div className="mx-auto max-w-4xl rounded-3xl bg-gradient-to-br from-blue-600 to-blue-800 p-8 text-white">
+                        <div className="mx-auto max-w-5xl rounded-3xl bg-gradient-to-br from-blue-600 to-blue-800 p-8 text-white">
                             <h3 className="mb-4 text-2xl font-bold">
                                 Ready to Transform Your Production Scheduling?
                             </h3>
@@ -428,7 +428,7 @@ export default function JobSchedulerLitePage(): React.JSX.Element {
                             <h2 className="mb-3 text-2xl font-bold">
                                 25 Years of Award-Winning Software
                             </h2>
-                            <div className="mx-auto max-w-4xl overflow-hidden rounded-lg">
+                            <div className="mx-auto max-w-5xl overflow-hidden rounded-lg">
                                 <img
                                     src="https://www.usersolutions.com/wp-content/uploads/2022/07/banner-logoso-sm-58c9a28d237d6-1024x128.jpg"
                                     alt="Collection of industry and business awards logos"

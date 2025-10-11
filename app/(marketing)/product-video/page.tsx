@@ -9,7 +9,7 @@ export default function ProductVideoPage() {
             {/* Hero Section */}
             <section className="bg-gradient-to-br from-purple-50 via-white to-blue-50 py-16">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-4xl text-center">
+                    <div className="mx-auto max-w-5xl text-center">
                         <h1 className="mb-6 bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-4xl font-bold text-transparent md:text-5xl">
                             Product Videos
                         </h1>
@@ -22,7 +22,7 @@ export default function ProductVideoPage() {
             </section>
 
             {/* Main Content */}
-            <section className="pb-16 pt-6">
+            <section className="pb-6 pt-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-6xl">
                         {/* Resource Manager DB */}
@@ -156,7 +156,7 @@ export default function ProductVideoPage() {
             {/* Schedule Demo Section */}
             <section className="bg-gray-50 pb-8 pt-6">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-4xl">
+                    <div className="mx-auto max-w-5xl">
                         <Card>
                             <CardHeader>
                                 <CardTitle className="text-center text-3xl">
@@ -196,7 +196,7 @@ export default function ProductVideoPage() {
             {/* Resource Manager Videos Link */}
             <section className="pb-8 pt-6">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-4xl">
+                    <div className="mx-auto max-w-5xl">
                         <Card className="border-blue-200 bg-blue-50">
                             <CardHeader>
                                 <CardTitle className="text-2xl">
@@ -228,9 +228,9 @@ export default function ProductVideoPage() {
             </section>
 
             {/* Awards Section */}
-            <section className="bg-gray-50 pb-16 pt-6">
+            <section className="bg-gray-50 pb-6 pt-6">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-4xl text-center">
+                    <div className="mx-auto max-w-5xl text-center">
                         <h2 className="mb-8 text-3xl font-bold">
                             Celebrating 25 Years of Award Winning Software!
                         </h2>

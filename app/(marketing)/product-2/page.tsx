@@ -331,7 +331,7 @@ export default function Product2Page(): React.JSX.Element {
 
       {/* Call to Action Section */}
       <section className="py-16">
-        <div className="container mx-auto max-w-4xl px-4 text-center">
+        <div className="container mx-auto max-w-5xl px-4 text-center">
           <div className="rounded-2xl border bg-slate-50 p-8 dark:bg-slate-800">
             <h2 className="mb-4 text-3xl font-bold">
               Want to get your production in the groove?

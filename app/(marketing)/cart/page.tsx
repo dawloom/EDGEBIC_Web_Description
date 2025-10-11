@@ -13,7 +13,7 @@ export default function CartPage() {
 
             {/* Cart Content */}
             <div className="container mx-auto px-4 py-16">
-                <div className="mx-auto max-w-4xl">
+                <div className="mx-auto max-w-5xl">
                     {/* Empty Cart State */}
                     <div className="rounded-lg bg-gray-50 p-12 text-center">
                         <div className="mb-6">

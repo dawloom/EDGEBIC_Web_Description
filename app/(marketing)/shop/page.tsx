@@ -105,7 +105,7 @@ export default function ShopPage() {
     return (
         <div className="min-h-screen bg-gray-50">
             {/* Header */}
-            <div className="bg-blue-600 py-16 text-white">
+            <div className="bg-blue-600 py-6 text-white">
                 <div className="container mx-auto px-4">
                     <h1 className="mb-4 text-center text-4xl font-bold">
                         Excel Applications
@@ -126,7 +126,7 @@ export default function ShopPage() {
             </div>
 
             {/* Products Grid */}
-            <div className="container mx-auto px-4 py-16">
+            <div className="container mx-auto px-4 py-6">
                 <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
                     {products.map((product, index) => (
                         <ProductCard
@@ -138,7 +138,7 @@ export default function ShopPage() {
             </div>
 
             {/* Testimonials */}
-            <div className="bg-white py-16">
+            <div className="bg-white py-6">
                 <div className="container mx-auto px-4">
                     <div className="grid gap-8 md:grid-cols-3">
                         <div className="rounded-lg bg-gray-50 p-6 shadow">
@@ -184,7 +184,7 @@ export default function ShopPage() {
             </div>
 
             {/* Video Section */}
-            <div className="bg-blue-50 py-16">
+            <div className="bg-blue-50 py-6">
                 <div className="container mx-auto px-4 text-center">
                     <h2 className="mb-4 text-3xl font-bold text-gray-800">
                         Want to get your production in the groove?
@@ -205,7 +205,7 @@ export default function ShopPage() {
             </div>
 
             {/* Awards Section */}
-            <div className="bg-gray-100 py-16">
+            <div className="bg-gray-100 py-6">
                 <div className="container mx-auto px-4 text-center">
                     <h2 className="mb-8 text-3xl font-bold text-gray-800">
                         CELEBRATING 25 YEARS OF AWARD WINNING SOFTWARE!
@@ -221,7 +221,7 @@ export default function ShopPage() {
             </div>
 
             {/* Contact Section */}
-            <div className="bg-blue-600 py-12 text-white">
+            <div className="bg-blue-600 py-6 text-white">
                 <div className="container mx-auto px-4 text-center">
                     <h2 className="mb-4 text-2xl font-bold">ABOUT US</h2>
                     <p className="mb-2">us@usersolutions.com</p>

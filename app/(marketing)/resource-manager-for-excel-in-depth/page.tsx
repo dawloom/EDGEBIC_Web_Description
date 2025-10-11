@@ -11,7 +11,7 @@ export default function ResourceManagerExcelInDepthPage() {
             {/* Hero Section */}
             <section className="bg-gradient-to-r from-blue-600 to-blue-800 py-16 text-white">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-4xl text-center">
+                    <div className="mx-auto max-w-5xl text-center">
                         <h1 className="mb-6 text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">
                             Resource Manager for Excel: In Depth
                         </h1>
@@ -51,7 +51,7 @@ export default function ResourceManagerExcelInDepthPage() {
             </section>
 
             {/* Overview Section */}
-            <section className="pb-12 pt-6">
+            <section className="py-6">
                 <div className="container mx-auto px-4">
                     <Card className="mx-auto max-w-6xl">
                         <CardHeader>
@@ -123,7 +123,7 @@ export default function ResourceManagerExcelInDepthPage() {
             </section>
 
             {/* Works The Way You Do */}
-            <section className="bg-gray-50 pb-12 pt-6">
+            <section className="bg-gray-50 py-6">
                 <div className="container mx-auto px-4">
                     <Card className="mx-auto max-w-6xl">
                         <CardHeader>
@@ -143,7 +143,7 @@ export default function ResourceManagerExcelInDepthPage() {
             </section>
 
             {/* Immediate, Guaranteed Benefits */}
-            <section className="pb-12 pt-6">
+            <section className="py-6">
                 <div className="container mx-auto px-4">
                     <Card className="mx-auto max-w-6xl">
                         <CardHeader>
@@ -176,7 +176,7 @@ export default function ResourceManagerExcelInDepthPage() {
             </section>
 
             {/* Best of All */}
-            <section className="bg-gray-50 pb-12 pt-6">
+            <section className="bg-gray-50 py-6">
                 <div className="container mx-auto px-4">
                     <Card className="mx-auto max-w-6xl">
                         <CardHeader>
@@ -194,7 +194,7 @@ export default function ResourceManagerExcelInDepthPage() {
             </section>
 
             {/* Features */}
-            <section className="pb-12 pt-6">
+            <section className="py-6">
                 <div className="container mx-auto px-4">
                     <Card className="mx-auto max-w-6xl">
                         <CardHeader>
@@ -271,7 +271,7 @@ export default function ResourceManagerExcelInDepthPage() {
             </section>
 
             {/* Fill'er Up */}
-            <section className="bg-gray-50 pb-12 pt-6">
+            <section className="bg-gray-50 py-6">
                 <div className="container mx-auto px-4">
                     <Card className="mx-auto max-w-6xl">
                         <CardHeader>
@@ -288,7 +288,7 @@ export default function ResourceManagerExcelInDepthPage() {
             </section>
 
             {/* Check the "MAP" */}
-            <section className="pb-12 pt-6">
+            <section className="py-6">
                 <div className="container mx-auto px-4">
                     <Card className="mx-auto max-w-6xl">
                         <CardHeader>
@@ -328,7 +328,7 @@ export default function ResourceManagerExcelInDepthPage() {
             </section>
 
             {/* Relax, Cruise Control is on */}
-            <section className="bg-gray-50 pb-12 pt-6">
+            <section className="bg-gray-50 py-6">
                 <div className="container mx-auto px-4">
                     <Card className="mx-auto max-w-6xl">
                         <CardHeader>
@@ -369,7 +369,7 @@ export default function ResourceManagerExcelInDepthPage() {
             </section>
 
             {/* Fine Tuning */}
-            <section className="pb-12 pt-6">
+            <section className="py-6">
                 <div className="container mx-auto px-4">
                     <Card className="mx-auto max-w-6xl">
                         <CardHeader>
@@ -446,7 +446,7 @@ export default function ResourceManagerExcelInDepthPage() {
             </section>
 
             {/* Reporting Overview */}
-            <section className="bg-gray-50 pb-12 pt-6">
+            <section className="bg-gray-50 py-6">
                 <div className="container mx-auto px-4">
                     <Card className="mx-auto max-w-6xl">
                         <CardHeader>
@@ -470,7 +470,7 @@ export default function ResourceManagerExcelInDepthPage() {
             </section>
 
             {/* Gantt Report */}
-            <section className="pb-12 pt-6">
+            <section className="py-6">
                 <div className="container mx-auto px-4">
                     <Card className="mx-auto max-w-6xl">
                         <CardHeader>
@@ -497,7 +497,7 @@ export default function ResourceManagerExcelInDepthPage() {
             </section>
 
             {/* Summary Report */}
-            <section className="bg-gray-50 pb-12 pt-6">
+            <section className="bg-gray-50 py-6">
                 <div className="container mx-auto px-4">
                     <Card className="mx-auto max-w-6xl">
                         <CardHeader>
@@ -526,7 +526,7 @@ export default function ResourceManagerExcelInDepthPage() {
             </section>
 
             {/* Item Report */}
-            <section className="pb-12 pt-6">
+            <section className="py-6">
                 <div className="container mx-auto px-4">
                     <Card className="mx-auto max-w-6xl">
                         <CardHeader>
@@ -552,7 +552,7 @@ export default function ResourceManagerExcelInDepthPage() {
             </section>
 
             {/* Calendar Report */}
-            <section className="bg-gray-50 pb-12 pt-6">
+            <section className="bg-gray-50 py-6">
                 <div className="container mx-auto px-4">
                     <Card className="mx-auto max-w-6xl">
                         <CardHeader>
@@ -570,7 +570,7 @@ export default function ResourceManagerExcelInDepthPage() {
             </section>
 
             {/* Workcenter Report */}
-            <section className="pb-12 pt-6">
+            <section className="py-6">
                 <div className="container mx-auto px-4">
                     <Card className="mx-auto max-w-6xl">
                         <CardHeader>
@@ -592,7 +592,7 @@ export default function ResourceManagerExcelInDepthPage() {
             </section>
 
             {/* Routing & Tree Report */}
-            <section className="bg-gray-50 pb-12 pt-6">
+            <section className="bg-gray-50 py-6">
                 <div className="container mx-auto px-4">
                     <Card className="mx-auto max-w-6xl">
                         <CardHeader>
@@ -619,7 +619,7 @@ export default function ResourceManagerExcelInDepthPage() {
             </section>
 
             {/* Production Report */}
-            <section className="pb-12 pt-6">
+            <section className="py-6">
                 <div className="container mx-auto px-4">
                     <Card className="mx-auto max-w-6xl">
                         <CardHeader>
@@ -649,7 +649,7 @@ export default function ResourceManagerExcelInDepthPage() {
             </section>
 
             {/* Purchasing & Receiving */}
-            <section className="bg-gray-50 pb-12 pt-6">
+            <section className="bg-gray-50 py-6">
                 <div className="container mx-auto px-4">
                     <Card className="mx-auto max-w-6xl">
                         <CardHeader>
@@ -681,7 +681,7 @@ export default function ResourceManagerExcelInDepthPage() {
             </section>
 
             {/* Special Services & Partners */}
-            <section className="pb-12 pt-6">
+            <section className="py-6">
                 <div className="container mx-auto px-4">
                     <Card className="mx-auto max-w-6xl">
                         <CardHeader>
@@ -704,7 +704,7 @@ export default function ResourceManagerExcelInDepthPage() {
             </section>
 
             {/* Awards Banner */}
-            <section className="bg-gray-50 pb-12 pt-6">
+            <section className="bg-gray-50 py-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-6xl text-center">
                         <h2 className="mb-6 text-3xl font-bold">

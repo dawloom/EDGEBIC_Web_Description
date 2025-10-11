@@ -11,7 +11,7 @@ export default function ThankYouWorkCenterSchedulerXLPage() {
             {/* Hero Section with Thank You Image */}
             <section className="bg-gradient-to-r from-blue-600 to-blue-800 py-16 text-white">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-4xl">
+                    <div className="mx-auto max-w-5xl">
                         <img
                             src="https://www.usersolutions.com/wp-content/uploads/2022/10/thankyou.jpg"
                             alt="Customer service representative smiling with headset at computer"
@@ -22,9 +22,9 @@ export default function ThankYouWorkCenterSchedulerXLPage() {
             </section>
 
             {/* Main Thank You Content */}
-            <section className="pb-12 pt-6">
+            <section className="py-6">
                 <div className="container mx-auto px-4">
-                    <Card className="mx-auto max-w-4xl">
+                    <Card className="mx-auto max-w-5xl">
                         <CardHeader>
                             <CardTitle className="text-center text-3xl font-bold">
                                 Thank you for your interest
@@ -104,7 +104,7 @@ export default function ThankYouWorkCenterSchedulerXLPage() {
             </section>
 
             {/* Awards Banner */}
-            <section className="bg-gray-50 pb-12 pt-6">
+            <section className="bg-gray-50 py-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-6xl text-center">
                         <h2 className="mb-6 text-3xl font-bold">

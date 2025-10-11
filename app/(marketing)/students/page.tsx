@@ -177,7 +177,7 @@ export default function StudentsPage(): React.JSX.Element {
 
                         {/* Student Overview Image */}
                         <div className="mb-16">
-                            <div className="relative mx-auto max-w-4xl overflow-hidden rounded-2xl border bg-slate-100 shadow-2xl dark:bg-slate-800">
+                            <div className="relative mx-auto max-w-5xl overflow-hidden rounded-2xl border bg-slate-100 shadow-2xl dark:bg-slate-800">
                                 <Image
                                     src="https://www.usersolutions.com/wp-content/uploads/2022/07/ops-1024x768.png"
                                     alt="Operations Management textbook with cruise ship photo"
@@ -426,7 +426,7 @@ export default function StudentsPage(): React.JSX.Element {
 
             {/* Student Trial Section */}
             <section className="py-16">
-                <div className="container mx-auto max-w-4xl px-4 text-center">
+                <div className="container mx-auto max-w-5xl px-4 text-center">
                     <div className="rounded-2xl border bg-slate-50 p-8 dark:bg-slate-800">
                         <h2 className="mb-4 text-3xl font-bold">Ready to Get Started?</h2>
                         <p className="mb-6 text-lg text-muted-foreground">

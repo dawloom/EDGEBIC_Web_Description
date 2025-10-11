@@ -12,7 +12,7 @@ export default function AdditmonPage(): React.JSX.Element {
             {/* Hero Section */}
             <section className="bg-gradient-to-r from-blue-600 to-blue-800 py-6 text-white dark:from-blue-800 dark:to-blue-900">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-4xl text-center">
+                    <div className="mx-auto max-w-5xl text-center">
                         <div className="mb-6">
                             <Badge
                                 variant="outline"
@@ -25,7 +25,8 @@ export default function AdditmonPage(): React.JSX.Element {
                             Operations Manager: ADDITMON
                         </h1>
                         <p className="mb-8 text-xl md:text-2xl">
-                            Difference-to-Moving Average Method for Monthly Seasonal Adjustment
+                            Difference-to-Moving Average Method for Monthly Seasonal
+                            Adjustment
                         </p>
                         <div className="flex flex-col justify-center gap-4 sm:flex-row">
                             <Link href="/buy-now-operations-manager">
@@ -44,7 +45,7 @@ export default function AdditmonPage(): React.JSX.Element {
             {/* Seasonal Adjustment Overview */}
             <section className="pt-6">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-4xl">
+                    <div className="mx-auto max-w-5xl">
                         <Card className="mb-8">
                             <CardHeader>
                                 <CardTitle className="text-center text-3xl">
@@ -53,23 +54,28 @@ export default function AdditmonPage(): React.JSX.Element {
                             </CardHeader>
                             <CardContent className="space-y-6">
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    Regular seasonal patterns appear in most business data. The weather affects the
-                                    sales of everything from bikinis to snowmobiles. Around holiday periods, we see
-                                    increases in the number of retail sales, long-distance telephone calls, and
-                                    gasoline consumption. Business policy can cause seasonal patterns in sales. Many
-                                    companies run annual dealer promotions which cause peaks in sales. Other companies
-                                    depress sales temporarily by shutting down plants for annual vacation periods.
+                                    Regular seasonal patterns appear in most business data. The
+                                    weather affects the sales of everything from bikinis to
+                                    snowmobiles. Around holiday periods, we see increases in the
+                                    number of retail sales, long-distance telephone calls, and
+                                    gasoline consumption. Business policy can cause seasonal
+                                    patterns in sales. Many companies run annual dealer promotions
+                                    which cause peaks in sales. Other companies depress sales
+                                    temporarily by shutting down plants for annual vacation
+                                    periods.
                                 </p>
 
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    Usually seasonality is obvious but there are times when it is not. Two questions
-                                    should be asked when there is doubt about seasonality. First, are the peaks and
-                                    troughs consistent? That is, do the high and low points of the pattern occur in
-                                    about the same periods (week, month, or quarter) each year? Second, is there an
-                                    explanation for the seasonal pattern? The most common reasons for seasonality
-                                    are weather and holidays, although company policy such as annual sales promotions
-                                    may be a factor. If the answer to either of these questions is no, seasonality
-                                    should not be used in the forecasts.
+                                    Usually seasonality is obvious but there are times when it is
+                                    not. Two questions should be asked when there is doubt about
+                                    seasonality. First, are the peaks and troughs consistent? That
+                                    is, do the high and low points of the pattern occur in about
+                                    the same periods (week, month, or quarter) each year? Second,
+                                    is there an explanation for the seasonal pattern? The most
+                                    common reasons for seasonality are weather and holidays,
+                                    although company policy such as annual sales promotions may be
+                                    a factor. If the answer to either of these questions is no,
+                                    seasonality should not be used in the forecasts.
                                 </p>
                             </CardContent>
                         </Card>
@@ -80,7 +86,7 @@ export default function AdditmonPage(): React.JSX.Element {
             {/* Classical Decomposition Method */}
             <section className="bg-muted/50 py-6">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-4xl">
+                    <div className="mx-auto max-w-5xl">
                         <Card>
                             <CardHeader>
                                 <CardTitle className="text-center text-2xl">
@@ -89,12 +95,14 @@ export default function AdditmonPage(): React.JSX.Element {
                             </CardHeader>
                             <CardContent className="space-y-6">
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    Our approach to forecasting seasonal data is based on the classical
-                                    decomposition method developed by economists in the nineteenth century. Decomposition means
-                                    separation of the time series into its component parts. A complete decomposition
-                                    separates the time series into four components: seasonality, trend, cycle, and
-                                    randomness. The cycle is a long-range pattern related to the growth and decline
-                                    of industries or the economy as a whole.
+                                    Our approach to forecasting seasonal data is based on the
+                                    classical decomposition method developed by economists in the
+                                    nineteenth century. Decomposition means separation of the time
+                                    series into its component parts. A complete decomposition
+                                    separates the time series into four components: seasonality,
+                                    trend, cycle, and randomness. The cycle is a long-range
+                                    pattern related to the growth and decline of industries or the
+                                    economy as a whole.
                                 </p>
                             </CardContent>
                         </Card>
@@ -105,7 +113,7 @@ export default function AdditmonPage(): React.JSX.Element {
             {/* ADDITMON Method */}
             <section className="pt-6">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-4xl">
+                    <div className="mx-auto max-w-5xl">
                         <Card className="mb-8">
                             <CardHeader>
                                 <CardTitle className="text-center text-3xl">
@@ -114,10 +122,12 @@ export default function AdditmonPage(): React.JSX.Element {
                             </CardHeader>
                             <CardContent className="space-y-6">
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    Two worksheets are available for seasonal adjustment. MULTIMON uses the
-                                    ratio-to-moving average method to adjust monthly data. ADDITMON uses a similar method
-                                    called the difference-to-moving average method to adjust monthly data. It may be
-                                    necessary to test both of these worksheets before choosing a seasonal pattern.
+                                    Two worksheets are available for seasonal adjustment. MULTIMON
+                                    uses the ratio-to-moving average method to adjust monthly
+                                    data. ADDITMON uses a similar method called the
+                                    difference-to-moving average method to adjust monthly data. It
+                                    may be necessary to test both of these worksheets before
+                                    choosing a seasonal pattern.
                                 </p>
 
                                 <div className="rounded-lg bg-blue-50 p-6 dark:bg-blue-900/20">
@@ -127,23 +137,36 @@ export default function AdditmonPage(): React.JSX.Element {
                                     <ul className="space-y-3 text-muted-foreground">
                                         <li className="flex items-start">
                                             <span className="mr-3 text-blue-600">•</span>
-                                            <span>Difference-to-moving average method for monthly data</span>
+                                            <span>
+                                                Difference-to-moving average method for monthly data
+                                            </span>
                                         </li>
                                         <li className="flex items-start">
                                             <span className="mr-3 text-blue-600">•</span>
-                                            <span>Separates time series into seasonality, trend, cycle, and randomness</span>
+                                            <span>
+                                                Separates time series into seasonality, trend, cycle,
+                                                and randomness
+                                            </span>
                                         </li>
                                         <li className="flex items-start">
                                             <span className="mr-3 text-blue-600">•</span>
-                                            <span>Handles seasonal patterns affected by weather and holidays</span>
+                                            <span>
+                                                Handles seasonal patterns affected by weather and
+                                                holidays
+                                            </span>
                                         </li>
                                         <li className="flex items-start">
                                             <span className="mr-3 text-blue-600">•</span>
-                                            <span>Accounts for business policy impacts like annual promotions</span>
+                                            <span>
+                                                Accounts for business policy impacts like annual
+                                                promotions
+                                            </span>
                                         </li>
                                         <li className="flex items-start">
                                             <span className="mr-3 text-blue-600">•</span>
-                                            <span>Alternative to MULTIMON's ratio-to-moving average method</span>
+                                            <span>
+                                                Alternative to MULTIMON's ratio-to-moving average method
+                                            </span>
                                         </li>
                                     </ul>
                                 </div>
@@ -156,7 +179,7 @@ export default function AdditmonPage(): React.JSX.Element {
             {/* When to Use ADDITMON */}
             <section className="bg-muted/50 py-6">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-4xl">
+                    <div className="mx-auto max-w-5xl">
                         <Card>
                             <CardHeader>
                                 <CardTitle className="text-center text-2xl">
@@ -165,7 +188,8 @@ export default function AdditmonPage(): React.JSX.Element {
                             </CardHeader>
                             <CardContent className="space-y-6">
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    Two critical questions should be asked when there is doubt about seasonality:
+                                    Two critical questions should be asked when there is doubt
+                                    about seasonality:
                                 </p>
 
                                 <div className="grid gap-6 md:grid-cols-2">
@@ -177,9 +201,9 @@ export default function AdditmonPage(): React.JSX.Element {
                                         </CardHeader>
                                         <CardContent>
                                             <p className="text-muted-foreground">
-                                                Are the peaks and troughs consistent? Do the high and low points of 
-                                                the pattern occur in about the same periods (week, month, or quarter) 
-                                                each year?
+                                                Are the peaks and troughs consistent? Do the high and
+                                                low points of the pattern occur in about the same
+                                                periods (week, month, or quarter) each year?
                                             </p>
                                         </CardContent>
                                     </Card>
@@ -192,9 +216,9 @@ export default function AdditmonPage(): React.JSX.Element {
                                         </CardHeader>
                                         <CardContent>
                                             <p className="text-muted-foreground">
-                                                Is there an explanation for the seasonal pattern? Common reasons 
-                                                include weather, holidays, or company policy such as annual sales 
-                                                promotions.
+                                                Is there an explanation for the seasonal pattern? Common
+                                                reasons include weather, holidays, or company policy
+                                                such as annual sales promotions.
                                             </p>
                                         </CardContent>
                                     </Card>
@@ -205,8 +229,8 @@ export default function AdditmonPage(): React.JSX.Element {
                                         ⚠️ Important Note
                                     </p>
                                     <p className="mt-2 text-muted-foreground">
-                                        If the answer to either of these questions is no, seasonality should not be 
-                                        used in the forecasts.
+                                        If the answer to either of these questions is no,
+                                        seasonality should not be used in the forecasts.
                                     </p>
                                 </div>
                             </CardContent>
@@ -218,7 +242,7 @@ export default function AdditmonPage(): React.JSX.Element {
             {/* Common Seasonal Patterns */}
             <section className="py-6">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-4xl">
+                    <div className="mx-auto max-w-5xl">
                         <h2 className="mb-8 text-center text-3xl font-bold text-foreground">
                             Common Seasonal Patterns
                         </h2>
@@ -294,7 +318,7 @@ export default function AdditmonPage(): React.JSX.Element {
             {/* Implementation Guide */}
             <section className="bg-muted/50 py-6">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-4xl">
+                    <div className="mx-auto max-w-5xl">
                         <Card>
                             <CardHeader>
                                 <CardTitle className="text-center text-2xl">
@@ -307,21 +331,28 @@ export default function AdditmonPage(): React.JSX.Element {
                                         Testing Approach
                                     </h3>
                                     <p className="mb-4 text-muted-foreground">
-                                        It may be necessary to test both MULTIMON (ratio-to-moving average) and 
-                                        ADDITMON (difference-to-moving average) worksheets before choosing a seasonal 
-                                        pattern for your forecasts.
+                                        It may be necessary to test both MULTIMON (ratio-to-moving
+                                        average) and ADDITMON (difference-to-moving average)
+                                        worksheets before choosing a seasonal pattern for your
+                                        forecasts.
                                     </p>
                                     <div className="grid gap-4 md:grid-cols-2">
                                         <div className="rounded-lg bg-white p-4 dark:bg-gray-800">
-                                            <h4 className="mb-2 font-semibold text-blue-600">MULTIMON</h4>
+                                            <h4 className="mb-2 font-semibold text-blue-600">
+                                                MULTIMON
+                                            </h4>
                                             <p className="text-sm text-muted-foreground">
-                                                Ratio-to-moving average method - best for multiplicative seasonal patterns
+                                                Ratio-to-moving average method - best for multiplicative
+                                                seasonal patterns
                                             </p>
                                         </div>
                                         <div className="rounded-lg bg-white p-4 dark:bg-gray-800">
-                                            <h4 className="mb-2 font-semibold text-purple-600">ADDITMON</h4>
+                                            <h4 className="mb-2 font-semibold text-purple-600">
+                                                ADDITMON
+                                            </h4>
                                             <p className="text-sm text-muted-foreground">
-                                                Difference-to-moving average method - best for additive seasonal patterns
+                                                Difference-to-moving average method - best for additive
+                                                seasonal patterns
                                             </p>
                                         </div>
                                     </div>
@@ -333,9 +364,9 @@ export default function AdditmonPage(): React.JSX.Element {
             </section>
 
             {/* Awards Section */}
-            <section className="pt-6 pb-6">
+            <section className="py-6">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-4xl">
+                    <div className="mx-auto max-w-5xl">
                         <Card className="bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20">
                             <CardContent className="p-8 text-center">
                                 <h2 className="mb-6 text-2xl font-bold text-foreground">

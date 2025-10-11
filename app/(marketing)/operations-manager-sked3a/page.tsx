@@ -11,7 +11,7 @@ export default function Sked3aPage(): React.JSX.Element {
             {/* Hero Section */}
             <section className="bg-gradient-to-r from-blue-600 to-blue-800 py-6 text-white dark:from-blue-800 dark:to-blue-900">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-4xl text-center">
+                    <div className="mx-auto max-w-5xl text-center">
                         <div className="mb-6">
                             <Badge
                                 variant="outline"
@@ -41,7 +41,7 @@ export default function Sked3aPage(): React.JSX.Element {
             {/* SKED2A Overview */}
             <section className="pt-6">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-4xl">
+                    <div className="mx-auto max-w-5xl">
                         <Card className="mb-8">
                             <CardHeader>
                                 <CardTitle className="text-center text-3xl">
@@ -78,7 +78,7 @@ export default function Sked3aPage(): React.JSX.Element {
             {/* Case Study */}
             <section className="pt-6">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-4xl">
+                    <div className="mx-auto max-w-5xl">
                         <Card>
                             <CardHeader>
                                 <CardTitle className="text-center text-2xl">
@@ -253,7 +253,7 @@ export default function Sked3aPage(): React.JSX.Element {
             {/* Key Benefits */}
             <section className="pt-6">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-4xl">
+                    <div className="mx-auto max-w-5xl">
                         <h2 className="mb-6 text-center text-3xl font-bold text-foreground">
                             Lean Manufacturing Benefits
                         </h2>
@@ -326,7 +326,7 @@ export default function Sked3aPage(): React.JSX.Element {
             {/* Implementation Steps */}
             <section className="pt-6">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-4xl">
+                    <div className="mx-auto max-w-5xl">
                         <h2 className="mb-6 text-center text-3xl font-bold text-foreground">
                             Kanban Implementation Process
                         </h2>
@@ -392,7 +392,7 @@ export default function Sked3aPage(): React.JSX.Element {
             {/* Applications */}
             <section className="pt-6">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-4xl">
+                    <div className="mx-auto max-w-5xl">
                         <h2 className="mb-6 text-center text-3xl font-bold text-foreground">
                             Industry Applications
                         </h2>
@@ -465,7 +465,7 @@ export default function Sked3aPage(): React.JSX.Element {
             {/* Awards Section */}
             <section className="pt-6">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-4xl">
+                    <div className="mx-auto max-w-5xl">
                         <Card className="bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20">
                             <CardContent className="p-8 text-center">
                                 <h2 className="mb-6 text-2xl font-bold text-foreground">

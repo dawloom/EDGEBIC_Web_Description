@@ -79,6 +79,11 @@ const nextConfig = {
   async redirects() {
     return [
       {
+        source: '/incon-incorporate',
+        destination: '/incon-incorporated',
+        permanent: true
+      },
+      {
         source: '/job-scheduler-lite',
         destination: '/jsl-job-scheduler-lite',
         permanent: false

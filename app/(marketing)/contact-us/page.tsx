@@ -8,7 +8,7 @@ export default function ContactUsPage() {
             {/* Hero Section */}
             <section className="bg-gradient-to-r from-blue-600 to-blue-800 py-16 text-white">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-4xl text-center">
+                    <div className="mx-auto max-w-5xl text-center">
                         <h1 className="mb-6 text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">
                             Contact US
                         </h1>
@@ -17,7 +17,7 @@ export default function ContactUsPage() {
             </section>
 
             {/* Main Content */}
-            <section className="pb-12 pt-6">
+            <section className="py-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-6xl">
                         <div className="grid grid-cols-1 gap-8 lg:grid-cols-2">
@@ -162,7 +162,7 @@ export default function ContactUsPage() {
             </section>
 
             {/* Awards Banner */}
-            <section className="bg-gray-50 pb-12 pt-6">
+            <section className="bg-gray-50 py-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-6xl text-center">
                         <h2 className="mb-6 text-3xl font-bold">

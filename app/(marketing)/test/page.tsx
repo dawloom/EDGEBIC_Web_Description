@@ -9,7 +9,7 @@ export default function TestPage() {
       {/* Hero Section */}
       <section className="py-6">
         <div className="container mx-auto px-4">
-          <div className="mx-auto max-w-4xl text-center">
+          <div className="mx-auto max-w-5xl text-center">
             <Badge
               variant="outline"
               className="mb-6 h-8 rounded-full px-3 text-sm font-medium shadow-sm"

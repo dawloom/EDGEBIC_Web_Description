@@ -18,7 +18,7 @@ export default function OperationsManagerAppPage() {
 
       {/* Content */}
       <div className="container mx-auto px-4 pt-6">
-        <div className="mx-auto max-w-4xl">
+        <div className="mx-auto max-w-5xl">
           <div className="mb-12 text-center">
             <Link
               href="/pricing"

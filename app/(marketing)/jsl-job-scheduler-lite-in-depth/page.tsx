@@ -25,7 +25,7 @@ export default function JSLJobSchedulerLiteInDepthPage() {
             </section>
 
             {/* Overview Section */}
-            <section className="pb-12 pt-6">
+            <section className="py-6">
                 <div className="container mx-auto px-4">
                     <Card className="mx-auto max-w-6xl">
                         <CardHeader>
@@ -57,7 +57,7 @@ export default function JSLJobSchedulerLiteInDepthPage() {
             </section>
 
             {/* Features Section */}
-            <section className=" pb-12 pt-6">
+            <section className=" py-6">
                 <div className="container mx-auto px-4">
                     <Card className="mx-auto max-w-6xl">
                         <CardHeader>
@@ -114,7 +114,7 @@ export default function JSLJobSchedulerLiteInDepthPage() {
             </section>
 
             {/* Modules Section */}
-            <section className="pb-12 pt-6">
+            <section className="py-6">
                 <div className="container mx-auto px-4">
                     <Card className="mx-auto max-w-6xl">
                         <CardHeader>
@@ -165,7 +165,7 @@ export default function JSLJobSchedulerLiteInDepthPage() {
             </section>
 
             {/* Import Data */}
-            <section className=" pb-12 pt-6">
+            <section className=" py-6">
                 <div className="container mx-auto px-4">
                     <Card className="mx-auto max-w-6xl">
                         <CardHeader>
@@ -191,7 +191,7 @@ export default function JSLJobSchedulerLiteInDepthPage() {
             </section>
 
             {/* Daily Hours */}
-            <section className="pb-12 pt-6">
+            <section className="py-6">
                 <div className="container mx-auto px-4">
                     <Card className="mx-auto max-w-6xl">
                         <CardHeader>
@@ -222,7 +222,7 @@ export default function JSLJobSchedulerLiteInDepthPage() {
             </section>
 
             {/* Holidays */}
-            <section className=" pb-12 pt-6">
+            <section className=" py-6">
                 <div className="container mx-auto px-4">
                     <Card className="mx-auto max-w-6xl">
                         <CardHeader>
@@ -248,7 +248,7 @@ export default function JSLJobSchedulerLiteInDepthPage() {
             </section>
 
             {/* Resources */}
-            <section className="pb-12 pt-6">
+            <section className="py-6">
                 <div className="container mx-auto px-4">
                     <Card className="mx-auto max-w-6xl">
                         <CardHeader>
@@ -278,7 +278,7 @@ export default function JSLJobSchedulerLiteInDepthPage() {
             </section>
 
             {/* Finish Goods */}
-            <section className=" pb-12 pt-6">
+            <section className=" py-6">
                 <div className="container mx-auto px-4">
                     <Card className="mx-auto max-w-6xl">
                         <CardHeader>
@@ -308,7 +308,7 @@ export default function JSLJobSchedulerLiteInDepthPage() {
             </section>
 
             {/* Orders */}
-            <section className="pb-12 pt-6">
+            <section className="py-6">
                 <div className="container mx-auto px-4">
                     <Card className="mx-auto max-w-6xl">
                         <CardHeader>
@@ -337,7 +337,7 @@ export default function JSLJobSchedulerLiteInDepthPage() {
             </section>
 
             {/* Schedule */}
-            <section className=" pb-12 pt-6">
+            <section className=" py-6">
                 <div className="container mx-auto px-4">
                     <Card className="mx-auto max-w-6xl">
                         <CardHeader>
@@ -361,7 +361,7 @@ export default function JSLJobSchedulerLiteInDepthPage() {
             </section>
 
             {/* InSights */}
-            <section className="pb-12 pt-6">
+            <section className="py-6">
                 <div className="container mx-auto px-4">
                     <Card className="mx-auto max-w-6xl">
                         <CardHeader>
@@ -403,7 +403,7 @@ export default function JSLJobSchedulerLiteInDepthPage() {
             </section>
 
             {/* Export Data */}
-            <section className=" pb-12 pt-6">
+            <section className=" py-6">
                 <div className="container mx-auto px-4">
                     <Card className="mx-auto max-w-6xl">
                         <CardHeader>
@@ -429,7 +429,7 @@ export default function JSLJobSchedulerLiteInDepthPage() {
             </section>
 
             {/* Theme Configuration */}
-            <section className="pb-12 pt-6">
+            <section className="py-6">
                 <div className="container mx-auto px-4">
                     <Card className="mx-auto max-w-6xl">
                         <CardHeader>
@@ -456,7 +456,7 @@ export default function JSLJobSchedulerLiteInDepthPage() {
             </section>
 
             {/* Reports */}
-            <section className=" pb-12 pt-6">
+            <section className=" py-6">
                 <div className="container mx-auto px-4">
                     <Card className="mx-auto max-w-6xl">
                         <CardHeader>

@@ -1,82 +1,110 @@
-import React from "react";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { Download, ArrowLeft } from "lucide-react";
-import Link from "next/link";
+import React from 'react';
+import Link from 'next/link';
+import { ArrowLeft, Download } from 'lucide-react';
+
+import { Badge } from '@/components/ui/badge';
+import { Button } from '@/components/ui/button';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 export default function ThankYouResourceManagerExcelPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
-      {/* Hero Section with Thank You Image */}
-      <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">
+    <div className="min-h-screen">
+      {/* Hero Section */}
+      <section className="bg-gradient-to-br from-blue-600 via-blue-700 to-blue-900 py-6 text-white">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <img
-              src="https://www.usersolutions.com/wp-content/uploads/2022/10/thankyou.jpg"
-              alt="Customer service representative smiling with headset at computer"
-              className="w-full h-auto rounded-lg shadow-xl mb-8"
-            />
+          <div className="mx-auto max-w-5xl text-center">
+            <Badge
+              variant="outline"
+              className="mb-6 h-8 rounded-full border-white/30 bg-white/10 px-3 text-sm font-medium text-white shadow-sm"
+            >
+              DOWNLOAD CONFIRMATION
+            </Badge>
+            <h1 className="mb-6 text-4xl font-bold text-white sm:text-5xl md:text-6xl">
+              Thank You for Your Interest in Resource Manager for Excel
+            </h1>
+            <p className="text-xl text-white/90">
+              Your download is ready. We'll be in touch shortly to help you get
+              started.
+            </p>
           </div>
         </div>
       </section>
 
       {/* Main Thank You Content */}
-      <section className="pt-6 pb-12">
+      <section className="py-6">
         <div className="container mx-auto px-4">
-          <Card className="max-w-4xl mx-auto">
-            <CardHeader>
-              <CardTitle className="text-3xl font-bold text-center">
-                Thank you for your interest
-              </CardTitle>
-            </CardHeader>
-            <CardContent className="space-y-6">
-              <div className="text-center">
-                <Button asChild size="lg" className="mb-6">
-                  <a 
+          <Card className="mx-auto max-w-5xl">
+            <CardContent className="p-8">
+              <div className="mb-8 text-center">
+                <img
+                  src="https://www.usersolutions.com/wp-content/uploads/2022/10/thankyou.jpg"
+                  alt="Customer service representative smiling with headset at computer"
+                  className="mx-auto mb-8 h-auto w-full rounded-lg shadow-lg"
+                />
+              </div>
+
+              <div className="mb-8 text-center">
+                <Button
+                  asChild
+                  size="lg"
+                >
+                  <a
                     href="https://www.usersolutions.com/RMX011223D.xlsm"
                     download
                   >
-                    <Download className="mr-2 h-5 w-5" />
+                    <Download className="mr-2 size-5" />
                     Click here to download your product
                   </a>
                 </Button>
               </div>
 
-              <div className="space-y-4 text-lg">
+              <div className="space-y-4 text-lg text-muted-foreground">
                 <p>
-                  We will contact you to discuss your scheduling application in complete detail.
+                  We will contact you to discuss your scheduling application in
+                  complete detail.
                 </p>
-                
+
                 <p>
-                  You are welcome to send sample data at anytime to take advantage of our unique 
-                  demoing approach – proving the solution.
+                  You are welcome to send sample data at anytime to take
+                  advantage of our unique demoing approach – proving the
+                  solution.
                 </p>
-                
+
                 <p>
-                  Send data or post questions anytime to{" "}
-                  <a href="mailto:US@usersolutions.com" className="text-blue-600 hover:underline font-medium">
-                    US@usersolutions.com
-                  </a>{" "}
-                  or at{" "}
-                  <a href="tel:248.486.1934" className="text-blue-600 hover:underline font-medium">
+                  Send data or post questions anytime to{' '}
+                  <Link
+                    href="mailto:us@usersolutions.com"
+                    className="font-semibold text-blue-600 hover:underline dark:text-blue-400"
+                  >
+                    us@usersolutions.com
+                  </Link>{' '}
+                  or at{' '}
+                  <Link
+                    href="tel:248.486.1934"
+                    className="font-semibold text-blue-600 hover:underline dark:text-blue-400"
+                  >
                     248.486.1934
-                  </a>
+                  </Link>
                 </p>
-                
-                <p className="font-medium">
-                  Kindest Regards,
-                </p>
-                
+
+                <p className="font-semibold">Kindest Regards,</p>
+
                 <p>
-                  User Solutions, Inc.<br />
-                  <span className="text-gray-600">Since 1991 – Manufacturing Software made easy!</span>
+                  User Solutions, Inc.
+                  <br />
+                  <span className="text-muted-foreground">
+                    Since 1991 – Manufacturing Software made easy!
+                  </span>
                 </p>
               </div>
 
-              <div className="text-center pt-4">
-                <Button asChild variant="outline">
+              <div className="pt-8 text-center">
+                <Button
+                  asChild
+                  variant="outline"
+                >
                   <Link href="/">
-                    <ArrowLeft className="mr-2 h-4 w-4" />
+                    <ArrowLeft className="mr-2 size-4" />
                     Back to Home
                   </Link>
                 </Button>
@@ -86,18 +114,22 @@ export default function ThankYouResourceManagerExcelPage() {
         </div>
       </section>
 
-      {/* Awards Banner */}
-      <section className="pt-6 pb-12 bg-gray-50">
+      {/* Awards Section */}
+      <section className="pb-6">
         <div className="container mx-auto px-4">
-          <div className="max-w-6xl mx-auto text-center">
-            <h2 className="text-3xl font-bold mb-6">
-              CELEBRATING 25 YEARS OF AWARD WINNING SOFTWARE!
-            </h2>
-            <img
-              src="https://www.usersolutions.com/wp-content/uploads/2022/07/banner-logoso-sm-58c9a28d237d6-1024x128.jpg"
-              alt="Collection of industry and business awards logos"
-              className="w-full h-auto"
-            />
+          <div className="mx-auto max-w-5xl">
+            <Card className="bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20">
+              <CardContent className="p-8 text-center">
+                <h3 className="mb-6 text-2xl font-bold text-slate-900 dark:text-white sm:text-3xl">
+                  CELEBRATING 25 YEARS OF AWARD WINNING SOFTWARE!
+                </h3>
+                <img
+                  src="https://www.usersolutions.com/wp-content/uploads/2022/07/banner-logoso-sm-58c9a28d237d6-1024x128.jpg"
+                  alt="Collection of industry and business awards logos"
+                  className="mx-auto h-auto w-full"
+                />
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>
