@@ -10,7 +10,7 @@ export default function ThankYouSpreadsheetSchedulerPage() {
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-blue-600 via-blue-700 to-blue-900 py-6 text-white">
         <div className="container mx-auto px-4">
-          <div className="mx-auto max-w-5xl text-center">
+          <div className="mx-auto max-w-7xl text-center">
             <Badge
               variant="outline"
               className="mb-6 h-8 rounded-full border-white/30 bg-white/10 px-3 text-sm font-medium text-white shadow-sm"
@@ -30,7 +30,7 @@ export default function ThankYouSpreadsheetSchedulerPage() {
       {/* Thank You Content */}
       <section className="py-6">
         <div className="container mx-auto px-4">
-          <div className="mx-auto max-w-5xl">
+          <div className="mx-auto max-w-7xl">
             <div className="mb-12 text-center">
               <Image
                 src="https://www.usersolutions.com/wp-content/uploads/2022/10/thankyou.jpg"

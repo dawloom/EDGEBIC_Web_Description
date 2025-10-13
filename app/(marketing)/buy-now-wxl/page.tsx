@@ -8,7 +8,7 @@ export default function BuyNowWXLPage() {
             {/* Hero Section */}
             <section className="bg-gradient-to-r from-blue-600 to-blue-800 py-16 text-white">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-5xl text-center">
+                    <div className="mx-auto max-w-7xl text-center">
                         <h1 className="mb-6 text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">
                             Workcenter Scheduler XL - Buy Now
                         </h1>
@@ -19,7 +19,7 @@ export default function BuyNowWXLPage() {
             {/* Overview Section */}
             <section className="py-6">
                 <div className="container mx-auto px-4">
-                    <Card className="mx-auto max-w-5xl">
+                    <Card className="mx-auto max-w-7xl">
                         <CardHeader>
                             <CardTitle className="text-center text-3xl font-bold">
                                 Overview
@@ -114,7 +114,7 @@ export default function BuyNowWXLPage() {
             {/* Awards Section */}
             <section className="pb-6">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-5xl">
+                    <div className="mx-auto max-w-7xl">
                         <Card className="bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20">
                             <CardContent className="p-8 text-center">
                                 <h3 className="mb-6 text-2xl font-bold text-slate-900 dark:text-white">
