@@ -13,7 +13,7 @@ export default function CheckoutPage() {
 
             {/* Checkout Content */}
             <div className="container mx-auto px-4 py-16">
-                <div className="mx-auto max-w-6xl">
+                <div className="mx-auto max-w-7xl">
                     <div className="grid gap-12 lg:grid-cols-2">
                         {/* Order Form */}
                         <div className="rounded-lg bg-white p-8 shadow-lg">

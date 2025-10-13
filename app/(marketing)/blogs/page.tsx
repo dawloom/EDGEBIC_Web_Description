@@ -34,7 +34,7 @@ export default function BlogsPage() {
             </div>
 
             {/* Awards Section */}
-            <div className="bg-gray-100 py-16">
+            <div className="bg-gray-100 py-6">
                 <div className="container mx-auto px-4 text-center">
                     <h2 className="mb-8 text-3xl font-bold text-gray-800">
                         CELEBRATING 25 YEARS OF AWARD WINNING SOFTWARE!

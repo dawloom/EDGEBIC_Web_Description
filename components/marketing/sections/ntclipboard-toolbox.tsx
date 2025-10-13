@@ -70,7 +70,7 @@ export function NTClipboardToolBox(): React.JSX.Element {
     return (
         <GridSection hideVerticalGridLines>
             <div className="container pt-6">
-                <div className="mx-auto max-w-6xl">
+                <div className="mx-auto max-w-7xl">
                     {/* Section Header */}
                     <div className="mb-16 text-center">
                         <h2 className="mb-4 bg-gradient-to-r from-orange-500 to-red-500 bg-clip-text text-4xl font-bold text-transparent md:text-5xl">
@@ -552,7 +552,7 @@ export function NTClipboardToolBox(): React.JSX.Element {
 
                         {/* Call to Action */}
                         <div className="mt-12 text-center">
-                            <div className="mx-auto max-w-5xl rounded-3xl bg-gradient-to-br from-slate-50 to-slate-100 p-8 dark:from-slate-900 dark:to-slate-800">
+                            <div className="mx-auto max-w-7xl rounded-3xl bg-gradient-to-br from-slate-50 to-slate-100 p-8 dark:from-slate-900 dark:to-slate-800">
                                 <h3 className="mb-4 text-2xl font-bold">
                                     Start Growing with User Solutions
                                 </h3>

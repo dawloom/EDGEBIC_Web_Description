@@ -108,7 +108,7 @@ export function NTClipboardExcelTemplates(): React.JSX.Element {
     return (
         <div className="bg-background">
             {/* Hero Section */}
-            <section className="relative overflow-hidden bg-gradient-to-r from-blue-600 to-blue-800 py-20 dark:from-blue-700 dark:to-blue-900">
+            <section className="relative overflow-hidden bg-gradient-to-r from-blue-600 to-blue-800 py-6 dark:from-blue-700 dark:to-blue-900">
                 <div className="absolute inset-0 bg-black/10" />
                 <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                     <div className="text-center">

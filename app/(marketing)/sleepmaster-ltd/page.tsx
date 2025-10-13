@@ -27,7 +27,7 @@ export default function SleepmasterLtdPage(): React.JSX.Element {
             {/* Hero Section */}
             <GridSection hideVerticalGridLines>
                 <div className="container pb-6">
-                    <div className="mx-auto max-w-5xl">
+                    <div className="mx-auto max-w-7xl">
                         {/* Company Logo */}
 
                         {/* Hero Header */}
@@ -59,7 +59,7 @@ export default function SleepmasterLtdPage(): React.JSX.Element {
 
             {/* Company Overview */}
             <section className="py-6">
-                <div className="container mx-auto max-w-5xl px-4">
+                <div className="container mx-auto max-w-7xl px-4">
                     <Card className="mb-6">
                         <CardHeader>
                             <CardTitle className="flex items-center gap-2">

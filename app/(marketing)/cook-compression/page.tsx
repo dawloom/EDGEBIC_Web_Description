@@ -27,7 +27,7 @@ export default function CookCompressionPage(): React.JSX.Element {
       {/* Hero Section */}
       <GridSection hideVerticalGridLines>
         <div className="container pt-6">
-          <div className="mx-auto max-w-5xl">
+          <div className="mx-auto max-w-7xl">
             {/* Company Logo */}
 
             <div className="mb-16 text-center">
@@ -57,7 +57,7 @@ export default function CookCompressionPage(): React.JSX.Element {
 
       {/* Customer Testimonial */}
       <section className="py-16">
-        <div className="container mx-auto max-w-5xl px-4">
+        <div className="container mx-auto max-w-7xl px-4">
           {/* Main Testimonial */}
           <Card className="mb-12 bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20">
             <CardHeader>
@@ -319,7 +319,7 @@ export default function CookCompressionPage(): React.JSX.Element {
           </Card>
 
           {/* 25 Years Anniversary with Real Award Logos */}
-          <div className="mb-12 text-center">
+          <div className="mb-6 text-center">
             <h3 className="mb-6 text-2xl font-bold text-slate-900 dark:text-white">
               CELEBRATING 25 YEARS OF AWARD WINNING SOFTWARE!
             </h3>

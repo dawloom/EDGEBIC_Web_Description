@@ -11,7 +11,7 @@ export default function TrainingPage(): React.JSX.Element {
             {/* Hero Section */}
             <section className="bg-gradient-to-r from-blue-600 to-blue-800 py-6 text-white dark:from-blue-800 dark:to-blue-900">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-5xl text-center">
+                    <div className="mx-auto max-w-7xl text-center">
                         <div className="mb-6">
                             <Badge
                                 variant="outline"
@@ -42,7 +42,7 @@ export default function TrainingPage(): React.JSX.Element {
             {/* Training Overview */}
             <section className="py-16">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-5xl">
+                    <div className="mx-auto max-w-7xl">
                         <Card className="mb-8">
                             <CardHeader>
                                 <CardTitle className="text-center text-3xl">
@@ -73,7 +73,7 @@ export default function TrainingPage(): React.JSX.Element {
             {/* Case Study */}
             <section className="bg-muted/50 py-16">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-5xl">
+                    <div className="mx-auto max-w-7xl">
                         <Card>
                             <CardHeader>
                                 <CardTitle className="text-center text-2xl">
@@ -161,7 +161,7 @@ export default function TrainingPage(): React.JSX.Element {
             {/* Training Programs */}
             <section className="py-16">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-6xl">
+                    <div className="mx-auto max-w-7xl">
                         <h2 className="mb-12 text-center text-3xl font-bold text-foreground">
                             Training Programs
                         </h2>
@@ -252,7 +252,7 @@ export default function TrainingPage(): React.JSX.Element {
             {/* Training Formats */}
             <section className="bg-muted/50 py-16">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-5xl">
+                    <div className="mx-auto max-w-7xl">
                         <h2 className="mb-12 text-center text-3xl font-bold text-foreground">
                             Training Formats & Delivery
                         </h2>
@@ -325,7 +325,7 @@ export default function TrainingPage(): React.JSX.Element {
             {/* Training Benefits */}
             <section className="py-16">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-5xl">
+                    <div className="mx-auto max-w-7xl">
                         <h2 className="mb-12 text-center text-3xl font-bold text-foreground">
                             Training Benefits
                         </h2>

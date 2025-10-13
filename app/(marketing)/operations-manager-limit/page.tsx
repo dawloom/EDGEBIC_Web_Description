@@ -11,7 +11,7 @@ export default function LimitPage(): React.JSX.Element {
             {/* Hero Section */}
             <section className="bg-gradient-to-r from-blue-600 to-blue-800 py-6 text-white dark:from-blue-800 dark:to-blue-900">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-5xl text-center">
+                    <div className="mx-auto max-w-7xl text-center">
                         <div className="mb-6">
                             <Badge
                                 variant="outline"
@@ -41,7 +41,7 @@ export default function LimitPage(): React.JSX.Element {
             {/* Facility Layout Overview */}
             <section className="pt-6">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-5xl">
+                    <div className="mx-auto max-w-7xl">
                         <Card className="mb-8">
                             <CardHeader>
                                 <CardTitle className="text-center text-3xl">
@@ -73,7 +73,7 @@ export default function LimitPage(): React.JSX.Element {
             {/* Case Study */}
             <section className="bg-muted/50 pt-6">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-5xl">
+                    <div className="mx-auto max-w-7xl">
                         <Card>
                             <CardHeader>
                                 <CardTitle className="text-center text-2xl">
@@ -165,7 +165,7 @@ export default function LimitPage(): React.JSX.Element {
             {/* Layout Types */}
             <section className="pt-6">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-6xl">
+                    <div className="mx-auto max-w-7xl">
                         <h2 className="mb-12 text-center text-3xl font-bold text-foreground">
                             Facility Layout Types
                         </h2>
@@ -244,7 +244,7 @@ export default function LimitPage(): React.JSX.Element {
             {/* Design Objectives */}
             <section className="bg-muted/50 pt-6">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-5xl">
+                    <div className="mx-auto max-w-7xl">
                         <h2 className="mb-12 text-center text-3xl font-bold text-foreground">
                             Layout Design Objectives
                         </h2>
@@ -317,7 +317,7 @@ export default function LimitPage(): React.JSX.Element {
             {/* Design Methods */}
             <section className="pt-6">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-5xl">
+                    <div className="mx-auto max-w-7xl">
                         <h2 className="mb-12 text-center text-3xl font-bold text-foreground">
                             Layout Design Methods
                         </h2>

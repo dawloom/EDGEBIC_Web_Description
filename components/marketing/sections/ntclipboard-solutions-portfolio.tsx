@@ -17,7 +17,7 @@ export function NTClipboardSolutionsPortfolio(): React.JSX.Element {
                     description="Custom-tailored manufacturing solutions designed around your specific needs"
                 />
 
-                <div className="mx-auto mt-8 max-w-6xl">
+                <div className="mx-auto mt-8 max-w-7xl">
                     <div className="grid gap-4 md:grid-cols-2">
                         {/* Production Planning Solutions */}
                         <div className="rounded-3xl border bg-gradient-to-br from-blue-50 to-indigo-50 p-8 dark:from-blue-900/20 dark:to-indigo-900/20">

@@ -137,7 +137,7 @@ export default function StudentsPage(): React.JSX.Element {
             {/* Hero Section */}
             <GridSection hideVerticalGridLines>
                 <div className="container pt-6">
-                    <div className="mx-auto max-w-6xl">
+                    <div className="mx-auto max-w-7xl">
                         {/* Hero Header */}
                         <div className="mb-16 text-center">
                             <SiteHeading
@@ -177,7 +177,7 @@ export default function StudentsPage(): React.JSX.Element {
 
                         {/* Student Overview Image */}
                         <div className="mb-16">
-                            <div className="relative mx-auto max-w-5xl overflow-hidden rounded-2xl border bg-slate-100 shadow-2xl dark:bg-slate-800">
+                            <div className="relative mx-auto max-w-7xl overflow-hidden rounded-2xl border bg-slate-100 shadow-2xl dark:bg-slate-800">
                                 <Image
                                     src="https://www.usersolutions.com/wp-content/uploads/2022/07/ops-1024x768.png"
                                     alt="Operations Management textbook with cruise ship photo"
@@ -193,7 +193,7 @@ export default function StudentsPage(): React.JSX.Element {
 
             {/* Summary Section */}
             <section className="bg-slate-50 py-16 dark:bg-slate-900">
-                <div className="container mx-auto max-w-6xl px-4">
+                <div className="container mx-auto max-w-7xl px-4">
                     <div className="mb-12 text-center">
                         <h2 className="mb-4 text-3xl font-bold md:text-4xl">
                             Resource Manager for Excel: Summary
@@ -257,7 +257,7 @@ export default function StudentsPage(): React.JSX.Element {
 
             {/* Features Section */}
             <section className="py-16">
-                <div className="container mx-auto max-w-6xl px-4">
+                <div className="container mx-auto max-w-7xl px-4">
                     <div className="mb-12 text-center">
                         <h2 className="mb-4 text-3xl font-bold md:text-4xl">Features</h2>
                         <p className="text-xl text-muted-foreground">
@@ -287,7 +287,7 @@ export default function StudentsPage(): React.JSX.Element {
 
             {/* Student Resources Section */}
             <section className="bg-slate-50 py-16 dark:bg-slate-900">
-                <div className="container mx-auto max-w-6xl px-4">
+                <div className="container mx-auto max-w-7xl px-4">
                     <div className="mb-12 text-center">
                         <h2 className="mb-4 text-3xl font-bold md:text-4xl">
                             Student Resources
@@ -338,7 +338,7 @@ export default function StudentsPage(): React.JSX.Element {
 
             {/* Benefits Section */}
             <section className="py-16">
-                <div className="container mx-auto max-w-6xl px-4">
+                <div className="container mx-auto max-w-7xl px-4">
                     <div className="mb-12 text-center">
                         <h2 className="mb-4 text-3xl font-bold md:text-4xl">
                             Why Choose Resource Manager?
@@ -369,7 +369,7 @@ export default function StudentsPage(): React.JSX.Element {
 
             {/* Overview Section */}
             <section className="bg-slate-50 py-16 dark:bg-slate-900">
-                <div className="container mx-auto max-w-6xl px-4">
+                <div className="container mx-auto max-w-7xl px-4">
                     <div className="mb-12 text-center">
                         <h2 className="mb-4 text-3xl font-bold md:text-4xl">Overview</h2>
                         <p className="text-xl text-muted-foreground">
@@ -426,7 +426,7 @@ export default function StudentsPage(): React.JSX.Element {
 
             {/* Student Trial Section */}
             <section className="py-16">
-                <div className="container mx-auto max-w-5xl px-4 text-center">
+                <div className="container mx-auto max-w-7xl px-4 text-center">
                     <div className="rounded-2xl border bg-slate-50 p-8 dark:bg-slate-800">
                         <h2 className="mb-4 text-3xl font-bold">Ready to Get Started?</h2>
                         <p className="mb-6 text-lg text-muted-foreground">
@@ -471,7 +471,7 @@ export default function StudentsPage(): React.JSX.Element {
 
             {/* Awards Section */}
             <section className="bg-slate-50 py-16 dark:bg-slate-900">
-                <div className="container mx-auto max-w-6xl px-4">
+                <div className="container mx-auto max-w-7xl px-4">
                     <div className="text-center">
                         <div className="mb-8 flex items-center justify-center gap-2">
                             <Award className="size-8 text-slate-600 dark:text-slate-400" />

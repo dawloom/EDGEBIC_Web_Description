@@ -10,7 +10,7 @@ export default function ThankYouPage() {
             {/* Hero Section */}
             <section className="bg-gradient-to-br from-blue-600 via-blue-700 to-blue-900 py-6 text-white">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-5xl text-center">
+                    <div className="mx-auto max-w-7xl text-center">
                         <Badge
                             variant="outline"
                             className="mb-6 h-8 rounded-full border-white/30 bg-white/10 px-3 text-sm font-medium text-white shadow-sm"
@@ -30,7 +30,7 @@ export default function ThankYouPage() {
             {/* Main Content */}
             <section className="py-6">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-5xl">
+                    <div className="mx-auto max-w-7xl">
                         <Card className="mb-8">
                             <CardHeader>
                                 <CardTitle>What Happens Next?</CardTitle>
@@ -176,7 +176,7 @@ export default function ThankYouPage() {
             {/* Awards Section */}
             <section className="py-6">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-5xl">
+                    <div className="mx-auto max-w-7xl">
                         <Card className="bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20">
                             <CardContent className="p-8 text-center">
                                 <h3 className="mb-6 text-2xl font-bold text-slate-900 dark:text-white sm:text-3xl">

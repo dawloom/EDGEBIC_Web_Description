@@ -9,7 +9,7 @@ export default function ExcelApplicationsPage() {
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-green-50 via-white to-blue-50 py-16">
         <div className="container mx-auto px-4">
-          <div className="mx-auto max-w-5xl text-center">
+          <div className="mx-auto max-w-7xl text-center">
             <h1 className="mb-6 bg-gradient-to-r from-green-600 to-blue-600 bg-clip-text text-4xl font-bold text-transparent md:text-5xl">
               Excel Applications
             </h1>
@@ -34,7 +34,7 @@ export default function ExcelApplicationsPage() {
       {/* Product Matrix */}
       <section className="py-6">
         <div className="container mx-auto px-4">
-          <div className="mx-auto max-w-6xl">
+          <div className="mx-auto max-w-7xl">
             {/* Spreadsheet Scheduler */}
             <Card className="mb-8">
               <CardHeader className="bg-gradient-to-r from-blue-50 to-blue-100">
@@ -275,7 +275,7 @@ export default function ExcelApplicationsPage() {
       {/* Testimonials */}
       <section className="bg-gray-50 pb-8 pt-6">
         <div className="container mx-auto px-4">
-          <div className="mx-auto max-w-6xl">
+          <div className="mx-auto max-w-7xl">
             <div className="grid gap-8 md:grid-cols-3">
               <Card>
                 <CardContent className="pt-6">
@@ -320,7 +320,7 @@ export default function ExcelApplicationsPage() {
       {/* Video Section */}
       <section className="pb-8 pt-6">
         <div className="container mx-auto px-4">
-          <div className="mx-auto max-w-5xl text-center">
+          <div className="mx-auto max-w-7xl text-center">
             <Card>
               <CardContent className="pt-8">
                 <h2 className="mb-4 text-3xl font-bold">
@@ -347,7 +347,7 @@ export default function ExcelApplicationsPage() {
       {/* Awards Section */}
       <section className="bg-gray-50 py-6">
         <div className="container mx-auto px-4">
-          <div className="mx-auto max-w-5xl text-center">
+          <div className="mx-auto max-w-7xl text-center">
             <h2 className="mb-8 text-3xl font-bold">
               Celebrating 25 Years of Award Winning Software!
             </h2>

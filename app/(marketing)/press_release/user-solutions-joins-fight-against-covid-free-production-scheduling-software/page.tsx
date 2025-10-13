@@ -14,7 +14,7 @@ export default function CovidPressReleasePage() {
 
             {/* Press Release Content */}
             <div className="container mx-auto px-4 py-16">
-                <div className="mx-auto max-w-5xl">
+                <div className="mx-auto max-w-7xl">
                     <article className="prose prose-lg max-w-none">
                         <header className="mb-12">
                             <h1 className="mb-4 text-4xl font-bold text-gray-900">
@@ -151,7 +151,7 @@ export default function CovidPressReleasePage() {
             {/* Awards Section */}
             <section className="py-6">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-5xl">
+                    <div className="mx-auto max-w-7xl">
                         <Card className="bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20">
                             <CardContent className="p-8 text-center">
                                 <h3 className="mb-6 text-2xl font-bold text-slate-900 dark:text-white">

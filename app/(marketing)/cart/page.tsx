@@ -13,7 +13,7 @@ export default function CartPage() {
 
             {/* Cart Content */}
             <div className="container mx-auto px-4 py-16">
-                <div className="mx-auto max-w-5xl">
+                <div className="mx-auto max-w-7xl">
                     {/* Empty Cart State */}
                     <div className="rounded-lg bg-gray-50 p-12 text-center">
                         <div className="mb-6">
@@ -145,7 +145,7 @@ export default function CartPage() {
             </div>
 
             {/* Awards Section */}
-            <div className="bg-gray-100 py-16">
+            <div className="bg-gray-100 py-6">
                 <div className="container mx-auto px-4 text-center">
                     <h2 className="mb-8 text-3xl font-bold text-gray-800">
                         CELEBRATING 25 YEARS OF AWARD WINNING SOFTWARE!

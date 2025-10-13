@@ -55,7 +55,7 @@ export function PricingPlans(): React.JSX.Element {
 
         <div className="max-w-7xl">
           <div className="flex justify-center">
-            <div className="grid w-full max-w-6xl gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+            <div className="grid w-full max-w-7xl gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
               <FreeTierCard />
               <ProTierCard />
               <EnterpriseTierCard />

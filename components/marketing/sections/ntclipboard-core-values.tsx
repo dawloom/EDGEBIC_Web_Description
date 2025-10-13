@@ -87,7 +87,7 @@ export function NTClipboardCoreValues(): React.JSX.Element {
                     description="The principles that have guided EDGEBIC for over three decades"
                 />
 
-                <div className="mx-auto mt-8 max-w-6xl">
+                <div className="mx-auto mt-8 max-w-7xl">
                     <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
                         {values.map((value, index) => (
                             <div

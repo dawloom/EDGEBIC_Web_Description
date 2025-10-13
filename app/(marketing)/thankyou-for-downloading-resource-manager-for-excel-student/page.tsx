@@ -13,7 +13,7 @@ export default function ThankYouResourceManagerStudentPage() {
             {/* Hero Section */}
             <section className="bg-gradient-to-br from-blue-600 via-blue-700 to-blue-900 py-6 text-white">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-5xl text-center">
+                    <div className="mx-auto max-w-7xl text-center">
                         <Badge
                             variant="outline"
                             className="mb-6 h-8 rounded-full border-white/30 bg-white/10 px-3 text-sm font-medium text-white shadow-sm"
@@ -33,7 +33,7 @@ export default function ThankYouResourceManagerStudentPage() {
             {/* Main Thank You Content */}
             <section className="py-6">
                 <div className="container mx-auto px-4">
-                    <Card className="mx-auto max-w-5xl">
+                    <Card className="mx-auto max-w-7xl">
                         <CardContent className="p-8">
                             <div className="mb-8 text-center">
                                 <img
@@ -137,7 +137,7 @@ export default function ThankYouResourceManagerStudentPage() {
             {/* Awards Section */}
             <section className="pb-6">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-5xl">
+                    <div className="mx-auto max-w-7xl">
                         <Card className="bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20">
                             <CardContent className="p-8 text-center">
                                 <h3 className="mb-6 text-2xl font-bold text-slate-900 dark:text-white sm:text-3xl">

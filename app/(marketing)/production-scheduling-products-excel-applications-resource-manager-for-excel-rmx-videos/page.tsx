@@ -10,7 +10,7 @@ export default function ProductionSchedulingProductsVideosPage() {
             {/* Hero Section */}
             <section className="bg-gradient-to-br from-blue-600 via-blue-700 to-cyan-600 py-6 text-white">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-5xl text-center">
+                    <div className="mx-auto max-w-7xl text-center">
                         <Badge
                             variant="outline"
                             className="mb-6 h-8 rounded-full border-white/30 bg-white/10 px-3 text-sm font-medium text-white shadow-sm"
@@ -31,7 +31,7 @@ export default function ProductionSchedulingProductsVideosPage() {
             {/* Main Content */}
             <section className="pt-6">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-6xl">
+                    <div className="mx-auto max-w-7xl">
                         {/* Welcome */}
                         <Card className="mb-8">
                             <CardHeader>
@@ -314,7 +314,7 @@ export default function ProductionSchedulingProductsVideosPage() {
             {/* CTA Section */}
             <section className="bg-gray-50 pb-8 pt-6 dark:bg-slate-900/50">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-5xl">
+                    <div className="mx-auto max-w-7xl">
                         <Card>
                             <CardHeader>
                                 <CardTitle className="text-center text-2xl">
@@ -363,7 +363,7 @@ export default function ProductionSchedulingProductsVideosPage() {
             {/* Awards Section */}
             <section className="py-6">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-5xl">
+                    <div className="mx-auto max-w-7xl">
                         <Card className="bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20">
                             <CardContent className="p-8 text-center">
                                 <h3 className="mb-6 text-2xl font-bold text-slate-900 dark:text-white">

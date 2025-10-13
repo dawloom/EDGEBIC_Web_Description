@@ -9,7 +9,7 @@ export default function ProductionSchedulingProductsOldPage() {
             {/* Hero Section */}
             <section className="bg-gradient-to-br from-blue-50 via-white to-green-50 py-6 dark:from-blue-950/20 dark:via-slate-900 dark:to-green-950/20">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-5xl text-center">
+                    <div className="mx-auto max-w-7xl text-center">
                         <div className="mb-6 rounded-lg border-2 border-yellow-400 bg-yellow-100 p-4 dark:border-yellow-600 dark:bg-yellow-900/30">
                             <p className="font-semibold text-yellow-800 dark:text-yellow-200">
                                 📢 This is an archived version. View our{' '}
@@ -54,7 +54,7 @@ export default function ProductionSchedulingProductsOldPage() {
             {/* Introduction */}
             <section className="pb-8 pt-6">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-5xl">
+                    <div className="mx-auto max-w-7xl">
                         <Card>
                             <CardContent className="pt-6">
                                 <p className="mb-4 text-lg leading-relaxed text-muted-foreground">
@@ -78,7 +78,7 @@ export default function ProductionSchedulingProductsOldPage() {
             {/* Product Categories */}
             <section className="pb-8 pt-6">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-6xl">
+                    <div className="mx-auto max-w-7xl">
                         <h2 className="mb-8 text-center text-3xl font-bold">
                             Our Product Solutions
                         </h2>
@@ -201,7 +201,7 @@ export default function ProductionSchedulingProductsOldPage() {
             {/* Testimonials */}
             <section className="bg-gray-50 py-6 dark:bg-slate-900/50">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-6xl">
+                    <div className="mx-auto max-w-7xl">
                         <div className="grid gap-6 md:grid-cols-3">
                             <Card>
                                 <CardContent className="pt-6">
@@ -237,7 +237,7 @@ export default function ProductionSchedulingProductsOldPage() {
             {/* Video Section */}
             <section className="pb-8 pt-6">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-5xl text-center">
+                    <div className="mx-auto max-w-7xl text-center">
                         <Card>
                             <CardContent className="pt-8">
                                 <h2 className="mb-4 text-3xl font-bold text-slate-900 dark:text-white">
@@ -265,7 +265,7 @@ export default function ProductionSchedulingProductsOldPage() {
             {/* Awards Section */}
             <section className="py-6">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-5xl">
+                    <div className="mx-auto max-w-7xl">
                         <Card className="bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20">
                             <CardContent className="p-8 text-center">
                                 <h3 className="mb-6 text-2xl font-bold text-slate-900 dark:text-white">

@@ -11,7 +11,7 @@ export default function OperationsManagerMVAPage(): React.JSX.Element {
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-blue-600 to-blue-800 py-6 text-white dark:from-blue-800 dark:to-blue-900">
         <div className="container mx-auto px-4">
-          <div className="mx-auto max-w-5xl text-center">
+          <div className="mx-auto max-w-7xl text-center">
             <div className="mb-6">
               <Badge
                 variant="outline"
@@ -42,7 +42,7 @@ export default function OperationsManagerMVAPage(): React.JSX.Element {
       {/* Case Study */}
       <section className="bg-gray-50 pt-6">
         <div className="container mx-auto px-4">
-          <div className="mx-auto max-w-5xl">
+          <div className="mx-auto max-w-7xl">
             <h2 className="mb-8 text-center text-3xl font-bold">
               Case Study: Global Retail Analytics Corporation
             </h2>
@@ -122,7 +122,7 @@ export default function OperationsManagerMVAPage(): React.JSX.Element {
       {/* MVA Techniques */}
       <section className="pt-6">
         <div className="container mx-auto px-4">
-          <div className="mx-auto max-w-6xl">
+          <div className="mx-auto max-w-7xl">
             <h2 className="mb-12 text-center text-3xl font-bold">
               Advanced MVA Techniques
             </h2>
@@ -200,7 +200,7 @@ export default function OperationsManagerMVAPage(): React.JSX.Element {
       {/* Applications */}
       <section className="bg-gray-50 pt-6">
         <div className="container mx-auto px-4">
-          <div className="mx-auto max-w-5xl">
+          <div className="mx-auto max-w-7xl">
             <h2 className="mb-12 text-center text-3xl font-bold">
               Real-World Applications
             </h2>
@@ -277,7 +277,7 @@ export default function OperationsManagerMVAPage(): React.JSX.Element {
       {/* Key Benefits */}
       <section className="pt-6">
         <div className="container mx-auto px-4">
-          <div className="mx-auto max-w-5xl text-center">
+          <div className="mx-auto max-w-7xl text-center">
             <h2 className="mb-12 text-3xl font-bold">
               Why Choose MVA for Your Analytics?
             </h2>
@@ -326,7 +326,7 @@ export default function OperationsManagerMVAPage(): React.JSX.Element {
       {/* Awards Section */}
       <section className="bg-muted/50 pt-6">
         <div className="container mx-auto px-4">
-          <div className="mx-auto max-w-5xl text-center">
+          <div className="mx-auto max-w-7xl text-center">
             <h2 className="mb-8 text-3xl font-bold text-foreground">
               CELEBRATING 25 YEARS OF AWARD WINNING SOFTWARE!
             </h2>

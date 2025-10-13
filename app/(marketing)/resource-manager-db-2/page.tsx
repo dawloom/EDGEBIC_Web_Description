@@ -254,7 +254,7 @@ export default function ResourceManagerDBPage(): React.JSX.Element {
             {/* Hero Section */}
             <GridSection hideVerticalGridLines>
                 <div className="container pt-6">
-                    <div className="mx-auto max-w-6xl">
+                    <div className="mx-auto max-w-7xl">
                         {/* Navigation Pills */}
                         {/* <div className="mb-12 flex flex-wrap justify-center gap-3">
                             {navigationItems.map((item, index) => (
@@ -288,7 +288,7 @@ export default function ResourceManagerDBPage(): React.JSX.Element {
 
                         {/* Video Section */}
                         <div className="mb-16">
-                            <div className="relative mx-auto max-w-5xl overflow-hidden rounded-2xl border bg-slate-100 shadow-2xl dark:bg-slate-800">
+                            <div className="relative mx-auto max-w-7xl overflow-hidden rounded-2xl border bg-slate-100 shadow-2xl dark:bg-slate-800">
                                 <div className="relative aspect-video">
                                     <VideoPlayer
                                         videoUrl="https://www.usersolutions.com/wp-content/uploads/2022/12/RMDB%20updated%20thumbnail.mp4"
@@ -308,7 +308,7 @@ export default function ResourceManagerDBPage(): React.JSX.Element {
                 id="summary"
                 className="bg-slate-50 py-16 dark:bg-slate-900"
             >
-                <div className="container mx-auto max-w-6xl px-4">
+                <div className="container mx-auto max-w-7xl px-4">
                     <div className="mb-12 text-center">
                         <h2 className="mb-4 text-3xl font-bold md:text-4xl">
                             RESOURCE MANAGER DB: SUMMARY
@@ -371,7 +371,7 @@ export default function ResourceManagerDBPage(): React.JSX.Element {
 
             {/* Features Section */}
             <section className="py-16">
-                <div className="container mx-auto max-w-6xl px-4">
+                <div className="container mx-auto max-w-7xl px-4">
                     <div className="mb-12 text-center">
                         <h2 className="mb-4 text-3xl font-bold md:text-4xl">Features</h2>
                         <p className="text-xl text-muted-foreground">
@@ -401,7 +401,7 @@ export default function ResourceManagerDBPage(): React.JSX.Element {
 
             {/* Awards Section */}
             <section className="bg-slate-50 py-16 dark:bg-slate-900">
-                <div className="container mx-auto max-w-6xl px-4">
+                <div className="container mx-auto max-w-7xl px-4">
                     <div className="text-center">
                         <div className="mb-8 flex items-center justify-center gap-2">
                             <Award className="size-8 text-orange-500" />

@@ -9,7 +9,7 @@ export default function Top10ManufacturingKPIsPage() {
             {/* Hero Section */}
             <section className="bg-gradient-to-br from-blue-50 via-white to-purple-50 py-16">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-5xl text-center">
+                    <div className="mx-auto max-w-7xl text-center">
                         <h1 className="mb-6 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-4xl font-bold text-transparent md:text-5xl">
                             Top 10 Manufacturing KPIs in 2024
                         </h1>
@@ -25,7 +25,7 @@ export default function Top10ManufacturingKPIsPage() {
             {/* Table of Contents */}
             <section className="pb-8 pt-6">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-5xl">
+                    <div className="mx-auto max-w-7xl">
                         <Card className="border-blue-200 bg-blue-50">
                             <CardHeader>
                                 <CardTitle>Table of Contents</CardTitle>
@@ -93,7 +93,7 @@ export default function Top10ManufacturingKPIsPage() {
             {/* Main Content */}
             <section className="pb-6 pt-6">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-5xl space-y-8">
+                    <div className="mx-auto max-w-7xl space-y-8">
                         {/* What is a manufacturing KPI? */}
                         <Card id="what-is-kpi">
                             <CardHeader>
@@ -593,7 +593,7 @@ export default function Top10ManufacturingKPIsPage() {
             {/* CTA Section */}
             <section className="bg-gray-50 pb-8 pt-6">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-5xl">
+                    <div className="mx-auto max-w-7xl">
                         <Card>
                             <CardContent className="pt-6">
                                 <h2 className="mb-4 text-center text-2xl font-bold">
@@ -631,7 +631,7 @@ export default function Top10ManufacturingKPIsPage() {
             {/* Awards Section */}
             <section className="bg-gray-50 pb-6 pt-6">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-5xl text-center">
+                    <div className="mx-auto max-w-7xl text-center">
                         <h2 className="mb-8 text-3xl font-bold">
                             Celebrating 25 Years of Award Winning Software!
                         </h2>

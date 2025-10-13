@@ -15,7 +15,7 @@ export default function BuyNowSpreadsheetSchedulerPage() {
             {/* Hero Section */}
             <section className="bg-gradient-to-r from-blue-600 to-blue-800 py-6 text-white dark:from-blue-800 dark:to-blue-900">
                 <div className="container mx-auto px-4 text-center">
-                    <div className="mx-auto max-w-5xl">
+                    <div className="mx-auto max-w-7xl">
                         <h1 className="mb-6 text-4xl font-bold md:text-5xl">
                             Purchase Spreadsheet Scheduler
                         </h1>
@@ -29,7 +29,7 @@ export default function BuyNowSpreadsheetSchedulerPage() {
             {/* Product Overview */}
             <section className="pt-6">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-5xl">
+                    <div className="mx-auto max-w-7xl">
                         <Card>
                             <CardHeader>
                                 <CardTitle className="text-center text-3xl">
@@ -50,7 +50,7 @@ export default function BuyNowSpreadsheetSchedulerPage() {
             {/* Benefits Section */}
             <section className="bg-muted/50 pt-6">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-5xl">
+                    <div className="mx-auto max-w-7xl">
                         <Card>
                             <CardHeader>
                                 <CardTitle className="text-center text-3xl">
@@ -93,7 +93,7 @@ export default function BuyNowSpreadsheetSchedulerPage() {
             {/* CTA Section */}
             <section className="pt-6">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-5xl">
+                    <div className="mx-auto max-w-7xl">
                         <Card className="bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20">
                             <CardContent className="p-8 text-center">
                                 <h2 className="mb-6 text-3xl font-bold text-foreground">

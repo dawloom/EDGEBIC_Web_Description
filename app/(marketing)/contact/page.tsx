@@ -1,19 +1,13 @@
 import * as React from 'react';
 import type { Metadata } from 'next';
+import { redirect } from 'next/navigation';
 
-import { Contact } from '@/components/marketing/sections/contact';
-import { FAQ } from '@/components/marketing/sections/faq';
-import { createTitle } from '@/lib/utils';
+import { Routes } from '@/constants/routes';
 
 export const metadata: Metadata = {
-  title: createTitle('Contact')
+  title: 'Contact - Redirecting...'
 };
 
 export default function ContactPage(): React.JSX.Element {
-  return (
-    <>
-      <Contact />
-      <FAQ />
-    </>
-  );
+  redirect(Routes.ContactUs);
 }

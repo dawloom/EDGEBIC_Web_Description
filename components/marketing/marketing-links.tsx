@@ -161,7 +161,7 @@ export const MENU_LINKS = [
     title: 'Contact',
     description: 'Reach out for assistance',
     icon: <PaperPlaneIcon className="size-5 shrink-0" />,
-    href: Routes.Contact,
+    href: Routes.ContactUs,
     external: false
   },
   {

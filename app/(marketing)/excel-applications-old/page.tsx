@@ -10,7 +10,7 @@ export default function ExcelApplicationsOldPage() {
             {/* Hero Section */}
             <section className="bg-gradient-to-br from-orange-50 via-white to-yellow-50 py-6 dark:from-orange-950/20 dark:via-slate-900 dark:to-yellow-950/20">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-5xl text-center">
+                    <div className="mx-auto max-w-7xl text-center">
                         <div className="mb-6 rounded-lg border-2 border-yellow-400 bg-yellow-100 p-4 dark:border-yellow-600 dark:bg-yellow-900/30">
                             <p className="font-semibold text-yellow-800 dark:text-yellow-200">
                                 📢 This is an archived version. View the{' '}
@@ -46,7 +46,7 @@ export default function ExcelApplicationsOldPage() {
             {/* Product Matrix */}
             <section className="py-6">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-5xl">
+                    <div className="mx-auto max-w-7xl">
                         {/* All products in simple card format */}
                         <div className="grid gap-6 md:grid-cols-2">
                             <Card>
@@ -140,7 +140,7 @@ export default function ExcelApplicationsOldPage() {
             {/* Testimonials */}
             <section className="bg-gray-50  py-6 dark:bg-slate-900/50">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-6xl">
+                    <div className="mx-auto max-w-7xl">
                         <div className="grid gap-6 md:grid-cols-3">
                             <Card>
                                 <CardContent className="pt-6">
@@ -191,7 +191,7 @@ export default function ExcelApplicationsOldPage() {
             {/* Video Section */}
             <section className="py-6">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-5xl text-center">
+                    <div className="mx-auto max-w-7xl text-center">
                         <Card>
                             <CardContent className="pt-8">
                                 <h2 className="mb-4 text-2xl font-bold">
@@ -213,7 +213,7 @@ export default function ExcelApplicationsOldPage() {
             {/* Awards Section */}
             <section className="py-6">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-5xl">
+                    <div className="mx-auto max-w-7xl">
                         <Card className="bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20">
                             <CardContent className="p-8 text-center">
                                 <h3 className="mb-6 text-2xl font-bold text-slate-900 dark:text-white sm:text-3xl">

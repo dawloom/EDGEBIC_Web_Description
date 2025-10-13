@@ -48,7 +48,7 @@ export default function PressReleasePage() {
 
             {/* Press Releases Content */}
             <div className="container mx-auto px-4 py-16">
-                <div className="mx-auto max-w-5xl">
+                <div className="mx-auto max-w-7xl">
                     <div className="space-y-8">
                         {pressReleases.map((release, index) => (
                             <article

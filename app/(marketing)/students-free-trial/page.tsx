@@ -9,7 +9,7 @@ export default function StudentsFreeTrialPage() {
             {/* Hero Section */}
             <section className="bg-gradient-to-br from-blue-50 via-white to-green-50 py-16">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-5xl text-center">
+                    <div className="mx-auto max-w-7xl text-center">
                         <h1 className="mb-6 bg-gradient-to-r from-blue-600 to-green-600 bg-clip-text text-4xl font-bold text-transparent md:text-5xl">
                             Resource Manager For Excel
                         </h1>
@@ -27,7 +27,7 @@ export default function StudentsFreeTrialPage() {
             {/* Main Content */}
             <section className="py-6">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-5xl">
+                    <div className="mx-auto max-w-7xl">
                         <Card className="mb-8">
                             <CardHeader>
                                 <CardTitle>About Resource Manager For Excel (RMX)</CardTitle>
@@ -181,7 +181,7 @@ export default function StudentsFreeTrialPage() {
             {/* Resources Section */}
             <section className="bg-gray-50 pb-8 pt-6">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-5xl">
+                    <div className="mx-auto max-w-7xl">
                         <Card>
                             <CardHeader>
                                 <CardTitle className="text-2xl">Additional Resources</CardTitle>
@@ -210,7 +210,7 @@ export default function StudentsFreeTrialPage() {
             {/* Awards Section */}
             <section className="bg-gray-50 py-6">
                 <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-5xl text-center">
+                    <div className="mx-auto max-w-7xl text-center">
                         <h2 className="mb-8 text-3xl font-bold">
                             Celebrating 25 Years of Award Winning Software!
                         </h2>

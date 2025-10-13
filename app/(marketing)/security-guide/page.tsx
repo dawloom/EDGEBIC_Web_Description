@@ -17,7 +17,7 @@ export default function SecurityGuidePage(): React.JSX.Element {
         <div className="min-h-screen">
             {/* Content */}
             <div className="container mx-auto px-4 pt-6">
-                <div className="mx-auto max-w-5xl">
+                <div className="mx-auto max-w-7xl">
                     {/* Hero Section */}
                     <div className="mb-8 text-center">
                         <Badge

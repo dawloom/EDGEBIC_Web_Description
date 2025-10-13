@@ -4,6 +4,7 @@ import * as React from 'react';
 
 import { GridSection } from '@/components/marketing/fragments/grid-section';
 import { Button } from '@/components/ui/button';
+import { Card, CardContent } from '@/components/ui/card';
 
 interface NTClipboardVideoProps {
   videoUrl?: string | null;
@@ -199,7 +200,7 @@ export function NTClipboardVideo({
     <GridSection hideVerticalGridLines>
       <div>
         <div className=" pt-6">
-          <div className="mx-auto max-w-6xl text-center">
+          <div className="mx-auto max-w-7xl text-center">
             {/* Header Badge */}
             <div className="mb-4 flex justify-center">
               <span className="inline-flex items-center rounded-full border px-3 py-1 text-sm font-medium">
@@ -256,7 +257,7 @@ export function NTClipboardVideo({
               ))}
             </div>
 
-            <div className="mx-auto max-w-5xl">
+            <div className="mx-auto max-w-7xl">
               {/* Video Selection - Now above the video */}
               <div className="relative mb-6">
                 <div className="flex items-center">
@@ -431,6 +432,24 @@ export function NTClipboardVideo({
               </div>
             </div>
           </div>
+        </div>
+      </div>
+
+      {/* Awards Section */}
+      <div className="container mx-auto px-4 py-6">
+        <div className="mx-auto max-w-7xl">
+          <Card className="bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20">
+            <CardContent className="p-8 text-center">
+              <h2 className="mb-6 text-2xl font-bold text-slate-900 dark:text-white">
+                CELEBRATING 25 YEARS OF AWARD WINNING SOFTWARE!
+              </h2>
+              <img
+                src="https://www.usersolutions.com/wp-content/uploads/2022/07/banner-logoso-sm-58c9a28d237d6-1024x128.jpg"
+                alt="Collection of industry and business awards logos"
+                className="mx-auto h-auto max-w-full"
+              />
+            </CardContent>
+          </Card>
         </div>
       </div>
     </GridSection>

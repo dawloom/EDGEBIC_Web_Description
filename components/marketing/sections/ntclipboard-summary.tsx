@@ -9,7 +9,7 @@ export function NTClipboardSummary(): React.JSX.Element {
         <GridSection hideVerticalGridLines>
             {/* Summary Section */}
             <div className="container py-6">
-                <div className="mx-auto max-w-5xl text-center">
+                <div className="mx-auto max-w-7xl text-center">
                     <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-orange-100 to-red-100 px-6 py-3 text-sm font-medium text-orange-800 dark:from-orange-900/30 dark:to-red-900/30 dark:text-orange-200">
                         <StarIcon className="size-4" />
                         The Production Scheduling Solution That Actually Works
@@ -64,7 +64,7 @@ export function NTClipboardSummary(): React.JSX.Element {
                 </div>
 
                 {/* Problem & Solution Grid */}
-                <div className="mx-auto max-w-6xl">
+                <div className="mx-auto max-w-7xl">
                     <div className="mb-8 grid gap-8 md:grid-cols-2">
                         {/* Problems */}
                         <div className="rounded-2xl border border-red-200 bg-red-50/50 p-8 dark:border-red-800 dark:bg-red-900/20">

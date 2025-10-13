@@ -9,7 +9,7 @@ export default function JobSchedulerLitePage(): React.JSX.Element {
         <div className="min-h-screen">
             {/* Content */}
             <div className="container mx-auto px-4 pt-6">
-                <div className="mx-auto max-w-6xl">
+                <div className="mx-auto max-w-7xl">
                     {/* Hero Section */}
                     <div className="mb-8 text-center">
                         <span className="inline-flex h-8 items-center rounded-full border px-3 py-0.5 text-sm font-medium text-foreground shadow-sm transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2">
@@ -286,7 +286,7 @@ export default function JobSchedulerLitePage(): React.JSX.Element {
 
                 {/* Call to Action */}
                 <div className="text-center">
-                    <div className="mx-auto max-w-5xl rounded-3xl bg-gradient-to-br from-blue-600 to-blue-800 p-8 text-white">
+                    <div className="mx-auto max-w-7xl rounded-3xl bg-gradient-to-br from-blue-600 to-blue-800 p-8 text-white">
                         <h3 className="mb-4 text-2xl font-bold">
                             Ready to Transform Your Production Scheduling?
                         </h3>
@@ -311,7 +311,7 @@ export default function JobSchedulerLitePage(): React.JSX.Element {
                         <h2 className="mb-3 text-2xl font-bold">
                             25 Years of Award-Winning Software
                         </h2>
-                        <div className="mx-auto max-w-5xl overflow-hidden rounded-lg">
+                        <div className="mx-auto max-w-7xl overflow-hidden rounded-lg">
                             <img
                                 src="https://www.usersolutions.com/wp-content/uploads/2022/07/banner-logoso-sm-58c9a28d237d6-1024x128.jpg"
                                 alt="Collection of industry and business awards logos"

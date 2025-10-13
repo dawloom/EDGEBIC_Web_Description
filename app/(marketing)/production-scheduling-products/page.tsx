@@ -9,7 +9,7 @@ export default function ProductionSchedulingProductsPage() {
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-blue-50 via-white to-purple-50 py-16">
         <div className="container mx-auto px-4">
-          <div className="mx-auto max-w-5xl text-center">
+          <div className="mx-auto max-w-7xl text-center">
             <h1 className="mb-6 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-4xl font-bold text-transparent md:text-5xl">
               Production Planning and Scheduling Solutions
             </h1>
@@ -43,7 +43,7 @@ export default function ProductionSchedulingProductsPage() {
       {/* Introduction */}
       <section className="py-6">
         <div className="container mx-auto px-4">
-          <div className="mx-auto max-w-5xl">
+          <div className="mx-auto max-w-7xl">
             <Card>
               <CardContent className="pt-6">
                 <p className="mb-4 text-lg leading-relaxed text-gray-700">
@@ -65,7 +65,7 @@ export default function ProductionSchedulingProductsPage() {
       {/* Product Note */}
       <section className="py-6">
         <div className="container mx-auto px-4">
-          <div className="mx-auto max-w-5xl text-center">
+          <div className="mx-auto max-w-7xl text-center">
             <Card className="border-blue-200 bg-blue-50">
               <CardContent className="pt-6">
                 <p className="mb-4 text-gray-700">
@@ -87,7 +87,7 @@ export default function ProductionSchedulingProductsPage() {
       {/* Product Tiers */}
       <section className="pt-6">
         <div className="container mx-auto px-4">
-          <div className="mx-auto max-w-6xl">
+          <div className="mx-auto max-w-7xl">
             <div className="grid gap-8 md:grid-cols-3">
               {/* Starter - Job Scheduler Lite */}
               <Card className="border-2 border-gray-300">
@@ -278,7 +278,7 @@ export default function ProductionSchedulingProductsPage() {
       {/* Testimonials */}
       <section className="bg-gray-50 py-6">
         <div className="container mx-auto px-4">
-          <div className="mx-auto max-w-6xl">
+          <div className="mx-auto max-w-7xl">
             <div className="grid gap-8 md:grid-cols-3">
               <Card>
                 <CardContent className="pt-6">
@@ -323,7 +323,7 @@ export default function ProductionSchedulingProductsPage() {
       {/* Video Section */}
       <section className="pb-8 pt-6">
         <div className="container mx-auto px-4">
-          <div className="mx-auto max-w-5xl text-center">
+          <div className="mx-auto max-w-7xl text-center">
             <Card>
               <CardContent className="pt-8">
                 <h2 className="mb-4 text-3xl font-bold">
@@ -350,7 +350,7 @@ export default function ProductionSchedulingProductsPage() {
       {/* Awards Section */}
       <section className="bg-gray-50 pt-6">
         <div className="container mx-auto px-4">
-          <div className="mx-auto max-w-5xl text-center">
+          <div className="mx-auto max-w-7xl text-center">
             <h2 className="mb-8 text-3xl font-bold">
               Celebrating 25 Years of Award Winning Software!
             </h2>

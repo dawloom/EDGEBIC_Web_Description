@@ -4,7 +4,6 @@ import * as React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import {
-  Award,
   Check,
   CheckCircle,
   ExternalLink,
@@ -17,6 +16,7 @@ import {
 import { GridSection } from '@/components/marketing/fragments/grid-section';
 import { SiteHeading } from '@/components/marketing/fragments/site-heading';
 import { Button } from '@/components/ui/button';
+import { Card, CardContent } from '@/components/ui/card';
 
 export default function Product2Page(): React.JSX.Element {
   const products = [
@@ -134,11 +134,11 @@ export default function Product2Page(): React.JSX.Element {
   ];
 
   return (
-    <div className="min-h-screen bg-white dark:bg-slate-950">
+    <div className="min-h-screen bg-white dark:bg-slate-950 py-6">
       {/* Hero Section */}
       <GridSection hideVerticalGridLines>
-        <div className="container pt-6">
-          <div className="mx-auto max-w-6xl">
+        <div className="container max-w-7xl">
+          <div className="mx-auto max-w-7xl">
             <div className="mb-16 text-center">
               <SiteHeading
                 badge="Product Comparison"
@@ -151,9 +151,9 @@ export default function Product2Page(): React.JSX.Element {
       </GridSection>
 
       {/* Product Comparison Matrix */}
-      <section className="py-16">
+      <section className="py-6">
         <div className="container mx-auto max-w-7xl px-4">
-          <div className="mb-12 text-center">
+          <div className="mb-6 text-center">
             <h2 className="mb-4 text-3xl font-bold md:text-4xl">
               Choose the Right Solution for Your Business
             </h2>
@@ -287,8 +287,8 @@ export default function Product2Page(): React.JSX.Element {
       </section>
 
       {/* Testimonials Section */}
-      <section className="bg-slate-50 py-16 dark:bg-slate-900">
-        <div className="container mx-auto max-w-6xl px-4">
+      <section className="bg-slate-50 py-1max-w-7xl-slate-900">
+        <div className="container mx-auto max-w-7xl px-4">
           <div className="mb-12 text-center">
             <h2 className="mb-4 text-3xl font-bold md:text-4xl">
               What Our Customers Say
@@ -331,7 +331,7 @@ export default function Product2Page(): React.JSX.Element {
 
       {/* Call to Action Section */}
       <section className="py-16">
-        <div className="container mx-auto max-w-5xl px-4 text-center">
+        <div className="container mx-auto max-w-7xl px-4 text-center">
           <div className="rounded-2xl border bg-slate-50 p-8 dark:bg-slate-800">
             <h2 className="mb-4 text-3xl font-bold">
               Want to get your production in the groove?
@@ -371,22 +371,21 @@ export default function Product2Page(): React.JSX.Element {
       </section>
 
       {/* Awards Section */}
-      <section className="bg-slate-50 py-16 dark:bg-slate-900">
-        <div className="container mx-auto max-w-6xl px-4">
-          <div className="text-center">
-            <div className="mb-8 flex items-center justify-center gap-2">
-              <Award className="size-8 text-slate-600 dark:text-slate-400" />
-              <h2 className="text-3xl font-bold md:text-4xl">
-                CELEBRATING 25 YEARS OF AWARD WINNING SOFTWARE!
-              </h2>
-            </div>
-            <Image
-              src="https://www.usersolutions.com/wp-content/uploads/2022/07/banner-logoso-sm-58c9a28d237d6-1024x128.jpg"
-              alt="Collection of industry and business awards logos"
-              width={1024}
-              height={128}
-              className="mx-auto rounded-lg"
-            />
+      <section className="py-6">
+        <div className="container mx-auto px-4">
+          <div className="mx-auto max-w-5xl">
+            <Card className="bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20">
+              <CardContent className="p-8 text-center">
+                <h2 className="mb-6 text-2xl font-bold text-slate-900 dark:text-white">
+                  CELEBRATING 25 YEARS OF AWARD WINNING SOFTWARE!
+                </h2>
+                <img
+                  src="https://www.usersolutions.com/wp-content/uploads/2022/07/banner-logoso-sm-58c9a28d237d6-1024x128.jpg"
+                  alt="Collection of industry and business awards logos"
+                  className="mx-auto h-auto max-w-full"
+                />
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>

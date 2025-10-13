@@ -36,7 +36,7 @@ export default function ProductDownloadsPage(): React.JSX.Element {
                     <h1 className="mb-6 text-4xl font-bold">
                         Production Scheduling Products
                     </h1>
-                    <p className="mx-auto max-w-5xl text-lg text-muted-foreground">
+                    <p className="mx-auto max-w-7xl text-lg text-muted-foreground">
                         Free Trial & Samples
                     </p>
                     <div className="mt-4">
