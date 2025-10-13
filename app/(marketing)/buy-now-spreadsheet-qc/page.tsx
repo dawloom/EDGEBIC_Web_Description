@@ -11,7 +11,7 @@ import {
 
 export default function BuyNowSpreadsheetQCPage() {
     return (
-        <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800">
+        <div className="min-h-screen">
             {/* Hero Section */}
             <section className="bg-gradient-to-r from-blue-600 to-blue-800 py-6 text-white dark:from-blue-800 dark:to-blue-900">
                 <div className="container mx-auto px-4 text-center">

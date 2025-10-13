@@ -263,7 +263,7 @@ export default function ProductionSchedulingProductsOldPage() {
             </section>
 
             {/* Awards Section */}
-            <section className="pb-12 pt-6">
+            <section className="py-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-5xl">
                         <Card className="bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20">

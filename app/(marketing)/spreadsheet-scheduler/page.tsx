@@ -1,17 +1,11 @@
-import Image from 'next/image';
 import Link from 'next/link';
 
-import {
-    Button,
-    Card,
-    CardContent,
-    CardHeader,
-    CardTitle
-} from '@/components/ui/card';
+import { Button } from '@/components/ui/button';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 export default function SpreadsheetSchedulerPage() {
     return (
-        <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800">
+        <div className="min-h-screen">
             {/* Hero Section */}
             <section className="bg-gradient-to-r from-blue-600 to-blue-800 py-6 text-white dark:from-blue-800 dark:to-blue-900">
                 <div className="container mx-auto px-4 text-center">
@@ -54,14 +48,134 @@ export default function SpreadsheetSchedulerPage() {
                                 <CardTitle className="text-center text-3xl">Overview</CardTitle>
                             </CardHeader>
                             <CardContent className="prose dark:prose-invert max-w-none">
-                                <p>
-                                    Consists of a set of fourteen (14) Excel templates, designed
-                                    to take data from a project management or any other system,
-                                    using the tools of job sequencing, Gantt charting, and CPM
-                                    (Critical Path Method), and applying them to provide
-                                    job/project schedules such that each project is scheduled with
-                                    the least possible delay.
+                                <p className="text-muted-foreground">
+                                    Gantt Charting and Project Management Customizable Templates
+                                    for all versions of Excel (including the expansive 2007+ and
+                                    tablet supporting Office 365). Low cost and easy-to-use
+                                    spreadsheet templates for Project Management, Simple
+                                    Production Planning and Scheduling, Critical Path Method
+                                    (CPM), Critical Path Analysis, Customer Job Scheduling,
+                                    Generating Calendars and Gantt Charts with hourly, daily or
+                                    weekly time buckets. Excel 2007+ expanded rows and columns
+                                    enable the user to manage larger projects for any duration as
+                                    well as Cloud based Office 365 for easy sharing.
                                 </p>
+
+                                <div className="my-6 flex justify-center">
+                                    <img
+                                        src="https://www.usersolutions.com/wp-content/uploads/2022/09/SS-Menu.png"
+                                        alt="Spreadsheet software interface for project scheduling and management"
+                                        className="h-auto max-w-full rounded-lg shadow-lg"
+                                    />
+                                </div>
+
+                                <p className="text-muted-foreground">
+                                    This collection can be used as a set of building blocks to
+                                    develop custom applications because it uses simple formulas
+                                    (source code provided), easily understood by the casual Excel
+                                    user. The spreadsheet environment is particularly suited for
+                                    this since you can link, customize, expand, consolidate, copy
+                                    and graph the data however you wish.
+                                </p>
+
+                                <div className="my-6 flex justify-center">
+                                    <img
+                                        src="https://www.usersolutions.com/wp-content/uploads/2022/09/box_4730_1_200-1.gif"
+                                        alt="Spreadsheet Scheduler software box cover"
+                                        className="h-auto max-w-full"
+                                    />
+                                </div>
+                            </CardContent>
+                        </Card>
+                    </div>
+                </div>
+            </section>
+
+            {/* Scheduling Techniques Section */}
+            <section className="pt-6">
+                <div className="container mx-auto px-4">
+                    <div className="mx-auto max-w-5xl">
+                        <Card>
+                            <CardHeader>
+                                <CardTitle className="text-center text-3xl">
+                                    The scheduling techniques include:
+                                </CardTitle>
+                            </CardHeader>
+                            <CardContent className="prose dark:prose-invert max-w-none">
+                                <div className="grid gap-4 md:grid-cols-2">
+                                    <ul className="space-y-2">
+                                        <li>Job & task sequencing</li>
+                                        <li>Gantt charts</li>
+                                        <li>Due-date assignment</li>
+                                    </ul>
+                                    <ul className="space-y-2">
+                                        <li>Development of calendars</li>
+                                        <li>
+                                            Computation of lateness and other performance measures
+                                        </li>
+                                        <li>
+                                            Scheduling of work according to precedence relationships
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <p className="mt-6 text-muted-foreground">
+                                    The 14 spreadsheet-based programs provide an easy-to-use set
+                                    of tools to help any organization manage projects more
+                                    efficiently, improve customer deliveries, and minimize
+                                    work-in-process times.
+                                </p>
+
+                                <p className="text-muted-foreground">
+                                    The Spreadsheet Scheduler includes simple Gantt Charting and
+                                    CPM (Critical Path Management) models for hourly, daily, or
+                                    weekly time units. By determining early and late starting
+                                    points for each task, as well as task duration and precedence
+                                    relationships, the template generates a Gantt Chart showing
+                                    which tasks are critical; that is, must be done on time,
+                                    otherwise the entire schedule will slip.
+                                </p>
+
+                                <div className="my-6 flex justify-center">
+                                    <img
+                                        src="https://www.usersolutions.com/wp-content/uploads/2022/09/SS-GanttDay-300x90-1.png"
+                                        alt="Color-coded spreadsheet with data analysis"
+                                        className="h-auto max-w-full rounded-lg shadow-lg"
+                                    />
+                                </div>
+
+                                <p className="text-muted-foreground">
+                                    Work flow and work-in-process models provide techniques for
+                                    scheduling customer jobs through single workstations,
+                                    workstations in series, or workstations in parallel. These
+                                    models enable more efficient planning and accurate customer
+                                    deliveries through minimizing average flow time, number of
+                                    days late for jobs, and number of late jobs.
+                                </p>
+
+                                <div className="my-6 flex justify-center">
+                                    <img
+                                        src="https://www.usersolutions.com/wp-content/uploads/2022/09/SS-CPathDay-300x204-1.png"
+                                        alt="Project schedule spreadsheet with early and late start times"
+                                        className="h-auto max-w-full rounded-lg shadow-lg"
+                                    />
+                                </div>
+
+                                <p className="text-muted-foreground">
+                                    Functionality also includes ability to do "what-if" analysis
+                                    to accommodate changes without missing deadlines. For those
+                                    looking to learn or teach project management concepts or be
+                                    introduced to formal project management systems, Spreadsheet
+                                    Scheduler is the perfect entry point.
+                                </p>
+
+                                <div className="my-6 flex justify-center">
+                                    <img
+                                        src="https://www.usersolutions.com/wp-content/uploads/2022/09/SS-4WC-296x300-1.png"
+                                        alt="Spreadsheet with production schedule and Gantt chart"
+                                        className="h-auto max-w-full rounded-lg shadow-lg"
+                                    />
+                                </div>
                             </CardContent>
                         </Card>
                     </div>
@@ -109,7 +223,7 @@ export default function SpreadsheetSchedulerPage() {
             </section>
 
             {/* Scheduling Techniques Section */}
-            <section className="pt-6">
+            <section className="py-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-5xl">
                         <Card>
@@ -160,7 +274,7 @@ export default function SpreadsheetSchedulerPage() {
             </section>
 
             {/* Features Section */}
-            <section className="bg-muted/50 pt-6">
+            <section className="bg-muted/50 py-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-6xl">
                         <h2 className="mb-12 text-center text-3xl font-bold text-foreground">
@@ -253,21 +367,19 @@ export default function SpreadsheetSchedulerPage() {
             </section>
 
             {/* Awards Section */}
-            <section className="pt-6">
+            <section className="py-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-5xl">
                         <Card className="bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20">
                             <CardContent className="p-8 text-center">
-                                <h2 className="mb-6 text-3xl font-bold text-foreground">
+                                <h3 className="mb-6 text-2xl font-bold text-slate-900 dark:text-white">
                                     CELEBRATING 25 YEARS OF AWARD WINNING SOFTWARE!
-                                </h2>
-                                <div className="mx-auto max-w-3xl">
-                                    <img
-                                        src="/awards-banner.jpg"
-                                        alt="Collection of industry and business awards"
-                                        className="h-auto w-full rounded-lg"
-                                    />
-                                </div>
+                                </h3>
+                                <img
+                                    src="https://www.usersolutions.com/wp-content/uploads/2022/07/banner-logoso-sm-58c9a28d237d6-1024x128.jpg"
+                                    alt="Collection of industry and business awards logos"
+                                    className="mx-auto h-auto max-w-full"
+                                />
                             </CardContent>
                         </Card>
                     </div>

@@ -1,5 +1,6 @@
-import Image from 'next/image';
 import Link from 'next/link';
+
+import { Card, CardContent } from '@/components/ui/card';
 
 export default function CovidPressReleasePage() {
     return (
@@ -148,20 +149,24 @@ export default function CovidPressReleasePage() {
             </div>
 
             {/* Awards Section */}
-            <div className="bg-gray-100 py-16">
-                <div className="container mx-auto px-4 text-center">
-                    <h2 className="mb-8 text-3xl font-bold text-gray-800">
-                        CELEBRATING 25 YEARS OF AWARD WINNING SOFTWARE!
-                    </h2>
-                    <Image
-                        src="https://www.usersolutions.com/wp-content/uploads/2022/07/banner-logoso-sm-58c9a28d237d6-1024x128.jpg"
-                        alt="Collection of industry and business awards logos"
-                        width={1024}
-                        height={128}
-                        className="mx-auto"
-                    />
+            <section className="py-6">
+                <div className="container mx-auto px-4">
+                    <div className="mx-auto max-w-5xl">
+                        <Card className="bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20">
+                            <CardContent className="p-8 text-center">
+                                <h3 className="mb-6 text-2xl font-bold text-slate-900 dark:text-white">
+                                    CELEBRATING 25 YEARS OF AWARD WINNING SOFTWARE!
+                                </h3>
+                                <img
+                                    src="https://www.usersolutions.com/wp-content/uploads/2022/07/banner-logoso-sm-58c9a28d237d6-1024x128.jpg"
+                                    alt="Collection of industry and business awards logos"
+                                    className="mx-auto h-auto max-w-full"
+                                />
+                            </CardContent>
+                        </Card>
+                    </div>
                 </div>
-            </div>
+            </section>
 
             {/* Contact Section */}
             <div className="bg-blue-600 py-12 text-white">
