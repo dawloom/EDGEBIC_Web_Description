@@ -149,7 +149,7 @@ export function ProductionPlanningSolutions(): React.JSX.Element {
               <Button
                 size="lg"
                 variant="outline"
-                className="gap-2"
+                className="gap-2 dark:hover:bg-slate-800"
                 onClick={() => router.push('/excel-templates')}
               >
                 <Settings className="size-4" />
@@ -709,7 +709,7 @@ export function ProductionPlanningSolutions(): React.JSX.Element {
                     detail.setAttribute('open', 'true')
                   );
                 }}
-                className="text-blue-600 hover:bg-blue-50 dark:hover:text-blue-400"
+                className="text-blue-600 hover:bg-blue-50 dark:text-blue-400 dark:hover:bg-blue-900/20 dark:hover:text-blue-300"
               >
                 Expand All
               </Button>
@@ -722,7 +722,7 @@ export function ProductionPlanningSolutions(): React.JSX.Element {
                   );
                   details.forEach((detail) => detail.removeAttribute('open'));
                 }}
-                className="text-blue-600 hover:bg-blue-50"
+                className="text-blue-600 hover:bg-blue-50 dark:text-blue-400 dark:hover:bg-blue-900/20 dark:hover:text-blue-300"
               >
                 Close All
               </Button>
