@@ -51,7 +51,7 @@ export default function CovidPressReleasePage() {
                                 situation and then reverting it all back.
                             </p>
 
-                            <blockquote className="my-8 border-l-4 border-blue-600 bg-blue-50 p-6">
+                            <blockquote className="my-6 border-l-4 border-blue-600 bg-blue-50 p-6">
                                 <p className="mb-4 text-lg italic">
                                     "During our 30 plus years' of experience, we are used to
                                     helping{' '}
@@ -105,7 +105,7 @@ export default function CovidPressReleasePage() {
                                 goes to show that businesses of all kinds can do their part."
                             </p>
 
-                            <div className="my-8 rounded-lg bg-gray-50 p-6">
+                            <div className="my-6 rounded-lg bg-gray-50 p-6">
                                 <h3 className="mb-4 text-xl font-bold text-gray-800">
                                     About User Solutions, Inc.
                                 </h3>

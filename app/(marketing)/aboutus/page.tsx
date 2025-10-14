@@ -13,7 +13,7 @@ export default function AboutUsPage() {
                         <h1 className="mb-6 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-4xl font-bold text-transparent md:text-5xl">
                             About User Solutions, Inc.
                         </h1>
-                        <p className="mb-8 text-xl text-gray-700">
+                        <p className="mb-6 text-xl text-gray-700">
                             Manufacturing software made easy
                         </p>
                         <div className="flex flex-col justify-center gap-4 sm:flex-row">
@@ -43,7 +43,7 @@ export default function AboutUsPage() {
             <section className="py-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-7xl">
-                        <Card className="mb-8">
+                        <Card className="mb-6">
                             <CardHeader>
                                 <CardTitle>Our Mission</CardTitle>
                             </CardHeader>
@@ -58,7 +58,7 @@ export default function AboutUsPage() {
                             </CardContent>
                         </Card>
 
-                        <Card className="mb-8">
+                        <Card className="mb-6">
                             <CardHeader>
                                 <CardTitle>Contact Information</CardTitle>
                             </CardHeader>
@@ -90,7 +90,7 @@ export default function AboutUsPage() {
                             </CardContent>
                         </Card>
 
-                        <Card className="mb-8">
+                        <Card className="mb-6">
                             <CardHeader>
                                 <CardTitle>Our Products</CardTitle>
                             </CardHeader>
@@ -195,7 +195,7 @@ export default function AboutUsPage() {
             <section className="bg-gray-50 py-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-7xl text-center">
-                        <h2 className="mb-8 text-3xl font-bold">
+                        <h2 className="mb-6 text-3xl font-bold">
                             Celebrating 25 Years of Award Winning Software!
                         </h2>
                         <div className="rounded-lg bg-white p-8 shadow-lg">
