@@ -41,7 +41,7 @@ export default function ProductionSchedulingProductsPage() {
       </section>
 
       {/* Introduction */}
-      <section className="py-6">
+      <section className="p-6">
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-7xl">
             <Card>
@@ -63,7 +63,7 @@ export default function ProductionSchedulingProductsPage() {
       </section>
 
       {/* Product Note */}
-      <section className="py-6">
+      <section className="pt-6">
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-7xl text-center">
             <Card className="border-blue-200 bg-blue-50">
@@ -276,7 +276,7 @@ export default function ProductionSchedulingProductsPage() {
       </section>
 
       {/* Testimonials */}
-      <section className="bg-gray-50 py-6">
+      <section className=" py-6">
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-7xl">
             <div className="grid gap-8 md:grid-cols-3">
@@ -321,7 +321,7 @@ export default function ProductionSchedulingProductsPage() {
       </section>
 
       {/* Video Section */}
-      <section className="pb-8 pt-6">
+      <section className=" pt-6">
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-7xl text-center">
             <Card>
