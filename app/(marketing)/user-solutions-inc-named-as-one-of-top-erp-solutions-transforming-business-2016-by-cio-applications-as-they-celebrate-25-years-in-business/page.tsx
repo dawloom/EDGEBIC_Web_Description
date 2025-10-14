@@ -49,17 +49,26 @@ export default function TopERPSolutions2016Page() {
                     <div className="mx-auto max-w-7xl">
                         {/* Subtitle */}
                         <div className="mb-6 text-center">
-                            <h2 className="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
-                                User Solutions receives recognition by CIO Applications for the
-                                company&apos;s success as ERP Add-On for Production Scheduling
-                            </h2>
+                            <Card>
+                                <CardContent className="p-6">
+                                    <h2 className="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
+                                        User Solutions receives recognition by CIO Applications for
+                                        the company&apos;s success as ERP Add-On for Production
+                                        Scheduling
+                                    </h2>
+                                </CardContent>
+                            </Card>
                         </div>
 
                         {/* Date and Location */}
                         <div className="mb-6">
-                            <h3 className="mb-6 text-2xl font-bold text-gray-900 dark:text-white">
-                                South Lyon, MI - May 10, 2016
-                            </h3>
+                            <Card>
+                                <CardContent className="p-6">
+                                    <h3 className="text-2xl font-bold text-gray-900 dark:text-white">
+                                        South Lyon, MI - May 10, 2016
+                                    </h3>
+                                </CardContent>
+                            </Card>
                         </div>
 
                         {/* CIO Applications Quote */}
@@ -111,22 +120,26 @@ export default function TopERPSolutions2016Page() {
 
                         {/* About User Solutions */}
                         <div className="mb-6">
-                            <h2 className="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
-                                About User Solutions, Inc.
-                            </h2>
-                            <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300">
-                                User Solutions, Inc. was founded in 1991 to fulfill the genuine
-                                need for lower cost, easy to learn and use software solutions
-                                for the manufacturing and operations management markets. As an
-                                add-on solution to existing ERP Solutions, or running stand
-                                alone, their affordable products feature great flexibility and
-                                speed to implement.
-                            </p>
+                            <Card>
+                                <CardContent className="p-6">
+                                    <h2 className="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
+                                        About User Solutions, Inc.
+                                    </h2>
+                                    <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300">
+                                        User Solutions, Inc. was founded in 1991 to fulfill the
+                                        genuine need for lower cost, easy to learn and use software
+                                        solutions for the manufacturing and operations management
+                                        markets. As an add-on solution to existing ERP Solutions, or
+                                        running stand alone, their affordable products feature great
+                                        flexibility and speed to implement.
+                                    </p>
+                                </CardContent>
+                            </Card>
                         </div>
 
                         {/* Awards Banner */}
                         <div>
-                            <Card className="bg-gradient-to-br from-purple-50 to-blue-100 dark:from-purple-900/20 dark:to-blue-800/20">
+                            <Card className="mt-6 rounded-xl border bg-gradient-to-br from-blue-50 to-blue-100 text-card-foreground shadow dark:from-blue-900/20 dark:to-blue-800/20">
                                 <CardContent className="p-8 text-center">
                                     <h2 className="mb-6 text-2xl font-bold text-slate-900 dark:text-white">
                                         CELEBRATING 25 YEARS OF AWARD WINNING SOFTWARE!

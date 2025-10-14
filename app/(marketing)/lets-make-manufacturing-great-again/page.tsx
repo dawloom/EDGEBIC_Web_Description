@@ -1,6 +1,5 @@
 import type { Metadata } from 'next';
 import Image from 'next/image';
-import Link from 'next/link';
 
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent } from '@/components/ui/card';
@@ -30,7 +29,7 @@ export default function LetsMakeManufacturingGreatAgainPage() {
                         >
                             National Manufacturing Day 2017
                         </Badge>
-                        <h1 className="mb-6 bg-gradient-to-r from-blue-600 to-green-600 bg-clip-text text-4xl font-bold text-transparent md:text-5xl lg:text-6xl">
+                        <h1 className="mb-6 bg-gradient-to-r from-blue-600 to-green-600 bg-clip-text text-3xl font-bold text-transparent md:text-4xl lg:text-5xl">
                             Let&apos;s Make Manufacturing Great Again©
                         </h1>
                         <p className="mb-4 text-xl text-gray-700 dark:text-gray-300">
@@ -41,7 +40,7 @@ export default function LetsMakeManufacturingGreatAgainPage() {
             </section>
 
             {/* Main Content */}
-            <section className="py-6">
+            <section className="pt-6">
                 <div className="mx-auto px-4">
                     <div className="mx-auto max-w-7xl">
                         {/* Introduction */}
@@ -252,7 +251,7 @@ export default function LetsMakeManufacturingGreatAgainPage() {
 
                         {/* Awards Banner */}
                         <div>
-                            <Card className="bg-gradient-to-br from-blue-50 to-green-100 dark:from-blue-900/20 dark:to-green-800/20">
+                            <Card className="mt-6 rounded-xl border bg-gradient-to-br from-blue-50 to-blue-100 text-card-foreground shadow dark:from-blue-900/20 dark:to-blue-800/20">
                                 <CardContent className="p-8 text-center">
                                     <h2 className="mb-6 text-2xl font-bold text-slate-900 dark:text-white">
                                         CELEBRATING 25 YEARS OF AWARD WINNING SOFTWARE!
