@@ -5,12 +5,14 @@ import { Badge } from '@/components/ui/badge';
 import { Card, CardContent } from '@/components/ui/card';
 
 export const metadata: Metadata = {
-    title: 'Li-ion Battery Production Scheduling Software | User Solutions',
+    title:
+        'Resource Manager-DB V6 Transforms Li-ion Battery Production Scheduling | User Solutions',
     description:
-        'Enevate Corporation uses Resource Manager-DB V6 to optimize lithium-ion battery production scheduling and streamline complex manufacturing processes.',
+        'User Solutions releases Resource Manager-DB V6 with Bills-of-Resources, finite capacity planning, and advanced features. Enevate Corporation case study on Li-ion battery production.',
     openGraph: {
-        title: 'Li-ion Battery Production Scheduling Software',
-        description: 'Enevate Corporation case study with RM-DB V6',
+        title: 'Resource Manager-DB V6 Transforms Li-ion Battery Production',
+        description:
+            'South Lyon, MI 6/9/2016 - RM-DB V6 driven by customer demand for more power and flexibility',
         url: 'https://www.usersolutions.com/li-ion-battery-production-scheduling-software'
     }
 };
@@ -26,14 +28,15 @@ export default function LiIonBatterySchedulingPage() {
                             variant="outline"
                             className="mb-6 h-8 rounded-full border-amber-600/30 px-4 text-sm font-medium text-amber-700 shadow-sm dark:border-amber-400/30 dark:text-amber-300"
                         >
-                            Battery Manufacturing Technology
+                            Press Release - June 9, 2016
                         </Badge>
                         <h1 className="mb-6 bg-gradient-to-r from-amber-600 to-yellow-600 bg-clip-text text-3xl font-bold text-transparent md:text-4xl lg:text-5xl">
-                            Li-ion Battery Production Scheduling Software
+                            Resource Manager-DB V6 Transforms Li-ion Battery Production
+                            Scheduling
                         </h1>
                         <p className="mb-4 text-xl text-gray-700 dark:text-gray-300">
-                            Enevate Corporation optimizes production with Resource Manager-DB
-                            V6
+                            User Solutions releases powerful upgrade driven by customer demand
+                            for flexibility
                         </p>
                     </div>
                 </div>
@@ -48,7 +51,7 @@ export default function LiIonBatterySchedulingPage() {
                             <Card>
                                 <CardContent className="p-6">
                                     <p className="text-center text-lg font-semibold text-gray-700 dark:text-gray-300">
-                                        Irvine, CA
+                                        South Lyon, MI - 6/9/2016
                                     </p>
                                 </CardContent>
                             </Card>
@@ -59,260 +62,179 @@ export default function LiIonBatterySchedulingPage() {
                             <Card>
                                 <CardContent className="p-6">
                                     <p className="mb-4 text-lg leading-relaxed text-gray-700 dark:text-gray-300">
-                                        Enevate Corporation, a pioneering company in lithium-ion
-                                        battery technology for electric vehicles and energy storage
-                                        systems, faced unique challenges in managing their complex
-                                        production processes. With cutting-edge research and
-                                        development driving rapid innovation, Enevate needed a
-                                        sophisticated scheduling solution capable of handling the
-                                        intricacies of battery manufacturing while maintaining
-                                        flexibility for evolving requirements.
+                                        User Solutions, a leader in flexible production scheduling
+                                        and planning software, has released Resource Manager-DB
+                                        (RM-DB) V6. This upgrade was driven by customer demand for
+                                        more power and flexibility in manufacturing scheduling.
                                     </p>
                                     <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300">
-                                        To address these challenges, Enevate turned to User
-                                        Solutions&apos; Resource Manager-DB Version 6 (RM-DB V6), a
-                                        powerful production scheduling software designed for
-                                        industries with demanding operational needs. This case study
-                                        explores how RM-DB V6 helped Enevate streamline operations,
-                                        improve visibility, and optimize resource allocation.
+                                        RM-DB V6 introduces Bills-of-Resources that blend materials
+                                        and workcenters in any combination. It also adds finite
+                                        capacity planning, a unique sub-assembly management system
+                                        for outsourced operations, and features like progressive lot
+                                        traceability, job costing, and smooth data integration.
                                     </p>
                                 </CardContent>
                             </Card>
                         </div>
 
-                        {/* The Challenge */}
-                        <div className="mb-6">
-                            <Card>
-                                <CardContent className="p-6">
-                                    <h2 className="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
-                                        The Challenge: Managing Complexity in Battery Production
-                                    </h2>
-                                    <p className="mb-4 text-lg leading-relaxed text-gray-700 dark:text-gray-300">
-                                        Battery production involves numerous steps, each requiring
-                                        precise timing, specialized equipment, and strict quality
-                                        controls. For Enevate, coordinating these activities while
-                                        balancing capacity constraints, material availability, and
-                                        customer deadlines was a constant struggle.
-                                    </p>
-                                    <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300">
-                                        Before implementing RM-DB V6, Enevate relied on spreadsheets
-                                        and manual planning methods. These approaches lacked the
-                                        sophistication needed to manage dependencies between tasks,
-                                        anticipate bottlenecks, or provide real-time updates.
-                                        Consequently, the team spent excessive time troubleshooting
-                                        issues instead of focusing on innovation and growth.
-                                    </p>
-                                </CardContent>
-                            </Card>
-                        </div>
-
-                        {/* Testimonial 1 */}
+                        {/* Scott Bennett Quote */}
                         <div className="mb-6">
                             <Card className="border-l-4 border-amber-500 bg-amber-50/50 dark:bg-amber-900/10">
                                 <CardContent className="p-6">
-                                    <p className="mb-4 text-lg italic leading-relaxed text-gray-800 dark:text-gray-200">
-                                        &quot;We needed a system that could grow with us as we
-                                        scaled our operations. RM-DB V6 offered the flexibility and
-                                        power we required, allowing us to manage complex workflows
-                                        without getting bogged down in administrative tasks.&quot;
+                                    <p className="text-lg italic leading-relaxed text-gray-800 dark:text-gray-200">
+                                        &quot;Resource Manager-DB gives us a unique mix of planning,
+                                        scheduling, and tracking tools in one flexible system.&quot;
                                     </p>
-                                    <p className="text-right text-base font-semibold text-gray-900 dark:text-gray-100">
-                                        — Scott Bennett, Supply Chain Manager at Enevate Corporation
+                                    <p className="mt-4 text-right text-base font-semibold text-gray-900 dark:text-gray-100">
+                                        — Scott Bennett, Supply Chain Manager at Enevate Corp.
                                     </p>
                                 </CardContent>
                             </Card>
                         </div>
 
-                        {/* The Solution */}
+                        {/* Meeting Enevate's Unique Manufacturing Needs */}
                         <div className="mb-6">
                             <Card>
                                 <CardContent className="p-6">
                                     <h2 className="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
-                                        The Solution: Resource Manager-DB Version 6
+                                        Meeting Enevate&apos;s Unique Manufacturing Needs
+                                    </h2>
+                                    <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300">
+                                        In 2015, Enevate Corporation, a developer of next-generation
+                                        Li-ion batteries, built a new manufacturing facility. They
+                                        needed more than traditional ERP functions like costed
+                                        bills-of-materials, inventory control, MRP, and lot
+                                        traceability. The system also had to handle finite capacity
+                                        scheduling and advanced routings—while staying adaptable.
+                                    </p>
+                                </CardContent>
+                            </Card>
+                        </div>
+
+                        {/* Supply Chain Manager Empowerment */}
+                        <div className="mb-6">
+                            <Card>
+                                <CardContent className="p-6">
+                                    <h2 className="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
+                                        Supply Chain Manager Empowerment
                                     </h2>
                                     <p className="mb-4 text-lg leading-relaxed text-gray-700 dark:text-gray-300">
-                                        User Solutions&apos; Resource Manager-DB V6 provided Enevate
-                                        with a robust platform tailored to the demands of advanced
-                                        manufacturing. Key features include:
+                                        Scott Bennett, Supply Chain Manager for Enevate, says,
+                                        &quot;The User Solutions team and Resource Manager-DB gave
+                                        us the unique combination we needed, without losing
+                                        flexibility, at a reasonable cost.&quot;
                                     </p>
-                                    <ul className="mb-4 space-y-2 text-lg text-gray-700 dark:text-gray-300">
-                                        <li className="flex gap-2">
-                                            <span className="font-bold">•</span>
-                                            <span>
-                                                <strong>Advanced Scheduling Algorithms:</strong> RM-DB
-                                                V6 uses sophisticated algorithms to optimize production
-                                                schedules, considering factors such as equipment
-                                                availability, material constraints, and task
-                                                dependencies.
-                                            </span>
-                                        </li>
-                                        <li className="flex gap-2">
-                                            <span className="font-bold">•</span>
-                                            <span>
-                                                <strong>Real-Time Visibility:</strong> The software
-                                                provides up-to-the-minute insights into production
-                                                status, enabling proactive decision-making.
-                                            </span>
-                                        </li>
-                                        <li className="flex gap-2">
-                                            <span className="font-bold">•</span>
-                                            <span>
-                                                <strong>Customizable Dashboards:</strong> Users can
-                                                configure dashboards to display relevant metrics,
-                                                ensuring quick access to critical information.
-                                            </span>
-                                        </li>
-                                        <li className="flex gap-2">
-                                            <span className="font-bold">•</span>
-                                            <span>
-                                                <strong>Integration Capabilities:</strong> RM-DB V6
-                                                integrates seamlessly with existing ERP and MES systems,
-                                                minimizing disruption during implementation.
-                                            </span>
-                                        </li>
-                                    </ul>
+                                    <p className="mb-4 text-lg leading-relaxed text-gray-700 dark:text-gray-300">
+                                        Because Enevate was building new and original processes for
+                                        innovative batteries, they needed dynamic supply chain
+                                        reconfiguration. Resource Manager-DB&apos;s flexible format
+                                        allowed them to combine workcenters, products, and
+                                        sub-assemblies to test a wide range of &quot;what-if&quot;
+                                        scenarios. They could create models in minutes or import
+                                        different scenarios. Excel integration made managing data
+                                        sets simple and quick.
+                                    </p>
+                                    <p className="mb-4 text-lg leading-relaxed text-gray-700 dark:text-gray-300">
+                                        Scott adds, &quot;The product adapts easily to our business
+                                        needs. User Solutions also customizes features to match our
+                                        requests. We have used deep sub-assembly structures,
+                                        imported new configurations via Excel, and scheduled
+                                        workcenters and products in almost any combination. We keep
+                                        finding new ways to benefit from the tool.&quot;
+                                    </p>
                                     <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300">
-                                        By leveraging these capabilities, Enevate transformed their
-                                        scheduling process from reactive to proactive, gaining
-                                        unprecedented control over their operations.
+                                        User Solutions also enhanced their Lot Management capability
+                                        with traceability, pick lists, and inventory valuation by
+                                        location and lot. They even combined Workcenters (for
+                                        scheduling) and Products (for costing) into one powerful
+                                        feature.
                                     </p>
                                 </CardContent>
                             </Card>
                         </div>
 
-                        {/* Manufacturing Excellence Dashboard */}
+                        {/* Manufacturing Dashboard Image */}
                         <div className="mb-6">
                             <Card>
                                 <CardContent className="p-6">
-                                    <h2 className="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
-                                        Manufacturing Excellence Dashboard
-                                    </h2>
-                                    <div className="mb-6 flex justify-center overflow-hidden rounded-lg bg-white dark:bg-slate-800">
+                                    <div className="mb-4 flex justify-center overflow-hidden rounded-lg bg-white dark:bg-slate-800">
                                         <div className="relative h-96 w-full">
                                             <Image
-                                                src="https://www.usersolutions.com/wp-content/uploads/2022/07/Manufacturing-Excel-Dashboard-Template-Someka-S02-1-1536x1009.jpg"
-                                                alt="Manufacturing Excel Dashboard showing production metrics and KPIs"
+                                                src="https://www.usersolutions.com/wp-content/uploads/2022/09/Manufacturing_Excel_Dashboard-1024x376-1.png"
+                                                alt="Spreadsheet showing manufacturing process steps and status indicators"
                                                 fill
                                                 className="object-contain"
                                             />
                                         </div>
                                     </div>
-                                    <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300">
-                                        The dashboard displays real-time production metrics,
-                                        resource utilization, and performance indicators, giving
-                                        management a comprehensive view of operations at a glance.
-                                    </p>
                                 </CardContent>
                             </Card>
                         </div>
 
-                        {/* Results */}
+                        {/* Affordable, Compatible, and Scalable */}
                         <div className="mb-6">
                             <Card>
                                 <CardContent className="p-6">
                                     <h2 className="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
-                                        Results: Measurable Improvements Across the Board
+                                        Affordable, Compatible, and Scalable
                                     </h2>
                                     <p className="mb-4 text-lg leading-relaxed text-gray-700 dark:text-gray-300">
-                                        Since implementing RM-DB V6, Enevate has experienced
-                                        significant improvements in key performance indicators:
+                                        A single user version ranges from $5,000 – $10,000 which
+                                        includes implementation assistance. Resource Manager-DB runs
+                                        with Windows and uses Excel for reports.
                                     </p>
-                                    <ul className="space-y-2 text-lg text-gray-700 dark:text-gray-300">
-                                        <li className="flex gap-2">
-                                            <span className="font-bold">•</span>
-                                            <span>
-                                                <strong>Increased Throughput:</strong> Optimized
-                                                schedules reduced idle time and maximized equipment
-                                                utilization, boosting overall throughput by 20%.
-                                            </span>
-                                        </li>
-                                        <li className="flex gap-2">
-                                            <span className="font-bold">•</span>
-                                            <span>
-                                                <strong>Reduced Lead Times:</strong> Streamlined
-                                                workflows shortened production cycles, enabling faster
-                                                delivery to customers.
-                                            </span>
-                                        </li>
-                                        <li className="flex gap-2">
-                                            <span className="font-bold">•</span>
-                                            <span>
-                                                <strong>Improved Resource Allocation:</strong> Better
-                                                visibility into resource availability minimized
-                                                conflicts and ensured efficient use of assets.
-                                            </span>
-                                        </li>
-                                        <li className="flex gap-2">
-                                            <span className="font-bold">•</span>
-                                            <span>
-                                                <strong>Enhanced Collaboration:</strong> Centralized
-                                                data fostered better communication among teams,
-                                                improving coordination and responsiveness.
-                                            </span>
-                                        </li>
-                                    </ul>
-                                </CardContent>
-                            </Card>
-                        </div>
-
-                        {/* Testimonial 2 */}
-                        <div className="mb-6">
-                            <Card className="border-l-4 border-amber-500 bg-amber-50/50 dark:bg-amber-900/10">
-                                <CardContent className="p-6">
-                                    <p className="mb-4 text-lg italic leading-relaxed text-gray-800 dark:text-gray-200">
-                                        &quot;The impact of RM-DB V6 on our operations has been
-                                        transformative. We now have the tools and insights necessary
-                                        to compete effectively in a demanding market. Our team is
-                                        more confident, and our customers are happier.&quot;
-                                    </p>
-                                    <p className="text-right text-base font-semibold text-gray-900 dark:text-gray-100">
-                                        — Scott Bennett, Supply Chain Manager at Enevate Corporation
-                                    </p>
-                                </CardContent>
-                            </Card>
-                        </div>
-
-                        {/* Looking Ahead */}
-                        <div className="mb-6">
-                            <Card>
-                                <CardContent className="p-6">
-                                    <h2 className="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
-                                        Looking Ahead: Scaling for the Future
-                                    </h2>
-                                    <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300">
-                                        As Enevate continues to grow and expand its product
-                                        offerings, RM-DB V6 will play a crucial role in supporting
-                                        that growth. The software&apos;s scalability ensures it can
-                                        accommodate increased complexity without sacrificing
-                                        performance. Moreover, ongoing updates from User Solutions
-                                        mean Enevate will always have access to the latest features
-                                        and improvements, keeping them at the forefront of battery
-                                        manufacturing technology.
-                                    </p>
-                                </CardContent>
-                            </Card>
-                        </div>
-
-                        {/* Pricing Information */}
-                        <div className="mb-6">
-                            <Card>
-                                <CardContent className="p-6">
-                                    <h2 className="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
-                                        Investment Information
-                                    </h2>
                                     <p className="mb-4 text-lg leading-relaxed text-gray-700 dark:text-gray-300">
-                                        Resource Manager-DB Version 6 is available for $2,550.00.
-                                        This investment includes comprehensive software capabilities
-                                        designed specifically for complex manufacturing environments
-                                        like battery production.
+                                        Resource Manager-DB is the first tool that can be utilized
+                                        across the full manufacturing spectrum, from small shops
+                                        with no formal systems in place, all the way to large
+                                        multi-nationals needing to augment existing ERP systems.
                                     </p>
                                     <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300">
-                                        For more information or to discuss how RM-DB V6 can benefit
-                                        your operations, contact User Solutions at{' '}
+                                        For more information or a free trial, contact{' '}
                                         <span className="font-semibold text-amber-700 dark:text-amber-400">
-                                            800-321-8737
+                                            www.UserSolutions.com
+                                        </span>{' '}
+                                        or call{' '}
+                                        <span className="font-semibold text-amber-700 dark:text-amber-400">
+                                            1(800) 321-8737
                                         </span>
-                                        .
+                                    </p>
+                                </CardContent>
+                            </Card>
+                        </div>
+
+                        {/* About User Solutions, Inc. */}
+                        <div className="mb-6">
+                            <Card>
+                                <CardContent className="p-6">
+                                    <h2 className="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
+                                        About User Solutions, Inc.
+                                    </h2>
+                                    <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300">
+                                        Founded in 1991, User Solutions creates affordable,
+                                        flexible, and easy-to-implement planning, scheduling, and
+                                        tracking software for manufacturing and operations. Their
+                                        tools can run alone or integrate with existing ERP systems.
+                                    </p>
+                                </CardContent>
+                            </Card>
+                        </div>
+
+                        {/* About Enevate */}
+                        <div className="mb-6">
+                            <Card>
+                                <CardContent className="p-6">
+                                    <h2 className="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
+                                        About Enevate
+                                    </h2>
+                                    <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300">
+                                        Enevate Corporation develops advanced rechargeable energy
+                                        storage for mobile devices and drones. Its HD-Energy®
+                                        Li-ion batteries deliver major performance gains over
+                                        traditional batteries. Investors include Mission Ventures,
+                                        Draper Fisher Jurvetson, and Sumitomo&apos;s Presidio
+                                        Ventures.
                                     </p>
                                 </CardContent>
                             </Card>

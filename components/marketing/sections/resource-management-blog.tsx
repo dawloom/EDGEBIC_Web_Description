@@ -350,7 +350,7 @@ export function ResourceManagementBlog() {
       <section className="pb-6">
         <div className="container">
           <div className="mx-auto max-w-7xl">
-            <Card className="bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20">
+            <Card className="mt-6 rounded-xl border bg-gradient-to-br from-blue-50 to-blue-100 text-card-foreground shadow dark:from-blue-900/20 dark:to-blue-800/20">
               <CardContent className="p-8 text-center">
                 <h3 className="mb-6 text-2xl font-bold text-slate-900 dark:text-white">
                   CELEBRATING 25 YEARS OF AWARD WINNING SOFTWARE!
