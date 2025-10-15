@@ -49,7 +49,7 @@ export default function UncategorizedCategoryPage() {
               <Card className="flex flex-col overflow-hidden transition-shadow hover:shadow-lg">
                 <div className="relative h-48 w-full overflow-hidden">
                   <img
-                    src="https://www.usersolutions.com/wp-content/uploads/2022/07/pexels-photo-267669-300x200.jpeg"
+                    src="https://www.usersolutions.com/wp-content/uploads/2022/09/image04.png"
                     alt="Person reading a magazine with business diagrams"
                     className="size-full object-cover transition-transform hover:scale-105"
                   />
@@ -83,7 +83,7 @@ export default function UncategorizedCategoryPage() {
               <Card className="flex flex-col overflow-hidden transition-shadow hover:shadow-lg">
                 <div className="relative h-48 w-full overflow-hidden">
                   <img
-                    src="https://www.usersolutions.com/wp-content/uploads/2022/07/pexels-photo-270557-300x200.jpeg"
+                    src="https://www.usersolutions.com/wp-content/uploads/2022/09/image3.png"
                     alt="Laptop screen displaying code in development environment"
                     className="size-full object-cover transition-transform hover:scale-105"
                   />
@@ -117,7 +117,7 @@ export default function UncategorizedCategoryPage() {
               <Card className="flex flex-col overflow-hidden transition-shadow hover:shadow-lg">
                 <div className="relative h-48 w-full overflow-hidden">
                   <img
-                    src="https://www.usersolutions.com/wp-content/uploads/2022/07/pexels-photo-265087-300x200.jpeg"
+                    src="https://www.usersolutions.com/wp-content/uploads/2022/09/image06-1.png"
                     alt="Business professionals analyzing financial charts and data"
                     className="size-full object-cover transition-transform hover:scale-105"
                   />
@@ -151,7 +151,7 @@ export default function UncategorizedCategoryPage() {
               <Card className="flex flex-col overflow-hidden transition-shadow hover:shadow-lg">
                 <div className="relative h-48 w-full overflow-hidden">
                   <img
-                    src="https://www.usersolutions.com/wp-content/uploads/2022/07/pexels-photo-380769-300x200.jpeg"
+                    src="https://www.usersolutions.com/wp-content/uploads/2022/09/image05.png"
                     alt="Team meeting with laptops in modern office"
                     className="size-full object-cover transition-transform hover:scale-105"
                   />
@@ -184,7 +184,7 @@ export default function UncategorizedCategoryPage() {
               <Card className="flex flex-col overflow-hidden transition-shadow hover:shadow-lg">
                 <div className="relative h-48 w-full overflow-hidden">
                   <img
-                    src="https://www.usersolutions.com/wp-content/uploads/2022/07/pexels-photo-716281-300x200.jpeg"
+                    src="https://www.usersolutions.com/wp-content/uploads/2022/07/celebrating.png"
                     alt="Team celebrating with holiday hats in office"
                     className="size-full object-cover transition-transform hover:scale-105"
                   />
@@ -216,7 +216,7 @@ export default function UncategorizedCategoryPage() {
               <Card className="flex flex-col overflow-hidden transition-shadow hover:shadow-lg">
                 <div className="relative h-48 w-full overflow-hidden">
                   <img
-                    src="https://www.usersolutions.com/wp-content/uploads/2022/07/pexels-photo-164686-300x200.jpeg"
+                    src="https://www.usersolutions.com/wp-content/uploads/2022/07/image02.png"
                     alt="Person budgeting with calculator and documents on table"
                     className="size-full object-cover transition-transform hover:scale-105"
                   />

@@ -50,7 +50,7 @@ export default function ProductionCategoryPage() {
                             <Card className="flex flex-col overflow-hidden transition-shadow hover:shadow-lg">
                                 <div className="relative h-64 w-full overflow-hidden">
                                     <Image
-                                        src="https://www.usersolutions.com/wp-content/uploads/2024/07/pexels-cottonbro-4065906-scaled.jpg"
+                                        src="https://www.usersolutions.com/wp-content/uploads/2022/07/AirCraftMaint.jpg"
                                         alt="Submarine crew in control room"
                                         fill
                                         className="object-cover transition-transform hover:scale-105"
@@ -87,7 +87,7 @@ export default function ProductionCategoryPage() {
                             <Card className="flex flex-col overflow-hidden transition-shadow hover:shadow-lg">
                                 <div className="relative h-64 w-full overflow-hidden">
                                     <Image
-                                        src="https://www.usersolutions.com/wp-content/uploads/2024/07/pexels-freestockpro-867452-scaled.jpg"
+                                        src="https://www.usersolutions.com/wp-content/uploads/2024/02/sdf.jpg"
                                         alt="Illustration of a worker with construction tools icons"
                                         fill
                                         className="object-cover transition-transform hover:scale-105"
