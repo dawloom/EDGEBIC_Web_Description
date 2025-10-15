@@ -47,8 +47,46 @@ export default function LeanManufacturingAmplifierPage() {
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-7xl">
                         <div className="prose prose-lg dark:prose-invert mx-auto">
-                            <p className="text-center text-gray-600 dark:text-gray-400">
-                                Content coming soon...
+                            <p className="text-gray-700 dark:text-gray-300">
+                                Instruments For Industry, Inc (IFI), is a leader in the design
+                                and manufacture of Solid State and Traveling Wave Tube
+                                Amplifiers (both pulsed and CW). IFI equipment is used
+                                successfully in applications all over the world and is the
+                                leading supplier of high power transmitters.
+                            </p>
+
+                            <p className="text-gray-700 dark:text-gray-300">
+                                IFI has implemented Resource Manager-DB to support a transition
+                                to LEAN Manufacturing methods while still maintaining the
+                                benefits of traditional MRP applications. IFI found the combined
+                                capabilities provided them unsurpassed flexibility.
+                            </p>
+
+                            <p className="text-gray-700 dark:text-gray-300">
+                                In a traditional MRP environment, material replenishment is
+                                based on a delicate balance of controlled inventory levels and
+                                scheduled demands against that inventory. Naturally there are
+                                considerable efforts and controls that are required to maintain
+                                the integrity of the inventory and the accuracy of the demand
+                                against it. These controls place a heavy burden on an
+                                organization and are contrary to LEAN Manufacturing Practices.
+                            </p>
+
+                            <p className="text-gray-700 dark:text-gray-300">
+                                In the LEAN World, the MRP system does not function and is not
+                                required. The system generated replenishment reorder signal is
+                                replaced with a visually triggered reorder signal based on
+                                actual consumption of material. Although the organization is now
+                                streamlined and operating efficiently, the burden is now placed
+                                on the purchasing professionals to procure material from a
+                                non-system based replenishment requirement.
+                            </p>
+
+                            <p className="text-gray-700 dark:text-gray-300">
+                                Resource Manager LEAN System provides the benefit of a MRP based
+                                purchasing system while streamlining the purchasing function.
+                                The system generated demand for material procurement is replaced
+                                with the visually triggered material demand.
                             </p>
                         </div>
                     </div>

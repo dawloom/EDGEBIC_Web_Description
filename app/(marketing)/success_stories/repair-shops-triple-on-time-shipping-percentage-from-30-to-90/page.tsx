@@ -14,7 +14,7 @@ export const metadata: Metadata = {
             'Repair Shops Triple Customer Base with Realistic Scheduling | User Solutions',
         description:
             'Learn how repair shops tripled their customer base by implementing realistic, data-driven scheduling practices.',
-        url: 'https://www.usersolutions.com/success-stories/repair-shops-triple-customer-base-with-realistic-scheduling'
+        url: 'https://www.usersolutions.com/success-stories/repair-shops-triple-on-time-shipping-percentage-from-30-to-90'
     }
 };
 
@@ -47,8 +47,28 @@ export default function RepairShopsTriplePage() {
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-7xl">
                         <div className="prose prose-lg dark:prose-invert mx-auto">
-                            <p className="text-center text-gray-600 dark:text-gray-400">
-                                Content coming soon...
+                            <p className="text-gray-700 dark:text-gray-300">
+                                GE Railcar Services Corporation, a unit of General Electric Corporation manages
+                                a fleet of over 180,000 railcars throughout North America and has successfully
+                                deployed Workcenter SchedulerXL. According to Mr. Dan Barich, Manager of Process
+                                Engineering, "In an effort to meet and exceed the expectations of our customers,
+                                we have purchased and installed the Workcenter SchedulerXL computer software
+                                system for all of our major repair shops located throughout U.S. and Canada."
+                            </p>
+
+                            <p className="text-gray-700 dark:text-gray-300">
+                                Reporting on some of the major benefits of Workcenter SchedulerXL, Mr. Barich
+                                replies, "Over the past several years, Workcenter SchedulerXL has successfully
+                                helped our repair network to improve the Shipping On-Time accuracy from 30% to over
+                                90%. Additionally, since installing Workcenter SchedulerXL, we have improved
+                                our overall shop cycle time by several days.
+                            </p>
+
+                            <p className="text-gray-700 dark:text-gray-300">
+                                Workcenter SchedulerXL is also helping our shop Production Control Managers
+                                better manage the railcar repair process by preventing over booking of workcenter
+                                resources, establishing workcenter tracking for railcars, and creating a master
+                                repair schedule."
                             </p>
                         </div>
                     </div>

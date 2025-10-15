@@ -14,7 +14,7 @@ export const metadata: Metadata = {
             'Complements Traditional MRP for Job Shop Scheduling and Efficiency | User Solutions',
         description:
             'Explore how complementary scheduling solutions enhance traditional MRP systems in job shop environments.',
-        url: 'https://www.usersolutions.com/success-stories/complements-traditional-mrp-for-job-shop-scheduling-and-efficiency'
+        url: 'https://www.usersolutions.com/success-stories/complements-traditional-mrp-and-shop-control-systems'
     }
 };
 
@@ -47,8 +47,30 @@ export default function ComplementsTraditionalMrpPage() {
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-7xl">
                         <div className="prose prose-lg dark:prose-invert mx-auto">
-                            <p className="text-center text-gray-600 dark:text-gray-400">
-                                Content coming soon...
+                            <p className="text-gray-700 dark:text-gray-300">
+                                Arnold Quesenberry, Senior Consultant for A.G. Raymond & Co.
+                                Inc. has been using Resource Manager in conjunction with
+                                consulting projects. "We have found these products are a perfect
+                                complement to traditional MRP and Shop Control systems. They
+                                enable the user to quickly generate various 'what-if' plans for
+                                feasible and efficient master scheduling, all without disrupting
+                                the current system".
+                            </p>
+
+                            <p className="text-gray-700 dark:text-gray-300">
+                                Mr. Quesenberry continues, "In addition to complementing
+                                traditional systems, the Resource Manager is the perfect
+                                beginning system for companies just getting started with
+                                computerizing their operations, both here and abroad. It
+                                provides a quick, easy, and flexible method to organize parts,
+                                routings, operations, costs, Bills-Of-Materials, and perform
+                                basic scheduling, inventory management, even purchasing.
+                            </p>
+
+                            <p className="text-gray-700 dark:text-gray-300">
+                                Our customers love the fact that since the Resource Manager is
+                                compatible with Excel, they are immediately comfortable with
+                                running the system."
                             </p>
                         </div>
                     </div>

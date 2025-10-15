@@ -47,8 +47,24 @@ export default function HiTechConnectorMfrPage() {
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-7xl">
                         <div className="prose prose-lg dark:prose-invert mx-auto">
-                            <p className="text-center text-gray-600 dark:text-gray-400">
-                                Content coming soon...
+                            <p className="text-gray-700 dark:text-gray-300">
+                                For awhile, we had been seeking better scheduling information
+                                out of our system. Exact Software recommended Resource
+                                Manager-DB from User Solutions. We found that not only was the
+                                product quick to integrate with our Macola system, it also
+                                integrated easily with our current custom labor tracking system
+                                and provides the needed visibility for us to plan labor more
+                                accurately " according Ted.
+                            </p>
+
+                            <p className="text-gray-700 dark:text-gray-300">
+                                "Finally, we can see in advance how to staff the plant for most
+                                efficient scheduling and respond accurately to our customers
+                                with realistic promise dates.
+                            </p>
+
+                            <p className="text-gray-700 dark:text-gray-300">
+                                <strong>Ted Schultz</strong>
                             </p>
                         </div>
                     </div>

@@ -47,8 +47,25 @@ export default function SmartCoffeeMachinesPage() {
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-7xl">
                         <div className="prose prose-lg dark:prose-invert mx-auto">
-                            <p className="text-center text-gray-600 dark:text-gray-400">
-                                Content coming soon...
+                            <p className="text-gray-700 dark:text-gray-300">
+                                The big problem we have is knowing exactly which raw material
+                                was needed to be purchased (qty & date) based on BOM, minimum
+                                quantity to order and basic costing.
+                            </p>
+
+                            <p className="text-gray-700 dark:text-gray-300">
+                                The biggest benefit with using Resource Manager-DB is the
+                                increased efficiency in purchasing department.
+                            </p>
+
+                            <p className="text-gray-700 dark:text-gray-300">
+                                We chose Resource Manager -DB because it was the only affordable
+                                program available where we could link via to our existing ERP
+                                system and have MRP calculated.
+                            </p>
+
+                            <p className="text-gray-700 dark:text-gray-300">
+                                <strong>Claude R.</strong>
                             </p>
                         </div>
                     </div>
