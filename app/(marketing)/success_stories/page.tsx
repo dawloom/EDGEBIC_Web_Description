@@ -32,7 +32,7 @@ const successStories = [
             'Production What-If Scenario Gantt Chart Secures Largest Customer Order',
         slug: 'production-what-if-scenario-gantt-chart-secures-largest-customer-order',
         image:
-            'https://www.usersolutions.com/wp-content/uploads/2022/08/Turner-Bicycles-Logo-Since-1994.jpg',
+            'https://www.usersolutions.com/wp-content/uploads/2022/07/turnerlogo22a-161208-5849d56942669.jpg',
         alt: 'Turner Bicycles logo since 1994.',
         excerpt:
             'Turner Suspension Bicycles, Inc. of Murrieta, CA manufactures top-of-the-line, world-class mountain bikes. From the birth of the first BURNER All Terrain Bikes (ATB) in 1992, to the current offerings, Turner has strove to make the suspension frame as simple, rigid, and low-maintenance as possible. The results are refined geometries and machines built using only the […]'
@@ -213,7 +213,7 @@ export default function SuccessStoriesPage() {
     return (
         <div className="min-h-screen">
             {/* Hero Section */}
-            <section className="bg-gradient-to-br from-blue-50 via-white to-indigo-50 py-12 dark:from-slate-900 dark:via-slate-800 dark:to-slate-900">
+            <section className="bg-gradient-to-br from-blue-50 via-white to-indigo-50 py-6 dark:from-slate-900 dark:via-slate-800 dark:to-slate-900">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-7xl text-center">
                         <Badge
@@ -235,7 +235,7 @@ export default function SuccessStoriesPage() {
             </section>
 
             {/* Success Stories Grid */}
-            <section className="py-12">
+            <section className="pt-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-7xl">
                         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-2">
