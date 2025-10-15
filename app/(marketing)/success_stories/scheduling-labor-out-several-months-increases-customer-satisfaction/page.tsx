@@ -60,6 +60,17 @@ export default function SchedulingLaborPage() {
                                 stop-gap solution for these areas."
                             </p>
 
+                            <div className="my-8 flex justify-center">
+                                <Image
+                                    src="https://www.usersolutions.com/wp-content/uploads/2022/07/main-banner-300x193-1.jpg"
+                                    alt="Cummins Engine facility"
+                                    width={300}
+                                    height={193}
+                                    className="h-auto rounded-lg shadow-md"
+                                    unoptimized
+                                />
+                            </div>
+
                             <p className="text-gray-700 dark:text-gray-300">
                                 Cummins Engine has 33 locations around the U.S. and accessorizes
                                 engines for custom applications. According to Mr. Van Wagner,
@@ -85,6 +96,17 @@ export default function SchedulingLaborPage() {
                                 gives us an excellent visual on what is happening, or needs to
                                 happen."
                             </p>
+
+                            <div className="my-8 flex justify-center">
+                                <Image
+                                    src="https://www.usersolutions.com/wp-content/uploads/2022/07/SkillsBarWeek-300x169-2.png"
+                                    alt="Skills Bar Week scheduling chart"
+                                    width={300}
+                                    height={169}
+                                    className="h-auto rounded-lg shadow-md"
+                                    unoptimized
+                                />
+                            </div>
 
                             <p className="text-gray-700 dark:text-gray-300">
                                 Cummins Engine is a global power leader that designs,

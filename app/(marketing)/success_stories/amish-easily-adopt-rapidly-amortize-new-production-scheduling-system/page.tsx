@@ -59,6 +59,17 @@ export default function AmishProductionPage() {
                                 hardwood furniture.
                             </p>
 
+                            <div className="my-8 flex justify-center">
+                                <Image
+                                    src="https://www.usersolutions.com/wp-content/uploads/2022/07/image001-150x150-1.png"
+                                    alt="Homestead Furniture craftsmanship"
+                                    width={150}
+                                    height={150}
+                                    className="h-auto rounded-lg shadow-md"
+                                    unoptimized
+                                />
+                            </div>
+
                             <p className="text-gray-700 dark:text-gray-300">
                                 Homestead Furniture's core values reflect the local culture of
                                 craftsmanship and fair business dealings. They are surrounded by
@@ -68,6 +79,17 @@ export default function AmishProductionPage() {
                                 better furniture, in lieu of ways to set up offshore
                                 manufacturing.
                             </p>
+
+                            <div className="my-8 flex justify-center">
+                                <Image
+                                    src="https://www.usersolutions.com/wp-content/uploads/2022/07/image002-150x138-1.jpg"
+                                    alt="Amish furniture manufacturing process"
+                                    width={150}
+                                    height={138}
+                                    className="h-auto rounded-lg shadow-md"
+                                    unoptimized
+                                />
+                            </div>
 
                             <h2 className="text-2xl font-bold text-gray-900 dark:text-white">
                                 Improvements
@@ -86,6 +108,17 @@ export default function AmishProductionPage() {
                                 inventory management, continuous improvement principles, Six
                                 Sigma tactics.
                             </p>
+
+                            <div className="my-8 flex justify-center">
+                                <Image
+                                    src="https://www.usersolutions.com/wp-content/uploads/2022/07/image003-150x112-1.jpg"
+                                    alt="Advanced manufacturing methodologies"
+                                    width={150}
+                                    height={112}
+                                    className="h-auto rounded-lg shadow-md"
+                                    unoptimized
+                                />
+                            </div>
 
                             <h2 className="text-2xl font-bold text-gray-900 dark:text-white">
                                 Last Hurdle

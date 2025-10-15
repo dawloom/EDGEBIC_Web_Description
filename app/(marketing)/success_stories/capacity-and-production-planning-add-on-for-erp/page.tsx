@@ -48,36 +48,53 @@ export default function CapacityProductionPlanningPage() {
                     <div className="mx-auto max-w-7xl">
                         <div className="prose prose-lg dark:prose-invert mx-auto">
                             <p className="text-gray-700 dark:text-gray-300">
-                                BAE Systems/Ordinance Systems Inc. set out to design and implement a process
-                                that would enable our manufacturing personnel to systematically identify process,
-                                equipment, labor, and material limitations when responding to customer order
-                                delivery inquiries. We had already purchased and implemented an ERP system (with
-                                Material Requirements Planning and Capacity Requirements Planning functionality),
-                                but we weren't satisfied with its ability to recognize our capacity constraints
-                                or meet our finite scheduling needs. The MRP product allowed us to enter a Master
-                                Scheduler that exceeded available capacity and offered little visibility when
-                                we did so. Consequently, we chose to discontinue its use for production planning
-                                activities.
+                                BAE Systems/Ordinance Systems Inc. set out to design and
+                                implement a process that would enable our manufacturing
+                                personnel to systematically identify process, equipment, labor,
+                                and material limitations when responding to customer order
+                                delivery inquiries. We had already purchased and implemented an
+                                ERP system (with Material Requirements Planning and Capacity
+                                Requirements Planning functionality), but we weren't satisfied
+                                with its ability to recognize our capacity constraints or meet
+                                our finite scheduling needs. The MRP product allowed us to enter
+                                a Master Scheduler that exceeded available capacity and offered
+                                little visibility when we did so. Consequently, we chose to
+                                discontinue its use for production planning activities.
+                            </p>
+
+                            <div className="my-8 flex justify-center">
+                                <Image
+                                    src="https://www.usersolutions.com/wp-content/uploads/2022/07/BackLog.png"
+                                    alt="Backlog and Production Planning Chart"
+                                    width={600}
+                                    height={400}
+                                    className="h-auto rounded-lg shadow-md"
+                                    unoptimized
+                                />
+                            </div>
+
+                            <p className="text-gray-700 dark:text-gray-300">
+                                After a review process, that included sending sample data from
+                                our ERP System, we selected User Solutions' Resource Manager-DB
+                                solution. User Solutions has always been highly responsive in
+                                addressing our specific needs. In a very short time, we had the
+                                majority of our bills of resource, inventory items and work
+                                centers loaded.
                             </p>
 
                             <p className="text-gray-700 dark:text-gray-300">
-                                After a review process, that included sending sample data from our ERP System,
-                                we selected User Solutions' Resource Manager-DB solution. User Solutions has
-                                always been highly responsive in addressing our specific needs. In a very short
-                                time, we had the majority of our bills of resource, inventory items and work centers
-                                loaded.
+                                Now, we have a solution that has become a vital tool in our
+                                production planning and scheduling activities. We are extremely
+                                satisfied with the offering and are pleased to recommend to
+                                others looking for a capacity and production planning solution –
+                                either integrated with ERP or standalone.
                             </p>
 
                             <p className="text-gray-700 dark:text-gray-300">
-                                Now, we have a solution that has become a vital tool in our production planning
-                                and scheduling activities. We are extremely satisfied with the offering and are
-                                pleased to recommend to others looking for a capacity and production planning
-                                solution – either integrated with ERP or standalone.
-                            </p>
-
-                            <p className="text-gray-700 dark:text-gray-300">
-                                <strong>Marc Phillippi</strong><br />
-                                ERP Systems Manager<br />
+                                <strong>Marc Phillippi</strong>
+                                <br />
+                                ERP Systems Manager
+                                <br />
                                 BAE Systems / Ordnance Systems, Inc.
                             </p>
                         </div>

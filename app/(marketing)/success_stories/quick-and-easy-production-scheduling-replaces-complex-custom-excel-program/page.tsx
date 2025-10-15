@@ -48,9 +48,6 @@ export default function QuickSchedulingExcelReplacementPage() {
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-7xl">
                         <div className="prose prose-lg dark:prose-invert mx-auto">
-                            <h2 className="text-2xl font-bold text-gray-900 dark:text-white">
-                                Scheduling Multiple Departments with One Common System
-                            </h2>
                             <p className="text-gray-700 dark:text-gray-300">
                                 We were looking for a way to schedule three in-line departments
                                 and various machines. Scheduling was being completed by the
@@ -65,13 +62,21 @@ export default function QuickSchedulingExcelReplacementPage() {
                                 snap.
                             </p>
 
-                            <p className="font-semibold text-gray-700 dark:text-gray-300">
+                            <p className="text-gray-700 dark:text-gray-300">
                                 Tijuana, Mex. Fiber Optic Jumper Assembly Operation
                             </p>
 
-                            <h2 className="mt-8 text-2xl font-bold text-gray-900 dark:text-white">
-                                Replacing a Complex Custom Excel Program
-                            </h2>
+                            <div className="my-8 flex justify-center">
+                                <Image
+                                    src="https://www.usersolutions.com/wp-content/uploads/2022/07/EdgeSS-1024x544.png"
+                                    alt="Production scheduling software interface"
+                                    width={1024}
+                                    height={544}
+                                    className="h-auto rounded-lg shadow-md"
+                                    unoptimized
+                                />
+                            </div>
+
                             <p className="text-gray-700 dark:text-gray-300">
                                 "We used the same software in a traditional MRP / Scheduling
                                 sense to track raw material usage and final product output. This
@@ -83,47 +88,15 @@ export default function QuickSchedulingExcelReplacementPage() {
                                 usage in process".
                             </p>
 
-                            <blockquote className="my-6 border-l-4 border-green-500 pl-4 italic text-gray-700 dark:text-gray-300">
-                                "We found immediate improvement in both predicting output and
-                                tracking raw material usage in process. This replaced a complex
-                                employee written Excel program that was becoming very time
-                                consuming and difficult to maintain."
-                            </blockquote>
+                            <p className="text-gray-700 dark:text-gray-300">Brian Kendall</p>
 
-                            <p className="font-semibold text-gray-700 dark:text-gray-300">
-                                Brian Kendall, Industrial Engineer for Kyocera Industrial
-                                Ceramics
+                            <p className="text-gray-700 dark:text-gray-300">
+                                Industrial Engineer for Kyocera Industrial Ceramics.
                             </p>
-                            <p className="text-sm text-gray-600 dark:text-gray-400">
+
+                            <p className="text-gray-700 dark:text-gray-300">
                                 North Carolina Ceramics Production Facility
                             </p>
-
-                            <div className="mt-8 rounded-lg bg-green-50 p-6 dark:bg-gray-700">
-                                <h3 className="mb-3 text-xl font-semibold text-gray-900 dark:text-white">
-                                    Key Benefits Achieved
-                                </h3>
-                                <ul className="list-disc space-y-2 pl-6 text-gray-700 dark:text-gray-300">
-                                    <li>
-                                        Created one common computerized production schedule
-                                        understood by all departments
-                                    </li>
-                                    <li>
-                                        Implemented alternate routes for maximum flexibility across
-                                        departments
-                                    </li>
-                                    <li>Quick implementation using existing Excel data</li>
-                                    <li>
-                                        Replaced time-consuming custom Excel program that was
-                                        difficult to maintain
-                                    </li>
-                                    <li>Immediate improvement in predicting output</li>
-                                    <li>Better tracking of raw material usage in process</li>
-                                    <li>
-                                        Utilized previously entered Access Database data for quick
-                                        system launch
-                                    </li>
-                                </ul>
-                            </div>
                         </div>
                     </div>
                 </div>

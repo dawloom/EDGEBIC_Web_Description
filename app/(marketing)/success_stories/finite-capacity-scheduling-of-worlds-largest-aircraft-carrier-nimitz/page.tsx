@@ -57,6 +57,17 @@ export default function AircraftCarrierNimitzPage() {
                                 needs to be scheduled two years out.
                             </p>
 
+                            <div className="my-8 flex justify-center">
+                                <Image
+                                    src="https://www.usersolutions.com/wp-content/uploads/2022/07/USS-nimitz-main-image.jpg"
+                                    alt="USS Nimitz aircraft carrier"
+                                    width={800}
+                                    height={400}
+                                    className="h-auto rounded-lg shadow-md"
+                                    unoptimized
+                                />
+                            </div>
+
                             <h2 className="text-2xl font-bold text-gray-900 dark:text-white">
                                 The Challenge
                             </h2>
@@ -91,6 +102,48 @@ export default function AircraftCarrierNimitzPage() {
                                 at-sea schedules averaging 4 to 10 months.
                             </p>
 
+                            <p className="text-gray-700 dark:text-gray-300">
+                                The disparate systems provided the preventative maintenance
+                                tasks and resource requirements from one, the corrective
+                                maintenance tasks and resource requirements from another and
+                                materials requirements from yet a third. Chris was trying to
+                                schedule using 10 separate master Excel files. Microsoft Project
+                                was an excellent tool for his Gantt charting but he was doing
+                                far too much importing and exporting with so much disparate
+                                information. Attempts with other project management systems
+                                still left Chris without capacity considerations.
+                            </p>
+
+                            <p className="text-gray-700 dark:text-gray-300">
+                                Implementation was urgent so it would need to be easy and
+                                familiar enough for rapid adoption by some 400+ sailors and a
+                                non-proprietary software platform to avoid the required military
+                                quarantine and testing security process. With budget approvals
+                                as a possible impedance to rapid implementation, it was
+                                preferred a solution be found at the discretionary fund level,
+                                however, the added sophistication that was needed for finite
+                                capacity planning and level loading almost guaranteed that an
+                                impossibility.
+                            </p>
+
+                            <p className="text-gray-700 dark:text-gray-300">
+                                Although a solid and rather impressive scheduling system had
+                                been developed by the user out of Excel, it did not possess the
+                                sophistication of a finite capacity planning and scheduling or
+                                load leveling system.
+                            </p>
+
+                            <div className="my-8 flex justify-center">
+                                <Image
+                                    src="https://www.usersolutions.com/wp-content/uploads/2022/07/AirCraftMaint.jpg"
+                                    alt="Aircraft carrier maintenance operations"
+                                    width={600}
+                                    height={400}
+                                    className="h-auto rounded-lg shadow-md"
+                                    unoptimized
+                                />
+                            </div>
+
                             <h2 className="text-2xl font-bold text-gray-900 dark:text-white">
                                 The Solution
                             </h2>
@@ -113,6 +166,39 @@ export default function AircraftCarrierNimitzPage() {
                                 cumbersome and rigid systems, RMX has preserved all the
                                 integration options, flexibility and analysis that are inherent
                                 in Excel, not to mention the famously rapid calculation speeds.
+                            </p>
+
+                            <p className="text-gray-700 dark:text-gray-300">
+                                The new expanded version of RMX, v2014, which leverages the
+                                expanded version of Excel 2013, supporting 1,000,000 rows of
+                                data and 16k columns per sheet, along with unlimited sheets, was
+                                perfectly positioned to accommodate the Nimitz's needs.
+                            </p>
+
+                            <p className="text-gray-700 dark:text-gray-300">
+                                "RMX is one of the fastest, if not the fastest, finite capacity
+                                scheduler combined with materials requirements planning (MRPII)
+                                due to its leveraging the speed with which Excel performs
+                                mathematical calculations," states Jim Convis, Product Manager
+                                for User Solutions. "With the new expansion, in addition to our
+                                handling small companies with no other production systems in
+                                place, RMX is now an ideal complement for traditional ERP
+                                systems at larger companies looking to drill down to fully
+                                optimize their production scheduling."
+                            </p>
+
+                            <p className="text-gray-700 dark:text-gray-300">
+                                Chris funnels the data from the disparate systems into a
+                                Bill-of-Resource (BOR) in RMX. RMX is designed to adapt to
+                                whatever data the user has, which means in this case, Chris
+                                needs only to input that BOR and the BOR backfills the master
+                                operations/workcenter list, master product list, the production
+                                calendar, resource calendar, forecast calendar and the vendor
+                                list. Typical ERP systems require the user to start from a
+                                product list from which a Bill-of-Material (BOM) is built and a
+                                workcenter list from which a routing needs to be created. RMX's
+                                backfill feature is a major contributor to not only fast
+                                implementation, but also minimal on-going system upkeep.
                             </p>
                         </div>
                     </div>

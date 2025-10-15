@@ -47,11 +47,8 @@ export default function AffordableEasyMRPPage() {
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-7xl">
                         <div className="prose prose-lg dark:prose-invert mx-auto">
-                            <h2 className="text-2xl font-bold text-gray-900 dark:text-white">
-                                The Challenge
-                            </h2>
                             <p className="text-gray-700 dark:text-gray-300">
-                                Our situation is that we are a relatively small organization
+                                1. Our situation is that we are a relatively small organization
                                 (AUD$50M of sales) and we have an outdated MRP system. The
                                 current system in Australia has no effective scheduling ability
                                 and is very cumbersome to use for product costings. We are also
@@ -65,44 +62,46 @@ export default function AffordableEasyMRPPage() {
                                 The problems we wanted to solve were therefore:
                             </p>
 
-                            <ul className="list-disc pl-6 text-gray-700 dark:text-gray-300">
-                                <li>
-                                    Provide a scheduling system that allows quick changes in a
-                                    very dynamic demand situation.
-                                </li>
-                                <li>Provide a quick and easy costing system for products.</li>
-                                <li>
-                                    Provide a quick and easy system for materials requirements
-                                    planning.
-                                </li>
-                                <li>
-                                    Enable BOMs and routes to be quickly and easily built "on the
-                                    run"
-                                </li>
-                            </ul>
-
-                            <h2 className="text-2xl font-bold text-gray-900 dark:text-white">
-                                Why Resource Manager Was Chosen
-                            </h2>
                             <p className="text-gray-700 dark:text-gray-300">
-                                Resource Manager was chosen because:
+                                • Provide a scheduling system that allows quick changes in a
+                                very dynamic demand situation.
+                                <br />
+                                • Provide a quick and easy costing system for products.
+                                <br />
+                                • Provide a quick and easy system for materials requirements
+                                planning.
+                                <br />• Enable BOMs and routes to be quickly and easily built
+                                "on the run"
                             </p>
 
-                            <ul className="list-disc pl-6 text-gray-700 dark:text-gray-300">
-                                <li>It is very easy and intuitive to use</li>
-                                <li>
-                                    It can be used in sections within days, without having the
-                                    whole system implementation required. ie. the materials
-                                    planning was done first, then the costings, then the
-                                    scheduling
-                                </li>
-                                <li>It is low cost</li>
-                                <li>It is easily configurable/flexible</li>
-                                <li>
-                                    Good support is offered via Skype, phone and GoToMeeting, with
-                                    fast turnaround to resolve issues
-                                </li>
-                            </ul>
+                            <div className="my-8 flex justify-center">
+                                <Image
+                                    src="https://www.usersolutions.com/wp-content/uploads/2022/07/MRP-XLS-RPT.png"
+                                    alt="MRP Excel reporting interface"
+                                    width={600}
+                                    height={400}
+                                    className="h-auto rounded-lg shadow-md"
+                                    unoptimized
+                                />
+                            </div>
+
+                            <p className="text-gray-700 dark:text-gray-300">
+                                2. Resource Manager was chosen because:
+                            </p>
+
+                            <p className="text-gray-700 dark:text-gray-300">
+                                • It is very easy and intuitive to use
+                                <br />
+                                • It can be used in sections within days, without having the
+                                whole system implementation required. ie. the materials planning
+                                was done first, then the costings, then the scheduling
+                                <br />
+                                • It is low cost
+                                <br />
+                                • It is easily configurable/flexible
+                                <br />• Good support is offered via Skype, phone and
+                                GoToMeeting, with fast turnaround to resolve issues
+                            </p>
 
                             <p className="text-gray-700 dark:text-gray-300">
                                 The biggest benefit relative to other systems looked at is its
@@ -116,28 +115,19 @@ export default function AffordableEasyMRPPage() {
                                 our Chinese plant.
                             </p>
 
-                            <h2 className="text-2xl font-bold text-gray-900 dark:text-white">
-                                Comparison with Other Systems
-                            </h2>
                             <p className="text-gray-700 dark:text-gray-300">
-                                We considered a number of other systems both local and global.
-                                Most are far more expensive and comprehensive (eg. accounting
-                                capability) but all require much higher cost and are much more
-                                resource hungry to set up. RMDB required one individual very
-                                much part time (me) to set up on the critical areas for China
-                                and is now being run by a young Chinese manager who had no
-                                manufacturing experience, but has picked up the concepts well.
-                                In that sense it is also a very good MRP training tool also.
+                                3. We considered a number of other systems both local and
+                                global. Most are far more expensive and comprehensive (eg.
+                                accounting capability) but all require much higher cost and are
+                                much more resource hungry to set up. RMDB required one
+                                individual very much part time (me) to set up on the critical
+                                areas for China and is now being run by a young Chinese manager
+                                who had no manufacturing experience, but has picked up the
+                                concepts well. In that sense it is also a very good MRP training
+                                tool also.
                             </p>
 
-                            <blockquote className="border-l-4 border-blue-500 pl-4 italic text-gray-700 dark:text-gray-300">
-                                "RMDB required one individual very much part time to set up and
-                                is now being run by a young Chinese manager who had no
-                                manufacturing experience. It is also a very good MRP training
-                                tool."
-                            </blockquote>
-
-                            <p className="font-semibold text-gray-700 dark:text-gray-300">
+                            <p className="text-gray-700 dark:text-gray-300">
                                 Jim Steel, Operations Manager for Sleepmaster, LTD
                             </p>
                         </div>

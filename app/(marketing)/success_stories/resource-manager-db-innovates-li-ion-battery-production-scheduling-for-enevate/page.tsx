@@ -71,6 +71,17 @@ export default function EnevatePage() {
                                 provide a greater level of flexibility.
                             </p>
 
+                            <div className="my-8 flex justify-center">
+                                <Image
+                                    src="https://www.usersolutions.com/wp-content/uploads/2022/07/Manufacturing_Excel_Dashboard-1024x376-1.png"
+                                    alt="Manufacturing Excel Dashboard"
+                                    width={1024}
+                                    height={376}
+                                    className="h-auto rounded-lg shadow-md"
+                                    unoptimized
+                                />
+                            </div>
+
                             <h2 className="text-2xl font-bold text-gray-900 dark:text-white">
                                 Supply Chain Manager Empowerment
                             </h2>

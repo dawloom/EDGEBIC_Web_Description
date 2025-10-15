@@ -60,22 +60,21 @@ export default function JobShopThroughputPage() {
                                 having all their core systems on SQL Server.
                             </p>
 
-                            <blockquote className="border-l-4 border-purple-600 pl-4 italic">
-                                <p className="text-gray-700 dark:text-gray-300">
-                                    "It's very refreshing to work with a vendor like User
-                                    Solutions who seems to be able to easily adapt to whatever
-                                    unique and specific needs we run into. Some days it is a
-                                    simple new report request to better manage our production
-                                    resources. Other days, it is to blend the current systems into
-                                    our strategic corporate direction for Information technology
-                                    platforms. In all cases, they seem to always answer 'yes, we
-                                    can do that'."
-                                </p>
-                                <footer className="mt-2 text-sm font-medium text-gray-900 dark:text-white">
-                                    - Scott McNeil, Master Production Scheduler, Technical Glass
-                                    Products
-                                </footer>
-                            </blockquote>
+                            <p className="text-gray-700 dark:text-gray-300">
+                                According to Scott McNeil, Master Production Scheduler for
+                                Technical Glass, "It's very refreshing to work with a vendor
+                                like User Solutions who seems to be able to easily adapt to
+                                whatever unique and specific needs we run into. Some days it is
+                                a simple new report request to better manage our production
+                                resources. Other days, it is to blend the current systems into
+                                our strategic corporate direction for Information technology
+                                platforms. In all cases, they seem to always answer 'yes, we can
+                                do that'. Resource Manager DB and User Solutions are great
+                                assets in empowering Technical Glass to deliver world class
+                                products, on time and under budget, over and over again. We
+                                consider it one of our key competitive strengths in growing our
+                                market share."
+                            </p>
 
                             <p className="text-gray-700 dark:text-gray-300">
                                 Technical Glass Products (TGP) has been using RMDB for years for
@@ -83,8 +82,26 @@ export default function JobShopThroughputPage() {
                                 because of how it could quickly adapt to their operational flow
                                 as well as its ability to integrate with their in-house systems.
                                 This facilitated a rapid implementation time along with all
-                                users quickly embracing the system.
+                                users quickly embracing the system. Recently, TGP noticed that
+                                their standards for task durations and resulting workcenter
+                                skill balancing had changed over time. They reached out to User
+                                Solutions to see how RMDB could be configured to include
+                                blending in new time studies, new product profiles, along with
+                                fluctuating workcenter capacities from a point in time moving
+                                forward, all the while preserving the actual tracking of
+                                schedule to date for historical analysis.
                             </p>
+
+                            <div className="my-8 flex justify-center">
+                                <Image
+                                    src="https://www.usersolutions.com/wp-content/uploads/2022/07/TGP-1024x489.png"
+                                    alt="Technical Glass Products production scheduling"
+                                    width={1024}
+                                    height={489}
+                                    className="h-auto rounded-lg shadow-md"
+                                    unoptimized
+                                />
+                            </div>
 
                             <p className="text-gray-700 dark:text-gray-300">
                                 Leveraging RMDB's flexible configuration toolset, within only a
@@ -100,6 +117,17 @@ export default function JobShopThroughputPage() {
                                 customer service standard.
                             </p>
 
+                            <div className="my-8 flex justify-center">
+                                <Image
+                                    src="https://www.usersolutions.com/wp-content/uploads/2022/07/TGPPie.jpg"
+                                    alt="Technical Glass Products efficiency pie chart"
+                                    width={600}
+                                    height={400}
+                                    className="h-auto rounded-lg shadow-md"
+                                    unoptimized
+                                />
+                            </div>
+
                             <blockquote className="border-l-4 border-purple-600 pl-4 italic">
                                 <p className="text-gray-700 dark:text-gray-300">
                                     "The Resource Manager-DB solution has once again exceeded our
@@ -107,7 +135,12 @@ export default function JobShopThroughputPage() {
                                     days of remote guidance from User Solutions, we greatly
                                     expanded RMDB's functionality to include defining
                                     cross-training initiatives and incorporate those results in a
-                                    new production scheduling model that increased efficiencies."
+                                    new production scheduling model that increased efficiencies.
+                                    The result was our substantially increasing production
+                                    capacity with existing resources. RMDB, along with our
+                                    cross-trained workforce gives us a competitive advantage to
+                                    quickly respond to new market conditions and business
+                                    fluctuations without incurring additional expense."
                                 </p>
                                 <footer className="mt-2 text-sm font-medium text-gray-900 dark:text-white">
                                     - Scott McNeill, Production Scheduler, Technical Glass

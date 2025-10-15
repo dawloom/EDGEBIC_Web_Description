@@ -57,6 +57,17 @@ export default function ComplementsTraditionalMrpPage() {
                                 the current system".
                             </p>
 
+                            <div className="my-8 flex justify-center">
+                                <Image
+                                    src="https://www.usersolutions.com/wp-content/uploads/2022/07/RMX.png"
+                                    alt="Resource Manager RMX"
+                                    width={600}
+                                    height={400}
+                                    className="h-auto rounded-lg shadow-md"
+                                    unoptimized
+                                />
+                            </div>
+
                             <p className="text-gray-700 dark:text-gray-300">
                                 Mr. Quesenberry continues, "In addition to complementing
                                 traditional systems, the Resource Manager is the perfect
