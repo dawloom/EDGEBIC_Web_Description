@@ -192,7 +192,7 @@ export default function StudentsPage(): React.JSX.Element {
             </GridSection>
 
             {/* Summary Section */}
-            <section className="bg-slate-50 py-16 dark:bg-slate-900">
+            <section className="bg-slate-50 py-6 dark:bg-slate-900">
                 <div className="container mx-auto max-w-7xl px-4">
                     <div className="mb-12 text-center">
                         <h2 className="mb-4 text-3xl font-bold md:text-4xl">
@@ -256,7 +256,7 @@ export default function StudentsPage(): React.JSX.Element {
             </section>
 
             {/* Features Section */}
-            <section className="py-16">
+            <section className="py-6">
                 <div className="container mx-auto max-w-7xl px-4">
                     <div className="mb-12 text-center">
                         <h2 className="mb-4 text-3xl font-bold md:text-4xl">Features</h2>
@@ -286,7 +286,7 @@ export default function StudentsPage(): React.JSX.Element {
             </section>
 
             {/* Student Resources Section */}
-            <section className="bg-slate-50 py-16 dark:bg-slate-900">
+            <section className="bg-slate-50 py-6 dark:bg-slate-900">
                 <div className="container mx-auto max-w-7xl px-4">
                     <div className="mb-12 text-center">
                         <h2 className="mb-4 text-3xl font-bold md:text-4xl">
@@ -337,7 +337,7 @@ export default function StudentsPage(): React.JSX.Element {
             </section>
 
             {/* Benefits Section */}
-            <section className="py-16">
+            <section className="py-6">
                 <div className="container mx-auto max-w-7xl px-4">
                     <div className="mb-12 text-center">
                         <h2 className="mb-4 text-3xl font-bold md:text-4xl">
@@ -368,7 +368,7 @@ export default function StudentsPage(): React.JSX.Element {
             </section>
 
             {/* Overview Section */}
-            <section className="bg-slate-50 py-16 dark:bg-slate-900">
+            <section className="bg-slate-50 py-6 dark:bg-slate-900">
                 <div className="container mx-auto max-w-7xl px-4">
                     <div className="mb-12 text-center">
                         <h2 className="mb-4 text-3xl font-bold md:text-4xl">Overview</h2>
@@ -425,7 +425,7 @@ export default function StudentsPage(): React.JSX.Element {
             </section>
 
             {/* Student Trial Section */}
-            <section className="py-16">
+            <section className="py-6">
                 <div className="container mx-auto max-w-7xl px-4 text-center">
                     <div className="rounded-2xl border bg-slate-50 p-8 dark:bg-slate-800">
                         <h2 className="mb-4 text-3xl font-bold">Ready to Get Started?</h2>
@@ -470,7 +470,7 @@ export default function StudentsPage(): React.JSX.Element {
             </section>
 
             {/* Awards Section */}
-            <section className="bg-slate-50 py-16 dark:bg-slate-900">
+            <section className="bg-slate-50 py-6 dark:bg-slate-900">
                 <div className="container mx-auto max-w-7xl px-4">
                     <div className="text-center">
                         <div className="mb-8 flex items-center justify-center gap-2">

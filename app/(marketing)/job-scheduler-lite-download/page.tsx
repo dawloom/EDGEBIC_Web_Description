@@ -9,7 +9,7 @@ export default function JobSchedulerLiteDownloadPage() {
     return (
         <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
             {/* Hero Section */}
-            <section className="bg-gradient-to-r from-blue-600 to-blue-800 py-16 text-white">
+            <section className="bg-gradient-to-r from-blue-600 to-blue-800 py-6 text-white">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-7xl text-center">
                         <h1 className="mb-6 text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">

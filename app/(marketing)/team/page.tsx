@@ -5,7 +5,7 @@ export default function TeamPage() {
     return (
         <div className="min-h-screen bg-white">
             {/* Header */}
-            <div className="bg-blue-600 py-16 text-white">
+            <div className="bg-blue-600 py-6 text-white">
                 <div className="container mx-auto px-4">
                     <h1 className="mb-4 text-center text-4xl font-bold">Teams</h1>
                     <p className="text-center text-xl">
@@ -16,7 +16,7 @@ export default function TeamPage() {
             </div>
 
             {/* Team Leaders Section */}
-            <div className="container mx-auto px-4 py-16">
+            <div className="container mx-auto px-4 py-6">
                 <h2 className="mb-12 text-center text-3xl font-bold text-gray-800">
                     TEAM LEADERS (PRODUCT SUPPORT AND SALES)
                 </h2>
@@ -181,7 +181,7 @@ export default function TeamPage() {
             </div>
 
             {/* Awards Section */}
-            <div className="bg-gray-100 py-16">
+            <div className="bg-gray-100 py-6">
                 <div className="container mx-auto px-4 text-center">
                     <h2 className="mb-8 text-3xl font-bold text-gray-800">
                         CELEBRATING 25 YEARS OF AWARD WINNING SOFTWARE!

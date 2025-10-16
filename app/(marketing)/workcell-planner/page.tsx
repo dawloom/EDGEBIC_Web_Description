@@ -102,6 +102,30 @@ export default function WorkcellPlannerPage() {
                                         configuration.
                                     </li>
                                 </ul>
+
+                                <div className="my-6 flex justify-center">
+                                    <img
+                                        src="https://www.usersolutions.com/wp-content/uploads/2022/09/WCP-Menu.png"
+                                        alt="Screenshot of Workcell Planner software with tables and data"
+                                        className="h-auto max-w-full rounded-lg shadow-lg"
+                                    />
+                                </div>
+
+                                <div className="my-6 flex justify-center">
+                                    <img
+                                        src="https://www.usersolutions.com/wp-content/uploads/2022/09/WCP-Bar4.png"
+                                        alt="Bar chart showing shifts required for manufacturing processes"
+                                        className="h-auto max-w-full rounded-lg shadow-lg"
+                                    />
+                                </div>
+
+                                <div className="my-6 flex justify-center">
+                                    <img
+                                        src="https://www.usersolutions.com/wp-content/uploads/2022/09/WCP-Bar5.png"
+                                        alt="Bar chart comparing current and required staffing levels"
+                                        className="h-auto max-w-full rounded-lg shadow-lg"
+                                    />
+                                </div>
                             </CardContent>
                         </Card>
                     </div>

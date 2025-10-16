@@ -9,7 +9,7 @@ export default function ThankYouWorkCenterSchedulerXLPage() {
     return (
         <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
             {/* Hero Section with Thank You Image */}
-            <section className="bg-gradient-to-r from-blue-600 to-blue-800 py-16 text-white">
+            <section className="bg-gradient-to-r from-blue-600 to-blue-800 py-6 text-white">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-7xl">
                         <img

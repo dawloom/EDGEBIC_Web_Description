@@ -5,14 +5,14 @@ export default function CheckoutPage() {
     return (
         <div className="min-h-screen bg-gray-50">
             {/* Header */}
-            <div className="bg-blue-600 py-16 text-white">
+            <div className="bg-blue-600 py-6 text-white">
                 <div className="container mx-auto px-4">
                     <h1 className="text-center text-4xl font-bold">Checkout</h1>
                 </div>
             </div>
 
             {/* Checkout Content */}
-            <div className="container mx-auto px-4 py-16">
+            <div className="container mx-auto px-4 py-6">
                 <div className="mx-auto max-w-7xl">
                     <div className="grid gap-12 lg:grid-cols-2">
                         {/* Order Form */}

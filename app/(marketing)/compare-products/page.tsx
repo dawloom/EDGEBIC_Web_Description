@@ -153,7 +153,7 @@ export default function CompareProductsPage(): React.JSX.Element {
             </GridSection>
 
             {/* Product Comparison Table */}
-            <section className="py-16">
+            <section className="py-6">
                 <div className="container mx-auto max-w-7xl px-4">
                     <div className="mb-12 text-center">
                         <h2 className="mb-4 text-3xl font-bold md:text-4xl">
@@ -244,7 +244,7 @@ export default function CompareProductsPage(): React.JSX.Element {
             </section>
 
             {/* Customer Testimonials */}
-            <section className="bg-slate-50 py-16 dark:bg-slate-900">
+            <section className="bg-slate-50 py-6 dark:bg-slate-900">
                 <div className="container mx-auto max-w-7xl px-4">
                     <div className="mb-12 text-center">
                         <h2 className="mb-4 text-3xl font-bold md:text-4xl">
@@ -294,7 +294,7 @@ export default function CompareProductsPage(): React.JSX.Element {
             </section>
 
             {/* Call to Action */}
-            <section className="py-16">
+            <section className="py-6">
                 <div className="container mx-auto max-w-7xl px-4 text-center">
                     <div className="rounded-2xl border bg-slate-50 p-8 dark:bg-slate-800">
                         <h2 className="mb-4 text-3xl font-bold">Ready to Get Started?</h2>

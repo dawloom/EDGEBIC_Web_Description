@@ -4,40 +4,19 @@ import * as React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import {
-  Activity,
-  ArrowRight,
   ArrowUpDown,
-  Award,
   BarChart3,
   Calendar,
-  CheckCircle,
-  Clock,
-  Cpu,
   Database,
-  DollarSign,
-  ExternalLink,
   Eye,
-  FileText,
-  Filter,
-  Layers,
   LineChart,
-  Mail,
   MapPin,
   Maximize2,
   MousePointer,
-  Network,
   Phone,
-  PieChart,
-  Play,
   RefreshCw,
   Settings,
-  Shield,
-  Star,
-  Target,
-  TrendingUp,
-  Users,
-  Wrench,
-  Zap
+  Shield
 } from 'lucide-react';
 
 import { GridSection } from '@/components/marketing/fragments/grid-section';
@@ -239,7 +218,7 @@ export default function EDGEBIPage(): React.JSX.Element {
       {/* Overview Section */}
       <section
         id="summary"
-        className="bg-slate-50 py-16 dark:bg-slate-900"
+        className="bg-slate-50 py-6 dark:bg-slate-900"
       >
         <div className="container mx-auto max-w-7xl px-4">
           <div className="mb-12 text-center">
@@ -368,7 +347,7 @@ export default function EDGEBIPage(): React.JSX.Element {
       </section>
 
       {/* Features Section */}
-      <section className="py-16">
+      <section className="py-6">
         <div className="container mx-auto max-w-7xl px-4">
           <div className="mb-12 text-center">
             <h2 className="mb-4 text-3xl font-bold md:text-4xl">
@@ -400,7 +379,7 @@ export default function EDGEBIPage(): React.JSX.Element {
       </section>
 
       {/* Capabilities Section */}
-      <section className="bg-slate-50 py-16 dark:bg-slate-900">
+      <section className="bg-slate-50 py-6 dark:bg-slate-900">
         <div className="container mx-auto max-w-7xl px-4">
           <div className="text-center">
             <h2 className="mb-8 text-3xl font-bold md:text-4xl">
@@ -454,22 +433,21 @@ export default function EDGEBIPage(): React.JSX.Element {
       </section>
 
       {/* Awards Section */}
-      <section className="py-6">
-        <div className="container mx-auto max-w-7xl px-4">
-          <div className="text-center">
-            <div className="mb-8 flex items-center justify-center gap-2">
-              <Award className="size-8 text-purple-500" />
-              <h2 className="text-3xl font-bold md:text-4xl">
+      <section className="pb-6">
+        <div className="container mx-auto px-4">
+          <div className="mx-auto max-w-7xl">
+            <div className="rounded-xl bg-gradient-to-br from-blue-50 to-blue-100 p-8 text-center dark:from-blue-900/20 dark:to-blue-800/20">
+              <h3 className="mb-6 text-2xl font-bold text-slate-900 dark:text-white">
                 CELEBRATING 25 YEARS OF AWARD WINNING SOFTWARE!
-              </h2>
+              </h3>
+              <Image
+                src="https://www.usersolutions.com/wp-content/uploads/2022/07/banner-logoso-sm-58c9a28d237d6-1024x128.jpg"
+                alt="Collection of industry and business awards logos"
+                width={1024}
+                height={128}
+                className="mx-auto h-auto max-w-full"
+              />
             </div>
-            <Image
-              src="https://www.usersolutions.com/wp-content/uploads/2022/07/banner-logoso-sm-58c9a28d237d6-1024x128.jpg"
-              alt="Collection of industry and business awards logos"
-              width={1024}
-              height={128}
-              className="mx-auto rounded-lg"
-            />
           </div>
         </div>
       </section>

@@ -13,7 +13,7 @@ export default function ThankYouDownloadResourceManagerPage() {
     return (
         <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800">
             {/* Hero Section */}
-            <section className="bg-gradient-to-r from-green-600 to-green-800 py-16 text-white dark:from-green-800 dark:to-green-900">
+            <section className="bg-gradient-to-r from-green-600 to-green-800 py-6 text-white dark:from-green-800 dark:to-green-900">
                 <div className="container mx-auto px-4 text-center">
                     <div className="mx-auto max-w-7xl">
                         <div className="mb-6 flex justify-center">

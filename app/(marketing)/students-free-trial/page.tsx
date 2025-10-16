@@ -7,7 +7,7 @@ export default function StudentsFreeTrialPage() {
     return (
         <div className="min-h-screen">
             {/* Hero Section */}
-            <section className="bg-gradient-to-br from-blue-50 via-white to-green-50 py-16">
+            <section className="bg-gradient-to-br from-blue-50 via-white to-green-50 py-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-7xl text-center">
                         <h1 className="mb-6 bg-gradient-to-r from-blue-600 to-green-600 bg-clip-text text-4xl font-bold text-transparent md:text-5xl">

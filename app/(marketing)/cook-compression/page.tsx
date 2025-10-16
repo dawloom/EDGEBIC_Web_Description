@@ -56,7 +56,7 @@ export default function CookCompressionPage(): React.JSX.Element {
       </GridSection>
 
       {/* Customer Testimonial */}
-      <section className="py-16">
+      <section className="py-6">
         <div className="container mx-auto max-w-7xl px-4">
           {/* Main Testimonial */}
           <Card className="mb-12 bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20">
