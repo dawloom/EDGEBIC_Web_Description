@@ -66,7 +66,7 @@ export default function ConsultingProjectsSchedulingPage() {
                 Solutions' Workcenter Scheduler XL provided that solution".
               </p>
 
-              <div className="my-8 flex justify-center">
+              <div className="my-6 flex justify-center">
                 <Image
                   src="https://www.usersolutions.com/wp-content/uploads/2022/07/wCXL-1024x342.png"
                   alt="Workcenter Scheduler XL interface"

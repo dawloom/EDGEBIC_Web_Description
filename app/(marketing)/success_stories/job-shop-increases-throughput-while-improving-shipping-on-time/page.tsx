@@ -92,7 +92,7 @@ export default function JobShopThroughputPage() {
                                 schedule to date for historical analysis.
                             </p>
 
-                            <div className="my-8 flex justify-center">
+                            <div className="my-6 flex justify-center">
                                 <Image
                                     src="https://www.usersolutions.com/wp-content/uploads/2022/07/TGP-1024x489.png"
                                     alt="Technical Glass Products production scheduling"
@@ -117,7 +117,7 @@ export default function JobShopThroughputPage() {
                                 customer service standard.
                             </p>
 
-                            <div className="my-8 flex justify-center">
+                            <div className="my-6 flex justify-center">
                                 <Image
                                     src="https://www.usersolutions.com/wp-content/uploads/2022/07/TGPPie.jpg"
                                     alt="Technical Glass Products efficiency pie chart"

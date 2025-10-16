@@ -270,7 +270,7 @@ export default function CheckoutPage() {
                     </div>
 
                     {/* Help Section */}
-                    <div className="mt-12 text-center">
+                    <div className="mt-6 text-center">
                         <h3 className="mb-4 text-lg font-semibold text-gray-800">
                             Need Help?
                         </h3>
@@ -295,7 +295,7 @@ export default function CheckoutPage() {
                 </div>
             </div>
 
-         
+
         </div>
     );
 }

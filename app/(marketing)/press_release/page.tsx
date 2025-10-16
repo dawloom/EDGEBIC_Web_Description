@@ -137,37 +137,6 @@ export default function PressReleasePage() {
                     </div>
                 </div>
             </div>
-
-            {/* Contact Section */}
-            <div className="bg-blue-600 py-12 text-white">
-                <div className="container mx-auto px-4 text-center">
-                    <h2 className="mb-4 text-2xl font-bold">ABOUT US</h2>
-                        <p className="mb-2">us@usersolutions.com</p>
-                        <p className="mb-6">248.486.6365</p>
-
-                        <h3 className="mb-4 text-xl font-bold">PRODUCTS</h3>
-                        <div className="space-y-2">
-                            <Link
-                                href="/jsl-job-scheduler-lite"
-                                className="block hover:underline"
-                            >
-                                Job Scheduler Lite (JSL)
-                            </Link>
-                            <Link
-                                href="/resource-manager-db-2"
-                                className="block hover:underline"
-                            >
-                                Resource Manager DB
-                            </Link>
-                    <Link
-                        href="/edgebi"
-                        className="block hover:underline"
-                    >
-                        EDGEBI
-                    </Link>
-                </div>
-            </div>
         </div>
-    </div>
-);
+    );
 }

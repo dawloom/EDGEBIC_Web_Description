@@ -43,7 +43,7 @@ function HeroAnimation(): React.JSX.Element {
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.6, duration: 0.6 }}
-      className="relative mx-auto mt-12 max-w-4xl"
+      className="relative mx-auto mt-6 max-w-4xl"
     >
       <div className="rounded-2xl border bg-gradient-to-br from-slate-50 to-slate-100 p-8 shadow-2xl dark:from-slate-900 dark:to-slate-800">
         <div className="grid grid-cols-1 gap-6 md:grid-cols-3">

@@ -117,7 +117,7 @@ export default function ResourceManagerExcelInDepthPage() {
                 </p>
               </div>
 
-              <div className="my-8 flex justify-center">
+              <div className="my-6 flex justify-center">
                 <img
                   src="https://www.usersolutions.com/wp-content/uploads/2022/10/rmusman.gif"
                   alt="Delivery worker pushing a hand truck with boxes"

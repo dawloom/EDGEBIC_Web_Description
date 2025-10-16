@@ -401,7 +401,7 @@ export function NTClipboardVideo({
               </div>
 
               {/* Product Features */}
-              <div className="mt-12 grid grid-cols-1 gap-6 text-left md:grid-cols-3">
+              <div className="mt-6 grid grid-cols-1 gap-6 text-left md:grid-cols-3">
                 <div className="rounded-xl bg-white p-6 shadow-lg dark:bg-slate-800">
                   <h3 className="mb-2 text-lg font-semibold">
                     Production Scheduling

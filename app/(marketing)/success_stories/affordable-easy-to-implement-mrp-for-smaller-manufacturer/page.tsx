@@ -74,7 +74,7 @@ export default function AffordableEasyMRPPage() {
                                 "on the run"
                             </p>
 
-                            <div className="my-8 flex justify-center">
+                            <div className="my-6 flex justify-center">
                                 <Image
                                     src="https://www.usersolutions.com/wp-content/uploads/2022/07/MRP-XLS-RPT.png"
                                     alt="MRP Excel reporting interface"

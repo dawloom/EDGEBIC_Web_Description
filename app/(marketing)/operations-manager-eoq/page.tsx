@@ -69,7 +69,7 @@ export default function EoqPage(): React.JSX.Element {
                                     those costs that vary with the quantity purchased at one time.
                                 </p>
 
-                                <div className="my-8 flex justify-center">
+                                <div className="my-6 flex justify-center">
                                     <Image
                                         src="https://www.usersolutions.com/wp-content/uploads/2022/11/eoq.png"
                                         alt="Spreadsheet showing economic order quantity calculations"

@@ -60,7 +60,7 @@ export default function SchedulingLaborPage() {
                                 stop-gap solution for these areas."
                             </p>
 
-                            <div className="my-8 flex justify-center">
+                            <div className="my-6 flex justify-center">
                                 <Image
                                     src="https://www.usersolutions.com/wp-content/uploads/2022/07/main-banner-300x193-1.jpg"
                                     alt="Cummins Engine facility"
@@ -97,7 +97,7 @@ export default function SchedulingLaborPage() {
                                 happen."
                             </p>
 
-                            <div className="my-8 flex justify-center">
+                            <div className="my-6 flex justify-center">
                                 <Image
                                     src="https://www.usersolutions.com/wp-content/uploads/2022/07/SkillsBarWeek-300x169-2.png"
                                     alt="Skills Bar Week scheduling chart"

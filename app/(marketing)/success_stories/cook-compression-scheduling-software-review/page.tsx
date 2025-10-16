@@ -60,7 +60,7 @@ export default function CookCompressionReviewPage() {
                                 Cook Compression
                             </h2>
 
-                            <div className="my-8 rounded-lg bg-amber-50 p-8 dark:bg-gray-700">
+                            <div className="my-6 rounded-lg bg-amber-50 p-8 dark:bg-gray-700">
                                 <p className="text-lg text-gray-700 dark:text-gray-300">
                                     I feel thankful. For cause, I am dubious when dealing with
                                     enterprises and guarantees by long distance; more so when
@@ -75,7 +75,7 @@ export default function CookCompressionReviewPage() {
                                     Your software reflects this.
                                 </p>
 
-                                <blockquote className="my-8 border-l-4 border-amber-500 pl-6 text-xl italic text-gray-700 dark:text-gray-300">
+                                <blockquote className="my-6 border-l-4 border-amber-500 pl-6 text-xl italic text-gray-700 dark:text-gray-300">
                                     "Your premier product is in support and service. Your software
                                     reflects this."
                                 </blockquote>

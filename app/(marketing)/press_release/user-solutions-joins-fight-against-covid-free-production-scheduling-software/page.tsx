@@ -1,35 +1,41 @@
 import Link from 'next/link';
 
+import { Badge } from '@/components/ui/badge';
 import { Card, CardContent } from '@/components/ui/card';
 
 export default function CovidPressReleasePage() {
     return (
-        <div className="min-h-screen bg-white">
+        <div className="min-h-screen">
             {/* Header */}
-            <div className="bg-blue-600 py-6 text-white">
+            <div className="bg-gradient-to-r from-blue-600 to-blue-800 py-12 text-white">
                 <div className="container mx-auto px-4">
-                    <h1 className="text-center text-4xl font-bold">Press Release</h1>
+                    <div className="mx-auto max-w-7xl text-center">
+                        <Badge
+                            variant="outline"
+                            className="mb-4 h-8 rounded-full border-white/30 bg-white/10 px-3 text-sm font-medium text-white shadow-sm hover:bg-white/20"
+                        >
+                            Press Release
+                        </Badge>
+                        <h1 className="mb-4 text-4xl font-bold tracking-tight sm:text-5xl">
+                            User Solutions Joins Fight Against Covid – Free Production
+                            Scheduling Software
+                        </h1>
+                        <p className="text-xl text-white/90">April 7, 2020</p>
+                    </div>
                 </div>
             </div>
 
             {/* Press Release Content */}
-            <div className="container mx-auto px-4 py-6">
-                <div className="mx-auto max-w-7xl">
+            <div className="container mx-auto px-4 pt-6">
+                <div className="mx-auto max-w-4xl">
                     <article className="prose prose-lg max-w-none">
                         <header className="mb-12">
-                            <h1 className="mb-4 text-4xl font-bold text-gray-900">
-                                User Solutions Joins Fight Against Covid – Free Production
-                                Scheduling Software
-                            </h1>
-                            <div className="mb-6 text-gray-600">
-                                <time>4/7/2020</time>
-                            </div>
-                            <p className="text-lg font-semibold text-gray-700">
-                                South Lyon, MI April 7, 2020
+                            <p className="text-lg font-semibold text-gray-700 dark:text-gray-300">
+                                South Lyon, MI - April 7, 2020
                             </p>
                         </header>
 
-                        <div className="space-y-6 leading-relaxed text-gray-700">
+                        <div className="space-y-6 leading-relaxed text-gray-700 dark:text-gray-300">
                             <p>
                                 User Solutions, a producer of production scheduling software
                                 systems, announces it will offer Resource Manager for Excel
@@ -51,13 +57,13 @@ export default function CovidPressReleasePage() {
                                 situation and then reverting it all back.
                             </p>
 
-                            <blockquote className="my-6 border-l-4 border-blue-600 bg-blue-50 p-6">
-                                <p className="mb-4 text-lg italic">
+                            <blockquote className="my-6 border-l-4 border-blue-600 p-6 dark:border-blue-400">
+                                <p className="mb-4 text-lg italic text-gray-800 dark:text-gray-200">
                                     "During our 30 plus years' of experience, we are used to
                                     helping{' '}
                                     <Link
                                         href="/success-stories"
-                                        className="text-blue-600 hover:underline"
+                                        className="text-blue-600 hover:underline dark:text-blue-400"
                                     >
                                         manufacturers
                                     </Link>{' '}
@@ -70,7 +76,7 @@ export default function CovidPressReleasePage() {
                                     them time, productivity and substantial costs through the use
                                     of our RMX."
                                 </p>
-                                <cite className="font-semibold text-gray-600">
+                                <cite className="font-semibold text-gray-600 dark:text-gray-400">
                                     - Jim Convis, President of User Solutions
                                 </cite>
                             </blockquote>
@@ -105,11 +111,11 @@ export default function CovidPressReleasePage() {
                                 goes to show that businesses of all kinds can do their part."
                             </p>
 
-                            <div className="my-6 rounded-lg bg-gray-50 p-6">
-                                <h3 className="mb-4 text-xl font-bold text-gray-800">
+                            <div className="my-6 rounded-lg border border-gray-200 p-6 dark:border-gray-700">
+                                <h3 className="mb-4 text-xl font-bold text-gray-800 dark:text-white">
                                     About User Solutions, Inc.
                                 </h3>
-                                <p>
+                                <p className="text-gray-700 dark:text-gray-300">
                                     User Solutions, Inc. was founded in 1991 in response to the
                                     demand for lower cost, easy to learn and use software
                                     solutions for the manufacturing and operations management
@@ -122,7 +128,7 @@ export default function CovidPressReleasePage() {
                             </div>
                         </div>
 
-                        <div className="mt-12 border-t border-gray-200 pt-8">
+                        <div className="mt-6 border-t border-gray-200 pt-8 dark:border-gray-700">
                             <div className="flex flex-wrap gap-4">
                                 <Link
                                     href="/contact"
@@ -138,7 +144,7 @@ export default function CovidPressReleasePage() {
                                 </Link>
                                 <Link
                                     href="/press_release"
-                                    className="rounded-lg border border-gray-300 px-6 py-3 text-gray-700 transition-colors hover:bg-gray-50"
+                                    className="rounded-lg border border-gray-300 px-6 py-3 text-gray-700 transition-colors hover:bg-gray-50 dark:border-gray-600 dark:text-gray-300 dark:hover:bg-gray-800"
                                 >
                                     More Press Releases
                                 </Link>
@@ -167,8 +173,6 @@ export default function CovidPressReleasePage() {
                     </div>
                 </div>
             </section>
-
-         
         </div>
     );
 }

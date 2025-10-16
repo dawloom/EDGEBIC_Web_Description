@@ -71,7 +71,7 @@ export default function EnevatePage() {
                                 provide a greater level of flexibility.
                             </p>
 
-                            <div className="my-8 flex justify-center">
+                            <div className="my-6 flex justify-center">
                                 <Image
                                     src="https://www.usersolutions.com/wp-content/uploads/2022/07/Manufacturing_Excel_Dashboard-1024x376-1.png"
                                     alt="Manufacturing Excel Dashboard"

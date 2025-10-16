@@ -62,7 +62,7 @@ export default function CapacityProductionPlanningPage() {
                                 discontinue its use for production planning activities.
                             </p>
 
-                            <div className="my-8 flex justify-center">
+                            <div className="my-6 flex justify-center">
                                 <Image
                                     src="https://www.usersolutions.com/wp-content/uploads/2022/07/BackLog.png"
                                     alt="Backlog and Production Planning Chart"

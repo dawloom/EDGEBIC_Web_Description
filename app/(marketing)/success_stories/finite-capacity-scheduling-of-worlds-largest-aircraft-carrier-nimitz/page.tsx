@@ -57,7 +57,7 @@ export default function AircraftCarrierNimitzPage() {
                                 needs to be scheduled two years out.
                             </p>
 
-                            <div className="my-8 flex justify-center">
+                            <div className="my-6 flex justify-center">
                                 <Image
                                     src="https://www.usersolutions.com/wp-content/uploads/2022/07/USS-nimitz-main-image.jpg"
                                     alt="USS Nimitz aircraft carrier"
@@ -133,7 +133,7 @@ export default function AircraftCarrierNimitzPage() {
                                 load leveling system.
                             </p>
 
-                            <div className="my-8 flex justify-center">
+                            <div className="my-6 flex justify-center">
                                 <Image
                                     src="https://www.usersolutions.com/wp-content/uploads/2022/07/AirCraftMaint.jpg"
                                     alt="Aircraft carrier maintenance operations"

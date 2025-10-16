@@ -59,7 +59,7 @@ export default function AmishProductionPage() {
                                 hardwood furniture.
                             </p>
 
-                            <div className="my-8 flex justify-center">
+                            <div className="my-6 flex justify-center">
                                 <Image
                                     src="https://www.usersolutions.com/wp-content/uploads/2022/07/image001-150x150-1.png"
                                     alt="Homestead Furniture craftsmanship"
@@ -80,7 +80,7 @@ export default function AmishProductionPage() {
                                 manufacturing.
                             </p>
 
-                            <div className="my-8 flex justify-center">
+                            <div className="my-6 flex justify-center">
                                 <Image
                                     src="https://www.usersolutions.com/wp-content/uploads/2022/07/image002-150x138-1.jpg"
                                     alt="Amish furniture manufacturing process"
@@ -109,7 +109,7 @@ export default function AmishProductionPage() {
                                 Sigma tactics.
                             </p>
 
-                            <div className="my-8 flex justify-center">
+                            <div className="my-6 flex justify-center">
                                 <Image
                                     src="https://www.usersolutions.com/wp-content/uploads/2022/07/image003-150x112-1.jpg"
                                     alt="Advanced manufacturing methodologies"

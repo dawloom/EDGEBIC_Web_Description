@@ -238,7 +238,7 @@ export default function StudentsPage(): React.JSX.Element {
                         </div>
                     </div>
 
-                    <div className="mt-12">
+                    <div className="mt-6">
                         <blockquote className="border-l-4 border-slate-300 bg-white p-6 text-lg italic dark:border-slate-600 dark:bg-slate-800">
                             "Adaptable and Flexible - Resource Manager for Excel is a great
                             solution for manufacturers who are not ready for a full-blown
@@ -413,7 +413,7 @@ export default function StudentsPage(): React.JSX.Element {
                         </div>
                     </div>
 
-                    <div className="mt-12 text-center">
+                    <div className="mt-6 text-center">
                         <p className="text-lg leading-relaxed">
                             These combined offerings provide you unsurpassed flexibility for
                             leveraging Excel on local PCs, and sharing data across a network.

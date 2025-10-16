@@ -58,7 +58,7 @@ export default function RepairShopsTriplePage() {
                                 shops located throughout U.S. and Canada."
                             </p>
 
-                            <div className="my-8 flex justify-center">
+                            <div className="my-6 flex justify-center">
                                 <Image
                                     src="https://www.usersolutions.com/wp-content/uploads/2022/07/railcar.png"
                                     alt="GE Railcar Services repair operations"
@@ -78,7 +78,7 @@ export default function RepairShopsTriplePage() {
                                 we have improved our overall shop cycle time by several days.
                             </p>
 
-                            <div className="my-8 flex justify-center">
+                            <div className="my-6 flex justify-center">
                                 <Image
                                     src="https://www.usersolutions.com/wp-content/uploads/2022/07/WCXL-GUY.png"
                                     alt="Workcenter SchedulerXL software interface"

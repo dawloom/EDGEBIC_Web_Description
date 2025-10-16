@@ -66,7 +66,7 @@ export default function QuickSchedulingExcelReplacementPage() {
                                 Tijuana, Mex. Fiber Optic Jumper Assembly Operation
                             </p>
 
-                            <div className="my-8 flex justify-center">
+                            <div className="my-6 flex justify-center">
                                 <Image
                                     src="https://www.usersolutions.com/wp-content/uploads/2022/07/EdgeSS-1024x544.png"
                                     alt="Production scheduling software interface"

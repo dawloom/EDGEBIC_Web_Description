@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
+import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
@@ -11,6 +12,12 @@ export default function WorkcenterSchedulerXLPage() {
       <section className="bg-gradient-to-r from-blue-600 to-blue-800 py-6 text-white dark:from-blue-800 dark:to-blue-900">
         <div className="container mx-auto px-4 text-center">
           <div className="mx-auto max-w-7xl">
+            <Badge
+              variant="outline"
+              className="mb-4 h-8 rounded-full border-white/30 bg-white/10 px-3 text-sm font-medium text-white shadow-sm hover:bg-white/20"
+            >
+              Product
+            </Badge>
             <h1 className="mb-6 text-4xl font-bold md:text-5xl">
               Workcenter Scheduler XL
             </h1>
@@ -101,7 +108,7 @@ export default function WorkcenterSchedulerXLPage() {
       </section>
 
       {/* Testimonial Section */}
-      <section className="bg-muted/50 pt-6">
+      <section className="bg-muted/50 py-6">
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-7xl">
             <Card>
@@ -227,7 +234,7 @@ export default function WorkcenterSchedulerXLPage() {
       </section>
 
       {/* Awards Section */}
-      <section className="pt-6">
+      <section className="pt-6 pb-6">
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-7xl">
             <Card className="bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20">

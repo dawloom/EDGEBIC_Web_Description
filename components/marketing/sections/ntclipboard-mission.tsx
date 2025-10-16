@@ -239,7 +239,7 @@ export function NTClipboardMission(): React.JSX.Element {
                                 </div>
 
                                 {/* 1995 */}
-                                <div className="relative mt-12 flex items-center md:justify-center">
+                                <div className="relative mt-6 flex items-center md:justify-center">
                                     <div className="flex w-full items-center md:w-1/2 md:flex-row-reverse md:pl-8">
                                         <div className="flex size-16 shrink-0 items-center justify-center rounded-full bg-gradient-to-r from-orange-500 to-red-500 font-bold text-white">
                                             95
@@ -257,7 +257,7 @@ export function NTClipboardMission(): React.JSX.Element {
                                 </div>
 
                                 {/* 2000 */}
-                                <div className="relative mt-12 flex items-center md:justify-center">
+                                <div className="relative mt-6 flex items-center md:justify-center">
                                     <div className="flex w-full items-center md:w-1/2 md:pr-8">
                                         <div className="flex size-16 shrink-0 items-center justify-center rounded-full bg-gradient-to-r from-orange-500 to-red-500 font-bold text-white">
                                             00
@@ -275,7 +275,7 @@ export function NTClipboardMission(): React.JSX.Element {
                                 </div>
 
                                 {/* 2010 */}
-                                <div className="relative mt-12 flex items-center md:justify-center">
+                                <div className="relative mt-6 flex items-center md:justify-center">
                                     <div className="flex w-full items-center md:w-1/2 md:flex-row-reverse md:pl-8">
                                         <div className="flex size-16 shrink-0 items-center justify-center rounded-full bg-gradient-to-r from-orange-500 to-red-500 font-bold text-white">
                                             10
@@ -293,7 +293,7 @@ export function NTClipboardMission(): React.JSX.Element {
                                 </div>
 
                                 {/* 2020 */}
-                                <div className="relative mt-12 flex items-center md:justify-center">
+                                <div className="relative mt-6 flex items-center md:justify-center">
                                     <div className="flex w-full items-center md:w-1/2 md:pr-8">
                                         <div className="flex size-16 shrink-0 items-center justify-center rounded-full bg-gradient-to-r from-orange-500 to-red-500 font-bold text-white">
                                             20
@@ -312,7 +312,7 @@ export function NTClipboardMission(): React.JSX.Element {
                                 </div>
 
                                 {/* Today */}
-                                <div className="relative mt-12 flex items-center md:justify-center">
+                                <div className="relative mt-6 flex items-center md:justify-center">
                                     <div className="flex w-full items-center md:w-1/2 md:flex-row-reverse md:pl-8">
                                         <div className="flex size-16 shrink-0 items-center justify-center rounded-full bg-gradient-to-r from-orange-500 to-red-500 text-sm font-bold text-white">
                                             NOW
@@ -331,7 +331,7 @@ export function NTClipboardMission(): React.JSX.Element {
                                 </div>
                             </div>
 
-                            <div className="mt-12 text-center">
+                            <div className="mt-6 text-center">
                                 <div className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-orange-100 to-red-100 px-6 py-3 text-orange-800 dark:from-orange-900/30 dark:to-red-900/30 dark:text-orange-200">
                                     <AwardIcon className="size-5" />
                                     30+ Years of Innovation Excellence

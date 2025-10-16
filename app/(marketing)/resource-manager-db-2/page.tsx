@@ -396,7 +396,7 @@ export default function ResourceManagerDBPage(): React.JSX.Element {
                         ))}
                     </div>
 
-                    <div className="mt-12 flex justify-center">
+                    <div className="mt-6 flex justify-center">
                         <img
                             src="https://www.usersolutions.com/wp-content/uploads/2022/07/rmdb11.png"
                             alt="Color-coded production job schedule spreadsheet"

@@ -72,7 +72,7 @@ export default function ProductionWhatIfScenarioPage() {
                 production scheduling systems.
               </p>
 
-              <div className="my-8 flex justify-center">
+              <div className="my-6 flex justify-center">
                 <Image
                   src="https://www.usersolutions.com/wp-content/uploads/2022/07/2016_czar_xx1_blue_4500-300x188-161208-5849eb9c81e6d.jpg"
                   alt="Turner mountain bike"
@@ -152,7 +152,7 @@ export default function ProductionWhatIfScenarioPage() {
                 respond back to our customer."
               </p>
 
-              <div className="my-8 flex justify-center">
+              <div className="my-6 flex justify-center">
                 <Image
                   src="https://www.usersolutions.com/wp-content/uploads/2022/07/Exceeding-Expections-161208-5849ebfe1962c.jpg"
                   alt="Exceeding Expectations"
@@ -188,7 +188,7 @@ export default function ProductionWhatIfScenarioPage() {
                 everything else.
               </p>
 
-              <div className="my-8 flex justify-center">
+              <div className="my-6 flex justify-center">
                 <Image
                   src="https://www.usersolutions.com/wp-content/uploads/2022/07/thankyougirl-161208-5849ec3536e21.png"
                   alt="Thank you for your business"

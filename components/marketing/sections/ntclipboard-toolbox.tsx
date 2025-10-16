@@ -551,7 +551,7 @@ export function NTClipboardToolBox(): React.JSX.Element {
                         </div>
 
                         {/* Call to Action */}
-                        <div className="mt-12 text-center">
+                        <div className="mt-6 text-center">
                             <div className="mx-auto max-w-7xl rounded-3xl bg-gradient-to-br from-slate-50 to-slate-100 p-8 dark:from-slate-900 dark:to-slate-800">
                                 <h3 className="mb-4 text-2xl font-bold">
                                     Start Growing with User Solutions

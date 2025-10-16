@@ -33,7 +33,7 @@ const components = {
   h2: ({ className, ...props }: React.HTMLAttributes<HTMLHeadingElement>) => (
     <h2
       className={cn(
-        'font-heading mb-4 mt-12 scroll-m-24 text-2xl font-semibold leading-8 tracking-tight',
+        'font-heading mb-4 mt-6 scroll-m-24 text-2xl font-semibold leading-8 tracking-tight',
         className
       )}
       {...props}
@@ -127,7 +127,7 @@ const components = {
   ),
   hr: ({ ...props }: React.HTMLAttributes<HTMLHRElement>) => (
     <hr
-      className="my-4 md:my-8"
+      className="my-4 md:my-6"
       {...props}
     />
   ),
