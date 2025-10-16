@@ -26,24 +26,7 @@ export default function Product2Page(): React.JSX.Element {
       price: '$1,000+',
       image:
         'https://www.usersolutions.com/wp-content/uploads/2022/10/starter.png',
-      link: '/jsl-job-scheduler-lite',
-      features: {
-        'Basic Scheduling': true,
-        'Forward Scheduling': false,
-        'Reverse Scheduling': false,
-        'Finite Capacity': true,
-        MRP: false,
-        'Multi-User': false,
-        'Advanced Reports': false,
-        'Excel Integration': true,
-        Database: false,
-        'Custom Fields': false,
-        'API Access': false,
-        'Heat Maps': false,
-        'Drag & Drop': false,
-        'Real-time Updates': false,
-        'Business Intelligence': false
-      }
+      link: '/jsl-job-scheduler-lite'
     },
     {
       name: 'Resource Manager DB',
@@ -51,24 +34,7 @@ export default function Product2Page(): React.JSX.Element {
       price: '$5,000+',
       image:
         'https://www.usersolutions.com/wp-content/uploads/2022/11/advanced-1.png',
-      link: '/resource-manager-db-2',
-      features: {
-        'Basic Scheduling': true,
-        'Forward Scheduling': true,
-        'Reverse Scheduling': true,
-        'Finite Capacity': true,
-        MRP: true,
-        'Multi-User': true,
-        'Advanced Reports': true,
-        'Excel Integration': true,
-        Database: true,
-        'Custom Fields': true,
-        'API Access': true,
-        'Heat Maps': false,
-        'Drag & Drop': false,
-        'Real-time Updates': true,
-        'Business Intelligence': false
-      }
+      link: '/resource-manager-db-2'
     },
     {
       name: 'EDGEBI (Bundled w/ RMDB)',
@@ -76,24 +42,152 @@ export default function Product2Page(): React.JSX.Element {
       price: '$25,000+',
       image:
         'https://www.usersolutions.com/wp-content/uploads/2022/11/Premium-1.png',
-      link: '/edgebi',
-      features: {
-        'Basic Scheduling': true,
-        'Forward Scheduling': true,
-        'Reverse Scheduling': true,
-        'Finite Capacity': true,
-        MRP: true,
-        'Multi-User': true,
-        'Advanced Reports': true,
-        'Excel Integration': true,
-        Database: true,
-        'Custom Fields': true,
-        'API Access': true,
-        'Heat Maps': true,
-        'Drag & Drop': true,
-        'Real-time Updates': true,
-        'Business Intelligence': true
-      }
+      link: '/edgebi'
+    }
+  ];
+
+  const featureComparison = [
+    {
+      feature: 'Routings',
+      description:
+        'Workcenter Set-up and Cycle Times, Queue / Move Times, Linear and non-Linear.',
+      jsl: true,
+      rmdb: true,
+      edgebi: true
+    },
+    {
+      feature: 'Finite Capacity',
+      description:
+        'Only schedules to what is available. Customizable Workcenter Calendars and Daily Calendar. Color coded. Graphics.',
+      jsl: true,
+      rmdb: true,
+      edgebi: true
+    },
+    {
+      feature: 'Tracking Actuals',
+      description:
+        'Import Actuals. if available, or direct entry. Even drag-and-drop to track WIP.',
+      jsl: false,
+      rmdb: true,
+      edgebi: true
+    },
+    {
+      feature: 'Bill of Materials',
+      description:
+        'Quantity per, Parent-child, Sub-Assemblies, Rev Control, much more.',
+      jsl: false,
+      rmdb: true,
+      edgebi: true
+    },
+    {
+      feature: 'Mixed Mode Scheduling',
+      description:
+        'Forward based on start date or Reverse based on due date or even Time Fenced. Per job or group of orders. Prioritize at any level.',
+      jsl: true,
+      rmdb: true,
+      edgebi: true
+    },
+    {
+      feature: 'Rescheduling',
+      description:
+        'Import Actuals. if available, or direct entry. Even drag-and-drop to track WIP.',
+      jsl: false,
+      rmdb: true,
+      edgebi: true
+    },
+    {
+      feature: 'Inventory Management',
+      description:
+        'Low maintenance. Safety Stocks, Yield Factors, Purchasing UOM, ATP, Reporting.',
+      jsl: false,
+      rmdb: true,
+      edgebi: true
+    },
+    {
+      feature: 'Material Planning Basic',
+      description: 'What materials are required for what jobs and when.',
+      jsl: false,
+      rmdb: true,
+      edgebi: true
+    },
+    {
+      feature: 'Customizable',
+      description:
+        'We specialize in enhancing any product, or combination, to meet your unique needs.',
+      jsl: false,
+      rmdb: true,
+      edgebi: true
+    },
+    {
+      feature: 'Purchase Orders',
+      description:
+        'Easy, fast, accurate. Based on scheduled demand, stock replenishment, and more. Paperless option.',
+      jsl: false,
+      rmdb: true,
+      edgebi: true
+    },
+    {
+      feature: 'Drag and Drop',
+      description:
+        'Visually change dates per job, per workcenter, or even drag job from one workcenter to another.',
+      jsl: false,
+      rmdb: true,
+      edgebi: true
+    },
+    {
+      feature: 'Materials Planning Advanced',
+      description:
+        'MRP Calculations, Shortage Reports, Lot and Batch Sizing, much more.',
+      jsl: false,
+      rmdb: true,
+      edgebi: true
+    },
+    {
+      feature: 'Integration with other systems',
+      description:
+        'Import and Export to Excel and direct importing via ODBC drivers. Integrates easily with most ERP and custom systems.',
+      jsl: false,
+      rmdb: true,
+      edgebi: true
+    },
+    {
+      feature: 'Advanced Planning & Scheduling',
+      description:
+        'Alternate Routings, Multiple Constraints, Multiple Priorities, Rescheduling on demand, much more.',
+      jsl: false,
+      rmdb: true,
+      edgebi: true
+    },
+    {
+      feature: 'Heat Map Report',
+      description:
+        'Visual representation of capacity loading across your schedule.',
+      jsl: false,
+      rmdb: false,
+      edgebi: true
+    },
+    {
+      feature: 'Schedule Key Dates',
+      description: 'Critical date tracking and reporting functionality.',
+      jsl: false,
+      rmdb: false,
+      edgebi: true
+    },
+    {
+      feature: 'Live embedded Excel',
+      description:
+        'Import and Export to Excel and direct importing via ODBC drivers. Integrates easily with most ERP and custom systems.',
+      jsl: false,
+      rmdb: false,
+      edgebi: true
+    },
+    {
+      feature: 'Advanced Drag and Drop',
+      description:
+        'Alternate Routings, Multiple Constraints, Multiple Priorities, Rescheduling on demand, much more.',
+      jsl: false,
+      rmdb: false,
+      edgebi: true
     }
   ];
 
@@ -115,26 +209,8 @@ export default function Product2Page(): React.JSX.Element {
     }
   ];
 
-  const featureList = [
-    'Basic Scheduling',
-    'Forward Scheduling',
-    'Reverse Scheduling',
-    'Finite Capacity',
-    'MRP',
-    'Multi-User',
-    'Advanced Reports',
-    'Excel Integration',
-    'Database',
-    'Custom Fields',
-    'API Access',
-    'Heat Maps',
-    'Drag & Drop',
-    'Real-time Updates',
-    'Business Intelligence'
-  ];
-
   return (
-    <div className="min-h-screen bg-white dark:bg-slate-950 py-6">
+    <div className="min-h-screen bg-white py-6 dark:bg-slate-950">
       {/* Hero Section */}
       <GridSection hideVerticalGridLines>
         <div className="container max-w-7xl">
@@ -153,143 +229,145 @@ export default function Product2Page(): React.JSX.Element {
       {/* Product Comparison Matrix */}
       <section className="py-6">
         <div className="container mx-auto max-w-7xl px-4">
-          <div className="mb-6 text-center">
+          <div className="mb-8 text-center">
             <h2 className="mb-4 text-3xl font-bold md:text-4xl">
               Choose the Right Solution for Your Business
             </h2>
-            <p className="text-xl text-muted-foreground">
-              Schedule a Live Demo Today! Choose the product that best suits
-              your company's needs.
+            <p className="mb-4 text-lg text-slate-600 dark:text-slate-400">
+              Compare features across our product range to find the perfect fit
             </p>
           </div>
 
-          {/* Desktop Comparison Table */}
-          <div className="hidden overflow-x-auto lg:block">
-            <table className="w-full border-collapse border border-slate-200 dark:border-slate-700">
+          {/* Expand/Collapse Controls */}
+          <div className="mb-4 flex justify-center gap-4">
+            <Button
+              variant="outline"
+              size="sm"
+              onClick={() => {
+                const details = document.querySelectorAll(
+                  'details[data-feature]'
+                );
+                details.forEach((detail) =>
+                  detail.setAttribute('open', 'true')
+                );
+              }}
+              className="text-blue-600 hover:bg-blue-50 dark:text-blue-400 dark:hover:bg-blue-900/20 dark:hover:text-blue-300"
+            >
+              Expand All
+            </Button>
+            <Button
+              variant="outline"
+              size="sm"
+              onClick={() => {
+                const details = document.querySelectorAll(
+                  'details[data-feature]'
+                );
+                details.forEach((detail) => detail.removeAttribute('open'));
+              }}
+              className="text-blue-600 hover:bg-blue-50 dark:text-blue-400 dark:hover:bg-blue-900/20 dark:hover:text-blue-300"
+            >
+              Close All
+            </Button>
+          </div>
+
+          {/* Desktop Comparison Table with Expandable Features */}
+          <div className="overflow-x-auto">
+            <table className="w-full min-w-[800px] rounded-lg border border-slate-200 bg-white dark:border-slate-700 dark:bg-slate-900">
               <thead>
-                <tr className="bg-slate-50 dark:bg-slate-900">
-                  <th className="border border-slate-200 p-4 text-left dark:border-slate-700">
+                <tr className="border-b border-slate-200 dark:border-slate-700">
+                  <th className="p-4 text-left font-semibold text-slate-900 dark:text-white">
                     Features
                   </th>
-                  {products.map((product, index) => (
-                    <th
-                      key={index}
-                      className="border border-slate-200 p-4 text-center dark:border-slate-700"
-                    >
-                      <div className="space-y-3">
-                        <div className="relative mx-auto h-16 w-32">
-                          <Image
-                            src={product.image}
-                            alt={`${product.tier} tier`}
-                            fill
-                            className="object-contain"
-                          />
-                        </div>
-                        <div>
-                          <div className="text-sm font-semibold text-muted-foreground">
-                            {product.tier}
-                          </div>
-                          <div className="text-lg font-bold">
-                            {product.name}
-                          </div>
-                          <div className="text-xl font-bold text-slate-900 dark:text-white">
-                            {product.price}
-                          </div>
-                        </div>
-                        <Button
-                          size="sm"
-                          variant="outline"
-                        >
-                          <Link href={product.link}>Read More</Link>
-                        </Button>
-                      </div>
-                    </th>
-                  ))}
+                  <th className="p-4 text-center font-semibold text-blue-600 dark:text-blue-400">
+                    Job Scheduler Lite
+                  </th>
+                  <th className="p-4 text-center font-semibold text-orange-600 dark:text-orange-400">
+                    Resource Manager DB
+                  </th>
+                  <th className="p-4 text-center font-semibold text-purple-600 dark:text-purple-400">
+                    EDGEBI Suite
+                  </th>
                 </tr>
               </thead>
               <tbody>
-                {featureList.map((feature, featureIndex) => (
-                  <tr
-                    key={featureIndex}
-                    className="hover:bg-slate-50 dark:hover:bg-slate-900/50"
-                  >
-                    <td className="border border-slate-200 p-4 font-medium dark:border-slate-700">
-                      {feature}
-                    </td>
-                    {products.map((product, productIndex) => (
-                      <td
-                        key={productIndex}
-                        className="border border-slate-200 p-4 text-center dark:border-slate-700"
-                      >
-                        {product.features[feature] ? (
-                          <CheckCircle className="mx-auto size-6 text-green-600" />
+                {featureComparison.map((row, i) => (
+                  <React.Fragment key={i}>
+                    <tr className="border-b border-slate-200 hover:bg-slate-50 dark:border-slate-700 dark:hover:bg-slate-800/50">
+                      <td className="p-4">
+                        <details
+                          data-feature={`feature-${i}`}
+                          className="group"
+                        >
+                          <summary className="flex cursor-pointer items-center gap-2 font-medium text-slate-900 hover:text-blue-600 dark:text-white">
+                            <span className="text-sm transition-transform group-open:rotate-90">
+                              ▶
+                            </span>
+                            {row.feature}
+                          </summary>
+                          <div className="mt-2 pl-6 text-sm text-slate-600 dark:text-slate-400">
+                            {row.description}
+                          </div>
+                        </details>
+                      </td>
+                      <td className="p-4 text-center">
+                        {row.jsl === true ? (
+                          <CheckCircle className="mx-auto size-5 text-green-500" />
+                        ) : row.jsl === 'Optional' ? (
+                          <span className="text-xs text-orange-500">
+                            Optional
+                          </span>
                         ) : (
-                          <X className="mx-auto size-6 text-red-500" />
+                          <span className="text-slate-400">—</span>
                         )}
                       </td>
-                    ))}
-                  </tr>
+                      <td className="p-4 text-center">
+                        {row.rmdb === true ? (
+                          <CheckCircle className="mx-auto size-5 text-green-500" />
+                        ) : row.rmdb === 'Optional' ? (
+                          <span className="text-xs text-orange-500">
+                            Optional
+                          </span>
+                        ) : (
+                          <span className="text-slate-400">—</span>
+                        )}
+                      </td>
+                      <td className="p-4 text-center">
+                        {row.edgebi === true ? (
+                          <CheckCircle className="mx-auto size-5 text-green-500" />
+                        ) : row.edgebi === 'Optional' ? (
+                          <span className="text-xs text-orange-500">
+                            Optional
+                          </span>
+                        ) : (
+                          <span className="text-slate-400">—</span>
+                        )}
+                      </td>
+                    </tr>
+                  </React.Fragment>
                 ))}
               </tbody>
             </table>
           </div>
 
-          {/* Mobile Comparison Cards */}
-          <div className="grid gap-8 md:grid-cols-2 lg:hidden">
-            {products.map((product, index) => (
-              <div
-                key={index}
-                className="rounded-lg border bg-white p-6 shadow-lg dark:bg-slate-800"
-              >
-                <div className="mb-6 text-center">
-                  <div className="relative mx-auto mb-4 h-16 w-32">
-                    <Image
-                      src={product.image}
-                      alt={`${product.tier} tier`}
-                      fill
-                      className="object-contain"
-                    />
-                  </div>
-                  <div className="text-sm font-semibold text-muted-foreground">
-                    {product.tier}
-                  </div>
-                  <div className="text-lg font-bold">{product.name}</div>
-                  <div className="mb-4 text-xl font-bold text-slate-900 dark:text-white">
-                    {product.price}
-                  </div>
-                  <Button
-                    size="sm"
-                    variant="outline"
-                  >
-                    <Link href={product.link}>Read More</Link>
-                  </Button>
-                </div>
-
-                <div className="space-y-3">
-                  {featureList.map((feature, featureIndex) => (
-                    <div
-                      key={featureIndex}
-                      className="flex items-center justify-between"
-                    >
-                      <span className="text-sm font-medium">{feature}</span>
-                      {product.features[feature] ? (
-                        <CheckCircle className="size-5 text-green-600" />
-                      ) : (
-                        <X className="size-5 text-red-500" />
-                      )}
-                    </div>
-                  ))}
-                </div>
-              </div>
-            ))}
+          {/* Call to Action */}
+          <div className="mt-8 text-center">
+            <p className="mb-4 text-slate-600 dark:text-slate-400">
+              Not sure which solution is right for you?
+            </p>
+            <Button
+              size="lg"
+              className="gap-2"
+            >
+              <Link href="/contact">Schedule a Live Demo</Link>
+            </Button>
           </div>
         </div>
       </section>
 
       {/* Testimonials Section */}
-      <section className="bg-slate-50 py-1max-w-7xl-slate-900">
+      <section className="max-w-7xl-slate-900 py-1">
         <div className="container mx-auto max-w-7xl px-4">
-          <div className="mb-12 text-center">
+          <div className="mb-6 text-center">
             <h2 className="mb-4 text-3xl font-bold md:text-4xl">
               What Our Customers Say
             </h2>
@@ -330,7 +408,7 @@ export default function Product2Page(): React.JSX.Element {
       </section>
 
       {/* Call to Action Section */}
-      <section className="py-16">
+      <section className="pt-6">
         <div className="container mx-auto max-w-7xl px-4 text-center">
           <div className="rounded-2xl border bg-slate-50 p-8 dark:bg-slate-800">
             <h2 className="mb-4 text-3xl font-bold">
@@ -371,9 +449,9 @@ export default function Product2Page(): React.JSX.Element {
       </section>
 
       {/* Awards Section */}
-      <section className="py-6">
+      <section className="pt-6">
         <div className="container mx-auto px-4">
-          <div className="mx-auto max-w-5xl">
+          <div className="mx-auto max-w-7xl">
             <Card className="bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20">
               <CardContent className="p-8 text-center">
                 <h2 className="mb-6 text-2xl font-bold text-slate-900 dark:text-white">
