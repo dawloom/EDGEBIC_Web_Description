@@ -397,11 +397,11 @@ export default function MedModelPage(): React.JSX.Element {
             </section>
 
             {/* Awards Section */}
-            <section className="py-6">
+            <section className="pt-6">
                 <div className="container mx-auto px-4">
-                    <Card className="bg-gradient-to-r from-blue-600 to-blue-800 text-white">
+                    <Card className="bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20">
                         <CardContent className="py-12 text-center">
-                            <h2 className="mb-8 text-3xl font-bold">
+                            <h2 className="mb-8 text-3xl font-bold text-slate-900 dark:text-white">
                                 CELEBRATING 25 YEARS OF AWARD WINNING SOFTWARE!
                             </h2>
                             <div className="flex justify-center">

@@ -323,7 +323,7 @@ export function NTClipboardSuccessStories(): React.JSX.Element {
       </section>
 
       {/* Awards Section */}
-      <section className="py-6">
+      <section className="pt-6">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <Card className="bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20">
             <CardContent className="p-8 text-center">
