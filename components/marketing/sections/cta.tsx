@@ -38,7 +38,7 @@ export function CTA(): React.JSX.Element {
   };
   return (
     <GridSection className="bg-diagonal-lines">
-      <div className="container flex flex-col items-center justify-between gap-6 bg-background py-16 text-center">
+      <div className="container flex flex-col items-center justify-between gap-6 bg-background py-6 text-center">
         <h3 className="m-0 max-w-fit text-3xl font-semibold md:text-4xl">
           <TextGenerateEffect words="Ready to start?" />
         </h3>

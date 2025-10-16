@@ -7,7 +7,7 @@ export default function InconIncorporatedPage(): React.JSX.Element {
   return (
     <div className="min-h-screen">
       {/* Hero Section with Logo */}
-      <section className="bg-gradient-to-br from-blue-600 via-blue-700 to-blue-900 py-16 text-white">
+      <section className="bg-gradient-to-br from-blue-600 via-blue-700 to-blue-900 py-6 text-white">
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-7xl text-center">
             <div className="mb-8">

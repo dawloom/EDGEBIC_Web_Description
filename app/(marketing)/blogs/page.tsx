@@ -5,14 +5,14 @@ export default function BlogsPage() {
     return (
         <div className="min-h-screen bg-white">
             {/* Header */}
-            <div className="bg-blue-600 py-16 text-white">
+            <div className="bg-blue-600 py-6 text-white">
                 <div className="container mx-auto px-4">
                     <h1 className="text-center text-4xl font-bold">Our Blog</h1>
                 </div>
             </div>
 
             {/* Blog Content */}
-            <div className="container mx-auto px-4 py-16">
+            <div className="container mx-auto px-4 py-6">
                 <div className="text-center">
                     <div className="rounded-lg bg-gray-50 p-12 shadow-lg">
                         <h2 className="mb-4 text-2xl font-semibold text-gray-800">

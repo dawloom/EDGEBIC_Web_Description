@@ -5,7 +5,7 @@ export default function OperationsManagerAppPage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Header */}
-      <div className="bg-blue-600 py-16 text-white">
+      <div className="bg-blue-600 py-6 text-white">
         <div className="container mx-auto px-4">
           <h1 className="text-center text-4xl font-bold">
             Operations Manager: APP

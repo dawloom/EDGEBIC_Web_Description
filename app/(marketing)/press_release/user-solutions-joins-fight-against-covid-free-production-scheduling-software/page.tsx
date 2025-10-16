@@ -6,14 +6,14 @@ export default function CovidPressReleasePage() {
     return (
         <div className="min-h-screen bg-white">
             {/* Header */}
-            <div className="bg-blue-600 py-16 text-white">
+            <div className="bg-blue-600 py-6 text-white">
                 <div className="container mx-auto px-4">
                     <h1 className="text-center text-4xl font-bold">Press Release</h1>
                 </div>
             </div>
 
             {/* Press Release Content */}
-            <div className="container mx-auto px-4 py-16">
+            <div className="container mx-auto px-4 py-6">
                 <div className="mx-auto max-w-7xl">
                     <article className="prose prose-lg max-w-none">
                         <header className="mb-12">

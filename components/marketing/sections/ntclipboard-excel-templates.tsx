@@ -227,7 +227,7 @@ export function NTClipboardExcelTemplates(): React.JSX.Element {
             </section>
 
             {/* Call to Action */}
-            <section className="bg-gradient-to-r from-slate-900 to-slate-800 py-16 dark:from-slate-800 dark:to-slate-700">
+            <section className="bg-gradient-to-r from-slate-900 to-slate-800 py-6 dark:from-slate-800 dark:to-slate-700">
                 <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                     <div className="text-center">
                         <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">

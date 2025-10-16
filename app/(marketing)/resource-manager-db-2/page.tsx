@@ -407,7 +407,7 @@ export default function ResourceManagerDBPage(): React.JSX.Element {
             </section>
 
             {/* Awards Section */}
-            <section className="py-6">
+            <section className="pt-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-7xl">
                         <div className="rounded-xl bg-gradient-to-br from-blue-50 to-blue-100 p-8 text-center dark:from-blue-900/20 dark:to-blue-800/20">

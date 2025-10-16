@@ -37,7 +37,7 @@ export default function PressReleasePage() {
     return (
         <div className="min-h-screen bg-white">
             {/* Header */}
-            <div className="bg-blue-600 py-16 text-white">
+            <div className="bg-blue-600 py-6 text-white">
                 <div className="container mx-auto px-4">
                     <h1 className="text-center text-4xl font-bold">Press Releases</h1>
                     <p className="mt-4 text-center text-xl">
@@ -47,7 +47,7 @@ export default function PressReleasePage() {
             </div>
 
             {/* Press Releases Content */}
-            <div className="container mx-auto px-4 py-16">
+            <div className="container mx-auto px-4 py-6">
                 <div className="mx-auto max-w-7xl">
                     <div className="space-y-8">
                         {pressReleases.map((release, index) => (
@@ -115,7 +115,7 @@ export default function PressReleasePage() {
             </div>
 
             {/* Awards Section */}
-            <div className="bg-gray-100 py-16">
+            <div className="bg-gray-100 py-6">
                 <div className="container mx-auto px-4 text-center">
                     <h2 className="mb-8 text-3xl font-bold text-gray-800">
                         CELEBRATING 25 YEARS OF AWARD WINNING SOFTWARE!
