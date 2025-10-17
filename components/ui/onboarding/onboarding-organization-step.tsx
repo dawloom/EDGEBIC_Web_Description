@@ -3,7 +3,7 @@
 import * as React from 'react';
 import { useFormContext } from 'react-hook-form';
 
-import { NextButton } from '@/components/onboarding/next-button';
+import { NextButton } from '@/components/ui/onboarding/next-button';
 import {
   FormControl,
   FormField,

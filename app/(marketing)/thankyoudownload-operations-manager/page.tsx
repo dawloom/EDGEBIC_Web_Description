@@ -1,8 +1,8 @@
 import Link from 'next/link';
 import { CheckCircle } from 'lucide-react';
 
+import { Button } from '@/components/ui/button';
 import {
-    Button,
     Card,
     CardContent,
     CardHeader,
@@ -137,6 +137,26 @@ export default function ThankYouDownloadOperationsManagerPage() {
                                         </Button>
                                     </Link>
                                 </div>
+                            </CardContent>
+                        </Card>
+                    </div>
+                </div>
+            </section>
+
+            {/* Awards Section */}
+            <section className="pt-6">
+                <div className="container mx-auto px-4">
+                    <div className="mx-auto max-w-7xl">
+                        <Card className="bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20">
+                            <CardContent className="p-8 text-center">
+                                <h3 className="mb-6 text-2xl font-bold text-slate-900 dark:text-white">
+                                    CELEBRATING 25 YEARS OF AWARD WINNING SOFTWARE!
+                                </h3>
+                                <img
+                                    src="https://www.usersolutions.com/wp-content/uploads/2022/07/banner-logoso-sm-58c9a28d237d6-1024x128.jpg"
+                                    alt="Collection of industry and business awards logos"
+                                    className="mx-auto h-auto max-w-full"
+                                />
                             </CardContent>
                         </Card>
                     </div>

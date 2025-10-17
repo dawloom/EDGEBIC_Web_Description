@@ -5,7 +5,7 @@ import { useTheme } from 'next-themes';
 import { useFormContext } from 'react-hook-form';
 
 import { ThemeOption } from '@/components/dashboard/settings/account/profile/theme-option';
-import { NextButton } from '@/components/onboarding/next-button';
+import { NextButton } from '@/components/ui/onboarding/next-button';
 import {
   FormControl,
   FormField,

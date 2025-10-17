@@ -1,4 +1,4 @@
-import * as React from 'next';
+import * as React from 'react';
 import type { Metadata } from 'next';
 import Image from 'next/image';
 

@@ -182,19 +182,12 @@ export default function ThankYouPage() {
                                 <h3 className="mb-6 text-2xl font-bold text-slate-900 dark:text-white sm:text-3xl">
                                     CELEBRATING 25 YEARS OF AWARD WINNING SOFTWARE!
                                 </h3>
-                                <p className="mb-6 text-lg text-muted-foreground">
-                                    Trusted by manufacturers worldwide for over 25 years
-                                </p>
-                                <div className="flex flex-wrap items-center justify-center gap-6 opacity-70">
-                                    <div className="text-sm font-semibold text-muted-foreground">
-                                        Industry Awards
-                                    </div>
-                                    <div className="text-sm font-semibold text-muted-foreground">
-                                        Excellence Recognition
-                                    </div>
-                                    <div className="text-sm font-semibold text-muted-foreground">
-                                        Customer Choice
-                                    </div>
+                                <div className="flex justify-center">
+                                    <img
+                                        src="https://www.usersolutions.com/wp-content/uploads/2022/07/banner-logoso-sm-58c9a28d237d6-1024x128.jpg"
+                                        alt="Collection of industry and business awards logos"
+                                        className="mx-auto h-auto max-w-full"
+                                    />
                                 </div>
                             </CardContent>
                         </Card>

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { Step } from '@/components/onboarding/step';
+import { Step } from '@/components/ui/onboarding/step';
 import { cn } from '@/lib/utils';
 
 export type StepIndicatorProps = React.HtmlHTMLAttributes<HTMLDivElement> & {

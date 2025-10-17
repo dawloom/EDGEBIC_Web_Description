@@ -1,8 +1,8 @@
 import Link from 'next/link';
 import { Check } from 'lucide-react';
 
+import { Button } from '@/components/ui/button';
 import {
-    Button,
     Card,
     CardContent,
     CardHeader,

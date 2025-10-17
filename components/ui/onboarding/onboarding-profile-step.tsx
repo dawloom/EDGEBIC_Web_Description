@@ -7,7 +7,7 @@ import { useFormContext } from 'react-hook-form';
 import { toast } from 'sonner';
 
 import { CropPhotoModal } from '@/components/dashboard/settings/account/profile/crop-photo-modal';
-import { NextButton } from '@/components/onboarding/next-button';
+import { NextButton } from '@/components/ui/onboarding/next-button';
 import { Avatar, AvatarFallback } from '@/components/ui/avatar';
 import { Button } from '@/components/ui/button';
 import {

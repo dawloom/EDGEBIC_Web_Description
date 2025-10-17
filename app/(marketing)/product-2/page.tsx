@@ -312,10 +312,6 @@ export default function Product2Page(): React.JSX.Element {
                       <td className="p-4 text-center">
                         {row.jsl === true ? (
                           <CheckCircle className="mx-auto size-5 text-green-500" />
-                        ) : row.jsl === 'Optional' ? (
-                          <span className="text-xs text-orange-500">
-                            Optional
-                          </span>
                         ) : (
                           <span className="text-slate-400">—</span>
                         )}
@@ -323,10 +319,6 @@ export default function Product2Page(): React.JSX.Element {
                       <td className="p-4 text-center">
                         {row.rmdb === true ? (
                           <CheckCircle className="mx-auto size-5 text-green-500" />
-                        ) : row.rmdb === 'Optional' ? (
-                          <span className="text-xs text-orange-500">
-                            Optional
-                          </span>
                         ) : (
                           <span className="text-slate-400">—</span>
                         )}
@@ -334,10 +326,6 @@ export default function Product2Page(): React.JSX.Element {
                       <td className="p-4 text-center">
                         {row.edgebi === true ? (
                           <CheckCircle className="mx-auto size-5 text-green-500" />
-                        ) : row.edgebi === 'Optional' ? (
-                          <span className="text-xs text-orange-500">
-                            Optional
-                          </span>
                         ) : (
                           <span className="text-slate-400">—</span>
                         )}

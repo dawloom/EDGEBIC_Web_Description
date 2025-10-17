@@ -2,8 +2,8 @@ import * as React from 'react';
 import { type Metadata } from 'next';
 import { redirect } from 'next/navigation';
 
-import { LogOutButton } from '@/components/onboarding/log-out-button';
-import { OnboardingWizard } from '@/components/onboarding/onboarding-wizard';
+import { LogOutButton } from '@/components/ui/onboarding/log-out-button';
+import { OnboardingWizard } from '@/components/ui/onboarding/onboarding-wizard';
 import { ThemeToggle } from '@/components/ui/theme-toggle';
 import { Routes } from '@/constants/routes';
 import { getOnboardingData } from '@/data/onboarding/get-onboarding-data';

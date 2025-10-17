@@ -14,25 +14,25 @@ export default function PressReleasePage() {
             slug: 'user-solutions-joins-fight-against-covid-free-production-scheduling-software'
         },
         {
-            title: 'RMDB v6 Innovates Production Scheduling',
-            date: 'May 10, 2024',
-            excerpt:
-                'Latest version of Resource Manager DB introduces innovative scheduling features.',
-            slug: 'rmdb-v6-innovates-production-scheduling'
-        },
-        {
-            title: 'Scheduling System Narrows Skills Gap',
-            date: 'May 13, 2024',
-            excerpt:
-                'User Solutions scheduling systems help bridge manufacturing skills gap.',
-            slug: 'scheduling-system-narrows-skills-gap'
-        },
-        {
             title: "Let's Make Manufacturing Great: National Manufacturing Day 2020",
             date: 'October 2, 2020',
             excerpt:
                 'Celebrating National Manufacturing Day with innovative production scheduling solutions.',
             slug: 'lets-make-manufacturing-great-national-manufacturing-day-2020'
+        },
+        {
+            title: 'RMDB v6 Innovates Production Scheduling for Cutting Edge Battery Technology',
+            date: 'June 9, 2016',
+            excerpt:
+                'Enevate Corporation selects User Solutions\' Resource Manager database for advanced Li-ion battery production.',
+            slug: 'rmdb-v6-innovates-production-scheduling'
+        },
+        {
+            title: 'Scheduling System Narrows Skills Gap for Fire-Rated Glass',
+            date: 'August 31, 2016',
+            excerpt:
+                'Technical Glass Products expands use of Resource Manager-DB to optimize cross-trained workforce.',
+            slug: 'scheduling-system-narrows-skills-gap'
         }
     ];
 

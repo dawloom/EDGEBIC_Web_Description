@@ -228,7 +228,7 @@ export default function CompareProductsPage(): React.JSX.Element {
                                                 key={productIndex}
                                                 className="border-r border-slate-200 p-4 text-center last:border-r-0 dark:border-slate-700"
                                             >
-                                                {product.features[feature] ? (
+                                                {product.features[feature as keyof typeof product.features] ? (
                                                     <CheckCircle className="mx-auto size-5 text-green-600" />
                                                 ) : (
                                                     <X className="mx-auto size-5 text-slate-400" />

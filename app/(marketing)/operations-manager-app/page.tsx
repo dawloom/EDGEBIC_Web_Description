@@ -1,309 +1,98 @@
+import * as React from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
 
-export default function OperationsManagerAppPage() {
-  return (
-    <div className="min-h-screen bg-white">
-      {/* Header */}
-      <div className="bg-blue-600 py-6 text-white">
-        <div className="container mx-auto px-4">
-          <h1 className="text-center text-4xl font-bold">
-            Operations Manager: APP
-          </h1>
-          <p className="mt-4 text-center text-xl">
-            Aggregate Production Planning
-          </p>
+import { Badge } from '@/components/ui/badge';
+import { Button } from '@/components/ui/button';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+
+export default function OperationsManagerAppPage(): React.JSX.Element {
+    return (
+        <div className="min-h-screen bg-background">
+            {/* Hero Section */}
+            <section className="bg-gradient-to-r from-blue-600 to-blue-800 py-6 text-white dark:from-blue-800 dark:to-blue-900">
+                <div className="container mx-auto px-4">
+                    <div className="mx-auto max-w-7xl text-center">
+                        <div className="mb-6">
+                            <Badge
+                                variant="outline"
+                                className="h-8 rounded-full border-white/20 bg-white/10 px-3 text-sm font-medium text-white shadow-sm"
+                            >
+                                OPERATIONS MANAGER
+                            </Badge>
+                        </div>
+                        <h1 className="mb-6 text-4xl font-bold md:text-6xl">
+                            Operations Manager: APP
+                        </h1>
+                        <p className="mb-8 text-xl md:text-2xl">
+                            Aggregate Production Planning
+                        </p>
+                        <div className="flex flex-col justify-center gap-4 sm:flex-row">
+                            <Button
+                                size="lg"
+                                className="bg-white text-blue-600 hover:bg-gray-100"
+                            >
+                                Buy Now
+                            </Button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* Content Section */}
+            <section className="py-8">
+                <div className="container mx-auto px-4">
+                    <div className="mx-auto max-w-7xl">
+                        <Card>
+                            <CardHeader>
+                                <CardTitle className="text-center text-3xl">
+                                    Aggregate production planning (APP)
+                                </CardTitle>
+                            </CardHeader>
+                            <CardContent>
+                                <p className="text-lg leading-relaxed text-muted-foreground">
+                                    Aggregate production planning is the process of determining
+                                    (1) the timing and quantity of production, (2) the level of
+                                    inventories, (3) the number of workers employed, and (4) the
+                                    amount of overtime used for up to 12 months ahead. Production
+                                    and inventories are stated in overall or aggregate quantities,
+                                    such as number of automobiles without regard to model or color
+                                    or number of pairs of shoes without regard to style or size.
+                                    Cost minimization is rarely the only goal in aggregate
+                                    planning. Other considerations, such as stability of the
+                                    workforce and maintenance of adequate inventory levels, are
+                                    usually just as important.
+                                </p>
+                            </CardContent>
+                        </Card>
+                    </div>
+                </div>
+            </section>
+
+            {/* Award Section */}
+            <section className="py-8">
+                <div className="container mx-auto px-4">
+                    <div className="mx-auto max-w-7xl">
+                        <Card className="overflow-hidden bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20">
+                            <CardHeader>
+                                <CardTitle className="text-center text-2xl text-blue-900 dark:text-white">
+                                    CELEBRATING 25 YEARS OF AWARD WINNING SOFTWARE!
+                                </CardTitle>
+                            </CardHeader>
+                            <CardContent className="flex justify-center p-6">
+                                <div className="w-full max-w-4xl">
+                                    <Image
+                                        alt="Collection of industry and business awards logos"
+                                        className="h-auto w-full"
+                                        height={128}
+                                        src="https://www.usersolutions.com/wp-content/uploads/2022/07/banner-logoso-sm-58c9a28d237d6-1024x128.jpg"
+                                        width={1024}
+                                    />
+                                </div>
+                            </CardContent>
+                        </Card>
+                    </div>
+                </div>
+            </section>
         </div>
-      </div>
-
-      {/* Content */}
-      <div className="container mx-auto px-4 pt-6">
-        <div className="mx-auto max-w-7xl">
-          <div className="mb-12 text-center">
-            <Link
-              href="/pricing"
-              className="inline-block rounded-lg bg-blue-600 px-8 py-4 text-lg font-semibold text-white transition-colors hover:bg-blue-700"
-            >
-              Buy Now
-            </Link>
-          </div>
-
-          <div className="rounded-lg bg-gray-50 p-8 shadow-lg">
-            <h2 className="mb-6 text-center text-3xl font-bold text-gray-800">
-              Aggregate Production Planning (APP)
-            </h2>
-
-            <div className="space-y-6 leading-relaxed text-gray-700">
-              <p className="text-lg">
-                Aggregate production planning is the process of determining:
-              </p>
-
-              <ul className="ml-6 list-inside list-decimal space-y-2">
-                <li>The timing and quantity of production</li>
-                <li>The level of inventories</li>
-                <li>The number of workers employed</li>
-                <li>The amount of overtime used for up to 12 months ahead</li>
-              </ul>
-
-              <p>
-                Production and inventories are stated in overall or aggregate
-                quantities, such as number of automobiles without regard to
-                model or color or number of pairs of shoes without regard to
-                style or size.
-              </p>
-
-              <p>
-                Cost minimization is rarely the only goal in aggregate planning.
-                Other considerations, such as stability of the workforce and
-                maintenance of adequate inventory levels, are usually just as
-                important.
-              </p>
-            </div>
-
-            {/* Features */}
-            <div className="mt-6 grid gap-8 md:grid-cols-2">
-              <div className="rounded-lg bg-white p-6 shadow">
-                <h3 className="mb-4 text-xl font-bold text-gray-800">
-                  Key Features
-                </h3>
-                <ul className="space-y-2 text-gray-700">
-                  <li className="flex items-center">
-                    <svg
-                      className="mr-2 size-5 text-green-500"
-                      fill="currentColor"
-                      viewBox="0 0 20 20"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                        clipRule="evenodd"
-                      />
-                    </svg>
-                    12-month planning horizon
-                  </li>
-                  <li className="flex items-center">
-                    <svg
-                      className="mr-2 size-5 text-green-500"
-                      fill="currentColor"
-                      viewBox="0 0 20 20"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                        clipRule="evenodd"
-                      />
-                    </svg>
-                    Production quantity optimization
-                  </li>
-                  <li className="flex items-center">
-                    <svg
-                      className="mr-2 size-5 text-green-500"
-                      fill="currentColor"
-                      viewBox="0 0 20 20"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                        clipRule="evenodd"
-                      />
-                    </svg>
-                    Inventory level management
-                  </li>
-                  <li className="flex items-center">
-                    <svg
-                      className="mr-2 size-5 text-green-500"
-                      fill="currentColor"
-                      viewBox="0 0 20 20"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                        clipRule="evenodd"
-                      />
-                    </svg>
-                    Workforce planning
-                  </li>
-                  <li className="flex items-center">
-                    <svg
-                      className="mr-2 size-5 text-green-500"
-                      fill="currentColor"
-                      viewBox="0 0 20 20"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                        clipRule="evenodd"
-                      />
-                    </svg>
-                    Overtime calculation
-                  </li>
-                </ul>
-              </div>
-
-              <div className="rounded-lg bg-white p-6 shadow">
-                <h3 className="mb-4 text-xl font-bold text-gray-800">
-                  Benefits
-                </h3>
-                <ul className="space-y-2 text-gray-700">
-                  <li className="flex items-center">
-                    <svg
-                      className="mr-2 size-5 text-blue-500"
-                      fill="currentColor"
-                      viewBox="0 0 20 20"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                        clipRule="evenodd"
-                      />
-                    </svg>
-                    Cost optimization
-                  </li>
-                  <li className="flex items-center">
-                    <svg
-                      className="mr-2 size-5 text-blue-500"
-                      fill="currentColor"
-                      viewBox="0 0 20 20"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                        clipRule="evenodd"
-                      />
-                    </svg>
-                    Workforce stability
-                  </li>
-                  <li className="flex items-center">
-                    <svg
-                      className="mr-2 size-5 text-blue-500"
-                      fill="currentColor"
-                      viewBox="0 0 20 20"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                        clipRule="evenodd"
-                      />
-                    </svg>
-                    Inventory balance
-                  </li>
-                  <li className="flex items-center">
-                    <svg
-                      className="mr-2 size-5 text-blue-500"
-                      fill="currentColor"
-                      viewBox="0 0 20 20"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                        clipRule="evenodd"
-                      />
-                    </svg>
-                    Strategic planning
-                  </li>
-                  <li className="flex items-center">
-                    <svg
-                      className="mr-2 size-5 text-blue-500"
-                      fill="currentColor"
-                      viewBox="0 0 20 20"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                        clipRule="evenodd"
-                      />
-                    </svg>
-                    Demand flexibility
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            {/* Related Products */}
-            <div className="mt-6>
-              <h3 className="mb-6 text-center text-2xl font-bold text-gray-800">
-            Related Operations Manager Tools
-          </h3>
-          <div className="grid gap-4 md:grid-cols-3">
-            <Link
-              href="/operations-manager-eoq"
-              className="rounded-lg bg-blue-50 p-4 text-center transition-colors hover:bg-blue-100"
-            >
-              <h4 className="font-semibold text-gray-800">EOQ</h4>
-              <p className="text-sm text-gray-600">
-                Economic Order Quantity
-              </p>
-            </Link>
-            <Link
-              href="/operations-manager-mrp1"
-              className="rounded-lg bg-blue-50 p-4 text-center transition-colors hover:bg-blue-100"
-            >
-              <h4 className="font-semibold text-gray-800">MRP1</h4>
-              <p className="text-sm text-gray-600">
-                Material Requirements Planning
-              </p>
-            </Link>
-            <Link
-              href="/operations-manager-simple"
-              className="rounded-lg bg-blue-50 p-4 text-center transition-colors hover:bg-blue-100"
-            >
-              <h4 className="font-semibold text-gray-800">Simple</h4>
-              <p className="text-sm text-gray-600">
-                Basic Operations Tools
-              </p>
-            </Link>
-          </div>
-        </div>
-      </div>
-    </div>
-      </div >
-
-    {/* Awards Section */ }
-    < div className = "bg-gray-100 pt-6" >
-      <div className="container mx-auto px-4 text-center">
-        <h2 className="mb-8 text-3xl font-bold text-gray-800">
-          CELEBRATING 25 YEARS OF AWARD WINNING SOFTWARE!
-        </h2>
-        <Image
-          src="https://www.usersolutions.com/wp-content/uploads/2022/07/banner-logoso-sm-58c9a28d237d6-1024x128.jpg"
-          alt="Collection of industry and business awards logos"
-          width={1024}
-          height={128}
-          className="mx-auto"
-        />
-      </div>
-      </div >
-
-    {/* Contact Section */ }
-    < div className = "bg-blue-600 py-12 text-white" >
-      <div className="container mx-auto px-4 text-center">
-        <h2 className="mb-4 text-2xl font-bold">ABOUT US</h2>
-        <p className="mb-2">us@usersolutions.com</p>
-        <p className="mb-6">248.486.6365</p>
-
-        <h3 className="mb-4 text-xl font-bold">PRODUCTS</h3>
-        <div className="space-y-2">
-          <Link
-            href="/jsl-job-scheduler-lite"
-            className="block hover:underline"
-          >
-            Job Scheduler Lite (JSL)
-          </Link>
-          <Link
-            href="/resource-manager-db-2"
-            className="block hover:underline"
-          >
-            Resource Manager DB
-          </Link>
-          <Link
-            href="/edgebi"
-            className="block hover:underline"
-          >
-            EDGEBI
-          </Link>
-        </div>
-      </div>
-      </div >
-    </div >
-  );
+    );
 }
