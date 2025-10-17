@@ -115,7 +115,7 @@ export default function ThankYouResourceManagerExcelPage() {
       </section>
 
       {/* Awards Section */}
-      <section className="pb-6">
+      <section>
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-7xl">
             <Card className="bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20">

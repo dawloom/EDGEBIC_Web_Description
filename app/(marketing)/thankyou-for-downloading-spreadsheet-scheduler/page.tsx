@@ -28,7 +28,7 @@ export default function ThankYouSpreadsheetSchedulerPage() {
       </section>
 
       {/* Thank You Content */}
-      <section className="py-6">
+      <section className="pt-6">
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-7xl">
             <div className="mb-6 text-center">
