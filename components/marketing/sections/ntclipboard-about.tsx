@@ -117,7 +117,7 @@ export function NTClipboardAbout(): React.JSX.Element {
 
                 {/* Team Leaders Section */}
                 <div className="mt-8">
-                    <div className="mb-8 text-center">
+                    <div className="mb-6 text-center">
                         <h2 className="mb-4 text-3xl font-bold text-slate-900 dark:text-white">
                             Team Leaders
                         </h2>

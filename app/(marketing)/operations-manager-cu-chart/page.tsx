@@ -42,16 +42,20 @@ export default function OperationsManagerCuChartPage(): React.JSX.Element {
                         <Card>
                             <CardHeader>
                                 <CardTitle className="text-center text-3xl">
-                                    CU Sum Chart (Cumulative Sum)
+                                    Control Chart For Number of Defective (CU-CHART)
                                 </CardTitle>
                             </CardHeader>
                             <CardContent className="space-y-6">
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    The CU chart (cumulative sum chart) is used to monitor process mean shifts. It is particularly effective at detecting small sustained shifts in the process mean. The chart plots the cumulative sum of deviations from a target value, making trends more visible than traditional control charts.
+                                    Occasionally, product classification as merely good or bad is not enough and variable measurements do not apply. For example, in evaluating the quality of a new automobile, there could be many defects but it would be misleading to classify the entire automobile as unacceptable. The solution in situations like this is another attributes chart, the CU-CHART, which monitors the number of defects per inspection unit. In general, the inspection unit is usually expected to have some defects and we wish to know whether the number of defects is excessive. CU-CHART is also valuable when dimensions or units of measure complicate quality assessments.
                                 </p>
 
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    CU charts are more sensitive to small process shifts compared to Shewhart control charts (like X-bar and R charts). They are especially useful in situations where you need to detect gradual drift or small changes in process performance over time.
+                                    For example, suppose that a coil of steel is 100 meters long and contains 7 lamination defects. What is the defect rate? It could be 7/100 = 7%. But the defects are small, each perhaps a centimeter in length. There are 10,000 centimeters in the coil so the defect rate becomes 0.07%. We could also compute the square centimeters in the area of the coil and compute yet another defect rate. The only sensible way around this problem with dimensions is to state quality in terms of total number of defects per inspection unit.
+                                </p>
+
+                                <p className="text-lg leading-relaxed text-muted-foreground">
+                                    Three conditions must be satisfied to use CU-CHART. First, the definition of an inspection unit must be constant from one time period to the next. Second, there must be a very large number of opportunities for defects to occur in each unit produced. Third, the probability that a defect will occur at any particular location in each unit must be very small.
                                 </p>
                             </CardContent>
                         </Card>

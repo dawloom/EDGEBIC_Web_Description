@@ -17,7 +17,7 @@ export default function JSLDownloadPage(): React.JSX.Element {
     return (
         <div className="container mx-auto px-4 pt-6">
             {/* Page Badge */}
-            <div className="mb-8 text-center">
+            <div className="mb-6 text-center">
                 <Badge
                     variant="outline"
                     className="h-8 rounded-full px-3 text-sm font-medium shadow-sm"
@@ -26,7 +26,7 @@ export default function JSLDownloadPage(): React.JSX.Element {
                 </Badge>
             </div>
             {/* Header Section */}
-            <div className="mb-12 text-center">
+            <div className="mb-6 text-center">
                 <h1 className="mb-6 text-4xl font-bold">
                     <a
                         href="https://www.usersolutions.com/wp-content/uploads/2022/10/JSLsetup.zip"
@@ -42,7 +42,7 @@ export default function JSLDownloadPage(): React.JSX.Element {
             </div>
 
             {/* System Requirements */}
-            <div className="mb-8 text-center">
+            <div className="mb-6 text-center">
                 <div className="inline-block rounded-lg bg-blue-50 px-6 py-4 dark:bg-blue-950/20">
                     <p className="text-sm font-medium text-blue-800 dark:text-blue-200">
                         <strong>System Requirements:</strong> Excel installed (used as
@@ -52,7 +52,7 @@ export default function JSLDownloadPage(): React.JSX.Element {
             </div>
 
             {/* Form Introduction */}
-            <div className="mb-8 text-center">
+            <div className="mb-6 text-center">
                 <p className="text-lg text-muted-foreground">
                     Please fill the form to go to download link page.
                 </p>

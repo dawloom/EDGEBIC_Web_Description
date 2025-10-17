@@ -20,7 +20,7 @@ export default function ProductionSchedulingProductsVideosPage() {
                         <h1 className="mb-6 text-4xl font-bold md:text-5xl">
                             Product Videos
                         </h1>
-                        <p className="mb-8 text-xl text-blue-100">
+                        <p className="mb-6 text-xl text-blue-100">
                             Production Scheduling Products | Excel Applications | Resource
                             Manager for Excel (RMX) Videos
                         </p>
@@ -33,7 +33,7 @@ export default function ProductionSchedulingProductsVideosPage() {
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-7xl">
                         {/* Welcome */}
-                        <Card className="mb-8">
+                        <Card className="mb-6">
                             <CardHeader>
                                 <CardTitle className="text-2xl">Welcome</CardTitle>
                             </CardHeader>
@@ -55,7 +55,7 @@ export default function ProductionSchedulingProductsVideosPage() {
                         </Card>
 
                         {/* Video Grid - 2 columns */}
-                        <div className="mb-8 grid gap-6 md:grid-cols-2">
+                        <div className="mb-6 grid gap-6 md:grid-cols-2">
                             {/* Resource Manager DB */}
                             <Card>
                                 <CardHeader>
@@ -184,7 +184,7 @@ export default function ProductionSchedulingProductsVideosPage() {
                         </div>
 
                         {/* Training Videos Section */}
-                        <Card className="mb-8 border-blue-200 bg-blue-50 dark:border-blue-800 dark:bg-blue-900/20">
+                        <Card className="mb-6 border-blue-200 bg-blue-50 dark:border-blue-800 dark:bg-blue-900/20">
                             <CardHeader>
                                 <CardTitle className="text-2xl">
                                     Resource Manager Training Videos (RMX)

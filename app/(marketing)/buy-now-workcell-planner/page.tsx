@@ -19,7 +19,7 @@ export default function BuyNowWorkcellPlannerPage() {
                         <h1 className="mb-6 text-4xl font-bold md:text-5xl">
                             Purchase Workcell Planner
                         </h1>
-                        <p className="mb-8 text-xl md:text-2xl">
+                        <p className="mb-6 text-xl md:text-2xl">
                             Capacity planning and resource optimization
                         </p>
                     </div>

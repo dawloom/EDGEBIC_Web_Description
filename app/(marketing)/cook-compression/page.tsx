@@ -42,7 +42,7 @@ export default function CookCompressionPage(): React.JSX.Element {
               </p>
             </div>
 
-            <div className="mb-8 text-center">
+            <div className="mb-6 text-center">
               <Image
                 src="https://www.usersolutions.com/wp-content/uploads/2022/07/cook.jpg"
                 alt="Cook Compression Logo"
@@ -59,7 +59,7 @@ export default function CookCompressionPage(): React.JSX.Element {
       <section className="py-6">
         <div className="container mx-auto max-w-7xl px-4">
           {/* Main Testimonial */}
-          <Card className="mb-12 bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20">
+          <Card className="mb-6 bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20">
             <CardHeader>
               <CardTitle className="flex items-center gap-2 text-blue-700 dark:text-blue-300">
                 <Star className="size-6 fill-yellow-400 text-yellow-400" />
@@ -102,7 +102,7 @@ export default function CookCompressionPage(): React.JSX.Element {
           </Card>
 
           {/* Complete Testimonial */}
-          <Card className="mb-12 bg-gradient-to-br from-slate-50 to-slate-100 dark:from-slate-900/20 dark:to-slate-800/20">
+          <Card className="mb-6 bg-gradient-to-br from-slate-50 to-slate-100 dark:from-slate-900/20 dark:to-slate-800/20">
             <CardHeader>
               <CardTitle>Complete Customer Testimonial</CardTitle>
               <CardDescription>
@@ -139,7 +139,7 @@ export default function CookCompressionPage(): React.JSX.Element {
           </Card>
 
           {/* Key Highlights */}
-          <div className="mb-12 grid gap-8 md:grid-cols-2">
+          <div className="mb-6 grid gap-8 md:grid-cols-2">
             <Card>
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
@@ -213,7 +213,7 @@ export default function CookCompressionPage(): React.JSX.Element {
           </div>
 
           {/* Trust & Reliability */}
-          <Card className="mb-12">
+          <Card className="mb-6">
             <CardHeader>
               <CardTitle className="flex items-center gap-2">
                 <Handshake className="size-6 text-orange-600" />
@@ -256,7 +256,7 @@ export default function CookCompressionPage(): React.JSX.Element {
           </Card>
 
           {/* Final Testimonial Quote */}
-          <Card className="mb-12 bg-gradient-to-br from-yellow-50 to-yellow-100 dark:from-yellow-900/20 dark:to-yellow-800/20">
+          <Card className="mb-6 bg-gradient-to-br from-yellow-50 to-yellow-100 dark:from-yellow-900/20 dark:to-yellow-800/20">
             <CardContent className="p-8 text-center">
               <blockquote className="mb-4 text-xl text-slate-700 dark:text-slate-300">
                 "Manufacturing scheduling software with fantastic support"
@@ -268,7 +268,7 @@ export default function CookCompressionPage(): React.JSX.Element {
           </Card>
 
           {/* Why Choose User Solutions */}
-          <Card className="mb-12">
+          <Card className="mb-6">
             <CardHeader>
               <CardTitle>What Sets User Solutions Apart</CardTitle>
               <CardDescription>

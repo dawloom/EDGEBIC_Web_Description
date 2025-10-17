@@ -36,7 +36,7 @@ export default function CartPage() {
                         <h2 className="mb-4 text-2xl font-semibold text-gray-800">
                             Your cart is empty
                         </h2>
-                        <p className="mb-8 text-gray-600">
+                        <p className="mb-6 text-gray-600">
                             Browse our products and add items to your cart to get started.
                         </p>
                         <div className="space-y-4">
@@ -59,7 +59,7 @@ export default function CartPage() {
 
                     {/* Featured Products */}
                     <div className="mt-16">
-                        <h3 className="mb-8 text-center text-2xl font-bold text-gray-800">
+                        <h3 className="mb-6 text-center text-2xl font-bold text-gray-800">
                             Featured Products
                         </h3>
                         <div className="grid gap-6 md:grid-cols-3">

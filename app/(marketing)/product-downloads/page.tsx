@@ -23,7 +23,7 @@ export default function ProductDownloadsPage(): React.JSX.Element {
             </Head>
             <div className="container mx-auto px-4 pt-6">
                 {/* Product Downloads Badge */}
-                <div className="mb-8 text-center">
+                <div className="mb-6 text-center">
                     <Badge
                         variant="outline"
                         className="h-8 rounded-full px-3 text-sm font-medium shadow-sm"
@@ -51,7 +51,7 @@ export default function ProductDownloadsPage(): React.JSX.Element {
                 </div>
 
                 {/* Download Instructions */}
-                <div className="mb-12 rounded-lg bg-yellow-50 p-6 dark:bg-yellow-900/20">
+                <div className="mb-6 rounded-lg bg-yellow-50 p-6 dark:bg-yellow-900/20">
                     <h3 className="mb-3 text-lg font-semibold text-yellow-800 dark:text-yellow-200">
                         NOTE ON DOWNLOADS:
                     </h3>

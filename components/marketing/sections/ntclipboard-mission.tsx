@@ -38,7 +38,7 @@ export function NTClipboardMission(): React.JSX.Element {
                             Mission Statement
                         </div>
 
-                        <blockquote className="mb-8 text-2xl font-bold leading-relaxed text-slate-900 dark:text-white md:text-3xl">
+                        <blockquote className="mb-6 text-2xl font-bold leading-relaxed text-slate-900 dark:text-white md:text-3xl">
                             "Empower manufacturers to become more competitive and profitable
                             through efficient resource management tools that are affordable,
                             adaptable, and easily implemented."
@@ -69,7 +69,7 @@ export function NTClipboardMission(): React.JSX.Element {
                         <h3 className="mb-6 text-center text-2xl font-bold text-slate-900 dark:text-white md:text-3xl">
                             Complete Manufacturing Solutions Portfolio
                         </h3>
-                        <p className="mb-8 text-center text-lg text-slate-700 dark:text-slate-300">
+                        <p className="mb-6 text-center text-lg text-slate-700 dark:text-slate-300">
                             From adding a Finite Capacity Scheduling capability to any ERP
                             system, or providing Material Requirements Planning for smaller
                             operations who only have a simple accounting solution, or
@@ -127,7 +127,7 @@ export function NTClipboardMission(): React.JSX.Element {
                         id="values"
                         className="rounded-3xl border bg-gradient-to-br from-slate-50 to-slate-100 p-8 dark:from-slate-900 dark:to-slate-800 md:p-12"
                     >
-                        <h3 className="mb-8 text-center text-2xl font-bold text-slate-900 dark:text-white md:text-3xl">
+                        <h3 className="mb-6 text-center text-2xl font-bold text-slate-900 dark:text-white md:text-3xl">
                             Our Core Values
                         </h3>
                         <div className="grid gap-8 md:grid-cols-3">
@@ -171,7 +171,7 @@ export function NTClipboardMission(): React.JSX.Element {
                         id="contact-info"
                         className="rounded-3xl border bg-gradient-to-br from-blue-50 to-slate-50 p-8 dark:from-blue-900/20 dark:to-slate-900 md:p-12"
                     >
-                        <h3 className="mb-8 text-center text-2xl font-bold text-slate-900 dark:text-white md:text-3xl">
+                        <h3 className="mb-6 text-center text-2xl font-bold text-slate-900 dark:text-white md:text-3xl">
                             Get in Touch
                         </h3>
                         <div className="grid gap-8 md:grid-cols-3">
@@ -210,7 +210,7 @@ export function NTClipboardMission(): React.JSX.Element {
                         id="history"
                         className="rounded-3xl border bg-gradient-to-br from-slate-50 to-slate-100 p-8 dark:from-slate-900 dark:to-slate-800 md:p-12"
                     >
-                        <h3 className="mb-8 text-center text-2xl font-bold text-slate-900 dark:text-white md:text-3xl">
+                        <h3 className="mb-6 text-center text-2xl font-bold text-slate-900 dark:text-white md:text-3xl">
                             Our Journey: 30+ Years of Manufacturing Excellence
                         </h3>
 

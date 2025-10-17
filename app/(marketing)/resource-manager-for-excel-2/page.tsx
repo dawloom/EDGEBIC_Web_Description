@@ -19,7 +19,7 @@ export default function ResourceManagerForExcel2Page() {
             <h1 className="mb-6 text-4xl font-bold md:text-5xl">
               Resource Manager For Excel
             </h1>
-            <p className="mb-8 text-xl md:text-2xl">
+            <p className="mb-6 text-xl md:text-2xl">
               Basic MRP and Shop Scheduling with Excel
             </p>
             <div className="flex flex-col justify-center gap-4 sm:flex-row">
@@ -133,7 +133,7 @@ export default function ResourceManagerForExcel2Page() {
       <section className="pt-6">
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-7xl">
-            <h2 className="mb-12 text-center text-3xl font-bold text-foreground">
+            <h2 className="mb-6 text-center text-3xl font-bold text-foreground">
               Features
             </h2>
             <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">

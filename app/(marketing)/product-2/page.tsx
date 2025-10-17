@@ -229,7 +229,7 @@ export default function Product2Page(): React.JSX.Element {
       {/* Product Comparison Matrix */}
       <section className="py-6">
         <div className="container mx-auto max-w-7xl px-4">
-          <div className="mb-8 text-center">
+          <div className="mb-6 text-center">
             <h2 className="mb-4 text-3xl font-bold md:text-4xl">
               Choose the Right Solution for Your Business
             </h2>
@@ -402,7 +402,7 @@ export default function Product2Page(): React.JSX.Element {
             <h2 className="mb-4 text-3xl font-bold">
               Want to get your production in the groove?
             </h2>
-            <p className="mb-8 text-lg text-muted-foreground">
+            <p className="mb-6 text-lg text-muted-foreground">
               Watch this classic video and get your operations movin' and
               groovin' today!
             </p>

@@ -31,23 +31,23 @@ export default function ThankYouSpreadsheetSchedulerPage() {
       <section className="py-6">
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-7xl">
-            <div className="mb-12 text-center">
+            <div className="mb-6 text-center">
               <Image
                 src="https://www.usersolutions.com/wp-content/uploads/2022/10/thankyou.jpg"
                 alt="Customer service representative smiling with headset at computer"
                 width={600}
                 height={400}
-                className="mx-auto mb-8 rounded-lg shadow-lg"
+                className="mx-auto mb-6 rounded-lg shadow-lg"
               />
             </div>
 
-            <Card className="mb-8">
+            <Card className="mb-6">
               <CardContent className="p-8">
                 <h2 className="mb-6 text-center text-3xl font-bold">
                   Thank you for your interest
                 </h2>
 
-                <div className="mb-8 text-center">
+                <div className="mb-6 text-center">
                   <Link
                     href="https://www.usersolutions.com/US_SS-2023D.xlsm"
                     className="inline-block rounded-lg bg-blue-600 px-8 py-4 text-lg font-semibold text-white transition-colors hover:bg-blue-700"
@@ -105,7 +105,7 @@ export default function ThankYouSpreadsheetSchedulerPage() {
 
             {/* Related Products */}
             <div className="mt-16">
-              <h3 className="mb-8 text-center text-2xl font-bold">
+              <h3 className="mb-6 text-center text-2xl font-bold">
                 You might also be interested in:
               </h3>
               <div className="grid gap-6 md:grid-cols-3">

@@ -47,7 +47,7 @@ export default function NistMepIndustrialDampingPage() {
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-7xl">
             {/* Featured Image */}
-            <div className="mb-8 flex justify-center">
+            <div className="mb-6 flex justify-center">
               <Image
                 src="https://www.usersolutions.com/wp-content/uploads/2022/07/PowerTower-119x300-1.jpg"
                 alt="ACE Controls Inc. company logo"

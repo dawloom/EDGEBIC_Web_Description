@@ -283,7 +283,7 @@ export function NTClipboardToolBox(): React.JSX.Element {
 
                     {/* Solutions for Every Business Size */}
                     <div className="mt-20">
-                        <div className="mb-12 text-center">
+                        <div className="mb-6 text-center">
                             <h2 className="mb-4 text-3xl font-bold md:text-4xl">
                                 From Job Shops to SMBs to Multi-Nationals
                             </h2>

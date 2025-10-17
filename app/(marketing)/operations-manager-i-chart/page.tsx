@@ -23,7 +23,7 @@ export default function IChartPage(): React.JSX.Element {
                         <h1 className="mb-6 text-4xl font-bold md:text-6xl">
                             Operations Manager: I-CHART
                         </h1>
-                        <p className="mb-8 text-xl md:text-2xl">
+                        <p className="mb-6 text-xl md:text-2xl">
                             Individual Observations Control Chart
                         </p>
                         <div className="flex flex-col justify-center gap-4 sm:flex-row">
@@ -42,7 +42,7 @@ export default function IChartPage(): React.JSX.Element {
             <section className="pt-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-7xl">
-                        <Card className="mb-8">
+                        <Card>
                             <CardHeader>
                                 <CardTitle className="text-center text-3xl">
                                     Individual Observations (I-CHART)

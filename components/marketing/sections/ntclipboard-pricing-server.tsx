@@ -55,11 +55,11 @@ export async function NTClipboardPricing(): Promise<React.JSX.Element> {
                 <div className="mb-2 bg-gradient-to-r from-orange-500 to-red-500 bg-clip-text text-6xl font-bold text-transparent">
                   {displayPrice}
                 </div>
-                <p className="mb-8 text-muted-foreground">
+                <p className="mb-6 text-muted-foreground">
                   One-time payment • Lifetime license
                 </p>
 
-                <div className="mb-8 space-y-4">
+                <div className="mb-6 space-y-4">
                   {features.map((feature, index) => (
                     <div
                       key={index}

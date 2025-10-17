@@ -25,7 +25,7 @@ export function NTClipboardMissionOnly(): React.JSX.Element {
                             Mission Statement
                         </div>
 
-                        <blockquote className="mb-8 text-2xl font-bold leading-relaxed text-slate-900 dark:text-white md:text-3xl">
+                        <blockquote className="mb-6 text-2xl font-bold leading-relaxed text-slate-900 dark:text-white md:text-3xl">
                             "Empower manufacturers to become more competitive and profitable
                             through efficient resource management tools that are affordable,
                             adaptable, and easily implemented."

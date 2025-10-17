@@ -19,7 +19,7 @@ export default function BuyNowOperationsManagerPage() {
                         <h1 className="mb-6 text-4xl font-bold md:text-5xl">
                             Purchase Operations Manager
                         </h1>
-                        <p className="mb-8 text-xl md:text-2xl">
+                        <p className="mb-6 text-xl md:text-2xl">
                             The complete toolkit for operations excellence
                         </p>
                     </div>

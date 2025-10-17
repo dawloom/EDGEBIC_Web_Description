@@ -13,7 +13,7 @@ export default function SpreadsheetQCPage() {
                         <h1 className="mb-6 text-4xl font-bold md:text-5xl">
                             Spreadsheet QC
                         </h1>
-                        <p className="mb-8 text-xl md:text-2xl">
+                        <p className="mb-6 text-xl md:text-2xl">
                             Quality Control and Statistical Process Control with Excel
                         </p>
                         <div className="flex flex-col justify-center gap-4 sm:flex-row">
@@ -181,7 +181,7 @@ export default function SpreadsheetQCPage() {
             <section className="bg-muted/50 py-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-7xl">
-                        <h2 className="mb-12 text-center text-3xl font-bold text-foreground">
+                        <h2 className="mb-6 text-center text-3xl font-bold text-foreground">
                             Features
                         </h2>
                         <div className="grid gap-8 md:grid-cols-2">

@@ -77,12 +77,12 @@ export function HeroContent(): React.JSX.Element {
         className="flex min-h-[500px] flex-col items-center justify-center px-4 pb-20 pt-16 text-center text-white"
       >
         {/* Main Title */}
-        <h1 className="mb-8 text-4xl font-bold text-white md:text-5xl lg:text-6xl">
+        <h1 className="mb-6 text-4xl font-bold text-white md:text-5xl lg:text-6xl">
           Production Planning and Scheduling Software
         </h1>
 
         {/* Description */}
-        <div className="mb-8 max-w-4xl text-lg md:text-xl lg:text-2xl">
+        <div className="mb-6 max-w-4xl text-lg md:text-xl lg:text-2xl">
           <p className="mb-4">
             What makes <span className="font-bold italic">US</span> (User
             Solution) unique: we work{' '}
@@ -97,7 +97,7 @@ export function HeroContent(): React.JSX.Element {
         </div>
 
         {/* Action Buttons */}
-        <div className="mb-8 flex flex-col gap-4 sm:flex-row">
+        <div className="mb-6 flex flex-col gap-4 sm:flex-row">
           <button
             onClick={handleFirstVideoButtonClick}
             className="flex items-center gap-2 rounded-full bg-yellow-400 px-6 py-3 font-semibold text-black transition-all hover:bg-yellow-300 hover:shadow-lg"

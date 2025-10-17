@@ -6,7 +6,7 @@ import { ExternalLinkIcon } from 'lucide-react';
 import { slugify } from '@/lib/urls/slugify';
 import { cn } from '@/lib/utils';
 
-const annotatedLayoutVariants = cva('py-8', {
+const annotatedLayoutVariants = cva('py-6', {
   variants: {
     spacing: {
       small: 'space-y-6',

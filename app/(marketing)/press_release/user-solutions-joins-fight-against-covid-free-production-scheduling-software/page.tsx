@@ -29,7 +29,7 @@ export default function CovidPressReleasePage() {
             <div className="container mx-auto px-4 pt-6">
                 <div className="mx-auto max-w-4xl">
                     <article className="prose prose-lg max-w-none">
-                        <header className="mb-12">
+                        <header className="mb-6">
                             <p className="text-lg font-semibold text-gray-700 dark:text-gray-300">
                                 South Lyon, MI - April 7, 2020
                             </p>

@@ -191,7 +191,7 @@ export default function ShopPage() {
                     <h2 className="mb-4 text-3xl font-bold text-gray-800">
                         Want to get your production in the groove?
                     </h2>
-                    <p className="mb-8 text-xl text-gray-600">
+                    <p className="mb-6 text-xl text-gray-600">
                         Watch this classic video and get your operations movin' and groovin'
                         today!
                     </p>

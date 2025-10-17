@@ -22,7 +22,7 @@ export default function ThankYouDownloadWorkcellPlannerPage() {
                         <h1 className="mb-6 text-4xl font-bold md:text-5xl">
                             Thank You for Downloading!
                         </h1>
-                        <p className="mb-8 text-xl md:text-2xl">
+                        <p className="mb-6 text-xl md:text-2xl">
                             Your Workcell Planner download should begin shortly
                         </p>
                     </div>

@@ -36,7 +36,7 @@ export default function Mrp1Page(): React.JSX.Element {
             </section>
 
             {/* EOQ Content */}
-            <section className="pt-6">
+            <section className="py-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-7xl">
                         <Card>

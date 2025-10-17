@@ -20,7 +20,7 @@ export default function ExcelApplicationsPage() {
             <h1 className="mb-6 bg-gradient-to-r from-green-600 to-blue-600 bg-clip-text text-4xl font-bold text-transparent md:text-5xl">
               Excel Applications
             </h1>
-            <p className="mb-8 text-xl text-gray-700 dark:text-gray-300">
+            <p className="mb-6 text-xl text-gray-700 dark:text-gray-300">
               Choose the product that best suits your company's needs by using
               our product matrix
             </p>
@@ -332,7 +332,7 @@ export default function ExcelApplicationsPage() {
                 <h2 className="mb-4 text-3xl font-bold dark:text-white">
                   Want to get your production in the groove?
                 </h2>
-                <p className="mb-8 text-xl text-gray-700 dark:text-gray-300">
+                <p className="mb-6 text-xl text-gray-700 dark:text-gray-300">
                   Watch this classic video and get your operations movin' and
                   groovin' today!
                 </p>

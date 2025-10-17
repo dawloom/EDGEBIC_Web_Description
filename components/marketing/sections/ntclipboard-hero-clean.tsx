@@ -99,7 +99,7 @@ export async function NTClipboardHero(): Promise<React.JSX.Element> {
             <br />
             Like Never Before
           </h1>
-          <p className="mx-auto mb-8 max-w-3xl text-xl text-muted-foreground md:text-2xl">
+          <p className="mx-auto mb-6 max-w-3xl text-xl text-muted-foreground md:text-2xl">
             Transform your workflow with NTClipboard - the ultimate tool for
             extracting and managing data from PDFs with seamless clipboard
             integration.

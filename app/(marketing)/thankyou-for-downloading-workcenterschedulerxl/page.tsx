@@ -15,7 +15,7 @@ export default function ThankYouWorkCenterSchedulerXLPage() {
                         <img
                             src="https://www.usersolutions.com/wp-content/uploads/2022/10/thankyou.jpg"
                             alt="Customer service representative smiling with headset at computer"
-                            className="mb-8 h-auto w-full rounded-lg shadow-xl"
+                            className="mb-6 h-auto w-full rounded-lg shadow-xl"
                         />
                     </div>
                 </div>

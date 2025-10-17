@@ -255,7 +255,7 @@ export default function ResourceManagerDBPage(): React.JSX.Element {
                 <div className="container pt-6">
                     <div className="mx-auto max-w-7xl">
                         {/* Navigation Pills */}
-                        {/* <div className="mb-12 flex flex-wrap justify-center gap-3">
+                        {/* <div className="mb-6 flex flex-wrap justify-center gap-3">
                             {navigationItems.map((item, index) => (
                                 <Button
                                     key={index}
@@ -308,7 +308,7 @@ export default function ResourceManagerDBPage(): React.JSX.Element {
                 className="bg-slate-50 py-6 dark:bg-slate-900"
             >
                 <div className="container mx-auto max-w-7xl px-4">
-                    <div className="mb-12 text-center">
+                    <div className="mb-6 text-center">
                         <h2 className="mb-4 text-3xl font-bold md:text-4xl">
                             RESOURCE MANAGER DB: SUMMARY
                         </h2>
@@ -371,7 +371,7 @@ export default function ResourceManagerDBPage(): React.JSX.Element {
             {/* Features Section */}
             <section className="pb-6">
                 <div className="container mx-auto max-w-7xl px-4">
-                    <div className="mb-12 text-center">
+                    <div className="mb-6 text-center">
                         <h2 className="mb-4 text-3xl font-bold md:text-4xl">Features</h2>
                         <p className="text-xl text-muted-foreground">
                             RMDB contains deep functionality to address a multitude of

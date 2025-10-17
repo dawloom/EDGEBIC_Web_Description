@@ -179,7 +179,7 @@ export default function CheckoutPage() {
                             </h2>
 
                             {/* Empty Order State */}
-                            <div className="py-8 text-center">
+                            <div className="py-6 text-center">
                                 <div className="mb-4">
                                     <svg
                                         className="mx-auto size-16 text-gray-400"

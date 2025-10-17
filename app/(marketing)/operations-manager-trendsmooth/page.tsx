@@ -23,7 +23,7 @@ export default function TrendsmoothPage(): React.JSX.Element {
                         <h1 className="mb-6 text-4xl font-bold md:text-6xl">
                             Operations Manager: TRENDSMOOTH
                         </h1>
-                        <p className="mb-8 text-xl md:text-2xl">
+                        <p className="mb-6 text-xl md:text-2xl">
                             Smoothing linear, exponential, and damped trends for accurate
                             forecasting
                         </p>
@@ -43,13 +43,13 @@ export default function TrendsmoothPage(): React.JSX.Element {
             <section className="pt-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-7xl">
-                        <h2 className="mb-8 text-center text-3xl font-bold text-foreground">
+                        <h2 className="mb-6 text-center text-3xl font-bold text-foreground">
                             Smoothing linear, exponential, and damped trends (TRENDSMOOTH)
                         </h2>
 
                         <Card className="mb-6">
                             <CardContent className="pt-6">
-                                <p className="mb-6 text-lg leading-relaxed text-muted-foreground">
+                                <p className="text-lg leading-relaxed text-muted-foreground">
                                     Exponential smoothing with a trend works much like simple
                                     smoothing except that two components must be updated each
                                     period: level and trend. The level is a smoothed estimate of
@@ -93,7 +93,7 @@ export default function TrendsmoothPage(): React.JSX.Element {
                                     produce:
                                 </p>
 
-                                <ul className="mb-8 list-disc space-y-2 pl-6 text-muted-foreground">
+                                <ul className="list-disc space-y-2 pl-6 text-muted-foreground">
                                     <li>
                                         <strong>Linear or straight-line trend</strong>
                                     </li>
@@ -108,7 +108,7 @@ export default function TrendsmoothPage(): React.JSX.Element {
                                 </ul>
                             </CardContent>
                         </Card>
-                        <Card className="mb-2 bg-primary/10">
+                        <Card className="mt-6 bg-primary/10">
                             <CardContent className="pt-6">
                                 <h3 className="mb-3 text-xl font-semibold text-primary">
                                     Key Benefits

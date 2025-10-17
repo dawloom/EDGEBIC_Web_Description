@@ -13,7 +13,7 @@ export default function Top10ManufacturingKPIsPage() {
                         <h1 className="mb-6 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-4xl font-bold text-transparent md:text-5xl">
                             Top 10 Manufacturing KPIs in 2024
                         </h1>
-                        <p className="mb-8 text-xl text-gray-700">
+                        <p className="mb-6 text-xl text-gray-700">
                             Understanding your efficiency can be challenging without clear
                             benchmarks and objectives. This is where Key Performance
                             Indicators (KPIs) in manufacturing prove invaluable.
@@ -632,7 +632,7 @@ export default function Top10ManufacturingKPIsPage() {
             <section className="bg-gray-50 pb-6 pt-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-7xl text-center">
-                        <h2 className="mb-8 text-3xl font-bold">
+                        <h2 className="mb-6 text-3xl font-bold">
                             Celebrating 25 Years of Award Winning Software!
                         </h2>
                         <div className="rounded-lg bg-white p-8 shadow-lg">

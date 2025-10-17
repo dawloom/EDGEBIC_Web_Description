@@ -19,7 +19,7 @@ export default function SecurityGuidePage(): React.JSX.Element {
             <div className="container mx-auto px-4 pt-6">
                 <div className="mx-auto max-w-7xl">
                     {/* Hero Section */}
-                    <div className="mb-8 text-center">
+                    <div className="mb-6 text-center">
                         <Badge
                             variant="outline"
                             className="h-8 rounded-full px-3 text-sm font-medium shadow-sm"
@@ -30,7 +30,7 @@ export default function SecurityGuidePage(): React.JSX.Element {
                     <h1 className="mb-6 bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-center text-5xl font-bold text-transparent md:text-6xl">
                         Security Guide
                     </h1>
-                    <p className="mb-8 text-center text-xl text-muted-foreground md:text-2xl">
+                    <p className="mb-6 text-center text-xl text-muted-foreground md:text-2xl">
                         Step-by-step guide to improve security for Windows, anti-virus
                         programs and Excel macros
                     </p>

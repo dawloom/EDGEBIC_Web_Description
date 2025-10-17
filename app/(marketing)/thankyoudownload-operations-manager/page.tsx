@@ -2,12 +2,7 @@ import Link from 'next/link';
 import { CheckCircle } from 'lucide-react';
 
 import { Button } from '@/components/ui/button';
-import {
-    Card,
-    CardContent,
-    CardHeader,
-    CardTitle
-} from '@/components/ui/card';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 export default function ThankYouDownloadOperationsManagerPage() {
     return (
@@ -22,7 +17,7 @@ export default function ThankYouDownloadOperationsManagerPage() {
                         <h1 className="mb-6 text-4xl font-bold md:text-5xl">
                             Thank You for Downloading!
                         </h1>
-                        <p className="mb-8 text-xl md:text-2xl">
+                        <p className="mb-6 text-xl md:text-2xl">
                             Your Operations Manager download should begin shortly
                         </p>
                     </div>

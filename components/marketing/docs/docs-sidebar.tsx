@@ -15,7 +15,7 @@ export function DocsSidebar(): React.JSX.Element {
   }
   return (
     <div className="w-full space-y-4">
-      <div className="mb-8 p-1">
+      <div className="mb-6 p-1">
         <DocsSearch />
       </div>
       {DOCS_LINKS.map((item, index) => (

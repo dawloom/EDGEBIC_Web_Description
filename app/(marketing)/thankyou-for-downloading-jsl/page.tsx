@@ -32,19 +32,19 @@ export default function ThankYouJSLPage() {
       <section className="pb-6 pt-6">
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-7xl">
-            <Card className="mb-8">
+            <Card className="mb-6">
               <CardContent className="p-8">
-                <div className="mb-8 text-center">
+                <div className="mb-6 text-center">
                   <Image
                     src="https://www.usersolutions.com/wp-content/uploads/2022/10/thankyou.jpg"
                     alt="Customer service representative smiling with headset at computer"
                     width={600}
                     height={400}
-                    className="mx-auto mb-8 rounded-lg shadow-lg"
+                    className="mx-auto mb-6 rounded-lg shadow-lg"
                   />
                 </div>
 
-                <div className="mb-8 text-center">
+                <div className="mb-6 text-center">
                   <Link
                     href="/jsl-job-scheduler-lite-download"
                     className="inline-block rounded-lg bg-blue-600 px-8 py-4 text-lg font-semibold text-white transition-colors hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600"
@@ -105,7 +105,7 @@ export default function ThankYouJSLPage() {
             </Card>
 
             {/* Related Products */}
-            <div className="mb-8">
+            <div className="mb-6">
               <h3 className="mb-6 text-2xl font-bold">
                 You might also be interested in:
               </h3>

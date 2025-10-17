@@ -19,7 +19,7 @@ export default function BuyNowResourceManagerPage() {
                         <h1 className="mb-6 text-4xl font-bold md:text-5xl">
                             Purchase Resource Manager
                         </h1>
-                        <p className="mb-8 text-xl md:text-2xl">
+                        <p className="mb-6 text-xl md:text-2xl">
                             Production planning and scheduling made easy
                         </p>
                     </div>

@@ -165,7 +165,7 @@ export function PartnersSection(): React.JSX.Element {
 
         {/* Partnership Benefits */}
         <div className="mx-auto mt-16 max-w-4xl">
-          <h2 className="mb-8 text-center text-2xl font-bold">
+          <h2 className="mb-6 text-center text-2xl font-bold">
             Why Partner With Us?
           </h2>
           <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
@@ -192,7 +192,7 @@ export function PartnersSection(): React.JSX.Element {
 
         {/* Partners Grid */}
         <div className="mx-auto mt-16 max-w-7xl">
-          <h2 className="mb-8 text-center text-2xl font-bold">Our Partners</h2>
+          <h2 className="mb-6 text-center text-2xl font-bold">Our Partners</h2>
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
             {partners.map((partner, index) => (
               <Card

@@ -272,7 +272,7 @@ export default function NewsPage(): React.JSX.Element {
           <h2 className="mb-10 text-3xl font-semibold">Press Releases</h2>
 
           {/* Featured Webinar */}
-          <div className="mb-8 rounded-lg bg-blue-50 p-8 dark:bg-blue-900/20">
+          <div className="mb-6 rounded-lg bg-blue-50 p-8 dark:bg-blue-900/20">
             <div className="flex flex-col items-center gap-6 lg:flex-row">
               <div className="flex-1">
                 <h3 className="mb-4 text-2xl font-semibold">

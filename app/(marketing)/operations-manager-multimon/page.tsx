@@ -23,9 +23,8 @@ export default function MultimonPage(): React.JSX.Element {
                         <h1 className="mb-6 text-4xl font-bold md:text-6xl">
                             Operations Manager: MULTIMON
                         </h1>
-                        <p className="mb-8 text-xl md:text-2xl">
-                            Transportation and logistics optimization for cost-effective
-                            delivery
+                        <p className="mb-6 text-xl md:text-2xl">
+                            Seasonal Adjustment for Monthly Data
                         </p>
                         <div className="flex flex-col justify-center gap-4 sm:flex-row">
                             <Button
@@ -39,207 +38,65 @@ export default function MultimonPage(): React.JSX.Element {
                 </div>
             </section>
 
-            {/* Transportation Overview */}
+            {/* Main Content */}
             <section className="pt-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-7xl">
-                        <Card className="mb-8">
-                            <CardHeader>
-                                <CardTitle className="text-center text-3xl">
-                                    Transportation & Logistics Optimization
-                                </CardTitle>
-                            </CardHeader>
-                            <CardContent className="space-y-6">
-                                <p className="text-lg leading-relaxed text-muted-foreground">
-                                    Transportation optimization involves the strategic planning
-                                    and execution of moving goods and people efficiently while
-                                    minimizing costs and maximizing service levels. Our Operations
-                                    Manager Transportation module provides comprehensive tools for
-                                    routing, scheduling, and optimizing transportation networks
-                                    across all modes and industries.
-                                </p>
-
-                                <p className="text-lg leading-relaxed text-muted-foreground">
-                                    From vehicle routing problems to multi-modal logistics, our
-                                    solution helps organizations reduce transportation costs,
-                                    improve delivery performance, and enhance customer
-                                    satisfaction through data-driven optimization.
-                                </p>
-                            </CardContent>
-                        </Card>
-                    </div>
-                </div>
-            </section>
-
-            {/* Case Study */}
-            <section className="bg-muted/50 py-6">
-                <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-7xl">
-                        <Card>
-                            <CardHeader>
-                                <CardTitle className="text-center text-2xl">
-                                    Case Study: National Retail Distribution
-                                </CardTitle>
-                            </CardHeader>
-                            <CardContent className="space-y-6">
-                                <div>
-                                    <h3 className="mb-3 text-xl font-semibold text-blue-600">
-                                        The Challenge
-                                    </h3>
-                                    <p className="mb-4 text-muted-foreground">
-                                        RetailMax struggled with rising transportation costs and
-                                        inconsistent delivery performance across their national
-                                        distribution network. Manual route planning resulted in
-                                        inefficient routes, poor vehicle utilization, and customer
-                                        complaints about late deliveries. They needed a systematic
-                                        approach to optimize their transportation operations.
-                                    </p>
-                                </div>
-
-                                <div>
-                                    <h3 className="mb-3 text-xl font-semibold text-green-600">
-                                        The Solution
-                                    </h3>
-                                    <p className="mb-4 text-muted-foreground">
-                                        Using Operations Manager's Transportation optimization
-                                        tools, the logistics team implemented advanced vehicle
-                                        routing algorithms, dynamic scheduling, and real-time
-                                        tracking systems. They optimized routes considering traffic
-                                        patterns, delivery windows, and vehicle capacity
-                                        constraints.
-                                    </p>
-                                </div>
-
-                                <div>
-                                    <h3 className="mb-3 text-xl font-semibold text-purple-600">
-                                        Results Achieved
-                                    </h3>
-                                    <div className="grid gap-4 md:grid-cols-2">
-                                        <div className="space-y-2">
-                                            <div className="flex items-center">
-                                                <div className="mr-3 size-3 rounded-full bg-green-500" />
-                                                <span className="text-sm">
-                                                    25% reduction in transportation costs
-                                                </span>
-                                            </div>
-                                            <div className="flex items-center">
-                                                <div className="mr-3 size-3 rounded-full bg-blue-500" />
-                                                <span className="text-sm">
-                                                    95% on-time delivery performance
-                                                </span>
-                                            </div>
-                                            <div className="flex items-center">
-                                                <div className="mr-3 size-3 rounded-full bg-purple-500" />
-                                                <span className="text-sm">
-                                                    30% improvement in vehicle utilization
-                                                </span>
-                                            </div>
-                                        </div>
-                                        <div className="space-y-2">
-                                            <div className="flex items-center">
-                                                <div className="mr-3 size-3 rounded-full bg-orange-500" />
-                                                <span className="text-sm">
-                                                    20% reduction in fuel consumption
-                                                </span>
-                                            </div>
-                                            <div className="flex items-center">
-                                                <div className="mr-3 size-3 rounded-full bg-red-500" />
-                                                <span className="text-sm">
-                                                    40% decrease in planning time
-                                                </span>
-                                            </div>
-                                            <div className="flex items-center">
-                                                <div className="mr-3 size-3 rounded-full bg-teal-500" />
-                                                <span className="text-sm">
-                                                    85% customer satisfaction improvement
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </CardContent>
-                        </Card>
-                    </div>
-                </div>
-            </section>
-
-            {/* Transportation Problems */}
-            <section className="pt-6">
-                <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-7xl">
-                        <h2 className="mb-12 text-center text-3xl font-bold text-foreground">
-                            Transportation Optimization Problems
+                        <h2 className="mb-6 text-center text-3xl font-bold">
+                            Seasonal Adjustment
                         </h2>
-                        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-                            <Card>
-                                <CardHeader>
-                                    <CardTitle className="text-center">
-                                        Vehicle Routing Problem
-                                    </CardTitle>
-                                </CardHeader>
-                                <CardContent>
-                                    <p className="text-center text-muted-foreground">
-                                        Optimize routes for fleet of vehicles serving multiple
-                                        customers
+
+                        <Card>
+                            <CardContent className="p-8">
+                                <div className="space-y-4">
+                                    <p className="text-lg leading-relaxed">
+                                        Regular seasonal patterns appear in most business data. The
+                                        weather affects the sales of everything from bikinis to
+                                        snowmobiles. Around holiday periods, we see increases in the
+                                        number of retail sales, long-distance telephone calls, and
+                                        gasoline consumption. Business policy can cause seasonal
+                                        patterns in sales. Many companies run annual dealer
+                                        promotions which cause peaks in sales. Other companies
+                                        depress sales temporarily by shutting down plants for annual
+                                        vacation periods.
                                     </p>
-                                </CardContent>
-                            </Card>
-                            <Card>
-                                <CardHeader>
-                                    <CardTitle className="text-center">
-                                        Traveling Salesman
-                                    </CardTitle>
-                                </CardHeader>
-                                <CardContent>
-                                    <p className="text-center text-muted-foreground">
-                                        Find shortest route visiting all locations exactly once
+
+                                    <p className="text-lg leading-relaxed">
+                                        Usually seasonality is obvious but there are times when it
+                                        is not. Two questions should be asked when there is doubt
+                                        about seasonality. First, are the peaks and troughs
+                                        consistent? That is, do the high and low points of the
+                                        pattern occur in about the same periods (week, month, or
+                                        quarter) each year? Second, is there an explanation for the
+                                        seasonal pattern? The most common reasons for seasonality
+                                        are weather and holidays, although company policy such as
+                                        annual sales promotions may be a factor. If the answer to
+                                        either of these questions is no, seasonality should not be
+                                        used in the forecasts.
                                     </p>
-                                </CardContent>
-                            </Card>
-                            <Card>
-                                <CardHeader>
-                                    <CardTitle className="text-center">
-                                        Transportation Model
-                                    </CardTitle>
-                                </CardHeader>
-                                <CardContent>
-                                    <p className="text-center text-muted-foreground">
-                                        Minimize shipping costs from suppliers to customers
+
+                                    <p className="text-lg leading-relaxed">
+                                        Our approach to forecasting seasonal data is based on the
+                                        classical decomposition method developed by economists in
+                                        the nineteenth century. Decomposition means separation of
+                                        the time series into its component parts. A complete
+                                        decomposition separates the time series into four
+                                        components: seasonality, trend, cycle, and randomness. The
+                                        cycle is a long-range pattern related to the growth and
+                                        decline of industries or the economy as a whole.
                                     </p>
-                                </CardContent>
-                            </Card>
-                            <Card>
-                                <CardHeader>
-                                    <CardTitle className="text-center">Network Flow</CardTitle>
-                                </CardHeader>
-                                <CardContent>
-                                    <p className="text-center text-muted-foreground">
-                                        Optimize flow through transportation networks with capacity
-                                        constraints
+
+                                    <p className="text-lg leading-relaxed">
+                                        Two worksheets are available for seasonal adjustment.
+                                        MULTIMON uses the ratio-to-moving average method to adjust
+                                        monthly data. ADDITMON uses a similar method called the
+                                        difference-to-moving average method to adjust monthly data.
+                                        It may be necessary to test both of these worksheets before
+                                        choosing a seasonal pattern.
                                     </p>
-                                </CardContent>
-                            </Card>
-                            <Card>
-                                <CardHeader>
-                                    <CardTitle className="text-center">Fleet Sizing</CardTitle>
-                                </CardHeader>
-                                <CardContent>
-                                    <p className="text-center text-muted-foreground">
-                                        Determine optimal fleet size and vehicle mix
-                                    </p>
-                                </CardContent>
-                            </Card>
-                            <Card>
-                                <CardHeader>
-                                    <CardTitle className="text-center">Load Planning</CardTitle>
-                                </CardHeader>
-                                <CardContent>
-                                    <p className="text-center text-muted-foreground">
-                                        Optimize cargo loading and weight distribution
-                                    </p>
-                                </CardContent>
-                            </Card>
-                        </div>
+                                </div>
+                            </CardContent>
+                        </Card>
                     </div>
                 </div>
             </section>

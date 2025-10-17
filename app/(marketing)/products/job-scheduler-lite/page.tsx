@@ -11,7 +11,7 @@ export default function JobSchedulerLitePage(): React.JSX.Element {
             <div className="container mx-auto px-4 pt-6">
                 <div className="mx-auto max-w-7xl">
                     {/* Hero Section */}
-                    <div className="mb-8 text-center">
+                    <div className="mb-6 text-center">
                         <span className="inline-flex h-8 items-center rounded-full border px-3 py-0.5 text-sm font-medium text-foreground shadow-sm transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2">
                             STARTER SOLUTION
                         </span>
@@ -19,7 +19,7 @@ export default function JobSchedulerLitePage(): React.JSX.Element {
                     <h1 className="mb-6 bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-5xl font-bold text-transparent md:text-6xl">
                         Job Scheduler Lite (JSL)
                     </h1>
-                    <p className="mb-8 text-xl text-muted-foreground md:text-2xl">
+                    <p className="mb-6 text-xl text-muted-foreground md:text-2xl">
                         Entry-level production scheduling solution designed for job shops
                         and small manufacturers
                     </p>
@@ -86,7 +86,7 @@ export default function JobSchedulerLitePage(): React.JSX.Element {
 
                 {/* Key Features */}
                 <div className="mb-16">
-                    <h2 className="mb-8 text-center text-3xl font-bold">Key Features</h2>
+                    <h2 className="mb-6 text-center text-3xl font-bold">Key Features</h2>
                     <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
                         <Card className="transition-all hover:shadow-xl">
                             <CardContent className="p-6">
@@ -128,7 +128,7 @@ export default function JobSchedulerLitePage(): React.JSX.Element {
 
                 {/* Core Modules */}
                 <div className="mb-16">
-                    <h2 className="mb-8 text-center text-3xl font-bold">
+                    <h2 className="mb-6 text-center text-3xl font-bold">
                         Core Modules with Screenshots
                     </h2>
                     <div className="grid gap-8 md:grid-cols-2">

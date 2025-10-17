@@ -137,7 +137,7 @@ export default function CompareProductsPage(): React.JSX.Element {
                             <h1 className="mb-6 text-4xl font-bold text-slate-900 dark:text-white md:text-6xl">
                                 Production Planning and Scheduling Solutions
                             </h1>
-                            <p className="mb-8 text-xl text-muted-foreground">
+                            <p className="mb-6 text-xl text-muted-foreground">
                                 Contact us to discuss which product is the best fit for your
                                 application and budget
                             </p>
@@ -155,7 +155,7 @@ export default function CompareProductsPage(): React.JSX.Element {
             {/* Product Comparison Table */}
             <section className="py-6">
                 <div className="container mx-auto max-w-7xl px-4">
-                    <div className="mb-12 text-center">
+                    <div className="mb-6 text-center">
                         <h2 className="mb-4 text-3xl font-bold md:text-4xl">
                             Choose the Best Solution for Your Needs
                         </h2>
@@ -246,7 +246,7 @@ export default function CompareProductsPage(): React.JSX.Element {
             {/* Customer Testimonials */}
             <section className="bg-slate-50 py-6 dark:bg-slate-900">
                 <div className="container mx-auto max-w-7xl px-4">
-                    <div className="mb-12 text-center">
+                    <div className="mb-6 text-center">
                         <h2 className="mb-4 text-3xl font-bold md:text-4xl">
                             What Our Customers Say
                         </h2>
@@ -325,7 +325,7 @@ export default function CompareProductsPage(): React.JSX.Element {
             <section className="bg-slate-50 py-6 dark:bg-slate-900">
                 <div className="container mx-auto max-w-7xl px-4">
                     <div className="text-center">
-                        <div className="mb-8 flex items-center justify-center gap-2">
+                        <div className="mb-6 flex items-center justify-center gap-2">
                             <Award className="size-8 text-slate-600 dark:text-slate-400" />
                             <h2 className="text-3xl font-bold md:text-4xl">
                                 CELEBRATING 25 YEARS OF AWARD WINNING SOFTWARE!

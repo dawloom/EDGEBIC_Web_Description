@@ -12,7 +12,7 @@ export default async function InvitationsLayout({
   children
 }: React.PropsWithChildren): Promise<React.JSX.Element> {
   return (
-    <div className="py-8">
+    <div className="py-6">
       <main className="flex flex-col items-center justify-center p-2">
         {children}
       </main>

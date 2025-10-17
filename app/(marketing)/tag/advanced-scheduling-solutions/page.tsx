@@ -15,7 +15,7 @@ export default function AdvancedSchedulingSolutionsTagPage() {
     return (
         <div className="container mx-auto max-w-7xl px-4 py-6">
             {/* Hero Section */}
-            <div className="mb-12 text-center">
+            <div className="mb-6 text-center">
                 <Badge
                     className="mb-4 h-8 rounded-full px-4 text-sm"
                     variant="outline"
@@ -32,7 +32,7 @@ export default function AdvancedSchedulingSolutionsTagPage() {
             </div>
 
             {/* Articles Grid */}
-            <div className="mb-12">
+            <div className="mb-6">
                 <Card className="overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-lg">
                     <Link
                         href="/enhancing-supply-chain-visibility-through-advanced-scheduling-solutions"

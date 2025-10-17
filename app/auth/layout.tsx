@@ -25,7 +25,7 @@ export default async function AuthLayout({
     return redirect(Routes.Home);
   }
   return (
-    <div className="py-8">
+    <div className="py-6">
       <main className="flex flex-col items-center justify-center p-2">
         {children}
       </main>

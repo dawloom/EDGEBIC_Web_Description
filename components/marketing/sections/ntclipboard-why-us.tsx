@@ -68,7 +68,7 @@ export function NTClipboardWhyUs(): React.JSX.Element {
 
                 {/* Key Differentiators */}
                 <div className="mt-4 rounded-3xl border bg-gradient-to-r from-orange-500 to-red-500 p-8 text-white md:p-12">
-                    <h3 className="mb-8 text-center text-2xl font-bold md:text-3xl">
+                    <h3 className="mb-6 text-center text-2xl font-bold md:text-3xl">
                         What Sets Us Apart
                     </h3>
                     <div className="grid gap-6 md:grid-cols-3">

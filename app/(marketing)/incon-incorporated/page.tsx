@@ -10,7 +10,7 @@ export default function InconIncorporatedPage(): React.JSX.Element {
       <section className="bg-gradient-to-br from-blue-600 via-blue-700 to-blue-900 py-6 text-white">
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-7xl text-center">
-            <div className="mb-8">
+            <div className="mb-6">
               <img
                 src="https://www.usersolutions.com/wp-content/uploads/2022/10/logo003-58c6bad38b32e.jpg"
                 alt="INCON blue text logo on white background"

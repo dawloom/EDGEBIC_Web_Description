@@ -140,7 +140,7 @@ export function PurchaseSuccess() {
 
   if (isLoading) {
     return (
-      <div className="container mx-auto flex min-h-screen items-center justify-center py-8">
+      <div className="container mx-auto flex min-h-screen items-center justify-center py-6">
         <div className="text-center">
           <RefreshCcwIcon className="mx-auto size-8 animate-spin text-orange-500" />
           <p className="mt-2 text-muted-foreground">
@@ -153,7 +153,7 @@ export function PurchaseSuccess() {
 
   if (error) {
     return (
-      <div className="container mx-auto flex min-h-screen items-center justify-center py-8">
+      <div className="container mx-auto flex min-h-screen items-center justify-center py-6">
         <Card className="w-full max-w-md">
           <CardHeader className="text-center">
             <CardTitle className="text-red-600">
@@ -176,7 +176,7 @@ export function PurchaseSuccess() {
 
   if (!purchase) {
     return (
-      <div className="container mx-auto flex min-h-screen items-center justify-center py-8">
+      <div className="container mx-auto flex min-h-screen items-center justify-center py-6">
         <Card className="w-full max-w-md">
           <CardHeader className="text-center">
             <CardTitle>Purchase Not Found</CardTitle>
@@ -195,7 +195,7 @@ export function PurchaseSuccess() {
     purchase.expiresAt && new Date(purchase.expiresAt) < new Date();
 
   return (
-    <div className="container mx-auto flex min-h-screen items-center justify-center py-8">
+    <div className="container mx-auto flex min-h-screen items-center justify-center py-6">
       <Card className="w-full max-w-md">
         <CardHeader className="text-center">
           <CheckCircleIcon className="mx-auto size-16 text-green-500" />

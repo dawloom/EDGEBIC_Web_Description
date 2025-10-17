@@ -21,7 +21,7 @@ export default function WorkcenterSchedulerXLInDepthPage() {
             <h1 className="mb-6 text-4xl font-bold md:text-5xl">
               Workcenter Scheduler XL: In Depth
             </h1>
-            <p className="mb-8 text-xl md:text-2xl">
+            <p className="mb-6 text-xl md:text-2xl">
               Complete Finite Capacity Planning and Job Scheduling
             </p>
             <div className="flex flex-col justify-center gap-4 sm:flex-row">

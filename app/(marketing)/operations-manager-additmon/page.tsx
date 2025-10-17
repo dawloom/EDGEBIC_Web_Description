@@ -24,7 +24,7 @@ export default function AdditmonPage(): React.JSX.Element {
                         <h1 className="mb-6 text-4xl font-bold md:text-6xl">
                             Operations Manager: ADDITMON
                         </h1>
-                        <p className="mb-8 text-xl md:text-2xl">
+                        <p className="mb-6 text-xl md:text-2xl">
                             Difference-to-Moving Average Method for Monthly Seasonal
                             Adjustment
                         </p>
@@ -46,7 +46,7 @@ export default function AdditmonPage(): React.JSX.Element {
             <section className="pt-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-7xl">
-                        <Card className="mb-8">
+                        <Card className="mb-6">
                             <CardHeader>
                                 <CardTitle className="text-center text-3xl">
                                     Seasonal Adjustment
@@ -114,7 +114,7 @@ export default function AdditmonPage(): React.JSX.Element {
             <section className="pt-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-7xl">
-                        <Card className="mb-8">
+                        <Card className="mb-6">
                             <CardHeader>
                                 <CardTitle className="text-center text-3xl">
                                     ADDITMON: Difference-to-Moving Average Method
@@ -243,7 +243,7 @@ export default function AdditmonPage(): React.JSX.Element {
             <section className="py-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-7xl">
-                        <h2 className="mb-8 text-center text-3xl font-bold text-foreground">
+                        <h2 className="mb-6 text-center text-3xl font-bold text-foreground">
                             Common Seasonal Patterns
                         </h2>
                         <div className="grid gap-6 md:grid-cols-2">

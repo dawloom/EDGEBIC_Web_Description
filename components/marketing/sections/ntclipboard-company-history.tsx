@@ -245,7 +245,7 @@ export function NTClipboardCompanyHistory(): React.JSX.Element {
                         {milestones.map((milestone, index) => (
                             <div
                                 key={index}
-                                className={`relative mb-12 flex items-center ${index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'
+                                className={`relative mb-6 flex items-center ${index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'
                                     } flex-col md:justify-between`}
                             >
                                 {/* Timeline dot */}

@@ -23,7 +23,7 @@ export default function MrChartPage(): React.JSX.Element {
                         <h1 className="mb-6 text-4xl font-bold md:text-6xl">
                             Operations Manager: MR Chart
                         </h1>
-                        <p className="mb-8 text-xl md:text-2xl">
+                        <p className="mb-6 text-xl md:text-2xl">
                             Statistical Process Control with Mean and Range Control Charts for
                             Quality Management
                         </p>
@@ -383,7 +383,7 @@ export default function MrChartPage(): React.JSX.Element {
             <section className="pt-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-7xl">
-                        <h2 className="mb-12 text-center text-3xl font-bold text-foreground">
+                        <h2 className="mb-6 text-center text-3xl font-bold text-foreground">
                             MR Chart Application Scenarios
                         </h2>
                         <div className="grid gap-6 md:grid-cols-2">

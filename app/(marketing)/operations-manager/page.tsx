@@ -255,7 +255,7 @@ export default function OperationsManagerPage(): React.JSX.Element {
             <div className="container mx-auto px-4 pt-6">
                 <div className="mx-auto max-w-7xl text-center">
                     {/* Hero Section */}
-                    <div className="mb-8">
+                    <div className="mb-6">
                         <span className="inline-flex h-8 items-center rounded-full border px-3 py-0.5 text-sm font-medium text-foreground shadow-sm transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2">
                             EXCEL TEMPLATES
                         </span>
@@ -263,13 +263,13 @@ export default function OperationsManagerPage(): React.JSX.Element {
                     <h1 className="mb-6 bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-5xl font-bold text-transparent md:text-6xl">
                         Operations Manager
                     </h1>
-                    <p className="mb-8 text-xl text-muted-foreground md:text-2xl">
+                    <p className="mb-6 text-xl text-muted-foreground md:text-2xl">
                         Production and Operations Management Templates ideal for
                         introduction to Production Planning, Production Scheduling, Material
                         Requirements Planning, Inventory Management and Quality Control
                         techniques.
                     </p>
-                    <p className="mb-8 text-lg text-muted-foreground">
+                    <p className="mb-6 text-lg text-muted-foreground">
                         All formulas are in Excel with full documentation. You can view full
                         documentation then order a single template, group per section, or
                         entire package.
@@ -281,7 +281,7 @@ export default function OperationsManagerPage(): React.JSX.Element {
                     {categories.map((category, index) => (
                         <Card
                             key={index}
-                            className="mb-8"
+                            className="mb-6"
                         >
                             <CardHeader>
                                 <CardTitle className="text-3xl text-blue-600">

@@ -12,7 +12,7 @@ import {
 
 export default function CancelledPage() {
   return (
-    <div className="container mx-auto flex min-h-screen items-center justify-center py-8">
+    <div className="container mx-auto flex min-h-screen items-center justify-center py-6">
       <Card className="w-full max-w-md">
         <CardHeader className="text-center">
           <XCircleIcon className="mx-auto size-16 text-orange-500" />

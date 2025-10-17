@@ -195,7 +195,7 @@ export default function StudentsPage(): React.JSX.Element {
             {/* Summary Section */}
             <section className="bg-slate-50 py-6 dark:bg-slate-900">
                 <div className="container mx-auto max-w-7xl px-4">
-                    <div className="mb-12 text-center">
+                    <div className="mb-6 text-center">
                         <h2 className="mb-4 text-3xl font-bold md:text-4xl">
                             Resource Manager for Excel: Summary
                         </h2>
@@ -259,7 +259,7 @@ export default function StudentsPage(): React.JSX.Element {
             {/* Features Section */}
             <section className="py-6">
                 <div className="container mx-auto max-w-7xl px-4">
-                    <div className="mb-12 text-center">
+                    <div className="mb-6 text-center">
                         <h2 className="mb-4 text-3xl font-bold md:text-4xl">Features</h2>
                         <p className="text-xl text-muted-foreground">
                             Comprehensive capabilities for manufacturing planning and
@@ -289,7 +289,7 @@ export default function StudentsPage(): React.JSX.Element {
             {/* Student Resources Section */}
             <section className="bg-slate-50 py-6 dark:bg-slate-900">
                 <div className="container mx-auto max-w-7xl px-4">
-                    <div className="mb-12 text-center">
+                    <div className="mb-6 text-center">
                         <h2 className="mb-4 text-3xl font-bold md:text-4xl">
                             Student Resources
                         </h2>
@@ -340,7 +340,7 @@ export default function StudentsPage(): React.JSX.Element {
             {/* Benefits Section */}
             <section className="py-6">
                 <div className="container mx-auto max-w-7xl px-4">
-                    <div className="mb-12 text-center">
+                    <div className="mb-6 text-center">
                         <h2 className="mb-4 text-3xl font-bold md:text-4xl">
                             Why Choose Resource Manager?
                         </h2>
@@ -371,7 +371,7 @@ export default function StudentsPage(): React.JSX.Element {
             {/* Overview Section */}
             <section className="bg-slate-50 py-6 dark:bg-slate-900">
                 <div className="container mx-auto max-w-7xl px-4">
-                    <div className="mb-12 text-center">
+                    <div className="mb-6 text-center">
                         <h2 className="mb-4 text-3xl font-bold md:text-4xl">Overview</h2>
                         <p className="text-xl text-muted-foreground">
                             The only low-cost, planning and scheduling solution for all
@@ -435,7 +435,7 @@ export default function StudentsPage(): React.JSX.Element {
                             360 fully cloud compatible, you can even tackle big data
                             applications and share results on the web.
                         </p>
-                        <p className="mb-8 text-lg text-muted-foreground">
+                        <p className="mb-6 text-lg text-muted-foreground">
                             Keep US in mind when you are fully engaged at work and looking for
                             tools to improve your production scheduling. Resource Manager-DB
                             is a wonderful upgrade of RMX and is a strategic complement to

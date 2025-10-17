@@ -21,7 +21,7 @@ export default function MedModelPage(): React.JSX.Element {
                             </Badge>
                         </div>
                         <h1 className="mb-6 text-4xl font-bold md:text-6xl">MedModel</h1>
-                        <p className="mb-8 text-xl md:text-2xl">
+                        <p className="mb-6 text-xl md:text-2xl">
                             Healthcare simulation and analysis for optimal patient care
                             delivery
                         </p>
@@ -41,7 +41,7 @@ export default function MedModelPage(): React.JSX.Element {
             <section className="py-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-7xl">
-                        <Card className="mb-8">
+                        <Card className="mb-6">
                             <CardHeader>
                                 <CardTitle className="text-center text-3xl">
                                     Healthcare Simulation & Optimization
@@ -165,7 +165,7 @@ export default function MedModelPage(): React.JSX.Element {
             <section className="py-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-7xl">
-                        <h2 className="mb-12 text-center text-3xl font-bold text-foreground">
+                        <h2 className="mb-6 text-center text-3xl font-bold text-foreground">
                             Healthcare-Specific Features
                         </h2>
                         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
@@ -254,7 +254,7 @@ export default function MedModelPage(): React.JSX.Element {
             <section className="bg-muted/50 py-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-7xl">
-                        <h2 className="mb-12 text-center text-3xl font-bold text-foreground">
+                        <h2 className="mb-6 text-center text-3xl font-bold text-foreground">
                             Healthcare Applications
                         </h2>
                         <div className="grid gap-6 md:grid-cols-2">
@@ -327,7 +327,7 @@ export default function MedModelPage(): React.JSX.Element {
             <section className="py-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-7xl">
-                        <h2 className="mb-12 text-center text-3xl font-bold text-foreground">
+                        <h2 className="mb-6 text-center text-3xl font-bold text-foreground">
                             Healthcare Benefits
                         </h2>
                         <div className="grid gap-6 md:grid-cols-2">
@@ -401,7 +401,7 @@ export default function MedModelPage(): React.JSX.Element {
                 <div className="container mx-auto px-4">
                     <Card className="bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20">
                         <CardContent className="py-12 text-center">
-                            <h2 className="mb-8 text-3xl font-bold text-slate-900 dark:text-white">
+                            <h2 className="mb-6 text-3xl font-bold text-slate-900 dark:text-white">
                                 CELEBRATING 25 YEARS OF AWARD WINNING SOFTWARE!
                             </h2>
                             <div className="flex justify-center">

@@ -23,7 +23,7 @@ export default function OperationsManagerAppPage(): React.JSX.Element {
                         <h1 className="mb-6 text-4xl font-bold md:text-6xl">
                             Operations Manager: APP
                         </h1>
-                        <p className="mb-8 text-xl md:text-2xl">
+                        <p className="mb-6 text-xl md:text-2xl">
                             Aggregate Production Planning
                         </p>
                         <div className="flex flex-col justify-center gap-4 sm:flex-row">
@@ -39,7 +39,7 @@ export default function OperationsManagerAppPage(): React.JSX.Element {
             </section>
 
             {/* Content Section */}
-            <section className="py-8">
+            <section className="pt-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-7xl">
                         <Card>
@@ -69,23 +69,21 @@ export default function OperationsManagerAppPage(): React.JSX.Element {
             </section>
 
             {/* Award Section */}
-            <section className="py-8">
+            <section className="pt-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-7xl">
-                        <Card className="overflow-hidden bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20">
-                            <CardHeader>
-                                <CardTitle className="text-center text-2xl text-blue-900 dark:text-white">
+                        <Card className="bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20">
+                            <CardContent className="p-8 text-center">
+                                <h2 className="mb-6 text-2xl font-bold text-foreground">
                                     CELEBRATING 25 YEARS OF AWARD WINNING SOFTWARE!
-                                </CardTitle>
-                            </CardHeader>
-                            <CardContent className="flex justify-center p-6">
-                                <div className="w-full max-w-4xl">
+                                </h2>
+                                <div className="flex justify-center">
                                     <Image
-                                        alt="Collection of industry and business awards logos"
-                                        className="h-auto w-full"
-                                        height={128}
                                         src="https://www.usersolutions.com/wp-content/uploads/2022/07/banner-logoso-sm-58c9a28d237d6-1024x128.jpg"
+                                        alt="Collection of industry and business awards logos"
                                         width={1024}
+                                        height={128}
+                                        className="h-auto max-w-full rounded-lg shadow-md"
                                     />
                                 </div>
                             </CardContent>

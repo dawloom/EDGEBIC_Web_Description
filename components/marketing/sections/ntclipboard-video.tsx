@@ -211,7 +211,7 @@ export function NTClipboardVideo({
             <h2 className="mb-6 text-3xl font-bold md:text-5xl">
               Product Video Library
             </h2>
-            <p className="mb-8 text-xl text-muted-foreground">
+            <p className="mb-6 text-xl text-muted-foreground">
               Comprehensive video demonstrations and training for our
               award-winning manufacturing software solutions
             </p>
@@ -241,7 +241,7 @@ export function NTClipboardVideo({
             </div>
 
             {/* Category Filter */}
-            <div className="mb-8 flex flex-wrap justify-center gap-2">
+            <div className="mb-6 flex flex-wrap justify-center gap-2">
               {categories.map((category) => (
                 <Button
                   key={category}

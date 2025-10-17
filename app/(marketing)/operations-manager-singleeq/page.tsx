@@ -21,12 +21,9 @@ export default function OperationsManagerSingleeqPage(): React.JSX.Element {
                             </Badge>
                         </div>
                         <h1 className="mb-6 text-4xl font-bold md:text-6xl">
-                            Operations Manager: SingleEQ
+                            Operations Manager: SINGLEEQ
                         </h1>
-                        <p className="mb-8 text-xl md:text-2xl">
-                            Single equation optimization for efficient resource allocation and
-                            scheduling
-                        </p>
+                        <p className="mb-6 text-xl md:text-2xl">Single-Server Queues</p>
                         <div className="flex flex-col justify-center gap-4 sm:flex-row">
                             <Button
                                 size="lg"
@@ -39,282 +36,28 @@ export default function OperationsManagerSingleeqPage(): React.JSX.Element {
                 </div>
             </section>
 
-            {/* SingleEQ Overview */}
+            {/* Main Content */}
             <section className="pt-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-7xl">
-                        <Card className="mb-8">
-                            <CardHeader>
-                                <CardTitle className="text-center text-3xl">
-                                    Single Equation Optimization
-                                </CardTitle>
-                            </CardHeader>
-                            <CardContent className="space-y-6">
-                                <p className="text-lg leading-relaxed text-muted-foreground">
-                                    SingleEQ delivers powerful single equation optimization
-                                    capabilities for solving complex operational problems with
-                                    mathematical precision. This specialized module focuses on
-                                    finding optimal solutions where a single relationship governs
-                                    the entire system behavior.
-                                </p>
+                        <h2 className="mb-6 text-center text-3xl font-bold">
+                            Single-Server Queues (SINGLEEQ)
+                        </h2>
 
-                                <p className="text-lg leading-relaxed text-muted-foreground">
-                                    From resource allocation to production scheduling, SingleEQ
-                                    provides exact analytical solutions and numerical optimization
-                                    for single-variable and multi-variable problems with proven
-                                    mathematical algorithms.
-                                </p>
-                            </CardContent>
-                        </Card>
-                    </div>
-                </div>
-            </section>
-
-            {/* Case Study */}
-            <section className="bg-muted/50 pt-6">
-                <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-7xl">
                         <Card>
-                            <CardHeader>
-                                <CardTitle className="text-center text-2xl">
-                                    Case Study: Energy Distribution Optimization
-                                </CardTitle>
-                            </CardHeader>
-                            <CardContent className="space-y-6">
-                                <div>
-                                    <h3 className="mb-3 text-xl font-semibold text-blue-600">
-                                        The Challenge
-                                    </h3>
-                                    <p className="mb-4 text-muted-foreground">
-                                        PowerGrid Solutions needed to optimize energy distribution
-                                        across their network to minimize transmission losses while
-                                        meeting demand constraints. Their existing heuristic
-                                        approaches were producing suboptimal solutions, resulting in
-                                        15% higher energy costs and inefficient load balancing.
-                                    </p>
-                                </div>
-
-                                <div>
-                                    <h3 className="mb-3 text-xl font-semibold text-green-600">
-                                        The Solution
-                                    </h3>
-                                    <p className="mb-4 text-muted-foreground">
-                                        Implementing Operations Manager's SingleEQ module, the
-                                        engineering team developed a single equation model that
-                                        captured the relationship between load distribution and
-                                        transmission efficiency. The system optimized power flow
-                                        using advanced mathematical optimization techniques.
-                                    </p>
-                                </div>
-
-                                <div>
-                                    <h3 className="mb-3 text-xl font-semibold text-purple-600">
-                                        Results Achieved
-                                    </h3>
-                                    <div className="grid gap-4 md:grid-cols-2">
-                                        <div className="space-y-2">
-                                            <div className="flex items-center">
-                                                <div className="mr-3 size-3 rounded-full bg-green-500" />
-                                                <span className="text-sm">
-                                                    22% reduction in transmission losses
-                                                </span>
-                                            </div>
-                                            <div className="flex items-center">
-                                                <div className="mr-3 size-3 rounded-full bg-blue-500" />
-                                                <span className="text-sm">
-                                                    18% improvement in load balancing
-                                                </span>
-                                            </div>
-                                            <div className="flex items-center">
-                                                <div className="mr-3 size-3 rounded-full bg-purple-500" />
-                                                <span className="text-sm">
-                                                    $2.4M annual cost savings
-                                                </span>
-                                            </div>
-                                        </div>
-                                        <div className="space-y-2">
-                                            <div className="flex items-center">
-                                                <div className="mr-3 size-3 rounded-full bg-orange-500" />
-                                                <span className="text-sm">95% solution accuracy</span>
-                                            </div>
-                                            <div className="flex items-center">
-                                                <div className="mr-3 size-3 rounded-full bg-red-500" />
-                                                <span className="text-sm">
-                                                    Real-time optimization capability
-                                                </span>
-                                            </div>
-                                            <div className="flex items-center">
-                                                <div className="mr-3 size-3 rounded-full bg-teal-500" />
-                                                <span className="text-sm">
-                                                    Enhanced system reliability
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                            <CardContent className="p-8">
+                                <p className="text-lg leading-relaxed">
+                                    Our approach to forecasting seasonal data is based on the
+                                    classical decomposition method developed by economists in the
+                                    nineteenth century. Decomposition means separation of the time
+                                    series into its component parts. A complete decomposition
+                                    separates the time series into four components: seasonality,
+                                    trend, cycle, and randomness. The cycle is a long-range
+                                    pattern related to the growth and decline of industries or the
+                                    economy as a whole.
+                                </p>
                             </CardContent>
                         </Card>
-                    </div>
-                </div>
-            </section>
-
-            {/* Optimization Features */}
-            <section className="pt-6">
-                <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-7xl">
-                        <h2 className="mb-12 text-center text-3xl font-bold text-foreground">
-                            SingleEQ Optimization Capabilities
-                        </h2>
-                        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-                            <Card>
-                                <CardHeader>
-                                    <CardTitle className="text-center">
-                                        Linear Optimization
-                                    </CardTitle>
-                                </CardHeader>
-                                <CardContent>
-                                    <p className="text-center text-muted-foreground">
-                                        Efficient linear programming solutions with exact optimal
-                                        results
-                                    </p>
-                                </CardContent>
-                            </Card>
-                            <Card>
-                                <CardHeader>
-                                    <CardTitle className="text-center">
-                                        Nonlinear Solving
-                                    </CardTitle>
-                                </CardHeader>
-                                <CardContent>
-                                    <p className="text-center text-muted-foreground">
-                                        Advanced algorithms for complex nonlinear equation systems
-                                    </p>
-                                </CardContent>
-                            </Card>
-                            <Card>
-                                <CardHeader>
-                                    <CardTitle className="text-center">
-                                        Constraint Handling
-                                    </CardTitle>
-                                </CardHeader>
-                                <CardContent>
-                                    <p className="text-center text-muted-foreground">
-                                        Sophisticated constraint management and boundary
-                                        optimization
-                                    </p>
-                                </CardContent>
-                            </Card>
-                            <Card>
-                                <CardHeader>
-                                    <CardTitle className="text-center">
-                                        Sensitivity Analysis
-                                    </CardTitle>
-                                </CardHeader>
-                                <CardContent>
-                                    <p className="text-center text-muted-foreground">
-                                        Parameter sensitivity and robustness evaluation tools
-                                    </p>
-                                </CardContent>
-                            </Card>
-                            <Card>
-                                <CardHeader>
-                                    <CardTitle className="text-center">
-                                        Solution Validation
-                                    </CardTitle>
-                                </CardHeader>
-                                <CardContent>
-                                    <p className="text-center text-muted-foreground">
-                                        Automatic verification and quality assessment of solutions
-                                    </p>
-                                </CardContent>
-                            </Card>
-                            <Card>
-                                <CardHeader>
-                                    <CardTitle className="text-center">
-                                        Multi-Variable Support
-                                    </CardTitle>
-                                </CardHeader>
-                                <CardContent>
-                                    <p className="text-center text-muted-foreground">
-                                        Optimization across multiple decision variables
-                                        simultaneously
-                                    </p>
-                                </CardContent>
-                            </Card>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            {/* Application Areas */}
-            <section className="bg-muted/50 pt-6">
-                <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-7xl">
-                        <h2 className="mb-12 text-center text-3xl font-bold text-foreground">
-                            SingleEQ Application Areas
-                        </h2>
-                        <div className="grid gap-6 md:grid-cols-2">
-                            <Card>
-                                <CardHeader>
-                                    <CardTitle className="text-xl text-blue-600">
-                                        Resource Allocation
-                                    </CardTitle>
-                                </CardHeader>
-                                <CardContent>
-                                    <ul className="space-y-2 text-muted-foreground">
-                                        <li>• Budget distribution optimization</li>
-                                        <li>• Workforce assignment planning</li>
-                                        <li>• Equipment utilization maximization</li>
-                                        <li>• Capacity allocation strategies</li>
-                                    </ul>
-                                </CardContent>
-                            </Card>
-                            <Card>
-                                <CardHeader>
-                                    <CardTitle className="text-xl text-green-600">
-                                        Production Planning
-                                    </CardTitle>
-                                </CardHeader>
-                                <CardContent>
-                                    <ul className="space-y-2 text-muted-foreground">
-                                        <li>• Batch size optimization</li>
-                                        <li>• Production rate determination</li>
-                                        <li>• Quality-cost trade-offs</li>
-                                        <li>• Yield maximization strategies</li>
-                                    </ul>
-                                </CardContent>
-                            </Card>
-                            <Card>
-                                <CardHeader>
-                                    <CardTitle className="text-xl text-purple-600">
-                                        Financial Optimization
-                                    </CardTitle>
-                                </CardHeader>
-                                <CardContent>
-                                    <ul className="space-y-2 text-muted-foreground">
-                                        <li>• Portfolio optimization models</li>
-                                        <li>• Risk-return analysis</li>
-                                        <li>• Cost minimization strategies</li>
-                                        <li>• Pricing optimization</li>
-                                    </ul>
-                                </CardContent>
-                            </Card>
-                            <Card>
-                                <CardHeader>
-                                    <CardTitle className="text-xl text-orange-600">
-                                        Engineering Design
-                                    </CardTitle>
-                                </CardHeader>
-                                <CardContent>
-                                    <ul className="space-y-2 text-muted-foreground">
-                                        <li>• Parameter optimization</li>
-                                        <li>• Performance maximization</li>
-                                        <li>• Design constraint satisfaction</li>
-                                        <li>• Multi-objective trade-offs</li>
-                                    </ul>
-                                </CardContent>
-                            </Card>
-                        </div>
                     </div>
                 </div>
             </section>

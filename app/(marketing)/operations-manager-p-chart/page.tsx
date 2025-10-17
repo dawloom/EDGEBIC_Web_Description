@@ -23,7 +23,7 @@ export default function PChartPage(): React.JSX.Element {
                         <h1 className="mb-6 text-4xl font-bold md:text-6xl">
                             Operations Manager: P-CHART
                         </h1>
-                        <p className="mb-8 text-xl md:text-2xl">
+                        <p className="mb-6 text-xl md:text-2xl">
                             Control Chart For Percent Defective
                         </p>
                         <div className="flex flex-col justify-center gap-4 sm:flex-row">
@@ -42,7 +42,7 @@ export default function PChartPage(): React.JSX.Element {
             <section className="pt-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-7xl">
-                        <Card className="mb-8">
+                        <Card>
                             <CardHeader>
                                 <CardTitle className="text-center text-3xl">
                                     Control Chart For Percent Defective (P-CHART)
@@ -50,7 +50,19 @@ export default function PChartPage(): React.JSX.Element {
                             </CardHeader>
                             <CardContent className="space-y-6">
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    P-CHART is the most versatile and popular control chart. To use P-CHART, quality inspectors classify sample items into two groups: good or bad. This can mean defective or non-defective, conforming or non-conforming to specifications, acceptable or unacceptable, or other definitions in which there are only two categories of results. Brookshire Cookware Corporation, a producer of pots and pans located in Brookshire , Texas , uses P-CHART worksheets to monitor the quality of component parts received from its Mexican suppliers. At the end of each business day, Brookshire faxes a copy of each P-CHART to its suppliers. This feedback helps maintain a good working relationship with suppliers and alerts them to potential problems.
+                                    P-CHART is the most versatile and popular control chart. To
+                                    use P-CHART, quality inspectors classify sample items into two
+                                    groups: good or bad. This can mean defective or non-defective,
+                                    conforming or non-conforming to specifications, acceptable or
+                                    unacceptable, or other definitions in which there are only two
+                                    categories of results. Brookshire Cookware Corporation, a
+                                    producer of pots and pans located in Brookshire , Texas , uses
+                                    P-CHART worksheets to monitor the quality of component parts
+                                    received from its Mexican suppliers. At the end of each
+                                    business day, Brookshire faxes a copy of each P-CHART to its
+                                    suppliers. This feedback helps maintain a good working
+                                    relationship with suppliers and alerts them to potential
+                                    problems.
                                 </p>
                             </CardContent>
                         </Card>

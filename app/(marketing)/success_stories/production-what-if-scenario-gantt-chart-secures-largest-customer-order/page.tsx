@@ -48,7 +48,7 @@ export default function ProductionWhatIfScenarioPage() {
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-7xl">
             {/* Featured Image */}
-            <div className="mb-8 flex justify-center">
+            <div className="mb-6 flex justify-center">
               <Image
                 src="https://www.usersolutions.com/wp-content/uploads/2022/07/turnerlogo22a-161208-5849d56942669.jpg"
                 alt="Turner Bicycles logo since 1994"

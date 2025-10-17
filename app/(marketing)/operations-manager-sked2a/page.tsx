@@ -23,7 +23,7 @@ export default function OperationsManagerSked2aPage(): React.JSX.Element {
                         <h1 className="mb-6 text-4xl font-bold md:text-6xl">
                             Operations Manager: SKED2A
                         </h1>
-                        <p className="mb-8 text-xl md:text-2xl">
+                        <p className="mb-6 text-xl md:text-2xl">
                             Job Sequencing For 2 Work Stations in Series
                         </p>
                         <div className="flex flex-col justify-center gap-4 sm:flex-row">
@@ -42,7 +42,7 @@ export default function OperationsManagerSked2aPage(): React.JSX.Element {
             <section className="pt-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-7xl">
-                        <Card className="mb-6">
+                        <Card>
                             <CardHeader>
                                 <CardTitle className="text-center text-3xl">
                                     Job Sequencing For 2 Work Stations in Series (SKED2A)

@@ -135,8 +135,8 @@ const AdminLicensePage = () => {
   }
 
   return (
-    <div className="container mx-auto px-4 py-8">
-      <div className="mb-8">
+    <div className="container mx-auto px-4 py-6">
+      <div className="mb-6">
         <h1 className="mb-2 text-3xl font-bold text-gray-900">
           License Dashboard
         </h1>
@@ -145,7 +145,7 @@ const AdminLicensePage = () => {
 
       {/* Statistics */}
       {stats && (
-        <div className="mb-8 grid grid-cols-1 gap-4 md:grid-cols-4">
+        <div className="mb-6 grid grid-cols-1 gap-4 md:grid-cols-4">
           <div className="rounded-lg bg-white p-6 shadow">
             <h3 className="text-sm font-medium text-gray-500">
               Total Licenses
@@ -323,7 +323,7 @@ const AdminLicensePage = () => {
       </div>
 
       {licenses.length === 0 && (
-        <div className="py-8 text-center">
+        <div className="py-6 text-center">
           <p className="text-gray-500">
             No licenses found matching your criteria.
           </p>

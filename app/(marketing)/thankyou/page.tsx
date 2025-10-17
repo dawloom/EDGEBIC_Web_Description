@@ -31,7 +31,7 @@ export default function ThankYouPage() {
             <section className="pt-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-7xl">
-                        <Card className="mb-8">
+                        <Card className="mb-6">
                             <CardHeader>
                                 <CardTitle>What Happens Next?</CardTitle>
                             </CardHeader>
@@ -61,7 +61,7 @@ export default function ThankYouPage() {
                             </CardContent>
                         </Card>
 
-                        <Card className="mb-8">
+                        <Card className="mb-6">
                             <CardHeader>
                                 <CardTitle>Our Unique Demoing Approach</CardTitle>
                             </CardHeader>
@@ -113,7 +113,7 @@ export default function ThankYouPage() {
                             </CardContent>
                         </Card>
 
-                        <Card className="mb-8 border-blue-200 bg-blue-50 dark:border-blue-800 dark:bg-blue-900/20">
+                        <Card className="mb-6 border-blue-200 bg-blue-50 dark:border-blue-800 dark:bg-blue-900/20">
                             <CardContent className="pt-6">
                                 <div className="text-center">
                                     <p className="mb-4 text-2xl font-semibold">

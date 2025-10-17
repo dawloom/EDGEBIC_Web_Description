@@ -19,7 +19,7 @@ export default function TeamPage() {
 
             {/* Team Leaders Section */}
             <div className="container mx-auto px-4 py-6">
-                <h2 className="mb-12 text-center text-3xl font-bold text-gray-800">
+                <h2 className="mb-6 text-center text-3xl font-bold text-gray-800">
                     TEAM LEADERS (PRODUCT SUPPORT AND SALES)
                 </h2>
 

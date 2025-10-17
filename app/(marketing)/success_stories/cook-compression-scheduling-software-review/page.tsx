@@ -45,7 +45,7 @@ export default function CookCompressionReviewPage() {
                     <div className="mx-auto max-w-7xl">
                         <div className="prose prose-lg dark:prose-invert mx-auto">
                             {/* Featured Image */}
-                            <div className="mb-8 flex justify-center">
+                            <div className="mb-6 flex justify-center">
                                 <Image
                                     src="https://www.usersolutions.com/wp-content/uploads/2022/07/cook.jpg"
                                     alt="Cook Compression"

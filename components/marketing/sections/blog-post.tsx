@@ -14,11 +14,11 @@ type BlogPostProps = {
     published: string;
     category: string;
     author:
-      | {
-          name?: string;
-          avatar?: string;
-        }
-      | undefined;
+    | {
+      name?: string;
+      avatar?: string;
+    }
+    | undefined;
     body: {
       raw: string;
       code: string;
@@ -33,7 +33,7 @@ export function BlogPost({ post }: BlogPostProps): React.JSX.Element {
         <div className="mx-auto w-full min-w-0">
           <Link
             href="/blog"
-            className="group mb-12 flex items-center space-x-1 text-base leading-none text-foreground duration-200"
+            className="group mb-6 flex items-center space-x-1 text-base leading-none text-foreground duration-200"
           >
             <span className="transition-transform group-hover:-translate-x-0.5">
               ←

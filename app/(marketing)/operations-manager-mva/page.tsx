@@ -23,7 +23,7 @@ export default function OperationsManagerMVAPage(): React.JSX.Element {
             <h1 className="mb-6 text-4xl font-bold md:text-6xl">
               Operations Manager: MVA
             </h1>
-            <p className="mb-8 text-xl md:text-2xl">
+            <p className="mb-6 text-xl md:text-2xl">
               Multivariate Analysis - Uncover complex relationships in your
               operational data
             </p>
@@ -43,7 +43,7 @@ export default function OperationsManagerMVAPage(): React.JSX.Element {
       <section className="bg-gray-50 pt-6">
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-7xl">
-            <h2 className="mb-8 text-center text-3xl font-bold">
+            <h2 className="mb-6 text-center text-3xl font-bold">
               Case Study: Global Retail Analytics Corporation
             </h2>
             <div className="rounded-lg bg-white p-8 shadow-sm">
@@ -123,7 +123,7 @@ export default function OperationsManagerMVAPage(): React.JSX.Element {
       <section className="pt-6">
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-7xl">
-            <h2 className="mb-12 text-center text-3xl font-bold">
+            <h2 className="mb-6 text-center text-3xl font-bold">
               Advanced MVA Techniques
             </h2>
             <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
@@ -201,7 +201,7 @@ export default function OperationsManagerMVAPage(): React.JSX.Element {
       <section className="bg-gray-50 pt-6">
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-7xl">
-            <h2 className="mb-12 text-center text-3xl font-bold">
+            <h2 className="mb-6 text-center text-3xl font-bold">
               Real-World Applications
             </h2>
             <div className="grid gap-8 md:grid-cols-2">
@@ -278,7 +278,7 @@ export default function OperationsManagerMVAPage(): React.JSX.Element {
       <section className="pt-6">
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-7xl text-center">
-            <h2 className="mb-12 text-3xl font-bold">
+            <h2 className="mb-6 text-3xl font-bold">
               Why Choose MVA for Your Analytics?
             </h2>
             <div className="grid gap-8 md:grid-cols-2">
@@ -327,7 +327,7 @@ export default function OperationsManagerMVAPage(): React.JSX.Element {
       <section className="bg-muted/50 pt-6">
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-7xl text-center">
-            <h2 className="mb-8 text-3xl font-bold text-foreground">
+            <h2 className="mb-6 text-3xl font-bold text-foreground">
               CELEBRATING 25 YEARS OF AWARD WINNING SOFTWARE!
             </h2>
             <div className="flex justify-center">

@@ -121,9 +121,9 @@ export function ResourceManagementBlog() {
       </section>
 
       {/* Blog Posts Section */}
-      <section className="py-8">
+      <section className="py-6">
         <div className="container">
-          <div className="mb-12 text-center">
+          <div className="mb-6 text-center">
             <h2 className="mb-4 text-3xl font-bold">Latest Insights</h2>
             <p className="mx-auto max-w-2xl text-muted-foreground">
               Stay updated with the latest trends, technologies, and best
@@ -132,7 +132,7 @@ export function ResourceManagementBlog() {
           </div>
 
           {/* Category Filter */}
-          <div className="mb-12 flex flex-wrap justify-center gap-2">
+          <div className="mb-6 flex flex-wrap justify-center gap-2">
             {categories.map((category) => (
               <Button
                 key={category}
@@ -206,7 +206,7 @@ export function ResourceManagementBlog() {
       </section>
 
       {/* About Section */}
-      <section className="bg-muted/30 py-8">
+      <section className="bg-muted/30 py-6">
         <div className="container">
           <div className="grid items-center gap-12 lg:grid-cols-2">
             <div>

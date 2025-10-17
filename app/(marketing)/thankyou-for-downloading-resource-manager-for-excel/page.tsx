@@ -35,15 +35,15 @@ export default function ThankYouResourceManagerExcelPage() {
         <div className="container mx-auto px-4">
           <Card className="mx-auto max-w-7xl">
             <CardContent className="p-8">
-              <div className="mb-8 text-center">
+              <div className="mb-6 text-center">
                 <img
                   src="https://www.usersolutions.com/wp-content/uploads/2022/10/thankyou.jpg"
                   alt="Customer service representative smiling with headset at computer"
-                  className="mx-auto mb-8 h-auto w-full rounded-lg shadow-lg"
+                  className="mx-auto mb-6 h-auto w-full rounded-lg shadow-lg"
                 />
               </div>
 
-              <div className="mb-8 text-center">
+              <div className="mb-6 text-center">
                 <Button
                   asChild
                   size="lg"

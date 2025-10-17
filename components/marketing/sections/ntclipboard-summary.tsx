@@ -19,7 +19,7 @@ export function NTClipboardSummary(): React.JSX.Element {
                         Stop Fighting Your ERP System
                     </h1>
 
-                    <p className="mb-8 text-xl text-muted-foreground md:text-2xl">
+                    <p className="mb-6 text-xl text-muted-foreground md:text-2xl">
                         If you're drowning in custom Excel reports, whiteboard chaos, or
                         late shipments despite having an ERP system, EDGEBIC is your
                         solution.
@@ -65,7 +65,7 @@ export function NTClipboardSummary(): React.JSX.Element {
 
                 {/* Problem & Solution Grid */}
                 <div className="mx-auto max-w-7xl">
-                    <div className="mb-8 grid gap-8 md:grid-cols-2">
+                    <div className="mb-6 grid gap-8 md:grid-cols-2">
                         {/* Problems */}
                         <div className="rounded-2xl border border-red-200 bg-red-50/50 p-8 dark:border-red-800 dark:bg-red-900/20">
                             <h3 className="mb-6 text-2xl font-bold text-red-800 dark:text-red-200">
@@ -124,8 +124,8 @@ export function NTClipboardSummary(): React.JSX.Element {
                     </div>
 
                     {/* Key Features */}
-                    <div className="mb-8 rounded-3xl border bg-gradient-to-br from-slate-50 to-slate-100 p-8 dark:from-slate-900 dark:to-slate-800 md:p-12">
-                        <h3 className="mb-8 text-center text-3xl font-bold">
+                    <div className="mb-6 rounded-3xl border bg-gradient-to-br from-slate-50 to-slate-100 p-8 dark:from-slate-900 dark:to-slate-800 md:p-12">
+                        <h3 className="mb-6 text-center text-3xl font-bold">
                             Deep Functionality for Every Production Challenge
                         </h3>
                         <div className="grid gap-6 md:grid-cols-3">

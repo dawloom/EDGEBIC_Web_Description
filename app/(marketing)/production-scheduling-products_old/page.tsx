@@ -24,7 +24,7 @@ export default function ProductionSchedulingProductsOldPage() {
                         <h1 className="mb-6 bg-gradient-to-r from-blue-600 to-green-600 bg-clip-text text-4xl font-bold text-transparent md:text-5xl">
                             Production Planning and Scheduling Solutions
                         </h1>
-                        <p className="mb-8 text-xl text-muted-foreground">
+                        <p className="mb-6 text-xl text-muted-foreground">
                             From simple Excel based job shop scheduling to advanced planning
                             and scheduling software (APS)
                         </p>
@@ -79,7 +79,7 @@ export default function ProductionSchedulingProductsOldPage() {
             <section className="pb-8 pt-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-7xl">
-                        <h2 className="mb-8 text-center text-3xl font-bold">
+                        <h2 className="mb-6 text-center text-3xl font-bold">
                             Our Product Solutions
                         </h2>
 
@@ -243,11 +243,11 @@ export default function ProductionSchedulingProductsOldPage() {
                                 <h2 className="mb-4 text-3xl font-bold text-slate-900 dark:text-white">
                                     Want to get your production in the groove?
                                 </h2>
-                                <p className="mb-8 text-xl text-muted-foreground">
+                                <p className="mb-6 text-xl text-muted-foreground">
                                     Watch this classic video and get your operations movin' and
                                     groovin' today!
                                 </p>
-                                <div className="mb-8 aspect-video overflow-hidden rounded-lg bg-slate-100 dark:bg-slate-800">
+                                <div className="mb-6 aspect-video overflow-hidden rounded-lg bg-slate-100 dark:bg-slate-800">
                                     <iframe
                                         src="https://www.youtube.com/embed/dQw4w9WgXcQ"
                                         title="Production Scheduling Software Video"

@@ -8,7 +8,7 @@ export function StoryVision(): React.JSX.Element {
       <div className="container max-w-7xl py-20">
         <div className="grid gap-16 lg:grid-cols-2">
           <div>
-            <h2 className="mb-8 text-sm font-medium uppercase tracking-wider text-muted-foreground">
+            <h2 className="mb-6 text-sm font-medium uppercase tracking-wider text-muted-foreground">
               Our vision
             </h2>
             <p className="text-2xl font-medium leading-relaxed md:text-3xl">

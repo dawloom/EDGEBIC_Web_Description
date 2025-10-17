@@ -213,9 +213,9 @@ export function NTClipboardSuccessStories(): React.JSX.Element {
       </section>
 
       {/* Success Stories Grid */}
-      <section className="py-8">
+      <section className="py-6">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="mb-8 text-center">
+          <div className="mb-6 text-center">
             <h2 className="text-3xl  font-bold text-foreground sm:text-4xl">
               Discover How Easy and Affordable It Is
             </h2>

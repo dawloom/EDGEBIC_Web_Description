@@ -45,7 +45,7 @@ export function NTClipboardDemo(): React.JSX.Element {
               <h2 className="mb-6 text-3xl font-bold md:text-5xl">
                 How NTClipboard Works
               </h2>
-              <p className="mb-8 text-xl text-muted-foreground">
+              <p className="mb-6 text-xl text-muted-foreground">
                 Transform complex PDF data extraction into a simple 4-step
                 process
               </p>

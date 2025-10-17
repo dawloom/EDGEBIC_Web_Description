@@ -39,7 +39,7 @@ export default function EoqPage(): React.JSX.Element {
             <section className="pt-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-7xl">
-                        <Card className="mb-8">
+                        <Card className="mb-6">
                             <CardHeader>
                                 <CardTitle className="text-center text-3xl">
                                     Economic Order Quantity (EOQ)

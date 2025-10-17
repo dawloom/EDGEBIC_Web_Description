@@ -201,7 +201,7 @@ export function Testimonials(): React.JSX.Element {
   return (
     <GridSection hideVerticalGridLines>
       <div className="container border-x py-20 md:border-none">
-        <h2 className="mb-8 text-center text-3xl font-semibold md:text-5xl lg:text-left">
+        <h2 className="mb-6 text-center text-3xl font-semibold md:text-5xl lg:text-left">
           What people say
         </h2>
         <div className="relative mt-6 max-h-[540px] overflow-hidden">

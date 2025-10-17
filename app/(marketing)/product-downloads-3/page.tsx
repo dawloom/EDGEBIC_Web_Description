@@ -193,7 +193,7 @@ export default function ProductDownloads3Page() {
             <section className="py-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-7xl">
-                        <h2 className="mb-8 text-center text-3xl font-bold">
+                        <h2 className="mb-6 text-center text-3xl font-bold">
                             Other Products
                         </h2>
 

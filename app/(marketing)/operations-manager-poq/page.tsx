@@ -23,7 +23,7 @@ export default function OperationsManagerPoqPage(): React.JSX.Element {
                         <h1 className="mb-6 text-4xl font-bold md:text-6xl">
                             Operations Manager: POQ
                         </h1>
-                        <p className="mb-8 text-xl md:text-2xl">Period-Order-Quantity</p>
+                        <p className="mb-6 text-xl md:text-2xl">Period-Order-Quantity</p>
                         <div className="flex flex-col justify-center gap-4 sm:flex-row">
                             <Button
                                 size="lg"

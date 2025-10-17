@@ -221,7 +221,7 @@ export default function EDGEBIPage(): React.JSX.Element {
         className="bg-slate-50 py-6 dark:bg-slate-900"
       >
         <div className="container mx-auto max-w-7xl px-4">
-          <div className="mb-12 text-center">
+          <div className="mb-6 text-center">
             <h2 className="mb-4 text-3xl font-bold md:text-4xl">Overview</h2>
             <p className="text-xl text-muted-foreground">
               EDGEBI is the ideal interface for managing the schedule produced
@@ -349,7 +349,7 @@ export default function EDGEBIPage(): React.JSX.Element {
       {/* Features Section */}
       <section className="py-6">
         <div className="container mx-auto max-w-7xl px-4">
-          <div className="mb-12 text-center">
+          <div className="mb-6 text-center">
             <h2 className="mb-4 text-3xl font-bold md:text-4xl">
               Key Features
             </h2>
@@ -382,7 +382,7 @@ export default function EDGEBIPage(): React.JSX.Element {
       <section className="bg-slate-50 py-6 dark:bg-slate-900">
         <div className="container mx-auto max-w-7xl px-4">
           <div className="text-center">
-            <h2 className="mb-8 text-3xl font-bold md:text-4xl">
+            <h2 className="mb-6 text-3xl font-bold md:text-4xl">
               EDGEBI Capabilities
             </h2>
 

@@ -21,7 +21,7 @@ export default function JobSchedulerLitePage(): React.JSX.Element {
             <h1 className="mb-6 text-4xl font-bold text-white sm:text-5xl md:text-6xl">
               Job Scheduler Lite (JSL)
             </h1>
-            <p className="mb-8 text-xl text-white/90 md:text-2xl">
+            <p className="mb-6 text-xl text-white/90 md:text-2xl">
               Entry-level production scheduling solution designed for job shops
               and small manufacturers
             </p>
@@ -192,7 +192,7 @@ export default function JobSchedulerLitePage(): React.JSX.Element {
 
           {/* Key Features */}
           <div className="mb-16">
-            <h2 className="mb-8 text-center text-3xl font-bold">
+            <h2 className="mb-6 text-center text-3xl font-bold">
               Key Features
             </h2>
             <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
@@ -236,7 +236,7 @@ export default function JobSchedulerLitePage(): React.JSX.Element {
 
           {/* Core Modules */}
           <div className="mb-16">
-            <h2 className="mb-8 text-center text-3xl font-bold">
+            <h2 className="mb-6 text-center text-3xl font-bold">
               Core Modules with Screenshots
             </h2>
             <div className="grid gap-8 md:grid-cols-2">

@@ -13,7 +13,7 @@ export default function ProductVideoPage() {
                         <h1 className="mb-6 bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-4xl font-bold text-transparent md:text-5xl">
                             Product Videos
                         </h1>
-                        <p className="mb-8 text-xl text-gray-700">
+                        <p className="mb-6 text-xl text-gray-700">
                             Watch comprehensive video demonstrations of our manufacturing
                             solutions
                         </p>
@@ -26,7 +26,7 @@ export default function ProductVideoPage() {
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-7xl">
                         {/* Resource Manager DB */}
-                        <Card className="mb-8">
+                        <Card className="mb-6">
                             <CardHeader>
                                 <CardTitle className="text-2xl">
                                     Resource Manager DB Intro/Overview
@@ -50,7 +50,7 @@ export default function ProductVideoPage() {
                         </Card>
 
                         {/* Workcenter Scheduler XL Overview */}
-                        <Card className="mb-8">
+                        <Card className="mb-6">
                             <CardHeader>
                                 <CardTitle className="text-2xl">
                                     Workcenter Scheduler XL Overview
@@ -73,7 +73,7 @@ export default function ProductVideoPage() {
                         </Card>
 
                         {/* Overview 1 */}
-                        <Card className="mb-8">
+                        <Card className="mb-6">
                             <CardHeader>
                                 <CardTitle className="text-2xl">Overview 1</CardTitle>
                             </CardHeader>
@@ -89,7 +89,7 @@ export default function ProductVideoPage() {
                         </Card>
 
                         {/* Workcenter Scheduler XL Intro */}
-                        <Card className="mb-8">
+                        <Card className="mb-6">
                             <CardHeader>
                                 <CardTitle className="text-2xl">
                                     Workcenter Scheduler XL Intro
@@ -112,7 +112,7 @@ export default function ProductVideoPage() {
                         </Card>
 
                         {/* Resource Manager For Excel Intro */}
-                        <Card className="mb-8">
+                        <Card className="mb-6">
                             <CardHeader>
                                 <CardTitle className="text-2xl">
                                     Resource Manager For Excel Intro
@@ -135,7 +135,7 @@ export default function ProductVideoPage() {
                         </Card>
 
                         {/* Overview 2 */}
-                        <Card className="mb-8">
+                        <Card className="mb-6">
                             <CardHeader>
                                 <CardTitle className="text-2xl">Overview 2</CardTitle>
                             </CardHeader>
@@ -231,7 +231,7 @@ export default function ProductVideoPage() {
             <section className="bg-gray-50 pb-6 pt-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-7xl text-center">
-                        <h2 className="mb-8 text-3xl font-bold">
+                        <h2 className="mb-6 text-3xl font-bold">
                             Celebrating 25 Years of Award Winning Software!
                         </h2>
                         <div className="rounded-lg bg-white p-8 shadow-lg">

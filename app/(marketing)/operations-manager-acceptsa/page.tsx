@@ -21,12 +21,8 @@ export default function OperationsManagerAcceptsaPage(): React.JSX.Element {
                             </Badge>
                         </div>
                         <h1 className="mb-6 text-4xl font-bold md:text-6xl">
-                            Operations Manager: AcceptSA
+                            Operations Manager: ACCEPTSA
                         </h1>
-                        <p className="mb-8 text-xl md:text-2xl">
-                            Acceptance Sampling Analysis for statistical quality control and
-                            inspection planning
-                        </p>
                         <div className="flex flex-col justify-center gap-4 sm:flex-row">
                             <Button
                                 size="lg"
@@ -43,275 +39,42 @@ export default function OperationsManagerAcceptsaPage(): React.JSX.Element {
             <section className="pt-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-7xl">
-                        <Card className="mb-8">
+                        <Card className="mb-6">
                             <CardHeader>
                                 <CardTitle className="text-center text-3xl">
-                                    Acceptance Sampling Analysis
+                                    Acceptance Sampling (ACCEPTSA)
                                 </CardTitle>
                             </CardHeader>
                             <CardContent className="space-y-6">
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    AcceptSA (Acceptance Sampling Analysis) provides comprehensive
-                                    statistical sampling plans for quality control and inspection
-                                    processes. This powerful module designs optimal sampling
-                                    strategies that balance inspection costs with quality risk
-                                    management across manufacturing and service operations.
+                                    Acceptance sampling is a procedure for screening lots of
+                                    incoming material. We decide whether to accept or reject the
+                                    entire lot based on the results of a sample. A sampling plan
+                                    is defined by two parameters: sample size and acceptance
+                                    number. The acceptance number is the maximum number of
+                                    allowable defects in the sample. If the sample contains this
+                                    number or fewer defects, the lot is accepted without further
+                                    inspection. If the sample contains more than the maximum
+                                    number of defects, the lot is rejected and a 100% inspection
+                                    is conducted.
                                 </p>
 
                                 <p className="text-lg leading-relaxed text-muted-foreground">
-                                    From incoming material inspection to final product
-                                    verification, AcceptSA delivers scientifically-based sampling
-                                    plans that ensure quality standards while minimizing
-                                    inspection effort and costs through proven statistical
-                                    methodologies.
+                                    The sample size and acceptance number determine the risks
+                                    faced by the producer and consumer of the lot. The producer's
+                                    risk is the probability that a "good" lot will be rejected by
+                                    the sampling process. Lots are defined as good if they contain
+                                    no more than a certain level of defectives called the
+                                    acceptable quality level (AQL). The consumer's risk is the
+                                    probability that a "bad" lot will be accepted. Lots are called
+                                    bad if they contain more than a certain level of defectives
+                                    called the lot tolerance percent defective (LTPD). Using the
+                                    binomial distribution, the ACCEPTSA worksheet computes the
+                                    producer's and consumer's risks, given the lot size, sample
+                                    size, acceptance number, AQL, and LTPD.
                                 </p>
                             </CardContent>
                         </Card>
-                    </div>
-                </div>
-            </section>
-
-            {/* Case Study */}
-            <section className="bg-muted/50 pt-6">
-                <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-7xl">
-                        <Card>
-                            <CardHeader>
-                                <CardTitle className="text-center text-2xl">
-                                    Case Study: Medical Device Manufacturing
-                                </CardTitle>
-                            </CardHeader>
-                            <CardContent className="space-y-6">
-                                <div>
-                                    <h3 className="mb-3 text-xl font-semibold text-blue-600">
-                                        The Challenge
-                                    </h3>
-                                    <p className="mb-4 text-muted-foreground">
-                                        MedTech Devices required rigorous quality control for
-                                        critical medical components while managing inspection costs.
-                                        Their 100% inspection approach was expensive and
-                                        time-consuming, but reducing inspection raised concerns
-                                        about patient safety and regulatory compliance.
-                                    </p>
-                                </div>
-
-                                <div>
-                                    <h3 className="mb-3 text-xl font-semibold text-green-600">
-                                        The Solution
-                                    </h3>
-                                    <p className="mb-4 text-muted-foreground">
-                                        Implementing Operations Manager's AcceptSA module, the
-                                        quality team developed statistically valid sampling plans
-                                        that maintained stringent quality levels while reducing
-                                        inspection requirements. The system provided OC curves,
-                                        AQL/LTPD analysis, and risk assessment for each product
-                                        line.
-                                    </p>
-                                </div>
-
-                                <div>
-                                    <h3 className="mb-3 text-xl font-semibold text-purple-600">
-                                        Results Achieved
-                                    </h3>
-                                    <div className="grid gap-4 md:grid-cols-2">
-                                        <div className="space-y-2">
-                                            <div className="flex items-center">
-                                                <div className="mr-3 size-3 rounded-full bg-green-500" />
-                                                <span className="text-sm">
-                                                    75% reduction in inspection time
-                                                </span>
-                                            </div>
-                                            <div className="flex items-center">
-                                                <div className="mr-3 size-3 rounded-full bg-blue-500" />
-                                                <span className="text-sm">
-                                                    99.9% quality assurance maintained
-                                                </span>
-                                            </div>
-                                            <div className="flex items-center">
-                                                <div className="mr-3 size-3 rounded-full bg-purple-500" />
-                                                <span className="text-sm">
-                                                    $1.8M annual cost savings
-                                                </span>
-                                            </div>
-                                        </div>
-                                        <div className="space-y-2">
-                                            <div className="flex items-center">
-                                                <div className="mr-3 size-3 rounded-full bg-orange-500" />
-                                                <span className="text-sm">
-                                                    Enhanced regulatory compliance
-                                                </span>
-                                            </div>
-                                            <div className="flex items-center">
-                                                <div className="mr-3 size-3 rounded-full bg-red-500" />
-                                                <span className="text-sm">
-                                                    Statistical confidence achieved
-                                                </span>
-                                            </div>
-                                            <div className="flex items-center">
-                                                <div className="mr-3 size-3 rounded-full bg-teal-500" />
-                                                <span className="text-sm">
-                                                    Risk-based quality control
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </CardContent>
-                        </Card>
-                    </div>
-                </div>
-            </section>
-
-            {/* Sampling Features */}
-            <section className="pt-6">
-                <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-7xl">
-                        <h2 className="mb-12 text-center text-3xl font-bold text-foreground">
-                            AcceptSA Sampling Capabilities
-                        </h2>
-                        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-                            <Card>
-                                <CardHeader>
-                                    <CardTitle className="text-center">
-                                        Single Sampling Plans
-                                    </CardTitle>
-                                </CardHeader>
-                                <CardContent>
-                                    <p className="text-center text-muted-foreground">
-                                        Simple single-stage sampling with accept/reject decisions
-                                    </p>
-                                </CardContent>
-                            </Card>
-                            <Card>
-                                <CardHeader>
-                                    <CardTitle className="text-center">
-                                        Double Sampling Plans
-                                    </CardTitle>
-                                </CardHeader>
-                                <CardContent>
-                                    <p className="text-center text-muted-foreground">
-                                        Two-stage sampling for reduced average sample size
-                                    </p>
-                                </CardContent>
-                            </Card>
-                            <Card>
-                                <CardHeader>
-                                    <CardTitle className="text-center">
-                                        Sequential Sampling
-                                    </CardTitle>
-                                </CardHeader>
-                                <CardContent>
-                                    <p className="text-center text-muted-foreground">
-                                        Continuous sampling with real-time decision making
-                                    </p>
-                                </CardContent>
-                            </Card>
-                            <Card>
-                                <CardHeader>
-                                    <CardTitle className="text-center">
-                                        OC Curve Analysis
-                                    </CardTitle>
-                                </CardHeader>
-                                <CardContent>
-                                    <p className="text-center text-muted-foreground">
-                                        Operating characteristic curves for plan evaluation
-                                    </p>
-                                </CardContent>
-                            </Card>
-                            <Card>
-                                <CardHeader>
-                                    <CardTitle className="text-center">AQL/LTPD Design</CardTitle>
-                                </CardHeader>
-                                <CardContent>
-                                    <p className="text-center text-muted-foreground">
-                                        Acceptable and limiting quality level optimization
-                                    </p>
-                                </CardContent>
-                            </Card>
-                            <Card>
-                                <CardHeader>
-                                    <CardTitle className="text-center">Risk Assessment</CardTitle>
-                                </CardHeader>
-                                <CardContent>
-                                    <p className="text-center text-muted-foreground">
-                                        Producer and consumer risk calculation and control
-                                    </p>
-                                </CardContent>
-                            </Card>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            {/* Quality Applications */}
-            <section className="bg-muted/50 pt-6">
-                <div className="container mx-auto px-4">
-                    <div className="mx-auto max-w-7xl">
-                        <h2 className="mb-12 text-center text-3xl font-bold text-foreground">
-                            AcceptSA Quality Control Applications
-                        </h2>
-                        <div className="grid gap-6 md:grid-cols-2">
-                            <Card>
-                                <CardHeader>
-                                    <CardTitle className="text-xl text-blue-600">
-                                        Incoming Inspection
-                                    </CardTitle>
-                                </CardHeader>
-                                <CardContent>
-                                    <ul className="space-y-2 text-muted-foreground">
-                                        <li>• Supplier material verification</li>
-                                        <li>• Component quality assessment</li>
-                                        <li>• Raw material testing</li>
-                                        <li>• Vendor performance monitoring</li>
-                                    </ul>
-                                </CardContent>
-                            </Card>
-                            <Card>
-                                <CardHeader>
-                                    <CardTitle className="text-xl text-green-600">
-                                        Production Control
-                                    </CardTitle>
-                                </CardHeader>
-                                <CardContent>
-                                    <ul className="space-y-2 text-muted-foreground">
-                                        <li>• In-process quality monitoring</li>
-                                        <li>• Work-in-progress inspection</li>
-                                        <li>• Process capability assessment</li>
-                                        <li>• Manufacturing quality gates</li>
-                                    </ul>
-                                </CardContent>
-                            </Card>
-                            <Card>
-                                <CardHeader>
-                                    <CardTitle className="text-xl text-purple-600">
-                                        Final Inspection
-                                    </CardTitle>
-                                </CardHeader>
-                                <CardContent>
-                                    <ul className="space-y-2 text-muted-foreground">
-                                        <li>• Finished goods verification</li>
-                                        <li>• Shipment quality assurance</li>
-                                        <li>• Product release decisions</li>
-                                        <li>• Customer quality guarantees</li>
-                                    </ul>
-                                </CardContent>
-                            </Card>
-                            <Card>
-                                <CardHeader>
-                                    <CardTitle className="text-xl text-orange-600">
-                                        Service Quality
-                                    </CardTitle>
-                                </CardHeader>
-                                <CardContent>
-                                    <ul className="space-y-2 text-muted-foreground">
-                                        <li>• Service delivery assessment</li>
-                                        <li>• Customer satisfaction surveys</li>
-                                        <li>• Performance monitoring</li>
-                                        <li>• Quality audit sampling</li>
-                                    </ul>
-                                </CardContent>
-                            </Card>
-                        </div>
                     </div>
                 </div>
             </section>
@@ -322,14 +85,18 @@ export default function OperationsManagerAcceptsaPage(): React.JSX.Element {
                     <div className="mx-auto max-w-7xl">
                         <Card className="bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20">
                             <CardContent className="p-8 text-center">
-                                <h3 className="mb-6 text-2xl font-bold text-slate-900 dark:text-white">
+                                <h2 className="mb-6 text-2xl font-bold text-foreground">
                                     CELEBRATING 25 YEARS OF AWARD WINNING SOFTWARE!
-                                </h3>
-                                <img
-                                    src="https://www.usersolutions.com/wp-content/uploads/2022/07/banner-logoso-sm-58c9a28d237d6-1024x128.jpg"
-                                    alt="Collection of industry and business awards logos"
-                                    className="mx-auto h-auto max-w-full"
-                                />
+                                </h2>
+                                <div className="flex justify-center">
+                                    <Image
+                                        src="https://www.usersolutions.com/wp-content/uploads/2022/07/banner-logoso-sm-58c9a28d237d6-1024x128.jpg"
+                                        alt="Collection of industry and business awards logos"
+                                        width={1024}
+                                        height={128}
+                                        className="h-auto max-w-full rounded-lg shadow-md"
+                                    />
+                                </div>
                             </CardContent>
                         </Card>
                     </div>

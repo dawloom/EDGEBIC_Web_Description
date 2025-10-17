@@ -132,7 +132,7 @@ export function ProductionPlanningSolutions(): React.JSX.Element {
 
         <div className="mx-auto mt-8 max-w-7xl">
           {/* Contact CTA */}
-          <div className="mb-12 text-center">
+          <div className="mb-6 text-center">
             <p className="mb-6 text-lg text-slate-700 dark:text-slate-300">
               Contact us to discuss which product is the best fit for your
               application and budget.
@@ -403,7 +403,7 @@ export function ProductionPlanningSolutions(): React.JSX.Element {
 
           {/* Customer Testimonials */}
           <div className="mb-16">
-            <h2 className="mb-8 text-center text-2xl font-bold text-slate-900 dark:text-white">
+            <h2 className="mb-6 text-center text-2xl font-bold text-slate-900 dark:text-white">
               What Our Customers Say
             </h2>
             <div className="grid gap-6 md:grid-cols-3">
@@ -489,10 +489,10 @@ export function ProductionPlanningSolutions(): React.JSX.Element {
 
           {/* Production Scheduling Features Section */}
           <div className="mb-16">
-            <h2 className="mb-8 text-center text-3xl font-bold text-slate-900 dark:text-white">
+            <h2 className="mb-6 text-center text-3xl font-bold text-slate-900 dark:text-white">
               Production Scheduling Features
             </h2>
-            <p className="mb-12 text-center text-lg text-slate-600 dark:text-slate-400">
+            <p className="mb-6 text-center text-lg text-slate-600 dark:text-slate-400">
               Comprehensive production planning and scheduling capabilities
               designed to optimize your manufacturing operations
             </p>
@@ -686,10 +686,10 @@ export function ProductionPlanningSolutions(): React.JSX.Element {
 
           {/* Feature Comparison Matrix */}
           <div className="mb-16">
-            <h2 className="mb-8 text-center text-3xl font-bold text-slate-900 dark:text-white">
+            <h2 className="mb-6 text-center text-3xl font-bold text-slate-900 dark:text-white">
               Choose the Right Solution for Your Business
             </h2>
-            <p className="mb-8 text-center text-lg text-slate-600 dark:text-slate-400">
+            <p className="mb-6 text-center text-lg text-slate-600 dark:text-slate-400">
               Compare features across our product range to find the perfect fit
             </p>
 

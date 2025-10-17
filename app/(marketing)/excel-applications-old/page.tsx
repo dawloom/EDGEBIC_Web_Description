@@ -25,7 +25,7 @@ export default function ExcelApplicationsOldPage() {
                         <h1 className="mb-6 bg-gradient-to-r from-orange-600 to-yellow-600 bg-clip-text text-4xl font-bold text-transparent md:text-5xl">
                             Excel Applications
                         </h1>
-                        <p className="mb-8 text-xl text-muted-foreground">
+                        <p className="mb-6 text-xl text-muted-foreground">
                             Choose the product that best suits your company's needs by using
                             our product matrix
                         </p>

@@ -19,7 +19,7 @@ export default function BuyNowLeadTimePage() {
                         <h1 className="mb-6 text-4xl font-bold md:text-5xl">
                             Purchase Lead Time Calculator
                         </h1>
-                        <p className="mb-8 text-xl md:text-2xl">
+                        <p className="mb-6 text-xl md:text-2xl">
                             Start optimizing your lead times today
                         </p>
                     </div>

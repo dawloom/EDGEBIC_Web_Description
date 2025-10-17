@@ -23,7 +23,7 @@ export default function OperationsManagerSimplePage(): React.JSX.Element {
             <h1 className="mb-6 text-4xl font-bold md:text-6xl">
               Operations Manager: Simple Analysis
             </h1>
-            <p className="mb-8 text-xl md:text-2xl">
+            <p className="mb-6 text-xl md:text-2xl">
               Streamlined analysis tools for quick operational insights and
               decision making
             </p>
@@ -42,7 +42,7 @@ export default function OperationsManagerSimplePage(): React.JSX.Element {
       <section className="pt-6">
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-7xl">
-            <Card className="mb-8">
+            <Card className="mb-6">
               <CardHeader>
                 <CardTitle className="text-center text-3xl">
                   Simple Exponential Smoothing
@@ -75,7 +75,7 @@ export default function OperationsManagerSimplePage(): React.JSX.Element {
         </div>
       </section>{' '}
       {/* Case Study */}
-      <section className="bg-muted/50 py-6">
+      <section className="pt-6">
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-7xl">
             <Card>
@@ -164,10 +164,10 @@ export default function OperationsManagerSimplePage(): React.JSX.Element {
         </div>
       </section>
       {/* Analysis Features */}
-      <section className="py-6">
+      <section className="pt-6">
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-7xl">
-            <h2 className="mb-12 text-center text-3xl font-bold text-foreground">
+            <h2 className="mb-6 text-center text-3xl font-bold text-foreground">
               Simple Analysis Tools
             </h2>
             <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
@@ -242,10 +242,10 @@ export default function OperationsManagerSimplePage(): React.JSX.Element {
         </div>
       </section>
       {/* Analysis Categories */}
-      <section className="bg-muted/50 py-6">
+      <section className="pt-6">
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-7xl">
-            <h2 className="mb-12 text-center text-3xl font-bold text-foreground">
+            <h2 className="mb-6 text-center text-3xl font-bold text-foreground">
               Analysis Categories
             </h2>
             <div className="grid gap-6 md:grid-cols-2">
@@ -317,7 +317,7 @@ export default function OperationsManagerSimplePage(): React.JSX.Element {
       <section className="pt-6">
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-7xl">
-            <h2 className="mb-12 text-center text-3xl font-bold text-foreground">
+            <h2 className="mb-6 text-center text-3xl font-bold text-foreground">
               Ideal Use Cases
             </h2>
             <div className="grid gap-6 md:grid-cols-2">

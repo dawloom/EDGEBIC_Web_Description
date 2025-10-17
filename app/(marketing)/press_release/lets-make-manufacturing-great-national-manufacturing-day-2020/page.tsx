@@ -29,7 +29,7 @@ export default function ManufacturingDayPressReleasePage() {
             <div className="container mx-auto px-4 pt-6">
                 <div className="mx-auto max-w-4xl">
                     <article className="prose prose-lg max-w-none">
-                        <header className="mb-12">
+                        <header className="mb-6">
                             <p className="text-lg font-semibold text-gray-700 dark:text-gray-300">
                                 South Lyon, MI - October 2, 2020
                             </p>
@@ -122,35 +122,35 @@ export default function ManufacturingDayPressReleasePage() {
                                 The manufacturing sector continues to be a cornerstone of the American economy:
                             </p>
                             <ul className="ml-6 space-y-3 text-gray-700 dark:text-gray-300">
-                                    <li className="flex items-start">
-                                        <span className="mr-2 text-blue-600">•</span>
-                                        <span>
-                                            Contributes $2.3 trillion to the U.S. economy annually
-                                        </span>
-                                    </li>
-                                    <li className="flex items-start">
-                                        <span className="mr-2 text-blue-600">•</span>
-                                        <span>Employs over 12 million workers directly</span>
-                                    </li>
-                                    <li className="flex items-start">
-                                        <span className="mr-2 text-blue-600">•</span>
-                                        <span>
-                                            Supports an estimated 18 million additional jobs in
-                                            related sectors
-                                        </span>
-                                    </li>
-                                    <li className="flex items-start">
-                                        <span className="mr-2 text-blue-600">•</span>
-                                        <span>Accounts for over 35% of U.S. exports</span>
-                                    </li>
-                                    <li className="flex items-start">
-                                        <span className="mr-2 text-blue-600">•</span>
-                                        <span>
-                                            Drives innovation with 60% of private sector R&D
-                                            investment
-                                        </span>
-                                    </li>
-                                </ul>
+                                <li className="flex items-start">
+                                    <span className="mr-2 text-blue-600">•</span>
+                                    <span>
+                                        Contributes $2.3 trillion to the U.S. economy annually
+                                    </span>
+                                </li>
+                                <li className="flex items-start">
+                                    <span className="mr-2 text-blue-600">•</span>
+                                    <span>Employs over 12 million workers directly</span>
+                                </li>
+                                <li className="flex items-start">
+                                    <span className="mr-2 text-blue-600">•</span>
+                                    <span>
+                                        Supports an estimated 18 million additional jobs in
+                                        related sectors
+                                    </span>
+                                </li>
+                                <li className="flex items-start">
+                                    <span className="mr-2 text-blue-600">•</span>
+                                    <span>Accounts for over 35% of U.S. exports</span>
+                                </li>
+                                <li className="flex items-start">
+                                    <span className="mr-2 text-blue-600">•</span>
+                                    <span>
+                                        Drives innovation with 60% of private sector R&D
+                                        investment
+                                    </span>
+                                </li>
+                            </ul>
 
                             <blockquote className="my-6 border-l-4 border-blue-600 p-6 dark:border-blue-400">
                                 <p className="mb-4 text-lg italic text-gray-800 dark:text-gray-200">

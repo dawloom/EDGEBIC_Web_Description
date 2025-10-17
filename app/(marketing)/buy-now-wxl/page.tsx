@@ -1,14 +1,24 @@
 import React from 'react';
+import Image from 'next/image';
 
+import { Badge } from '@/components/ui/badge';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 export default function BuyNowWXLPage() {
     return (
-        <div className="min-h-screen">
+        <div className="min-h-screen bg-background">
             {/* Hero Section */}
-            <section className="bg-gradient-to-r from-blue-600 to-blue-800 py-6 text-white">
+            <section className="bg-gradient-to-r from-blue-600 to-blue-800 py-6 text-white dark:from-blue-800 dark:to-blue-900">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-7xl text-center">
+                        <div className="mb-6">
+                            <Badge
+                                variant="outline"
+                                className="h-8 rounded-full border-white/20 bg-white/10 px-3 text-sm font-medium text-white shadow-sm"
+                            >
+                                BUY NOW
+                            </Badge>
+                        </div>
                         <h1 className="mb-6 text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">
                             Workcenter Scheduler XL - Buy Now
                         </h1>
@@ -26,7 +36,7 @@ export default function BuyNowWXLPage() {
                             </CardTitle>
                         </CardHeader>
                         <CardContent className="space-y-6">
-                            <p className="text-lg leading-relaxed">
+                            <p className="text-lg leading-relaxed text-muted-foreground">
                                 Workcenter Scheduler XL (WCXL) is an Excel based simple
                                 scheduler for getting visibility on workcenter loading to ship
                                 on time. Check out the videos for a quick overview, then
@@ -36,12 +46,12 @@ export default function BuyNowWXLPage() {
                             </p>
 
                             {/* Contact Form Section */}
-                            <div className="mt-8 rounded-lg bg-gray-50 p-6">
+                            <div className="mt-8 rounded-lg bg-gray-50 p-6 dark:bg-gray-800/50">
                                 <form className="space-y-4">
                                     <div>
                                         <label
                                             htmlFor="name"
-                                            className="mb-1 block text-sm font-medium text-gray-700"
+                                            className="mb-1 block text-sm font-medium text-gray-700 dark:text-gray-300"
                                         >
                                             Name
                                         </label>
@@ -49,14 +59,14 @@ export default function BuyNowWXLPage() {
                                             type="text"
                                             id="name"
                                             name="name"
-                                            className="w-full rounded-md border border-gray-300 px-4 py-2 focus:border-transparent focus:ring-2 focus:ring-blue-500"
+                                            className="w-full rounded-md border border-gray-300 bg-white px-4 py-2 focus:border-transparent focus:ring-2 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-900 dark:text-white"
                                         />
                                     </div>
 
                                     <div>
                                         <label
                                             htmlFor="email"
-                                            className="mb-1 block text-sm font-medium text-gray-700"
+                                            className="mb-1 block text-sm font-medium text-gray-700 dark:text-gray-300"
                                         >
                                             Email
                                         </label>
@@ -64,14 +74,14 @@ export default function BuyNowWXLPage() {
                                             type="email"
                                             id="email"
                                             name="email"
-                                            className="w-full rounded-md border border-gray-300 px-4 py-2 focus:border-transparent focus:ring-2 focus:ring-blue-500"
+                                            className="w-full rounded-md border border-gray-300 bg-white px-4 py-2 focus:border-transparent focus:ring-2 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-900 dark:text-white"
                                         />
                                     </div>
 
                                     <div>
                                         <label
                                             htmlFor="phone"
-                                            className="mb-1 block text-sm font-medium text-gray-700"
+                                            className="mb-1 block text-sm font-medium text-gray-700 dark:text-gray-300"
                                         >
                                             Phone
                                         </label>
@@ -79,14 +89,14 @@ export default function BuyNowWXLPage() {
                                             type="tel"
                                             id="phone"
                                             name="phone"
-                                            className="w-full rounded-md border border-gray-300 px-4 py-2 focus:border-transparent focus:ring-2 focus:ring-blue-500"
+                                            className="w-full rounded-md border border-gray-300 bg-white px-4 py-2 focus:border-transparent focus:ring-2 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-900 dark:text-white"
                                         />
                                     </div>
 
                                     <div>
                                         <label
                                             htmlFor="message"
-                                            className="mb-1 block text-sm font-medium text-gray-700"
+                                            className="mb-1 block text-sm font-medium text-gray-700 dark:text-gray-300"
                                         >
                                             Message
                                         </label>
@@ -94,7 +104,7 @@ export default function BuyNowWXLPage() {
                                             id="message"
                                             name="message"
                                             rows={4}
-                                            className="w-full rounded-md border border-gray-300 px-4 py-2 focus:border-transparent focus:ring-2 focus:ring-blue-500"
+                                            className="w-full rounded-md border border-gray-300 bg-white px-4 py-2 focus:border-transparent focus:ring-2 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-900 dark:text-white"
                                         />
                                     </div>
 
@@ -115,16 +125,22 @@ export default function BuyNowWXLPage() {
             <section className="pb-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-7xl">
-                        <Card className="bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20">
-                            <CardContent className="p-8 text-center">
-                                <h3 className="mb-6 text-2xl font-bold text-slate-900 dark:text-white">
+                        <Card className="overflow-hidden bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20">
+                            <CardHeader>
+                                <CardTitle className="text-center text-2xl text-blue-900 dark:text-white">
                                     CELEBRATING 25 YEARS OF AWARD WINNING SOFTWARE!
-                                </h3>
-                                <img
-                                    src="https://www.usersolutions.com/wp-content/uploads/2022/07/banner-logoso-sm-58c9a28d237d6-1024x128.jpg"
-                                    alt="Collection of industry and business awards logos"
-                                    className="mx-auto h-auto max-w-full"
-                                />
+                                </CardTitle>
+                            </CardHeader>
+                            <CardContent className="flex justify-center p-6">
+                                <div className="w-full max-w-4xl">
+                                    <Image
+                                        alt="Collection of industry and business awards logos"
+                                        className="h-auto w-full"
+                                        height={128}
+                                        src="https://www.usersolutions.com/wp-content/uploads/2022/07/banner-logoso-sm-58c9a28d237d6-1024x128.jpg"
+                                        width={1024}
+                                    />
+                                </div>
                             </CardContent>
                         </Card>
                     </div>
