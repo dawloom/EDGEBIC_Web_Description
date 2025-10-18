@@ -27,7 +27,7 @@ export default function NistMepIndustrialDampingPage() {
           <div className="mx-auto max-w-7xl text-center">
             <Badge
               variant="outline"
-              className="mb-6 h-8 rounded-full px-4 text-sm font-medium shadow-sm"
+              className="mb-6 h-8 rounded-full px-4 text-sm font-medium shadow-sm dark:border-white/30 dark:bg-white/10 dark:text-white"
             >
               Success Story
             </Badge>
