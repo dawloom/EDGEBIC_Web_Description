@@ -1,21 +1,23 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
+import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
-import {
-  Card,
-  CardContent,
-  CardHeader,
-  CardTitle
-} from '@/components/ui/card';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 export default function ResourceManagerForExcel2Page() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800">
+    <div className="min-h-screen">
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-blue-600 to-blue-800 py-6 text-white dark:from-blue-800 dark:to-blue-900">
         <div className="container mx-auto px-4 text-center">
           <div className="mx-auto max-w-7xl">
+            <Badge
+              variant="outline"
+              className="mb-6 h-8 rounded-full border-white/30 bg-white/10 px-3 text-sm font-medium text-white shadow-sm"
+            >
+              PRODUCT
+            </Badge>
             <h1 className="mb-6 text-4xl font-bold md:text-5xl">
               Resource Manager For Excel
             </h1>
@@ -69,7 +71,7 @@ export default function ResourceManagerForExcel2Page() {
       </section>
 
       {/* Summary Section */}
-      <section className="pt-6">
+      <section className="py-6">
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-7xl">
             <Card>
@@ -103,7 +105,7 @@ export default function ResourceManagerForExcel2Page() {
       </section>
 
       {/* Testimonial Section */}
-      <section className="bg-muted/50 pt-6">
+      <section className="bg-muted/50 py-6">
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-7xl">
             <Card>

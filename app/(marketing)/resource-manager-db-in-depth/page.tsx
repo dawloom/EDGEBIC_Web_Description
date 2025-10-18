@@ -7,13 +7,16 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 export default function ResourceManagerDBInDepthPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800">
+    <div className="min-h-screen">
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-blue-600 to-blue-800 py-6 text-white dark:from-blue-800 dark:to-blue-900">
         <div className="container mx-auto px-4 text-center">
           <div className="mx-auto max-w-7xl">
-            <Badge className="mb-4 bg-white/20 text-white hover:bg-white/30">
-              Production Planning Software
+            <Badge
+              variant="outline"
+              className="mb-6 h-8 rounded-full border-white/30 bg-white/10 px-3 text-sm font-medium text-white shadow-sm"
+            >
+              PRODUCT
             </Badge>
             <h1 className="mb-6 text-4xl font-bold md:text-5xl">
               Resource Manager DB: In Depth
@@ -45,7 +48,7 @@ export default function ResourceManagerDBInDepthPage() {
       </section>
 
       {/* Overview Section */}
-      <section className="pt-6">
+      <section className="py-6">
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-7xl">
             <Card>
@@ -74,7 +77,7 @@ export default function ResourceManagerDBInDepthPage() {
       </section>
 
       {/* Key Benefits Section */}
-      <section className="bg-muted/50 pt-6">
+      <section className="bg-muted/50 py-6">
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-7xl">
             <Card>
@@ -118,7 +121,7 @@ export default function ResourceManagerDBInDepthPage() {
       </section>
 
       {/* Core Features Section */}
-      <section className="pt-6">
+      <section className="py-6">
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-7xl">
             <h2 className="mb-6 text-center text-3xl font-bold text-foreground">
@@ -251,7 +254,7 @@ export default function ResourceManagerDBInDepthPage() {
       </section>
 
       {/* Works The Way You Do Section */}
-      <section className="bg-muted/50 pt-6">
+      <section className="bg-muted/50 py-6">
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-7xl">
             <Card>
@@ -291,7 +294,7 @@ export default function ResourceManagerDBInDepthPage() {
       </section>
 
       {/* Cruise Control Section */}
-      <section className="pt-6">
+      <section className="py-6">
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-7xl">
             <Card>
@@ -337,7 +340,7 @@ export default function ResourceManagerDBInDepthPage() {
       </section>
 
       {/* Reporting Section */}
-      <section className="bg-muted/50 pt-6">
+      <section className="bg-muted/50 py-6">
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-7xl">
             <Card>

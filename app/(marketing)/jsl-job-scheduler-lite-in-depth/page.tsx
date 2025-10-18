@@ -8,16 +8,16 @@ export default function JSLJobSchedulerLiteInDepthPage() {
     return (
         <div className="min-h-screen">
             {/* Hero Section */}
-            <section className="bg-gradient-to-r from-blue-600 to-blue-800 py-6 ">
-                <div className="container  mx-auto px-4">
+            <section className="bg-gradient-to-r from-blue-600 to-blue-800 py-6 text-white dark:from-blue-800 dark:to-blue-900">
+                <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-7xl text-center">
                         <Badge
                             variant="outline"
-                            className="mb-6 h-8 rounded-full px-3 text-sm font-medium shadow-sm"
+                            className="mb-6 h-8 rounded-full border-white/30 bg-white/10 px-3 text-sm font-medium text-white shadow-sm"
                         >
-                            JOB SCHEDULER LITE
+                            PRODUCT
                         </Badge>
-                        <h1 className="mb-6  text-4xl font-bold text-transparent sm:text-5xl md:text-6xl">
+                        <h1 className="mb-6 text-4xl font-bold md:text-5xl">
                             Job Scheduler Lite (JSL): In Depth
                         </h1>
                     </div>
@@ -25,7 +25,7 @@ export default function JSLJobSchedulerLiteInDepthPage() {
             </section>
 
             {/* Overview Section */}
-            <section className="py-6">
+            <section className="pt-6">
                 <div className="container mx-auto px-4">
                     <Card className="mx-auto max-w-7xl">
                         <CardHeader>
@@ -57,7 +57,7 @@ export default function JSLJobSchedulerLiteInDepthPage() {
             </section>
 
             {/* Features Section */}
-            <section className=" py-6">
+            <section className=" pt-6">
                 <div className="container mx-auto px-4">
                     <Card className="mx-auto max-w-7xl">
                         <CardHeader>
@@ -91,7 +91,7 @@ export default function JSLJobSchedulerLiteInDepthPage() {
                                 <h3 className="mb-3 text-2xl font-semibold">
                                     Finite capacity planning and forward scheduling
                                 </h3>
-                                <p className="mb-4 text-lg leading-relaxed">
+                                <p className="mb-4 text-lg leading-relaxed text-muted-foreground">
                                     Global and/or detailed workcenter configuration can be made
                                     and applied instantly.
                                 </p>
@@ -114,7 +114,7 @@ export default function JSLJobSchedulerLiteInDepthPage() {
             </section>
 
             {/* Modules Section */}
-            <section className="py-6">
+            <section className="pt-6">
                 <div className="container mx-auto px-4">
                     <Card className="mx-auto max-w-7xl">
                         <CardHeader>
@@ -122,40 +122,40 @@ export default function JSLJobSchedulerLiteInDepthPage() {
                         </CardHeader>
                         <CardContent>
                             <div className="grid grid-cols-2 gap-4 text-center md:grid-cols-4">
-                                <div className="rounded-lg bg-blue-50 p-4">
+                                <div className="rounded-lg bg-blue-50 p-4 dark:bg-blue-900/20">
                                     <p className="font-semibold">Import Data</p>
                                 </div>
-                                <div className="rounded-lg bg-blue-50 p-4">
+                                <div className="rounded-lg bg-blue-50 p-4 dark:bg-blue-900/20">
                                     <p className="font-semibold">Daily Hours</p>
                                 </div>
-                                <div className="rounded-lg bg-blue-50 p-4">
+                                <div className="rounded-lg bg-blue-50 p-4 dark:bg-blue-900/20">
                                     <p className="font-semibold">Holidays</p>
                                 </div>
-                                <div className="rounded-lg bg-blue-50 p-4">
+                                <div className="rounded-lg bg-blue-50 p-4 dark:bg-blue-900/20">
                                     <p className="font-semibold">Configure</p>
                                 </div>
-                                <div className="rounded-lg bg-blue-50 p-4">
+                                <div className="rounded-lg bg-blue-50 p-4 dark:bg-blue-900/20">
                                     <p className="font-semibold">Resources</p>
                                 </div>
-                                <div className="rounded-lg bg-blue-50 p-4">
+                                <div className="rounded-lg bg-blue-50 p-4 dark:bg-blue-900/20">
                                     <p className="font-semibold">Orders</p>
                                 </div>
-                                <div className="rounded-lg bg-blue-50 p-4">
+                                <div className="rounded-lg bg-blue-50 p-4 dark:bg-blue-900/20">
                                     <p className="font-semibold">FG / RL</p>
                                 </div>
-                                <div className="rounded-lg bg-blue-50 p-4">
+                                <div className="rounded-lg bg-blue-50 p-4 dark:bg-blue-900/20">
                                     <p className="font-semibold">Reports</p>
                                 </div>
-                                <div className="rounded-lg bg-blue-50 p-4">
+                                <div className="rounded-lg bg-blue-50 p-4 dark:bg-blue-900/20">
                                     <p className="font-semibold">Schedule</p>
                                 </div>
-                                <div className="rounded-lg bg-blue-50 p-4">
+                                <div className="rounded-lg bg-blue-50 p-4 dark:bg-blue-900/20">
                                     <p className="font-semibold">InSight</p>
                                 </div>
-                                <div className="rounded-lg bg-blue-50 p-4">
+                                <div className="rounded-lg bg-blue-50 p-4 dark:bg-blue-900/20">
                                     <p className="font-semibold">Export Data</p>
                                 </div>
-                                <div className="rounded-lg bg-blue-50 p-4">
+                                <div className="rounded-lg bg-blue-50 p-4 dark:bg-blue-900/20">
                                     <p className="font-semibold">Exit</p>
                                 </div>
                             </div>
@@ -165,7 +165,7 @@ export default function JSLJobSchedulerLiteInDepthPage() {
             </section>
 
             {/* Import Data */}
-            <section className=" py-6">
+            <section className=" pt-6">
                 <div className="container mx-auto px-4">
                     <Card className="mx-auto max-w-7xl">
                         <CardHeader>
@@ -191,7 +191,7 @@ export default function JSLJobSchedulerLiteInDepthPage() {
             </section>
 
             {/* Daily Hours */}
-            <section className="py-6">
+            <section className="pt-6">
                 <div className="container mx-auto px-4">
                     <Card className="mx-auto max-w-7xl">
                         <CardHeader>
@@ -222,7 +222,7 @@ export default function JSLJobSchedulerLiteInDepthPage() {
             </section>
 
             {/* Holidays */}
-            <section className=" py-6">
+            <section className=" pt-6">
                 <div className="container mx-auto px-4">
                     <Card className="mx-auto max-w-7xl">
                         <CardHeader>
@@ -248,7 +248,7 @@ export default function JSLJobSchedulerLiteInDepthPage() {
             </section>
 
             {/* Resources */}
-            <section className="py-6">
+            <section className="pt-6">
                 <div className="container mx-auto px-4">
                     <Card className="mx-auto max-w-7xl">
                         <CardHeader>
@@ -278,7 +278,7 @@ export default function JSLJobSchedulerLiteInDepthPage() {
             </section>
 
             {/* Finish Goods */}
-            <section className=" py-6">
+            <section className=" pt-6">
                 <div className="container mx-auto px-4">
                     <Card className="mx-auto max-w-7xl">
                         <CardHeader>
@@ -308,7 +308,7 @@ export default function JSLJobSchedulerLiteInDepthPage() {
             </section>
 
             {/* Orders */}
-            <section className="py-6">
+            <section className="pt-6">
                 <div className="container mx-auto px-4">
                     <Card className="mx-auto max-w-7xl">
                         <CardHeader>
@@ -337,7 +337,7 @@ export default function JSLJobSchedulerLiteInDepthPage() {
             </section>
 
             {/* Schedule */}
-            <section className=" py-6">
+            <section className=" pt-6">
                 <div className="container mx-auto px-4">
                     <Card className="mx-auto max-w-7xl">
                         <CardHeader>
@@ -361,7 +361,7 @@ export default function JSLJobSchedulerLiteInDepthPage() {
             </section>
 
             {/* InSights */}
-            <section className="py-6">
+            <section className="pt-6">
                 <div className="container mx-auto px-4">
                     <Card className="mx-auto max-w-7xl">
                         <CardHeader>
@@ -403,7 +403,7 @@ export default function JSLJobSchedulerLiteInDepthPage() {
             </section>
 
             {/* Export Data */}
-            <section className=" py-6">
+            <section className=" pt-6">
                 <div className="container mx-auto px-4">
                     <Card className="mx-auto max-w-7xl">
                         <CardHeader>
@@ -429,7 +429,7 @@ export default function JSLJobSchedulerLiteInDepthPage() {
             </section>
 
             {/* Theme Configuration */}
-            <section className="py-6">
+            <section className="pt-6">
                 <div className="container mx-auto px-4">
                     <Card className="mx-auto max-w-7xl">
                         <CardHeader>
@@ -456,7 +456,7 @@ export default function JSLJobSchedulerLiteInDepthPage() {
             </section>
 
             {/* Reports */}
-            <section className=" py-6">
+            <section className=" pt-6">
                 <div className="container mx-auto px-4">
                     <Card className="mx-auto max-w-7xl">
                         <CardHeader>
@@ -480,7 +480,7 @@ export default function JSLJobSchedulerLiteInDepthPage() {
             </section>
 
             {/* Awards Banner */}
-            <section className="py-6">
+            <section className="pt-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-7xl">
                         <Card className="bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20">

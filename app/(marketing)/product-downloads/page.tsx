@@ -66,7 +66,7 @@ export default function ProductDownloadsPage(): React.JSX.Element {
                 </div>
 
                 {/* Main Products Section */}
-                <div className="mb-20 grid grid-cols-1 gap-8 lg:grid-cols-3">
+                <div className="mb-6 grid grid-cols-1 gap-8 lg:grid-cols-3">
                     {/* Starter - Job Scheduler Lite */}
                     <div className="overflow-hidden rounded-lg border bg-white shadow-lg dark:bg-gray-800">
                         <div className="relative">
@@ -246,8 +246,8 @@ export default function ProductDownloadsPage(): React.JSX.Element {
                 </div>
 
                 {/* Excel Products Section */}
-                <section className="mb-20">
-                    <h2 className="mb-10 text-center text-3xl font-semibold">
+                <section className="mb-6">
+                    <h2 className="mb-6 text-center text-3xl font-semibold">
                         Excel Products
                     </h2>
 

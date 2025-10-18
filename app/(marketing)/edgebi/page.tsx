@@ -156,7 +156,7 @@ export default function EDGEBIPage(): React.JSX.Element {
   ];
 
   return (
-    <div className="min-h-screen bg-white dark:bg-slate-950">
+    <div className="min-h-screen">
       {/* Hero Section */}
       <GridSection hideVerticalGridLines>
         <div className="container pt-6">
@@ -433,7 +433,7 @@ export default function EDGEBIPage(): React.JSX.Element {
       </section>
 
       {/* Awards Section */}
-      <section className="pb-6">
+      <section className="pt-6">
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-7xl">
             <div className="rounded-xl bg-gradient-to-br from-blue-50 to-blue-100 p-8 text-center dark:from-blue-900/20 dark:to-blue-800/20">

@@ -40,7 +40,7 @@ export default function ConsultingPage(): React.JSX.Element {
             </section>
 
             {/* Consulting Overview */}
-            <section className="py-6">
+            <section className="pt-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-7xl">
                         <Card className="mb-6">
@@ -162,7 +162,7 @@ export default function ConsultingPage(): React.JSX.Element {
             </section>
 
             {/* Consulting Services */}
-            <section className="py-6">
+            <section className="pt-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-7xl">
                         <h2 className="mb-6 text-center text-3xl font-bold text-foreground">
@@ -325,7 +325,7 @@ export default function ConsultingPage(): React.JSX.Element {
             </section>
 
             {/* Industry Expertise */}
-            <section className="py-6">
+            <section className="pt-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-7xl">
                         <h2 className="mb-6 text-center text-3xl font-bold text-foreground">

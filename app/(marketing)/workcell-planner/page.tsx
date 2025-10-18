@@ -1,5 +1,6 @@
 import Link from 'next/link';
 
+import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
@@ -10,6 +11,12 @@ export default function WorkcellPlannerPage() {
             <section className="bg-gradient-to-r from-blue-600 to-blue-800 py-6 text-white dark:from-blue-800 dark:to-blue-900">
                 <div className="container mx-auto px-4 text-center">
                     <div className="mx-auto max-w-7xl">
+                        <Badge
+                            variant="outline"
+                            className="mb-6 h-8 rounded-full border-white/30 bg-white/10 px-3 text-sm font-medium text-white shadow-sm"
+                        >
+                            PRODUCT
+                        </Badge>
                         <h1 className="mb-6 text-4xl font-bold md:text-5xl">
                             Workcell Planner
                         </h1>
@@ -64,7 +71,7 @@ export default function WorkcellPlannerPage() {
             </section>
 
             {/* Functionality Section */}
-            <section className="pt-6">
+            <section className="py-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-7xl">
                         <Card>
@@ -133,7 +140,7 @@ export default function WorkcellPlannerPage() {
             </section>
 
             {/* Features Section */}
-            <section className="bg-muted/50 pt-6">
+            <section className="bg-muted/50 py-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-7xl">
                         <h2 className="mb-6 text-center text-3xl font-bold text-foreground">

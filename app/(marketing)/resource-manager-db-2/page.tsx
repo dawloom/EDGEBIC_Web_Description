@@ -247,7 +247,7 @@ export default function ResourceManagerDBPage(): React.JSX.Element {
     ];
 
     return (
-        <div className="min-h-screen bg-white dark:bg-slate-950">
+        <div className="min-h-screen">
             {/* Top Banner */}
 
             {/* Hero Section */}
@@ -369,7 +369,7 @@ export default function ResourceManagerDBPage(): React.JSX.Element {
             </section>
 
             {/* Features Section */}
-            <section className="pb-6">
+            <section className="pt-6">
                 <div className="container mx-auto max-w-7xl px-4">
                     <div className="mb-6 text-center">
                         <h2 className="mb-4 text-3xl font-bold md:text-4xl">Features</h2>
