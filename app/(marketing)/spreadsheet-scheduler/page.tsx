@@ -54,7 +54,7 @@ export default function SpreadsheetSchedulerPage() {
                             <CardHeader>
                                 <CardTitle className="text-center text-3xl">Overview</CardTitle>
                             </CardHeader>
-                            <CardContent className="prose dark:prose-invert max-w-none">
+                            <CardContent className="space-y-6">
                                 <p className="text-muted-foreground">
                                     Gantt Charting and Project Management Customizable Templates
                                     for all versions of Excel (including the expansive 2007+ and
@@ -108,7 +108,7 @@ export default function SpreadsheetSchedulerPage() {
                                     The scheduling techniques include:
                                 </CardTitle>
                             </CardHeader>
-                            <CardContent className="prose dark:prose-invert max-w-none">
+                            <CardContent className="space-y-6">
                                 <div className="grid gap-4 md:grid-cols-2">
                                     <ul className="space-y-2">
                                         <li>Job & task sequencing</li>
@@ -199,16 +199,16 @@ export default function SpreadsheetSchedulerPage() {
                                     Applications
                                 </CardTitle>
                             </CardHeader>
-                            <CardContent className="prose dark:prose-invert max-w-none">
+                            <CardContent className="space-y-6">
                                 <ul>
                                     <li>
-                                        <strong>Projects:</strong> Activities are the components
+                                        <strong className="font-semibold text-foreground">Projects:</strong> Activities are the components
                                         (tasks) of a project. Use Gantt chart and CPM to schedule
                                         tasks and determine project completion time and critical
                                         activities.
                                     </li>
                                     <li>
-                                        <strong>Manufacturing Shop Jobs:</strong> Jobs coming into a
+                                        <strong className="font-semibold text-foreground">Manufacturing Shop Jobs:</strong> Jobs coming into a
                                         shop consist of several operations. Operations may require
                                         precedence restrictions (e.g., cannot drill hole in a part
                                         until the metal casting is made). Assign sequence to jobs to
@@ -216,7 +216,7 @@ export default function SpreadsheetSchedulerPage() {
                                         operation.
                                     </li>
                                     <li>
-                                        <strong>Work Flow Models:</strong> Use in creating work flow
+                                        <strong className="font-semibold text-foreground">Work Flow Models:</strong> Use in creating work flow
                                         diagrams showing events and activities in a work process and
                                         the time requirements at each step. Can be used to spot
                                         process improvement opportunities and estimate process cycle
@@ -239,33 +239,33 @@ export default function SpreadsheetSchedulerPage() {
                                     Scheduling Techniques
                                 </CardTitle>
                             </CardHeader>
-                            <CardContent className="prose dark:prose-invert max-w-none">
+                            <CardContent className="space-y-6">
                                 <ul>
                                     <li>
-                                        <strong>Job (or task) sequencing:</strong> The dispatching
+                                        <strong className="font-semibold text-foreground">Job (or task) sequencing:</strong> The dispatching
                                         or releasing of jobs through the shop (or tasks within a
                                         project) in a pre-determined order, using one of several
                                         techniques (priority rules) such as first come first served,
                                         shortest processing time, earliest due date.
                                     </li>
                                     <li>
-                                        <strong>Due-date assignment:</strong> Assigning due dates to
+                                        <strong className="font-semibold text-foreground">Due-date assignment:</strong> Assigning due dates to
                                         jobs based on date in, processing time, capacity.
                                     </li>
                                     <li>
-                                        <strong>Gantt Chart:</strong> A horizontal bar chart used in
+                                        <strong className="font-semibold text-foreground">Gantt Chart:</strong> A horizontal bar chart used in
                                         scheduling. Tasks are listed on the vertical axis and task
                                         start and completion dates are reflected on the horizontal
                                         scale by bar positions and lengths.
                                     </li>
                                     <li>
-                                        <strong>Precedence Relationships:</strong> Certain tasks in
+                                        <strong className="font-semibold text-foreground">Precedence Relationships:</strong> Certain tasks in
                                         a project may have to be completed before others can be
                                         started. These precedence requirements can be input and
                                         critical paths determined.
                                     </li>
                                     <li>
-                                        <strong>CPM:</strong> The critical path method is a network
+                                        <strong className="font-semibold text-foreground">CPM:</strong> The critical path method is a network
                                         based technique of determining project makespan (or
                                         duration) and critical activities, as well as project slack.
                                         Used to manage projects by understanding, (1) the shortest

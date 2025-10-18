@@ -39,7 +39,7 @@ export default function ThankYouDownloadWorkcellPlannerPage() {
                                     Your Download is Ready
                                 </CardTitle>
                             </CardHeader>
-                            <CardContent className="prose dark:prose-invert max-w-none">
+                            <CardContent className="space-y-6">
                                 <p className="text-center">
                                     Your Workcell Planner software download should begin
                                     automatically. If your download doesn't start, please check

@@ -34,7 +34,7 @@ export default function ThankYouDownloadResourceManagerPage() {
                                     Your Download is Ready
                                 </CardTitle>
                             </CardHeader>
-                            <CardContent className="prose dark:prose-invert max-w-none">
+                            <CardContent className="space-y-6">
                                 <p className="text-center">
                                     Your Resource Manager software download should begin
                                     automatically. If your download doesn't start, please check

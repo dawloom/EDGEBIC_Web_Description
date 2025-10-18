@@ -36,7 +36,7 @@ export default function BuyNowResourceManagerPage() {
                                     Resource Manager
                                 </CardTitle>
                             </CardHeader>
-                            <CardContent className="prose dark:prose-invert max-w-none">
+                            <CardContent className="space-y-6">
                                 <p className="text-center">
                                     Comprehensive production planning, scheduling, and tracking
                                     solution. Choose between Resource Manager for Excel or

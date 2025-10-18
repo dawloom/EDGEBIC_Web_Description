@@ -36,7 +36,7 @@ export default function BuyNowWorkcellPlannerPage() {
                                     Workcell Planner
                                 </CardTitle>
                             </CardHeader>
-                            <CardContent className="prose dark:prose-invert max-w-none">
+                            <CardContent className="space-y-6">
                                 <p className="text-center">
                                     Translate forecasts and backlogs into machine and manpower
                                     requirements. Identify bottlenecks and optimize capacity with

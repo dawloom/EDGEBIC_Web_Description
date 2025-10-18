@@ -228,7 +228,9 @@ export default function CompareProductsPage(): React.JSX.Element {
                                                 key={productIndex}
                                                 className="border-r border-slate-200 p-4 text-center last:border-r-0 dark:border-slate-700"
                                             >
-                                                {product.features[feature as keyof typeof product.features] ? (
+                                                {product.features[
+                                                    feature as keyof typeof product.features
+                                                ] ? (
                                                     <CheckCircle className="mx-auto size-5 text-green-600" />
                                                 ) : (
                                                     <X className="mx-auto size-5 text-slate-400" />
@@ -325,18 +327,16 @@ export default function CompareProductsPage(): React.JSX.Element {
             <section className="bg-slate-50 py-6 dark:bg-slate-900">
                 <div className="container mx-auto max-w-7xl px-4">
                     <div className="text-center">
-                        <div className="mb-6 flex items-center justify-center gap-2">
-                            <Award className="size-8 text-slate-600 dark:text-slate-400" />
-                            <h2 className="text-3xl font-bold md:text-4xl">
-                                CELEBRATING 25 YEARS OF AWARD WINNING SOFTWARE!
-                            </h2>
-                        </div>
+                        <h3 className="mb-6 text-2xl font-bold">
+                            CELEBRATING 25 YEARS OF AWARD WINNING SOFTWARE!
+                        </h3>
                         <Image
                             src="https://www.usersolutions.com/wp-content/uploads/2022/07/banner-logoso-sm-58c9a28d237d6-1024x128.jpg"
                             alt="Collection of industry and business awards logos"
                             width={1024}
                             height={128}
-                            className="mx-auto rounded-lg"
+                            className="mx-auto h-auto max-w-full"
+                            unoptimized
                         />
                     </div>
                 </div>

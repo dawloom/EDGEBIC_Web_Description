@@ -54,7 +54,7 @@ export default function SpreadsheetQCPage() {
                             <CardHeader>
                                 <CardTitle className="text-center text-3xl">Overview</CardTitle>
                             </CardHeader>
-                            <CardContent className="prose dark:prose-invert max-w-none">
+                            <CardContent className="space-y-6">
                                 <p className="text-muted-foreground">
                                     Spreadsheet QC is a collection of 15 Excel templates. The goal
                                     of Spreadsheet QC is to make statistical process and quality
@@ -85,7 +85,7 @@ export default function SpreadsheetQCPage() {
                                     How It Works
                                 </CardTitle>
                             </CardHeader>
-                            <CardContent className="prose dark:prose-invert max-w-none">
+                            <CardContent className="space-y-6">
                                 <p className="text-muted-foreground">
                                     Spreadsheet QC will help customers maximize their existing
                                     investment in software, hardware, and training. Using familiar
@@ -141,10 +141,10 @@ export default function SpreadsheetQCPage() {
                                     Applications
                                 </CardTitle>
                             </CardHeader>
-                            <CardContent className="prose dark:prose-invert max-w-none">
+                            <CardContent className="space-y-6">
                                 <ul>
                                     <li>
-                                        <strong>Control Charts:</strong> Seven different
+                                        <strong className="font-semibold text-foreground">Control Charts:</strong> Seven different
                                         spreadsheets to do both R and X-Bar charts as well as
                                         process capability histogram for each sample. R and X-Bar
                                         Charts are made with 3 different intervals for estimating
@@ -152,12 +152,12 @@ export default function SpreadsheetQCPage() {
                                         suited to copy to do multiple charts within the same file.
                                     </li>
                                     <li>
-                                        <strong>P-Charts:</strong> Spreadsheet to do p-charts for
+                                        <strong className="font-semibold text-foreground">P-Charts:</strong> Spreadsheet to do p-charts for
                                         variable sample size or fixed sample size with 3 sigma
                                         lines.
                                     </li>
                                     <li>
-                                        <strong>Acceptance Sampling:</strong> This spreadsheet
+                                        <strong className="font-semibold text-foreground">Acceptance Sampling:</strong> This spreadsheet
                                         allows the user to specify sample size and max allowed
                                         defects for any or all of several sampling categories:
                                         vendor incoming, first piece inspection, in-process audit,
@@ -166,13 +166,13 @@ export default function SpreadsheetQCPage() {
                                         Probability curves are included.
                                     </li>
                                     <li>
-                                        <strong>Process Capability:</strong> Graphical Analysis.
+                                        <strong className="font-semibold text-foreground">Process Capability:</strong> Graphical Analysis.
                                         Enter histogram data and spec limits and the sheet graphs it
                                         overlaid with the calculated normal curve, the spec limits,
                                         and an analysis of percent out of spec and Cpk.
                                     </li>
                                     <li>
-                                        <strong>Cumulative Sum Chart:</strong> This chart, along
+                                        <strong className="font-semibold text-foreground">Cumulative Sum Chart:</strong> This chart, along
                                         with the moving average and exponentially weighted moving
                                         average, are alternatives to the X-Bar chart. The CUSUM is
                                         more responsive to process shifts.

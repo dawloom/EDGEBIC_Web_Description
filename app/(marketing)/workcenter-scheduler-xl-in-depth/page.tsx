@@ -55,8 +55,8 @@ export default function WorkcenterSchedulerXLInDepthPage() {
               <CardHeader>
                 <CardTitle className="text-center text-3xl">Overview</CardTitle>
               </CardHeader>
-              <CardContent className="prose dark:prose-invert max-w-none">
-                <p>
+              <CardContent className="space-y-6">
+                <p className="text-lg leading-relaxed text-muted-foreground">
                   Workcenter Scheduler XL (WCXL) is a high performance planning
                   and scheduling offering for Job Shops, Fabricators,
                   Service/Repair Shops, and others where customer service and
@@ -64,7 +64,7 @@ export default function WorkcenterSchedulerXLInDepthPage() {
                   effectiveness, efficiency and consistency of your Workcenter
                   based planning and scheduling, including cycle time reduction.
                 </p>
-                <p>
+                <p className="text-lg leading-relaxed text-muted-foreground">
                   WCXL features an easy-to-use method to enter resource
                   definitions, then to build/define jobs, or projects, with
                   additional considerations such as labor and workcenter
@@ -88,7 +88,7 @@ export default function WorkcenterSchedulerXLInDepthPage() {
                   With WCXL, you will know:
                 </CardTitle>
               </CardHeader>
-              <CardContent className="prose dark:prose-invert max-w-none">
+              <CardContent className="space-y-6">
                 <ul>
                   <li>Daily schedules for Workcenters</li>
                   <li>Capacity requirements</li>
@@ -160,52 +160,52 @@ export default function WorkcenterSchedulerXLInDepthPage() {
                   How it Works
                 </CardTitle>
               </CardHeader>
-              <CardContent className="prose dark:prose-invert max-w-none">
-                <p>
+              <CardContent className="space-y-6">
+                <p className="text-lg leading-relaxed text-muted-foreground">
                   The most common processing of the WCXL system works in three
                   simple stages:
                 </p>
 
-                <h3>1. Default & System Definition</h3>
-                <p>
+                <h3 className="text-2xl font-semibold text-foreground">1. Default & System Definition</h3>
+                <p className="text-lg leading-relaxed text-muted-foreground">
                   The first stage consists of default definition, including:
                   Global daily defaults, Holidays, Workcenters defined, and
                   exceptions list (for automatic reporting on delays at
                   workcenters).
                 </p>
 
-                <h3>2. Build & Schedule Jobs</h3>
-                <p>
+                <h3 className="text-2xl font-semibold text-foreground">2. Build & Schedule Jobs</h3>
+                <p className="text-lg leading-relaxed text-muted-foreground">
                   Then Jobs are 'Built' with Customer name, Job Number, start
                   date, and a super easy method for sequencing workcenters.
                   Next, the newly built Jobs are sequenced and schedules are
                   created.
                 </p>
-                <p>
+                <p className="text-lg leading-relaxed text-muted-foreground">
                   The user has the freedom to try various quantities, with
                   alternate start dates, and view the resultant summaries of
                   resource requirements and schedule dates. It is in this phase
                   that capacity constraints are revealed — as well as when labor
                   and machine resources should be scheduled.
                 </p>
-                <p>
+                <p className="text-lg leading-relaxed text-muted-foreground">
                   Each schedule can either be viewed on screen or printed. The
                   result of this second phase is an accurate production plan
                   start and stop dates, and critical time path to successfully
                   meet due dates.
                 </p>
 
-                <h3>3. Execution</h3>
-                <p>
+                <h3 className="text-2xl font-semibold text-foreground">3. Execution</h3>
+                <p className="text-lg leading-relaxed text-muted-foreground">
                   The third and final stage consists of using and reporting on
                   the schedules created in stage two.
                 </p>
-                <p>
+                <p className="text-lg leading-relaxed text-muted-foreground">
                   By design, WCXL does not require updates to actual schedule –
                   but allows you 'by exception' to flag jobs that are delayed
                   and report on the cumulative effects of all delays.
                 </p>
-                <p>
+                <p className="text-lg leading-relaxed text-muted-foreground">
                   When the exceptions (or any other event) warrant that some
                   Jobs need to be rescheduled, WCXL features an easy single
                   click method to remove one or more Jobs from existing
@@ -333,16 +333,16 @@ export default function WorkcenterSchedulerXLInDepthPage() {
                   Advanced Features
                 </CardTitle>
               </CardHeader>
-              <CardContent className="prose dark:prose-invert max-w-none">
-                <h3>Freezing A Job</h3>
-                <p>
+              <CardContent className="space-y-6">
+                <h3 className="text-2xl font-semibold text-foreground">Freezing A Job</h3>
+                <p className="text-lg leading-relaxed text-muted-foreground">
                   To allow for an accurate, up-to-date schedule, the user can
                   now call up any Job and update when complete. This feature,
                   called 'freezing a Job at a Workcenter' enables the user to
                   track exactly when a workcenter has completed a job and then
                   is able to reschedule WCXL.
                 </p>
-                <p>
+                <p className="text-lg leading-relaxed text-muted-foreground">
                   Rescheduling WCXL containing jobs with a frozen workcenters
                   locks in the hour assignments in the resource calendar for
                   workcenters previous to and including the frozen one. Then,
@@ -350,8 +350,8 @@ export default function WorkcenterSchedulerXLInDepthPage() {
                   priority order, capacity available, etc.
                 </p>
 
-                <h3>Priority List & Workcenter Tracking</h3>
-                <p>
+                <h3 className="text-2xl font-semibold text-foreground">Priority List & Workcenter Tracking</h3>
+                <p className="text-lg leading-relaxed text-muted-foreground">
                   In summary, with the Priority List, Workcenter Tracking, and
                   ability to Unschedule and/or Reschedule any Jobs with a click
                   of the mouse, WCXL will exceed your expectations for a
@@ -363,7 +363,7 @@ export default function WorkcenterSchedulerXLInDepthPage() {
                 </p>
 
                 <p className="text-sm italic">
-                  <strong>Note:</strong> If your routings are not linear (one
+                  <strong className="font-semibold text-foreground">Note:</strong> If your routings are not linear (one
                   after another, single branch), or if you have more advanced
                   scheduling and tracking requirements, or need more flexibility
                   for data integration with other systems, or need multi-user

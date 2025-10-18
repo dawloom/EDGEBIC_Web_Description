@@ -36,7 +36,7 @@ export default function BuyNowLeadTimePage() {
                                     Lead Time Calculator
                                 </CardTitle>
                             </CardHeader>
-                            <CardContent className="prose dark:prose-invert max-w-none">
+                            <CardContent className="space-y-6">
                                 <p className="text-center">
                                     Accurately calculate and manage lead times for your
                                     manufacturing processes. Improve delivery performance and

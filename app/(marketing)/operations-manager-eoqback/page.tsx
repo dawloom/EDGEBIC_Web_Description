@@ -45,8 +45,8 @@ export default function OperationsManagerEOQBACKPage() {
                                     EOQ with Backorders (EOQBACK)
                                 </CardTitle>
                             </CardHeader>
-                            <CardContent className="prose dark:prose-invert max-w-none">
-                                <p>
+                            <CardContent className="space-y-6">
+                                <p className="text-lg leading-relaxed text-muted-foreground">
                                     Backorders are common in inventories held for resale to
                                     customers. The EOQ model can be modified to handle backorders
                                     by including one more cost, the cost per unit backordered.
@@ -57,7 +57,7 @@ export default function OperationsManagerEOQBACKPage() {
                                     for the true backorder cost, most companies use the profit per
                                     unit.
                                 </p>
-                                <p>
+                                <p className="text-lg leading-relaxed text-muted-foreground">
                                     The backorder model works well for companies who where
                                     financing the inventory is expensive. It is much less
                                     expensive to incur backorders and fill them when the EOQ

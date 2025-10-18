@@ -55,8 +55,8 @@ export default function ResourceManagerDBInDepthPage() {
               <CardHeader>
                 <CardTitle className="text-center text-3xl">Overview</CardTitle>
               </CardHeader>
-              <CardContent className="prose dark:prose-invert max-w-none">
-                <p>
+              <CardContent className="space-y-6">
+                <p className="text-lg leading-relaxed text-muted-foreground">
                   Resource Manager-DB (RMDB) is an affordable, flexible and
                   quick-to-implement approach to resolve your production
                   planning, scheduling and tracking challenges. Designed by
@@ -64,7 +64,7 @@ export default function ResourceManagerDBInDepthPage() {
                   single, simple menu (dashboard) requiring minimal transactions
                   to keep the system accurate.
                 </p>
-                <p>
+                <p className="text-lg leading-relaxed text-muted-foreground">
                   RMDB's unique, customer driven architecture allows you to
                   start very simply, focusing on one area at a time, enabling
                   you to provide minimal information in order to recognize
@@ -86,8 +86,8 @@ export default function ResourceManagerDBInDepthPage() {
                   Why Choose Resource Manager-DB?
                 </CardTitle>
               </CardHeader>
-              <CardContent className="prose dark:prose-invert max-w-none">
-                <p>
+              <CardContent className="space-y-6">
+                <p className="text-lg leading-relaxed text-muted-foreground">
                   If you find you are still using manual white boards and/or
                   Excel for trying to manage your production scheduling, you
                   will find RMDB a refreshing option. RMDB's intuitive and
@@ -95,12 +95,12 @@ export default function ResourceManagerDBInDepthPage() {
                   no-risk, pre-sales, implementation walk-through to demonstrate
                   exactly how the system can benefit your operations.
                 </p>
-                <p>
+                <p className="text-lg leading-relaxed text-muted-foreground">
                   Since 1991, our mission has been to help manufacturers solve
                   manufacturing and operations management problems with
                   intuitive and easy-to-implement tools.
                 </p>
-                <p>
+                <p className="text-lg leading-relaxed text-muted-foreground">
                   The unique architecture facilitates custom configuration, in
                   hours or days, vs. typical custom programming taking weeks or
                   months. By driving our product development based on your
@@ -108,7 +108,7 @@ export default function ResourceManagerDBInDepthPage() {
                   abilities of RMDB, the result is a solution that fits your
                   operation like a glove, quickly and affordably.
                 </p>
-                <p>
+                <p className="text-lg leading-relaxed text-muted-foreground">
                   Featuring easy integration with Excel, ERP, accounting, custom
                   or other legacy systems, RMDB will provide you unsurpassed
                   improvements in production planning and scheduling and
@@ -263,8 +263,8 @@ export default function ResourceManagerDBInDepthPage() {
                   Works The Way You Do
                 </CardTitle>
               </CardHeader>
-              <CardContent className="prose dark:prose-invert max-w-none">
-                <p>
+              <CardContent className="space-y-6">
+                <p className="text-lg leading-relaxed text-muted-foreground">
                   Resource Manager-DB is the only system that is designed to
                   adapt to your specific operational needs and nuances. RMDB
                   utilizes your existing data resulting in rapid implementation
@@ -272,17 +272,17 @@ export default function ResourceManagerDBInDepthPage() {
                 </p>
                 <div className="grid gap-6 md:grid-cols-3">
                   <div className="text-center">
-                    <h3 className="text-xl font-semibold text-blue-600">
+                    <h3 className="text-xl font-semibold text-blue-600 dark:text-blue-400">
                       Adapts to how you work
                     </h3>
                   </div>
                   <div className="text-center">
-                    <h3 className="text-xl font-semibold text-blue-600">
+                    <h3 className="text-xl font-semibold text-blue-600 dark:text-blue-400">
                       Leverages existing data
                     </h3>
                   </div>
                   <div className="text-center">
-                    <h3 className="text-xl font-semibold text-blue-600">
+                    <h3 className="text-xl font-semibold text-blue-600 dark:text-blue-400">
                       Quick to configure or reconfigure
                     </h3>
                   </div>
@@ -303,9 +303,11 @@ export default function ResourceManagerDBInDepthPage() {
                   Cruise Control Software for your Manufacturing Enterprise
                 </CardTitle>
               </CardHeader>
-              <CardContent className="prose dark:prose-invert max-w-none">
-                <h3>Fill'er Up</h3>
-                <p>
+              <CardContent className="space-y-6">
+                <h3 className="text-2xl font-semibold text-foreground">
+                  Fill'er Up
+                </h3>
+                <p className="text-lg leading-relaxed text-muted-foreground">
                   Resource Manager-DB lets you easily work with your current
                   data. Do you have a product list somewhere? How about
                   bills-of-material and/or routings? Sales orders, inventory
@@ -314,24 +316,29 @@ export default function ResourceManagerDBInDepthPage() {
                   details. You can even maintain this data in other systems,
                   such as ERP, then refresh on demand.
                 </p>
-                <p>
+                <p className="text-lg leading-relaxed text-muted-foreground">
                   Starting from scratch? Resource Manager-DB features a clean
                   and simple way to create master item lists and dynamically
                   create bills-of-resources. Resource Manager-DB is designed to
                   work seamlessly with Excel.
                 </p>
-                <p>
-                  <strong>IMPORTANT TAKEAWAY #1:</strong> This provides great
-                  flexibility in rapid implementation options as it allows you
-                  to load, edit, reload entire data sets with the click of a
-                  button.
+                <p className="text-lg leading-relaxed text-muted-foreground">
+                  <strong className="font-semibold text-foreground">
+                    IMPORTANT TAKEAWAY #1:
+                  </strong>{' '}
+                  This provides great flexibility in rapid implementation
+                  options as it allows you to load, edit, reload entire data
+                  sets with the click of a button.
                 </p>
-                <p>
-                  <strong>IMPORTANT TAKEAWAY #2:</strong> These output reports
-                  can be circulated, then imported right back into Resource
-                  Manager-DB to update the system. These reports run on any
-                  version of Excel anywhere — Cloud, tablet, laptop, network,
-                  desktop, smart phone, on-site, off-site and enterprise wide.
+                <p className="text-lg leading-relaxed text-muted-foreground">
+                  <strong className="font-semibold text-foreground">
+                    IMPORTANT TAKEAWAY #2:
+                  </strong>{' '}
+                  These output reports can be circulated, then imported right
+                  back into Resource Manager-DB to update the system. These
+                  reports run on any version of Excel anywhere — Cloud, tablet,
+                  laptop, network, desktop, smart phone, on-site, off-site and
+                  enterprise wide.
                 </p>
               </CardContent>
             </Card>
@@ -349,8 +356,8 @@ export default function ResourceManagerDBInDepthPage() {
                   Powerful Reporting
                 </CardTitle>
               </CardHeader>
-              <CardContent className="prose dark:prose-invert max-w-none">
-                <p>
+              <CardContent className="space-y-6">
+                <p className="text-lg leading-relaxed text-muted-foreground">
                   With quick, powerful, and intuitive reporting, Resource
                   Manager-DB stands above the crowd in its ability to present
                   the important data in an easy and meaningful way. In addition
@@ -360,59 +367,63 @@ export default function ResourceManagerDBInDepthPage() {
                 </p>
                 <div className="grid gap-4 md:grid-cols-2">
                   <div>
-                    <h4 className="font-semibold text-blue-600">
+                    <h4 className="font-semibold text-blue-600 dark:text-blue-400">
                       Gantt Report
                     </h4>
-                    <p className="text-sm">
+                    <p className="text-sm text-muted-foreground">
                       Top-level view of all activity with drill-down details
                     </p>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-blue-600">
+                    <h4 className="font-semibold text-blue-600 dark:text-blue-400">
                       Summary Report
                     </h4>
-                    <p className="text-sm">
+                    <p className="text-sm text-muted-foreground">
                       What to buy or make, how much, and when
                     </p>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-blue-600">Item Report</h4>
-                    <p className="text-sm">All requirements per part number</p>
+                    <h4 className="font-semibold text-blue-600 dark:text-blue-400">
+                      Item Report
+                    </h4>
+                    <p className="text-sm text-muted-foreground">
+                      All requirements per part number
+                    </p>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-blue-600">
+                    <h4 className="font-semibold text-blue-600 dark:text-blue-400">
                       Calendar Report
                     </h4>
-                    <p className="text-sm">
+                    <p className="text-sm text-muted-foreground">
                       Schedule in familiar wall calendar format
                     </p>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-blue-600">
+                    <h4 className="font-semibold text-blue-600 dark:text-blue-400">
                       Workcenter Report
                     </h4>
-                    <p className="text-sm">
+                    <p className="text-sm text-muted-foreground">
                       Real-time views of all critical workcenter activity
                     </p>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-blue-600">
+                    <h4 className="font-semibold text-blue-600 dark:text-blue-400">
                       Production Report
                     </h4>
-                    <p className="text-sm">
+                    <p className="text-sm text-muted-foreground">
                       Perfect for traveler or work order printout
                     </p>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-blue-600">
+                    <h4 className="font-semibold text-blue-600 dark:text-blue-400">
                       Routing & Tree Report
                     </h4>
-                    <p className="text-sm">
+                    <p className="text-sm text-muted-foreground">
                       Visual bill-of-resource verification
                     </p>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-blue-600">
+                    <h4 className="font-semibold text-blue-600 dark:text-blue-400">
                       Purchasing & Receiving
                     </h4>
                     <p className="text-sm">

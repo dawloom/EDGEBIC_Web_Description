@@ -36,7 +36,7 @@ export default function BuyNowSpreadsheetSchedulerPage() {
                                     Spreadsheet Scheduler
                                 </CardTitle>
                             </CardHeader>
-                            <CardContent className="prose dark:prose-invert max-w-none">
+                            <CardContent className="space-y-6">
                                 <p className="text-center">
                                     14 Excel templates for project scheduling, Gantt charting,
                                     CPM, job sequencing, and work flow modeling.

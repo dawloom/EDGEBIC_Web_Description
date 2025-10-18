@@ -36,7 +36,7 @@ export default function BuyNowSpreadsheetQCPage() {
                                     Spreadsheet QC
                                 </CardTitle>
                             </CardHeader>
-                            <CardContent className="prose dark:prose-invert max-w-none">
+                            <CardContent className="space-y-6">
                                 <p className="text-center">
                                     15 Excel templates for quality control including control
                                     charts, SPC, acceptance sampling, and process capability

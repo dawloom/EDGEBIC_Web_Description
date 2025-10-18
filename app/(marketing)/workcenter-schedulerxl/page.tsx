@@ -55,8 +55,8 @@ export default function WorkcenterSchedulerXLPage() {
               <CardHeader>
                 <CardTitle className="text-center text-3xl">Overview</CardTitle>
               </CardHeader>
-              <CardContent className="prose dark:prose-invert max-w-none">
-                <p>
+              <CardContent className="space-y-6">
+                <p className="text-lg leading-relaxed text-muted-foreground">
                   Workcenter Scheduler XL (WCXL) is an Excel based simple
                   scheduler for getting visibility on workcenter loading to ship
                   on time. Check out the videos for a quick overview, then
@@ -80,8 +80,8 @@ export default function WorkcenterSchedulerXLPage() {
                   Workcenter Scheduler XL: Summary
                 </CardTitle>
               </CardHeader>
-              <CardContent className="prose dark:prose-invert max-w-none">
-                <p>
+              <CardContent className="space-y-6">
+                <p className="text-lg leading-relaxed text-muted-foreground">
                   Workcenter Scheduler XL (WCXL) an Excel Add-On, offers a
                   finite capacity scheduler for job shops, fabricators,
                   service/repair shops, that have a simple, linear sequence of
@@ -89,7 +89,7 @@ export default function WorkcenterSchedulerXLPage() {
                   For more robust planning, scheduling, tracking, and
                   integration options please review Resource Manager-DB).
                 </p>
-                <p>WCXL provides an easy method for:</p>
+                <p className="text-lg leading-relaxed text-muted-foreground">WCXL provides an easy method for:</p>
                 <ul>
                   <li>Step 1: Entering resource definitions.</li>
                   <li>

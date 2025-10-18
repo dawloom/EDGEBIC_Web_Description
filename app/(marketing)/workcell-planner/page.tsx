@@ -54,8 +54,8 @@ export default function WorkcellPlannerPage() {
                             <CardHeader>
                                 <CardTitle className="text-center text-3xl">Overview</CardTitle>
                             </CardHeader>
-                            <CardContent className="prose dark:prose-invert max-w-none">
-                                <p>
+                            <CardContent className="space-y-6">
+                                <p className="text-lg leading-relaxed text-muted-foreground">
                                     The objective of the model is to provide the master scheduler
                                     or planning function with a tool for determining the overall
                                     level of capacity and distribution of capacity required to
@@ -80,7 +80,7 @@ export default function WorkcellPlannerPage() {
                                     More specifically, the model:
                                 </CardTitle>
                             </CardHeader>
-                            <CardContent className="prose dark:prose-invert max-w-none">
+                            <CardContent className="space-y-6">
                                 <ul>
                                     <li>
                                         Translates a forecast or backlog into machine and manpower

@@ -1,6 +1,7 @@
 'use client';
 
 import * as React from 'react';
+import Image from 'next/image';
 
 import { GridSection } from '@/components/marketing/fragments/grid-section';
 import { Button } from '@/components/ui/button';
@@ -440,13 +441,16 @@ export function NTClipboardVideo({
         <div className="mx-auto max-w-7xl">
           <Card className="bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20">
             <CardContent className="p-8 text-center">
-              <h2 className="mb-6 text-2xl font-bold text-slate-900 dark:text-white">
+              <h3 className="mb-6 text-2xl font-bold text-slate-900 dark:text-white">
                 CELEBRATING 25 YEARS OF AWARD WINNING SOFTWARE!
-              </h2>
-              <img
+              </h3>
+              <Image
                 src="https://www.usersolutions.com/wp-content/uploads/2022/07/banner-logoso-sm-58c9a28d237d6-1024x128.jpg"
                 alt="Collection of industry and business awards logos"
+                width={1024}
+                height={128}
                 className="mx-auto h-auto max-w-full"
+                unoptimized
               />
             </CardContent>
           </Card>

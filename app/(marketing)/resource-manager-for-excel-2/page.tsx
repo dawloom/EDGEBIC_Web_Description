@@ -55,8 +55,8 @@ export default function ResourceManagerForExcel2Page() {
               <CardHeader>
                 <CardTitle className="text-center text-3xl">Overview</CardTitle>
               </CardHeader>
-              <CardContent className="prose dark:prose-invert max-w-none">
-                <p>
+              <CardContent className="space-y-6">
+                <p className="text-lg leading-relaxed text-muted-foreground">
                   Resource Manager for Excel (RMX) offers basic MRP and Shop
                   Scheduling that is quick to implement and very affordable. RMX
                   is designed to adapt to your specific needs and utilizes all
@@ -80,8 +80,8 @@ export default function ResourceManagerForExcel2Page() {
                   Resource Manager for Excel: Summary
                 </CardTitle>
               </CardHeader>
-              <CardContent className="prose dark:prose-invert max-w-none">
-                <p>
+              <CardContent className="space-y-6">
+                <p className="text-lg leading-relaxed text-muted-foreground">
                   Resource Manager for Excel (RMX) features a Bill Of Resource
                   (BOR) that allows any combination of Workcenters and/or
                   Products. RMX is ideal for companies who have no formal
@@ -91,7 +91,7 @@ export default function ResourceManagerForExcel2Page() {
                   both Material Requirements Planning as well as Production
                   Planning and Scheduling considering Finite Capacity.
                 </p>
-                <p>
+                <p className="text-lg leading-relaxed text-muted-foreground">
                   For those applications that have a need for multiple
                   concurrent users, improved security (over Excel), seamless
                   integration with other systems, and advanced planning and

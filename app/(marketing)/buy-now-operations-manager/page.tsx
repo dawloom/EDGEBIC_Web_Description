@@ -36,7 +36,7 @@ export default function BuyNowOperationsManagerPage() {
                                     Operations Manager
                                 </CardTitle>
                             </CardHeader>
-                            <CardContent className="prose dark:prose-invert max-w-none">
+                            <CardContent className="space-y-6">
                                 <p className="text-center">
                                     Comprehensive operations management tools including
                                     forecasting, inventory control, quality management, and
