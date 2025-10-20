@@ -6,6 +6,7 @@ import { authActionClient } from '@/actions/safe-action';
 import { Caching, OrganizationCacheKey, UserCacheKey } from '@/data/caching';
 import { updateContactAndCaptureEvent } from '@/lib/db/contact-event-capture';
 import { prisma } from '@/lib/db/prisma';
+import { syncContactUpdateToHubSpot } from '@/lib/hubspot';
 import { NotFoundError } from '@/lib/validation/exceptions';
 import { updateContactPropertiesSchema } from '@/schemas/contacts/update-contact-properties-schema';
 
@@ -34,6 +35,19 @@ export const updateContactProperties = authActionClient
       },
       session.user.id
     );
+
+    // Sync updates to HubSpot (non-blocking)
+    if (parsedInput.email) {
+      syncContactUpdateToHubSpot(parsedInput.email, {
+        name: parsedInput.name,
+        email: parsedInput.email,
+        phone: parsedInput.phone,
+        address: parsedInput.address,
+        record: parsedInput.record
+      }).catch((error) => {
+        console.error('Failed to sync contact update to HubSpot:', error);
+      });
+    }
 
     revalidateTag(
       Caching.createOrganizationTag(
