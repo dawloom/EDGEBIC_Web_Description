@@ -140,7 +140,7 @@ export default function StudentsPage(): React.JSX.Element {
         <div className="container pt-6">
           <div className="mx-auto max-w-7xl">
             {/* Hero Header */}
-            <div className="mb-16 text-center">
+            <div className=" text-center">
               <SiteHeading
                 badge={
                   <>
@@ -151,7 +151,7 @@ export default function StudentsPage(): React.JSX.Element {
                 title="Resource Manager For Excel"
                 description="MRP and Shop Scheduling on a flexible and powerful platform. Ambitious Operations Management students can use RMX to gain valuable hands-on experience in mastering important skills in many areas of Manufacturing Planning, Scheduling, and Execution."
               />
-              <div className="flex flex-wrap justify-center gap-4">
+              <div className="mt-6 flex flex-wrap justify-center gap-4">
                 <Button size="lg">
                   <Link
                     href="/students-free-trial"
@@ -177,7 +177,7 @@ export default function StudentsPage(): React.JSX.Element {
             </div>
 
             {/* Student Overview Image */}
-            <div className="mb-16">
+            <div className="mt-6">
               <div className="relative mx-auto max-w-7xl overflow-hidden rounded-2xl border bg-slate-100 shadow-2xl dark:bg-slate-800">
                 <Image
                   src="https://www.usersolutions.com/wp-content/uploads/2022/07/ops-1024x768.png"
@@ -426,7 +426,7 @@ export default function StudentsPage(): React.JSX.Element {
       </section>
 
       {/* Student Trial Section */}
-      <section className="py-6">
+      <section className="pt-6">
         <div className="container mx-auto max-w-7xl px-4 text-center">
           <div className="rounded-2xl border bg-slate-50 p-8 dark:bg-slate-800">
             <h2 className="mb-4 text-3xl font-bold">Ready to Get Started?</h2>
