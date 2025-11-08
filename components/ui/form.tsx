@@ -9,6 +9,7 @@ import {
   FormProvider as RhfFormProvider,
   useFormContext
 } from 'react-hook-form';
+import type { UseFormReturn } from 'react-hook-form';
 
 import { Label } from '@/components/ui/label';
 import { cn } from '@/lib/utils';
@@ -180,5 +181,17 @@ export {
   FormLabel,
   FormMessage,
   FormProvider,
+  // A small convenience wrapper component used by pages/components that pass
+  // the `useForm()` return value directly as props. It simply forwards the
+  // form methods into the React Hook Form provider so child form UI can use
+  // the helpers via `useFormContext()`.
+  Form,
   useFormField
 };
+
+function Form<TFieldValues extends FieldValues = FieldValues>({
+  children,
+  ...form
+}: UseFormReturn<TFieldValues> & { children?: React.ReactNode }) {
+  return <FormProvider {...(form as any)}>{children}</FormProvider>;
+}
