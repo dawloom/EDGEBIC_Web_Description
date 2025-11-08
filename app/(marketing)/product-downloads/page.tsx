@@ -23,7 +23,7 @@ export default function ProductDownloadsPage(): React.JSX.Element {
       </Head>
       <div className="container mx-auto px-4 pt-6">
         {/* Product Downloads Badge */}
-        <div className="mb-4">
+        <div className="mx-auto mb-4 flex items-center justify-center">
           <Badge
             variant="outline"
             className="h-8 rounded-full px-3 text-sm font-medium shadow-sm dark:border-white/30 dark:bg-white/10 dark:text-white"
@@ -33,7 +33,7 @@ export default function ProductDownloadsPage(): React.JSX.Element {
         </div>
 
         {/* Header Section */}
-        <div className="mb-16 text-center">
+        <div className="mb-6 text-center">
           <h1 className="mb-6 text-4xl font-bold">
             Production Scheduling Products
           </h1>
@@ -246,7 +246,7 @@ export default function ProductDownloadsPage(): React.JSX.Element {
         </div>
 
         {/* Excel Products Section */}
-        <section className="mb-6">
+        <section>
           <h2 className="mb-6 text-center text-3xl font-semibold">
             Excel Products
           </h2>

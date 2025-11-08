@@ -47,7 +47,7 @@ export default function JobSchedulerLitePage(): React.JSX.Element {
       <div className="container mx-auto px-4 pt-6">
         <div className="mx-auto max-w-7xl">
           {/* Overview */}
-          <Card className="mb-16">
+          <Card className="mb-6">
             <CardHeader>
               <CardTitle className="text-3xl">Overview</CardTitle>
             </CardHeader>
@@ -75,7 +75,7 @@ export default function JobSchedulerLitePage(): React.JSX.Element {
           </Card>
 
           {/* Software Demo Video Section */}
-          <Card className="mb-16">
+          <Card className="mb-6">
             <CardHeader className="text-center">
               <CardTitle className="text-3xl">See JSL in Action</CardTitle>
               <p className="text-muted-foreground">
@@ -191,7 +191,7 @@ export default function JobSchedulerLitePage(): React.JSX.Element {
           </Card>
 
           {/* Key Features */}
-          <div className="mb-16">
+          <div className="mb-6">
             <h2 className="mb-6 text-center text-3xl font-bold">
               Key Features
             </h2>
@@ -235,7 +235,7 @@ export default function JobSchedulerLitePage(): React.JSX.Element {
           </div>
 
           {/* Core Modules */}
-          <div className="mb-16">
+          <div className="mb-6">
             <h2 className="mb-6 text-center text-3xl font-bold">
               Core Modules with Screenshots
             </h2>
@@ -372,7 +372,7 @@ export default function JobSchedulerLitePage(): React.JSX.Element {
           </div>
 
           {/* Pricing */}
-          <div className="mb-16 text-center">
+          <div className="text-center">
             <div className="mx-auto max-w-2xl rounded-3xl bg-white p-8 shadow-xl dark:bg-slate-900">
               <div className="mb-4">
                 <span className="inline-block rounded-full bg-blue-100 px-4 py-2 text-sm font-semibold text-blue-800 dark:bg-blue-900/20 dark:text-blue-300">
@@ -394,7 +394,7 @@ export default function JobSchedulerLitePage(): React.JSX.Element {
           </div>
 
           {/* Call to Action */}
-          <div className="text-center">
+          <div className="mt-6 text-center">
             <div className="mx-auto max-w-7xl rounded-3xl bg-gradient-to-br from-blue-600 to-blue-800 p-8 text-white">
               <h3 className="mb-4 text-2xl font-bold">
                 Ready to Transform Your Production Scheduling?
@@ -423,7 +423,7 @@ export default function JobSchedulerLitePage(): React.JSX.Element {
           </div>
 
           {/* Awards and Recognition */}
-          <div className="mt-10">
+          <div className="mt-6">
             <Card className="bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20">
               <CardContent className="p-8 text-center">
                 <h2 className="mb-6 text-2xl font-bold text-slate-900 dark:text-white">

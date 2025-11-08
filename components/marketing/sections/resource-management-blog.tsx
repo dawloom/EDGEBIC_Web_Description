@@ -25,7 +25,7 @@ const blogPosts = [
     category: 'Supply Chain',
     image:
       'https://www.usersolutions.com/wp-content/uploads/2022/09/usersolutionsimage-300x211.png',
-    href: 'https://www.usersolutions.com/enhancing-supply-chain-visibility-through-advanced-scheduling-solutions/'
+    href: '/enhancing-supply-chain-visibility-through-advanced-scheduling-solutions'
   },
   {
     title:
@@ -37,7 +37,7 @@ const blogPosts = [
     category: 'Technology',
     image:
       'https://www.usersolutions.com/wp-content/uploads/2022/07/AirCraftMaint.jpg',
-    href: 'https://www.usersolutions.com/erp-solutions-for-production-planning/'
+    href: '/erp-solutions-for-production-planning'
   },
   {
     title:
@@ -48,41 +48,41 @@ const blogPosts = [
     readTime: '7 min read',
     category: 'Manufacturing',
     image: 'https://www.usersolutions.com/wp-content/uploads/2024/02/sdf.jpg',
-    href: 'https://www.usersolutions.com/lean-manufacturing-solutions/'
+    href: '/lean-manufacturing-solutions'
   },
   {
     title: 'Li-ion Battery Production Scheduling Software',
     description:
-      'Resource Manager-DB V6 Transforms Li-ion Battery Production Scheduling. User Solutions, a leader in flexible production scheduling and planning software, has released Resource Manager-DB (RM-DB) V6 with enhanced capabilities for battery manufacturing.',
+      'Resource Manager-DB V6 Transforms Li-ion Battery Production Scheduling. EDGEBIC, a leader in flexible production scheduling and planning software, has released Resource Manager-DB (RM-DB) V6 with enhanced capabilities for battery manufacturing.',
     date: 'September 8, 2022',
     readTime: '4 min read',
     category: 'Software',
     image:
       'https://www.usersolutions.com/wp-content/uploads/2022/09/image04-300x163.png',
-    href: 'https://www.usersolutions.com/li-ion-battery-production-scheduling-software/'
+    href: '/li-ion-battery-production-scheduling-software'
   },
   {
     title: 'Scheduling System Narrows Skills Gap for Fire-Rated Glass',
     description:
-      "User Solutions' Resource Manager-DB enables Technical Glass Products to strategically cross-train their way to optimization. Learn how advanced scheduling systems can help bridge critical skills gaps in specialized manufacturing.",
+      "EDGEBIC's Resource Manager-DB enables Technical Glass Products to strategically cross-train their way to optimization. Learn how advanced scheduling systems can help bridge critical skills gaps in specialized manufacturing.",
     date: 'September 8, 2022',
     readTime: '5 min read',
     category: 'Case Study',
     image:
       'https://www.usersolutions.com/wp-content/uploads/2022/09/image3-300x163.png',
-    href: 'https://www.usersolutions.com/scheduling-system-narrows-skills-gap-for-fire-rated-glass/'
+    href: '/scheduling-system-narrows-skills-gap-for-fire-rated-glass'
   },
   {
     title:
       'Small Manufacturer Success: Planning, Scheduling, and Tracking Tools',
     description:
-      'Small Manufacturer and Job Shop Uses Planning, Scheduling, and Tracking Tools from User Solutions to Become More Efficient and Competitive. Resource Manager for Excel transforms operations for growing businesses.',
+      'Small Manufacturer and Job Shop Uses Planning, Scheduling, and Tracking Tools from EDGEBIC to Become More Efficient and Competitive. Resource Manager for Excel transforms operations for growing businesses.',
     date: 'September 8, 2022',
     readTime: '6 min read',
     category: 'Success Story',
     image:
       'https://www.usersolutions.com/wp-content/uploads/2022/09/image06-1-300x163.png',
-    href: 'https://www.usersolutions.com/small-manufacturer-and-job-shop-uses-planning-scheduling-and-tracking-tools-from-user-solutions-inc-to-become-more-efficient-and-competitive/'
+    href: '/small-manufacturer-and-job-shop-uses-planning-scheduling-and-tracking-tools-from-user-solutions-inc-to-become-more-efficient-and-competitive'
   }
 ];
 
@@ -184,11 +184,7 @@ export function ResourceManagementBlog() {
                   <CardDescription className="mb-4 line-clamp-3">
                     {post.description}
                   </CardDescription>
-                  <Link
-                    href={post.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  <Link href={post.href}>
                     <Button
                       variant="ghost"
                       size="sm"
@@ -210,10 +206,10 @@ export function ResourceManagementBlog() {
         <div className="container">
           <div className="grid items-center gap-12 lg:grid-cols-2">
             <div>
-              <h2 className="mb-6 text-3xl font-bold">About User Solutions</h2>
+              <h2 className="mb-6 text-3xl font-bold">About EDGEBIC</h2>
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  For over 25 years, User Solutions has been at the forefront of
+                  For over 25 years, EDGEBIC has been at the forefront of
                   manufacturing software innovation, providing award-winning
                   solutions for production planning, scheduling, and resource
                   management.
@@ -226,10 +222,10 @@ export function ResourceManagementBlog() {
                 </p>
                 <div className="flex items-center gap-4 pt-4">
                   <Button asChild>
-                    <Link href="/contact">Contact Us</Link>
+                    <Link href="/contact-us">Contact Us</Link>
                   </Button>
                   <div className="text-sm">
-                    <div className="font-medium">us@usersolutions.com</div>
+                    <div className="font-medium">support@edgebic.com</div>
                     <div>248.486.6365</div>
                   </div>
                 </div>
@@ -272,7 +268,7 @@ export function ResourceManagementBlog() {
       </section>
 
       {/* Products Section */}
-      <section className="py-6">
+      <section className="pt-6">
         <div className="container">
           <div className="mb-6 text-center">
             <h2 className="mb-4 text-3xl font-bold">Our Products</h2>
@@ -347,7 +343,7 @@ export function ResourceManagementBlog() {
       </section>
 
       {/* Awards Banner */}
-      <section className="pb-6">
+      <section>
         <div className="container">
           <div className="mx-auto max-w-7xl">
             <Card className="mt-6 rounded-xl border bg-gradient-to-br from-blue-50 to-blue-100 text-card-foreground shadow dark:from-blue-900/20 dark:to-blue-800/20">

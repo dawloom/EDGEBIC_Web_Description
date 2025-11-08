@@ -29,7 +29,7 @@ export default function JobSchedulerLitePage(): React.JSX.Element {
                 </div>
 
                 {/* Overview */}
-                <Card className="mb-16">
+                <Card className="mb-6">
                     <CardHeader>
                         <CardTitle className="text-3xl">Overview</CardTitle>
                     </CardHeader>
@@ -57,7 +57,7 @@ export default function JobSchedulerLitePage(): React.JSX.Element {
                 </Card>
 
                 {/* Software Demo Video Section */}
-                <Card className="mb-16">
+                <Card className="mb-6">
                     <CardHeader className="text-center">
                         <CardTitle className="text-3xl">See JSL in Action</CardTitle>
                     </CardHeader>
@@ -85,7 +85,7 @@ export default function JobSchedulerLitePage(): React.JSX.Element {
                 </Card>
 
                 {/* Key Features */}
-                <div className="mb-16">
+                <div className="mb-6">
                     <h2 className="mb-6 text-center text-3xl font-bold">Key Features</h2>
                     <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
                         <Card className="transition-all hover:shadow-xl">
@@ -127,7 +127,7 @@ export default function JobSchedulerLitePage(): React.JSX.Element {
                 </div>
 
                 {/* Core Modules */}
-                <div className="mb-16">
+                <div className="mb-6">
                     <h2 className="mb-6 text-center text-3xl font-bold">
                         Core Modules with Screenshots
                     </h2>
@@ -263,7 +263,7 @@ export default function JobSchedulerLitePage(): React.JSX.Element {
                 </div>
 
                 {/* Pricing */}
-                <div className="mb-16 text-center">
+                <div className="mb-6 text-center">
                     <div className="mx-auto max-w-2xl rounded-3xl bg-white p-8 shadow-xl dark:bg-slate-900">
                         <div className="mb-4">
                             <span className="inline-block rounded-full bg-blue-100 px-4 py-2 text-sm font-semibold text-blue-800 dark:bg-blue-900/20 dark:text-blue-300">

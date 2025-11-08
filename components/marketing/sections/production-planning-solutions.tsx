@@ -159,7 +159,7 @@ export function ProductionPlanningSolutions(): React.JSX.Element {
           </div>
 
           {/* Video Section */}
-          <div className="mb-16">
+          <div className="mb-6">
             <div className="relative mx-auto max-w-7xl overflow-hidden rounded-2xl border bg-slate-100 shadow-2xl dark:bg-slate-800">
               <div className="relative aspect-video">
                 <VideoPlayer
@@ -182,7 +182,7 @@ export function ProductionPlanningSolutions(): React.JSX.Element {
           </div>
 
           {/* Product Tiers - Clean Design Like Attachment */}
-          <div className="mb-16 grid gap-8 lg:grid-cols-3">
+          <div className="mb-6 grid gap-8 lg:grid-cols-3">
             {/* Starter Tier */}
             <div className="relative w-full overflow-hidden rounded-xl border bg-white shadow-lg transition-shadow hover:shadow-xl dark:border-slate-700 dark:bg-slate-900">
               {/* Badge */}
@@ -402,7 +402,7 @@ export function ProductionPlanningSolutions(): React.JSX.Element {
           </div>
 
           {/* Customer Testimonials */}
-          <div className="mb-16">
+          <div className="mb-6">
             <h2 className="mb-6 text-center text-2xl font-bold text-slate-900 dark:text-white">
               What Our Customers Say
             </h2>
@@ -488,7 +488,7 @@ export function ProductionPlanningSolutions(): React.JSX.Element {
           </div>
 
           {/* Production Scheduling Features Section */}
-          <div className="mb-16">
+          <div className="mb-6">
             <h2 className="mb-6 text-center text-3xl font-bold text-slate-900 dark:text-white">
               Production Scheduling Features
             </h2>
@@ -685,7 +685,7 @@ export function ProductionPlanningSolutions(): React.JSX.Element {
           </div>
 
           {/* Feature Comparison Matrix */}
-          <div className="mb-16">
+          <div className="mb-6">
             <h2 className="mb-6 text-center text-3xl font-bold text-slate-900 dark:text-white">
               Choose the Right Solution for Your Business
             </h2>
@@ -955,7 +955,7 @@ export function ProductionPlanningSolutions(): React.JSX.Element {
           </div>
 
           {/* 25 Years Anniversary with Real Award Logos */}
-          <div className="mb-16">
+          <div className="mb-6">
             <div className="mx-auto max-w-7xl">
               <Card className="bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20">
                 <CardContent className="p-8 text-center">

@@ -17,7 +17,7 @@ export default function NewsPage(): React.JSX.Element {
   return (
     <div className="container mx-auto max-w-7xl px-4 pt-6">
       {/* Header Section */}
-      <div className="mb-16 text-center">
+      <div className="mb-6 text-center">
         <SiteHeading
           badge="Latest News"
           title="News"
@@ -51,10 +51,8 @@ export default function NewsPage(): React.JSX.Element {
                   What is a manufacturing KPI?
                 </p>
                 <Link
-                  href="https://www.usersolutions.com/top-10-manufacturing-kpis-in-2024/"
+                  href="/top-10-manufacturing-kpis-in-2024"
                   className="text-sm font-medium text-blue-600 hover:text-blue-800"
-                  target="_blank"
-                  rel="noopener noreferrer"
                 >
                   Read More →
                 </Link>
@@ -399,10 +397,8 @@ export default function NewsPage(): React.JSX.Element {
               <div className="md:w-2/3">
                 <h3 className="mb-3 text-xl font-semibold">
                   <Link
-                    href="https://www.usersolutions.com/enhancing-supply-chain-visibility-through-advanced-scheduling-solutions/"
+                    href="/enhancing-supply-chain-visibility-through-advanced-scheduling-solutions"
                     className="hover:text-blue-600"
-                    target="_blank"
-                    rel="noopener noreferrer"
                   >
                     Enhancing Supply Chain Visibility through Advanced
                     Scheduling Solutions
@@ -410,10 +406,8 @@ export default function NewsPage(): React.JSX.Element {
                 </h3>
                 <p className="mb-3 text-muted-foreground">May 26, 2024</p>
                 <Link
-                  href="https://www.usersolutions.com/enhancing-supply-chain-visibility-through-advanced-scheduling-solutions/"
+                  href="/enhancing-supply-chain-visibility-through-advanced-scheduling-solutions"
                   className="font-medium text-blue-600 hover:text-blue-800"
-                  target="_blank"
-                  rel="noopener noreferrer"
                 >
                   Read more →
                 </Link>
@@ -433,10 +427,8 @@ export default function NewsPage(): React.JSX.Element {
               <div className="md:w-2/3">
                 <h3 className="mb-3 text-xl font-semibold">
                   <Link
-                    href="https://www.usersolutions.com/erp-solutions-for-production-planning/"
+                    href="/erp-solutions-for-production-planning"
                     className="hover:text-blue-600"
-                    target="_blank"
-                    rel="noopener noreferrer"
                   >
                     The Role of Technology in Modern Production Planning and
                     Scheduling
@@ -444,10 +436,8 @@ export default function NewsPage(): React.JSX.Element {
                 </h3>
                 <p className="mb-3 text-muted-foreground">May 16, 2024</p>
                 <Link
-                  href="https://www.usersolutions.com/erp-solutions-for-production-planning/"
+                  href="/erp-solutions-for-production-planning"
                   className="font-medium text-blue-600 hover:text-blue-800"
-                  target="_blank"
-                  rel="noopener noreferrer"
                 >
                   Read more →
                 </Link>
@@ -467,10 +457,8 @@ export default function NewsPage(): React.JSX.Element {
               <div className="md:w-2/3">
                 <h3 className="mb-3 text-xl font-semibold">
                   <Link
-                    href="https://www.usersolutions.com/lean-manufacturing-solutions/"
+                    href="/lean-manufacturing-solutions"
                     className="hover:text-blue-600"
-                    target="_blank"
-                    rel="noopener noreferrer"
                   >
                     Implementing Lean Manufacturing Principles for Improved
                     Production Efficiency
@@ -478,10 +466,8 @@ export default function NewsPage(): React.JSX.Element {
                 </h3>
                 <p className="mb-3 text-muted-foreground">May 6, 2024</p>
                 <Link
-                  href="https://www.usersolutions.com/lean-manufacturing-solutions/"
+                  href="/lean-manufacturing-solutions"
                   className="font-medium text-blue-600 hover:text-blue-800"
-                  target="_blank"
-                  rel="noopener noreferrer"
                 >
                   Read more →
                 </Link>
@@ -501,20 +487,16 @@ export default function NewsPage(): React.JSX.Element {
               <div className="md:w-2/3">
                 <h3 className="mb-3 text-xl font-semibold">
                   <Link
-                    href="https://www.usersolutions.com/li-ion-battery-production-scheduling-software/"
+                    href="/li-ion-battery-production-scheduling-software"
                     className="hover:text-blue-600"
-                    target="_blank"
-                    rel="noopener noreferrer"
                   >
                     Li-ion Battery Production Scheduling Software
                   </Link>
                 </h3>
                 <p className="mb-3 text-muted-foreground">September 8, 2022</p>
                 <Link
-                  href="https://www.usersolutions.com/li-ion-battery-production-scheduling-software/"
+                  href="/li-ion-battery-production-scheduling-software"
                   className="font-medium text-blue-600 hover:text-blue-800"
-                  target="_blank"
-                  rel="noopener noreferrer"
                 >
                   Read more →
                 </Link>
@@ -534,20 +516,16 @@ export default function NewsPage(): React.JSX.Element {
               <div className="md:w-2/3">
                 <h3 className="mb-3 text-xl font-semibold">
                   <Link
-                    href="https://www.usersolutions.com/scheduling-system-narrows-skills-gap-for-fire-rated-glass/"
+                    href="/scheduling-system-narrows-skills-gap-for-fire-rated-glass"
                     className="hover:text-blue-600"
-                    target="_blank"
-                    rel="noopener noreferrer"
                   >
                     Scheduling System Narrows Skills Gap for Fire-Rated Glass
                   </Link>
                 </h3>
                 <p className="mb-3 text-muted-foreground">September 8, 2022</p>
                 <Link
-                  href="https://www.usersolutions.com/scheduling-system-narrows-skills-gap-for-fire-rated-glass/"
+                  href="/scheduling-system-narrows-skills-gap-for-fire-rated-glass"
                   className="font-medium text-blue-600 hover:text-blue-800"
-                  target="_blank"
-                  rel="noopener noreferrer"
                 >
                   Read more →
                 </Link>
@@ -567,10 +545,8 @@ export default function NewsPage(): React.JSX.Element {
               <div className="md:w-2/3">
                 <h3 className="mb-3 text-xl font-semibold">
                   <Link
-                    href="https://www.usersolutions.com/small-manufacturer-and-job-shop-uses-planning-scheduling-and-tracking-tools-from-user-solutions-inc-to-become-more-efficient-and-competitive/"
+                    href="/small-manufacturer-and-job-shop-uses-planning-scheduling-and-tracking-tools-from-user-solutions-inc-to-become-more-efficient-and-competitive"
                     className="hover:text-blue-600"
-                    target="_blank"
-                    rel="noopener noreferrer"
                   >
                     Small Manufacturer and Job Shop Uses Planning, Scheduling,
                     and Tracking Tools from User Solutions, Inc. to Become More
@@ -579,10 +555,8 @@ export default function NewsPage(): React.JSX.Element {
                 </h3>
                 <p className="mb-3 text-muted-foreground">September 8, 2022</p>
                 <Link
-                  href="https://www.usersolutions.com/small-manufacturer-and-job-shop-uses-planning-scheduling-and-tracking-tools-from-user-solutions-inc-to-become-more-efficient-and-competitive/"
+                  href="/small-manufacturer-and-job-shop-uses-planning-scheduling-and-tracking-tools-from-user-solutions-inc-to-become-more-efficient-and-competitive"
                   className="font-medium text-blue-600 hover:text-blue-800"
-                  target="_blank"
-                  rel="noopener noreferrer"
                 >
                   Read more →
                 </Link>
@@ -602,10 +576,8 @@ export default function NewsPage(): React.JSX.Element {
               <div className="md:w-2/3">
                 <h3 className="mb-3 text-xl font-semibold">
                   <Link
-                    href="https://www.usersolutions.com/user-solutions-inc-named-as-one-of-top-erp-solutions-transforming-business-2016-by-cio-applications-as-they-celebrate-25-years-in-business/"
+                    href="/user-solutions-inc-named-as-one-of-top-erp-solutions-transforming-business-2016-by-cio-applications-as-they-celebrate-25-years-in-business"
                     className="hover:text-blue-600"
-                    target="_blank"
-                    rel="noopener noreferrer"
                   >
                     User Solutions, Inc. named as one of top ERP Solutions
                     Transforming Business 2016 by CIO Applications, as they
@@ -614,10 +586,8 @@ export default function NewsPage(): React.JSX.Element {
                 </h3>
                 <p className="mb-3 text-muted-foreground">September 8, 2022</p>
                 <Link
-                  href="https://www.usersolutions.com/user-solutions-inc-named-as-one-of-top-erp-solutions-transforming-business-2016-by-cio-applications-as-they-celebrate-25-years-in-business/"
+                  href="/user-solutions-inc-named-as-one-of-top-erp-solutions-transforming-business-2016-by-cio-applications-as-they-celebrate-25-years-in-business"
                   className="font-medium text-blue-600 hover:text-blue-800"
-                  target="_blank"
-                  rel="noopener noreferrer"
                 >
                   Read more →
                 </Link>
@@ -637,20 +607,16 @@ export default function NewsPage(): React.JSX.Element {
               <div className="md:w-2/3">
                 <h3 className="mb-3 text-xl font-semibold">
                   <Link
-                    href="https://www.usersolutions.com/random-events-and-covariance/"
+                    href="/random-events-and-covariance"
                     className="hover:text-blue-600"
-                    target="_blank"
-                    rel="noopener noreferrer"
                   >
                     Celebrating National Manufacturing Day
                   </Link>
                 </h3>
                 <p className="mb-3 text-muted-foreground">July 18, 2022</p>
                 <Link
-                  href="https://www.usersolutions.com/random-events-and-covariance/"
+                  href="/random-events-and-covariance"
                   className="font-medium text-blue-600 hover:text-blue-800"
-                  target="_blank"
-                  rel="noopener noreferrer"
                 >
                   Read more →
                 </Link>

@@ -215,7 +215,7 @@ export default function Product2Page(): React.JSX.Element {
       <GridSection hideVerticalGridLines>
         <div className="container max-w-7xl">
           <div className="mx-auto max-w-7xl">
-            <div className="mb-16 text-center">
+            <div className="mb-6 text-center">
               <SiteHeading
                 badge="Product Comparison"
                 title="Production Planning and Scheduling Solutions"

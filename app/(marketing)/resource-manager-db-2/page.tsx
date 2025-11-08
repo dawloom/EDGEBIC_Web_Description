@@ -34,6 +34,7 @@ import {
 import { GridSection } from '@/components/marketing/fragments/grid-section';
 import { SiteHeading } from '@/components/marketing/fragments/site-heading';
 import { Button } from '@/components/ui/button';
+import { Routes } from '@/constants/routes';
 
 // Video Player Component
 function VideoPlayer({
@@ -188,35 +189,31 @@ export default function ResourceManagerDBPage(): React.JSX.Element {
         },
         {
             label: 'In Depth',
-            href: 'https://www.usersolutions.com/resource-manager-db-in-depth/',
-            external: true,
+            href: '/resource-manager-db-in-depth',
             description: 'Detailed feature exploration'
         },
         {
             label: 'Quick Start',
-            href: 'https://www.usersolutions.com/wp-content/uploads/2022/10/rmdbquickstart23.pdf',
-            external: true,
+            href: '/docs/rmdbquickstart23.pdf',
             description: 'PDF guide to get started quickly'
         },
         {
             label: 'EDGEBI',
-            href: 'https://www.usersolutions.com/edgebi/',
-            external: true,
+            href: '/edgebi',
             description: 'Business intelligence integration'
         },
         {
             label: 'Live Demo',
-            href: 'https://www.usersolutions.com/contact-us/',
-            external: true,
+            href: Routes.ContactUs,
             description: 'Schedule a personalized demonstration'
         }
     ];
 
     const companyInfo = {
-        name: 'User Solutions, Inc.',
+        name: 'EDGEBIC',
         tagline: 'Manufacturing software made easy',
         phone: '248.486.6365',
-        email: 'us@usersolutions.com',
+        email: 'support@edgebic.com',
         location: 'South Lyon MI',
         establishedYear: '1999', // Based on 25 years celebration
         socialLinks: {
@@ -230,7 +227,7 @@ export default function ResourceManagerDBPage(): React.JSX.Element {
     const products = [
         {
             name: 'Job Scheduler Lite (JSL)',
-            href: 'https://www.usersolutions.com/jsl-job-scheduler-lite/',
+            href: '/jsl-job-scheduler-lite',
             description: 'Simple scheduling solution for small operations'
         },
         {
@@ -241,7 +238,7 @@ export default function ResourceManagerDBPage(): React.JSX.Element {
         },
         {
             name: 'EDGEBI',
-            href: 'https://www.usersolutions.com/edgebi/',
+            href: '/edgebi',
             description: 'Business intelligence and analytics platform'
         }
     ];
@@ -277,7 +274,7 @@ export default function ResourceManagerDBPage(): React.JSX.Element {
                         </div> */}
 
                         {/* Hero Header */}
-                        <div className="mb-16 text-center">
+                        <div className="mb-6 text-center">
                             <SiteHeading
                                 badge="Production Planning"
                                 title="Resource Manager DB"
@@ -286,7 +283,7 @@ export default function ResourceManagerDBPage(): React.JSX.Element {
                         </div>
 
                         {/* Video Section */}
-                        <div className="mb-16">
+                        <div className="mb-6">
                             <div className="relative mx-auto max-w-7xl overflow-hidden rounded-2xl border bg-slate-100 shadow-2xl dark:bg-slate-800">
                                 <div className="relative aspect-video">
                                     <VideoPlayer

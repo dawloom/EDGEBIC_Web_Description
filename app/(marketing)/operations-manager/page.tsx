@@ -17,29 +17,27 @@ export default function OperationsManagerPage(): React.JSX.Element {
                 {
                     title: 'Simple exponential smoothing',
                     price: '$5',
-                    infoLink: 'https://www.usersolutions.com/operations-manager-simple/'
+                    infoLink: '/operations-manager-simple'
                 },
                 {
                     title: 'Smoothing linear, exponential, and damped trends',
                     price: '$5',
-                    infoLink:
-                        'https://www.usersolutions.com/operations-manager-trendsmooth/'
+                    infoLink: '/operations-manager-trendsmooth'
                 },
                 {
                     title: 'Ratio-to-moving-average seasonal adjustment',
                     price: '$5',
-                    infoLink: 'https://www.usersolutions.com/operations-manager-multimon/'
+                    infoLink: '/operations-manager-multimon'
                 },
                 {
                     title: 'Difference-to-moving-average seas. adj. for mo. data',
                     price: '$5',
-                    infoLink: 'https://www.usersolutions.com/operations-manager-additmon/'
+                    infoLink: '/operations-manager-additmon'
                 },
                 {
                     title: 'Complete Forecasting package',
                     price: '$10',
-                    infoLink:
-                        'https://www.usersolutions.com/wp-content/uploads/2022/11/FORECASTING-D.doc',
+                    infoLink: '/docs/forecasting-package.pdf',
                     isPackage: true
                 }
             ]
@@ -51,33 +49,32 @@ export default function OperationsManagerPage(): React.JSX.Element {
                 {
                     title: 'Economic order quantity',
                     price: '$5',
-                    infoLink: 'https://www.usersolutions.com/operations-manager-eoq/'
+                    infoLink: '/operations-manager-eoq'
                 },
                 {
                     title: 'EOQ with backorders',
                     price: '$5',
-                    infoLink: 'https://www.usersolutions.com/operations-managereoqback/'
+                    infoLink: '/operations-manager-eoqback'
                 },
                 {
                     title: 'EOQ with quantity discounts',
                     price: '$5',
-                    infoLink: 'https://www.usersolutions.com/operations-manager-eoqdisc/'
+                    infoLink: '/operations-manager-eoqdisc'
                 },
                 {
                     title: 'EOQ for production lot sizes',
                     price: '$5',
-                    infoLink: 'https://www.usersolutions.com/operations-manager-eoqprod/'
+                    infoLink: '/operations-manager-eoqprod'
                 },
                 {
                     title: 'Reorder points and safety stocks',
                     price: '$15',
-                    infoLink: 'https://www.usersolutions.com/operations-manager-rop/'
+                    infoLink: '/operations-manager-rop'
                 },
                 {
                     title: 'Complete Inventory Management Package',
                     price: '$10',
-                    infoLink:
-                        'https://www.usersolutions.com/wp-content/uploads/2022/11/INVENTORY-MANAGEMENT-D.doc',
+                    infoLink: '/docs/inventory-management-package.pdf',
                     isPackage: true
                 }
             ]
@@ -90,18 +87,17 @@ export default function OperationsManagerPage(): React.JSX.Element {
                 {
                     title: 'MRP Inventory Plan',
                     price: '$5',
-                    infoLink: 'https://www.usersolutions.com/operations-manager-mrp1/'
+                    infoLink: '/operations-manager-mrp1'
                 },
                 {
                     title: 'Period-Order-Quantity',
                     price: '$5',
-                    infoLink: 'https://www.usersolutions.com/operations-manager-poq/'
+                    infoLink: '/operations-manager-poq'
                 },
                 {
                     title: 'Complete MRP Package',
                     price: '$10',
-                    infoLink:
-                        'https://www.usersolutions.com/wp-content/uploads/2022/11/mrp-d.doc',
+                    infoLink: '/docs/mrp-package.pdf',
                     isPackage: true
                 }
             ]
@@ -113,23 +109,22 @@ export default function OperationsManagerPage(): React.JSX.Element {
                 {
                     title: 'Aggregate production planning',
                     price: '$5',
-                    infoLink: 'https://www.usersolutions.com/operations-manager-app/'
+                    infoLink: '/operations-manager-app'
                 },
                 {
                     title: 'Run-Out Time production planning',
                     price: '$5',
-                    infoLink: 'https://www.usersolutions.com/operations-manager-runout/'
+                    infoLink: '/operations-manager-runout'
                 },
                 {
                     title: 'Learning curves',
                     price: '$10',
-                    infoLink: 'https://www.usersolutions.com/operations-manager-learn/'
+                    infoLink: '/operations-manager-learn'
                 },
                 {
                     title: 'Complete Production Planning Package',
                     price: '$10',
-                    infoLink:
-                        'https://www.usersolutions.com/wp-content/uploads/2022/11/PRODUCTION-PLANNING-D.doc',
+                    infoLink: '/docs/production-planning-package.pdf',
                     isPackage: true
                 }
             ]
@@ -142,13 +137,12 @@ export default function OperationsManagerPage(): React.JSX.Element {
                 {
                     title: 'Center-of-Gravity method for locating dist. cntrs',
                     price: '$5',
-                    infoLink: '#'
+                    infoLink: '/operations-manager-location'
                 },
                 {
                     title: 'Complete Facility Location Package',
                     price: '$5',
-                    infoLink:
-                        'https://www.usersolutions.com/wp-content/uploads/2022/11/LOCATION-D.doc',
+                    infoLink: '/docs/facility-location-package.pdf',
                     isPackage: true
                 }
             ]
@@ -160,23 +154,22 @@ export default function OperationsManagerPage(): React.JSX.Element {
                 {
                     title: 'Job sequencing for a single work station',
                     price: '$5',
-                    infoLink: 'https://www.usersolutions.com/operations-manager-sked1aa/'
+                    infoLink: '/operations-manager-sked1aa'
                 },
                 {
                     title: 'Job sequencing for 2 work stations in a series',
                     price: '$5',
-                    infoLink: 'https://www.usersolutions.com/operations-manager-sked2a/'
+                    infoLink: '/operations-manager-sked2a'
                 },
                 {
                     title: 'Job sequencing for 3 work stations in a series',
                     price: '$5',
-                    infoLink: 'https://www.usersolutions.com/operations-manager-sked3a/'
+                    infoLink: '/operations-manager-sked3a'
                 },
                 {
                     title: 'Complete Scheduling Package',
                     price: '$10',
-                    infoLink:
-                        'https://www.usersolutions.com/wp-content/uploads/2022/11/SCHEDULING-D.doc',
+                    infoLink: '/docs/scheduling-package.pdf',
                     isPackage: true
                 }
             ]
@@ -188,38 +181,37 @@ export default function OperationsManagerPage(): React.JSX.Element {
                 {
                     title: 'Acceptance Sampling',
                     price: '$5',
-                    infoLink: 'https://www.usersolutions.com/operations-manager-acceptsa/'
+                    infoLink: '/operations-manager-acceptsa'
                 },
                 {
                     title: 'Control chart for mean and range',
                     price: '$5',
-                    infoLink: 'https://www.usersolutions.com/operations-manager-mr-chart/'
+                    infoLink: '/operations-manager-mr-chart'
                 },
                 {
                     title: 'Control chart for individual observations',
                     price: '$5',
-                    infoLink: 'https://www.usersolutions.com/operations-manager-i-chart/'
+                    infoLink: '/operations-manager-i-chart'
                 },
                 {
                     title: 'Control chart for perfect defective',
                     price: '$5',
-                    infoLink: 'https://www.usersolutions.com/operations-manager-p-chart/'
+                    infoLink: '/operations-manager-p-chart'
                 },
                 {
                     title: 'Control chart for number of defects',
                     price: '$5',
-                    infoLink: 'https://www.usersolutions.com/operations-manager-cu-chart/'
+                    infoLink: '/operations-manager-cu-chart'
                 },
                 {
                     title: 'Control limit calculator',
                     price: '$5',
-                    infoLink: 'https://www.usersolutions.com/operations-manager-limit/'
+                    infoLink: '/operations-manager-limit'
                 },
                 {
                     title: 'Complete Quality Control Package',
                     price: '$10',
-                    infoLink:
-                        'https://www.usersolutions.com/wp-content/uploads/2022/11/quality-d.doc',
+                    infoLink: '/docs/quality-control-package.pdf',
                     isPackage: true
                 }
             ]
@@ -231,18 +223,17 @@ export default function OperationsManagerPage(): React.JSX.Element {
                 {
                     title: 'Single-Server Queues',
                     price: '$5',
-                    infoLink: 'https://www.usersolutions.com/operations-manager-singleeq/'
+                    infoLink: '/operations-manager-singleeq'
                 },
                 {
                     title: 'Multi-Server Queues',
                     price: '$5',
-                    infoLink: 'https://www.usersolutions.com/operations-manager-multiq/'
+                    infoLink: '/operations-manager-multiq'
                 },
                 {
                     title: 'Complete Analysis of Waiting Lines',
                     price: '$10',
-                    infoLink:
-                        'https://www.usersolutions.com/wp-content/uploads/2022/11/WAITINGLINES-D.doc',
+                    infoLink: '/docs/waiting-lines-package.pdf',
                     isPackage: true
                 }
             ]
@@ -277,11 +268,10 @@ export default function OperationsManagerPage(): React.JSX.Element {
                 </div>
 
                 {/* Categories */}
-                <div className="mx-auto max-w-7xl space-y-12">
+                <div className="mx-auto max-w-7xl space-y-6">
                     {categories.map((category, index) => (
                         <Card
                             key={index}
-                            className="mb-6"
                         >
                             <CardHeader>
                                 <CardTitle className="text-3xl text-blue-600">
@@ -323,15 +313,11 @@ export default function OperationsManagerPage(): React.JSX.Element {
                                                                 size="sm"
                                                                 asChild
                                                             >
-                                                                <a
-                                                                    href={item.infoLink}
-                                                                    target="_blank"
-                                                                    rel="noopener noreferrer"
-                                                                >
-                                                                    {item.infoLink.includes('.doc')
+                                                                <Link href={item.infoLink}>
+                                                                    {item.infoLink.includes('.pdf')
                                                                         ? 'Doc'
                                                                         : 'Info'}
-                                                                </a>
+                                                                </Link>
                                                             </Button>
                                                             <Button
                                                                 size="sm"
@@ -353,7 +339,7 @@ export default function OperationsManagerPage(): React.JSX.Element {
 
                 {/* Complete Package */}
                 <div className="mx-auto max-w-7xl">
-                    <Card className="mb-16 mt-8 border-4 border-green-200 bg-green-50 dark:border-green-800 dark:bg-green-950/20">
+                    <Card className="mt-6 border-4 border-green-200 bg-green-50 dark:border-green-800 dark:bg-green-950/20">
                         <CardContent className="p-8">
                             <div className="text-center">
                                 <Badge
@@ -377,13 +363,9 @@ export default function OperationsManagerPage(): React.JSX.Element {
                                             size="lg"
                                             asChild
                                         >
-                                            <a
-                                                href="https://www.usersolutions.com/wp-content/uploads/2022/11/USSOM.doc"
-                                                target="_blank"
-                                                rel="noopener noreferrer"
-                                            >
+                                            <Link href="/docs/operations-manager-complete.pdf">
                                                 View Documentation
-                                            </a>
+                                            </Link>
                                         </Button>
                                         <Button
                                             size="lg"
@@ -399,8 +381,8 @@ export default function OperationsManagerPage(): React.JSX.Element {
                 </div>
 
                 {/* Call to Action */}
-                <div className="mx-auto max-w-7xl">
-                    <Card className="mb-16">
+                <div className="mx-auto max-w-7xl !mt-6">
+                    <Card>
                         <CardContent className="p-8">
                             <div className="text-center">
                                 <h2 className="mb-4 text-3xl font-bold">Need Help Choosing?</h2>
@@ -414,7 +396,7 @@ export default function OperationsManagerPage(): React.JSX.Element {
                                         variant="outline"
                                         asChild
                                     >
-                                        <Link href={Routes.Contact}>Contact Us</Link>
+                                        <Link href={Routes.ContactUs}>Contact Us</Link>
                                     </Button>
                                     <Button
                                         size="lg"

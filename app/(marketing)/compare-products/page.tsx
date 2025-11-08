@@ -133,7 +133,7 @@ export default function CompareProductsPage(): React.JSX.Element {
                 <div className="container pt-6">
                     <div className="mx-auto max-w-7xl">
                         {/* Hero Header */}
-                        <div className="mb-16 text-center">
+                        <div className="mb-6 text-center">
                             <h1 className="mb-6 text-4xl font-bold text-slate-900 dark:text-white md:text-6xl">
                                 Production Planning and Scheduling Solutions
                             </h1>

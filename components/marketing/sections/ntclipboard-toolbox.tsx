@@ -72,7 +72,7 @@ export function NTClipboardToolBox(): React.JSX.Element {
             <div className="container pt-6">
                 <div className="mx-auto max-w-7xl">
                     {/* Section Header */}
-                    <div className="mb-16 text-center">
+                    <div className="mb-6 text-center">
                         <h2 className="mb-4 bg-gradient-to-r from-orange-500 to-red-500 bg-clip-text text-4xl font-bold text-transparent md:text-5xl">
                             What's in Your Scheduling Tool Box?
                         </h2>

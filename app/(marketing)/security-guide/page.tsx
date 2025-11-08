@@ -36,7 +36,7 @@ export default function SecurityGuidePage(): React.JSX.Element {
                     </p>
 
                     {/* Overview */}
-                    <Card className="mb-16">
+                    <Card className="mb-6">
                         <CardHeader>
                             <CardTitle className="text-3xl">Overview</CardTitle>
                         </CardHeader>
@@ -50,7 +50,7 @@ export default function SecurityGuidePage(): React.JSX.Element {
                     </Card>
 
                     {/* Step 1 */}
-                    <Card className="mb-16">
+                    <Card className="mb-6">
                         <CardHeader>
                             <CardTitle className="text-2xl">
                                 Step 1: Unblock Downloaded Files
@@ -79,7 +79,7 @@ export default function SecurityGuidePage(): React.JSX.Element {
                     </Card>
 
                     {/* Step 2 */}
-                    <Card className="mb-16">
+                    <Card className="mb-6">
                         <CardHeader>
                             <CardTitle className="text-2xl">
                                 Step 2: Enable Developer Tab in Excel
@@ -118,7 +118,7 @@ export default function SecurityGuidePage(): React.JSX.Element {
                     </Card>
 
                     {/* Step 3 */}
-                    <Card className="mb-16">
+                    <Card className="mb-6">
                         <CardHeader>
                             <CardTitle className="text-2xl">
                                 Step 3: Enable VBA Macros

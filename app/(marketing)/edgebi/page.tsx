@@ -162,7 +162,7 @@ export default function EDGEBIPage(): React.JSX.Element {
         <div className="container pt-6">
           <div className="mx-auto max-w-7xl">
             {/* Hero Header */}
-            <div className="mb-16 text-center">
+            <div className="mb-6 text-center">
               <SiteHeading
                 badge="Advanced Scheduling"
                 title="Welcome to EDGEBI"
@@ -199,7 +199,7 @@ export default function EDGEBIPage(): React.JSX.Element {
             </div>
 
             {/* Video Section */}
-            <div className="mb-16">
+            <div className="mb-6">
               <div className="relative mx-auto max-w-7xl overflow-hidden rounded-2xl border bg-slate-100 shadow-2xl dark:bg-slate-800">
                 <div className="relative aspect-video">
                   <VideoPlayer

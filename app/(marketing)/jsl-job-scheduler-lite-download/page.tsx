@@ -59,12 +59,12 @@ export default function JSLDownloadPage(): React.JSX.Element {
             </div>
 
             {/* Download Form */}
-            <div className="mb-16">
+            <div className="mb-6">
                 <JSLDownloadForm />
             </div>
 
             {/* Installation Instructions */}
-            <div className="mb-16 rounded-lg bg-gray-50 p-8 dark:bg-gray-900/50">
+            <div className="mb-6 rounded-lg bg-gray-50 p-8 dark:bg-gray-900/50">
                 <h2 className="mb-6 text-2xl font-semibold">
                     Installation Instructions
                 </h2>

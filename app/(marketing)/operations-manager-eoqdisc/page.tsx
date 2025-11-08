@@ -39,7 +39,7 @@ export default function OperationsManagerEoqdiscPage(): React.JSX.Element {
             <section className="pt-6">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-7xl">
-                        <Card className="mb-6">
+                        <Card>
                             <CardHeader>
                                 <CardTitle className="text-center text-3xl">
                                     EOQ with Quantity Discounts (EOQDISC)

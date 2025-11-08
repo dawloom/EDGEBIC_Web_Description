@@ -4,17 +4,27 @@ import { Footer } from '@/components/marketing/footer';
 import { CookieBanner } from '@/components/marketing/fragments/cookie-banner';
 import { Navbar } from '@/components/marketing/navbar';
 import { TopHeader } from '@/components/marketing/top-header';
+// import { AnnouncementBar } from '@/components/ui/announcement-bar';
+import { BackToTop } from '@/components/ui/back-to-top';
+import { FloatingCTA } from '@/components/ui/floating-cta';
+import { PageTransition } from '@/components/ui/page-transition';
+import { ScrollProgress } from '@/components/ui/scroll-progress';
 
 export default function MarketingLayout(
   props: React.PropsWithChildren
 ): React.JSX.Element {
   return (
     <div>
+      <ScrollProgress />
+      {/* Uncomment to enable announcement bar */}
+      {/* <AnnouncementBar /> */}
       <TopHeader />
       <Navbar />
-      {props.children}
+      <PageTransition>{props.children}</PageTransition>
       <Footer />
       <CookieBanner />
+      <BackToTop />
+      <FloatingCTA />
     </div>
   );
 }

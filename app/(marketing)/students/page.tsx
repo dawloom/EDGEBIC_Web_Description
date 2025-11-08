@@ -166,7 +166,7 @@ export default function StudentsPage(): React.JSX.Element {
                   variant="outline"
                 >
                   <Link
-                    href="/contact"
+                    href="/contact-us"
                     className="flex items-center gap-2"
                   >
                     <Users className="size-5" />
