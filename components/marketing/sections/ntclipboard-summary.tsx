@@ -109,7 +109,10 @@ export function NTClipboardSummary(): React.JSX.Element {
                             </div>
                         </div>
                         <div className="mt-6 text-center">
-                            <Button variant="outline" asChild>
+                            <Button
+                                variant="outline"
+                                asChild
+                            >
                                 <Link href="/product-2">See Feature List</Link>
                             </Button>
                         </div>
