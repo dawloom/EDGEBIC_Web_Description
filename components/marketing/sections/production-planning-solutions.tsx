@@ -199,7 +199,7 @@ export function ProductionPlanningSolutions(): React.JSX.Element {
               <div className="relative aspect-video bg-slate-100 dark:bg-slate-800">
                 <VideoPlayer
                   videoUrl="https://www.usersolutions.com/wp-content/uploads/2022/10/Welcome-to-Job-Scheduler-Lite-JSL.mp4"
-                  title="Job Scheduler Lite Demo"
+                  title="EDGEBI Demo"
                   thumbnail=""
                   onPlayStateChange={setIsStarterVideoPlaying}
                 />
@@ -208,7 +208,7 @@ export function ProductionPlanningSolutions(): React.JSX.Element {
               {/* Content */}
               <div className="p-6">
                 <h3 className="mb-2 text-xl font-bold text-blue-600">
-                  Job Scheduler Lite
+                  EDGEBI
                 </h3>
                 <p className="mb-4 text-sm text-slate-600 dark:text-slate-400">
                   Perfect for Job Shops & Small Manufacturers
@@ -499,12 +499,12 @@ export function ProductionPlanningSolutions(): React.JSX.Element {
 
             {/* Features Grid */}
             <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-              {/* Job Scheduler Lite Features */}
+              {/* EDGEBI Features */}
               <Card className="border-blue-200 bg-gradient-to-br from-blue-50 to-blue-100 dark:border-blue-700 dark:from-blue-900/20 dark:to-blue-800/20">
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2 text-blue-700 dark:text-blue-300">
                     <Target className="size-5" />
-                    Job Scheduler Lite
+                    EDGEBI
                   </CardTitle>
                   <CardDescription>
                     Entry-level production scheduling solution for creating
@@ -733,7 +733,7 @@ export function ProductionPlanningSolutions(): React.JSX.Element {
                       Features
                     </th>
                     <th className="p-4 text-center font-semibold text-blue-600 dark:text-blue-400">
-                      Job Scheduler Lite
+                      EDGEBI
                     </th>
                     <th className="p-4 text-center font-semibold text-orange-600 dark:text-orange-400">
                       Resource Manager DB

@@ -29,7 +29,7 @@ export default function CompareProductsPage(): React.JSX.Element {
 
     const products = [
         {
-            name: 'Job Scheduler Lite (JSL)',
+            name: 'EDGEBI  ',
             tier: 'Starter',
             price: '$1,000+',
             description: 'Perfect for Job Shops & Small Manufacturers',

@@ -89,7 +89,7 @@ export default function ProductionSchedulingProductsPage() {
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-7xl">
             <div className="grid gap-8 md:grid-cols-3">
-              {/* Starter - Job Scheduler Lite */}
+              {/* Starter - EDGEBI */}
               <Card className="border-2 border-gray-300">
                 <CardHeader className="bg-gradient-to-br from-gray-100 to-gray-200 text-center">
                   <div className="mb-4">
@@ -99,7 +99,7 @@ export default function ProductionSchedulingProductsPage() {
                   </div>
                   <CardTitle className="mb-2 text-2xl">Starter</CardTitle>
                   <h3 className="text-xl font-semibold text-blue-600">
-                    Job Scheduler Lite (JSL)
+                    EDGEBI
                   </h3>
                 </CardHeader>
                 <CardContent className="pt-6">

@@ -45,7 +45,7 @@ export default function PrivacyPolicy3Page() {
                                     operations with affordable, easy-to-implement software.
                                 </p>
                                 <p className="text-muted-foreground">
-                                    Our products include Job Scheduler Lite (JSL), Resource
+                                    Our products include EDGEBI  , Resource
                                     Manager for Excel, Resource Manager DB, and EDGEBI – designed
                                     to work the way you do, adapting to your specific needs
                                     without the complexity and cost of traditional enterprise

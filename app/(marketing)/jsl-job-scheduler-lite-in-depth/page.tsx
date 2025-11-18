@@ -18,7 +18,7 @@ export default function JSLJobSchedulerLiteInDepthPage() {
                             PRODUCT
                         </Badge>
                         <h1 className="mb-6 text-4xl font-bold md:text-5xl">
-                            Job Scheduler Lite (JSL): In Depth
+                            EDGEBI : In Depth
                         </h1>
                     </div>
                 </div>
@@ -33,14 +33,14 @@ export default function JSLJobSchedulerLiteInDepthPage() {
                         </CardHeader>
                         <CardContent className="space-y-6">
                             <p className="text-lg leading-relaxed text-muted-foreground">
-                                Welcome to Job Scheduler Lite (JSL). Designed as an entry level
-                                production scheduling offering that allows users to quickly
-                                create a series of routing steps then schedule according to
-                                capacity limitations, direction (Forward or Reverse), and
-                                Priorities. It also offers a quick method to load data either
-                                directly or importing from and Excel sheet. If you have more
-                                complex routings (non linear, or non batch, etc.) then consider
-                                Resource Manager-DB (RMDB) as it can model scheduling most any
+                                Welcome to EDGEBI . Designed as an entry level production
+                                scheduling offering that allows users to quickly create a series
+                                of routing steps then schedule according to capacity
+                                limitations, direction (Forward or Reverse), and Priorities. It
+                                also offers a quick method to load data either directly or
+                                importing from and Excel sheet. If you have more complex
+                                routings (non linear, or non batch, etc.) then consider Resource
+                                Manager-DB (RMDB) as it can model scheduling most any
                                 manufacturing flow.
                             </p>
 

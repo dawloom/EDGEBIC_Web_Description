@@ -13,7 +13,7 @@ export default function JobSchedulerLiteDownloadPage() {
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-7xl text-center">
                         <h1 className="mb-6 text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">
-                            Job Scheduler Lite (JSL) Download
+                            EDGEBI   Download
                         </h1>
                         <p className="text-xl">60 day fully functional trial</p>
                     </div>
@@ -53,7 +53,7 @@ export default function JobSchedulerLiteDownloadPage() {
                                     href="https://www.usersolutions.com/wp-content/uploads/2022/10/JSLsetup.zip"
                                     className="text-blue-600 hover:underline"
                                 >
-                                    Job Scheduler Lite (JSL) Download
+                                    EDGEBI   Download
                                 </a>
                             </CardTitle>
                         </CardHeader>
@@ -195,12 +195,12 @@ export default function JobSchedulerLiteDownloadPage() {
 
                                 <img
                                     src="https://www.usersolutions.com/wp-content/uploads/2022/10/blck.png"
-                                    alt="Screenshot of Job Scheduler Lite folder with files"
+                                    alt="Screenshot of EDGEBI folder with files"
                                     className="my-6 h-auto w-full rounded-lg shadow-md"
                                 />
 
                                 <p>
-                                    The database will default to C:\ProgramData\Job Scheduler Lite
+                                    The database will default to C:\ProgramData\EDGEBI
                                 </p>
 
                                 <p>

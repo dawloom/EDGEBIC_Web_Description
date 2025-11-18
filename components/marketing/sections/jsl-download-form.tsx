@@ -99,7 +99,7 @@ export function JSLDownloadForm(): React.JSX.Element {
     return (
         <Card className="mx-auto max-w-2xl">
             <CardHeader className="text-center">
-                <CardTitle className="text-2xl">Download Job Scheduler Lite</CardTitle>
+                <CardTitle className="text-2xl">Download EDGEBI</CardTitle>
                 <CardDescription>
                     Please fill out the form below to access your 60-day fully functional
                     trial.

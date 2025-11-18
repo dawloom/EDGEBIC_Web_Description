@@ -56,7 +56,7 @@ export default function ProductDownloads3Page() {
                                     <CardTitle className="text-center">
                                         <p className="mb-2 text-sm text-gray-600">Starter</p>
                                         <h3 className="text-2xl font-bold">
-                                            Job Scheduler Lite (JSL)
+                                            EDGEBI
                                         </h3>
                                     </CardTitle>
                                 </CardHeader>

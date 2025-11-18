@@ -9,7 +9,7 @@ export default function IndexPage(): React.JSX.Element {
   return (
     <>
       <NTClipboardHero />
-      <NTClipboardSummary />
+      {/* <NTClipboardSummary /> */}
       <NTClipboardToolBox />
       <NTClipboardTestimonials />
       {/* <NTClipboardPricing /> */}

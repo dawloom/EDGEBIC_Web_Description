@@ -84,10 +84,10 @@ export default function ProductionSchedulingProductsOldPage() {
                         </h2>
 
                         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-                            {/* Job Scheduler Lite */}
+                            {/* EDGEBI */}
                             <Card>
                                 <CardHeader className="bg-blue-50 dark:bg-blue-900/20">
-                                    <CardTitle>Job Scheduler Lite (JSL)</CardTitle>
+                                    <CardTitle>EDGEBI  </CardTitle>
                                 </CardHeader>
                                 <CardContent className="pt-4">
                                     <p className="mb-4 text-muted-foreground">

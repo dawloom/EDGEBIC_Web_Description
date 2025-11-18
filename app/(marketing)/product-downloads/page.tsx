@@ -18,7 +18,7 @@ export default function ProductDownloadsPage(): React.JSX.Element {
         <title>{createTitle('Product Downloads')}</title>
         <meta
           name="description"
-          content="Download User Solutions production scheduling software including Job Scheduler Lite, Resource Manager DB, EDGEBI, and Excel applications. Free trials and samples available."
+          content="Download User Solutions production scheduling software including EDGEBI, Resource Manager DB, EDGEBI, and Excel applications. Free trials and samples available."
         />
       </Head>
       <div className="container mx-auto px-4 pt-6">
@@ -67,7 +67,7 @@ export default function ProductDownloadsPage(): React.JSX.Element {
 
         {/* Main Products Section */}
         <div className="mb-6 grid grid-cols-1 gap-8 lg:grid-cols-3">
-          {/* Starter - Job Scheduler Lite */}
+          {/* Starter - EDGEBI */}
           <div className="overflow-hidden rounded-lg border bg-white shadow-lg dark:bg-gray-800">
             <div className="relative">
               <Image
@@ -98,7 +98,7 @@ export default function ProductDownloadsPage(): React.JSX.Element {
                 </span>
               </div>
               <h3 className="mb-4 text-center text-xl font-bold">
-                Job Scheduler Lite (JSL)
+                EDGEBI
               </h3>
               <div className="mb-6 text-center">
                 <span className="text-lg font-semibold text-green-600">

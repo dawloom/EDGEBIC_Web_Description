@@ -280,9 +280,7 @@ export function ResourceManagementBlog() {
           <div className="grid gap-8 md:grid-cols-3">
             <Card className="p-6 transition-shadow hover:shadow-lg">
               <CardHeader className="pb-4">
-                <CardTitle className="text-xl">
-                  Job Scheduler Lite (JSL)
-                </CardTitle>
+                <CardTitle className="text-xl">EDGEBI</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription className="mb-4">

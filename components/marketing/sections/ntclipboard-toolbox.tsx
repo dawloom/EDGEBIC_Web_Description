@@ -72,7 +72,7 @@ export function NTClipboardToolBox(): React.JSX.Element {
             <div className="container">
                 <div className="mx-auto max-w-7xl">
                     {/* Section Header */}
-                    <div className="mb-6 text-center">
+                    <div className="my-6 text-center">
                         {/* <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-orange-500 to-red-500 px-6 py-2 text-sm font-bold uppercase tracking-wider text-white shadow-lg">
                             <svg
                                 className="size-4"
@@ -89,7 +89,7 @@ export function NTClipboardToolBox(): React.JSX.Element {
                             </svg>
                             Transform Your Business
                         </div> */}
-                        <h2 className="mb-6 bg-gradient-to-r from-orange-600 via-red-600 to-orange-600 bg-clip-text text-5xl font-extrabold text-transparent md:text-6xl">
+                        <h2 className="mb-6  bg-gradient-to-r from-orange-600 via-red-600 to-orange-600 bg-clip-text text-5xl font-extrabold text-transparent md:text-6xl">
                             What's in Your Scheduling Tool Box?
                         </h2>
                         <p className="mx-auto max-w-3xl text-2xl font-medium text-slate-600 dark:text-slate-400">
@@ -429,7 +429,7 @@ export function NTClipboardToolBox(): React.JSX.Element {
                                         <div className="relative aspect-video bg-slate-100 dark:bg-slate-800">
                                             <VideoPlayer
                                                 videoUrl="https://www.usersolutions.com/wp-content/uploads/2022/10/Welcome-to-Job-Scheduler-Lite-JSL.mp4"
-                                                title="Job Scheduler Lite Demo"
+                                                title="EDGEBI Demo"
                                                 thumbnail="https://www.usersolutions.com/wp-content/uploads/2022/10/insight-1.png"
                                                 onPlayStateChange={(isPlaying) =>
                                                     handleVideoPlayState('starter', isPlaying)
@@ -441,7 +441,7 @@ export function NTClipboardToolBox(): React.JSX.Element {
                                         <div className="mb-6">
                                             <div className="mb-4 flex items-center gap-3">
                                                 <h3 className="text-2xl font-bold text-blue-700 dark:text-blue-300">
-                                                    Job Scheduler Lite
+                                                    EDGEBI
                                                 </h3>
                                             </div>
                                             <p className="mb-4 text-blue-600 dark:text-blue-400">

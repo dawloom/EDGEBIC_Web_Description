@@ -226,7 +226,7 @@ export default function ResourceManagerDBPage(): React.JSX.Element {
 
     const products = [
         {
-            name: 'Job Scheduler Lite (JSL)',
+            name: 'EDGEBI  ',
             href: '/jsl-job-scheduler-lite',
             description: 'Simple scheduling solution for small operations'
         },

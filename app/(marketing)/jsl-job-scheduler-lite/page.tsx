@@ -16,10 +16,10 @@ export default function JobSchedulerLitePage(): React.JSX.Element {
               variant="outline"
               className="mb-6 h-8 rounded-full border-white/30 bg-white/10 px-3 text-sm font-medium text-white shadow-sm"
             >
-              JOB SCHEDULER LITE
+              EDGEBI
             </Badge>
             <h1 className="mb-6 text-4xl font-bold text-white sm:text-5xl md:text-6xl">
-              Job Scheduler Lite (JSL)
+              EDGEBI
             </h1>
             <p className="mb-6 text-xl text-white/90 md:text-2xl">
               Entry-level production scheduling solution designed for job shops
@@ -55,7 +55,7 @@ export default function JobSchedulerLitePage(): React.JSX.Element {
               <div className="grid items-center gap-8 md:grid-cols-2">
                 <div>
                   <p className="text-lg leading-relaxed text-muted-foreground">
-                    Welcome to Job Scheduler Lite (JSL). Designed as an entry
+                    Welcome to EDGEBI  . Designed as an entry
                     level production scheduling offering that allows users to
                     quickly create a series of routing steps then schedule
                     according to capacity limitations, direction (Forward or
@@ -66,7 +66,7 @@ export default function JobSchedulerLitePage(): React.JSX.Element {
                 <div className="overflow-hidden rounded-lg shadow-lg">
                   <img
                     src="https://www.usersolutions.com/wp-content/uploads/2022/10/insight-1.png"
-                    alt="Job Scheduler Lite production scheduling software interface"
+                    alt="EDGEBI production scheduling software interface"
                     className="h-auto w-full"
                   />
                 </div>
@@ -79,7 +79,7 @@ export default function JobSchedulerLitePage(): React.JSX.Element {
             <CardHeader className="text-center">
               <CardTitle className="text-3xl">See JSL in Action</CardTitle>
               <p className="text-muted-foreground">
-                Watch how Job Scheduler Lite simplifies production scheduling
+                Watch how EDGEBI simplifies production scheduling
               </p>
             </CardHeader>
             <CardContent>
@@ -90,7 +90,7 @@ export default function JobSchedulerLitePage(): React.JSX.Element {
                     {/* Replace with actual video URL when available */}
                     <iframe
                       src="https://www.usersolutions.com/wp-content/uploads/2022/10/Welcome-to-Job-Scheduler-Lite-JSL.mp4"
-                      title="Job Scheduler Lite (JSL) Demo Video"
+                      title="EDGEBI   Demo Video"
                       className="absolute inset-0 size-full rounded-lg"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                       allowFullScreen

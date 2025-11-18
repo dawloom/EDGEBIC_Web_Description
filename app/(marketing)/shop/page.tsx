@@ -241,7 +241,7 @@ export default function ShopPage() {
                             href="/jsl-job-scheduler-lite"
                             className="block hover:underline"
                         >
-                            Job Scheduler Lite (JSL)
+                            EDGEBI
                         </Link>
                         <Link
                             href="/resource-manager-db-2"

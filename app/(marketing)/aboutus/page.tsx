@@ -101,7 +101,7 @@ export default function AboutUsPage() {
                                             href="/jsl-job-scheduler-lite"
                                             className="text-lg font-semibold text-blue-600 hover:text-blue-800"
                                         >
-                                            Job Scheduler Lite (JSL)
+                                            EDGEBI
                                         </Link>
                                         <p className="mt-2 text-gray-700">
                                             Comprehensive job scheduling solution for manufacturing

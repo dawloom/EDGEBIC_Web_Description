@@ -61,9 +61,9 @@ export function NTClipboardVideo({
     },
     {
       url: 'https://www.youtube.com/watch?v=snltXMHeojU',
-      title: 'Welcome to Job Scheduler Lite (JSL)',
+      title: 'Welcome to EDGEBI  ',
       description:
-        'Introduction to Job Scheduler Lite for simplified production scheduling',
+        'Introduction to EDGEBI for simplified production scheduling',
       category: 'Product Demo'
     },
     {
