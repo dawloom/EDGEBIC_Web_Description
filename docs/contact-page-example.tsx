@@ -1,9 +1,9 @@
 /**
  * Example Contact Page
- * 
+ *
  * This is an example of how to use the HubSpot contact form
  * in your Next.js pages.
- * 
+ *
  * Usage:
  * 1. Copy this file to app/(marketing)/contact/page.tsx
  * 2. Customize the text and styling
@@ -17,7 +17,7 @@ export default function ContactPage() {
     <div className="container mx-auto px-4 py-16">
       <div className="mx-auto max-w-4xl">
         {/* Hero Section */}
-        <div className="mb-12 text-center">
+        <div className="mb-6 text-center">
           <h1 className="mb-4 text-4xl font-bold tracking-tight sm:text-5xl">
             Get in Touch
           </h1>
@@ -36,12 +36,14 @@ export default function ContactPage() {
           {/* Contact Info (Optional) */}
           <div className="space-y-8">
             <div>
-              <h2 className="mb-4 text-2xl font-semibold">Other Ways to Reach Us</h2>
+              <h2 className="mb-4 text-2xl font-semibold">
+                Other Ways to Reach Us
+              </h2>
               <div className="space-y-4">
                 <div className="flex items-start gap-4">
-                  <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10">
+                  <div className="flex size-10 items-center justify-center rounded-lg bg-primary/10">
                     <svg
-                      className="h-5 w-5 text-primary"
+                      className="size-5 text-primary"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
@@ -63,9 +65,9 @@ export default function ContactPage() {
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10">
+                  <div className="flex size-10 items-center justify-center rounded-lg bg-primary/10">
                     <svg
-                      className="h-5 w-5 text-primary"
+                      className="size-5 text-primary"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
@@ -85,9 +87,9 @@ export default function ContactPage() {
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10">
+                  <div className="flex size-10 items-center justify-center rounded-lg bg-primary/10">
                     <svg
-                      className="h-5 w-5 text-primary"
+                      className="size-5 text-primary"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"

@@ -352,7 +352,7 @@ export function Hero(): React.JSX.Element {
   return (
     <GridSection className="overflow-x-hidden">
       <MainDashedGridLines />
-      <div className="mx-auto mt-16 flex flex-col gap-6 px-2 sm:mt-20 sm:px-1 md:mt-24 lg:mt-32">
+      <div className="mx-auto mt-16 flex flex-col gap-6 px-2 sm:mt-6 sm:px-1 md:mt-24 lg:mt-32">
         <div className="gap-2">
           <HeroPill />
           <HeroTitle />

@@ -15,7 +15,7 @@ export function NTClipboardSummary(): React.JSX.Element {
                 <div className="mx-auto max-w-7xl">
                     <div className="mb-6 grid gap-8 md:grid-cols-2">
                         {/* Problems */}
-                        <div className="rounded-2xl border border-red-200 bg-red-50/50 p-8 dark:border-red-800 dark:bg-red-900/20">
+                        <div className="rounded-2xl border border-red-200 bg-red-50/50 p-6 dark:border-red-800 dark:bg-red-900/20">
                             <h3 className="mb-6 text-2xl font-bold text-red-800 dark:text-red-200">
                                 Common Production Planning Struggles
                             </h3>
@@ -42,7 +42,7 @@ export function NTClipboardSummary(): React.JSX.Element {
                         </div>
 
                         {/* Solutions */}
-                        <div className="rounded-2xl border border-green-200 bg-green-50/50 p-8 dark:border-green-800 dark:bg-green-900/20">
+                        <div className="rounded-2xl border border-green-200 bg-green-50/50 p-6 dark:border-green-800 dark:bg-green-900/20">
                             <h3 className="mb-6 text-2xl font-bold text-green-800 dark:text-green-200">
                                 EDGEBIC Resource Manager-DB (RMDB) Delivers
                             </h3>
@@ -72,7 +72,7 @@ export function NTClipboardSummary(): React.JSX.Element {
                     </div>
 
                     {/* Key Features */}
-                    <div className="mb-6 rounded-3xl border bg-gradient-to-br from-slate-50 to-slate-100 p-8 dark:from-slate-900 dark:to-slate-800 md:p-12">
+                    <div className=" rounded-3xl border bg-gradient-to-br from-slate-50 to-slate-100 p-8 dark:from-slate-900 dark:to-slate-800 md:p-6">
                         <h3 className="mb-6 text-center text-3xl font-bold">
                             Deep Functionality for Every Production Challenge
                         </h3>

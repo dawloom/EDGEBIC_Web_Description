@@ -69,10 +69,10 @@ export function NTClipboardToolBox(): React.JSX.Element {
     };
     return (
         <GridSection hideVerticalGridLines>
-            <div className="container pt-6">
+            <div className="container">
                 <div className="mx-auto max-w-7xl">
                     {/* Section Header */}
-                    <div className="mb-12 text-center">
+                    <div className="mb-6 text-center">
                         {/* <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-orange-500 to-red-500 px-6 py-2 text-sm font-bold uppercase tracking-wider text-white shadow-lg">
                             <svg
                                 className="size-4"
@@ -402,7 +402,7 @@ export function NTClipboardToolBox(): React.JSX.Element {
                     </div>
 
                     {/* Solutions for Every Business Size */}
-                    <div className="mt-20">
+                    <div className="mt-6">
                         <div className="mb-6 text-center">
                             <h2 className="mb-4 text-3xl font-bold md:text-4xl">
                                 From Job Shops to SMBs to Multi-Nationals
@@ -687,12 +687,12 @@ export function NTClipboardToolBox(): React.JSX.Element {
                         {/* <Button variant="outline">
                                         <Link href="/contact">Schedule Demo</Link>
                                     </Button> */}
-                    {/* </div>
+                        {/* </div>
                 </div>
-            </div> */} 
-        </div>
-                </div >
-            </div >
-        </GridSection >
+            </div> */}
+                    </div>
+                </div>
+            </div>
+        </GridSection>
     );
 }

@@ -49,7 +49,7 @@ export function NTClipboardTestimonials(): React.JSX.Element {
         />
 
         {/* Testimonials Grid */}
-        <div className="mt-16 grid gap-8 md:grid-cols-3">
+        <div className="mt-6 grid gap-8 md:grid-cols-3">
           {testimonials.map((testimonial, index) => (
             <div
               key={index}
