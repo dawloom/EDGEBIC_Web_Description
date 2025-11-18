@@ -9,60 +9,6 @@ export function NTClipboardSummary(): React.JSX.Element {
         <GridSection hideVerticalGridLines>
             {/* Summary Section */}
             <div className="container py-6">
-                <div className="mx-auto max-w-7xl text-center">
-                    <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-orange-100 to-red-100 px-6 py-3 text-sm font-medium text-orange-800 dark:from-orange-900/30 dark:to-red-900/30 dark:text-orange-200">
-                        <StarIcon className="size-4" />
-                        The Production Scheduling Solution That Actually Works
-                    </div>
-
-                    <h1 className="mb-4 bg-gradient-to-r from-orange-500 to-red-500 bg-clip-text text-4xl font-bold text-transparent md:text-6xl">
-                        Stop Fighting Your ERP System
-                    </h1>
-
-                    <p className="mb-6 text-xl text-muted-foreground md:text-2xl">
-                        If you're drowning in custom Excel reports, whiteboard chaos, or
-                        late shipments despite having an ERP system, EDGEBIC is your
-                        solution.
-                    </p>
-                </div>
-
-                {/* Main Description */}
-                <div className="mx-auto mb-4 max-w-4xl">
-                    <div className="rounded-3xl border bg-gradient-to-br from-slate-50 to-slate-100 p-8 dark:from-slate-900 dark:to-slate-800 md:p-12">
-                        <p className="text-lg leading-relaxed text-slate-700 dark:text-slate-300">
-                            If you have tried to use your ERP for creating a viable Production
-                            Schedule, and still end up with a tangle of custom Excel Reports,
-                            messy whiteboard or worse yet, late shipments, we can help. If you
-                            don't even have an ERP system, and are struggling with production
-                            scheduling, we can help. Resource Manager-DB (RMDB) was
-                            specifically architected to easily adapt to the way you work,
-                            using your existing data. RMDB is easily configured, and/or
-                            reconfigured, on the fly to address your most pressing issues,
-                            whenever and however they surface!
-                        </p>
-                        <p className="mt-6 text-lg leading-relaxed text-slate-700 dark:text-slate-300">
-                            This is a truly unique advantage of RMDB and working with US: We
-                            can focus and resolve your most pressing issues quickly — letting
-                            you reap immediate ROI. Then, delve deeper without having to spend
-                            more! This approach is proven to succeed where so many others
-                            don't.
-                        </p>
-                        <p className="mt-6 text-lg leading-relaxed text-slate-700 dark:text-slate-300">
-                            RMDB contains deep functionality to address a multitude of
-                            challenges for production planning and scheduling: alternate
-                            workcenters, complex routings & processes, discrete and/or batch,
-                            multiple constraints (labor, machines, materials, etc.), advanced
-                            drag and drop graphical calendar screens, downtime management,
-                            sub-assemblies, optimization, and much more.
-                        </p>
-                        <p className="mt-6 text-lg font-semibold text-orange-700 dark:text-orange-300">
-                            To see first-hand how RMDB can help you with efficient and easy
-                            Production Planning, Scheduling and Capacity Planning, schedule a
-                            live demo, even using your data in its current form – RISK FREE!!
-                        </p>
-                    </div>
-                </div>
-
                 {/* Problem & Solution Grid */}
                 <div className="mx-auto max-w-7xl">
                     <div className="mb-6 grid gap-8 md:grid-cols-2">

@@ -562,11 +562,11 @@ export function NTClipboardToolBox(): React.JSX.Element {
                                 </p>
                                 <div className="flex flex-wrap justify-center gap-4">
                                     <Button>
-                                        <Link href="/product-2">Compare Products</Link>
+                                        <Link href="/product-2">See Feature List</Link>
                                     </Button>
-                                    <Button variant="outline">
+                                    {/* <Button variant="outline">
                                         <Link href="/contact">Schedule Demo</Link>
-                                    </Button>
+                                    </Button> */}
                                 </div>
                             </div>
                         </div>
