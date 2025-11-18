@@ -20,7 +20,7 @@ export function Footer(): React.JSX.Element {
   //   toast.error("I'm not implemented yet.");
   // };
   return (
-    <footer className="px-2 pb-10 pt-5 sm:container">
+    <footer className="px-2 pb-5 pt-3 sm:container">
       <h2 className="sr-only">Footer</h2>
       <div className="container">
         <div className="xl:grid xl:grid-cols-6 xl:gap-8">
@@ -39,7 +39,7 @@ export function Footer(): React.JSX.Element {
                   </h3>
                   <ul
                     role="list"
-                    className="mt-6 space-y-2"
+                    className="mt-3 space-y-2"
                   >
                     {group.links.map((link) => (
                       <li key={link.name}>
@@ -87,7 +87,7 @@ export function Footer(): React.JSX.Element {
             </form>
           </div> */}
         </div>
-        <div className="mt-8 border-t pt-8">
+        <div className="border-t pt-6">
           <div className="m-auto flex flex-col items-center justify-between gap-4 sm:flex-row">
             <p className="text-sm text-muted-foreground">
               © {new Date().getFullYear()} {AppInfo.APP_NAME}. All rights

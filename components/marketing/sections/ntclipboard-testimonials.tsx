@@ -44,7 +44,6 @@ export function NTClipboardTestimonials(): React.JSX.Element {
     <GridSection hideVerticalGridLines>
       <div className="container pt-6">
         <SiteHeading
-          badge="Customer Success"
           title="Trusted by Manufacturers Worldwide"
           description="See why production managers choose User Solutions for their scheduling challenges"
         />
@@ -132,7 +131,7 @@ export function NTClipboardTestimonials(): React.JSX.Element {
         </Card>
 
         {/* Call to Action */}
-        <div className="mt-6 text-center">
+        {/* <div className="mt-6 text-center">
           <div className="mx-auto max-w-2xl">
             <h3 className="mb-4 text-2xl font-bold">
               Join Our Satisfied Customers
@@ -150,7 +149,7 @@ export function NTClipboardTestimonials(): React.JSX.Element {
               </a>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </GridSection>
   );

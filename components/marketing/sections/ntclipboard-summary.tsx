@@ -1,7 +1,9 @@
 import * as React from 'react';
+import Link from 'next/link';
 import { CheckIcon, StarIcon } from 'lucide-react';
 
 import { GridSection } from '@/components/marketing/fragments/grid-section';
+import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 
 export function NTClipboardSummary(): React.JSX.Element {
@@ -106,24 +108,29 @@ export function NTClipboardSummary(): React.JSX.Element {
                                 </p>
                             </div>
                         </div>
+                        <div className="mt-6 text-center">
+                            <Button variant="outline" asChild>
+                                <Link href="/product-2">See Feature List</Link>
+                            </Button>
+                        </div>
                     </div>
 
                     {/* Unique Value Proposition */}
-                    <div className="text-center">
-                        <div className="mx-auto max-w-3xl rounded-2xl bg-gradient-to-r from-orange-500 to-red-500 p-8 text-white">
-                            <h3 className="mb-4 text-2xl font-bold md:text-3xl">
-                                What Makes EDGEBIC Truly Unique
-                            </h3>
-                            <p className="mb-6 text-lg opacity-90">
-                                We focus on resolving your most pressing issues quickly, letting
-                                you reap immediate ROI. Then we delve deeper without requiring
-                                additional investment.
-                            </p>
-                            <p className="text-lg font-medium">
-                                This proven approach succeeds where so many others fail.
-                            </p>
-                        </div>
-                    </div>
+                    {/* <div className="text-center">
+            <div className="mx-auto max-w-3xl rounded-2xl bg-gradient-to-r from-orange-500 to-red-500 p-8 text-white">
+              <h3 className="mb-4 text-2xl font-bold md:text-3xl">
+                What Makes EDGEBIC Truly Unique
+              </h3>
+              <p className="mb-6 text-lg opacity-90">
+                We focus on resolving your most pressing issues quickly, letting
+                you reap immediate ROI. Then we delve deeper without requiring
+                additional investment.
+              </p>
+              <p className="text-lg font-medium">
+                This proven approach succeeds where so many others fail.
+              </p>
+            </div>
+          </div> */}
 
                     {/* 
           Risk-Free Demo CTA 

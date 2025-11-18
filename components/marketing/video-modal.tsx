@@ -23,7 +23,6 @@ export function VideoModal({
         initialVideo
     );
 
-    // Reset to initial video when modal opens
     React.useEffect(() => {
         if (isOpen) {
             setCurrentVideo(initialVideo);
@@ -34,9 +33,7 @@ export function VideoModal({
         onClose();
     };
 
-    // Removed backdrop click functionality - only X button should work
     const handleBackdropClick = (e: React.MouseEvent) => {
-        // Only allow clicks on the backdrop itself, not propagation
         e.stopPropagation();
     };
 
@@ -44,7 +41,9 @@ export function VideoModal({
 
     const currentVideoId =
         currentVideo === 'first' ? firstVideoId : secondVideoId;
-    const embedUrl = `https://www.youtube.com/embed/${currentVideoId}?autoplay=0&rel=0`;
+
+    // Use the standard YouTube embed URL without extra parameters
+    const embedUrl = `https://www.youtube.com/embed/${currentVideoId}`;
 
     return (
         <AnimatePresence>
@@ -76,22 +75,17 @@ export function VideoModal({
                         <div className="relative overflow-hidden rounded-lg bg-black">
                             <div className="aspect-video w-full">
                                 <iframe
-                                    key={`${currentVideoId}-${currentVideo}-${isOpen}`}
+                                    key={currentVideoId}
                                     src={embedUrl}
-                                    title={
-                                        currentVideo === 'first'
-                                            ? 'Next Steps Video'
-                                            : 'Company Overview Video'
-                                    }
+                                    title="YouTube video player"
                                     className="size-full"
                                     frameBorder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerPolicy="strict-origin-when-cross-origin"
                                     allowFullScreen
                                 />
                             </div>
                         </div>
-
-                        {/* Progress Indicator */}
                     </motion.div>
                 </motion.div>
             )}

@@ -72,61 +72,103 @@ export function NTClipboardToolBox(): React.JSX.Element {
             <div className="container pt-6">
                 <div className="mx-auto max-w-7xl">
                     {/* Section Header */}
-                    <div className="mb-6 text-center">
-                        <h2 className="mb-4 bg-gradient-to-r from-orange-500 to-red-500 bg-clip-text text-4xl font-bold text-transparent md:text-5xl">
+                    <div className="mb-12 text-center">
+                        {/* <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-orange-500 to-red-500 px-6 py-2 text-sm font-bold uppercase tracking-wider text-white shadow-lg">
+                            <svg
+                                className="size-4"
+                                fill="none"
+                                stroke="currentColor"
+                                viewBox="0 0 24 24"
+                            >
+                                <path
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    strokeWidth={2}
+                                    d="M5 13l4 4L19 7"
+                                />
+                            </svg>
+                            Transform Your Business
+                        </div> */}
+                        <h2 className="mb-6 bg-gradient-to-r from-orange-600 via-red-600 to-orange-600 bg-clip-text text-5xl font-extrabold text-transparent md:text-6xl">
                             What's in Your Scheduling Tool Box?
                         </h2>
-                        <p className="text-xl text-muted-foreground">
+                        <p className="mx-auto max-w-3xl text-2xl font-medium text-slate-600 dark:text-slate-400">
                             Transform your production scheduling challenges into competitive
                             advantages
                         </p>
                     </div>
 
                     {/* Tool Box Comparison Grid */}
-                    <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+                    <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
                         {/* WhiteBox Mess vs Efficient Visual Schedule */}
-                        <div className="group relative overflow-hidden rounded-2xl border bg-white shadow-lg transition-all hover:scale-105 hover:shadow-xl dark:bg-slate-900">
+                        <div className="group relative overflow-hidden rounded-3xl border-2 border-slate-200 bg-gradient-to-br from-white to-slate-50 shadow-xl transition-all hover:-translate-y-3 hover:border-orange-300 hover:shadow-2xl dark:border-slate-700 dark:from-slate-900 dark:to-slate-800">
                             {/* Before/After Badge */}
-                            <div className="absolute right-4 top-4 rounded-full bg-gradient-to-r from-red-500 to-green-500 px-3 py-1 text-xs font-bold text-white">
-                                TRANSFORM
+                            <div className="absolute right-4 top-4 z-10 rounded-full bg-gradient-to-r from-red-500 via-orange-500 to-green-500 px-4 py-1.5 text-xs font-extrabold uppercase tracking-wider text-white shadow-lg">
+                                ✨ TRANSFORM
                             </div>
 
-                            <div className="p-6">
+                            <div className="p-8">
                                 {/* Problem Section */}
-                                <div className="mb-6">
-                                    <div className="mb-3 flex items-center gap-2">
-                                        <div className="size-3 rounded-full bg-red-500" />
-                                        <h4 className="text-sm font-bold uppercase tracking-wide text-red-600">
+                                <div className="mb-8">
+                                    <div className="mb-4 flex items-center gap-3">
+                                        <div className="flex size-6 items-center justify-center rounded-full bg-red-500 shadow-md">
+                                            <svg
+                                                className="size-3 text-white"
+                                                fill="currentColor"
+                                                viewBox="0 0 20 20"
+                                            >
+                                                <path
+                                                    fillRule="evenodd"
+                                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z"
+                                                    clipRule="evenodd"
+                                                />
+                                            </svg>
+                                        </div>
+                                        <h4 className="text-xs font-black uppercase tracking-widest text-red-600">
                                             BEFORE
                                         </h4>
                                     </div>
-                                    <h3 className="mb-2 text-lg font-bold text-red-700 dark:text-red-300">
+                                    <h3 className="mb-3 text-xl font-extrabold text-red-700 dark:text-red-300">
                                         WhiteBox Mess
                                     </h3>
-                                    <p className="text-xs text-red-600 dark:text-red-400">
+                                    <p className="text-sm leading-relaxed text-red-600 dark:text-red-400">
                                         Chaotic whiteboard scheduling
                                     </p>
                                 </div>
 
                                 {/* Divider */}
-                                <div className="mb-6 flex items-center">
-                                    <div className="h-px flex-1 bg-gradient-to-r from-red-200 via-gray-300 to-green-200" />
-                                    <div className="mx-3 text-lg font-bold text-gray-400">↓</div>
-                                    <div className="h-px flex-1 bg-gradient-to-r from-red-200 via-gray-300 to-green-200" />
+                                <div className="mb-8 flex items-center">
+                                    <div className="h-0.5 flex-1 bg-gradient-to-r from-red-300 via-orange-300 to-green-300" />
+                                    <div className="mx-4 text-2xl font-bold text-orange-500">
+                                        →
+                                    </div>
+                                    <div className="h-0.5 flex-1 bg-gradient-to-r from-red-300 via-orange-300 to-green-300" />
                                 </div>
 
                                 {/* Solution Section */}
                                 <div>
-                                    <div className="mb-3 flex items-center gap-2">
-                                        <div className="size-3 rounded-full bg-green-500" />
-                                        <h4 className="text-sm font-bold uppercase tracking-wide text-green-600">
+                                    <div className="mb-4 flex items-center gap-3">
+                                        <div className="flex size-6 items-center justify-center rounded-full bg-green-500 shadow-md">
+                                            <svg
+                                                className="size-3 text-white"
+                                                fill="currentColor"
+                                                viewBox="0 0 20 20"
+                                            >
+                                                <path
+                                                    fillRule="evenodd"
+                                                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                                    clipRule="evenodd"
+                                                />
+                                            </svg>
+                                        </div>
+                                        <h4 className="text-xs font-black uppercase tracking-widest text-green-600">
                                             AFTER
                                         </h4>
                                     </div>
-                                    <h3 className="mb-2 text-lg font-bold text-green-700 dark:text-green-300">
+                                    <h3 className="mb-3 text-xl font-extrabold text-green-700 dark:text-green-300">
                                         Visual Schedule
                                     </h3>
-                                    <p className="text-xs text-green-600 dark:text-green-400">
+                                    <p className="text-sm leading-relaxed text-green-600 dark:text-green-400">
                                         EDGE drag & drop environment
                                     </p>
                                 </div>
@@ -134,48 +176,74 @@ export function NTClipboardToolBox(): React.JSX.Element {
                         </div>
 
                         {/* Excel Pain vs Excel Relief */}
-                        <div className="group relative overflow-hidden rounded-2xl border bg-white shadow-lg transition-all hover:scale-105 hover:shadow-xl dark:bg-slate-900">
+                        <div className="group relative overflow-hidden rounded-3xl border-2 border-slate-200 bg-gradient-to-br from-white to-slate-50 shadow-xl transition-all hover:-translate-y-3 hover:border-orange-300 hover:shadow-2xl dark:border-slate-700 dark:from-slate-900 dark:to-slate-800">
                             {/* Before/After Badge */}
-                            <div className="absolute right-4 top-4 rounded-full bg-gradient-to-r from-red-500 to-green-500 px-3 py-1 text-xs font-bold text-white">
-                                TRANSFORM
+                            <div className="absolute right-4 top-4 z-10 rounded-full bg-gradient-to-r from-red-500 via-orange-500 to-green-500 px-4 py-1.5 text-xs font-extrabold uppercase tracking-wider text-white shadow-lg">
+                                ✨ TRANSFORM
                             </div>
 
-                            <div className="p-6">
+                            <div className="p-8">
                                 {/* Problem Section */}
-                                <div className="mb-6">
-                                    <div className="mb-3 flex items-center gap-2">
-                                        <div className="size-3 rounded-full bg-red-500" />
-                                        <h4 className="text-sm font-bold uppercase tracking-wide text-red-600">
+                                <div className="mb-8">
+                                    <div className="mb-4 flex items-center gap-3">
+                                        <div className="flex size-6 items-center justify-center rounded-full bg-red-500 shadow-md">
+                                            <svg
+                                                className="size-3 text-white"
+                                                fill="currentColor"
+                                                viewBox="0 0 20 20"
+                                            >
+                                                <path
+                                                    fillRule="evenodd"
+                                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z"
+                                                    clipRule="evenodd"
+                                                />
+                                            </svg>
+                                        </div>
+                                        <h4 className="text-xs font-black uppercase tracking-widest text-red-600">
                                             BEFORE
                                         </h4>
                                     </div>
-                                    <h3 className="mb-2 text-lg font-bold text-red-700 dark:text-red-300">
+                                    <h3 className="mb-3 text-xl font-extrabold text-red-700 dark:text-red-300">
                                         Excel Pain
                                     </h3>
-                                    <p className="text-xs text-red-600 dark:text-red-400">
+                                    <p className="text-sm leading-relaxed text-red-600 dark:text-red-400">
                                         Complex formulas that break
                                     </p>
                                 </div>
 
                                 {/* Divider */}
-                                <div className="mb-6 flex items-center">
-                                    <div className="h-px flex-1 bg-gradient-to-r from-red-200 via-gray-300 to-green-200" />
-                                    <div className="mx-3 text-lg font-bold text-gray-400">↓</div>
-                                    <div className="h-px flex-1 bg-gradient-to-r from-red-200 via-gray-300 to-green-200" />
+                                <div className="mb-8 flex items-center">
+                                    <div className="h-0.5 flex-1 bg-gradient-to-r from-red-300 via-orange-300 to-green-300" />
+                                    <div className="mx-4 text-2xl font-bold text-orange-500">
+                                        →
+                                    </div>
+                                    <div className="h-0.5 flex-1 bg-gradient-to-r from-red-300 via-orange-300 to-green-300" />
                                 </div>
 
                                 {/* Solution Section */}
                                 <div>
-                                    <div className="mb-3 flex items-center gap-2">
-                                        <div className="size-3 rounded-full bg-green-500" />
-                                        <h4 className="text-sm font-bold uppercase tracking-wide text-green-600">
+                                    <div className="mb-4 flex items-center gap-3">
+                                        <div className="flex size-6 items-center justify-center rounded-full bg-green-500 shadow-md">
+                                            <svg
+                                                className="size-3 text-white"
+                                                fill="currentColor"
+                                                viewBox="0 0 20 20"
+                                            >
+                                                <path
+                                                    fillRule="evenodd"
+                                                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                                    clipRule="evenodd"
+                                                />
+                                            </svg>
+                                        </div>
+                                        <h4 className="text-xs font-black uppercase tracking-widest text-green-600">
                                             AFTER
                                         </h4>
                                     </div>
-                                    <h3 className="mb-2 text-lg font-bold text-green-700 dark:text-green-300">
+                                    <h3 className="mb-3 text-xl font-extrabold text-green-700 dark:text-green-300">
                                         Excel Relief
                                     </h3>
-                                    <p className="text-xs text-green-600 dark:text-green-400">
+                                    <p className="text-sm leading-relaxed text-green-600 dark:text-green-400">
                                         Keep benefits, we handle math
                                     </p>
                                 </div>
@@ -183,48 +251,74 @@ export function NTClipboardToolBox(): React.JSX.Element {
                         </div>
 
                         {/* ERP Constraints vs Enhanced ERP */}
-                        <div className="group relative overflow-hidden rounded-2xl border bg-white shadow-lg transition-all hover:scale-105 hover:shadow-xl dark:bg-slate-900">
+                        <div className="group relative overflow-hidden rounded-3xl border-2 border-slate-200 bg-gradient-to-br from-white to-slate-50 shadow-xl transition-all hover:-translate-y-3 hover:border-orange-300 hover:shadow-2xl dark:border-slate-700 dark:from-slate-900 dark:to-slate-800">
                             {/* Before/After Badge */}
-                            <div className="absolute right-4 top-4 rounded-full bg-gradient-to-r from-red-500 to-green-500 px-3 py-1 text-xs font-bold text-white">
-                                TRANSFORM
+                            <div className="absolute right-4 top-4 z-10 rounded-full bg-gradient-to-r from-red-500 via-orange-500 to-green-500 px-4 py-1.5 text-xs font-extrabold uppercase tracking-wider text-white shadow-lg">
+                                ✨ TRANSFORM
                             </div>
 
-                            <div className="p-6">
+                            <div className="p-8">
                                 {/* Problem Section */}
-                                <div className="mb-6">
-                                    <div className="mb-3 flex items-center gap-2">
-                                        <div className="size-3 rounded-full bg-red-500" />
-                                        <h4 className="text-sm font-bold uppercase tracking-wide text-red-600">
+                                <div className="mb-8">
+                                    <div className="mb-4 flex items-center gap-3">
+                                        <div className="flex size-6 items-center justify-center rounded-full bg-red-500 shadow-md">
+                                            <svg
+                                                className="size-3 text-white"
+                                                fill="currentColor"
+                                                viewBox="0 0 20 20"
+                                            >
+                                                <path
+                                                    fillRule="evenodd"
+                                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z"
+                                                    clipRule="evenodd"
+                                                />
+                                            </svg>
+                                        </div>
+                                        <h4 className="text-xs font-black uppercase tracking-widest text-red-600">
                                             BEFORE
                                         </h4>
                                     </div>
-                                    <h3 className="mb-2 text-lg font-bold text-red-700 dark:text-red-300">
+                                    <h3 className="mb-3 text-xl font-extrabold text-red-700 dark:text-red-300">
                                         ERP Constraints
                                     </h3>
-                                    <p className="text-xs text-red-600 dark:text-red-400">
+                                    <p className="text-sm leading-relaxed text-red-600 dark:text-red-400">
                                         Rigid systems, no flexibility
                                     </p>
                                 </div>
 
                                 {/* Divider */}
-                                <div className="mb-6 flex items-center">
-                                    <div className="h-px flex-1 bg-gradient-to-r from-red-200 via-gray-300 to-green-200" />
-                                    <div className="mx-3 text-lg font-bold text-gray-400">↓</div>
-                                    <div className="h-px flex-1 bg-gradient-to-r from-red-200 via-gray-300 to-green-200" />
+                                <div className="mb-8 flex items-center">
+                                    <div className="h-0.5 flex-1 bg-gradient-to-r from-red-300 via-orange-300 to-green-300" />
+                                    <div className="mx-4 text-2xl font-bold text-orange-500">
+                                        →
+                                    </div>
+                                    <div className="h-0.5 flex-1 bg-gradient-to-r from-red-300 via-orange-300 to-green-300" />
                                 </div>
 
                                 {/* Solution Section */}
                                 <div>
-                                    <div className="mb-3 flex items-center gap-2">
-                                        <div className="size-3 rounded-full bg-green-500" />
-                                        <h4 className="text-sm font-bold uppercase tracking-wide text-green-600">
+                                    <div className="mb-4 flex items-center gap-3">
+                                        <div className="flex size-6 items-center justify-center rounded-full bg-green-500 shadow-md">
+                                            <svg
+                                                className="size-3 text-white"
+                                                fill="currentColor"
+                                                viewBox="0 0 20 20"
+                                            >
+                                                <path
+                                                    fillRule="evenodd"
+                                                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                                    clipRule="evenodd"
+                                                />
+                                            </svg>
+                                        </div>
+                                        <h4 className="text-xs font-black uppercase tracking-widest text-green-600">
                                             AFTER
                                         </h4>
                                     </div>
-                                    <h3 className="mb-2 text-lg font-bold text-green-700 dark:text-green-300">
+                                    <h3 className="mb-3 text-xl font-extrabold text-green-700 dark:text-green-300">
                                         Enhanced ERP
                                     </h3>
-                                    <p className="text-xs text-green-600 dark:text-green-400">
+                                    <p className="text-sm leading-relaxed text-green-600 dark:text-green-400">
                                         Seamless ERP integration
                                     </p>
                                 </div>
@@ -232,48 +326,74 @@ export function NTClipboardToolBox(): React.JSX.Element {
                         </div>
 
                         {/* Custom Chaos vs Fits like a Glove */}
-                        <div className="group relative overflow-hidden rounded-2xl border bg-white shadow-lg transition-all hover:scale-105 hover:shadow-xl dark:bg-slate-900">
+                        <div className="group relative overflow-hidden rounded-3xl border-2 border-slate-200 bg-gradient-to-br from-white to-slate-50 shadow-xl transition-all hover:-translate-y-3 hover:border-orange-300 hover:shadow-2xl dark:border-slate-700 dark:from-slate-900 dark:to-slate-800">
                             {/* Before/After Badge */}
-                            <div className="absolute right-4 top-4 rounded-full bg-gradient-to-r from-red-500 to-green-500 px-3 py-1 text-xs font-bold text-white">
-                                TRANSFORM
+                            <div className="absolute right-4 top-4 z-10 rounded-full bg-gradient-to-r from-red-500 via-orange-500 to-green-500 px-4 py-1.5 text-xs font-extrabold uppercase tracking-wider text-white shadow-lg">
+                                ✨ TRANSFORM
                             </div>
 
-                            <div className="p-6">
+                            <div className="p-8">
                                 {/* Problem Section */}
-                                <div className="mb-6">
-                                    <div className="mb-3 flex items-center gap-2">
-                                        <div className="size-3 rounded-full bg-red-500" />
-                                        <h4 className="text-sm font-bold uppercase tracking-wide text-red-600">
+                                <div className="mb-8">
+                                    <div className="mb-4 flex items-center gap-3">
+                                        <div className="flex size-6 items-center justify-center rounded-full bg-red-500 shadow-md">
+                                            <svg
+                                                className="size-3 text-white"
+                                                fill="currentColor"
+                                                viewBox="0 0 20 20"
+                                            >
+                                                <path
+                                                    fillRule="evenodd"
+                                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z"
+                                                    clipRule="evenodd"
+                                                />
+                                            </svg>
+                                        </div>
+                                        <h4 className="text-xs font-black uppercase tracking-widest text-red-600">
                                             BEFORE
                                         </h4>
                                     </div>
-                                    <h3 className="mb-2 text-lg font-bold text-red-700 dark:text-red-300">
+                                    <h3 className="mb-3 text-xl font-extrabold text-red-700 dark:text-red-300">
                                         Custom Chaos
                                     </h3>
-                                    <p className="text-xs text-red-600 dark:text-red-400">
+                                    <p className="text-sm leading-relaxed text-red-600 dark:text-red-400">
                                         One-size-fits-all solutions
                                     </p>
                                 </div>
 
                                 {/* Divider */}
-                                <div className="mb-6 flex items-center">
-                                    <div className="h-px flex-1 bg-gradient-to-r from-red-200 via-gray-300 to-green-200" />
-                                    <div className="mx-3 text-lg font-bold text-gray-400">↓</div>
-                                    <div className="h-px flex-1 bg-gradient-to-r from-red-200 via-gray-300 to-green-200" />
+                                <div className="mb-8 flex items-center">
+                                    <div className="h-0.5 flex-1 bg-gradient-to-r from-red-300 via-orange-300 to-green-300" />
+                                    <div className="mx-4 text-2xl font-bold text-orange-500">
+                                        →
+                                    </div>
+                                    <div className="h-0.5 flex-1 bg-gradient-to-r from-red-300 via-orange-300 to-green-300" />
                                 </div>
 
                                 {/* Solution Section */}
                                 <div>
-                                    <div className="mb-3 flex items-center gap-2">
-                                        <div className="size-3 rounded-full bg-green-500" />
-                                        <h4 className="text-sm font-bold uppercase tracking-wide text-green-600">
+                                    <div className="mb-4 flex items-center gap-3">
+                                        <div className="flex size-6 items-center justify-center rounded-full bg-green-500 shadow-md">
+                                            <svg
+                                                className="size-3 text-white"
+                                                fill="currentColor"
+                                                viewBox="0 0 20 20"
+                                            >
+                                                <path
+                                                    fillRule="evenodd"
+                                                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                                    clipRule="evenodd"
+                                                />
+                                            </svg>
+                                        </div>
+                                        <h4 className="text-xs font-black uppercase tracking-widest text-green-600">
                                             AFTER
                                         </h4>
                                     </div>
-                                    <h3 className="mb-2 text-lg font-bold text-green-700 dark:text-green-300">
+                                    <h3 className="mb-3 text-xl font-extrabold text-green-700 dark:text-green-300">
                                         Fits like a Glove
                                     </h3>
-                                    <p className="text-xs text-green-600 dark:text-green-400">
+                                    <p className="text-sm leading-relaxed text-green-600 dark:text-green-400">
                                         Intuitive, quick adoption
                                     </p>
                                 </div>
@@ -551,7 +671,7 @@ export function NTClipboardToolBox(): React.JSX.Element {
                         </div>
 
                         {/* Call to Action */}
-                        <div className="mt-6 text-center">
+                        {/* <div className="mt-6 text-center">
                             <div className="mx-auto max-w-7xl rounded-3xl bg-gradient-to-br from-slate-50 to-slate-100 p-8 dark:from-slate-900 dark:to-slate-800">
                                 <h3 className="mb-4 text-2xl font-bold">
                                     Start Growing with User Solutions
@@ -561,18 +681,18 @@ export function NTClipboardToolBox(): React.JSX.Element {
                                     business size and budget
                                 </p>
                                 <div className="flex flex-wrap justify-center gap-4">
-                                    <Button>
+                                    {/* <Button>
                                         <Link href="/product-2">See Feature List</Link>
-                                    </Button>
-                                    {/* <Button variant="outline">
+                                    </Button> */}
+                        {/* <Button variant="outline">
                                         <Link href="/contact">Schedule Demo</Link>
                                     </Button> */}
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    {/* </div>
                 </div>
-            </div>
-        </GridSection>
+            </div> */} 
+        </div>
+                </div >
+            </div >
+        </GridSection >
     );
 }

@@ -188,7 +188,7 @@ export function HeroContent(): React.JSX.Element {
         isOpen={isVideoModalOpen}
         onClose={handleCloseModal}
         firstVideoId="nZChakmMIOI"
-        secondVideoId="umKFJYqmJ10"
+        secondVideoId="IR8NhOlV_zM"
         initialVideo={initialVideo}
       />
     </div>
