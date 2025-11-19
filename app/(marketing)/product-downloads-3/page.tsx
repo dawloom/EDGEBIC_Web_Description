@@ -56,7 +56,7 @@ export default function ProductDownloads3Page() {
                                     <CardTitle className="text-center">
                                         <p className="mb-2 text-sm text-gray-600">Starter</p>
                                         <h3 className="text-2xl font-bold">
-                                            EDGEBI
+                                            EDGEBIC
                                         </h3>
                                     </CardTitle>
                                 </CardHeader>
@@ -155,7 +155,7 @@ export default function ProductDownloads3Page() {
                                     <CardTitle className="text-center">
                                         <p className="mb-2 text-sm text-gray-600">Premium</p>
                                         <h3 className="text-2xl font-bold">
-                                            EDGEBI (Bundled w/ RMDB)
+                                            EDGEBIC (Bundled w/ RMDB)
                                         </h3>
                                     </CardTitle>
                                 </CardHeader>

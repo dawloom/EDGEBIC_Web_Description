@@ -21,7 +21,7 @@ import { Card, CardContent } from '@/components/ui/card';
 export default function Product2Page(): React.JSX.Element {
   const products = [
     {
-      name: 'EDGEBI  ',
+      name: 'EDGEBIC  ',
       tier: 'Starter',
       price: '$1,000+',
       image:
@@ -37,7 +37,7 @@ export default function Product2Page(): React.JSX.Element {
       link: '/resource-manager-db-2'
     },
     {
-      name: 'EDGEBI (Bundled w/ RMDB)',
+      name: 'EDGEBIC (Bundled w/ RMDB)',
       tier: 'Platinum',
       price: '$25,000+',
       image:
@@ -279,13 +279,13 @@ export default function Product2Page(): React.JSX.Element {
                     Features
                   </th>
                   <th className="p-4 text-center font-semibold text-blue-600 dark:text-blue-400">
-                    EDGEBI
+                    EDGEBIC
                   </th>
                   <th className="p-4 text-center font-semibold text-orange-600 dark:text-orange-400">
                     Resource Manager DB
                   </th>
                   <th className="p-4 text-center font-semibold text-purple-600 dark:text-purple-400">
-                    EDGEBI Suite
+                    EDGEBIC Suite
                   </th>
                 </tr>
               </thead>

@@ -199,7 +199,7 @@ export function ProductionPlanningSolutions(): React.JSX.Element {
               <div className="relative aspect-video bg-slate-100 dark:bg-slate-800">
                 <VideoPlayer
                   videoUrl="https://www.usersolutions.com/wp-content/uploads/2022/10/Welcome-to-Job-Scheduler-Lite-JSL.mp4"
-                  title="EDGEBI Demo"
+                  title="EDGEBIC Demo"
                   thumbnail=""
                   onPlayStateChange={setIsStarterVideoPlaying}
                 />
@@ -208,7 +208,7 @@ export function ProductionPlanningSolutions(): React.JSX.Element {
               {/* Content */}
               <div className="p-6">
                 <h3 className="mb-2 text-xl font-bold text-blue-600">
-                  EDGEBI
+                  EDGEBIC
                 </h3>
                 <p className="mb-4 text-sm text-slate-600 dark:text-slate-400">
                   Perfect for Job Shops & Small Manufacturers
@@ -343,8 +343,8 @@ export function ProductionPlanningSolutions(): React.JSX.Element {
               {/* Video Section */}
               <div className="relative aspect-video bg-slate-100 dark:bg-slate-800">
                 <VideoPlayer
-                  videoUrl="https://www.usersolutions.com/wp-content/uploads/2022/12/EDGEBI updated thumbnail.mp4"
-                  title="EDGEBI Suite Demo"
+                  videoUrl="https://www.usersolutions.com/wp-content/uploads/2022/12/EDGEBIC updated thumbnail.mp4"
+                  title="EDGEBIC Suite Demo"
                   thumbnail=""
                   onPlayStateChange={setIsPremiumVideoPlaying}
                 />
@@ -353,7 +353,7 @@ export function ProductionPlanningSolutions(): React.JSX.Element {
               {/* Content */}
               <div className="p-6">
                 <h3 className="mb-2 text-xl font-bold text-purple-600">
-                  EDGEBI Suite
+                  EDGEBIC Suite
                 </h3>
                 <p className="mb-4 text-sm text-slate-600 dark:text-slate-400">
                   Enterprise-Grade for Multi-Nationals
@@ -499,12 +499,12 @@ export function ProductionPlanningSolutions(): React.JSX.Element {
 
             {/* Features Grid */}
             <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-              {/* EDGEBI Features */}
+              {/* EDGEBIC Features */}
               <Card className="border-blue-200 bg-gradient-to-br from-blue-50 to-blue-100 dark:border-blue-700 dark:from-blue-900/20 dark:to-blue-800/20">
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2 text-blue-700 dark:text-blue-300">
                     <Target className="size-5" />
-                    EDGEBI
+                    EDGEBIC
                   </CardTitle>
                   <CardDescription>
                     Entry-level production scheduling solution for creating
@@ -601,12 +601,12 @@ export function ProductionPlanningSolutions(): React.JSX.Element {
                 </CardContent>
               </Card>
 
-              {/* EDGEBI Features */}
+              {/* EDGEBIC Features */}
               <Card className="border-purple-200 bg-gradient-to-br from-purple-50 to-purple-100 dark:border-purple-700 dark:from-purple-900/20 dark:to-purple-800/20 md:col-span-2 lg:col-span-1">
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2 text-purple-700 dark:text-purple-300">
                     <Zap className="size-5" />
-                    EDGEBI Suite
+                    EDGEBIC Suite
                   </CardTitle>
                   <CardDescription>
                     Graphical overlay with business intelligence for intuitive
@@ -733,13 +733,13 @@ export function ProductionPlanningSolutions(): React.JSX.Element {
                       Features
                     </th>
                     <th className="p-4 text-center font-semibold text-blue-600 dark:text-blue-400">
-                      EDGEBI
+                      EDGEBIC
                     </th>
                     <th className="p-4 text-center font-semibold text-orange-600 dark:text-orange-400">
                       Resource Manager DB
                     </th>
                     <th className="p-4 text-center font-semibold text-purple-600 dark:text-purple-400">
-                      EDGEBI Suite
+                      EDGEBIC Suite
                     </th>
                   </tr>
                 </thead>

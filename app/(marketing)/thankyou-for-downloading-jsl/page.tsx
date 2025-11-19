@@ -20,7 +20,7 @@ export default function ThankYouJSLPage() {
               DOWNLOAD CONFIRMATION
             </Badge>
             <h1 className="mb-6 text-4xl font-bold text-white sm:text-5xl md:text-6xl">
-              Thank You for Downloading EDGEBI!
+              Thank You for Downloading EDGEBIC!
             </h1>
             <p className="text-xl text-white/90">
               Your download is ready. We'll be in touch shortly to help you get
@@ -48,7 +48,7 @@ export default function ThankYouJSLPage() {
                   href="/jsl-job-scheduler-lite-download"
                   className="inline-block rounded-lg bg-blue-600 px-8 py-4 text-lg font-semibold text-white transition-colors hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600"
                 >
-                  Download EDGEBI
+                  Download EDGEBIC
                 </Link>
               </div>
 

@@ -101,7 +101,7 @@ export default function AboutUsPage() {
                                             href="/jsl-job-scheduler-lite"
                                             className="text-lg font-semibold text-blue-600 hover:text-blue-800"
                                         >
-                                            EDGEBI
+                                            EDGEBIC
                                         </Link>
                                         <p className="mt-2 text-gray-700">
                                             Comprehensive job scheduling solution for manufacturing
@@ -125,7 +125,7 @@ export default function AboutUsPage() {
                                             href="/edgebi"
                                             className="text-lg font-semibold text-blue-600 hover:text-blue-800"
                                         >
-                                            EDGEBI
+                                            EDGEBIC
                                         </Link>
                                         <p className="mt-2 text-gray-700">
                                             Business intelligence and analytics for manufacturing

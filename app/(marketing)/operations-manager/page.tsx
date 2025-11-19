@@ -1,4 +1,5 @@
 import * as React from 'react';
+import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -6,6 +7,12 @@ import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Routes } from '@/constants/routes';
+
+export const metadata: Metadata = {
+    title: 'Operations Manager',
+    description:
+        'Production and Operations Management Templates for forecasting, inventory management, MRP, production planning, and quality control.'
+};
 
 export default function OperationsManagerPage(): React.JSX.Element {
     const categories = [
@@ -270,9 +277,7 @@ export default function OperationsManagerPage(): React.JSX.Element {
                 {/* Categories */}
                 <div className="mx-auto max-w-7xl space-y-6">
                     {categories.map((category, index) => (
-                        <Card
-                            key={index}
-                        >
+                        <Card key={index}>
                             <CardHeader>
                                 <CardTitle className="text-3xl text-blue-600">
                                     {category.title}
@@ -381,7 +386,7 @@ export default function OperationsManagerPage(): React.JSX.Element {
                 </div>
 
                 {/* Call to Action */}
-                <div className="mx-auto max-w-7xl !mt-6">
+                <div className="mx-auto !mt-6 max-w-7xl">
                     <Card>
                         <CardContent className="p-8">
                             <div className="text-center">

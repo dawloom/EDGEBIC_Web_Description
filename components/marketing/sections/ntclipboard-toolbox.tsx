@@ -59,7 +59,7 @@ export function NTClipboardToolBox(): React.JSX.Element {
     });
 
     const handleVideoPlayState = (
-        cardType: 'starter' | 'advanced' | 'premium',
+        cardType: 'end' | 'starter' | 'advanced' | 'premium',
         isPlaying: boolean
     ) => {
         setIsVideoPlaying((prev) => ({
@@ -414,6 +414,98 @@ export function NTClipboardToolBox(): React.JSX.Element {
                         </div>
 
                         <div className="grid gap-8 md:grid-cols-3">
+                            {/* Excel Templates - Operations Manager */}
+                            <div className="group relative overflow-hidden rounded-3xl border bg-white shadow-lg transition-all hover:shadow-xl dark:bg-slate-900">
+                                {/* Price Badge */}
+                                <div
+                                    className={`animate-gentle-glow absolute right-4 top-4 z-10 rounded-full bg-gradient-to-r from-green-500 to-green-600 px-4 py-2 text-sm font-bold text-white shadow-lg ring-2 ring-white/20 transition-opacity duration-300 ${isVideoPlaying.end ? 'pointer-events-none opacity-0' : 'opacity-100'}`}
+                                >
+                                    EXCEL TOOLS
+                                </div>
+
+                                <div className="">
+                                    {/* Video Section */}
+                                    <div className="relative mb-6 overflow-hidden rounded-lg">
+                                        <div className="relative aspect-video bg-slate-100 dark:bg-slate-800">
+                                            <VideoPlayer
+                                                videoUrl="https://www.usersolutions.com/wp-content/uploads/2022/10/Welcome-to-Operations-Manager.mp4"
+                                                title="Operations Manager Excel Templates"
+                                                thumbnail="https://www.usersolutions.com/wp-content/uploads/2022/10/insight-1.png"
+                                                onPlayStateChange={(isPlaying) =>
+                                                    handleVideoPlayState('end', isPlaying)
+                                                }
+                                            />
+                                        </div>
+                                    </div>
+                                    <div className="p-6">
+                                        <div className="mb-6">
+                                            <div className="mb-4 flex items-center gap-3">
+                                                <h3 className="text-2xl font-bold text-green-700 dark:text-green-300">
+                                                    Operations Manager
+                                                </h3>
+                                            </div>
+                                            <p className="mb-4 text-green-600 dark:text-green-400">
+                                                Excel-Based Templates for Operations
+                                            </p>
+                                        </div>
+
+                                        <div className="mb-6 space-y-3">
+                                            <div className="flex items-center justify-between gap-2">
+                                                <span className="text-sm">
+                                                    Spreadsheet Operations Manager
+                                                </span>
+                                                <span className="font-bold text-green-600">$39</span>
+                                            </div>
+                                            <div className="flex items-center justify-between gap-2">
+                                                <span className="text-sm">Spreadsheet QC</span>
+                                                <span className="font-bold text-green-600">$39</span>
+                                            </div>
+                                            <div className="flex items-center justify-between gap-2">
+                                                <span className="text-sm">Workcell Planner</span>
+                                                <span className="font-bold text-green-600">$39</span>
+                                            </div>
+                                            <div className="flex items-center justify-between gap-2">
+                                                <span className="text-sm">Spreadsheet Scheduler</span>
+                                                <span className="font-bold text-green-600">$39</span>
+                                            </div>
+                                            <div className="flex items-center justify-between gap-2">
+                                                <span className="text-sm">Workcenter Scheduler XL</span>
+                                                <span className="font-bold text-green-600">$500</span>
+                                            </div>
+                                            <div className="flex items-center justify-between gap-2">
+                                                <span className="text-sm">Resource Manager XL</span>
+                                                <span className="font-bold text-green-600">$1200</span>
+                                            </div>
+                                        </div>
+
+                                        <div className="mb-4">
+                                            <Button
+                                                variant="outline"
+                                                className="w-full border-green-200 text-green-700 hover:bg-green-50 dark:border-green-800 dark:text-green-300 dark:hover:bg-green-900/20"
+                                                asChild
+                                            >
+                                                <Link
+                                                    href="/excel-applications"
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                >
+                                                    View Details
+                                                </Link>
+                                            </Button>
+                                        </div>
+
+                                        <div className="text-center">
+                                            <div className="mb-2 text-3xl font-bold text-green-700 dark:text-green-300">
+                                                $39 - $1,200
+                                            </div>
+                                            <p className="text-sm text-muted-foreground">
+                                                Excel-based solutions
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
                             {/* Starter - Job Shops */}
                             <div className="group relative overflow-hidden rounded-3xl border bg-white shadow-lg transition-all hover:shadow-xl dark:bg-slate-900">
                                 {/* Price Badge */}
@@ -429,7 +521,7 @@ export function NTClipboardToolBox(): React.JSX.Element {
                                         <div className="relative aspect-video bg-slate-100 dark:bg-slate-800">
                                             <VideoPlayer
                                                 videoUrl="https://www.usersolutions.com/wp-content/uploads/2022/10/Welcome-to-Job-Scheduler-Lite-JSL.mp4"
-                                                title="EDGEBI Demo"
+                                                title="Job Scheduler Lite Demo"
                                                 thumbnail="https://www.usersolutions.com/wp-content/uploads/2022/10/insight-1.png"
                                                 onPlayStateChange={(isPlaying) =>
                                                     handleVideoPlayState('starter', isPlaying)
@@ -441,7 +533,90 @@ export function NTClipboardToolBox(): React.JSX.Element {
                                         <div className="mb-6">
                                             <div className="mb-4 flex items-center gap-3">
                                                 <h3 className="text-2xl font-bold text-blue-700 dark:text-blue-300">
-                                                    EDGEBI
+                                                    Job Scheduler Lite
+                                                </h3>
+                                            </div>
+                                            <p className="mb-4 text-blue-600 dark:text-blue-400">
+                                                Perfect for Job Shops & Small Manufacturers
+                                            </p>
+                                        </div>
+
+                                        <div className="mb-6 space-y-3">
+                                            <div className="flex items-center gap-2">
+                                                <div className="size-2 rounded-full bg-blue-500" />
+                                                <span className="text-sm">
+                                                    Shop Scheduling Made Easy
+                                                </span>
+                                            </div>
+                                            <div className="flex items-center gap-2">
+                                                <div className="size-2 rounded-full bg-blue-500" />
+                                                <span className="text-sm">Forward Scheduling</span>
+                                            </div>
+                                            <div className="flex items-center gap-2">
+                                                <div className="size-2 rounded-full bg-blue-500" />
+                                                <span className="text-sm">Finite Capacity</span>
+                                            </div>
+                                            <div className="flex items-center gap-2">
+                                                <div className="size-2 rounded-full bg-blue-500" />
+                                                <span className="text-sm">Free Trials Available</span>
+                                            </div>
+                                        </div>
+
+                                        <div className="mb-4">
+                                            <Button
+                                                variant="outline"
+                                                className="w-full border-blue-200 text-blue-700 hover:bg-blue-50 dark:border-blue-800 dark:text-blue-300 dark:hover:bg-blue-900/20"
+                                                asChild
+                                            >
+                                                <Link
+                                                    href="/jsl-job-scheduler-lite"
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                >
+                                                    View Details
+                                                </Link>
+                                            </Button>
+                                        </div>
+
+                                        <div className="text-center">
+                                            <div className="mb-2 text-3xl font-bold text-blue-700 dark:text-blue-300">
+                                                $1,000+
+                                            </div>
+                                            <p className="text-sm text-muted-foreground">
+                                                Starting investment
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="group relative overflow-hidden rounded-3xl border bg-white shadow-lg transition-all hover:shadow-xl dark:bg-slate-900">
+                                {/* Price Badge */}
+                                <div
+                                    className={`animate-gentle-glow absolute right-4 top-4 z-10 rounded-full bg-gradient-to-r from-blue-500 to-blue-600 px-4 py-2 text-sm font-bold text-white shadow-lg ring-2 ring-white/20 transition-opacity duration-300 ${isVideoPlaying.starter ? 'pointer-events-none opacity-0' : 'opacity-100'}`}
+                                >
+                                    STARTER
+                                </div>
+
+                                <div className="">
+                                    {/* Video Section */}
+                                    <div className="relative mb-6 overflow-hidden rounded-lg">
+                                        <div className="relative aspect-video bg-slate-100 dark:bg-slate-800">
+                                            <VideoPlayer
+                                                videoUrl="https://www.usersolutions.com/wp-content/uploads/2022/10/Welcome-to-Job-Scheduler-Lite-JSL.mp4"
+                                                title="EDGEBIC Demo"
+                                                thumbnail="https://www.usersolutions.com/wp-content/uploads/2022/10/insight-1.png"
+                                                onPlayStateChange={(isPlaying) =>
+                                                    handleVideoPlayState('starter', isPlaying)
+                                                }
+                                            />
+                                        </div>
+                                    </div>
+                                    <div className="p-6">
+                                        <div className="mb-6">
+                                            <div className="mb-4 flex items-center gap-3">
+                                                <h3 className="text-2xl font-bold text-blue-700 dark:text-blue-300">
+                                                    EDGEBIC
                                                 </h3>
                                             </div>
                                             <p className="mb-4 text-blue-600 dark:text-blue-400">
@@ -602,8 +777,8 @@ export function NTClipboardToolBox(): React.JSX.Element {
                                     <div className="relative mb-6 overflow-hidden rounded-lg">
                                         <div className="relative aspect-video bg-slate-100 dark:bg-slate-800">
                                             <VideoPlayer
-                                                videoUrl="https://www.usersolutions.com/wp-content/uploads/2022/12/EDGEBI%20updated%20thumbnail.mp4"
-                                                title="EDGEBI Suite Demo"
+                                                videoUrl="https://www.usersolutions.com/wp-content/uploads/2022/12/EDGEBIC%20updated%20thumbnail.mp4"
+                                                title="EDGEBIC Suite Demo"
                                                 thumbnail="https://www.usersolutions.com/wp-content/uploads/2022/11/Premium-1.png"
                                                 onPlayStateChange={(isPlaying) =>
                                                     handleVideoPlayState('premium', isPlaying)
@@ -615,7 +790,7 @@ export function NTClipboardToolBox(): React.JSX.Element {
                                         <div className="mb-6">
                                             <div className="mb-4 flex items-center gap-3">
                                                 <h3 className="text-2xl font-bold text-purple-700 dark:text-purple-300">
-                                                    EDGEBI Suite
+                                                    EDGEBIC Suite
                                                 </h3>
                                             </div>
                                             <p className="mb-4 text-purple-600 dark:text-purple-400">

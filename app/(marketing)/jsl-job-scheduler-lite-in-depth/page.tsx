@@ -18,7 +18,7 @@ export default function JSLJobSchedulerLiteInDepthPage() {
                             PRODUCT
                         </Badge>
                         <h1 className="mb-6 text-4xl font-bold md:text-5xl">
-                            EDGEBI : In Depth
+                            EDGEBIC : In Depth
                         </h1>
                     </div>
                 </div>
@@ -33,7 +33,7 @@ export default function JSLJobSchedulerLiteInDepthPage() {
                         </CardHeader>
                         <CardContent className="space-y-6">
                             <p className="text-lg leading-relaxed text-muted-foreground">
-                                Welcome to EDGEBI . Designed as an entry level production
+                                Welcome to EDGEBIC . Designed as an entry level production
                                 scheduling offering that allows users to quickly create a series
                                 of routing steps then schedule according to capacity
                                 limitations, direction (Forward or Reverse), and Priorities. It

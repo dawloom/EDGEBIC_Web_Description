@@ -95,7 +95,7 @@ export const MENU_LINKS = [
     title: 'Products',
     items: [
       {
-        title: 'EDGEBI',
+        title: 'EDGEBIC',
         description: 'Entry-level production scheduling for job shops',
         icon: <ClipboardIcon className="size-5 shrink-0" />,
         href: Routes.JobSchedulerLite,

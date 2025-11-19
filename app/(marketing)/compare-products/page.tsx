@@ -29,7 +29,7 @@ export default function CompareProductsPage(): React.JSX.Element {
 
     const products = [
         {
-            name: 'EDGEBI  ',
+            name: 'EDGEBIC  ',
             tier: 'Starter',
             price: '$1,000+',
             description: 'Perfect for Job Shops & Small Manufacturers',
@@ -81,7 +81,7 @@ export default function CompareProductsPage(): React.JSX.Element {
             }
         },
         {
-            name: 'EDGEBI (Bundled w/ RMDB)',
+            name: 'EDGEBIC (Bundled w/ RMDB)',
             tier: 'Premium',
             price: '$25,000+',
             description: 'Enterprise-Grade for Multi-Nationals',

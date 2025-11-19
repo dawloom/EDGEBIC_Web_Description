@@ -150,25 +150,25 @@ export default function ProductionSchedulingProductsVideosPage() {
                                 </CardContent>
                             </Card>
 
-                            {/* EDGEBI */}
+                            {/* EDGEBIC */}
                             <Card>
                                 <CardHeader>
                                     <CardTitle className="text-xl">
-                                        EDGEBI
+                                        EDGEBIC
                                     </CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <div className="mb-4 aspect-video overflow-hidden rounded-lg bg-slate-100 dark:bg-slate-800">
                                         <iframe
                                             src="https://www.youtube.com/embed/snltXMHeojU"
-                                            title="EDGEBI Video"
+                                            title="EDGEBIC Video"
                                             className="size-full"
                                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                             allowFullScreen
                                         />
                                     </div>
                                     <p className="mb-4 text-sm text-muted-foreground">
-                                        Introduction to EDGEBI for simplified production
+                                        Introduction to EDGEBIC for simplified production
                                         scheduling
                                     </p>
                                     <Link href="/jsl-job-scheduler-lite">

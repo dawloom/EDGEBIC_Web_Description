@@ -45,8 +45,8 @@ export default function PrivacyPolicy3Page() {
                                     operations with affordable, easy-to-implement software.
                                 </p>
                                 <p className="text-muted-foreground">
-                                    Our products include EDGEBI  , Resource
-                                    Manager for Excel, Resource Manager DB, and EDGEBI – designed
+                                    Our products include EDGEBIC  , Resource
+                                    Manager for Excel, Resource Manager DB, and EDGEBIC – designed
                                     to work the way you do, adapting to your specific needs
                                     without the complexity and cost of traditional enterprise
                                     systems.

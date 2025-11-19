@@ -22,15 +22,18 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL!),
-  title: AppInfo.APP_NAME,
+  title: {
+    template: '%s | EDGEBIC',
+    default: 'EDGEBIC - Production Planning Software'
+  },
   description: AppInfo.APP_DESCRIPTION,
   keywords:
     'production planning, scheduling, manufacturing, operations, tracking, workflow, automation, planning software, scheduling solution',
   authors: [{ name: AppInfo.COMPANY_NAME }],
   icons: {
-    icon: '/favicon.ico',
-    shortcut: '/favicon-16x16.png',
-    apple: '/apple-touch-icon.png'
+    icon: '/logos/edgebic-logo.png',
+    shortcut: '/logos/edgebic-logo.png',
+    apple: '/logos/edgebic-logo.png'
   },
   manifest: `${getBaseUrl()}/manifest`,
   robots: {

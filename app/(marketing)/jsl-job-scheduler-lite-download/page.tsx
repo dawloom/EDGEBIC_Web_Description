@@ -8,9 +8,9 @@ import { Card, CardContent } from '@/components/ui/card';
 import { createTitle } from '@/lib/utils';
 
 export const metadata: Metadata = {
-    title: createTitle('EDGEBI   Download'),
+    title: createTitle('EDGEBIC   Download'),
     description:
-        'Download EDGEBI   - 60 day fully functional trial. Production scheduling software with Excel integration and .NET framework support.'
+        'Download EDGEBIC   - 60 day fully functional trial. Production scheduling software with Excel integration and .NET framework support.'
 };
 
 export default function JSLDownloadPage(): React.JSX.Element {
@@ -33,7 +33,7 @@ export default function JSLDownloadPage(): React.JSX.Element {
                         download="JSLsetup.zip"
                         className="cursor-pointer text-blue-600 hover:text-blue-800 hover:underline"
                     >
-                        EDGEBI   Download
+                        EDGEBIC   Download
                     </a>
                 </h1>
                 <p className="text-xl font-semibold text-green-600">
@@ -92,20 +92,20 @@ export default function JSLDownloadPage(): React.JSX.Element {
                 <div className="mt-8 text-center">
                     <Image
                         src="https://www.usersolutions.com/wp-content/uploads/2022/10/blck.png"
-                        alt="Screenshot of EDGEBI folder with files"
+                        alt="Screenshot of EDGEBIC folder with files"
                         width={600}
                         height={400}
                         className="mx-auto rounded-lg border shadow-md"
                     />
                     <p className="mt-4 text-sm text-muted-foreground">
-                        EDGEBI folder structure after installation
+                        EDGEBIC folder structure after installation
                     </p>
                 </div>
 
                 <div className="mt-6 space-y-4 text-gray-700 dark:text-gray-300">
                     <p>
                         The database will default to{' '}
-                        <strong>C:\ProgramData\EDGEBI</strong>
+                        <strong>C:\ProgramData\EDGEBIC</strong>
                     </p>
 
                     <p>

@@ -18,7 +18,7 @@ export default function ProductDownloadsPage(): React.JSX.Element {
         <title>{createTitle('Product Downloads')}</title>
         <meta
           name="description"
-          content="Download User Solutions production scheduling software including EDGEBI, Resource Manager DB, EDGEBI, and Excel applications. Free trials and samples available."
+          content="Download User Solutions production scheduling software including EDGEBIC, Resource Manager DB, EDGEBIC, and Excel applications. Free trials and samples available."
         />
       </Head>
       <div className="container mx-auto px-4 pt-6">
@@ -67,7 +67,7 @@ export default function ProductDownloadsPage(): React.JSX.Element {
 
         {/* Main Products Section */}
         <div className="mb-6 grid grid-cols-1 gap-8 lg:grid-cols-3">
-          {/* Starter - EDGEBI */}
+          {/* Starter - EDGEBIC */}
           <div className="overflow-hidden rounded-lg border bg-white shadow-lg dark:bg-gray-800">
             <div className="relative">
               <Image
@@ -97,9 +97,7 @@ export default function ProductDownloadsPage(): React.JSX.Element {
                   Starter
                 </span>
               </div>
-              <h3 className="mb-4 text-center text-xl font-bold">
-                EDGEBI
-              </h3>
+              <h3 className="mb-4 text-center text-xl font-bold">EDGEBIC</h3>
               <div className="mb-6 text-center">
                 <span className="text-lg font-semibold text-green-600">
                   60-Day Trial
@@ -186,7 +184,7 @@ export default function ProductDownloadsPage(): React.JSX.Element {
             </div>
           </div>
 
-          {/* Premium - EDGEBI */}
+          {/* Premium - EDGEBIC */}
           <div className="overflow-hidden rounded-lg border bg-white shadow-lg dark:bg-gray-800">
             <div className="relative">
               <Image
@@ -204,7 +202,7 @@ export default function ProductDownloadsPage(): React.JSX.Element {
                 preload="metadata"
               >
                 <source
-                  src="https://www.usersolutions.com/wp-content/uploads/2022/12/EDGEBI updated thumbnail.mp4"
+                  src="https://www.usersolutions.com/wp-content/uploads/2022/12/EDGEBIC updated thumbnail.mp4"
                   type="video/mp4"
                 />
                 Your browser does not support the video tag.
@@ -217,7 +215,7 @@ export default function ProductDownloadsPage(): React.JSX.Element {
                 </span>
               </div>
               <h3 className="mb-4 text-center text-xl font-bold">
-                EDGEBI (Bundled w/ RMDB)
+                EDGEBIC (Bundled w/ RMDB)
               </h3>
               <div className="mb-6 text-center">
                 <span className="text-lg font-semibold text-green-600">

@@ -73,7 +73,7 @@ export default function EDGEBIPage(): React.JSX.Element {
     {
       label: 'Summary',
       href: '#summary',
-      description: 'Overview of EDGEBI capabilities'
+      description: 'Overview of EDGEBIC capabilities'
     },
     {
       label: 'RMDB',
@@ -165,8 +165,8 @@ export default function EDGEBIPage(): React.JSX.Element {
             <div className="mb-6 text-center">
               <SiteHeading
                 badge="Advanced Scheduling"
-                title="Welcome to EDGEBI"
-                description="EDGEBI stands for Enhanced Drag-n-drop Graphical Environment with Business Intelligence. A graphical overlay for Resource Manager DB. Finally, you can manage your production scheduling with an intuitive graphical approach that can be easily customized."
+                title="Welcome to EDGEBIC"
+                description="EDGEBIC stands for Enhanced Drag-n-drop Graphical Environment with Business Intelligence. A graphical overlay for Resource Manager DB. Finally, you can manage your production scheduling with an intuitive graphical approach that can be easily customized."
               />
               <div className="flex flex-wrap justify-center gap-4">
                 <Button
@@ -203,8 +203,8 @@ export default function EDGEBIPage(): React.JSX.Element {
               <div className="relative mx-auto max-w-7xl overflow-hidden rounded-2xl border bg-slate-100 shadow-2xl dark:bg-slate-800">
                 <div className="relative aspect-video">
                   <VideoPlayer
-                    videoUrl="https://www.usersolutions.com/wp-content/uploads/2022/12/EDGEBI%20updated%20thumbnail.mp4"
-                    title="EDGEBI Suite Demo"
+                    videoUrl="https://www.usersolutions.com/wp-content/uploads/2022/12/EDGEBIC%20updated%20thumbnail.mp4"
+                    title="EDGEBIC Suite Demo"
                     thumbnail="https://www.usersolutions.com/wp-content/uploads/2022/11/Premium-1.png"
                     onPlayStateChange={setIsVideoPlaying}
                   />
@@ -224,7 +224,7 @@ export default function EDGEBIPage(): React.JSX.Element {
           <div className="mb-6 text-center">
             <h2 className="mb-4 text-3xl font-bold md:text-4xl">Overview</h2>
             <p className="text-xl text-muted-foreground">
-              EDGEBI is the ideal interface for managing the schedule produced
+              EDGEBIC is the ideal interface for managing the schedule produced
               by Resource Manager DB
             </p>
           </div>
@@ -237,8 +237,8 @@ export default function EDGEBIPage(): React.JSX.Element {
                   Enhanced Drag-n-drop Graphical Environment
                 </h3>
                 <p className="text-lg leading-relaxed">
-                  EDGEBI can be installed and configured per user preferences.
-                  EDGEBI installs separately from RMDB but they share the same
+                  EDGEBIC can be installed and configured per user preferences.
+                  EDGEBIC installs separately from RMDB but they share the same
                   database with advanced security options, its easy to configure
                   view only users or power users who can make direct changes to
                   schedule.
@@ -300,8 +300,8 @@ export default function EDGEBIPage(): React.JSX.Element {
                   with an export to Excel to view all activity the way you want.
                 </p>
                 <p className="text-lg leading-relaxed">
-                  Other reporting can be customized per your requests. EDGEBI is
-                  the perfect, interactive, view for your application.
+                  Other reporting can be customized per your requests. EDGEBIC
+                  is the perfect, interactive, view for your application.
                 </p>
               </div>
               <div>
@@ -322,10 +322,10 @@ export default function EDGEBIPage(): React.JSX.Element {
                   Advanced Scheduling Interface
                 </h3>
                 <p className="text-lg leading-relaxed">
-                  EDGEBI is the perfect, interactive, view for your application.
-                  Contact US to discuss your specific application and challenges
-                  and let us prove out the solution with a free Proof Of Concept
-                  using your data!
+                  EDGEBIC is the perfect, interactive, view for your
+                  application. Contact US to discuss your specific application
+                  and challenges and let us prove out the solution with a free
+                  Proof Of Concept using your data!
                 </p>
                 <p className="text-lg leading-relaxed">
                   With solutions for any application and budget, from job shops
@@ -383,7 +383,7 @@ export default function EDGEBIPage(): React.JSX.Element {
         <div className="container mx-auto max-w-7xl px-4">
           <div className="text-center">
             <h2 className="mb-6 text-3xl font-bold md:text-4xl">
-              EDGEBI Capabilities
+              EDGEBIC Capabilities
             </h2>
 
             <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">

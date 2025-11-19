@@ -198,7 +198,7 @@ export default function ResourceManagerDBPage(): React.JSX.Element {
             description: 'PDF guide to get started quickly'
         },
         {
-            label: 'EDGEBI',
+            label: 'EDGEBIC',
             href: '/edgebi',
             description: 'Business intelligence integration'
         },
@@ -226,7 +226,7 @@ export default function ResourceManagerDBPage(): React.JSX.Element {
 
     const products = [
         {
-            name: 'EDGEBI  ',
+            name: 'EDGEBIC  ',
             href: '/jsl-job-scheduler-lite',
             description: 'Simple scheduling solution for small operations'
         },
@@ -237,7 +237,7 @@ export default function ResourceManagerDBPage(): React.JSX.Element {
             current: true
         },
         {
-            name: 'EDGEBI',
+            name: 'EDGEBIC',
             href: '/edgebi',
             description: 'Business intelligence and analytics platform'
         }

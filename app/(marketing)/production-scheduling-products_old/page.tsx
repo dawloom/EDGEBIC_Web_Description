@@ -84,10 +84,10 @@ export default function ProductionSchedulingProductsOldPage() {
                         </h2>
 
                         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-                            {/* EDGEBI */}
+                            {/* EDGEBIC */}
                             <Card>
                                 <CardHeader className="bg-blue-50 dark:bg-blue-900/20">
-                                    <CardTitle>EDGEBI  </CardTitle>
+                                    <CardTitle>EDGEBIC  </CardTitle>
                                 </CardHeader>
                                 <CardContent className="pt-4">
                                     <p className="mb-4 text-muted-foreground">
@@ -116,10 +116,10 @@ export default function ProductionSchedulingProductsOldPage() {
                                 </CardContent>
                             </Card>
 
-                            {/* EDGEBI */}
+                            {/* EDGEBIC */}
                             <Card>
                                 <CardHeader className="bg-green-50 dark:bg-green-900/20">
-                                    <CardTitle>EDGEBI</CardTitle>
+                                    <CardTitle>EDGEBIC</CardTitle>
                                 </CardHeader>
                                 <CardContent className="pt-4">
                                     <p className="mb-4 text-muted-foreground">
