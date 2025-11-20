@@ -20,18 +20,52 @@ function VideoPlayer({
   onPlayStateChange?: (isPlaying: boolean) => void;
 }) {
   const videoRef = React.useRef<HTMLVideoElement>(null);
+  const [isPlaying, setIsPlaying] = React.useState(false);
 
   const handlePlay = () => {
+    setIsPlaying(true);
     onPlayStateChange?.(true);
   };
 
   const handlePause = () => {
+    setIsPlaying(false);
     onPlayStateChange?.(false);
   };
 
   const handleEnded = () => {
+    setIsPlaying(false);
     onPlayStateChange?.(false);
   };
+
+  // Check if it's a YouTube URL
+  const isYouTube =
+    videoUrl.includes('youtube.com') || videoUrl.includes('youtu.be');
+
+  // Extract video ID from YouTube URL
+  const getVideoId = (url: string) => {
+    const match = url.match(
+      /(?:youtube\.com\/watch\?v=|youtu\.be\/)([^&\n?#]+)/
+    );
+    return match ? match[1] : '';
+  };
+
+  if (isYouTube) {
+    const videoId = getVideoId(videoUrl);
+    // Use specific embed URL with si parameter for the Excel template video
+    const embedUrl = '';
+
+    return (
+      <iframe
+        src="https://www.youtube.com/embed/IduVVYgeXZg?si=HV7y45YVfX1Jk_sK"
+        title="YouTube video player"
+        className="absolute inset-0 size-full rounded-lg"
+        frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerPolicy="strict-origin-when-cross-origin"
+        allowFullScreen
+      />
+    );
+  }
 
   return (
     <video
