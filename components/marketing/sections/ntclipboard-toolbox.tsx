@@ -135,302 +135,130 @@ export function NTClipboardToolBox(): React.JSX.Element {
 
           {/* Tool Box Comparison Grid */}
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
-            {/* WhiteBox Mess vs Efficient Visual Schedule */}
-            <div className="group relative overflow-hidden rounded-3xl border-2 border-slate-200 bg-gradient-to-br from-white to-slate-50 shadow-xl transition-all hover:-translate-y-3 hover:border-orange-300 hover:shadow-2xl dark:border-slate-700 dark:from-slate-900 dark:to-slate-800">
-              {/* Before/After Badge */}
-              <div className="absolute right-4 top-4 z-10 rounded-full bg-gradient-to-r from-red-500 via-orange-500 to-green-500 px-4 py-1.5 text-xs font-extrabold uppercase tracking-wider text-white shadow-lg">
-                ✨ TRANSFORM
-              </div>
-
-              <div className="p-8">
-                {/* Problem Section */}
-                <div className="mb-8">
-                  <div className="mb-4 flex items-center gap-3">
-                    <div className="flex size-6 items-center justify-center rounded-full bg-red-500 shadow-md">
-                      <svg
-                        className="size-3 text-white"
-                        fill="currentColor"
-                        viewBox="0 0 20 20"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z"
-                          clipRule="evenodd"
-                        />
-                      </svg>
-                    </div>
-                    <h4 className="text-xs font-black uppercase tracking-widest text-red-600">
-                      BEFORE
-                    </h4>
+            {/* WhiteBox Mess Card */}
+            <div className="group relative h-[320px] [perspective:1000px]">
+              <div className="relative size-full transition-transform duration-700 [transform-style:preserve-3d] group-hover:[transform:rotateX(180deg)]">
+                {/* Front Side - White Card */}
+                <div className="absolute inset-0 flex flex-col items-center justify-center rounded-xl bg-white p-8 text-center shadow-lg [backface-visibility:hidden] dark:bg-slate-900">
+                  <div className="mb-6">
+                    <img
+                      src="https://www.usersolutions.com/wp-content/uploads/2022/09/whiteboard_icon.svg"
+                      alt="Whiteboard Icon"
+                      className="mx-auto size-20"
+                    />
                   </div>
-                  <h3 className="mb-3 text-xl font-extrabold text-red-700 dark:text-red-300">
+                  <h3 className="text-2xl font-bold text-slate-900 dark:text-white">
                     WhiteBox Mess
                   </h3>
-                  <p className="text-sm leading-relaxed text-red-600 dark:text-red-400">
-                    Chaotic whiteboard scheduling
-                  </p>
                 </div>
 
-                {/* Divider */}
-                <div className="mb-8 flex items-center">
-                  <div className="h-0.5 flex-1 bg-gradient-to-r from-red-300 via-orange-300 to-green-300" />
-                  <div className="mx-4 text-2xl font-bold text-orange-500">
-                    →
+                {/* Back Side - Blue Panel */}
+                <div className="absolute inset-0 flex flex-col items-center justify-center rounded-xl bg-gradient-to-br from-blue-600 to-blue-700 p-8 text-center shadow-2xl [backface-visibility:hidden] [transform:rotateX(180deg)]">
+                  <div className="text-white">
+                    <h3 className="mb-4 text-lg font-bold">
+                      Efficient & Visual Automatic Schedule
+                    </h3>
+                    <p className="text-md mb-4 leading-relaxed">
+                      With EDGE: (Enhanced Drag & drop Graphical Environment),
+                      enjoy a visual, intelligent, whiteboard for instant
+                      schedule changes.
+                    </p>
+                    <div className="mx-auto h-1 w-16 rounded-full bg-white/50" />
                   </div>
-                  <div className="h-0.5 flex-1 bg-gradient-to-r from-red-300 via-orange-300 to-green-300" />
-                </div>
-
-                {/* Solution Section */}
-                <div>
-                  <div className="mb-4 flex items-center gap-3">
-                    <div className="flex size-6 items-center justify-center rounded-full bg-green-500 shadow-md">
-                      <svg
-                        className="size-3 text-white"
-                        fill="currentColor"
-                        viewBox="0 0 20 20"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                          clipRule="evenodd"
-                        />
-                      </svg>
-                    </div>
-                    <h4 className="text-xs font-black uppercase tracking-widest text-green-600">
-                      AFTER
-                    </h4>
-                  </div>
-                  <h3 className="mb-3 text-xl font-extrabold text-green-700 dark:text-green-300">
-                    Visual Schedule
-                  </h3>
-                  <p className="text-sm leading-relaxed text-green-600 dark:text-green-400">
-                    EDGE drag & drop environment
-                  </p>
                 </div>
               </div>
             </div>
 
-            {/* Excel Pain vs Excel Relief */}
-            <div className="group relative overflow-hidden rounded-3xl border-2 border-slate-200 bg-gradient-to-br from-white to-slate-50 shadow-xl transition-all hover:-translate-y-3 hover:border-orange-300 hover:shadow-2xl dark:border-slate-700 dark:from-slate-900 dark:to-slate-800">
-              {/* Before/After Badge */}
-              <div className="absolute right-4 top-4 z-10 rounded-full bg-gradient-to-r from-red-500 via-orange-500 to-green-500 px-4 py-1.5 text-xs font-extrabold uppercase tracking-wider text-white shadow-lg">
-                ✨ TRANSFORM
-              </div>
-
-              <div className="p-8">
-                {/* Problem Section */}
-                <div className="mb-8">
-                  <div className="mb-4 flex items-center gap-3">
-                    <div className="flex size-6 items-center justify-center rounded-full bg-red-500 shadow-md">
-                      <svg
-                        className="size-3 text-white"
-                        fill="currentColor"
-                        viewBox="0 0 20 20"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z"
-                          clipRule="evenodd"
-                        />
-                      </svg>
-                    </div>
-                    <h4 className="text-xs font-black uppercase tracking-widest text-red-600">
-                      BEFORE
-                    </h4>
+            {/* Excel Relief Card */}
+            <div className="group relative h-[320px] [perspective:1000px]">
+              <div className="relative size-full transition-transform duration-700 [transform-style:preserve-3d] group-hover:[transform:rotateX(180deg)]">
+                {/* Front Side - White Card */}
+                <div className="absolute inset-0 flex flex-col items-center justify-center rounded-xl bg-white p-8 text-center shadow-lg [backface-visibility:hidden] dark:bg-slate-900">
+                  <div className="mb-6">
+                    <img
+                      src="https://www.usersolutions.com/wp-content/uploads/2022/09/excel_icon.svg"
+                      alt="Excel Icon"
+                      className="mx-auto size-20"
+                    />
                   </div>
-                  <h3 className="mb-3 text-xl font-extrabold text-red-700 dark:text-red-300">
-                    Excel Pain
-                  </h3>
-                  <p className="text-sm leading-relaxed text-red-600 dark:text-red-400">
-                    Complex formulas that break
-                  </p>
-                </div>
-
-                {/* Divider */}
-                <div className="mb-8 flex items-center">
-                  <div className="h-0.5 flex-1 bg-gradient-to-r from-red-300 via-orange-300 to-green-300" />
-                  <div className="mx-4 text-2xl font-bold text-orange-500">
-                    →
-                  </div>
-                  <div className="h-0.5 flex-1 bg-gradient-to-r from-red-300 via-orange-300 to-green-300" />
-                </div>
-
-                {/* Solution Section */}
-                <div>
-                  <div className="mb-4 flex items-center gap-3">
-                    <div className="flex size-6 items-center justify-center rounded-full bg-green-500 shadow-md">
-                      <svg
-                        className="size-3 text-white"
-                        fill="currentColor"
-                        viewBox="0 0 20 20"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                          clipRule="evenodd"
-                        />
-                      </svg>
-                    </div>
-                    <h4 className="text-xs font-black uppercase tracking-widest text-green-600">
-                      AFTER
-                    </h4>
-                  </div>
-                  <h3 className="mb-3 text-xl font-extrabold text-green-700 dark:text-green-300">
+                  <h3 className="text-2xl font-bold text-slate-900 dark:text-white">
                     Excel Relief
                   </h3>
-                  <p className="text-sm leading-relaxed text-green-600 dark:text-green-400">
-                    Keep benefits, we handle math
-                  </p>
+                </div>
+
+                {/* Back Side - Blue Panel */}
+                <div className="absolute inset-0 flex flex-col items-center justify-center rounded-xl bg-gradient-to-br from-blue-600 to-blue-700 p-8 text-center shadow-2xl [backface-visibility:hidden] [transform:rotateX(180deg)]">
+                  <div className="text-white">
+                    <h3 className="mb-4 text-lg font-bold">Excel Relief</h3>
+                    <p className="text-md mb-4 leading-relaxed">
+                      Leverage the best parts of Excel (Formatting, Integration,
+                      Cloud Sharing...) while leaving difficult math to US.
+                    </p>
+                    <div className="mx-auto h-1 w-16 rounded-full bg-white/50" />
+                  </div>
                 </div>
               </div>
             </div>
 
-            {/* ERP Constraints vs Enhanced ERP */}
-            <div className="group relative overflow-hidden rounded-3xl border-2 border-slate-200 bg-gradient-to-br from-white to-slate-50 shadow-xl transition-all hover:-translate-y-3 hover:border-orange-300 hover:shadow-2xl dark:border-slate-700 dark:from-slate-900 dark:to-slate-800">
-              {/* Before/After Badge */}
-              <div className="absolute right-4 top-4 z-10 rounded-full bg-gradient-to-r from-red-500 via-orange-500 to-green-500 px-4 py-1.5 text-xs font-extrabold uppercase tracking-wider text-white shadow-lg">
-                ✨ TRANSFORM
-              </div>
-
-              <div className="p-8">
-                {/* Problem Section */}
-                <div className="mb-8">
-                  <div className="mb-4 flex items-center gap-3">
-                    <div className="flex size-6 items-center justify-center rounded-full bg-red-500 shadow-md">
-                      <svg
-                        className="size-3 text-white"
-                        fill="currentColor"
-                        viewBox="0 0 20 20"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z"
-                          clipRule="evenodd"
-                        />
-                      </svg>
-                    </div>
-                    <h4 className="text-xs font-black uppercase tracking-widest text-red-600">
-                      BEFORE
-                    </h4>
+            {/* ERP Constraints Card */}
+            <div className="group relative h-[320px] [perspective:1000px]">
+              <div className="relative size-full transition-transform duration-700 [transform-style:preserve-3d] group-hover:[transform:rotateX(180deg)]">
+                {/* Front Side - White Card */}
+                <div className="absolute inset-0 flex flex-col items-center justify-center rounded-xl bg-white p-8 text-center shadow-lg [backface-visibility:hidden] dark:bg-slate-900">
+                  <div className="mb-6">
+                    <img
+                      src="https://www.usersolutions.com/wp-content/uploads/2022/09/erp_icon.svg"
+                      alt="ERP Icon"
+                      className="mx-auto size-20"
+                    />
                   </div>
-                  <h3 className="mb-3 text-xl font-extrabold text-red-700 dark:text-red-300">
+                  <h3 className="text-2xl font-bold text-slate-900 dark:text-white">
                     ERP Constraints
                   </h3>
-                  <p className="text-sm leading-relaxed text-red-600 dark:text-red-400">
-                    Rigid systems, no flexibility
-                  </p>
                 </div>
 
-                {/* Divider */}
-                <div className="mb-8 flex items-center">
-                  <div className="h-0.5 flex-1 bg-gradient-to-r from-red-300 via-orange-300 to-green-300" />
-                  <div className="mx-4 text-2xl font-bold text-orange-500">
-                    →
+                {/* Back Side - Blue Panel */}
+                <div className="absolute inset-0 flex flex-col items-center justify-center rounded-xl bg-gradient-to-br from-blue-600 to-blue-700 p-8 text-center shadow-2xl [backface-visibility:hidden] [transform:rotateX(180deg)]">
+                  <div className="text-white">
+                    <h3 className="mb-4 text-lg font-bold">Enhanced ERP</h3>
+                    <p className="text-md mb-4 leading-relaxed">
+                      Integrate and complement any ERP With Advanced Production
+                      Planning, Scheduling and Tracking from US.
+                    </p>
+                    <div className="mx-auto h-1 w-16 rounded-full bg-white/50" />
                   </div>
-                  <div className="h-0.5 flex-1 bg-gradient-to-r from-red-300 via-orange-300 to-green-300" />
-                </div>
-
-                {/* Solution Section */}
-                <div>
-                  <div className="mb-4 flex items-center gap-3">
-                    <div className="flex size-6 items-center justify-center rounded-full bg-green-500 shadow-md">
-                      <svg
-                        className="size-3 text-white"
-                        fill="currentColor"
-                        viewBox="0 0 20 20"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                          clipRule="evenodd"
-                        />
-                      </svg>
-                    </div>
-                    <h4 className="text-xs font-black uppercase tracking-widest text-green-600">
-                      AFTER
-                    </h4>
-                  </div>
-                  <h3 className="mb-3 text-xl font-extrabold text-green-700 dark:text-green-300">
-                    Enhanced ERP
-                  </h3>
-                  <p className="text-sm leading-relaxed text-green-600 dark:text-green-400">
-                    Seamless ERP integration
-                  </p>
                 </div>
               </div>
             </div>
 
-            {/* Custom Chaos vs Fits like a Glove */}
-            <div className="group relative overflow-hidden rounded-3xl border-2 border-slate-200 bg-gradient-to-br from-white to-slate-50 shadow-xl transition-all hover:-translate-y-3 hover:border-orange-300 hover:shadow-2xl dark:border-slate-700 dark:from-slate-900 dark:to-slate-800">
-              {/* Before/After Badge */}
-              <div className="absolute right-4 top-4 z-10 rounded-full bg-gradient-to-r from-red-500 via-orange-500 to-green-500 px-4 py-1.5 text-xs font-extrabold uppercase tracking-wider text-white shadow-lg">
-                ✨ TRANSFORM
-              </div>
-
-              <div className="p-8">
-                {/* Problem Section */}
-                <div className="mb-8">
-                  <div className="mb-4 flex items-center gap-3">
-                    <div className="flex size-6 items-center justify-center rounded-full bg-red-500 shadow-md">
-                      <svg
-                        className="size-3 text-white"
-                        fill="currentColor"
-                        viewBox="0 0 20 20"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z"
-                          clipRule="evenodd"
-                        />
-                      </svg>
-                    </div>
-                    <h4 className="text-xs font-black uppercase tracking-widest text-red-600">
-                      BEFORE
-                    </h4>
+            {/* Custom Chaos Card */}
+            <div className="group relative h-[320px] [perspective:1000px]">
+              <div className="relative size-full transition-transform duration-700 [transform-style:preserve-3d] group-hover:[transform:rotateX(180deg)]">
+                {/* Front Side - White Card */}
+                <div className="absolute inset-0 flex flex-col items-center justify-center rounded-xl bg-white p-8 text-center shadow-lg [backface-visibility:hidden] dark:bg-slate-900">
+                  <div className="mb-6">
+                    <img
+                      src="https://www.usersolutions.com/wp-content/uploads/2022/09/custom_icon.svg"
+                      alt="Custom Icon"
+                      className="mx-auto size-20"
+                    />
                   </div>
-                  <h3 className="mb-3 text-xl font-extrabold text-red-700 dark:text-red-300">
+                  <h3 className="text-2xl font-bold text-slate-900 dark:text-white">
                     Custom Chaos
                   </h3>
-                  <p className="text-sm leading-relaxed text-red-600 dark:text-red-400">
-                    One-size-fits-all solutions
-                  </p>
                 </div>
 
-                {/* Divider */}
-                <div className="mb-8 flex items-center">
-                  <div className="h-0.5 flex-1 bg-gradient-to-r from-red-300 via-orange-300 to-green-300" />
-                  <div className="mx-4 text-2xl font-bold text-orange-500">
-                    →
+                {/* Back Side - Blue Panel */}
+                <div className="absolute inset-0 flex flex-col items-center justify-center rounded-xl bg-gradient-to-br from-blue-600 to-blue-700 p-8 text-center shadow-2xl [backface-visibility:hidden] [transform:rotateX(180deg)]">
+                  <div className="text-white">
+                    <h3 className="mb-4 text-lg font-bold">
+                      Fits like a Glove
+                    </h3>
+                    <p className="text-md mb-4 leading-relaxed">
+                      Quick Adoption, Works like you do, Intuitive and Flexible
+                    </p>
+                    <div className="mx-auto h-1 w-16 rounded-full bg-white/50" />
                   </div>
-                  <div className="h-0.5 flex-1 bg-gradient-to-r from-red-300 via-orange-300 to-green-300" />
-                </div>
-
-                {/* Solution Section */}
-                <div>
-                  <div className="mb-4 flex items-center gap-3">
-                    <div className="flex size-6 items-center justify-center rounded-full bg-green-500 shadow-md">
-                      <svg
-                        className="size-3 text-white"
-                        fill="currentColor"
-                        viewBox="0 0 20 20"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                          clipRule="evenodd"
-                        />
-                      </svg>
-                    </div>
-                    <h4 className="text-xs font-black uppercase tracking-widest text-green-600">
-                      AFTER
-                    </h4>
-                  </div>
-                  <h3 className="mb-3 text-xl font-extrabold text-green-700 dark:text-green-300">
-                    Fits like a Glove
-                  </h3>
-                  <p className="text-sm leading-relaxed text-green-600 dark:text-green-400">
-                    Intuitive, quick adoption
-                  </p>
                 </div>
               </div>
             </div>
