@@ -59,11 +59,16 @@ export function LatestNewsSection(): React.JSX.Element {
     };
 
     React.useEffect(() => {
-        const interval = setInterval(() => {
-            nextSlide();
-        }, 5000); // Auto-advance every 5 seconds
+        // Start auto-scrolling after 1 second delay
+        const startDelay = setTimeout(() => {
+            const interval = setInterval(() => {
+                nextSlide();
+            }, 5000); // Auto-advance every 5 seconds
 
-        return () => clearInterval(interval);
+            return () => clearInterval(interval);
+        }, 1000);
+
+        return () => clearTimeout(startDelay);
     }, []);
 
     return (
@@ -105,10 +110,10 @@ export function LatestNewsSection(): React.JSX.Element {
                                 <AnimatePresence mode="wait">
                                     <motion.div
                                         key={currentIndex}
-                                        initial={{ opacity: 0, x: 50 }}
+                                        initial={{ opacity: 0, x: 100 }}
                                         animate={{ opacity: 1, x: 0 }}
-                                        exit={{ opacity: 0, x: -50 }}
-                                        transition={{ duration: 0.5, ease: 'easeInOut' }}
+                                        exit={{ opacity: 0, x: -100 }}
+                                        transition={{ duration: 0.8, ease: 'easeOut' }}
                                         className="text-center"
                                     >
                                         <div className="mb-4 text-sm font-semibold text-blue-600 dark:text-blue-400">

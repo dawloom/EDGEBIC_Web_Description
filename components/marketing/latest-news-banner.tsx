@@ -16,14 +16,26 @@ const newsItems = [
 
 export function LatestNewsBanner(): React.JSX.Element {
     const [currentIndex, setCurrentIndex] = React.useState(0);
+    const [hasStarted, setHasStarted] = React.useState(false);
 
     React.useEffect(() => {
+        // Start animation after 1 second
+        const startDelay = setTimeout(() => {
+            setHasStarted(true);
+        }, 1000);
+
+        return () => clearTimeout(startDelay);
+    }, []);
+
+    React.useEffect(() => {
+        if (!hasStarted) return;
+
         const interval = setInterval(() => {
             setCurrentIndex((prevIndex) => (prevIndex + 1) % newsItems.length);
         }, 4000); // Change headline every 4 seconds
 
         return () => clearInterval(interval);
-    }, []);
+    }, [hasStarted]);
 
     return (
         <div className="bg-gradient-to-r from-blue-600 to-blue-700 px-4 py-3 text-white">
@@ -40,10 +52,14 @@ export function LatestNewsBanner(): React.JSX.Element {
                     <div className="min-w-0 flex-1 overflow-hidden">
                         <motion.div
                             key={currentIndex}
-                            initial={{ opacity: 0, x: 50 }}
+                            initial={{ opacity: 0, x: 100 }}
                             animate={{ opacity: 1, x: 0 }}
-                            exit={{ opacity: 0, x: -50 }}
-                            transition={{ duration: 0.5 }}
+                            exit={{ opacity: 0, x: -100 }}
+                            transition={{
+                                duration: 0.8,
+                                delay: hasStarted && currentIndex === 0 ? 0 : 0,
+                                ease: 'easeOut'
+                            }}
                             className="truncate text-sm font-medium md:text-base"
                         >
                             {newsItems[currentIndex]}

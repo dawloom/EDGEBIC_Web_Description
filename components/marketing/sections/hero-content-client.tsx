@@ -53,13 +53,17 @@ export function HeroContent(): React.JSX.Element {
     setIsVideoModalOpen(false);
   };
 
-  // Auto-scroll disabled by default
-  // React.useEffect(() => {
-  //   const interval = setInterval(() => {
-  //     nextSlide();
-  //   }, 5000);
-  //   return () => clearInterval(interval);
-  // }, []);
+  // Auto-scroll enabled with 1 second delay
+  React.useEffect(() => {
+    const startDelay = setTimeout(() => {
+      const interval = setInterval(() => {
+        nextSlide();
+      }, 5000);
+      return () => clearInterval(interval);
+    }, 1000);
+
+    return () => clearTimeout(startDelay);
+  }, []);
 
   return (
     <div
@@ -147,10 +151,10 @@ export function HeroContent(): React.JSX.Element {
                 <AnimatePresence mode="wait">
                   <motion.div
                     key={currentNewsIndex}
-                    initial={{ opacity: 0, x: 50 }}
+                    initial={{ opacity: 0, x: 100 }}
                     animate={{ opacity: 1, x: 0 }}
-                    exit={{ opacity: 0, x: -50 }}
-                    transition={{ duration: 0.5 }}
+                    exit={{ opacity: 0, x: -100 }}
+                    transition={{ duration: 0.8, ease: 'easeOut' }}
                     className=" text-center text-sm font-medium"
                   >
                     {newsItems[currentNewsIndex]}
