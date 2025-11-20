@@ -34,8 +34,7 @@ declare module 'next-auth' {
 // }
 
 export const authConfig = {
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  adapter: adapter as any,
+  adapter,
   providers,
   secret: process.env.AUTH_SECRET,
   session,
