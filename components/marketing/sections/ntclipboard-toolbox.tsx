@@ -492,7 +492,7 @@ export function NTClipboardToolBox(): React.JSX.Element {
                       <div className="flex items-center gap-2">
                         <div className="size-2 rounded-full bg-orange-500" />
                         <span className="text-sm">
-                          Production Scheduling Your Way
+                          Production Scheduling Your Way!
                         </span>
                       </div>
                       <div className="flex items-center gap-2">
