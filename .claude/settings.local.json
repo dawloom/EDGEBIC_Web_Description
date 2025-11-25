@@ -7,7 +7,13 @@
       "Bash(findstr:*)",
       "Bash(dir:*)",
       "Bash(node scripts/check-payload-endpoints.js:*)",
-      "Bash(curl:*)"
+      "Bash(curl:*)",
+      "Bash(npm run build:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npm run typecheck:*)",
+      "Bash(npm install:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nFix TypeScript build errors across multiple files\n\n- Fix mdx.css import path in docs page\n- Fix Payload CMS function imports (transformPayloadPostToPost)\n- Fix SecurityLayout parallel routes props in 2 files\n- Fix OrganizationInformationLayout businessHours prop in 2 files\n- Fix lexical-renderer JSX type casting for heading tags\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git push:*)"
     ],
     "deny": [],
     "ask": []
