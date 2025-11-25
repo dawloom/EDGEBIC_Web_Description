@@ -229,9 +229,16 @@ export function transformPayloadPostToPost(post: PayloadPost) {
                        firstAuthor?.avatar?.url;
 
   // Get featured image from various possible sources
-  const featuredImage = post.featuredImage?.url ||
-                        post.heroImage?.url ||
-                        post.hero?.media?.url;
+  const featuredImageUrl = post.featuredImage?.url ||
+                           post.heroImage?.url ||
+                           post.hero?.media?.url;
+
+  // Construct full URL for featured image if it's a relative path
+  const featuredImage = featuredImageUrl
+    ? (featuredImageUrl.startsWith('http')
+        ? featuredImageUrl
+        : `${PAYLOAD_API_URL}${featuredImageUrl}`)
+    : undefined;
 
   return {
     id: post.id,

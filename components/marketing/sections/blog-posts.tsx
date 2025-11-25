@@ -7,7 +7,6 @@ import { GridSection } from '@/components/marketing/fragments/grid-section';
 import { SiteHeading } from '@/components/marketing/fragments/site-heading';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { FillRemainingSpace } from '@/components/ui/fill-remaining-space';
-import { getBaseUrl } from '@/lib/urls/get-base-url';
 import { getInitials } from '@/lib/utils';
 import { fetchAllPosts, transformPayloadPostToPost } from '@/lib/api/payload-cms';
 
@@ -36,7 +35,7 @@ export async function BlogPosts(): Promise<React.JSX.Element> {
               .map((post, index) => (
                 <Link
                   key={post.id || index}
-                  href={`${getBaseUrl()}${post.slug}`}
+                  href={post.slug}
                   className="md:duration-2000 flex h-full flex-col space-y-4 text-clip border-dashed py-6 md:rounded-2xl md:px-6 md:shadow md:transition-shadow md:hover:shadow-xl dark:md:bg-accent/40 dark:md:hover:bg-accent"
                 >
                   <div className="flex flex-row items-center justify-between text-muted-foreground">
