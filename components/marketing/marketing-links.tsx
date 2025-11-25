@@ -154,6 +154,13 @@ export const MENU_LINKS = [
         icon: <NewspaperIcon className="size-5 shrink-0" />,
         href: Routes.News,
         external: false
+      },
+      {
+        title: 'Blog',
+        description: 'Insights, articles, and updates from Payload CMS',
+        icon: <BookIcon className="size-5 shrink-0" />,
+        href: Routes.Blog,
+        external: false
       }
     ]
   },
