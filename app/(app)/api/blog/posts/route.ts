@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
 
-import { fetchAllPages, transformPayloadPageToPost } from '@/lib/api/payload-cms';
+import { fetchAllPosts, fetchPostById, transformPayloadPostToPost } from '@/lib/api/payload-cms';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
@@ -15,35 +15,33 @@ export async function GET(request: NextRequest) {
     const { searchParams } = new URL(request.url);
     const id = searchParams.get('id');
 
-    // If ID is provided, fetch single page
+    // If ID is provided, fetch single post
     if (id) {
-      const PAYLOAD_API_URL = 'http://localhost:3000/api/pages';
-      const response = await fetch(`${PAYLOAD_API_URL}/${id}`);
+      const post = await fetchPostById(id);
 
-      if (!response.ok) {
+      if (!post) {
         return NextResponse.json(
-          { success: false, error: 'Page not found' },
+          { success: false, error: 'Post not found' },
           { status: 404 }
         );
       }
 
-      const page = await response.json();
-      const post = transformPayloadPageToPost(page);
+      const transformedPost = transformPayloadPostToPost(post);
 
       return NextResponse.json({
         success: true,
-        data: post
+        data: transformedPost
       });
     }
 
-    // Fetch all pages
-    const pages = await fetchAllPages();
-    const posts = pages.map(transformPayloadPageToPost);
+    // Fetch all posts
+    const posts = await fetchAllPosts();
+    const transformedPosts = posts.map(transformPayloadPostToPost);
 
     return NextResponse.json({
       success: true,
-      data: posts,
-      count: posts.length
+      data: transformedPosts,
+      count: transformedPosts.length
     });
   } catch (error) {
     console.error('Error in blog posts API:', error);

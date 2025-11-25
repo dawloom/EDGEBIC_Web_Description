@@ -9,12 +9,12 @@ import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { FillRemainingSpace } from '@/components/ui/fill-remaining-space';
 import { getBaseUrl } from '@/lib/urls/get-base-url';
 import { getInitials } from '@/lib/utils';
-import { fetchAllPosts, transformPayloadPostToPost } from '@/lib/api/payload-cms';
+import { fetchAllPages, transformPayloadPageToPost } from '@/lib/api/payload-cms';
 
 export async function BlogPosts(): Promise<React.JSX.Element> {
   // Fetch posts from Payload CMS
-  const payloadPosts = await fetchAllPosts();
-  const posts = payloadPosts.map(transformPayloadPostToPost);
+  const pages = await fetchAllPages();
+  const posts = pages.map(transformPayloadPageToPost);
 
   return (
     <GridSection>
@@ -26,7 +26,7 @@ export async function BlogPosts(): Promise<React.JSX.Element> {
         />
         {posts.length === 0 ? (
           <div className="text-center py-12">
-            <p className="text-muted-foreground">No posts found. Add blog posts in Payload CMS at <a href="/admin" className="underline">/admin</a></p>
+            <p className="text-muted-foreground">No posts found. Make sure your Payload CMS is running at http://localhost:3000</p>
           </div>
         ) : (
           <div className="grid gap-x-12 gap-y-6 divide-y md:grid-cols-2 md:gap-x-6 md:divide-none xl:grid-cols-3">

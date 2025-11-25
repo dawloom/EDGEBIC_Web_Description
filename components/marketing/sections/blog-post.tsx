@@ -2,6 +2,7 @@ import * as React from 'react';
 import Link from 'next/link';
 import { format } from 'date-fns';
 
+import { LexicalRenderer } from '@/components/marketing/blog/lexical-renderer';
 import { Mdx } from '@/components/marketing/blog/mdx-component';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { Separator } from '@/components/ui/separator';
@@ -19,14 +20,33 @@ type BlogPostProps = {
       avatar?: string;
     }
     | undefined;
-    body: {
+    body?: {
       raw: string;
       code: string;
     };
+    content?: any; // Lexical content from Payload CMS
+    featuredImage?: string;
+    layout?: any[]; // Layout blocks from Pages collection
+    hero?: any; // Hero section from Pages collection
   };
 };
 
 export function BlogPost({ post }: BlogPostProps): React.JSX.Element {
+  // Determine content type and extract text for reading time
+  const isLexicalContent = post.content && !post.body;
+  const contentText = isLexicalContent
+    ? extractTextFromLexical(post.content)
+    : post.body?.raw || '';
+
+  const PAYLOAD_URL = process.env.NEXT_PUBLIC_PAYLOAD_URL || 'http://localhost:3001';
+
+  // Helper to get full media URL
+  const getMediaUrl = (url?: string) => {
+    if (!url) return '';
+    if (url.startsWith('http')) return url;
+    return `${PAYLOAD_URL}${url}`;
+  };
+
   return (
     <div className="border-b">
       <div className="container mx-auto flex max-w-3xl flex-col space-y-4 py-20">
@@ -41,6 +61,13 @@ export function BlogPost({ post }: BlogPostProps): React.JSX.Element {
             <span>All posts</span>
           </Link>
           <div className="space-y-8">
+            {post.featuredImage && (
+              <img
+                src={post.featuredImage}
+                alt={post.title}
+                className="w-full h-auto rounded-lg object-cover max-h-96"
+              />
+            )}
             <div className="flex flex-row items-center justify-between gap-4 text-base text-muted-foreground">
               <span className="flex flex-row items-center gap-2">
                 {post.category}
@@ -68,17 +95,122 @@ export function BlogPost({ post }: BlogPostProps): React.JSX.Element {
                 </Avatar>
                 <span>{post.author?.name ?? ''}</span>
               </div>
-              <div>{estimateReadingTime(post.body.raw)}</div>
+              <div>{estimateReadingTime(contentText)}</div>
             </div>
           </div>
         </div>
       </div>
       <Separator />
-      <div className="container mx-auto flex max-w-3xl py-20">
-        <Mdx code={post.body.code} />
+      <div className="container mx-auto max-w-3xl py-20">
+        <div className="space-y-8">
+          {/* Main content */}
+          {isLexicalContent ? (
+            <LexicalRenderer content={post.content} />
+          ) : post.body ? (
+            <Mdx code={post.body.code} />
+          ) : (
+            <p className="text-muted-foreground">No content available.</p>
+          )}
+
+          {/* Hero links */}
+          {post.hero?.links && post.hero.links.length > 0 && (
+            <div className="flex gap-4 flex-wrap">
+              {post.hero.links.map((linkItem: any, linkIndex: number) => {
+                const link = linkItem.link;
+                if (!link) return null;
+
+                const isOutline = link.appearance === 'outline';
+                return (
+                  <a
+                    key={linkIndex}
+                    href={link.url || '#'}
+                    target={link.newTab ? '_blank' : undefined}
+                    rel={link.newTab ? 'noopener noreferrer' : undefined}
+                    className={`inline-flex items-center justify-center rounded-md px-4 py-2 text-sm font-medium transition-colors ${
+                      isOutline
+                        ? 'border border-input bg-background hover:bg-accent hover:text-accent-foreground'
+                        : 'bg-primary text-primary-foreground hover:bg-primary/90'
+                    }`}
+                  >
+                    {link.label}
+                  </a>
+                );
+              })}
+            </div>
+          )}
+
+          {/* Layout blocks */}
+          {post.layout && post.layout.length > 0 && (
+            <div className="space-y-12 mt-12">
+              {post.layout.map((block: any, index: number) => {
+                if (block.blockType === 'mediaBlock') {
+                  return (
+                    <div key={block.id || index} className="space-y-4">
+                      {block.blockName && (
+                        <h3 className="text-xl font-semibold">{block.blockName}</h3>
+                      )}
+                      {block.media && (
+                        <img
+                          src={getMediaUrl(block.media.url)}
+                          alt={block.media.alt || block.blockName || 'Media'}
+                          className="w-full h-auto rounded-lg"
+                        />
+                      )}
+                    </div>
+                  );
+                }
+
+                if (block.blockType === 'cta') {
+                  return (
+                    <div key={block.id || index} className="space-y-4 p-6 bg-accent/50 rounded-lg">
+                      {block.blockName && (
+                        <h3 className="text-xl font-semibold">{block.blockName}</h3>
+                      )}
+                      {block.richText && (
+                        <LexicalRenderer content={block.richText} />
+                      )}
+                      {block.links && block.links.length > 0 && (
+                        <div className="flex gap-4">
+                          {block.links.map((linkItem: any, linkIndex: number) => (
+                            <a
+                              key={linkIndex}
+                              href={linkItem.link?.url || '#'}
+                              className="inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground hover:bg-primary/90"
+                            >
+                              {linkItem.link?.label || 'Learn More'}
+                            </a>
+                          ))}
+                        </div>
+                      )}
+                    </div>
+                  );
+                }
+
+                return null;
+              })}
+            </div>
+          )}
+        </div>
       </div>
     </div>
   );
+}
+
+function extractTextFromLexical(content: any): string {
+  if (!content?.root?.children) return '';
+
+  let text = '';
+  const traverse = (node: any) => {
+    if (node.text) {
+      text += node.text + ' ';
+    }
+    if (node.children) {
+      node.children.forEach(traverse);
+    }
+  };
+
+  traverse(content.root);
+  return text.trim();
 }
 
 function estimateReadingTime(
