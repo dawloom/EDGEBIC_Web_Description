@@ -18,12 +18,13 @@ export const metadata: Metadata = {
 
 export type OrganizationInformationLayoutProps = {
   organizationDetails: React.ReactNode;
-  // businessHours: React.ReactNode;
+  businessHours: React.ReactNode;
   socialMedia: React.ReactNode;
 };
 
 export default function OrganizationInformationLayout({
   organizationDetails,
+  // businessHours,
   socialMedia
 }: OrganizationInformationLayoutProps): React.JSX.Element {
   return (

@@ -9,12 +9,12 @@ import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { FillRemainingSpace } from '@/components/ui/fill-remaining-space';
 import { getBaseUrl } from '@/lib/urls/get-base-url';
 import { getInitials } from '@/lib/utils';
-import { fetchAllPages, transformPayloadPageToPost } from '@/lib/api/payload-cms';
+import { fetchAllPages, transformPayloadPostToPost } from '@/lib/api/payload-cms';
 
 export async function BlogPosts(): Promise<React.JSX.Element> {
   // Fetch posts from Payload CMS
   const pages = await fetchAllPages();
-  const posts = pages.map(transformPayloadPageToPost);
+  const posts = pages.map(transformPayloadPostToPost);
 
   return (
     <GridSection>

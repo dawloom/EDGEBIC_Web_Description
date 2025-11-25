@@ -19,16 +19,16 @@ export const metadata: Metadata = {
 
 export type SecurityLayoutProps = {
   changePassword: React.ReactNode;
-  _connectedAccounts: React.ReactNode;
-  _multiFactorAuthentication: React.ReactNode;
-  _manageSessions: React.ReactNode;
+  connectedAccounts: React.ReactNode;
+  multiFactorAuthentication: React.ReactNode;
+  manageSessions: React.ReactNode;
 };
 
 export default function SecurityLayout({
-  changePassword,
-  _connectedAccounts,
-  _multiFactorAuthentication,
-  _manageSessions
+  changePassword
+  // connectedAccounts,
+  // multiFactorAuthentication,
+  // manageSessions
 }: SecurityLayoutProps): React.JSX.Element {
   return (
     <Page>

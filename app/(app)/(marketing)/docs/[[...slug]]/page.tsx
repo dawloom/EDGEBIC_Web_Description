@@ -4,7 +4,7 @@ import { notFound } from 'next/navigation';
 import { allDocs } from 'content-collections';
 import { ChevronRightIcon } from 'lucide-react';
 
-import '@/app/mdx.css';
+import '@/app/(app)/mdx.css';
 
 import { Mdx } from '@/components/marketing/blog/mdx-component';
 import { DocsPager } from '@/components/marketing/docs/docs-pager';

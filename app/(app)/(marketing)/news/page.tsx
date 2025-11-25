@@ -6,7 +6,7 @@ import Link from 'next/link';
 import { SiteHeading } from '@/components/marketing/fragments/site-heading';
 import { Card, CardContent } from '@/components/ui/card';
 import { createTitle } from '@/lib/utils';
-import { fetchAllPages, transformPayloadPageToPost } from '@/lib/api/payload-cms';
+import { fetchAllPages, transformPayloadPostToPost } from '@/lib/api/payload-cms';
 import { format } from 'date-fns';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { getInitials } from '@/lib/utils';
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 export default async function NewsPage(): Promise<React.JSX.Element> {
     // Fetch posts from Payload CMS
     const pages = await fetchAllPages();
-    const posts = pages.map(transformPayloadPageToPost);
+    const posts = pages.map(transformPayloadPostToPost);
 
     return (
         <div className="container mx-auto max-w-7xl px-4 pt-6">

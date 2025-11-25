@@ -58,7 +58,8 @@ function renderNode(node: LexicalNode, index: number): React.ReactNode {
       );
 
     case 'heading':
-      const Tag = (node.tag || 'h2') as keyof JSX.IntrinsicElements;
+      const tag = (node.tag || 'h2') as 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6';
+      const Tag = tag as React.ElementType;
       const headingClasses: Record<string, string> = {
         h1: 'text-4xl font-bold mb-6 mt-8',
         h2: 'text-3xl font-semibold mb-4 mt-6',
@@ -68,7 +69,7 @@ function renderNode(node: LexicalNode, index: number): React.ReactNode {
         h6: 'text-base font-semibold mb-2 mt-3',
       };
       return (
-        <Tag key={index} className={headingClasses[Tag] || headingClasses.h2}>
+        <Tag key={index} className={headingClasses[tag] || headingClasses.h2}>
           {children}
         </Tag>
       );
