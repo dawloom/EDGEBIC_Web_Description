@@ -38,9 +38,18 @@ function renderNode(node: LexicalNode, index: number): React.ReactNode {
 
     // Apply formatting
     if (node.format && node.format > 0) {
-      if (node.format & 1) textElement = <strong key={index}>{textElement}</strong>;
+      if (node.format & 1)
+        textElement = <strong key={index}>{textElement}</strong>;
       if (node.format & 2) textElement = <em key={index}>{textElement}</em>;
-      if (node.format & 8) textElement = <code key={index} className="bg-muted px-1.5 py-0.5 rounded text-sm">{textElement}</code>;
+      if (node.format & 8)
+        textElement = (
+          <code
+            key={index}
+            className="bg-muted px-1.5 py-0.5 rounded text-sm"
+          >
+            {textElement}
+          </code>
+        );
     }
 
     return textElement;
@@ -52,7 +61,10 @@ function renderNode(node: LexicalNode, index: number): React.ReactNode {
   switch (node.type) {
     case 'paragraph':
       return (
-        <p key={index} className="mb-4 leading-7">
+        <p
+          key={index}
+          className="mb-4 leading-7"
+        >
           {children}
         </p>
       );
@@ -66,42 +78,58 @@ function renderNode(node: LexicalNode, index: number): React.ReactNode {
         h3: 'text-2xl font-semibold mb-3 mt-5',
         h4: 'text-xl font-semibold mb-2 mt-4',
         h5: 'text-lg font-semibold mb-2 mt-3',
-        h6: 'text-base font-semibold mb-2 mt-3',
+        h6: 'text-base font-semibold mb-2 mt-3'
       };
       return (
-        <Tag key={index} className={headingClasses[tag] || headingClasses.h2}>
+        <Tag
+          key={index}
+          className={headingClasses[tag] || headingClasses.h2}
+        >
           {children}
         </Tag>
       );
 
     case 'list':
       const ListTag = node.listType === 'number' ? 'ol' : 'ul';
-      const listClass = node.listType === 'number'
-        ? 'list-decimal list-inside mb-4 space-y-2'
-        : 'list-disc list-inside mb-4 space-y-2';
+      const listClass =
+        node.listType === 'number'
+          ? 'list-decimal list-inside mb-4 space-y-2'
+          : 'list-disc list-inside mb-4 space-y-2';
       return (
-        <ListTag key={index} className={listClass}>
+        <ListTag
+          key={index}
+          className={listClass}
+        >
           {children}
         </ListTag>
       );
 
     case 'listitem':
       return (
-        <li key={index} className="leading-7">
+        <li
+          key={index}
+          className="leading-7"
+        >
           {children}
         </li>
       );
 
     case 'quote':
       return (
-        <blockquote key={index} className="border-l-4 border-primary pl-4 italic my-4 text-muted-foreground">
+        <blockquote
+          key={index}
+          className="border-l-4 border-primary pl-4 italic my-4 text-muted-foreground"
+        >
           {children}
         </blockquote>
       );
 
     case 'code':
       return (
-        <pre key={index} className="bg-muted p-4 rounded-lg overflow-x-auto my-4">
+        <pre
+          key={index}
+          className="bg-muted p-4 rounded-lg overflow-x-auto my-4"
+        >
           <code className="text-sm">{children}</code>
         </pre>
       );
@@ -128,7 +156,9 @@ function renderNode(node: LexicalNode, index: number): React.ReactNode {
   }
 }
 
-export function LexicalRenderer({ content }: LexicalRendererProps): React.JSX.Element {
+export function LexicalRenderer({
+  content
+}: LexicalRendererProps): React.JSX.Element {
   if (!content?.root?.children) {
     return <p className="text-muted-foreground">No content available.</p>;
   }

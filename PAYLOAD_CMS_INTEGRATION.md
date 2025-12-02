@@ -114,7 +114,7 @@ All fetch requests use Next.js revalidation with a 60-second cache:
 ```typescript
 fetch(url, {
   next: { revalidate: 60 }
-})
+});
 ```
 
 ## Usage
@@ -157,6 +157,7 @@ node scripts/test-payload-api.js
 ```
 
 This will:
+
 1. Fetch all pages from Payload CMS
 2. Display the response structure
 3. Show a sample page data
@@ -189,7 +190,7 @@ Edit the `transformPayloadPageToPost()` function to match your Payload CMS schem
 export function transformPayloadPageToPost(page: PayloadPage) {
   return {
     // Customize field mapping here
-    title: page.customTitle || page.title,
+    title: page.customTitle || page.title
     // ...
   };
 }
@@ -202,22 +203,22 @@ Modify the revalidate time in fetch calls:
 ```typescript
 fetch(url, {
   next: { revalidate: 3600 } // Cache for 1 hour
-})
+});
 ```
 
 ## Payload CMS Fields Mapping
 
-| Payload Field | Blog Post Field | Fallback |
-|---------------|----------------|----------|
-| `id` | `id` | - |
-| `title` | `title` | "Untitled" |
-| `slug` | `slug` | - |
-| `description` or `hero.description` | `description` | "" |
-| `publishedDate` or `createdAt` | `published` | Current date |
-| `category` | `category` | "General" |
-| `author` | `author` | {name: "Unknown Author"} |
-| `hero` | `hero` | - |
-| `links` | `links` | - |
+| Payload Field                       | Blog Post Field | Fallback                 |
+| ----------------------------------- | --------------- | ------------------------ |
+| `id`                                | `id`            | -                        |
+| `title`                             | `title`         | "Untitled"               |
+| `slug`                              | `slug`          | -                        |
+| `description` or `hero.description` | `description`   | ""                       |
+| `publishedDate` or `createdAt`      | `published`     | Current date             |
+| `category`                          | `category`      | "General"                |
+| `author`                            | `author`        | {name: "Unknown Author"} |
+| `hero`                              | `hero`          | -                        |
+| `links`                             | `links`         | -                        |
 
 ## Troubleshooting
 

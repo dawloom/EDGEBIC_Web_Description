@@ -91,7 +91,8 @@ export function SocialMediaCard({
                     />
                   </FormControl>
                   <p className="text-sm text-muted-foreground">
-                    This video will be displayed on your homepage and admin dashboard
+                    This video will be displayed on your homepage and admin
+                    dashboard
                   </p>
                   <FormMessage />
                 </FormItem>

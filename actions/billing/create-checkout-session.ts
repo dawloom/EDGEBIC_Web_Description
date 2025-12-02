@@ -6,7 +6,11 @@ import { authActionClient } from '@/actions/safe-action';
 import { Routes } from '@/constants/routes';
 import { BillingUnit } from '@/lib/billing/billing-unit';
 import { stripeServer } from '@/lib/billing/stripe-server';
-import { getTaxRateForCheckout, AUTOMATIC_TAX_CONFIG, TAX_ID_COLLECTION_CONFIG } from '@/lib/billing/tax-utils';
+import {
+  AUTOMATIC_TAX_CONFIG,
+  getTaxRateForCheckout,
+  TAX_ID_COLLECTION_CONFIG
+} from '@/lib/billing/tax-utils';
 import { prisma } from '@/lib/db/prisma';
 import { getBaseUrl } from '@/lib/urls/get-base-url';
 import { GatewayError, NotFoundError } from '@/lib/validation/exceptions';
@@ -38,7 +42,7 @@ export const createCheckoutSession = authActionClient
 
     try {
       let checkoutSession: Stripe.Checkout.Session;
-      
+
       const params: Stripe.Checkout.SessionCreateParams = {
         payment_method_types: ['card'],
         line_items: [
@@ -59,7 +63,7 @@ export const createCheckoutSession = authActionClient
           address: 'auto'
         }
       };
-      
+
       checkoutSession = await stripeServer.checkout.sessions.create(params);
 
       return {

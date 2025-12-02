@@ -3,7 +3,6 @@
 import * as React from 'react';
 import { useFormContext } from 'react-hook-form';
 
-import { NextButton } from '@/components/ui/onboarding/next-button';
 import {
   FormControl,
   FormField,
@@ -12,6 +11,7 @@ import {
   FormMessage
 } from '@/components/ui/form';
 import { Input } from '@/components/ui/input';
+import { NextButton } from '@/components/ui/onboarding/next-button';
 import { cn } from '@/lib/utils';
 import { type CompleteOrganizationOnboardingSchema } from '@/schemas/onboarding/complete-organization-onboarding-schema';
 

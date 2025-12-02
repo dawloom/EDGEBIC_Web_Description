@@ -34,10 +34,10 @@ export function SmoothLink({
 
     // For internal navigation, use Next.js router with smooth transition
     e.preventDefault();
-    
+
     // Smooth scroll to top before navigation
     window.scrollTo({ top: 0, behavior: 'smooth' });
-    
+
     // Small delay to allow scroll animation
     setTimeout(() => {
       router.push(href.toString());

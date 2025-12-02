@@ -2,7 +2,11 @@ import { NextRequest, NextResponse } from 'next/server';
 import { z } from 'zod';
 
 import { stripeServer } from '@/lib/billing/stripe-server';
-import { getTaxRateForCheckout, AUTOMATIC_TAX_CONFIG, TAX_ID_COLLECTION_CONFIG } from '@/lib/billing/tax-utils';
+import {
+  AUTOMATIC_TAX_CONFIG,
+  getTaxRateForCheckout,
+  TAX_ID_COLLECTION_CONFIG
+} from '@/lib/billing/tax-utils';
 
 const createCheckoutSchema = z.object({
   email: z.string().email(),
@@ -24,7 +28,7 @@ export async function POST(request: NextRequest) {
 
     // Create Stripe checkout session
     let session;
-    
+
     try {
       session = await stripeServer.checkout.sessions.create({
         payment_method_types: ['card'],
@@ -49,7 +53,10 @@ export async function POST(request: NextRequest) {
         expires_at: Math.floor(Date.now() / 1000) + 30 * 60 // 30 minutes
       });
     } catch (error) {
-      console.error('Error creating checkout session with automatic tax:', error);
+      console.error(
+        'Error creating checkout session with automatic tax:',
+        error
+      );
       throw error;
     }
 

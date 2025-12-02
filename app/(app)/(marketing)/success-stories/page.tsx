@@ -4,15 +4,15 @@ import { NTClipboardSuccessStories } from '@/components/marketing/sections/ntcli
 import { Page } from '@/components/ui/page';
 
 export const metadata: Metadata = {
-    title: 'Customer Success Stories',
-    description:
-        'Discover how our customers have achieved great success with our resource management and production planning solutions. Real customer testimonials and case studies.'
+  title: 'Customer Success Stories',
+  description:
+    'Discover how our customers have achieved great success with our resource management and production planning solutions. Real customer testimonials and case studies.'
 };
 
 export default function SuccessStoriesPage(): React.JSX.Element {
-    return (
-        <Page>
-            <NTClipboardSuccessStories />
-        </Page>
-    );
+  return (
+    <Page>
+      <NTClipboardSuccessStories />
+    </Page>
+  );
 }

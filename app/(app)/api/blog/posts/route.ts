@@ -1,7 +1,11 @@
 import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
 
-import { fetchAllPosts, fetchPostById, transformPayloadPostToPost } from '@/lib/api/payload-cms';
+import {
+  fetchAllPosts,
+  fetchPostById,
+  transformPayloadPostToPost
+} from '@/lib/api/payload-cms';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
@@ -48,7 +52,8 @@ export async function GET(request: NextRequest) {
     return NextResponse.json(
       {
         success: false,
-        error: error instanceof Error ? error.message : 'Failed to fetch blog posts'
+        error:
+          error instanceof Error ? error.message : 'Failed to fetch blog posts'
       },
       { status: 500 }
     );

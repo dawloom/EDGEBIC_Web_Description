@@ -2,7 +2,8 @@
  * Payload CMS API utility functions
  */
 
-const PAYLOAD_API_URL = process.env.NEXT_PUBLIC_PAYLOAD_URL || 'http://localhost:3000';
+const PAYLOAD_API_URL =
+  process.env.NEXT_PUBLIC_PAYLOAD_URL || 'http://localhost:3000';
 
 export interface PayloadPost {
   id: string | number;
@@ -64,9 +65,12 @@ export interface PayloadPostsResponse {
  */
 export async function fetchAllPages(): Promise<PayloadPost[]> {
   try {
-    const response = await fetch(`${PAYLOAD_API_URL}/api/pages?limit=1000&depth=1`, {
-      next: { revalidate: 60 }
-    });
+    const response = await fetch(
+      `${PAYLOAD_API_URL}/api/pages?limit=1000&depth=1`,
+      {
+        next: { revalidate: 60 }
+      }
+    );
 
     if (!response.ok) {
       console.error('Failed to fetch pages:', response.statusText);
@@ -87,9 +91,12 @@ export async function fetchAllPages(): Promise<PayloadPost[]> {
  */
 export async function fetchAllPostsOnly(): Promise<PayloadPost[]> {
   try {
-    const response = await fetch(`${PAYLOAD_API_URL}/api/posts?limit=1000&depth=1`, {
-      next: { revalidate: 60 }
-    });
+    const response = await fetch(
+      `${PAYLOAD_API_URL}/api/posts?limit=1000&depth=1`,
+      {
+        next: { revalidate: 60 }
+      }
+    );
 
     if (!response.ok) {
       console.error('Failed to fetch posts:', response.statusText);
@@ -119,7 +126,9 @@ export async function fetchAllPosts(): Promise<PayloadPost[]> {
     // Combine all content
     const allContent = [...pages, ...posts];
 
-    console.log(`Total blog content fetched: ${allContent.length} (${pages.length} pages + ${posts.length} posts)`);
+    console.log(
+      `Total blog content fetched: ${allContent.length} (${pages.length} pages + ${posts.length} posts)`
+    );
 
     return allContent;
   } catch (error) {
@@ -152,20 +161,30 @@ export async function fetchPostById(id: string): Promise<PayloadPost | null> {
 /**
  * Fetch a single post by slug from Payload CMS
  */
-export async function fetchPostBySlug(slug: string): Promise<PayloadPost | null> {
+export async function fetchPostBySlug(
+  slug: string
+): Promise<PayloadPost | null> {
   try {
-    const response = await fetch(`${PAYLOAD_API_URL}/api/posts?where[slug][equals]=${slug}&limit=1`, {
-      next: { revalidate: 60 }
-    });
+    const response = await fetch(
+      `${PAYLOAD_API_URL}/api/posts?where[slug][equals]=${slug}&limit=1`,
+      {
+        next: { revalidate: 60 }
+      }
+    );
 
     if (!response.ok) {
-      throw new Error(`Failed to fetch post with slug ${slug}: ${response.statusText}`);
+      throw new Error(
+        `Failed to fetch post with slug ${slug}: ${response.statusText}`
+      );
     }
 
     const data: PayloadPostsResponse = await response.json();
     return data.docs[0] || null;
   } catch (error) {
-    console.error(`Error fetching post with slug ${slug} from Payload CMS:`, error);
+    console.error(
+      `Error fetching post with slug ${slug} from Payload CMS:`,
+      error
+    );
     return null;
   }
 }
@@ -210,34 +229,34 @@ export function transformPayloadPostToPost(post: PayloadPost) {
 
   // Extract description from content if not available
   const contentText = extractTextFromContent(contentSource);
-  const description = post.description ||
-                      post.meta?.description ||
-                      contentText.substring(0, 150) ||
-                      '';
+  const description =
+    post.description ||
+    post.meta?.description ||
+    contentText.substring(0, 150) ||
+    '';
 
   // Get category from categories array or use default
-  const category = post.category ||
-                   (post.categories && post.categories.length > 0 ? post.categories[0] : null) ||
-                   'General';
+  const category =
+    post.category ||
+    (post.categories && post.categories.length > 0
+      ? post.categories[0]
+      : null) ||
+    'General';
 
   // Get author from authors array or use default
   const firstAuthor = post.populatedAuthors?.[0] || post.authors?.[0];
-  const authorName = post.author?.name ||
-                     firstAuthor?.name ||
-                     'EDGEBIC Team';
-  const authorAvatar = post.author?.avatar?.url ||
-                       firstAuthor?.avatar?.url;
+  const authorName = post.author?.name || firstAuthor?.name || 'EDGEBIC Team';
+  const authorAvatar = post.author?.avatar?.url || firstAuthor?.avatar?.url;
 
   // Get featured image from various possible sources
-  const featuredImageUrl = post.featuredImage?.url ||
-                           post.heroImage?.url ||
-                           post.hero?.media?.url;
+  const featuredImageUrl =
+    post.featuredImage?.url || post.heroImage?.url || post.hero?.media?.url;
 
   // Construct full URL for featured image if it's a relative path
   const featuredImage = featuredImageUrl
-    ? (featuredImageUrl.startsWith('http')
-        ? featuredImageUrl
-        : `${PAYLOAD_API_URL}${featuredImageUrl}`)
+    ? featuredImageUrl.startsWith('http')
+      ? featuredImageUrl
+      : `${PAYLOAD_API_URL}${featuredImageUrl}`
     : undefined;
 
   return {

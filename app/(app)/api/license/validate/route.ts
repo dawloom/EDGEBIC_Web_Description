@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { z } from 'zod';
+
 import { prisma } from '@/lib/db/prisma';
 import { LicenseKeyGenerator } from '@/lib/license/license-key-generator';
 
@@ -12,7 +13,8 @@ const validateLicenseSchema = z.object({
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
-    const { licenseKey, systemFingerprint, processorId } = validateLicenseSchema.parse(body);
+    const { licenseKey, systemFingerprint, processorId } =
+      validateLicenseSchema.parse(body);
 
     // Hash the license key for lookup
     const licenseKeyHash = LicenseKeyGenerator.hashLicenseKey(licenseKey);
@@ -38,7 +40,10 @@ export async function POST(request: NextRequest) {
     }
 
     // Verify system fingerprint and processor ID
-    if (purchase.systemFingerprint !== systemFingerprint || purchase.processorId !== processorId) {
+    if (
+      purchase.systemFingerprint !== systemFingerprint ||
+      purchase.processorId !== processorId
+    ) {
       return NextResponse.json(
         { valid: false, error: 'System validation failed' },
         { status: 403 }
@@ -51,7 +56,6 @@ export async function POST(request: NextRequest) {
       activatedAt: purchase.activatedAt,
       customerName: purchase.customerName
     });
-
   } catch (error) {
     console.error('License validation error:', error);
 

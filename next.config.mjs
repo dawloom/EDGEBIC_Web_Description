@@ -1,6 +1,6 @@
-import { withPayload } from "@payloadcms/next/withPayload";
 import { withContentCollections } from '@content-collections/next';
 import withBundleAnalyzer from '@next/bundle-analyzer';
+import { withPayload } from '@payloadcms/next/withPayload';
 import { createSecureHeaders } from 'next-secure-headers';
 
 const bundleAnalyzerConfig = withBundleAnalyzer({
@@ -130,4 +130,6 @@ const nextConfig = {
   }
 };
 
-export default withPayload(withContentCollections(bundleAnalyzerConfig(nextConfig)));
+export default withPayload(
+  withContentCollections(bundleAnalyzerConfig(nextConfig))
+);

@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 
 import { DashboardOverview } from '@/components/dashboard/dashboard-overview';
-import { getPurchaseStats } from '@/data/purchases/get-purchases';
 import { getYouTubeVideo } from '@/data/organization/get-youtube-video';
+import { getPurchaseStats } from '@/data/purchases/get-purchases';
 import { createTitle } from '@/lib/utils';
 
 export const metadata: Metadata = {

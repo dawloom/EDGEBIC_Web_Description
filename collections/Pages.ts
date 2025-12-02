@@ -77,7 +77,8 @@ export const Pages: CollectionConfig = {
                   name: 'url',
                   type: 'text',
                   admin: {
-                    condition: (data, siblingData) => siblingData?.type === 'custom'
+                    condition: (data, siblingData) =>
+                      siblingData?.type === 'custom'
                   }
                 },
                 {

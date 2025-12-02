@@ -4,10 +4,11 @@ import * as React from 'react';
 import type { Metadata, Viewport } from 'next';
 import { Inter } from 'next/font/google';
 
-import { Providers } from './providers';
 import { Toaster } from '@/components/ui/sonner';
 import { AppInfo } from '@/constants/app-info';
 import { getBaseUrl } from '@/lib/urls/get-base-url';
+
+import { Providers } from './providers';
 
 export const viewport: Viewport = {
   width: 'device-width',

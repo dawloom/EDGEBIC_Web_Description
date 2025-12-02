@@ -1,6 +1,6 @@
 /**
  * HubSpot Sync Service
- * 
+ *
  * This module handles syncing contact data from your application to HubSpot CRM.
  * It provides functions to automatically send user data when contacts are created or updated.
  */

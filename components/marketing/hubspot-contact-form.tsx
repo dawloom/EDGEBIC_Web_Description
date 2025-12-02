@@ -1,17 +1,18 @@
 /**
  * Contact Form Component
- * 
+ *
  * This component provides a contact form that automatically syncs
  * submissions to HubSpot CRM via the /api/contact endpoint.
- * 
+ *
  * Place this component in your marketing pages.
  */
 
 'use client';
 
 import { useState } from 'react';
-import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
+import { useForm } from 'react-hook-form';
+import { toast } from 'sonner';
 import { z } from 'zod';
 
 import { Button } from '@/components/ui/button';
@@ -25,7 +26,6 @@ import {
 } from '@/components/ui/form';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
-import { toast } from 'sonner';
 
 const contactFormSchema = z.object({
   name: z.string().min(1, 'Name is required').max(255),
@@ -66,7 +66,7 @@ export function HubSpotContactForm() {
       const result = await response.json();
 
       if (result.success) {
-        toast.success('Thank you! We\'ll be in touch soon.');
+        toast.success("Thank you! We'll be in touch soon.");
         form.reset();
       } else {
         toast.error('Something went wrong. Please try again.');
@@ -89,7 +89,10 @@ export function HubSpotContactForm() {
       </div>
 
       <Form {...form}>
-        <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-4">
+        <form
+          onSubmit={form.handleSubmit(onSubmit)}
+          className="space-y-4"
+        >
           <FormField
             control={form.control}
             name="name"
@@ -97,7 +100,10 @@ export function HubSpotContactForm() {
               <FormItem>
                 <FormLabel>Name *</FormLabel>
                 <FormControl>
-                  <Input placeholder="John Doe" {...field} />
+                  <Input
+                    placeholder="John Doe"
+                    {...field}
+                  />
                 </FormControl>
                 <FormMessage />
               </FormItem>
@@ -129,7 +135,10 @@ export function HubSpotContactForm() {
               <FormItem>
                 <FormLabel>Phone</FormLabel>
                 <FormControl>
-                  <Input placeholder="+1 (555) 123-4567" {...field} />
+                  <Input
+                    placeholder="+1 (555) 123-4567"
+                    {...field}
+                  />
                 </FormControl>
                 <FormMessage />
               </FormItem>
@@ -143,7 +152,10 @@ export function HubSpotContactForm() {
               <FormItem>
                 <FormLabel>Company</FormLabel>
                 <FormControl>
-                  <Input placeholder="Acme Inc" {...field} />
+                  <Input
+                    placeholder="Acme Inc"
+                    {...field}
+                  />
                 </FormControl>
                 <FormMessage />
               </FormItem>
@@ -168,7 +180,11 @@ export function HubSpotContactForm() {
             )}
           />
 
-          <Button type="submit" className="w-full" disabled={isSubmitting}>
+          <Button
+            type="submit"
+            className="w-full"
+            disabled={isSubmitting}
+          >
             {isSubmitting ? 'Submitting...' : 'Send Message'}
           </Button>
         </form>

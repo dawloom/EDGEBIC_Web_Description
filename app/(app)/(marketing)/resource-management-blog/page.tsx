@@ -4,15 +4,15 @@ import { ResourceManagementBlog } from '@/components/marketing/sections/resource
 import { Page } from '@/components/ui/page';
 
 export const metadata: Metadata = {
-    title: 'Resource Management Blog',
-    description:
-        'Insights, tips, and best practices for resource management in manufacturing and production planning.'
+  title: 'Resource Management Blog',
+  description:
+    'Insights, tips, and best practices for resource management in manufacturing and production planning.'
 };
 
 export default function ResourceManagementBlogPage() {
-    return (
-        <Page>
-            <ResourceManagementBlog />
-        </Page>
-    );
+  return (
+    <Page>
+      <ResourceManagementBlog />
+    </Page>
+  );
 }

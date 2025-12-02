@@ -55,12 +55,12 @@ export default function JobSchedulerLitePage(): React.JSX.Element {
               <div className="grid items-center gap-8 md:grid-cols-2">
                 <div>
                   <p className="text-lg leading-relaxed text-muted-foreground">
-                    Welcome to EDGEBIC  . Designed as an entry
-                    level production scheduling offering that allows users to
-                    quickly create a series of routing steps then schedule
-                    according to capacity limitations, direction (Forward or
-                    Reverse), and Priorities. It also offers a quick method to
-                    load data either directly or importing from an Excel sheet.
+                    Welcome to EDGEBIC . Designed as an entry level production
+                    scheduling offering that allows users to quickly create a
+                    series of routing steps then schedule according to capacity
+                    limitations, direction (Forward or Reverse), and Priorities.
+                    It also offers a quick method to load data either directly
+                    or importing from an Excel sheet.
                   </p>
                 </div>
                 <div className="overflow-hidden rounded-lg shadow-lg">

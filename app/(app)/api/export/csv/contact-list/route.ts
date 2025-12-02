@@ -8,7 +8,6 @@ import { checkSession } from '@/lib/auth/session';
 import { prisma } from '@/lib/db/prisma';
 import { exportCsvContactListSchema } from '@/schemas/contacts/export-csv-contact-list-schema';
 
-
 enum ContactColumn {
   Name = 'name',
   Email = 'email',

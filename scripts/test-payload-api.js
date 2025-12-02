@@ -52,18 +52,26 @@ async function testPayloadAPI() {
       // Test fetching single page by ID
       if (samplePage.id) {
         console.log(`🔍 Testing single page fetch with ID: ${samplePage.id}`);
-        const singleResponse = await fetch(`${PAYLOAD_API_URL}/${samplePage.id}`);
+        const singleResponse = await fetch(
+          `${PAYLOAD_API_URL}/${samplePage.id}`
+        );
 
         if (singleResponse.ok) {
           const singleData = await singleResponse.json();
           console.log('✅ Single page fetch successful!\n');
           console.log('📄 Single Page Data:');
           console.log('─────────────────────────────');
-          console.log(JSON.stringify({
-            id: singleData.id,
-            title: singleData.title,
-            slug: singleData.slug
-          }, null, 2));
+          console.log(
+            JSON.stringify(
+              {
+                id: singleData.id,
+                title: singleData.title,
+                slug: singleData.slug
+              },
+              null,
+              2
+            )
+          );
           console.log('─────────────────────────────\n');
         } else {
           console.log('⚠️  Single page fetch failed\n');
@@ -77,16 +85,19 @@ async function testPayloadAPI() {
       console.log('   • Ready to display on blog page');
     } else {
       console.log('⚠️  No pages found in Payload CMS');
-      console.log('💡 Make sure you have created some pages in your Payload CMS');
+      console.log(
+        '💡 Make sure you have created some pages in your Payload CMS'
+      );
     }
-
   } catch (error) {
     console.error('\n❌ Error testing Payload API:');
     console.error('─────────────────────────────');
     console.error(error.message);
     console.error('─────────────────────────────\n');
     console.error('💡 Troubleshooting:');
-    console.error('   1. Make sure Payload CMS is running at http://localhost:3000');
+    console.error(
+      '   1. Make sure Payload CMS is running at http://localhost:3000'
+    );
     console.error('   2. Check if the /api/pages endpoint exists');
     console.error('   3. Verify CORS settings allow localhost connections');
   }

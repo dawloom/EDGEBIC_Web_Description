@@ -5,7 +5,6 @@ import { useTheme } from 'next-themes';
 import { useFormContext } from 'react-hook-form';
 
 import { ThemeOption } from '@/components/dashboard/settings/account/profile/theme-option';
-import { NextButton } from '@/components/ui/onboarding/next-button';
 import {
   FormControl,
   FormField,
@@ -13,6 +12,7 @@ import {
   FormLabel,
   FormMessage
 } from '@/components/ui/form';
+import { NextButton } from '@/components/ui/onboarding/next-button';
 import { RadioCardItem, RadioCards } from '@/components/ui/radio-card';
 import { cn } from '@/lib/utils';
 import { type CompleteUserOnboardingSchema } from '@/schemas/onboarding/complete-user-onboarding-schema';

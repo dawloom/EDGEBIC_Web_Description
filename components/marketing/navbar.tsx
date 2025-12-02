@@ -114,7 +114,7 @@ export function Navbar(): React.JSX.Element {
                               (item.href === Routes.Root
                                 ? pathname === '/'
                                 : pathname.startsWith(item.href)) &&
-                              'border-blue-600 text-blue-600 dark:border-blue-400 dark:text-blue-400'
+                                'border-blue-600 text-blue-600 dark:border-blue-400 dark:text-blue-400'
                             )}
                           >
                             {item.title}

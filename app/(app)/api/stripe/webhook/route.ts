@@ -143,12 +143,18 @@ export async function POST(req: NextRequest): Promise<Response> {
               const taxAmount = totalAmount - subtotalAmount;
               const currency = checkoutSession.currency || 'usd';
 
-              console.log(`Payment processed - Total: ${totalAmount}, Subtotal: ${subtotalAmount}, Tax: ${taxAmount}`);
+              console.log(
+                `Payment processed - Total: ${totalAmount}, Subtotal: ${subtotalAmount}, Tax: ${taxAmount}`
+              );
 
               // Generate license key
               const tempPurchaseId = `temp_${Date.now()}`;
-              const licenseKey = LicenseKeyGenerator.generateLicenseKey(tempPurchaseId, customerEmail);
-              const licenseKeyHash = LicenseKeyGenerator.hashLicenseKey(licenseKey);
+              const licenseKey = LicenseKeyGenerator.generateLicenseKey(
+                tempPurchaseId,
+                customerEmail
+              );
+              const licenseKeyHash =
+                LicenseKeyGenerator.hashLicenseKey(licenseKey);
 
               // Create purchase record with license key
               const purchase = await prisma.purchase.create({
@@ -168,8 +174,12 @@ export async function POST(req: NextRequest): Promise<Response> {
               });
 
               // Update license key with actual purchase ID
-              const finalLicenseKey = LicenseKeyGenerator.generateLicenseKey(purchase.id, customerEmail);
-              const finalLicenseKeyHash = LicenseKeyGenerator.hashLicenseKey(finalLicenseKey);
+              const finalLicenseKey = LicenseKeyGenerator.generateLicenseKey(
+                purchase.id,
+                customerEmail
+              );
+              const finalLicenseKeyHash =
+                LicenseKeyGenerator.hashLicenseKey(finalLicenseKey);
 
               await prisma.purchase.update({
                 where: { id: purchase.id },
@@ -179,7 +189,9 @@ export async function POST(req: NextRequest): Promise<Response> {
                 }
               });
 
-              console.log(`Purchase completed for ${customerEmail} with license key generated`);
+              console.log(
+                `Purchase completed for ${customerEmail} with license key generated`
+              );
             } catch (error) {
               console.error('Error creating purchase record:', error);
             }

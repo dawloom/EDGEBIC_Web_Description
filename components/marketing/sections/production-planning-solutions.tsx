@@ -187,8 +187,9 @@ export function ProductionPlanningSolutions(): React.JSX.Element {
             <div className="relative w-full overflow-hidden rounded-xl border bg-white shadow-lg transition-shadow hover:shadow-xl dark:border-slate-700 dark:bg-slate-900">
               {/* Badge */}
               <div
-                className={`absolute right-4 top-4 z-10 transition-opacity duration-300 ${isStarterVideoPlaying ? 'opacity-0' : 'opacity-100'
-                  }`}
+                className={`absolute right-4 top-4 z-10 transition-opacity duration-300 ${
+                  isStarterVideoPlaying ? 'opacity-0' : 'opacity-100'
+                }`}
               >
                 <span className="rounded-full bg-blue-500 px-3 py-1 text-xs font-semibold text-white">
                   STARTER
@@ -259,8 +260,9 @@ export function ProductionPlanningSolutions(): React.JSX.Element {
             <div className="relative w-full overflow-hidden rounded-xl border bg-white shadow-lg transition-shadow hover:shadow-xl dark:border-slate-700 dark:bg-slate-900">
               {/* Badge */}
               <div
-                className={`absolute right-4 top-4 z-10 transition-opacity duration-300 ${isAdvancedVideoPlaying ? 'opacity-0' : 'opacity-100'
-                  }`}
+                className={`absolute right-4 top-4 z-10 transition-opacity duration-300 ${
+                  isAdvancedVideoPlaying ? 'opacity-0' : 'opacity-100'
+                }`}
               >
                 <span className="rounded-full bg-orange-500 px-3 py-1 text-xs font-semibold text-white">
                   POPULAR
@@ -332,8 +334,9 @@ export function ProductionPlanningSolutions(): React.JSX.Element {
             <div className="relative w-full overflow-hidden rounded-xl border bg-white shadow-lg transition-shadow hover:shadow-xl dark:border-slate-700 dark:bg-slate-900">
               {/* Badge */}
               <div
-                className={`absolute right-4 top-4 z-10 transition-opacity duration-300 ${isPremiumVideoPlaying ? 'opacity-0' : 'opacity-100'
-                  }`}
+                className={`absolute right-4 top-4 z-10 transition-opacity duration-300 ${
+                  isPremiumVideoPlaying ? 'opacity-0' : 'opacity-100'
+                }`}
               >
                 <span className="rounded-full bg-purple-500 px-3 py-1 text-xs font-semibold text-white">
                   PREMIUM

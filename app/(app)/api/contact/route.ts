@@ -1,9 +1,9 @@
 /**
  * Public Contact Form API Route
- * 
+ *
  * This route handles contact form submissions from your marketing pages
  * and automatically syncs them to HubSpot CRM.
- * 
+ *
  * POST /api/contact
  */
 

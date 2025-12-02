@@ -15,11 +15,11 @@ type BlogPostProps = {
     published: string;
     category: string;
     author:
-    | {
-      name?: string;
-      avatar?: string;
-    }
-    | undefined;
+      | {
+          name?: string;
+          avatar?: string;
+        }
+      | undefined;
     body?: {
       raw: string;
       code: string;
@@ -38,7 +38,8 @@ export function BlogPost({ post }: BlogPostProps): React.JSX.Element {
     ? extractTextFromLexical(post.content)
     : post.body?.raw || '';
 
-  const PAYLOAD_URL = process.env.NEXT_PUBLIC_PAYLOAD_URL || 'http://localhost:3001';
+  const PAYLOAD_URL =
+    process.env.NEXT_PUBLIC_PAYLOAD_URL || 'http://localhost:3001';
 
   // Helper to get full media URL
   const getMediaUrl = (url?: string) => {
@@ -145,9 +146,14 @@ export function BlogPost({ post }: BlogPostProps): React.JSX.Element {
               {post.layout.map((block: any, index: number) => {
                 if (block.blockType === 'mediaBlock') {
                   return (
-                    <div key={block.id || index} className="space-y-4">
+                    <div
+                      key={block.id || index}
+                      className="space-y-4"
+                    >
                       {block.blockName && (
-                        <h3 className="text-xl font-semibold">{block.blockName}</h3>
+                        <h3 className="text-xl font-semibold">
+                          {block.blockName}
+                        </h3>
                       )}
                       {block.media && (
                         <img
@@ -162,24 +168,31 @@ export function BlogPost({ post }: BlogPostProps): React.JSX.Element {
 
                 if (block.blockType === 'cta') {
                   return (
-                    <div key={block.id || index} className="space-y-4 p-6 bg-accent/50 rounded-lg">
+                    <div
+                      key={block.id || index}
+                      className="space-y-4 p-6 bg-accent/50 rounded-lg"
+                    >
                       {block.blockName && (
-                        <h3 className="text-xl font-semibold">{block.blockName}</h3>
+                        <h3 className="text-xl font-semibold">
+                          {block.blockName}
+                        </h3>
                       )}
                       {block.richText && (
                         <LexicalRenderer content={block.richText} />
                       )}
                       {block.links && block.links.length > 0 && (
                         <div className="flex gap-4">
-                          {block.links.map((linkItem: any, linkIndex: number) => (
-                            <a
-                              key={linkIndex}
-                              href={linkItem.link?.url || '#'}
-                              className="inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground hover:bg-primary/90"
-                            >
-                              {linkItem.link?.label || 'Learn More'}
-                            </a>
-                          ))}
+                          {block.links.map(
+                            (linkItem: any, linkIndex: number) => (
+                              <a
+                                key={linkIndex}
+                                href={linkItem.link?.url || '#'}
+                                className="inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground hover:bg-primary/90"
+                              >
+                                {linkItem.link?.label || 'Learn More'}
+                              </a>
+                            )
+                          )}
                         </div>
                       )}
                     </div>

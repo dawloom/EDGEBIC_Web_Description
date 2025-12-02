@@ -1,6 +1,6 @@
 /**
  * HubSpot CRM API Client
- * 
+ *
  * This module provides a client for interacting with HubSpot's CRM API.
  * It handles authentication and provides methods for creating/updating contacts.
  */

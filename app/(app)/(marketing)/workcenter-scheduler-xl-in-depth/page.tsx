@@ -166,7 +166,9 @@ export default function WorkcenterSchedulerXLInDepthPage() {
                   simple stages:
                 </p>
 
-                <h3 className="text-2xl font-semibold text-foreground">1. Default & System Definition</h3>
+                <h3 className="text-2xl font-semibold text-foreground">
+                  1. Default & System Definition
+                </h3>
                 <p className="text-lg leading-relaxed text-muted-foreground">
                   The first stage consists of default definition, including:
                   Global daily defaults, Holidays, Workcenters defined, and
@@ -174,7 +176,9 @@ export default function WorkcenterSchedulerXLInDepthPage() {
                   workcenters).
                 </p>
 
-                <h3 className="text-2xl font-semibold text-foreground">2. Build & Schedule Jobs</h3>
+                <h3 className="text-2xl font-semibold text-foreground">
+                  2. Build & Schedule Jobs
+                </h3>
                 <p className="text-lg leading-relaxed text-muted-foreground">
                   Then Jobs are 'Built' with Customer name, Job Number, start
                   date, and a super easy method for sequencing workcenters.
@@ -195,7 +199,9 @@ export default function WorkcenterSchedulerXLInDepthPage() {
                   meet due dates.
                 </p>
 
-                <h3 className="text-2xl font-semibold text-foreground">3. Execution</h3>
+                <h3 className="text-2xl font-semibold text-foreground">
+                  3. Execution
+                </h3>
                 <p className="text-lg leading-relaxed text-muted-foreground">
                   The third and final stage consists of using and reporting on
                   the schedules created in stage two.
@@ -334,7 +340,9 @@ export default function WorkcenterSchedulerXLInDepthPage() {
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-6">
-                <h3 className="text-2xl font-semibold text-foreground">Freezing A Job</h3>
+                <h3 className="text-2xl font-semibold text-foreground">
+                  Freezing A Job
+                </h3>
                 <p className="text-lg leading-relaxed text-muted-foreground">
                   To allow for an accurate, up-to-date schedule, the user can
                   now call up any Job and update when complete. This feature,
@@ -350,7 +358,9 @@ export default function WorkcenterSchedulerXLInDepthPage() {
                   priority order, capacity available, etc.
                 </p>
 
-                <h3 className="text-2xl font-semibold text-foreground">Priority List & Workcenter Tracking</h3>
+                <h3 className="text-2xl font-semibold text-foreground">
+                  Priority List & Workcenter Tracking
+                </h3>
                 <p className="text-lg leading-relaxed text-muted-foreground">
                   In summary, with the Priority List, Workcenter Tracking, and
                   ability to Unschedule and/or Reschedule any Jobs with a click
@@ -363,15 +373,18 @@ export default function WorkcenterSchedulerXLInDepthPage() {
                 </p>
 
                 <p className="text-sm italic">
-                  <strong className="font-semibold text-foreground">Note:</strong> If your routings are not linear (one
-                  after another, single branch), or if you have more advanced
-                  scheduling and tracking requirements, or need more flexibility
-                  for data integration with other systems, or need multi-user
-                  access (instead of one person with edit control and others
-                  with read only), we highly recommend you take a look at
-                  Resource Manager-DB. We'd be glad to meet with you and run
-                  through that system with YOUR data and solve your most
-                  pressing challenges in the easiest way possible!
+                  <strong className="font-semibold text-foreground">
+                    Note:
+                  </strong>{' '}
+                  If your routings are not linear (one after another, single
+                  branch), or if you have more advanced scheduling and tracking
+                  requirements, or need more flexibility for data integration
+                  with other systems, or need multi-user access (instead of one
+                  person with edit control and others with read only), we highly
+                  recommend you take a look at Resource Manager-DB. We'd be glad
+                  to meet with you and run through that system with YOUR data
+                  and solve your most pressing challenges in the easiest way
+                  possible!
                 </p>
               </CardContent>
             </Card>

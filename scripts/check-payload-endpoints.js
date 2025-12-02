@@ -30,7 +30,9 @@ async function checkEndpoints() {
 
         // Show structure
         if (data.docs) {
-          console.log(`   📊 Total docs: ${data.totalDocs || data.docs.length}`);
+          console.log(
+            `   📊 Total docs: ${data.totalDocs || data.docs.length}`
+          );
           if (data.docs.length > 0) {
             console.log(`   📄 Sample fields:`, Object.keys(data.docs[0]));
           }
@@ -49,7 +51,9 @@ async function checkEndpoints() {
   console.log('\n💡 Next steps:');
   console.log('   1. Check your Payload CMS admin panel');
   console.log('   2. Look at the sidebar to see collection names');
-  console.log('   3. Try the endpoint: http://localhost:3001/api/{collection-name}');
+  console.log(
+    '   3. Try the endpoint: http://localhost:3001/api/{collection-name}'
+  );
 }
 
 checkEndpoints();

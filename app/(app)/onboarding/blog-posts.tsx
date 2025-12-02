@@ -7,9 +7,12 @@ import { GridSection } from '@/components/marketing/fragments/grid-section';
 import { SiteHeading } from '@/components/marketing/fragments/site-heading';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { FillRemainingSpace } from '@/components/ui/fill-remaining-space';
+import {
+  fetchAllPages,
+  transformPayloadPostToPost
+} from '@/lib/api/payload-cms';
 import { getBaseUrl } from '@/lib/urls/get-base-url';
 import { getInitials } from '@/lib/utils';
-import { fetchAllPages, transformPayloadPostToPost } from '@/lib/api/payload-cms';
 
 export async function BlogPosts(): Promise<React.JSX.Element> {
   // Fetch posts from Payload CMS
@@ -26,7 +29,10 @@ export async function BlogPosts(): Promise<React.JSX.Element> {
         />
         {posts.length === 0 ? (
           <div className="text-center py-12">
-            <p className="text-muted-foreground">No posts found. Make sure your Payload CMS is running at http://localhost:3000</p>
+            <p className="text-muted-foreground">
+              No posts found. Make sure your Payload CMS is running at
+              http://localhost:3000
+            </p>
           </div>
         ) : (
           <div className="grid gap-x-12 gap-y-6 divide-y md:grid-cols-2 md:gap-x-6 md:divide-none xl:grid-cols-3">

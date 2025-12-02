@@ -89,7 +89,9 @@ export default function WorkcenterSchedulerXLPage() {
                   For more robust planning, scheduling, tracking, and
                   integration options please review Resource Manager-DB).
                 </p>
-                <p className="text-lg leading-relaxed text-muted-foreground">WCXL provides an easy method for:</p>
+                <p className="text-lg leading-relaxed text-muted-foreground">
+                  WCXL provides an easy method for:
+                </p>
                 <ul>
                   <li>Step 1: Entering resource definitions.</li>
                   <li>
