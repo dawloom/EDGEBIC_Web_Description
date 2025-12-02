@@ -71,6 +71,7 @@ export enum Routes {
 
   Home = '/dashboard',
   Contacts = '/dashboard/contacts',
+  Inventory = '/dashboard/inventory',
   Settings = '/dashboard/settings',
   Account = '/dashboard/settings/account',
   Profile = '/dashboard/settings/account/profile',
