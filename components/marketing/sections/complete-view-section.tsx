@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 export function CompleteViewSection(): React.JSX.Element {
     return (
-        <section className="bg-white py-16 dark:bg-slate-900 md:py-24">
+        <section className="bg-white py-6 dark:bg-slate-900 md:py-24">
             <div className="mx-auto max-w-7xl px-6">
                 <div className="lg:flex lg:items-center lg:gap-12">
                     <div className="space-y-6 lg:w-1/3">

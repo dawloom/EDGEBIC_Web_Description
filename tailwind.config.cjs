@@ -71,6 +71,38 @@ module.exports = {
         md: 'calc(var(--radius) - 2px)',
         sm: 'calc(var(--radius) - 4px)'
       },
+      fontSize: {
+        xs: '0.75rem',
+        sm: '0.875rem',
+        base: '1.125rem', // 18px
+        lg: '1.25rem',
+        xl: '1.5rem',
+        '2xl': '1.75rem',
+        '3xl': '2rem',
+        '4xl': '2.5rem',
+        '5xl': '3rem',
+        '6xl': '3.75rem',
+        '7xl': '4.5rem',
+        '8xl': '6rem',
+        '9xl': '8rem'
+      },
+      lineHeight: {
+        'extra-tight': '1.1',
+        tight: '1.25',
+        snug: '1.375',
+        normal: '1.5',
+        relaxed: '1.625',
+        loose: '1.75',
+        'extra-loose': '2',
+        3: '.75rem',
+        4: '1rem',
+        5: '1.25rem',
+        6: '1.5rem',
+        7: '1.75rem',
+        8: '2rem',
+        9: '2.25rem',
+        10: '2.5rem'
+      },
       keyframes: {
         'accordion-down': {
           from: {

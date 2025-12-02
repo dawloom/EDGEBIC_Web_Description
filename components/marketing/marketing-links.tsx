@@ -33,110 +33,18 @@ export const MENU_LINKS = [
     external: false
   },
   {
-    title: 'Features',
-    items: [
-      {
-        title: 'All Features',
-        description: 'Complete feature overview',
-        icon: <ZapIcon className="size-5 shrink-0" />,
-        href: Routes.Features,
-        external: false
-      },
-      {
-        title: 'Summary Features',
-        description: 'Key capabilities at a glance',
-        icon: <FileTextIcon className="size-5 shrink-0" />,
-        href: Routes.SummaryFeatures,
-        external: false
-      },
-      {
-        title: 'Why User Solutions?',
-        description: 'What makes us unique',
-        icon: <BookIcon className="size-5 shrink-0" />,
-        href: Routes.WhyUserSolutions,
-        external: false
-      }
-    ]
+    title: 'Product',
+    description: 'Our product offerings',
+    icon: <PackageIcon className="size-5 shrink-0" />,
+    href: Routes.JobSchedulerLite,
+    external: false
   },
   {
-    title: 'Company',
-    items: [
-      {
-        title: 'Mission',
-        description: 'Our company mission and vision',
-        icon: <BookIcon className="size-5 shrink-0" />,
-        href: Routes.Mission,
-        external: false
-      },
-      {
-        title: 'Values',
-        description: 'Our core company values',
-        icon: <ZapIcon className="size-5 shrink-0" />,
-        href: Routes.Values,
-        external: false
-      },
-      {
-        title: 'History',
-        description: '30+ years of manufacturing excellence',
-        icon: <FileTextIcon className="size-5 shrink-0" />,
-        href: Routes.History,
-        external: false
-      },
-      {
-        title: 'Partners',
-        description: 'Our manufacturing software partners',
-        icon: <HandshakeIcon className="size-5 shrink-0" />,
-        href: Routes.Partners,
-        external: false
-      }
-    ]
-  },
-  {
-    title: 'Products',
-    items: [
-      {
-        title: 'EDGEBIC',
-        description: 'Entry-level production scheduling for job shops',
-        icon: <ClipboardIcon className="size-5 shrink-0" />,
-        href: Routes.JobSchedulerLite,
-        external: false
-      },
-      {
-        title: 'Operations Manager',
-        description: 'Excel templates for production and operations management',
-        icon: <ClipboardIcon className="size-5 shrink-0" />,
-        href: Routes.OperationsManager,
-        external: false
-      },
-      {
-        title: 'Production Planning',
-        description: 'Production planning and scheduling solutions',
-        icon: <Factory className="size-5 shrink-0" />,
-        href: Routes.ProductionPlanning,
-        external: false
-      },
-      {
-        title: 'Product Downloads',
-        description: 'Download free trials and samples of our software',
-        icon: <DownloadIcon className="size-5 shrink-0" />,
-        href: Routes.ProductDownloads,
-        external: false
-      },
-      {
-        title: 'Product Videos',
-        description: 'Watch software demonstrations and tutorials',
-        icon: <MonitorIcon className="size-5 shrink-0" />,
-        href: Routes.ProductVideos,
-        external: false
-      },
-      {
-        title: 'Excel Templates',
-        description: 'Excel applications for manufacturing scheduling',
-        icon: <FileTextIcon className="size-5 shrink-0" />,
-        href: Routes.ExcelTemplates,
-        external: false
-      }
-    ]
+    title: 'Success Stories',
+    description: 'Customer testimonials and case studies',
+    icon: <ZapIcon className="size-5 shrink-0" />,
+    href: Routes.SuccessStories,
+    external: false
   },
   {
     title: 'Resources',
@@ -157,7 +65,7 @@ export const MENU_LINKS = [
       },
       {
         title: 'Blog',
-        description: 'Insights, articles, and updates from Payload CMS',
+        description: 'Insights, articles, and updates',
         icon: <BookIcon className="size-5 shrink-0" />,
         href: Routes.Blog,
         external: false
@@ -165,74 +73,40 @@ export const MENU_LINKS = [
     ]
   },
   {
-    title: 'Contact',
-    description: 'Reach out for assistance',
-    icon: <PaperPlaneIcon className="size-5 shrink-0" />,
-    href: Routes.ContactUs,
-    external: false
-  },
-  {
-    title: 'Solutions',
-    description: 'Manufacturing solutions portfolio',
-    icon: <PackageIcon className="size-5 shrink-0" />,
-    href: Routes.Solutions,
-    external: false
-  },
-  {
-    title: 'About Us',
+    title: 'About',
     description: 'Meet our team and learn our story',
     icon: <BookIcon className="size-5 shrink-0" />,
     href: Routes.About,
     external: false
   },
   {
-    title: 'Success Stories',
-    description: 'Customer testimonials and case studies',
-    icon: <ZapIcon className="size-5 shrink-0" />,
-    href: Routes.SuccessStories,
+    title: 'News',
+    description: 'Latest news and updates',
+    icon: <NewspaperIcon className="size-5 shrink-0" />,
+    href: Routes.News,
+    external: false
+  },
+  {
+    title: 'Excel Templates',
+    description: 'Excel applications for manufacturing scheduling',
+    icon: <FileTextIcon className="size-5 shrink-0" />,
+    href: Routes.ExcelTemplates,
+    external: false
+  },
+  {
+    title: 'Free Trial and Samples',
+    description: 'Download free trials and samples of our software',
+    icon: <DownloadIcon className="size-5 shrink-0" />,
+    href: Routes.ProductDownloads,
+    external: false
+  },
+  {
+    title: 'Contact US',
+    description: 'Reach out for assistance',
+    icon: <PaperPlaneIcon className="size-5 shrink-0" />,
+    href: Routes.ContactUs,
     external: false
   }
-  // {
-  //   title: 'Resources',
-  //   items: [
-  //     {
-  //       title: 'Contact',
-  //       description: 'Reach out for assistance',
-  //       icon: <PaperPlaneIcon className="size-5 shrink-0" />,
-  //       href: Routes.Contact,
-  //       external: false
-  //     },
-  //     {
-  //       title: 'Roadmap',
-  //       description: 'See what is coming next',
-  //       icon: <MapIcon className="size-5 shrink-0" />,
-  //       href: Routes.Roadmap,
-  //       external: true
-  //     },
-  //     {
-  //       title: 'Docs',
-  //       description: 'Learn how to use our platform',
-  //       icon: <BookOpenIcon className="size-5 shrink-0" />,
-  //       href: Routes.Docs,
-  //       external: false
-  //     }
-  //   ]
-  // },
-  // {
-  // title: 'Pricing',
-  // href: Routes.Pricing,
-  // external: false
-  // },
-  // {
-  //   title: 'Blog',
-  //   href: Routes.Blog,
-  //   external: false
-  // },
-  // {
-  //   title: 'Story',
-  //   href: Routes.Story,
-  //   external: false
-  // }
 ];
 
 export const FOOTER_LINKS: Array<{

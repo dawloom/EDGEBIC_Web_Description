@@ -5,11 +5,11 @@ import Link from 'next/link';
 
 export function ManufacturingFeatureSection(): React.JSX.Element {
     return (
-        <section className="bg-white py-16 dark:bg-slate-900 md:py-24">
+        <section className="bg-white py-6 dark:bg-slate-900 md:py-24">
             <div className="mx-auto max-w-7xl px-6">
                 <div className="lg:grid lg:grid-cols-3 lg:items-center lg:gap-8">
                     <div className="space-y-6">
-                        <h2 className="text-2xl font-bold text-[#003d5c] dark:text-white md:text-3xl lg:text-4xl">
+                        <h2 className="text-2xl font-bold text-[#003d5c] dark:text-white ">
                             EDGEBIC simplifies production planning and scheduling
                         </h2>
                         <div>
@@ -1214,7 +1214,7 @@ export function ManufacturingFeatureSection(): React.JSX.Element {
                 </div>
 
                 {/* Integrated Manufacturing Software for Business Growth */}
-                <div className="mt-32">
+                <div className="mt-6">
                     <h2 className="text-center text-3xl font-bold text-[#003d5c] dark:text-white md:text-4xl">
                         Integrated Manufacturing Software for Business Growth
                     </h2>
@@ -1349,7 +1349,7 @@ export function ManufacturingFeatureSection(): React.JSX.Element {
                 </div>
 
                 {/* Testimonials Section */}
-                <div className="mt-32">
+                <div className="mt-6">
                     {/* Star Rating */}
                     <div className="mb-6 flex justify-center">
                         <div className="flex gap-2">
@@ -1366,7 +1366,7 @@ export function ManufacturingFeatureSection(): React.JSX.Element {
                     </h2>
 
                     {/* Testimonial Cards */}
-                    <div className="mt-16 grid gap-8 md:grid-cols-3">
+                    <div className="mt-6 grid gap-8 md:grid-cols-3">
                         {/* Testimonial 1 */}
                         <div className="flex flex-col items-center text-center">
                             <div className="relative mb-4">
@@ -1444,29 +1444,55 @@ export function ManufacturingFeatureSection(): React.JSX.Element {
                     </div>
 
                     {/* Customer Logos */}
-                    <div className="mt-20">
-                        <h3 className="mb-12 text-center text-2xl font-bold text-[#003d5c] dark:text-white">
+                    <div className="mt-20 rounded-lg bg-slate-800 p-12 dark:bg-slate-900">
+                        <h3 className="mb-12 text-center text-2xl font-bold text-white">
                             Some of our customers
                         </h3>
-                        <div className="grid grid-cols-2 items-center justify-items-center gap-8 md:grid-cols-3 lg:grid-cols-6">
-                            <div className="flex h-20 w-32 items-center justify-center">
-                                <span className="text-2xl font-bold text-slate-400">accenture</span>
-                            </div>
-                            <div className="flex h-20 w-32 items-center justify-center">
-                                <span className="text-xl font-bold text-slate-400">AniCell Biotech</span>
-                            </div>
-                            <div className="flex h-20 w-32 items-center justify-center">
-                                <span className="text-2xl font-bold text-slate-400">ASSA ABLOY</span>
-                            </div>
-                            <div className="flex h-20 w-32 items-center justify-center">
-                                <span className="text-2xl font-bold text-slate-400">GUARDIAN</span>
-                            </div>
-                            <div className="flex h-20 w-32 items-center justify-center">
-                                <span className="text-2xl font-bold text-slate-400">PolyCraft</span>
-                            </div>
-                            <div className="flex h-20 w-32 items-center justify-center">
-                                <span className="text-xl font-bold text-slate-400">YAMAHA AGRICULTURE</span>
-                            </div>
+                        <div className="grid grid-cols-2 items-center justify-items-center gap-8 md:grid-cols-4">
+                            <a 
+                                href="https://lifecore.com/" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                className="flex h-20 w-32 items-center justify-center transition-opacity hover:opacity-75"
+                            >
+                                <img 
+                                    src="https://lifecore.com/wp-content/uploads/2025/11/Lifecore-Inj-CDMO_Logo_REV_v2.png" 
+                                    alt="Lifecore" 
+                                    className="h-auto w-full object-contain"
+                                />
+                            </a>
+                            <a 
+                                href="https://www.viking-forge.com/" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                className="flex h-20 w-32 items-center justify-center transition-opacity hover:opacity-75"
+                            >
+                                <img 
+                                    src="https://www.viking-forge.com/wp-content/uploads/2020/02/vklogo.jpg" 
+                                    alt="Viking Forge" 
+                                    className="h-auto w-full object-contain"
+                                />
+                            </a>
+                            <a 
+                                href="https://mtmmanufacturing.com/" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                className="flex h-20 w-32 items-center justify-center transition-opacity hover:opacity-75"
+                            >
+                                <span className="text-xl font-bold text-slate-600 dark:text-slate-300">MTM Manufacturing</span>
+                            </a>
+                            <a 
+                                href="https://www.dawloom.com/" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                className="flex h-20 w-32 items-center justify-center transition-opacity hover:opacity-75"
+                            >
+                                <img 
+                                    src="https://www.dawloom.com/logos/FULL%20COLOR%20NO%20BCKG.svg" 
+                                    alt="Dawloom" 
+                                    className="h-auto w-full object-contain"
+                                />
+                            </a>
                         </div>
                     </div>
 
