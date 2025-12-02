@@ -7,8 +7,11 @@ import { GridSection } from '@/components/marketing/fragments/grid-section';
 import { SiteHeading } from '@/components/marketing/fragments/site-heading';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { FillRemainingSpace } from '@/components/ui/fill-remaining-space';
+import {
+  fetchAllPosts,
+  transformPayloadPostToPost
+} from '@/lib/api/payload-cms';
 import { getInitials } from '@/lib/utils';
-import { fetchAllPosts, transformPayloadPostToPost } from '@/lib/api/payload-cms';
 
 export async function BlogPosts(): Promise<React.JSX.Element> {
   // Fetch posts from Payload CMS
@@ -17,18 +20,26 @@ export async function BlogPosts(): Promise<React.JSX.Element> {
 
   return (
     <GridSection>
-      <div className="container space-y-20 py-20">
+      <div className="container space-y-20 pt-6">
         <SiteHeading
           badge="Blog Posts"
           title="Insights & News"
           description="Learn more from members of our team and industry-leading experts."
         />
         {posts.length === 0 ? (
-          <div className="text-center py-12">
-            <p className="text-muted-foreground">No posts found. Add blog posts in Payload CMS at <a href="/admin" className="underline">/admin</a></p>
+          <div className="pt-6 text-center">
+            <p className="text-muted-foreground">
+              No posts found. Add blog posts in Payload CMS at{' '}
+              <a
+                href="/admin"
+                className="underline"
+              >
+                /admin
+              </a>
+            </p>
           </div>
         ) : (
-          <div className="grid gap-x-12 gap-y-6 divide-y md:grid-cols-2 md:gap-x-6 md:divide-none xl:grid-cols-3">
+          <div className="!mt-6 grid gap-x-12 gap-y-6 divide-y md:grid-cols-2 md:gap-x-6 md:divide-none xl:grid-cols-3">
             {posts
               .slice()
               .sort((a, b) => (isBefore(a.published, b.published) ? 1 : -1))
