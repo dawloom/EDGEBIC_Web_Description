@@ -27,7 +27,7 @@ export function Navbar(): React.JSX.Element {
   const pathname = usePathname();
   return (
     <section className="w-full border-b bg-white dark:bg-slate-900">
-      <div className="mx-auto max-w-7xl px-6">
+      <div className="mx-auto px-6">
         <nav className="hidden h-20 items-center justify-between lg:flex">
           <Link
             href={Routes.Root}
@@ -35,7 +35,7 @@ export function Navbar(): React.JSX.Element {
           >
             <Logo />
           </Link>
-          <div className="flex items-center gap-x-8">
+          <div className="flex items-center gap-x-4">
             <div className="flex items-center">
               <NavigationMenu>
                 <NavigationMenuList className="gap-1">
@@ -110,7 +110,7 @@ export function Navbar(): React.JSX.Element {
                               item.external ? 'noopener noreferrer' : undefined
                             }
                             className={cn(
-                              'inline-flex h-20 items-center border-b-2 border-transparent px-4 text-[15px] font-medium text-slate-700 transition-colors hover:border-slate-900 hover:text-slate-900 dark:text-slate-300 dark:hover:border-white dark:hover:text-white',
+                              'inline-flex h-20 items-center border-b-2 border-transparent px-3 text-[15px] font-medium text-slate-700 transition-colors hover:border-slate-900 hover:text-slate-900 dark:text-slate-300 dark:hover:border-white dark:hover:text-white',
                               (item.href === Routes.Root
                                 ? pathname === '/'
                                 : pathname.startsWith(item.href)) &&
@@ -126,7 +126,7 @@ export function Navbar(): React.JSX.Element {
                 </NavigationMenuList>
               </NavigationMenu>
             </div>
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-2">
               <Link
                 href={Routes.Login}
                 className="px-4 py-2 text-[15px] font-medium text-slate-700 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white"

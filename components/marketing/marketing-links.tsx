@@ -27,66 +27,13 @@ import { Routes } from '@/constants/routes';
 export const MENU_LINKS = [
   {
     title: 'Home',
+    description: 'Return to homepage',
+    icon: <MonitorIcon className="size-5 shrink-0" />,
     href: Routes.Root,
     external: false
   },
   {
-    title: 'Industries',
-    items: [
-      {
-        title: 'Manufacturing',
-        description: 'Job shops and small manufacturers',
-        icon: <Factory className="size-5 shrink-0" />,
-        href: Routes.Solutions,
-        external: false
-      },
-      {
-        title: 'Production Planning',
-        description: 'Production planning and scheduling solutions',
-        icon: <ClipboardIcon className="size-5 shrink-0" />,
-        href: Routes.ProductionPlanning,
-        external: false
-      }
-    ]
-  },
-  {
-    title: 'Reviews',
-    href: Routes.SuccessStories,
-    external: false
-  },
-  {
-    title: 'Integrations',
-    href: Routes.Partners,
-    external: false
-  },
-  {
-    title: 'Pricing',
-    items: [
-      {
-        title: 'Excel Templates',
-        description: 'Excel applications for manufacturing - $39-$1,200',
-        icon: <FileTextIcon className="size-5 shrink-0" />,
-        href: Routes.ExcelTemplates,
-        external: false
-      },
-      {
-        title: 'EDGEBIC',
-        description: 'Entry-level production scheduling - Starting at $1,000',
-        icon: <ClipboardIcon className="size-5 shrink-0" />,
-        href: Routes.JobSchedulerLite,
-        external: false
-      },
-      {
-        title: 'Operations Manager',
-        description: 'Excel templates for operations management',
-        icon: <PackageIcon className="size-5 shrink-0" />,
-        href: Routes.OperationsManager,
-        external: false
-      }
-    ]
-  },
-  {
-    title: 'Resources',
+    title: 'Features',
     items: [
       {
         title: 'All Features',
@@ -96,41 +43,154 @@ export const MENU_LINKS = [
         external: false
       },
       {
+        title: 'Summary Features',
+        description: 'Key capabilities at a glance',
+        icon: <FileTextIcon className="size-5 shrink-0" />,
+        href: Routes.SummaryFeatures,
+        external: false
+      },
+      {
+        title: 'Why User Solutions?',
+        description: 'What makes us unique',
+        icon: <BookIcon className="size-5 shrink-0" />,
+        href: Routes.WhyUserSolutions,
+        external: false
+      }
+    ]
+  },
+  {
+    title: 'Company',
+    items: [
+      {
+        title: 'Mission',
+        description: 'Our company mission and vision',
+        icon: <BookIcon className="size-5 shrink-0" />,
+        href: Routes.Mission,
+        external: false
+      },
+      {
+        title: 'Values',
+        description: 'Our core company values',
+        icon: <ZapIcon className="size-5 shrink-0" />,
+        href: Routes.Values,
+        external: false
+      },
+      {
+        title: 'History',
+        description: '30+ years of manufacturing excellence',
+        icon: <FileTextIcon className="size-5 shrink-0" />,
+        href: Routes.History,
+        external: false
+      },
+      {
+        title: 'Partners',
+        description: 'Our manufacturing software partners',
+        icon: <HandshakeIcon className="size-5 shrink-0" />,
+        href: Routes.Partners,
+        external: false
+      }
+    ]
+  },
+  {
+    title: 'Products',
+    items: [
+      {
+        title: 'EDGEBIC',
+        description: 'Entry-level production scheduling for job shops',
+        icon: <ClipboardIcon className="size-5 shrink-0" />,
+        href: Routes.JobSchedulerLite,
+        external: false
+      },
+      {
+        title: 'Operations Manager',
+        description: 'Excel templates for production and operations management',
+        icon: <ClipboardIcon className="size-5 shrink-0" />,
+        href: Routes.OperationsManager,
+        external: false
+      },
+      {
+        title: 'Production Planning',
+        description: 'Production planning and scheduling solutions',
+        icon: <Factory className="size-5 shrink-0" />,
+        href: Routes.ProductionPlanning,
+        external: false
+      },
+      {
         title: 'Product Downloads',
-        description: 'Download free trials and samples',
+        description: 'Download free trials and samples of our software',
         icon: <DownloadIcon className="size-5 shrink-0" />,
         href: Routes.ProductDownloads,
         external: false
       },
       {
         title: 'Product Videos',
-        description: 'Watch software demonstrations',
+        description: 'Watch software demonstrations and tutorials',
         icon: <MonitorIcon className="size-5 shrink-0" />,
         href: Routes.ProductVideos,
         external: false
       },
       {
-        title: 'Blog',
-        description: 'Insights and articles',
+        title: 'Excel Templates',
+        description: 'Excel applications for manufacturing scheduling',
+        icon: <FileTextIcon className="size-5 shrink-0" />,
+        href: Routes.ExcelTemplates,
+        external: false
+      }
+    ]
+  },
+  {
+    title: 'Resources',
+    items: [
+      {
+        title: 'Resource Management',
+        description: 'Resource management insights and best practices',
         icon: <BookIcon className="size-5 shrink-0" />,
-        href: Routes.Blog,
+        href: Routes.ResourceManagement,
         external: false
       },
       {
         title: 'News',
-        description: 'Latest news and press releases',
+        description: 'Latest news, press releases, and media coverage',
         icon: <NewspaperIcon className="size-5 shrink-0" />,
         href: Routes.News,
         external: false
       },
       {
-        title: 'About Us',
-        description: 'Our story and mission',
+        title: 'Blog',
+        description: 'Insights, articles, and updates from Payload CMS',
         icon: <BookIcon className="size-5 shrink-0" />,
-        href: Routes.About,
+        href: Routes.Blog,
         external: false
       }
     ]
+  },
+  {
+    title: 'Contact',
+    description: 'Reach out for assistance',
+    icon: <PaperPlaneIcon className="size-5 shrink-0" />,
+    href: Routes.ContactUs,
+    external: false
+  },
+  {
+    title: 'Solutions',
+    description: 'Manufacturing solutions portfolio',
+    icon: <PackageIcon className="size-5 shrink-0" />,
+    href: Routes.Solutions,
+    external: false
+  },
+  {
+    title: 'About Us',
+    description: 'Meet our team and learn our story',
+    icon: <BookIcon className="size-5 shrink-0" />,
+    href: Routes.About,
+    external: false
+  },
+  {
+    title: 'Success Stories',
+    description: 'Customer testimonials and case studies',
+    icon: <ZapIcon className="size-5 shrink-0" />,
+    href: Routes.SuccessStories,
+    external: false
   }
   // {
   //   title: 'Resources',
