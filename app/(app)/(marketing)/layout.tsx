@@ -3,7 +3,6 @@ import * as React from 'react';
 import { Footer } from '@/components/marketing/footer';
 import { CookieBanner } from '@/components/marketing/fragments/cookie-banner';
 import { Navbar } from '@/components/marketing/navbar';
-import { TopHeader } from '@/components/marketing/top-header';
 // import { AnnouncementBar } from '@/components/ui/announcement-bar';
 import { BackToTop } from '@/components/ui/back-to-top';
 import { FloatingCTA } from '@/components/ui/floating-cta';
@@ -18,7 +17,6 @@ export default function MarketingLayout(
       <ScrollProgress />
       {/* Uncomment to enable announcement bar */}
       {/* <AnnouncementBar /> */}
-      <TopHeader />
       <Navbar />
       <PageTransition>{props.children}</PageTransition>
       <Footer />
