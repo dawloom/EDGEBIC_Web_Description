@@ -66,124 +66,111 @@ export function HeroContent(): React.JSX.Element {
   }, []);
 
   return (
-    <div
-      className="relative !mt-0 w-full bg-cover bg-center bg-no-repeat"
-      style={{
-        backgroundImage:
-          'url("https://www.usersolutions.com/wp-content/uploads/2022/12/slide4.jpg")'
-      }}
-    >
+    <div className="relative w-full bg-white dark:bg-slate-900">
       {/* Main Hero Content */}
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.6 }}
-        className="flex min-h-[500px] flex-col items-center justify-center px-4 pb-20 pt-16 text-center text-white"
-      >
-        {/* Main Title */}
-        <h1 className="mb-6 text-4xl font-bold text-white md:text-5xl lg:text-6xl">
-          Production Planning and Scheduling Software
-        </h1>
-
-        {/* Description */}
-        <div className="mb-6 max-w-4xl text-lg md:text-xl lg:text-2xl">
-          <p className="mb-4">
-            What makes <span className="font-bold italic">US</span> (User
-            Solution) unique: we work{' '}
-            <span className="font-bold italic">with you</span> to solve
-            production scheduling
-          </p>
-          <p>
-            challenges <span className="font-bold italic">your way</span>.
-            Benefit from an adaptable and affordable solution that will fit you
-            like a glove.
-          </p>
-        </div>
-
-        {/* Action Buttons */}
-        <div className="mb-6 flex flex-col gap-4 sm:flex-row">
-          <button
-            onClick={handleFirstVideoButtonClick}
-            className="flex items-center gap-2 rounded-full bg-yellow-400 px-6 py-3 font-semibold text-black transition-all hover:bg-yellow-300 hover:shadow-lg"
+      <div className="mx-auto max-w-7xl p-6">
+        <div className="grid items-center gap-12 lg:grid-cols-2">
+          {/* Left Column - Text Content */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            className="space-y-8"
           >
-            <Play className="size-5" />
-            NEXT STEPS - PLAY 30 SEC VIDEO
-          </button>
-          <button
-            onClick={handleSecondVideoButtonClick}
-            className="flex items-center gap-2 rounded-full bg-yellow-400 px-6 py-3 font-semibold text-black transition-all hover:bg-yellow-300 hover:shadow-lg"
-          >
-            <PlayCircle className="size-5" />
-            90 SEC COMPANY OVERVIEW
-          </button>
-        </div>
+            {/* Main Title */}
+            <h1 className="text-[1.75rem]  leading-tight text-slate-900 dark:text-white md:text-[2.5rem] lg:text-[3rem]">
+              Production Planning and Scheduling Software
+            </h1>
 
-        {/* Bottom Tagline */}
-        <div className="text-center">
-          <p className="text-xl font-bold text-yellow-300 md:text-2xl">
-            LESS TRAINING | QUICKER IMPLEMENTATION | FASTER RETURN
-          </p>
-        </div>
-      </motion.div>
+            {/* Subtitle */}
+            <p className="text-base leading-relaxed text-slate-600 dark:text-slate-300 md:text-lg">
+              Ideal for companies with 10 - 200 employees
+            </p>
 
-      {/* Integrated Latest News Banner */}
-      <div className="!min-w-lg absolute inset-x-0 bottom-0 bg-blue-600/90 p-4 text-white shadow-2xl backdrop-blur-sm">
-        <div className="container flex items-center justify-center gap-8">
-          {/* Latest News Section - Centered */}
-          <div className="flex items-center gap-4">
-            <div className="shrink-0">
-              <span className="rounded bg-white/20 px-4 py-2 text-sm font-bold uppercase tracking-wide">
-                Latest News
-              </span>
+            {/* Description */}
+            <div className="space-y-4 text-base leading-relaxed text-slate-600 dark:text-slate-400">
+              <p>
+                What makes <span className="font-semibold italic">US</span>{' '}
+                (User Solution) unique: we work{' '}
+                <span className="font-semibold italic">with you</span> to solve
+                production scheduling challenges{' '}
+                <span className="font-semibold italic">your way</span>. Benefit
+                from an adaptable and affordable solution that will fit you like
+                a glove.
+              </p>
             </div>
 
-            {/* Navigation and Content */}
-            <div className="flex items-center gap-3">
+            {/* Action Buttons */}
+            <div className="flex flex-col gap-4 sm:flex-row">
               <button
-                onClick={prevSlide}
-                className="flex size-8 items-center justify-center rounded-full bg-white/20 text-white transition-all hover:bg-white/30"
-                aria-label="Previous news"
+                onClick={handleFirstVideoButtonClick}
+                className="inline-flex items-center justify-center gap-2 rounded bg-[#004a8f] px-8 py-3.5 text-base font-semibold text-white transition-colors hover:bg-[#003d75]"
               >
-                <ChevronLeft className="size-4" />
+                Free Trial
               </button>
+              <button
+                onClick={handleSecondVideoButtonClick}
+                className="inline-flex items-center justify-center gap-2 rounded bg-transparent px-8 py-3.5 text-base font-semibold text-slate-700 transition-colors hover:bg-slate-50 dark:text-slate-300 dark:hover:bg-slate-800"
+              >
+                <Play className="size-5 fill-current" />
+                See how it works
+              </button>
+            </div>
 
-              <div className="min-w-0 max-w-md overflow-hidden">
-                <AnimatePresence mode="wait">
-                  <motion.div
-                    key={currentNewsIndex}
-                    initial={{ opacity: 0, x: 100 }}
-                    animate={{ opacity: 1, x: 0 }}
-                    exit={{ opacity: 0, x: -100 }}
-                    transition={{ duration: 0.8, ease: 'easeOut' }}
-                    className=" text-center text-sm font-medium"
+            {/* Ratings/Reviews Section */}
+            <div className="flex flex-col gap-3">
+              <div className="flex items-center gap-1">
+                {[...Array(5)].map((_, i) => (
+                  <svg
+                    key={i}
+                    className="size-5 fill-yellow-400"
+                    viewBox="0 0 20 20"
                   >
-                    {newsItems[currentNewsIndex]}
-                  </motion.div>
-                </AnimatePresence>
+                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                  </svg>
+                ))}
+                <span className="ml-2 text-sm text-slate-600 dark:text-slate-400">
+                  Top-Rated Manufacturing Software
+                </span>
               </div>
-
-              <button
-                onClick={nextSlide}
-                className="flex size-8 items-center justify-center rounded-full bg-white/20 text-white transition-all hover:bg-white/30"
-                aria-label="Next news"
-              >
-                <ChevronRight className="size-4" />
-              </button>
+              <div className="flex items-center gap-4">
+                {/* G2 Logo */}
+                <img
+                  src="https://www.mrpeasy.com/wp-content/uploads/2024/11/g2-logo.svg"
+                  alt="G2"
+                  className="h-6"
+                />
+                {/* Capterra Logo */}
+                <img
+                  src="https://www.mrpeasy.com/wp-content/uploads/2024/11/capterra-logo.svg"
+                  alt="Capterra"
+                  className="h-6"
+                />
+                {/* Software Advice Logo */}
+                <img
+                  src="https://www.mrpeasy.com/wp-content/uploads/2024/11/software-advice-logo-1.svg"
+                  alt="Software Advice"
+                  className="h-6"
+                />
+              </div>
             </div>
-          </div>
+          </motion.div>
 
-          {/* Students Section Button */}
-          <div className="shrink-0">
-            <Link
-              href="/students"
-              target="_blank"
-              className="flex items-center gap-2 rounded bg-white/20 px-4 py-2 text-sm font-bold transition-all hover:bg-white/30 hover:shadow-lg"
-            >
-              <GraduationCap className="size-4" />
-              <span className="hidden sm:inline">Students Section</span>
-              <span className="sm:hidden">Students</span>
-            </Link>
-          </div>
+          {/* Right Column - Image/Illustration */}
+          <motion.div
+            initial={{ opacity: 0, scale: 0.95 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+            className="relative hidden lg:block"
+          >
+            <div className="relative h-[300px] w-full">
+              <img
+                src="https://www.usersolutions.com/wp-content/uploads/2022/12/slide4.jpg"
+                alt="Production Planning Software"
+                className="size-full rounded-lg object-cover shadow-2xl"
+              />
+            </div>
+          </motion.div>
         </div>
       </div>
 
