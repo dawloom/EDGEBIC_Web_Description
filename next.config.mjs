@@ -50,6 +50,18 @@ const nextConfig = {
       {
         protocol: 'https',
         hostname: 'images.unsplash.com'
+      },
+      {
+        protocol: 'https',
+        hostname: 'lifecore.com'
+      },
+      {
+        protocol: 'https',
+        hostname: 'www.viking-forge.com'
+      },
+      {
+        protocol: 'https',
+        hostname: 'www.dawloom.com'
       }
     ]
   },

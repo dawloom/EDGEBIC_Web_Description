@@ -616,6 +616,14 @@ export function ManufacturingFeatureSection(): React.JSX.Element {
               Optimize resource utilization with drag-and-drop schedule
               adjustments and real-time reporting for better decision making.
             </p>
+            <div>
+              <Link
+                href="/production-scheduling-products"
+                className="inline-flex items-center justify-center rounded-md border-2 border-[#003d5c] bg-transparent px-5 py-2 text-sm font-semibold text-[#003d5c] transition-colors hover:bg-[#003d5c] hover:text-white focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 dark:border-white dark:text-white dark:hover:bg-white dark:hover:text-slate-900"
+              >
+                View Details
+              </Link>
+            </div>
           </div>
         </div>
 
@@ -629,6 +637,14 @@ export function ManufacturingFeatureSection(): React.JSX.Element {
               capacity scheduling, and optimize workcenter loading with visual
               heat maps and what-if analysis capabilities.
             </p>
+            <div className="mt-6">
+              <Link
+                href="/production-scheduling-products"
+                className="inline-flex items-center justify-center rounded-md border-2 border-[#003d5c] bg-transparent px-5 py-2 text-sm font-medium text-[#003d5c] transition-all duration-200 hover:bg-[#003d5c] hover:text-white focus:outline-none focus:ring-2 focus:ring-[#003d5c] focus:ring-offset-2 dark:border-white dark:text-white dark:hover:bg-white dark:hover:text-[#003d5c] dark:focus:ring-white dark:focus:ring-offset-slate-900"
+              >
+                View Details
+              </Link>
+            </div>
           </div>
           <div className="flex items-center justify-center lg:col-start-2">
             <svg
@@ -1530,6 +1546,14 @@ export function ManufacturingFeatureSection(): React.JSX.Element {
               No more spreadsheets! Ensure seamless communication between sales,
               production, warehousing, procurement, administration, and finance.
             </p>
+            <div className="mt-6">
+              <Link
+                href="/production-scheduling-products"
+                className="inline-flex items-center justify-center rounded-md border-2 border-[#003d5c] bg-transparent px-5 py-2 text-sm font-medium text-[#003d5c] transition-all duration-200 hover:bg-[#003d5c] hover:text-white focus:outline-none focus:ring-2 focus:ring-[#003d5c] focus:ring-offset-2 dark:border-white dark:text-white dark:hover:bg-white dark:hover:text-[#003d5c] dark:focus:ring-white dark:focus:ring-offset-slate-900"
+              >
+                View Details
+              </Link>
+            </div>
           </div>
         </div>
 
@@ -1543,6 +1567,14 @@ export function ManufacturingFeatureSection(): React.JSX.Element {
               Prevent stock-outs, lower inventory levels, automate inventory
               transactions, view purchase requirements, track lots, and more.
             </p>
+            <div className="mt-6">
+              <Link
+                href="/production-scheduling-products"
+                className="inline-flex items-center justify-center rounded-md border-2 border-[#003d5c] bg-transparent px-5 py-2 text-sm font-medium text-[#003d5c] transition-all duration-200 hover:bg-[#003d5c] hover:text-white focus:outline-none focus:ring-2 focus:ring-[#003d5c] focus:ring-offset-2 dark:border-white dark:text-white dark:hover:bg-white dark:hover:text-[#003d5c] dark:focus:ring-white dark:focus:ring-offset-slate-900"
+              >
+                View Details
+              </Link>
+            </div>
           </div>
 
           <div className="flex items-center justify-center lg:col-start-2">
@@ -2127,11 +2159,11 @@ export function ManufacturingFeatureSection(): React.JSX.Element {
           <div className="mt-16 grid gap-12 md:grid-cols-2 lg:grid-cols-3">
             {/* Production Planning */}
             <div className="flex flex-col items-center text-center">
-              <div className="mb-6 flex h-20 w-20 items-center justify-center">
+              <div className="mb-6 flex size-20 items-center justify-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 64 64"
-                  className="h-16 w-16"
+                  className="size-16"
                 >
                   <rect
                     x="12"
@@ -2211,11 +2243,11 @@ export function ManufacturingFeatureSection(): React.JSX.Element {
 
             {/* Inventory */}
             <div className="flex flex-col items-center text-center">
-              <div className="mb-6 flex h-20 w-20 items-center justify-center">
+              <div className="mb-6 flex size-20 items-center justify-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 64 64"
-                  className="h-16 w-16"
+                  className="size-16"
                 >
                   <rect
                     x="20"
@@ -2261,11 +2293,11 @@ export function ManufacturingFeatureSection(): React.JSX.Element {
 
             {/* Sales Management */}
             <div className="flex flex-col items-center text-center">
-              <div className="mb-6 flex h-20 w-20 items-center justify-center">
+              <div className="mb-6 flex size-20 items-center justify-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 64 64"
-                  className="h-16 w-16"
+                  className="size-16"
                 >
                   <rect
                     x="12"
@@ -2323,11 +2355,11 @@ export function ManufacturingFeatureSection(): React.JSX.Element {
 
             {/* Workforce */}
             <div className="flex flex-col items-center text-center">
-              <div className="mb-6 flex h-20 w-20 items-center justify-center">
+              <div className="mb-6 flex size-20 items-center justify-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 64 64"
-                  className="h-16 w-16"
+                  className="size-16"
                 >
                   <circle
                     cx="32"
@@ -2377,11 +2409,11 @@ export function ManufacturingFeatureSection(): React.JSX.Element {
 
             {/* Procurement */}
             <div className="flex flex-col items-center text-center">
-              <div className="mb-6 flex h-20 w-20 items-center justify-center">
+              <div className="mb-6 flex size-20 items-center justify-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 64 64"
-                  className="h-16 w-16"
+                  className="size-16"
                 >
                   <rect
                     x="16"
@@ -2422,11 +2454,11 @@ export function ManufacturingFeatureSection(): React.JSX.Element {
 
             {/* Finances */}
             <div className="flex flex-col items-center text-center">
-              <div className="mb-6 flex h-20 w-20 items-center justify-center">
+              <div className="mb-6 flex size-20 items-center justify-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 64 64"
-                  className="h-16 w-16"
+                  className="size-16"
                 >
                   <rect
                     x="12"
@@ -2499,7 +2531,7 @@ export function ManufacturingFeatureSection(): React.JSX.Element {
               {[...Array(5)].map((_, i) => (
                 <svg
                   key={i}
-                  className="h-6 w-6 fill-[#2FB8DE]"
+                  className="size-6 fill-[#2FB8DE]"
                   viewBox="0 0 24 24"
                 >
                   <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
@@ -2517,14 +2549,14 @@ export function ManufacturingFeatureSection(): React.JSX.Element {
             {/* Testimonial 1 */}
             <div className="flex flex-col items-center text-center">
               <div className="relative mb-4">
-                <div className="h-20 w-20 overflow-hidden rounded-full bg-slate-200">
-                  <div className="flex h-full w-full items-center justify-center text-2xl font-bold text-[#003d5c]">
+                <div className="size-20 overflow-hidden rounded-full bg-slate-200">
+                  <div className="flex size-full items-center justify-center text-2xl font-bold text-[#003d5c]">
                     SR
                   </div>
                 </div>
-                <div className="absolute -right-1 -top-1 flex h-8 w-8 items-center justify-center rounded-full bg-[#2FB8DE]">
+                <div className="absolute -right-1 -top-1 flex size-8 items-center justify-center rounded-full bg-[#2FB8DE]">
                   <svg
-                    className="h-5 w-5 fill-white"
+                    className="size-5 fill-white"
                     viewBox="0 0 24 24"
                   >
                     <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
@@ -2549,14 +2581,14 @@ export function ManufacturingFeatureSection(): React.JSX.Element {
             {/* Testimonial 2 */}
             <div className="flex flex-col items-center text-center">
               <div className="relative mb-4">
-                <div className="h-20 w-20 overflow-hidden rounded-full bg-slate-200">
-                  <div className="flex h-full w-full items-center justify-center text-2xl font-bold text-[#003d5c]">
+                <div className="size-20 overflow-hidden rounded-full bg-slate-200">
+                  <div className="flex size-full items-center justify-center text-2xl font-bold text-[#003d5c]">
                     BR
                   </div>
                 </div>
-                <div className="absolute -right-1 -top-1 flex h-8 w-8 items-center justify-center rounded-full bg-[#2FB8DE]">
+                <div className="absolute -right-1 -top-1 flex size-8 items-center justify-center rounded-full bg-[#2FB8DE]">
                   <svg
-                    className="h-5 w-5 fill-white"
+                    className="size-5 fill-white"
                     viewBox="0 0 24 24"
                   >
                     <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
@@ -2581,14 +2613,14 @@ export function ManufacturingFeatureSection(): React.JSX.Element {
             {/* Testimonial 3 */}
             <div className="flex flex-col items-center text-center">
               <div className="relative mb-4">
-                <div className="h-20 w-20 overflow-hidden rounded-full bg-slate-200">
-                  <div className="flex h-full w-full items-center justify-center text-2xl font-bold text-[#003d5c]">
+                <div className="size-20 overflow-hidden rounded-full bg-slate-200">
+                  <div className="flex size-full items-center justify-center text-2xl font-bold text-[#003d5c]">
                     BA
                   </div>
                 </div>
-                <div className="absolute -right-1 -top-1 flex h-8 w-8 items-center justify-center rounded-full bg-[#2FB8DE]">
+                <div className="absolute -right-1 -top-1 flex size-8 items-center justify-center rounded-full bg-[#2FB8DE]">
                   <svg
-                    className="h-5 w-5 fill-white"
+                    className="size-5 fill-white"
                     viewBox="0 0 24 24"
                   >
                     <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
@@ -2616,7 +2648,7 @@ export function ManufacturingFeatureSection(): React.JSX.Element {
             <h3 className="mb-12 text-center text-2xl font-bold text-white">
               Some of our customers
             </h3>
-            <div className="grid grid-cols-2 items-center justify-items-center gap-8 md:grid-cols-4">
+            <div className="grid grid-cols-2 place-items-center gap-8 md:grid-cols-4">
               <a
                 href="https://lifecore.com/"
                 target="_blank"
