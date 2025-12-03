@@ -153,6 +153,9 @@ const wrappedConfig = withPayload(
 // Force images configuration to prevent wrappers from overriding it
 wrappedConfig.images = nextConfig.images;
 
-console.log('Next.js images config:', JSON.stringify(wrappedConfig.images, null, 2));
+console.log(
+  'Next.js images config:',
+  JSON.stringify(wrappedConfig.images, null, 2)
+);
 
 export default wrappedConfig;
