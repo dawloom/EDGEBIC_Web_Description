@@ -10,7 +10,7 @@ type SitemapEntry = {
 };
 
 async function getMarketingPages(baseUrl: string): Promise<SitemapEntry[]> {
-  const marketingPath = path.join(process.cwd(), 'app', '(marketing)');
+  const marketingPath = path.join(process.cwd(), 'app', '(app)', '(marketing)');
   const entries = await fs.readdir(marketingPath, { withFileTypes: true });
   const routes: SitemapEntry[] = [];
 
