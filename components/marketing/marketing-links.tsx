@@ -36,7 +36,7 @@ export const MENU_LINKS = [
     title: 'Product',
     description: 'Our product offerings',
     icon: <PackageIcon className="size-5 shrink-0" />,
-    href: Routes.JobSchedulerLite,
+    href: Routes.ProductionPlanning,
     external: false
   },
   {

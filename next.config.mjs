@@ -145,6 +145,14 @@ const nextConfig = {
   }
 };
 
-export default withPayload(
+// Apply all wrappers first
+const wrappedConfig = withPayload(
   withContentCollections(bundleAnalyzerConfig(nextConfig))
 );
+
+// Force images configuration to prevent wrappers from overriding it
+wrappedConfig.images = nextConfig.images;
+
+console.log('Next.js images config:', JSON.stringify(wrappedConfig.images, null, 2));
+
+export default wrappedConfig;

@@ -1,18 +1,10 @@
 import * as React from 'react';
 import type { Metadata } from 'next';
 import Image from 'next/image';
-import Link from 'next/link';
-import { format } from 'date-fns';
-import { ArrowRightIcon } from 'lucide-react';
 
 import { SiteHeading } from '@/components/marketing/fragments/site-heading';
-import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { Card, CardContent } from '@/components/ui/card';
-import {
-  fetchAllPages,
-  transformPayloadPostToPost
-} from '@/lib/api/payload-cms';
-import { createTitle, getInitials } from '@/lib/utils';
+import { createTitle } from '@/lib/utils';
 
 export const metadata: Metadata = {
   title: createTitle('News'),
@@ -21,9 +13,6 @@ export const metadata: Metadata = {
 };
 
 export default async function NewsPage(): Promise<React.JSX.Element> {
-  // Fetch posts from Payload CMS
-  const pages = await fetchAllPages();
-  const posts = pages.map(transformPayloadPostToPost);
 
   return (
     <div className="container mx-auto max-w-7xl px-4 pt-6">
@@ -652,71 +641,6 @@ export default async function NewsPage(): Promise<React.JSX.Element> {
               </CardContent>
             </Card>
           </div>
-        </section>
-
-        {/* Payload CMS Blog Posts Section */}
-        <section className="py-6">
-          <h2 className="mb-10 text-3xl font-semibold">
-            Latest from Payload CMS
-          </h2>
-
-          {posts.length === 0 ? (
-            <div className="text-center py-6">
-              <p className="text-muted-foreground">
-                No posts found. Make sure your Payload CMS is running at
-                http://localhost:3000
-              </p>
-            </div>
-          ) : (
-            <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-              {posts.map((post, index) => (
-                <Link
-                  key={post.id || index}
-                  href={post.slug}
-                  className="group overflow-hidden rounded-lg bg-white shadow-md transition-shadow hover:shadow-xl dark:bg-gray-800"
-                >
-                  <div className="p-6">
-                    <div className="mb-4 flex items-center justify-between text-sm text-muted-foreground">
-                      <span className="rounded-full bg-blue-100 px-3 py-1 text-blue-800 dark:bg-blue-900/30 dark:text-blue-300">
-                        {post.category}
-                      </span>
-                      <time dateTime={post.published}>
-                        {format(post.published, 'MMM dd, yyyy')}
-                      </time>
-                    </div>
-
-                    <h3 className="mb-3 text-xl font-semibold line-clamp-2 group-hover:text-blue-600">
-                      {post.title}
-                    </h3>
-
-                    <p className="mb-4 text-sm text-muted-foreground line-clamp-3">
-                      {post.description}
-                    </p>
-
-                    <div className="flex items-center justify-between">
-                      <div className="flex items-center gap-2">
-                        <Avatar className="size-8">
-                          <AvatarImage
-                            src={post.author?.avatar}
-                            alt={post.author?.name}
-                          />
-                          <AvatarFallback className="text-xs">
-                            {getInitials(post.author?.name ?? '')}
-                          </AvatarFallback>
-                        </Avatar>
-                        <span className="text-sm">{post.author?.name}</span>
-                      </div>
-
-                      <div className="flex items-center gap-1 text-sm font-medium text-blue-600 group-hover:gap-2 transition-all">
-                        Read more
-                        <ArrowRightIcon className="size-4" />
-                      </div>
-                    </div>
-                  </div>
-                </Link>
-              ))}
-            </div>
-          )}
         </section>
       </div>
     </div>
