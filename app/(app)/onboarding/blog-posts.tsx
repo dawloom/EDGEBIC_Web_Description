@@ -28,7 +28,7 @@ export async function BlogPosts(): Promise<React.JSX.Element> {
           description="Learn more from members of our team and industry-leading experts."
         />
         {posts.length === 0 ? (
-          <div className="text-center py-12">
+          <div className="text-center py-6">
             <p className="text-muted-foreground">
               No posts found. Make sure your Payload CMS is running at
               http://localhost:3000

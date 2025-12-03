@@ -10,7 +10,7 @@ export default function NavigationDemoPage(): React.JSX.Element {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-blue-600 to-blue-800 py-12 text-white">
+      <section className="bg-gradient-to-r from-blue-600 to-blue-800 py-6 text-white">
         <div className="container mx-auto px-4">
           <Breadcrumbs className="mb-4 text-white/80" />
           <h1 className="mb-4 text-4xl font-bold">Navigation Demo Page</h1>
@@ -21,7 +21,7 @@ export default function NavigationDemoPage(): React.JSX.Element {
       </section>
 
       {/* Main Content */}
-      <section className="container mx-auto px-4 py-12">
+      <section className="container mx-auto px-4 py-6">
         <div className="mx-auto max-w-4xl space-y-8">
           <Card>
             <CardHeader>
@@ -109,7 +109,7 @@ export default function NavigationDemoPage(): React.JSX.Element {
           </Card>
 
           {/* Spacer content to enable scrolling */}
-          <div className="space-y-8 py-12">
+          <div className="space-y-8 py-6">
             <h2 className="text-2xl font-bold">
               Scroll Down to See More Features
             </h2>

@@ -42,7 +42,7 @@ export function CareersBenefits(): React.JSX.Element {
           {DATA.map((benefit, index) => (
             <div
               key={index}
-              className="border-dashed px-8 py-12"
+              className="border-dashed px-8 py-6"
             >
               <div className="mb-7 flex size-12 items-center justify-center rounded-2xl border bg-background shadow">
                 {benefit.icon}

@@ -655,13 +655,13 @@ export default async function NewsPage(): Promise<React.JSX.Element> {
         </section>
 
         {/* Payload CMS Blog Posts Section */}
-        <section className="py-12">
+        <section className="py-6">
           <h2 className="mb-10 text-3xl font-semibold">
             Latest from Payload CMS
           </h2>
 
           {posts.length === 0 ? (
-            <div className="text-center py-12">
+            <div className="text-center py-6">
               <p className="text-muted-foreground">
                 No posts found. Make sure your Payload CMS is running at
                 http://localhost:3000

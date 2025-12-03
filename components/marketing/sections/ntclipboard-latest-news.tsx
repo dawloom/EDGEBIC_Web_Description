@@ -73,7 +73,7 @@ export function LatestNewsSection(): React.JSX.Element {
 
   return (
     <GridSection hideVerticalGridLines>
-      <div className="container py-12">
+      <div className="container py-6">
         {/* Section Header */}
         <div className="mb-6 flex items-center justify-between">
           <h2 className="text-3xl font-bold text-gray-900 dark:text-white md:text-4xl">
@@ -148,11 +148,10 @@ export function LatestNewsSection(): React.JSX.Element {
                 <button
                   key={index}
                   onClick={() => setCurrentIndex(index)}
-                  className={`size-3 rounded-full transition-all ${
-                    index === currentIndex
+                  className={`size-3 rounded-full transition-all ${index === currentIndex
                       ? 'bg-blue-600 dark:bg-blue-400'
                       : 'bg-gray-300 hover:bg-gray-400 dark:bg-gray-600 dark:hover:bg-gray-500'
-                  }`}
+                    }`}
                   aria-label={`Go to slide ${index + 1}`}
                   title={`Go to slide ${index + 1}`}
                 />

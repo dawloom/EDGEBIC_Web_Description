@@ -257,7 +257,7 @@ export function NTClipboardExcelTemplates(): React.JSX.Element {
       </section>
 
       {/* Awards Banner */}
-      <section className="bg-background py-12">
+      <section className="bg-background py-6">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h3 className="mb-6 text-2xl font-bold text-foreground">

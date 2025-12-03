@@ -40,7 +40,7 @@ export function Problem(): React.JSX.Element {
             key={index}
             inView
             delay={0.2 + index * 0.2}
-            className="border-dashed px-8 py-12"
+            className="border-dashed px-8 py-6"
           >
             <div className="mb-7 flex size-12 items-center justify-center rounded-2xl border bg-background shadow">
               {statement.icon}

@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 export function ManufacturingFeatureSection(): React.JSX.Element {
   return (
-    <section className="bg-white py-6 dark:bg-slate-900 md:py-24">
+    <section className="bg-white py-6 dark:bg-slate-900">
       <div className="mx-auto max-w-7xl px-6">
         <div className="lg:grid lg:grid-cols-3 lg:items-center lg:gap-8">
           <div className="space-y-6">
@@ -22,7 +22,7 @@ export function ManufacturingFeatureSection(): React.JSX.Element {
             </div>
           </div>
 
-          <div className="mt-12 lg:mt-0">
+          <div className="mt-6 lg:mt-0">
             <div className="relative h-[300px] w-full lg:h-[350px]">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -607,7 +607,7 @@ export function ManufacturingFeatureSection(): React.JSX.Element {
             </div>
           </div>
 
-          <div className="mt-12 space-y-4 lg:mt-0">
+          <div className="mt-6 space-y-4 lg:mt-0">
             <h3 className="text-xl font-bold text-[#003d5c] dark:text-white md:text-2xl">
               Accurate production scheduling with real-time visibility
             </h3>
@@ -628,7 +628,7 @@ export function ManufacturingFeatureSection(): React.JSX.Element {
         </div>
 
         <div className="mt-16 lg:grid lg:grid-cols-3 lg:items-center lg:gap-8">
-          <div className="mt-12 space-y-4 lg:mt-0">
+          <div className="mt-6 space-y-4 lg:mt-0">
             <h3 className="text-xl font-bold text-[#003d5c] dark:text-white md:text-2xl">
               Integrated MRP and capacity planning
             </h3>
@@ -1538,7 +1538,7 @@ export function ManufacturingFeatureSection(): React.JSX.Element {
             </svg>
           </div>
 
-          <div className="mt-12 space-y-4 lg:mt-0">
+          <div className="mt-6 space-y-4 lg:mt-0">
             <h3 className="text-xl font-bold text-[#003d5c] dark:text-white md:text-2xl">
               A complete view of your business
             </h3>
@@ -1559,7 +1559,7 @@ export function ManufacturingFeatureSection(): React.JSX.Element {
 
         {/* Real-time inventory overview */}
         <div className="mt-16 lg:grid lg:grid-cols-3 lg:items-center lg:gap-8">
-          <div className="mt-12 space-y-4 lg:mt-0">
+          <div className="mt-6 space-y-4 lg:mt-0">
             <h3 className="text-xl font-bold text-[#003d5c] dark:text-white md:text-2xl">
               Real-time inventory overview
             </h3>
@@ -2513,7 +2513,7 @@ export function ManufacturingFeatureSection(): React.JSX.Element {
             </div>
           </div>
 
-          <div className="mt-12 flex justify-center">
+          <div className="mt-6 flex justify-center">
             <Link
               href="/features"
               className="inline-flex items-center justify-center rounded-md bg-[#2FB8DE] px-8 py-3 text-base font-semibold text-white transition-colors hover:bg-[#1da8ce] focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
@@ -2541,145 +2541,321 @@ export function ManufacturingFeatureSection(): React.JSX.Element {
           </div>
 
           <h2 className="text-center text-3xl font-bold text-[#003d5c] dark:text-white md:text-4xl">
-            More than 2000 manufacturers trust MRPeasy software
+            Trusted by Manufacturers Worldwide for Over 25 Years
           </h2>
 
           {/* Testimonial Cards */}
           <div className="mt-6 grid gap-8 md:grid-cols-3">
             {/* Testimonial 1 */}
-            <div className="flex flex-col items-center text-center">
-              <div className="relative mb-4">
-                <div className="size-20 overflow-hidden rounded-full bg-slate-200">
-                  <div className="flex size-full items-center justify-center text-2xl font-bold text-[#003d5c]">
-                    SR
+            <div className="flex flex-col rounded-lg border border-slate-200 bg-white p-6 shadow-sm transition-shadow hover:shadow-md dark:border-slate-700 dark:bg-slate-800">
+              <div className="mb-4 flex items-start gap-4">
+                <div className="relative shrink-0">
+                  <div className="flex size-16 items-center justify-center overflow-hidden rounded-full bg-slate-200">
+                    <span className="text-xl font-bold text-[#003d5c]">JK</span>
+                  </div>
+                  <div className="absolute -right-1 -top-1 flex size-6 items-center justify-center rounded-full bg-[#2FB8DE]">
+                    <svg
+                      className="size-4 fill-white"
+                      viewBox="0 0 24 24"
+                    >
+                      <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                    </svg>
                   </div>
                 </div>
-                <div className="absolute -right-1 -top-1 flex size-8 items-center justify-center rounded-full bg-[#2FB8DE]">
-                  <svg
-                    className="size-5 fill-white"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
-                  </svg>
+                <div className="flex-1 text-left">
+                  <h3 className="mb-1 font-bold text-[#003d5c] dark:text-white">
+                    Joel K.
+                  </h3>
+                  <p className="text-sm text-slate-600 dark:text-slate-400">
+                    Lean Facilitator
+                  </p>
+                  <p className="text-xs text-slate-500 dark:text-slate-500">
+                    Furniture
+                  </p>
                 </div>
               </div>
-              <h3 className="mb-1 font-bold text-[#003d5c] dark:text-white">
-                Sam Richmond
-              </h3>
-              <p className="mb-4 text-sm text-slate-600 dark:text-slate-400">
-                Development Director, Bender
+
+              <div className="mb-3 flex">
+                {[...Array(5)].map((_, i) => (
+                  <svg
+                    key={i}
+                    className="size-5 fill-[#FFC107]"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                  </svg>
+                ))}
+              </div>
+
+              <h4 className="mb-3 text-left text-lg font-semibold text-[#003d5c] dark:text-white">
+                "Flexible MRP with great ongoing support"
+              </h4>
+
+              <p className="mb-4 line-clamp-3 flex-1 text-left text-sm leading-relaxed text-slate-700 dark:text-slate-300">
+                A unique scheduling system with the flexibility we need for
+                custom jobs that have many variables, at the right price point.
+                User Solutions has great ongoing support needed for our
+                continuous improvement objectives after initial implementation.
               </p>
-              <p className="text-base leading-relaxed text-slate-700 dark:text-slate-300">
-                You guys are truly the best and the software is such a lifesaver
-                for small companies like ours. Also just a note, our ISO
-                auditors really liked everything that MRPeasy had. Everything is
-                documented within the system! And we do not need any additional
-                systems.
-              </p>
+
+              <div className="mt-auto pt-4">
+                <a
+                  href="https://www.capterra.com/p/9402/Resource-Manager-DB/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center text-sm font-medium text-[#2FB8DE] transition-colors hover:text-[#1da8ce] hover:underline"
+                >
+                  Read More
+                  <svg
+                    className="ml-1 size-4"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M9 5l7 7-7 7"
+                    />
+                  </svg>
+                </a>
+              </div>
             </div>
 
             {/* Testimonial 2 */}
-            <div className="flex flex-col items-center text-center">
-              <div className="relative mb-4">
-                <div className="size-20 overflow-hidden rounded-full bg-slate-200">
-                  <div className="flex size-full items-center justify-center text-2xl font-bold text-[#003d5c]">
-                    BR
+            <div className="flex flex-col rounded-lg border border-slate-200 bg-white p-6 shadow-sm transition-shadow hover:shadow-md dark:border-slate-700 dark:bg-slate-800">
+              <div className="mb-4 flex items-start gap-4">
+                <div className="relative shrink-0">
+                  <div className="flex size-16 items-center justify-center overflow-hidden rounded-full bg-slate-200">
+                    <span className="text-xl font-bold text-[#003d5c]">RK</span>
+                  </div>
+                  <div className="absolute -right-1 -top-1 flex size-6 items-center justify-center rounded-full bg-[#2FB8DE]">
+                    <svg
+                      className="size-4 fill-white"
+                      viewBox="0 0 24 24"
+                    >
+                      <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                    </svg>
                   </div>
                 </div>
-                <div className="absolute -right-1 -top-1 flex size-8 items-center justify-center rounded-full bg-[#2FB8DE]">
-                  <svg
-                    className="size-5 fill-white"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
-                  </svg>
+                <div className="flex-1 text-left">
+                  <h3 className="mb-1 font-bold text-[#003d5c] dark:text-white">
+                    Robert K.
+                  </h3>
+                  <p className="text-sm text-slate-600 dark:text-slate-400">
+                    Epicor ERP Consultant
+                  </p>
+                  <p className="text-xs text-slate-500 dark:text-slate-500">
+                    Management Consulting
+                  </p>
                 </div>
               </div>
-              <h3 className="mb-1 font-bold text-[#003d5c] dark:text-white">
-                Benjamin Ruffoni
-              </h3>
-              <p className="mb-4 text-sm text-slate-600 dark:text-slate-400">
-                CEO at Box Trot
+
+              <div className="mb-3 flex">
+                {[...Array(5)].map((_, i) => (
+                  <svg
+                    key={i}
+                    className="size-5 fill-[#FFC107]"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                  </svg>
+                ))}
+              </div>
+
+              <h4 className="mb-3 text-left text-lg font-semibold text-[#003d5c] dark:text-white">
+                "Resource Manager DB Review"
+              </h4>
+
+              <div className="mb-2 text-left">
+                <span className="inline-flex items-center text-xs font-medium text-green-700 dark:text-green-400">
+                  <svg
+                    className="mr-1 size-4"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                  Pros
+                </span>
+              </div>
+
+              <p className="mb-4 line-clamp-3 flex-1 text-left text-sm leading-relaxed text-slate-700 dark:text-slate-300">
+                Being a seasoned Epicor Software ERP implementation consultant
+                and also a customer for Resource Manager DB (RMDB) in a previous
+                role working for Instruments For Research And Industry (IFRAI),
+                I can personally state that RMDB is easier to implement than the
+                larger ERP packages and requires minimal training, a short
+                implementation cycle, minimal network infrastructure, data
+                friendly import/export capability.
               </p>
-              <p className="text-base leading-relaxed text-slate-700 dark:text-slate-300">
-                Best value in the small manufacturing space by far. With
-                MRPeasy, our capacity doubled. It streamlined our production,
-                and procurement so well that I'm now able to spend a lot more
-                time on growth and sales. Extremely comprehensive and works
-                seamlessly with Xero and Shopify.
-              </p>
+
+              <div className="mt-auto pt-4">
+                <a
+                  href="https://www.capterra.com/p/9402/Resource-Manager-DB/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center text-sm font-medium text-[#2FB8DE] transition-colors hover:text-[#1da8ce] hover:underline"
+                >
+                  Read More
+                  <svg
+                    className="ml-1 size-4"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M9 5l7 7-7 7"
+                    />
+                  </svg>
+                </a>
+              </div>
             </div>
 
             {/* Testimonial 3 */}
-            <div className="flex flex-col items-center text-center">
-              <div className="relative mb-4">
-                <div className="size-20 overflow-hidden rounded-full bg-slate-200">
-                  <div className="flex size-full items-center justify-center text-2xl font-bold text-[#003d5c]">
-                    BA
+            <div className="flex flex-col rounded-lg border border-slate-200 bg-white p-6 shadow-sm transition-shadow hover:shadow-md dark:border-slate-700 dark:bg-slate-800">
+              <div className="mb-4 flex items-start gap-4">
+                <div className="relative shrink-0">
+                  <div className="flex size-16 items-center justify-center overflow-hidden rounded-full bg-slate-200">
+                    <span className="text-xl font-bold text-[#003d5c]">MW</span>
+                  </div>
+                  <div className="absolute -right-1 -top-1 flex size-6 items-center justify-center rounded-full bg-[#2FB8DE]">
+                    <svg
+                      className="size-4 fill-white"
+                      viewBox="0 0 24 24"
+                    >
+                      <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                    </svg>
                   </div>
                 </div>
-                <div className="absolute -right-1 -top-1 flex size-8 items-center justify-center rounded-full bg-[#2FB8DE]">
-                  <svg
-                    className="size-5 fill-white"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
-                  </svg>
+                <div className="flex-1 text-left">
+                  <h3 className="mb-1 font-bold text-[#003d5c] dark:text-white">
+                    Mike W.
+                  </h3>
+                  <p className="text-sm text-slate-600 dark:text-slate-400">
+                    Regional Manager
+                  </p>
+                  <p className="text-xs text-slate-500 dark:text-slate-500">
+                    Management Consulting
+                  </p>
                 </div>
               </div>
-              <h3 className="mb-1 font-bold text-[#003d5c] dark:text-white">
-                Brandon Ames
-              </h3>
-              <p className="mb-4 text-sm text-slate-600 dark:text-slate-400">
-                CEO at Arboll Biotech
+
+              <div className="mb-3 flex">
+                {[...Array(5)].map((_, i) => (
+                  <svg
+                    key={i}
+                    className="size-5 fill-[#FFC107]"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                  </svg>
+                ))}
+              </div>
+
+              <h4 className="mb-3 text-left text-lg font-semibold text-[#003d5c] dark:text-white">
+                "Resource Manager Capabilities"
+              </h4>
+
+              <div className="mb-2 text-left">
+                <span className="inline-flex items-center text-xs font-medium text-green-700 dark:text-green-400">
+                  <svg
+                    className="mr-1 size-4"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                  Pros
+                </span>
+              </div>
+
+              <p className="mb-4 line-clamp-3 flex-1 text-left text-sm leading-relaxed text-slate-700 dark:text-slate-300">
+                The software has many desirable capabilities, including the
+                ability to engage in capacity planning by resource. However, the
+                most powerful feature is the ability to engage in "what if"
+                scenario analysis before firming a schedule, and the ability to
+                do both forward and backward scheduling. Can answer the
+                questions..... "if we start the order today, when will it be
+                complete?" and "if the customer wants it by XX date, when do we
+                need to start the order?"
               </p>
-              <p className="text-base leading-relaxed text-slate-700 dark:text-slate-300">
-                MRPeasy gives us the ability to track all of our manufacturing
-                lot costs right down to the individual serial number of our
-                products. MRPeasy provides the software as a remote service and
-                has never been unavailable to us except for very rare
-                maintenance windows.
-              </p>
+
+              <div className="mt-auto pt-4">
+                <a
+                  href="https://www.capterra.com/p/9402/Resource-Manager-DB/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center text-sm font-medium text-[#2FB8DE] transition-colors hover:text-[#1da8ce] hover:underline"
+                >
+                  Read More
+                  <svg
+                    className="ml-1 size-4"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M9 5l7 7-7 7"
+                    />
+                  </svg>
+                </a>
+              </div>
             </div>
           </div>
 
           {/* Customer Logos */}
-          <div className="mt-20 rounded-lg bg-slate-800 p-12 dark:bg-slate-900">
-            <h3 className="mb-12 text-center text-2xl font-bold text-white">
+          <div className="mt-6">
+            <h3 className="mb-6 text-center text-2xl font-bold text-[#003d5c] dark:text-white">
               Some of our customers
             </h3>
-            <div className="grid grid-cols-2 place-items-center gap-8 md:grid-cols-4">
+            <div className="grid grid-cols-2 gap-6 md:grid-cols-4">
               <a
                 href="https://lifecore.com/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex h-20 w-32 items-center justify-center transition-opacity hover:opacity-75"
+                className="flex items-center justify-center rounded-lg border border-slate-200 bg-slate-900 p-6 shadow-sm transition-all hover:shadow-md dark:border-slate-700 dark:bg-slate-800"
               >
                 <img
                   src="https://lifecore.com/wp-content/uploads/2025/11/Lifecore-Inj-CDMO_Logo_REV_v2.png"
                   alt="Lifecore"
-                  className="h-auto w-full object-contain"
+                  className="h-auto max-h-16 w-full object-contain"
                 />
               </a>
               <a
                 href="https://www.viking-forge.com/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex h-20 w-32 items-center justify-center transition-opacity hover:opacity-75"
+                className="flex items-center justify-center rounded-lg border border-slate-200 bg-white p-6 shadow-sm transition-all hover:shadow-md dark:border-slate-700 dark:bg-slate-800"
               >
                 <img
                   src="https://www.viking-forge.com/wp-content/uploads/2020/02/vklogo.jpg"
                   alt="Viking Forge"
-                  className="h-auto w-full object-contain"
+                  className="h-auto max-h-16 w-full object-contain"
                 />
               </a>
               <a
                 href="https://mtmmanufacturing.com/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex h-20 w-32 items-center justify-center transition-opacity hover:opacity-75"
+                className="flex items-center justify-center rounded-lg border border-slate-200 bg-white p-6 shadow-sm transition-all hover:shadow-md dark:border-slate-700 dark:bg-slate-800"
               >
-                <span className="text-xl font-bold text-slate-600 dark:text-slate-300">
+                <span className="text-center text-lg font-bold text-[#003d5c] dark:text-white">
                   MTM Manufacturing
                 </span>
               </a>
@@ -2687,19 +2863,19 @@ export function ManufacturingFeatureSection(): React.JSX.Element {
                 href="https://www.dawloom.com/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex h-20 w-32 items-center justify-center transition-opacity hover:opacity-75"
+                className="flex items-center justify-center rounded-lg border border-slate-200 bg-white p-6 shadow-sm transition-all hover:shadow-md dark:border-slate-700 dark:bg-slate-800"
               >
                 <img
                   src="https://www.dawloom.com/logos/FULL%20COLOR%20NO%20BCKG.svg"
                   alt="Dawloom"
-                  className="h-auto w-full object-contain"
+                  className="h-auto max-h-16 w-full object-contain"
                 />
               </a>
             </div>
           </div>
 
           {/* CTA Button */}
-          <div className="mt-12 flex justify-center">
+          <div className="mt-6 flex justify-center">
             <button className="inline-flex items-center justify-center rounded-md bg-[#003d5c] px-8 py-3 text-base font-semibold text-white transition-colors hover:bg-[#002d44] focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
               Start free trial
             </button>
