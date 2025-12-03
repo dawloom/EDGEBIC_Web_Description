@@ -6,7 +6,6 @@ import Link from 'next/link';
 // import { toast } from 'sonner';
 
 import { ExternalLink } from '@/components/marketing/fragments/external-link';
-import { ThemeSwitcher } from '@/components/marketing/fragments/theme-switcher';
 import {
   FOOTER_LINKS,
   SOCIAL_LINKS

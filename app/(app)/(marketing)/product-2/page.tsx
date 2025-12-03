@@ -1,17 +1,8 @@
 'use client';
 
 import * as React from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
-import {
-  Check,
-  CheckCircle,
-  ExternalLink,
-  Play,
-  Quote,
-  Star,
-  X
-} from 'lucide-react';
+import { CheckCircle, ExternalLink, Quote } from 'lucide-react';
 
 import { GridSection } from '@/components/marketing/fragments/grid-section';
 import { SiteHeading } from '@/components/marketing/fragments/site-heading';
@@ -19,33 +10,6 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 
 export default function Product2Page(): React.JSX.Element {
-  const products = [
-    {
-      name: 'EDGEBIC  ',
-      tier: 'Starter',
-      price: '$1,000+',
-      image:
-        'https://www.usersolutions.com/wp-content/uploads/2022/10/starter.png',
-      link: '/jsl-job-scheduler-lite'
-    },
-    {
-      name: 'Resource Manager DB',
-      tier: 'Advanced',
-      price: '$5,000+',
-      image:
-        'https://www.usersolutions.com/wp-content/uploads/2022/11/advanced-1.png',
-      link: '/resource-manager-db-2'
-    },
-    {
-      name: 'EDGEBIC (Bundled w/ RMDB)',
-      tier: 'Platinum',
-      price: '$25,000+',
-      image:
-        'https://www.usersolutions.com/wp-content/uploads/2022/11/Premium-1.png',
-      link: '/edgebi'
-    }
-  ];
-
   const featureComparison = [
     {
       feature: 'Routings',

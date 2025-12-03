@@ -1,6 +1,7 @@
 import * as React from 'react';
 import type { Metadata } from 'next';
 import Image from 'next/image';
+import Link from 'next/link';
 
 import { SiteHeading } from '@/components/marketing/fragments/site-heading';
 import { Card, CardContent } from '@/components/ui/card';
@@ -13,7 +14,6 @@ export const metadata: Metadata = {
 };
 
 export default async function NewsPage(): Promise<React.JSX.Element> {
-
   return (
     <div className="container mx-auto max-w-7xl px-4 pt-6">
       {/* Header Section */}

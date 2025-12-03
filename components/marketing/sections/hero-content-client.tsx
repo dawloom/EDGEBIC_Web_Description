@@ -1,15 +1,8 @@
 'use client';
 
 import * as React from 'react';
-import Link from 'next/link';
-import { AnimatePresence, motion } from 'framer-motion';
-import {
-  ChevronLeft,
-  ChevronRight,
-  GraduationCap,
-  Play,
-  PlayCircle
-} from 'lucide-react';
+import { motion } from 'framer-motion';
+import { Play } from 'lucide-react';
 
 import { VideoModal } from '@/components/marketing/video-modal';
 
