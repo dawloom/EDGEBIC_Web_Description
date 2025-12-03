@@ -254,91 +254,51 @@ function HeroIllustration(): React.JSX.Element {
             <UnderlinedTabsContent value="feature1">
               <Image
                 quality={100}
-                src="/marketing/hero/light-feature1.webp"
+                src="https://www.usersolutions.com/wp-content/uploads/2022/12/slide1.jpg"
                 width="1328"
                 height="727"
                 alt="Feature 1 screenshot"
-                className="block rounded-xl border shadow dark:hidden"
-              />
-              <Image
-                quality={100}
-                src="/marketing/hero/dark-feature1.webp"
-                width="1328"
-                height="727"
-                alt="Feature 1 screenshot"
-                className="hidden rounded-xl border shadow dark:block"
+                className="rounded-xl border shadow"
               />
             </UnderlinedTabsContent>
             <UnderlinedTabsContent value="feature2">
               <Image
                 quality={100}
-                src="/marketing/hero/light-feature2.webp"
+                src="https://www.usersolutions.com/wp-content/uploads/2022/12/slide2.jpg"
                 width="1328"
                 height="727"
                 alt="Feature 2 screenshot"
-                className="block rounded-xl border shadow dark:hidden"
-              />
-              <Image
-                quality={100}
-                src="/marketing/hero/dark-feature2.webp"
-                width="1328"
-                height="727"
-                alt="Feature 2 screenshot"
-                className="hidden rounded-xl border shadow dark:block"
+                className="rounded-xl border shadow"
               />
             </UnderlinedTabsContent>
             <UnderlinedTabsContent value="feature3">
               <Image
                 quality={100}
-                src="/marketing/hero/light-feature3.webp"
+                src="https://www.usersolutions.com/wp-content/uploads/2022/12/slide3.jpg"
                 width="1328"
                 height="727"
                 alt="Feature 3 screenshot"
-                className="block rounded-xl border shadow dark:hidden"
-              />
-              <Image
-                quality={100}
-                src="/marketing/hero/dark-feature3.webp"
-                width="1328"
-                height="727"
-                alt="Feature 3 screenshot"
-                className="hidden rounded-xl border shadow dark:block"
+                className="rounded-xl border shadow"
               />
             </UnderlinedTabsContent>
             <UnderlinedTabsContent value="feature4">
               <Image
                 quality={100}
-                src="/marketing/hero/light-feature4.webp"
+                src="https://www.usersolutions.com/wp-content/uploads/2022/12/slide4.jpg"
                 width="1328"
                 height="727"
                 alt="Feature 4 screenshot"
-                className="block rounded-xl border shadow dark:hidden"
-              />
-              <Image
-                quality={100}
-                src="/marketing/hero/dark-feature4.webp"
-                width="1328"
-                height="727"
-                alt="Feature 4 screenshot"
-                className="hidden rounded-xl border shadow dark:block"
+                className="rounded-xl border shadow"
               />
             </UnderlinedTabsContent>
             <UnderlinedTabsContent value="feature5">
               <Image
                 quality={100}
-                src="/marketing/hero/light-feature5.webp"
+                src="https://www.usersolutions.com/wp-content/uploads/2022/12/slide4.jpg"
                 width="1328"
                 height="727"
                 alt="Feature 5 screenshot"
-                className="block rounded-xl border shadow dark:hidden"
-              />
-              <Image
-                quality={100}
-                src="/marketing/hero/dark-feature5.webp"
-                width="1328"
-                height="727"
-                alt="Feature 5 screenshot"
-                className="hidden rounded-xl border shadow dark:block"
+                className="rounded-xl border shadow"
               />
             </UnderlinedTabsContent>
           </div>
