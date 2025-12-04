@@ -151,7 +151,7 @@ export function HeroContent(): React.JSX.Element {
               <div className="flex items-center gap-4">
                 {/* G2 Logo */}
                 <a
-                  href="https://www.g2.com/"
+                  href="https://www.g2.com/products/resource-manager-db-rmdb/competitors/alternativesproducts/resource-manager-db-rmdb/competitors/alternatives"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="transition-opacity hover:opacity-75"
@@ -187,7 +187,7 @@ export function HeroContent(): React.JSX.Element {
                 </a>
                 {/* Capterra Logo */}
                 <a
-                  href="https://www.capterra.com/"
+                  href="https://www.capterra.com/p/9402/Resource-Manager-DB/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="transition-opacity hover:opacity-75"
@@ -223,7 +223,7 @@ export function HeroContent(): React.JSX.Element {
                 </a>
                 {/* Software Advice Logo */}
                 <a
-                  href="https://www.softwareadvice.com/"
+                  href="https://sourceforge.net/software/product/Resource-Manager-DB/#"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="transition-opacity hover:opacity-75"
