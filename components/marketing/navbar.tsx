@@ -126,6 +126,15 @@ export function Navbar(): React.JSX.Element {
                 </NavigationMenuList>
               </NavigationMenu>
             </div>
+            <Link
+              href={Routes.Login}
+              className={cn(
+                buttonVariants({ variant: 'default', size: 'sm' }),
+                'ml-4'
+              )}
+            >
+              Login
+            </Link>
           </div>
         </nav>
         <MobileMenu className="lg:hidden" />

@@ -6,14 +6,15 @@ import { useForm } from 'react-hook-form';
 import { toast } from 'sonner';
 import { z } from 'zod';
 
-import { Badge } from '@/components/ui/badge';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 const contactFormSchema = z.object({
-  name: z.string().min(1, 'Name is required').max(255),
+  firstName: z.string().min(1, 'First name is required').max(255),
+  lastName: z.string().min(1, 'Last name is required').max(255),
   email: z.string().email('Valid email is required'),
   phone: z.string().max(32).optional(),
-  company: z.string().max(255).optional(),
+  productInterest: z.string().min(1, 'Please select a product'),
+  hearAboutUs: z.string().min(1, 'Please select an option'),
   message: z.string().max(5000).optional()
 });
 
@@ -62,32 +63,11 @@ export default function ContactUsPage() {
   };
   return (
     <div className="min-h-screen">
-      {/* Hero Section */}
-      <section className="bg-gradient-to-r from-blue-600 to-blue-800 py-6 text-white">
-        <div className="container mx-auto px-4">
-          <div className="mx-auto max-w-7xl text-center">
-            <Badge
-              variant="outline"
-              className="mb-4 h-8 rounded-full border-white/30 bg-white/10 px-3 text-sm font-medium text-white shadow-sm hover:bg-white/20"
-            >
-              Get in Touch
-            </Badge>
-            <h1 className="mb-4 text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">
-              Contact US
-            </h1>
-            <p className="text-xl text-white/90">
-              Let's discuss your manufacturing scheduling needs
-            </p>
-          </div>
-        </div>
-      </section>
-
       {/* Main Content */}
       <section className="pt-6">
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-7xl">
-            <div className="grid grid-cols-1 gap-8 lg:grid-cols-2">
-              {/* Left Column - Description and Form */}
+            <div className="w-full">
               <Card>
                 <CardHeader>
                   <CardTitle className="text-2xl font-bold">
@@ -122,108 +102,124 @@ export default function ContactUsPage() {
                   </ul>
 
                   {/* Contact Form */}
-                  <div className="rounded-lg bg-muted/50 p-6 dark:bg-muted/20">
+                  <div className="p-6">
                     <form
                       onSubmit={handleSubmit(onSubmit)}
                       className="space-y-4"
                     >
-                      <div>
-                        <label
-                          htmlFor="name"
-                          className="mb-1 block text-sm font-medium text-foreground"
-                        >
-                          Name *
-                        </label>
-                        <input
-                          type="text"
-                          id="name"
-                          {...register('name')}
-                          className="w-full rounded-md border border-input bg-background px-4 py-2 text-foreground placeholder:text-muted-foreground focus:border-transparent focus:outline-none focus:ring-2 focus:ring-ring"
-                          placeholder="John Doe"
-                        />
-                        {errors.name && (
-                          <p className="mt-1 text-sm text-destructive">
-                            {errors.name.message}
-                          </p>
-                        )}
+                      {/* First Name & Last Name */}
+                      <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
+                        <div>
+                          <input
+                            type="text"
+                            id="firstName"
+                            {...register('firstName')}
+                            className="w-full border-b border-input bg-transparent px-2 py-3 text-foreground placeholder:text-muted-foreground focus:border-primary focus:outline-none"
+                            placeholder="First Name"
+                          />
+                          {errors.firstName && (
+                            <p className="mt-1 text-sm text-destructive">
+                              {errors.firstName.message}
+                            </p>
+                          )}
+                        </div>
+                        <div>
+                          <input
+                            type="text"
+                            id="lastName"
+                            {...register('lastName')}
+                            className="w-full border-b border-input bg-transparent px-2 py-3 text-foreground placeholder:text-muted-foreground focus:border-primary focus:outline-none"
+                            placeholder="Last Name"
+                          />
+                          {errors.lastName && (
+                            <p className="mt-1 text-sm text-destructive">
+                              {errors.lastName.message}
+                            </p>
+                          )}
+                        </div>
                       </div>
 
-                      <div>
-                        <label
-                          htmlFor="email"
-                          className="mb-1 block text-sm font-medium text-foreground"
-                        >
-                          Email *
-                        </label>
-                        <input
-                          type="email"
-                          id="email"
-                          {...register('email')}
-                          className="w-full rounded-md border border-input bg-background px-4 py-2 text-foreground placeholder:text-muted-foreground focus:border-transparent focus:outline-none focus:ring-2 focus:ring-ring"
-                          placeholder="john@example.com"
-                        />
-                        {errors.email && (
-                          <p className="mt-1 text-sm text-destructive">
-                            {errors.email.message}
-                          </p>
-                        )}
+                      {/* Email & Phone */}
+                      <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
+                        <div>
+                          <input
+                            type="email"
+                            id="email"
+                            {...register('email')}
+                            className="w-full border-b border-input bg-transparent px-2 py-3 text-foreground placeholder:text-muted-foreground focus:border-primary focus:outline-none"
+                            placeholder="Email Address"
+                          />
+                          {errors.email && (
+                            <p className="mt-1 text-sm text-destructive">
+                              {errors.email.message}
+                            </p>
+                          )}
+                        </div>
+                        <div>
+                          <input
+                            type="tel"
+                            id="phone"
+                            {...register('phone')}
+                            className="w-full border-b border-input bg-transparent px-2 py-3 text-foreground placeholder:text-muted-foreground focus:border-primary focus:outline-none"
+                            placeholder="Phone Number"
+                          />
+                          {errors.phone && (
+                            <p className="mt-1 text-sm text-destructive">
+                              {errors.phone.message}
+                            </p>
+                          )}
+                        </div>
                       </div>
 
-                      <div>
-                        <label
-                          htmlFor="phone"
-                          className="mb-1 block text-sm font-medium text-foreground"
-                        >
-                          Phone
-                        </label>
-                        <input
-                          type="tel"
-                          id="phone"
-                          {...register('phone')}
-                          className="w-full rounded-md border border-input bg-background px-4 py-2 text-foreground placeholder:text-muted-foreground focus:border-transparent focus:outline-none focus:ring-2 focus:ring-ring"
-                          placeholder="+1 (555) 123-4567"
-                        />
-                        {errors.phone && (
-                          <p className="mt-1 text-sm text-destructive">
-                            {errors.phone.message}
-                          </p>
-                        )}
+                      {/* Product Interest & Where did you hear about us */}
+                      <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
+                        <div>
+                          <select
+                            id="productInterest"
+                            {...register('productInterest')}
+                            className="w-full border-b border-input bg-transparent px-2 py-3 text-foreground focus:border-primary focus:outline-none"
+                          >
+                            <option value="">Production Planning & Scheduling</option>
+                            <option value="production-planning">Production Planning & Scheduling</option>
+                            <option value="inventory-management">Inventory Management</option>
+                            <option value="shop-floor-control">Shop Floor Control</option>
+                            <option value="other">Other</option>
+                          </select>
+                          {errors.productInterest && (
+                            <p className="mt-1 text-sm text-destructive">
+                              {errors.productInterest.message}
+                            </p>
+                          )}
+                        </div>
+                        <div>
+                          <select
+                            id="hearAboutUs"
+                            {...register('hearAboutUs')}
+                            className="w-full border-b border-input bg-transparent px-2 py-3 text-foreground focus:border-primary focus:outline-none"
+                          >
+                            <option value="">Where did you hear about US?</option>
+                            <option value="google">Google Search</option>
+                            <option value="linkedin">LinkedIn</option>
+                            <option value="referral">Referral</option>
+                            <option value="trade-show">Trade Show</option>
+                            <option value="other">Other</option>
+                          </select>
+                          {errors.hearAboutUs && (
+                            <p className="mt-1 text-sm text-destructive">
+                              {errors.hearAboutUs.message}
+                            </p>
+                          )}
+                        </div>
                       </div>
 
+                      {/* Message */}
                       <div>
-                        <label
-                          htmlFor="company"
-                          className="mb-1 block text-sm font-medium text-foreground"
-                        >
-                          Company
-                        </label>
-                        <input
-                          type="text"
-                          id="company"
-                          {...register('company')}
-                          className="w-full rounded-md border border-input bg-background px-4 py-2 text-foreground placeholder:text-muted-foreground focus:border-transparent focus:outline-none focus:ring-2 focus:ring-ring"
-                          placeholder="Your Company Name"
-                        />
-                        {errors.company && (
-                          <p className="mt-1 text-sm text-destructive">
-                            {errors.company.message}
-                          </p>
-                        )}
-                      </div>
-
-                      <div>
-                        <label
-                          htmlFor="message"
-                          className="mb-1 block text-sm font-medium text-foreground"
-                        >
-                          Message
-                        </label>
                         <textarea
                           id="message"
                           {...register('message')}
                           rows={4}
-                          className="w-full rounded-md border border-input bg-background px-4 py-2 text-foreground placeholder:text-muted-foreground focus:border-transparent focus:outline-none focus:ring-2 focus:ring-ring"
-                          placeholder="Tell us about your manufacturing scheduling needs..."
+                          className="w-full border-b border-input bg-transparent px-2 py-3 text-foreground placeholder:text-muted-foreground focus:border-primary focus:outline-none"
+                          placeholder="What do you need help with?"
                         />
                         {errors.message && (
                           <p className="mt-1 text-sm text-destructive">
@@ -235,7 +231,7 @@ export default function ContactUsPage() {
                       <button
                         type="submit"
                         disabled={isSubmitting}
-                        className="w-full rounded-md bg-primary px-6 py-3 font-medium text-primary-foreground transition-colors hover:bg-primary/90 disabled:cursor-not-allowed disabled:opacity-50"
+                        className="rounded-md bg-blue-600 px-8 py-3 font-medium text-white transition-colors hover:bg-blue-700 disabled:cursor-not-allowed disabled:opacity-50"
                       >
                         {isSubmitting ? 'Submitting...' : 'Submit'}
                       </button>
@@ -243,19 +239,6 @@ export default function ContactUsPage() {
                   </div>
                 </CardContent>
               </Card>
-
-              {/* Right Column - Image and Tagline */}
-              <div className="flex flex-col items-center justify-center space-y-6">
-                <img
-                  src="https://www.usersolutions.com/wp-content/uploads/2022/09/side.png"
-                  alt="Colorful abstract silhouette, Sleep Master logo, people and cityscape"
-                  className="h-auto max-h-[950px] w-full rounded-lg object-contain shadow-lg"
-                />
-                <p className="text-center  text-lg font-bold text-slate-900 dark:text-white">
-                  The perfect complement for companies of any size… from Job
-                  Shops to Small-Medium Manufacturers to Global Multi-Nationals
-                </p>
-              </div>
             </div>
           </div>
         </div>
