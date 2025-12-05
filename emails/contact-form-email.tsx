@@ -209,7 +209,6 @@ export const ContactFormEmail = ({
             )}
           </Section>
 
-          {/* Interest Details */}
           <Section style={{ marginBottom: '24px' }}>
             <Text
               style={{
