@@ -70,6 +70,7 @@ export async function getContacts(input: GetContactsSchema): Promise<{
             phone: true,
             stage: true,
             isRead: true,
+            description: true,
             createdAt: true,
             tags: {
               select: {
@@ -111,6 +112,7 @@ export async function getContacts(input: GetContactsSchema): Promise<{
         phone: contact.phone ? contact.phone : undefined,
         stage: contact.stage,
         isRead: contact.isRead,
+        description: contact.description ? contact.description : undefined,
         createdAt: contact.createdAt,
         tags: contact.tags
       }));
