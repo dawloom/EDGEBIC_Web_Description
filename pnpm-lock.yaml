@@ -156,6 +156,9 @@ importers:
       '@types/memory-cache':
         specifier: 0.2.6
         version: 0.2.6
+      '@types/react-google-recaptcha':
+        specifier: ^2.1.9
+        version: 2.1.9
       '@typeschema/zod':
         specifier: 0.14.0
         version: 0.14.0(@types/json-schema@7.0.15)(zod@3.25.76)
@@ -273,6 +276,9 @@ importers:
       react-email:
         specifier: 3.0.7
         version: 3.0.7(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.77.4)
+      react-google-recaptcha:
+        specifier: ^3.1.0
+        version: 3.1.0(react@19.0.0)
       react-hook-form:
         specifier: 7.54.2
         version: 7.54.2(react@19.0.0)
@@ -4065,6 +4071,9 @@ packages:
     peerDependencies:
       '@types/react': ^19.0.0
 
+  '@types/react-google-recaptcha@2.1.9':
+    resolution: {integrity: sha512-nT31LrBDuoSZJN4QuwtQSF3O89FVHC4jLhM+NtKEmVF5R1e8OY0Jo4//x2Yapn2aNHguwgX5doAq8Zo+Ehd0ug==}
+
   '@types/react-transition-group@4.4.12':
     resolution: {integrity: sha512-8TV6R3h2j7a91c+1DXdJi3Syo69zzIZbz7Lg5tORM5LEJG7X/E6a1V3drRyBRZq7/utz7A+c4OgYLiLcYGHG6w==}
     peerDependencies:
@@ -7226,6 +7235,11 @@ packages:
       react: 19.0.0
       react-dom: 19.0.0
 
+  react-async-script@1.2.0:
+    resolution: {integrity: sha512-bCpkbm9JiAuMGhkqoAiC0lLkb40DJ0HOEJIku+9JDjxX3Rcs+ztEOG13wbrOskt3n2DTrjshhaQ/iay+SnGg5Q==}
+    peerDependencies:
+      react: 19.0.0
+
   react-datepicker@7.6.0:
     resolution: {integrity: sha512-9cQH6Z/qa4LrGhzdc3XoHbhrxNcMi9MKjZmYgF/1MNNaJwvdSjv3Xd+jjvrEEbKEf71ZgCA3n7fQbdwd70qCRw==}
     peerDependencies:
@@ -7262,6 +7276,11 @@ packages:
 
   react-error-boundary@4.1.2:
     resolution: {integrity: sha512-GQDxZ5Jd+Aq/qUxbCm1UtzmL/s++V7zKgE8yMktJiCQXCCFZnMZh9ng+6/Ne6PjNSXH0L9CjeOEREfRnq6Duag==}
+    peerDependencies:
+      react: 19.0.0
+
+  react-google-recaptcha@3.1.0:
+    resolution: {integrity: sha512-cYW2/DWas8nEKZGD7SCu9BSuVz8iOcOLHChHyi7upUuVhkpkhYG/6N3KDiTQ3XAiZ2UAZkfvYKMfAHOzBOcGEg==}
     peerDependencies:
       react: 19.0.0
 
@@ -12526,6 +12545,10 @@ snapshots:
     dependencies:
       '@types/react': 19.0.10
 
+  '@types/react-google-recaptcha@2.1.9':
+    dependencies:
+      '@types/react': 19.0.10
+
   '@types/react-transition-group@4.4.12(@types/react@19.0.10)':
     dependencies:
       '@types/react': 19.0.10
@@ -16161,6 +16184,12 @@ snapshots:
       react: 19.0.0
       react-dom: 19.0.0(react@19.0.0)
 
+  react-async-script@1.2.0(react@19.0.0):
+    dependencies:
+      hoist-non-react-statics: 3.3.2
+      prop-types: 15.8.1
+      react: 19.0.0
+
   react-datepicker@7.6.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
     dependencies:
       '@floating-ui/react': 0.27.16(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
@@ -16223,6 +16252,12 @@ snapshots:
     dependencies:
       '@babel/runtime': 7.28.4
       react: 19.0.0
+
+  react-google-recaptcha@3.1.0(react@19.0.0):
+    dependencies:
+      prop-types: 15.8.1
+      react: 19.0.0
+      react-async-script: 1.2.0(react@19.0.0)
 
   react-hook-form@7.54.2(react@19.0.0):
     dependencies:
