@@ -1,12 +1,15 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useRef, useState } from 'react';
 import { zodResolver } from '@hookform/resolvers/zod';
+import ReCAPTCHA from 'react-google-recaptcha';
 import { useForm } from 'react-hook-form';
 import { toast } from 'sonner';
 import { z } from 'zod';
 
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+
+const RECAPTCHA_SITE_KEY = process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY || '6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI';
 
 const contactFormSchema = z.object({
   firstName: z.string().min(1, 'First name is required').max(255),
@@ -22,6 +25,8 @@ type ContactFormValues = z.infer<typeof contactFormSchema>;
 
 export default function ContactUsPage() {
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [captchaValue, setCaptchaValue] = useState<string | null>(null);
+  const recaptchaRef = useRef<ReCAPTCHA>(null);
 
   const {
     register,
@@ -33,6 +38,11 @@ export default function ContactUsPage() {
   });
 
   const onSubmit = async (data: ContactFormValues) => {
+    if (!captchaValue) {
+      toast.error('Please complete the reCAPTCHA verification.');
+      return;
+    }
+
     setIsSubmitting(true);
 
     try {
@@ -41,7 +51,7 @@ export default function ContactUsPage() {
         headers: {
           'Content-Type': 'application/json'
         },
-        body: JSON.stringify(data)
+        body: JSON.stringify({ ...data, captcha: captchaValue })
       });
 
       const result = await response.json();
@@ -51,6 +61,8 @@ export default function ContactUsPage() {
           "Thank you for contacting us! We'll get back to you within 24 hours."
         );
         reset();
+        setCaptchaValue(null);
+        recaptchaRef.current?.reset();
       } else {
         toast.error('Something went wrong. Please try again.');
       }
@@ -60,6 +72,10 @@ export default function ContactUsPage() {
     } finally {
       setIsSubmitting(false);
     }
+  };
+
+  const handleCaptchaChange = (value: string | null) => {
+    setCaptchaValue(value);
   };
   return (
     <div className="min-h-screen">
@@ -228,9 +244,18 @@ export default function ContactUsPage() {
                         )}
                       </div>
 
+                      {/* reCAPTCHA */}
+                      <div className="pt-2">
+                        <ReCAPTCHA
+                          ref={recaptchaRef}
+                          sitekey={RECAPTCHA_SITE_KEY}
+                          onChange={handleCaptchaChange}
+                        />
+                      </div>
+
                       <button
                         type="submit"
-                        disabled={isSubmitting}
+                        disabled={isSubmitting || !captchaValue}
                         className="rounded-md bg-blue-600 px-8 py-3 font-medium text-white transition-colors hover:bg-blue-700 disabled:cursor-not-allowed disabled:opacity-50"
                       >
                         {isSubmitting ? 'Submitting...' : 'Submit'}
