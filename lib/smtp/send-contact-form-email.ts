@@ -1,6 +1,9 @@
 import { render } from '@react-email/render';
 
-import { ContactFormEmail, type ContactFormEmailData } from '@/emails/contact-form-email';
+import {
+  ContactFormEmail,
+  type ContactFormEmailData
+} from '@/emails/contact-form-email';
 import { sendEmail } from '@/lib/smtp/mailer/send-email';
 
 export async function sendContactFormEmail(

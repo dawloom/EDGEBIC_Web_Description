@@ -10,7 +10,9 @@ import { z } from 'zod';
 
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
-const RECAPTCHA_SITE_KEY = process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY || '6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI';
+const RECAPTCHA_SITE_KEY =
+  process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY ||
+  '6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI';
 
 const contactFormSchema = z.object({
   firstName: z.string().min(1, 'First name is required').max(255),
@@ -198,10 +200,18 @@ export default function ContactUsPage() {
                             {...register('productInterest')}
                             className="w-full border-b border-input bg-transparent px-2 py-3 text-foreground focus:border-primary focus:outline-none"
                           >
-                            <option value="">Production Planning & Scheduling</option>
-                            <option value="production-planning">Production Planning & Scheduling</option>
-                            <option value="inventory-management">Inventory Management</option>
-                            <option value="shop-floor-control">Shop Floor Control</option>
+                            <option value="">
+                              Production Planning & Scheduling
+                            </option>
+                            <option value="production-planning">
+                              Production Planning & Scheduling
+                            </option>
+                            <option value="inventory-management">
+                              Inventory Management
+                            </option>
+                            <option value="shop-floor-control">
+                              Shop Floor Control
+                            </option>
                             <option value="other">Other</option>
                           </select>
                           {errors.productInterest && (
@@ -216,7 +226,9 @@ export default function ContactUsPage() {
                             {...register('hearAboutUs')}
                             className="w-full border-b border-input bg-transparent px-2 py-3 text-foreground focus:border-primary focus:outline-none"
                           >
-                            <option value="">Where did you hear about US?</option>
+                            <option value="">
+                              Where did you hear about US?
+                            </option>
                             <option value="google">Google Search</option>
                             <option value="linkedin">LinkedIn</option>
                             <option value="referral">Referral</option>
