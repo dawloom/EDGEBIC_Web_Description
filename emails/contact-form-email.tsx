@@ -171,7 +171,6 @@ export const ContactFormEmail = ({
               </Row>
             </Section>
 
-            {/* Phone Row */}
             {phone && (
               <Section
                 style={{
