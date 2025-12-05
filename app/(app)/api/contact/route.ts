@@ -11,6 +11,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { z } from 'zod';
 
 import { prisma } from '@/lib/db/prisma';
+import { sendContactFormEmail } from '@/lib/smtp/send-contact-form-email';
 
 const contactFormSchema = z.object({
   firstName: z.string().min(1, 'First name is required').max(255),
@@ -79,6 +80,23 @@ export async function POST(request: NextRequest) {
         description: message || null
       }
     });
+
+    // Send email notification
+    try {
+      await sendContactFormEmail({
+        recipient: 'mudasirnadeem7979@gmail.com',
+        firstName,
+        lastName,
+        email,
+        phone: phone || undefined,
+        productInterest,
+        hearAboutUs,
+        message: message || undefined
+      });
+    } catch (emailError) {
+      console.error('Error sending contact form email:', emailError);
+      // Don't fail the request if email fails - contact is already saved
+    }
 
     return NextResponse.json(
       {
