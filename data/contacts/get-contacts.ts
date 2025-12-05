@@ -71,6 +71,8 @@ export async function getContacts(input: GetContactsSchema): Promise<{
             stage: true,
             isRead: true,
             description: true,
+            productInterest: true,
+            hearAboutUs: true,
             createdAt: true,
             tags: {
               select: {
@@ -113,6 +115,8 @@ export async function getContacts(input: GetContactsSchema): Promise<{
         stage: contact.stage,
         isRead: contact.isRead,
         description: contact.description ? contact.description : undefined,
+        productInterest: contact.productInterest ? contact.productInterest : undefined,
+        hearAboutUs: contact.hearAboutUs ? contact.hearAboutUs : undefined,
         createdAt: contact.createdAt,
         tags: contact.tags
       }));

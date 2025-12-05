@@ -330,6 +330,44 @@ const columns: ColumnDef<ContactDto>[] = [
   },
   {
     meta: {
+      title: 'Product Interest'
+    },
+    accessorKey: 'productInterest',
+    header: ({ column }) => (
+      <DataTableColumnHeader
+        column={column}
+        title="Product Interest"
+      />
+    ),
+    cell: ({ row }) => (
+      <span className="whitespace-nowrap text-sm">
+        {row.original.productInterest || '-'}
+      </span>
+    ),
+    enableSorting: false,
+    enableHiding: true
+  },
+  {
+    meta: {
+      title: 'Hear About Us'
+    },
+    accessorKey: 'hearAboutUs',
+    header: ({ column }) => (
+      <DataTableColumnHeader
+        column={column}
+        title="Hear About Us"
+      />
+    ),
+    cell: ({ row }) => (
+      <span className="whitespace-nowrap text-sm">
+        {row.original.hearAboutUs || '-'}
+      </span>
+    ),
+    enableSorting: false,
+    enableHiding: true
+  },
+  {
+    meta: {
       title: 'Tags'
     },
     accessorKey: 'tags',

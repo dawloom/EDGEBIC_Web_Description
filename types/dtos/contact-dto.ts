@@ -13,6 +13,8 @@ export type ContactDto = {
   stage: ContactStage;
   isRead: boolean;
   description?: string;
+  productInterest?: string;
+  hearAboutUs?: string;
   createdAt: Date;
   tags: TagDto[];
 };
