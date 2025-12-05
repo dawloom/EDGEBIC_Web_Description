@@ -102,6 +102,10 @@ export async function addExampleData(
                   phone: contact.phone,
                   address: contact.address,
                   stage: ContactStage.LEAD,
+                  productInterest: null,
+                  hearAboutUs: null,
+                  description: null,
+                  isRead: false,
                   updatedAt: randomDate,
                   createdAt: randomDate,
                   tags: contact.tags.map((tag) => ({

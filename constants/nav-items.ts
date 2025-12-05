@@ -4,13 +4,12 @@ import {
   // CreditCardIcon,
   HomeIcon,
   LockKeyholeIcon,
-  MailIcon,
   PackageIcon,
   SettingsIcon,
   StoreIcon,
   UserIcon,
-  UserPlus2Icon
-  // UsersIcon
+  UserPlus2Icon,
+  UsersIcon
 } from 'lucide-react';
 
 import { Routes } from '@/constants/routes';
@@ -35,7 +34,7 @@ export const mainNavItems: NavItem[] = [
   {
     title: 'Contacts',
     href: Routes.Contacts,
-    icon: MailIcon
+    icon: UsersIcon
   },
   {
     title: 'Settings',

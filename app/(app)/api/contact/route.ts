@@ -77,7 +77,8 @@ export async function POST(request: NextRequest) {
         stage: 'LEAD',
         productInterest,
         hearAboutUs,
-        description: message || null
+        description: message || null,
+        isRead: false
       }
     });
 

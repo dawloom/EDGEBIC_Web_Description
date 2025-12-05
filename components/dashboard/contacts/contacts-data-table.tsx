@@ -227,7 +227,12 @@ const columns: ColumnDef<ContactDto>[] = [
           record={row.original.record}
           src={row.original.image}
         />
-        <div className="whitespace-nowrap text-sm font-medium">
+        <div
+          className={cn(
+            'whitespace-nowrap text-sm',
+            row.original.isRead ? 'font-medium' : 'font-bold'
+          )}
+        >
           {row.original.name}
         </div>
       </div>
@@ -247,7 +252,14 @@ const columns: ColumnDef<ContactDto>[] = [
       />
     ),
     cell: ({ row }) => (
-      <span className="whitespace-nowrap text-sm">{row.original.email}</span>
+      <span
+        className={cn(
+          'whitespace-nowrap text-sm',
+          !row.original.isRead && 'font-semibold'
+        )}
+      >
+        {row.original.email}
+      </span>
     ),
     enableSorting: true,
     enableHiding: true

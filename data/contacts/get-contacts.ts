@@ -69,6 +69,7 @@ export async function getContacts(input: GetContactsSchema): Promise<{
             address: true,
             phone: true,
             stage: true,
+            isRead: true,
             createdAt: true,
             tags: {
               select: {
@@ -77,9 +78,10 @@ export async function getContacts(input: GetContactsSchema): Promise<{
               }
             }
           },
-          orderBy: {
-            [parsedInput.sortBy]: parsedInput.sortDirection
-          }
+          orderBy: [
+            { isRead: 'asc' },
+            { [parsedInput.sortBy]: parsedInput.sortDirection }
+          ]
         }),
         prisma.contact.count({
           where: {
@@ -108,6 +110,7 @@ export async function getContacts(input: GetContactsSchema): Promise<{
         address: contact.address ? contact.address : undefined,
         phone: contact.phone ? contact.phone : undefined,
         stage: contact.stage,
+        isRead: contact.isRead,
         createdAt: contact.createdAt,
         tags: contact.tags
       }));

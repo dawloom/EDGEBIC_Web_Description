@@ -11,6 +11,7 @@ export type ContactDto = {
   phone?: string;
   address?: string;
   stage: ContactStage;
+  isRead: boolean;
   createdAt: Date;
   tags: TagDto[];
 };
