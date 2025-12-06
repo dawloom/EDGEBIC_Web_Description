@@ -255,7 +255,7 @@ export function PurchaseSuccess() {
               ) : (
                 <>
                   <DownloadIcon className="mr-2 size-4" />
-                  Download NTClipboard ({remainingDownloads} downloads
+                  Download Edgebic({remainingDownloads} downloads
                   remaining)
                 </>
               )}

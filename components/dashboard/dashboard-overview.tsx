@@ -33,10 +33,10 @@ export function DashboardOverview({
       {/* Header */}
       <div>
         <h1 className="text-3xl font-bold tracking-tight">
-          NTClipboard Dashboard
+          Edgebic Dashboard
         </h1>
         <p className="text-muted-foreground">
-          Overview of your NTClipboard sales, customers, and performance metrics
+          Overview of your Edgebic sales, customers, and performance metrics
         </p>
       </div>
 

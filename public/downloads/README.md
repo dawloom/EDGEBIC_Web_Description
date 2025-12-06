@@ -1,6 +1,6 @@
 # Downloads Directory
 
-This directory should contain the NTClipboard application files that customers will download after purchase.
+This directory should contain the Edgebicapplication files that customers will download after purchase.
 
 ## Required Files:
 - `NTClipboard-Setup.exe` - The main installer for NTClipboard
@@ -12,7 +12,7 @@ This directory should contain the NTClipboard application files that customers w
 - The actual file serving is handled securely through the API, not direct file access
 
 ## File Management:
-1. Place your NTClipboard installer file in this directory
+1. Place your Edgebicinstaller file in this directory
 2. Ensure the filename matches what's configured in `/app/api/download/route.ts`
 3. Update the filename in the API if needed
 4. Make sure the file has appropriate permissions

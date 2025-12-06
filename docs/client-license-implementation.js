@@ -1,4 +1,4 @@
-// Example client-side implementation for NTClipboard desktop app
+// Example client-side implementation for Edgebicdesktop app
 
 class LicenseManager {
   // Generate hardware-specific fingerprint

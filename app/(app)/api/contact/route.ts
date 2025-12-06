@@ -82,21 +82,28 @@ export async function POST(request: NextRequest) {
       }
     });
 
-    // Send email notification
-    try {
-      await sendContactFormEmail({
-        recipient: 'mudasirnadeem7979@gmail.com',
-        firstName,
-        lastName,
-        email,
-        phone: phone || undefined,
-        productInterest,
-        hearAboutUs,
-        message: message || undefined
-      });
-    } catch (emailError) {
-      console.error('Error sending contact form email:', emailError);
-      // Don't fail the request if email fails - contact is already saved
+    // Send email notification to both recipients
+    const recipients = [
+      'mudasirnadeem7979@gmail.com',
+      'haleemzahid35@gmail.com'
+    ];
+
+    for (const recipient of recipients) {
+      try {
+        await sendContactFormEmail({
+          recipient,
+          firstName,
+          lastName,
+          email,
+          phone: phone || undefined,
+          productInterest,
+          hearAboutUs,
+          message: message || undefined
+        });
+      } catch (emailError) {
+        console.error(`Error sending contact form email to ${recipient}:`, emailError);
+        // Don't fail the request if email fails - contact is already saved
+      }
     }
 
     return NextResponse.json(

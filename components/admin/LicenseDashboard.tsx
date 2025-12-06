@@ -206,7 +206,7 @@ const LicenseDashboard: React.FC = () => {
         <h1 className="mb-2 text-3xl font-bold text-gray-900">
           License Dashboard
         </h1>
-        <p className="text-gray-600">Manage and monitor NTClipboard licenses</p>
+        <p className="text-gray-600">Manage and monitor Edgebiclicenses</p>
       </div>
 
       {/* Statistics Cards */}

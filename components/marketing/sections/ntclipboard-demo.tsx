@@ -16,7 +16,7 @@ const steps = [
     number: '2',
     title: 'Paste into NTClipboard',
     description:
-      'Paste the copied data into NTClipboard for intelligent parsing and organization'
+      'Paste the copied data into Edgebicfor intelligent parsing and organization'
   },
   {
     number: '3',
@@ -43,7 +43,7 @@ export function NTClipboardDemo(): React.JSX.Element {
           <div className="grid grid-cols-1 gap-12 lg:grid-cols-2 lg:gap-16">
             <div>
               <h2 className="mb-6 text-3xl font-bold md:text-5xl">
-                How NTClipboard Works
+                How EdgebicWorks
               </h2>
               <p className="mb-6 text-xl text-muted-foreground">
                 Transform complex PDF data extraction into a simple 4-step

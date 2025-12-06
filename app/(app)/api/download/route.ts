@@ -78,7 +78,7 @@ export async function GET(request: NextRequest) {
     }
 
     // Create license file content
-    const licenseFileContent = `NTClipboard License Key
+    const licenseFileContent = `EdgebicLicense Key
 ========================
 
 License Key: ${purchase.licenseKey}
@@ -87,7 +87,7 @@ Email: ${purchase.email}
 Purchase Date: ${purchase.createdAt.toISOString().split('T')[0]}
 
 IMPORTANT INSTRUCTIONS:
-1. Install NTClipboard using the included installer
+1. Install Edgebicusing the included installer
 2. When prompted, enter this license key along with your email address
 3. This license is for single-system use only
 4. Keep this file secure - the license key cannot be recovered if lost
@@ -106,7 +106,7 @@ For support, contact: support@ntclipboard.com
     zip.addFile('License-Key.txt', Buffer.from(licenseFileContent, 'utf8'));
 
     // Add readme file
-    const readmeContent = `NTClipboard Installation Package
+    const readmeContent = `EdgebicInstallation Package
 ================================
 
 This package contains:

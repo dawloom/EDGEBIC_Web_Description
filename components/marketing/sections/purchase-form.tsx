@@ -148,7 +148,7 @@ export function PurchaseForm({ onSuccess, price = '$49' }: PurchaseFormProps) {
         className="w-full bg-gradient-to-r from-orange-500 to-red-500 py-4 text-lg font-bold text-white hover:from-orange-600 hover:to-red-600"
         disabled={isLoading}
       >
-        {isLoading ? 'Processing...' : `Purchase NTClipboard - ${price}`}
+        {isLoading ? 'Processing...' : `Purchase Edgebic- ${price}`}
       </Button>
 
       <div className="text-center">

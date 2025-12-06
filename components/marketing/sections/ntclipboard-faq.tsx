@@ -12,19 +12,19 @@ import { getNTClipboardPricing } from '@/lib/billing/get-ntclipboard-pricing';
 async function getFaqs(price: string) {
   return [
     {
-      question: 'What types of PDFs does NTClipboard work with?',
+      question: 'What types of PDFs does Edgebicwork with?',
       answer:
-        'NTClipboard works with any PDF containing structured data like parts lists, inventory documents, job sheets, and technical specifications. It uses intelligent pattern recognition to identify part numbers, descriptions, quantities, weights, and job numbers.'
+        'Edgebicworks with any PDF containing structured data like parts lists, inventory documents, job sheets, and technical specifications. It uses intelligent pattern recognition to identify part numbers, descriptions, quantities, weights, and job numbers.'
     },
     {
       question: 'How secure is my data?',
       answer:
-        'Your data never leaves your computer. NTClipboard processes everything locally on your Windows machine, ensuring complete privacy and security. No internet connection is required for the core functionality.'
+        'Your data never leaves your computer. Edgebicprocesses everything locally on your Windows machine, ensuring complete privacy and security. No internet connection is required for the core functionality.'
     },
     {
       question: 'What keyboard shortcuts are available?',
       answer:
-        'NTClipboard includes several time-saving shortcuts: ESC to clear, TAB to send selected items to clipboard, and ` (backtick) to view current clipboard contents. The app also minimizes to system tray for quick access.'
+        'Edgebicincludes several time-saving shortcuts: ESC to clear, TAB to send selected items to clipboard, and ` (backtick) to view current clipboard contents. The app also minimizes to system tray for quick access.'
     },
     // {
     //   question: 'Can I customize the output format?',
@@ -36,19 +36,19 @@ async function getFaqs(price: string) {
       answer: `Absolutely! Your ${price} one-time purchase includes all future updates and improvements to NTClipboard. No subscription fees, no additional costs.`
     },
     // {
-    //   question: "What if NTClipboard doesn't work for my PDFs?",
+    //   question: "What if Edgebicdoesn't work for my PDFs?",
     //   answer:
-    //     "We offer a 30-day money-back guarantee. If NTClipboard doesn't meet your needs or work with your specific PDF format, we'll provide a full refund, no questions asked."
+    //     "We offer a 30-day money-back guarantee. If Edgebicdoesn't meet your needs or work with your specific PDF format, we'll provide a full refund, no questions asked."
     // },
     {
       question: 'How does the intelligent parsing work?',
       answer:
-        'NTClipboard uses advanced pattern recognition to identify structured data in PDFs. It looks for common patterns like part numbers (100-xxxxx), quantities, weights, descriptions, and job numbers, then organizes them into a clean, selectable format.'
+        'Edgebicuses advanced pattern recognition to identify structured data in PDFs. It looks for common patterns like part numbers (100-xxxxx), quantities, weights, descriptions, and job numbers, then organizes them into a clean, selectable format.'
     },
     {
-      question: 'Can I use NTClipboard on multiple computers?',
+      question: 'Can I use Edgebicon multiple computers?',
       answer:
-        "Yes! Each individual user will need to download and install NTClipboard on their own system. The software works offline and doesn't require online activation after initial setup."
+        "Yes! Each individual user will need to download and install Edgebicon their own system. The software works offline and doesn't require online activation after initial setup."
     }
   ];
 }

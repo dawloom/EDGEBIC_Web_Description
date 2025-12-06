@@ -169,7 +169,7 @@ const createSimpleDashboard = () => {
       </style>
     </head>
     <body>
-      <h1>NTClipboard License Dashboard</h1>
+      <h1>EdgebicLicense Dashboard</h1>
       
       <div class="stats">
         <div class="stat-card">

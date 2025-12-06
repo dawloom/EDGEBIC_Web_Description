@@ -33,13 +33,13 @@ async function fetchNTClipboardPricing(): Promise<ProductPricing | null> {
       id: price.id,
       amount: price.unit_amount || 0,
       currency: price.currency,
-      productName: product.name || 'NTClipboard Desktop Application',
+      productName: product.name || 'EdgebicDesktop Application',
       productDescription:
-        product.description || 'Complete NTClipboard Desktop Application',
+        product.description || 'Complete EdgebicDesktop Application',
       formattedPrice: formatPrice(price.unit_amount || 0, price.currency)
     };
   } catch (error) {
-    console.error('Error fetching NTClipboard pricing from Stripe:', error);
+    console.error('Error fetching Edgebicpricing from Stripe:', error);
     return null;
   }
 }

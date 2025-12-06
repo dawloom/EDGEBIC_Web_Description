@@ -54,7 +54,7 @@ export function RevenueChart(): React.JSX.Element {
       <CardHeader>
         <CardTitle>Revenue Over Time</CardTitle>
         <CardDescription>
-          Monthly revenue from NTClipboard sales
+          Monthly revenue from Edgebic sales
         </CardDescription>
       </CardHeader>
       <CardContent>

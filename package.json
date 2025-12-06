@@ -1,7 +1,7 @@
 {
   "name": "ntclipboard-web",
   "version": "1.0.0",
-  "description": "NTClipboard - The ultimate PDF to clipboard tool",
+  "description": "Edgebic- The ultimate PDF to clipboard tool",
   "private": true,
   "scripts": {
     "dev": "next dev",

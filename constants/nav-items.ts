@@ -2,9 +2,10 @@ import {
   // BellIcon,
   // CodeIcon,
   // CreditCardIcon,
+  FileTextIcon,
   HomeIcon,
   LockKeyholeIcon,
-  PackageIcon,
+  // PackageIcon,
   SettingsIcon,
   StoreIcon,
   UserIcon,
@@ -21,20 +22,15 @@ export const mainNavItems: NavItem[] = [
     href: Routes.Home,
     icon: HomeIcon
   },
-  // {
-  //   title: 'Contacts',
-  //   href: Routes.Contacts,
-  //   icon: UsersIcon
-  // },
-  {
-    title: 'Inventory',
-    href: Routes.Inventory,
-    icon: PackageIcon
-  },
   {
     title: 'Contacts',
     href: Routes.Contacts,
     icon: UsersIcon
+  },
+  {
+    title: 'Blog',
+    href: 'http://localhost:3000/admin/login',
+    icon: FileTextIcon
   },
   {
     title: 'Settings',

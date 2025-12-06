@@ -16,7 +16,7 @@ import { getNTClipboardPricing } from '@/lib/billing/get-ntclipboard-pricing';
 import { PurchaseForm } from './purchase-form';
 
 const features = [
-  'Complete NTClipboard Desktop Application',
+  'Complete EdgebicDesktop Application',
   'Smart PDF Data Extraction',
   'Windows Clipboard Integration',
   'Keyboard Shortcuts (ESC, TAB, `)',
@@ -79,7 +79,7 @@ export async function NTClipboardPricing(): Promise<React.JSX.Element> {
                       size="lg"
                       className="mb-4 w-full bg-gradient-to-r from-orange-500 to-red-500 py-4 text-lg font-bold text-white hover:from-orange-600 hover:to-red-600"
                     >
-                      Get NTClipboard Now - {displayPrice}
+                      Get EdgebicNow - {displayPrice}
                     </Button>
                   </DialogTrigger>
                   <DialogContent className="sm:max-w-md">
